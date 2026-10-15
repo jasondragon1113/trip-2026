@@ -4,36 +4,37 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=Nunito:wght@600;800&display=swap">
 <style>
-/* Layout: 兩人一起翻的旅行小冊 — 可愛頁首（飛機虛線＋小雪）→ 總覽比較 → 地點分頁；手機一欄 */
+/* Layout: 狐狸與貍貓的旅行繪本 — 可愛頁首（飛機虛線＋小雪）→ 總覽比較 → 地點分頁；手機一欄 */
 :root{
-  --bg:#FFF4F6; --surface:#FFFFFF; --surface-2:#FFE9EF; --line:#F6D3DD; --line-strong:#EDB3C4;
-  --ink:#3A2A33; --ink-dim:#6E5964; --ink-faint:#7D6872;
-  --accent:#D9467A; --accent-bg:rgba(217,70,122,.10);
-  --lamp:#2F8F7A; --lamp-bg:rgba(47,143,122,.12);
-  --ok:#2F8F5A; --warn:#B4610B; --danger:#C62E4F;
-  --band:rgba(47,143,122,.14); --bar:#F07AA0; --snow:#F2B8C9;
+  --bg:#FFF6EA; --surface:#FFFDF8; --surface-2:#FCEBD6; --line:#F1D9BC; --line-strong:#E6BF95;
+  --ink:#4A3426; --ink-dim:#7A5C49; --ink-faint:#86685A;
+  --accent:#D9661F; --accent-bg:rgba(217,102,31,.11);
+  --lamp:#5E8A4E; --lamp-bg:rgba(94,138,78,.13);
+  --ok:#4C8A3E; --warn:#B26A00; --danger:#C2412D;
+  --band:rgba(94,138,78,.15); --bar:#F29A52; --snow:#F4D3B0;
   --font-display:'Huninn','Zen Maru Gothic','PingFang TC',sans-serif;
   --font-body:'Huninn','PingFang TC','Microsoft JhengHei',system-ui,sans-serif;
   --font-num:'Nunito','Huninn',ui-rounded,system-ui,sans-serif;
   --r:18px; --r-sm:12px; --pill:999px;
-  --shadow:0 6px 18px rgba(217,70,122,.10);
+  --fox:#F08A3C; --fox-dark:#C9631F; --tanuki:#9A7258; --tanuki-dark:#5B3F30; --cream:#FFF4E2; --cheek:#F6A99A;
+  --shadow:0 6px 18px rgba(184,110,50,.12);
   --spring:cubic-bezier(.34,1.56,.64,1);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#1E1620; --surface:#2A1F2C; --surface-2:#36283A; --line:#45344A; --line-strong:#5A4560;
-  --ink:#F6E9EF; --ink-dim:#D2BCC8; --ink-faint:#B29DAA;
-  --accent:#FF8FB4; --accent-bg:rgba(255,143,180,.14);
-  --lamp:#7EDCC4; --lamp-bg:rgba(126,220,196,.14);
-  --ok:#7EDCA4; --warn:#F7C064; --danger:#FF8B9F;
-  --band:rgba(126,220,196,.14); --bar:#FF8FB4; --snow:#6E4E66;
+  --bg:#1D1714; --surface:#29201B; --surface-2:#352920; --line:#46362B; --line-strong:#5C4636;
+  --ink:#F7EADD; --ink-dim:#D6BFAA; --ink-faint:#B59E8A;
+  --accent:#FFA460; --accent-bg:rgba(255,164,96,.14);
+  --lamp:#A9D493; --lamp-bg:rgba(169,212,147,.14);
+  --ok:#A9D493; --warn:#F7C064; --danger:#FF9A85;
+  --band:rgba(169,212,147,.13); --bar:#FFA460; --snow:#6B5444;
   --shadow:0 6px 18px rgba(0,0,0,.35); color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#1E1620; --surface:#2A1F2C; --surface-2:#36283A; --line:#45344A; --line-strong:#5A4560;
-  --ink:#F6E9EF; --ink-dim:#D2BCC8; --ink-faint:#B29DAA;
-  --accent:#FF8FB4; --accent-bg:rgba(255,143,180,.14);
-  --lamp:#7EDCC4; --lamp-bg:rgba(126,220,196,.14);
-  --ok:#7EDCA4; --warn:#F7C064; --danger:#FF8B9F;
-  --band:rgba(126,220,196,.14); --bar:#FF8FB4; --snow:#6E4E66;
+  --bg:#1D1714; --surface:#29201B; --surface-2:#352920; --line:#46362B; --line-strong:#5C4636;
+  --ink:#F7EADD; --ink-dim:#D6BFAA; --ink-faint:#B59E8A;
+  --accent:#FFA460; --accent-bg:rgba(255,164,96,.14);
+  --lamp:#A9D493; --lamp-bg:rgba(169,212,147,.14);
+  --ok:#A9D493; --warn:#F7C064; --danger:#FF9A85;
+  --band:rgba(169,212,147,.13); --bar:#FFA460; --snow:#6B5444;
   --shadow:0 6px 18px rgba(0,0,0,.35); color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14px;line-height:1.6}
@@ -134,11 +135,18 @@ h1,h2,.ov-row .name,.d-head .tag{font-weight:400}
 h1{font-size:32px;letter-spacing:.02em}
 .panel{border:1.5px solid var(--line);box-shadow:var(--shadow)}
 .hero{position:relative;overflow:hidden;background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:20px 20px 16px}
-.hero .art{position:absolute;right:8px;top:6px;width:min(46%,260px);height:auto;opacity:.95;pointer-events:none}
+.hero .art{position:absolute;right:8px;bottom:0;top:auto;width:min(44%,250px);height:auto;opacity:.95;pointer-events:none}
 .hero .art .trail{stroke:var(--accent);stroke-dasharray:3 7;stroke-linecap:round;fill:none;stroke-width:2.5}
-.hero .art .plane{fill:var(--accent)}
-.hero .art .heart{fill:var(--bar)}
-.hero .art .cloud{fill:var(--surface-2)}
+.hero .art .fox{fill:var(--fox)}
+.hero .art .ear{fill:var(--fox-dark)}
+.hero .art .tanuki{fill:var(--tanuki)}
+.hero .art .mask{fill:var(--tanuki-dark)}
+.hero .art .cream{fill:var(--cream)}
+.hero .art .eye{fill:#3B2A20;stroke:#3B2A20;stroke-width:1.2;stroke-linecap:round}
+.hero .art .shine{fill:var(--cream)}
+.hero .art .cheek{fill:var(--cheek)}
+.hero .art .heart{fill:var(--cheek)}
+.hero .art .ground{fill:var(--surface-2)}
 .hero > div{position:relative}
 .hero > #snow{position:absolute;inset:0;pointer-events:none}
 .hero .sub{color:var(--accent);font-size:15px;margin-top:2px}
@@ -157,21 +165,40 @@ h1{font-size:32px;letter-spacing:.02em}
 .sec-title h2{font-size:18px}
 .bar .rng{height:10px;top:2px;border-radius:999px}
 .seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface);box-shadow:0 3px 10px var(--accent-bg)}
-@media (max-width:760px){h1{font-size:26px}.hero .art{width:150px;opacity:.5}}
+@media (max-width:760px){h1{font-size:26px}.hero{padding-top:120px}.hero .art{top:4px;bottom:auto;right:50%;transform:translateX(50%);width:200px}}
 @media (prefers-reduced-motion:reduce){.flake{display:none}}
 </style>
 
 <div class="wrap">
   <header class="top hero">
-    <svg class="art" viewBox="0 0 260 120" aria-hidden="true">
-      <ellipse class="cloud" cx="200" cy="92" rx="46" ry="16"/><ellipse class="cloud" cx="226" cy="80" rx="24" ry="14"/>
-      <path class="trail" d="M10 104 C 60 100, 80 40, 140 58 S 200 40, 214 26"/>
-      <path class="heart" d="M120 70c-3-4-10-2-9 3 1 4 9 9 9 9s8-5 9-9c1-5-6-7-9-3z"/>
-      <g class="plane" transform="translate(206 12) rotate(-18)"><path d="M0 14 L34 10 L44 2 L50 2 L44 12 L62 12 C68 12 68 18 62 18 L44 18 L50 28 L44 28 L34 20 L0 18 Z"/></g>
+    <svg class="art" viewBox="0 0 260 130" aria-hidden="true">
+      <ellipse class="ground" cx="168" cy="122" rx="88" ry="8"/>
+      <path class="trail" d="M8 110 C 50 106, 70 60, 110 66"/>
+      <!-- fox -->
+      <path class="fox" d="M96 104c-8 2-16-6-12-16 4-9 16-6 18 2z"/>
+      <ellipse class="fox" cx="132" cy="100" rx="22" ry="20"/>
+      <path class="fox" d="M112 64 116 40 128 56z"/><path class="fox" d="M152 64 148 40 136 56z"/>
+      <path class="ear" d="M116 58 118 46 124 55z"/><path class="ear" d="M148 58 146 46 140 55z"/>
+      <ellipse class="fox" cx="132" cy="68" rx="22" ry="18"/>
+      <path class="cream" d="M114 72c6 12 30 12 36 0-6 8-30 8-36 0z"/>
+      <ellipse class="cream" cx="132" cy="104" rx="11" ry="12"/>
+      <circle class="eye" cx="124" cy="68" r="2.2"/><circle class="eye" cx="140" cy="68" r="2.2"/>
+      <ellipse class="cheek" cx="119" cy="74" rx="4" ry="2.4"/><ellipse class="cheek" cx="145" cy="74" rx="4" ry="2.4"/>
+      <path class="eye" d="M130 74q2 2 4 0"/>
+      <!-- tanuki -->
+      <ellipse class="tanuki" cx="192" cy="102" rx="21" ry="19"/>
+      <circle class="tanuki" cx="176" cy="56" r="6"/><circle class="tanuki" cx="208" cy="56" r="6"/>
+      <ellipse class="tanuki" cx="192" cy="72" rx="21" ry="18"/>
+      <ellipse class="mask" cx="184" cy="72" rx="6" ry="5"/><ellipse class="mask" cx="200" cy="72" rx="6" ry="5"/>
+      <ellipse class="cream" cx="192" cy="104" rx="11" ry="11"/>
+      <circle class="shine" cx="184" cy="72" r="1.8"/><circle class="shine" cx="200" cy="72" r="1.8"/>
+      <ellipse class="cheek" cx="178" cy="80" rx="3.6" ry="2.2"/><ellipse class="cheek" cx="206" cy="80" rx="3.6" ry="2.2"/>
+      <ellipse class="eye" cx="192" cy="79" rx="2.4" ry="1.6"/>
+      <path class="heart" d="M162 34c-3-4-10-2-9 3 1 4 9 9 9 9s8-5 9-9c1-5-6-7-9-3z"/>
     </svg>
     <div>
       <h1>我們的跨年小旅行</h1>
-      <div class="sub">12/27 出發，要去哪裡呢？</div>
+      <div class="sub">12/27 出發，兩個人要去哪裡呢？</div>
       <div class="meta">
         <span>12/27（日）出發</span><span>兩人預算 6–10 萬</span><span>機票上限每人 13,000</span><span id="checked"></span>
       </div>
