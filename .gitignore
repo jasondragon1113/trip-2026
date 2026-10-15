@@ -1,0 +1,8 @@
+# Research notes and private build stay local
+# 研究報告與私人版不公開
+研究-*.md
+WORKLOG.md
+派工共用規格.md
+extra.private.json
+dist/private.html
+.DS_Store

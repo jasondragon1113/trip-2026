@@ -1,0 +1,336 @@
+<title>跨年旅行比較</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 旅行手帳感 — 頂部條件列 → 總覽比較（預算條）→ 地點分頁詳情；手機一欄 */
+:root{
+  --bg:#F1F4F6; --surface:#FFFFFF; --surface-2:#E7EDF1; --line:#D3DCE2; --line-strong:#B8C5CE;
+  --ink:#17212B; --ink-dim:#4C5B67; --ink-faint:#5F6D78;
+  --accent:#1D5B86; --accent-bg:rgba(29,91,134,.10);
+  --lamp:#A9500C; --lamp-bg:rgba(169,80,12,.10);
+  --ok:#15803D; --warn:#A16207; --danger:#B91C1C;
+  --band:rgba(21,128,61,.10); --bar:#1D5B86;
+  --font-display:'LXGW WenKai TC','Noto Serif TC',serif;
+  --font-body:'Noto Sans TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif;
+  --font-num:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --r:12px; --r-sm:6px; --pill:999px;
+  --spring:cubic-bezier(.34,1.56,.64,1);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1318; --surface:#151C23; --surface-2:#1D262F; --line:#28333D; --line-strong:#3A4753;
+  --ink:#E3E9EE; --ink-dim:#A2AFB9; --ink-faint:#8693A0;
+  --accent:#7DB7E3; --accent-bg:rgba(125,183,227,.13);
+  --lamp:#F0A04B; --lamp-bg:rgba(240,160,75,.13);
+  --ok:#4ADE80; --warn:#FACC15; --danger:#F87171;
+  --band:rgba(74,222,128,.10); --bar:#7DB7E3; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1318; --surface:#151C23; --surface-2:#1D262F; --line:#28333D; --line-strong:#3A4753;
+  --ink:#E3E9EE; --ink-dim:#A2AFB9; --ink-faint:#8693A0;
+  --accent:#7DB7E3; --accent-bg:rgba(125,183,227,.13);
+  --lamp:#F0A04B; --lamp-bg:rgba(240,160,75,.13);
+  --ok:#4ADE80; --warn:#FACC15; --danger:#F87171;
+  --band:rgba(74,222,128,.10); --bar:#7DB7E3; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14px;line-height:1.6}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;gap:20px}
+h1,h2,h3{font-family:var(--font-display);font-weight:700;text-wrap:balance;margin:0;line-height:1.3}
+h1{font-size:28px}
+h2{font-size:20px}
+h3{font-size:15px;font-family:var(--font-body);font-weight:700}
+a{color:var(--accent)}
+.num{font-family:var(--font-num);font-variant-numeric:tabular-nums}
+.dim{color:var(--ink-dim)} .faint{color:var(--ink-faint);font-size:12px}
+
+/* top bar */
+.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 20px}
+.top .meta{display:flex;flex-wrap:wrap;gap:6px 14px;color:var(--ink-dim);font-size:13px;margin-top:4px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.seg{display:inline-flex;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--pill);padding:3px}
+.seg button{border:0;background:transparent;color:var(--ink-dim);font:inherit;font-size:13px;padding:6px 14px;border-radius:var(--pill);cursor:pointer;transition:transform .3s var(--spring)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.seg button:active{transform:scale(.95)}
+select{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--pill);padding:6px 12px}
+button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* overview */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.ov-head,.ov-row{display:grid;grid-template-columns:minmax(120px,1.1fr) minmax(220px,2fr) minmax(110px,.9fr) minmax(90px,.7fr) minmax(150px,1.2fr);gap:14px;align-items:center;padding:10px 14px}
+.ov-head{font-size:12px;color:var(--ink-faint);border-bottom:1px solid var(--line);letter-spacing:.04em}
+.ov-row{border-bottom:1px solid var(--line);cursor:pointer;transition:background .15s}
+.ov-row:last-child{border-bottom:0}
+.ov-row:hover{background:var(--surface-2)}
+.ov-row .name{font-family:var(--font-display);font-size:17px;font-weight:700}
+.ov-row .name small{display:block;font-family:var(--font-body);font-size:12px;color:var(--ink-faint);font-weight:400}
+.ov-row > *{min-width:0}
+.bar{position:relative;height:14px}
+.bar .band{position:absolute;top:0;bottom:0;background:var(--band);border-left:1px dashed var(--ok);border-right:1px dashed var(--ok)}
+.bar .rng{position:absolute;top:3px;height:8px;background:var(--bar);border-radius:4px;min-width:8px}
+.lbl2{font-size:12px;color:var(--ink-dim);margin-top:2px}
+.axis{position:relative;height:16px;font-size:11px;color:var(--ink-faint)}
+.axis span{position:absolute;transform:translateX(-50%)}
+.fl{font-size:13px;display:grid;gap:1px}
+.verdict{font-size:13px;color:var(--ink-dim);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+.badge{display:inline-flex;align-items:center;gap:4px;font-size:12px;line-height:1;padding:4px 8px;border-radius:var(--pill);white-space:nowrap;background:var(--surface-2);color:var(--ink-dim)}
+.b-ok{background:color-mix(in srgb,var(--ok) 13%,transparent);color:var(--ok)}
+.b-warn{background:color-mix(in srgb,var(--warn) 15%,transparent);color:var(--warn)}
+.b-danger{background:color-mix(in srgb,var(--danger) 13%,transparent);color:var(--danger)}
+.b-info{background:var(--accent-bg);color:var(--accent)}
+.b-lamp{background:var(--lamp-bg);color:var(--lamp)}
+
+/* destination tabs */
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.tabs button{flex:none;font:inherit;font-size:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink-dim);border-radius:var(--pill);padding:7px 16px;cursor:pointer;transition:transform .3s var(--spring)}
+.tabs button:hover{transform:translateY(-2px)}
+.tabs button[aria-selected="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-bg);font-weight:700}
+
+.detail{display:grid;gap:16px}
+.d-head{display:grid;gap:8px}
+.d-head .tag{font-family:var(--font-display);font-size:18px;color:var(--lamp)}
+.scores{display:flex;flex-wrap:wrap;gap:6px}
+.dots{letter-spacing:2px;color:var(--lamp)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.grid2 > *{min-width:0}
+.sec{padding:14px 16px;display:grid;gap:10px;align-content:start}
+.sec-title{display:flex;align-items:center;gap:8px}
+.sec-title svg{width:18px;height:18px;stroke:var(--accent);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-sm)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th{background:var(--surface-2);color:var(--ink-dim);font-weight:500;text-align:left;padding:7px 10px;white-space:nowrap}
+td{padding:7px 10px;border-top:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right}
+.cost{display:grid;gap:6px}
+.cost div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--line);padding-bottom:4px}
+.cost .total{border-bottom:0;font-weight:700;font-size:16px}
+.wx{display:flex;flex-wrap:wrap;gap:10px 22px}
+.wx b{display:block;font-family:var(--font-num);font-size:20px;font-weight:500}
+ol.days,ul.plain{margin:0;padding-left:20px;display:grid;gap:4px}
+.events{display:grid;gap:6px}
+.events div{display:grid;grid-template-columns:64px 1fr;gap:10px}
+.special{border-color:var(--lamp)}
+.special .sec-title svg{stroke:var(--lamp)}
+.special p{margin:0}
+details summary{cursor:pointer;color:var(--ink-dim)}
+details ul{margin:8px 0 0;padding-left:20px;font-size:12px;word-break:break-all}
+.note{font-size:12px;color:var(--ink-faint)}
+
+@media (max-width:760px){
+  h1{font-size:24px}
+  .ov-head{display:none}
+  .ov-row{grid-template-columns:1fr auto;gap:8px 12px}
+  .ov-row .c-bar{grid-column:1/-1;order:3}
+  .ov-row .c-fl{order:2;text-align:right}
+  .ov-row .c-stay{order:4}
+  .ov-row .c-v{grid-column:1/-1;order:5}
+}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>跨年旅行比較</h1>
+      <div class="meta">
+        <span>12/27（日）出發</span><span>兩人預算 6–10 萬</span><span>機票上限每人 13,000</span><span id="checked"></span>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="回程日">
+        <button id="ret-1231" data-ret="to_1231" aria-pressed="true">12/31 回・4 晚</button>
+        <button id="ret-0101" data-ret="to_0101" aria-pressed="false">1/1 回・5 晚</button>
+      </div>
+      <select id="sort" aria-label="排序">
+        <option value="cost">總花費低→高</option>
+        <option value="chill">最 chill</option>
+        <option value="scenery">風景</option>
+        <option value="food">好吃</option>
+        <option value="ease">最輕鬆</option>
+      </select>
+    </div>
+  </header>
+
+  <section class="panel" aria-label="總覽">
+    <div class="ov-head"><span>地點</span><span>兩人總花費（綠框＝預算 6–10 萬）</span><span>機票每人最低</span><span>住宿</span><span>一句話</span></div>
+    <div id="ov"></div>
+    <div class="ov-head" style="border:0;border-top:1px solid var(--line)"><span></span><div class="axis" id="axis"></div><span></span><span></span><span></span></div>
+  </section>
+
+  <nav class="tabs" id="tabs" role="tablist" aria-label="地點"></nav>
+  <section class="detail" id="detail"></section>
+
+  <p class="note">價格是查價當天的數字，機票和住宿每天在變；標「估算」的是依同季節價格推的，訂之前請再查一次。</p>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const store = {
+  get(k, d){ try{ return localStorage.getItem(k) ?? d }catch(e){ return d } },
+  set(k, v){ try{ localStorage.setItem(k, v) }catch(e){} }
+};
+let ret = store.get('ret', 'to_1231');
+let sortKey = store.get('sort', 'cost');
+let current = store.get('dest', DATA.places[0]?.id);
+if (location.hash && DATA.places.some(p => p.id === location.hash.slice(1))) current = location.hash.slice(1);
+
+const ICON = {
+  plane:'<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',
+  bed:'<path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/>',
+  wallet:'<path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/>',
+  cloud:'<path d="M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25"/><path d="M8 16h.01"/><path d="M8 20h.01"/><path d="M12 18h.01"/><path d="M12 22h.01"/><path d="M16 16h.01"/><path d="M16 20h.01"/>',
+  route:'<circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/>',
+  party:'<path d="M5.8 11.3 2 22l10.7-3.79"/><path d="M4 3h.01"/><path d="M22 8h.01"/><path d="M15 2h.01"/><path d="M22 20h.01"/><path d="m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10"/><path d="m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11-.11.7-.72 1.22-1.43 1.22H17"/><path d="m11 2 .33.82c.34.86-.2 1.82-1.11 1.98-.7.1-1.22.72-1.22 1.43V7"/><path d="M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z"/>',
+  alert:'<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
+  star:'<path d="M11.5 2.3a.5.5 0 0 1 .9 0l2.3 4.7 5.2.8a.5.5 0 0 1 .3.9l-3.8 3.7.9 5.2a.5.5 0 0 1-.7.5L12 15.6l-4.6 2.5a.5.5 0 0 1-.7-.5l.9-5.2-3.8-3.7a.5.5 0 0 1 .3-.9l5.2-.8z"/>',
+  info:'<circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>'
+};
+const svg = n => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICON[n]||ICON.info}</svg>`;
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const twd = n => (n == null || isNaN(n)) ? '待確認' : 'NT$' + Math.round(n).toLocaleString('en-US');
+const wan = n => (n/10000).toFixed(1).replace(/\.0$/, '');
+const rng = a => Array.isArray(a) ? (a[0] === a[1] ? twd(a[0]) : `${twd(a[0])}–${Math.round(a[1]).toLocaleString('en-US')}`) : twd(a);
+const link = (u, t) => u && /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || '來源')}</a>` : esc(t || '');
+const nights = () => ret === 'to_1231' ? 4 : 5;
+
+function minFlight(p, from){
+  const f = (p.flights||[]).filter(x => x.from === from && x.price_pp_twd);
+  if (!f.length) return null;
+  return f.reduce((a,b) => a.price_pp_twd <= b.price_pp_twd ? a : b);
+}
+function stayBadge(p){
+  const hs = p.hotels||[];
+  if (p.stay_status) return `<span class="badge ${p.stay_status.tone||''}">${esc(p.stay_status.text)}</span>`;
+  const n = s => hs.filter(h => (h.availability||'').includes(s)).length;
+  if (n('有空')) return `<span class="badge b-ok">${n('有空')} 間有空房</span>`;
+  if (n('滿')) return `<span class="badge b-danger">查到的都滿</span>`;
+  return `<span class="badge">未確認</span>`;
+}
+function availBadge(a){
+  a = a || '未知';
+  const t = a.includes('有空') ? 'b-ok' : a.includes('滿') ? 'b-danger' : a.includes('候補') ? 'b-warn' : '';
+  return `<span class="badge ${t}">${esc(a)}</span>`;
+}
+
+function renderOverview(){
+  const ps = [...DATA.places];
+  if (sortKey === 'cost') ps.sort((a,b) => (a.total_for2_twd?.[ret]?.[0]??9e9) - (b.total_for2_twd?.[ret]?.[0]??9e9));
+  else ps.sort((a,b) => (b.scores?.[sortKey]||0) - (a.scores?.[sortKey]||0));
+  const max = Math.max(120000, ...ps.map(p => p.total_for2_twd?.[ret]?.[1] || 0)) * 1.05;
+  const pct = v => (v/max*100).toFixed(2) + '%';
+  document.getElementById('ov').innerHTML = ps.map(p => {
+    const t = p.total_for2_twd?.[ret] || [];
+    const r = minFlight(p,'RMQ'), y = minFlight(p,'TPE');
+    const flLine = (code, f) => f ? `<span><span class="faint">${code}</span> <span class="num">${f.price_pp_twd.toLocaleString('en-US')}</span>${f.price_pp_twd > 13000 ? ' <span class="badge b-danger">超</span>' : ''}</span>` : `<span class="faint">${code} 無</span>`;
+    const over = t[0] > 100000;
+    const bar = t.length ? `<div class="bar" title="兩人 ${twd(t[0])}–${twd(t[1])}">
+        <div class="band" style="left:${pct(60000)};width:calc(${pct(100000)} - ${pct(60000)})"></div>
+        <div class="rng" style="left:${pct(t[0])};width:calc(${pct(t[1])} - ${pct(t[0])})"></div>
+      </div><div class="lbl2 num">${wan(t[0])}–${wan(t[1])} 萬${over ? ' <span class="badge b-danger">超預算</span>' : t[1] > 100000 ? ' <span class="badge b-warn">可能超</span>' : ''}</div>` : '<span class="faint">待確認</span>';
+    return `<div class="ov-row" data-id="${p.id}" role="button" tabindex="0" aria-label="${esc(p.name)} 詳情">
+      <div class="name">${esc(p.name)}<small>${esc(p.country)}</small></div>
+      <div class="c-bar">${bar}</div>
+      <div class="fl c-fl">${flLine('台中', r)}${flLine('桃園', y)}</div>
+      <div class="c-stay">${stayBadge(p)}</div>
+      <div class="verdict c-v">${esc(p.verdict)}</div>
+    </div>`;
+  }).join('');
+  const ticks = [0, 50000, 100000, 150000, 200000].filter(v => v <= max);
+  document.getElementById('axis').innerHTML = ticks.map(v => `<span class="num" style="left:${pct(v)}">${v ? wan(v)+'萬' : '0'}</span>`).join('');
+  document.querySelectorAll('.ov-row').forEach(el => {
+    const go = () => { select(el.dataset.id); document.getElementById('tabs').scrollIntoView({behavior:'smooth'}); };
+    el.onclick = go; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } };
+  });
+}
+
+function renderTabs(){
+  document.getElementById('tabs').innerHTML = DATA.places.map(p =>
+    `<button role="tab" id="tab-${p.id}" aria-selected="${p.id === current}" data-id="${p.id}">${esc(p.name)}</button>`).join('');
+  document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => select(b.dataset.id));
+}
+
+function renderDetail(){
+  const p = DATA.places.find(x => x.id === current) || DATA.places[0];
+  if (!p) return;
+  const t = p.total_for2_twd?.[ret] || [];
+  const sc = p.scores || {};
+  const scoreNames = {chill:'chill', scenery:'風景', food:'吃', value:'划算', ease:'輕鬆'};
+  const itin = (ret === 'to_1231' ? p.itinerary_1231 : p.itinerary_0101) || p.itinerary_1231 || [];
+  const flights = (p.flights||[]).slice().sort((a,b) => (a.from > b.from ? -1 : a.from < b.from ? 1 : 0) || (a.price_pp_twd||9e9) - (b.price_pp_twd||9e9));
+  const fRows = flights.map(f => {
+    const back = ret === 'to_0101' && f.back_alt ? f.back_alt : f.back;
+    const tags = [
+      f.fits_time_pref ? '<span class="badge b-ok">時段符合</span>' : '',
+      f.price_pp_twd > 13000 ? '<span class="badge b-danger">超預算</span>' : '',
+      f.verified === false ? '<span class="badge b-warn">估算</span>' : ''
+    ].join(' ');
+    return `<tr><td>${f.from === 'RMQ' ? '台中' : f.from === 'TPE' ? '桃園' : esc(f.from)}→${esc(f.to)}</td><td>${esc(f.airline)}</td><td class="num">${esc(f.out)}</td><td class="num">${esc(back)}</td><td class="r num">${f.price_pp_twd ? f.price_pp_twd.toLocaleString('en-US') : '待確認'}</td><td>${esc(f.baggage)}</td><td>${tags} ${link(f.source,'查')}</td></tr>`;
+  }).join('');
+  const hRows = (p.hotels||[]).map(h => `<tr><td>${link(h.source, h.name)}${h.note ? `<div class="faint">${esc(h.note)}</div>` : ''}</td><td>${esc(h.area)}</td><td class="r num">${h.nights ?? ''}</td><td class="r num">${h.price_night_for2_twd ? h.price_night_for2_twd.toLocaleString('en-US') : '待確認'}</td><td>${esc(h.meals)}</td><td>${availBadge(h.availability)}</td></tr>`).join('');
+  const w = p.weather || {};
+  const specials = (p.special||[]).map(s => `<div class="panel sec special"><div class="sec-title">${svg(s.icon||'alert')}<h2>${esc(s.title)}</h2></div>${(s.body||[]).map(x => `<p>${esc(x)}</p>`).join('')}${s.sources?.length ? `<details><summary>來源</summary><ul>${s.sources.map(u => `<li>${link(u,u)}</li>`).join('')}</ul></details>` : ''}</div>`).join('');
+
+  document.getElementById('detail').innerHTML = `
+    <div class="d-head">
+      <h2 style="font-size:26px">${esc(p.name)} <span class="dim" style="font-size:15px;font-family:var(--font-body);font-weight:400">${esc(p.country)}</span></h2>
+      <div class="tag">${esc(p.tagline)}</div>
+      <div>${esc(p.verdict)}</div>
+      <div class="scores">${Object.keys(scoreNames).map(k => `<span class="badge">${scoreNames[k]} <span class="dots" aria-label="${sc[k]||0} 分">${'●'.repeat(sc[k]||0)}${'○'.repeat(5-(sc[k]||0))}</span></span>`).join('')}</div>
+    </div>
+    ${specials}
+    <div class="grid2">
+      <div class="panel sec"><div class="sec-title">${svg('wallet')}<h2>兩人花費（${ret === 'to_1231' ? '12/31 回' : '1/1 回'}）</h2></div>
+        <div class="cost num">
+          <div><span>機票（最便宜×2）</span><span>${(() => { const m = [minFlight(p,'RMQ'),minFlight(p,'TPE')].filter(Boolean).sort((a,b)=>a.price_pp_twd-b.price_pp_twd)[0]; return m ? twd(m.price_pp_twd*2) : '待確認'; })()}</span></div>
+          <div><span>吃（每天）</span><span>${rng(p.daily_food_for2_twd)}</span></div>
+          <div><span>當地交通</span><span>${rng(p.local_transport_for2_twd)}</span></div>
+          <div><span>門票/其他</span><span>${rng(p.tickets_other_for2_twd)}</span></div>
+          <div class="total"><span>合計</span><span>${t.length ? rng(t) : '待確認'}</span></div>
+        </div>
+        ${t[0] > 100000 ? '<span class="badge b-danger">最低就超過 10 萬預算</span>' : t[1] > 100000 ? '<span class="badge b-warn">高估會超過 10 萬</span>' : t.length ? '<span class="badge b-ok">在預算內</span>' : ''}
+        <div class="faint">${esc(p.fx)}</div>
+      </div>
+      <div class="panel sec"><div class="sec-title">${svg('cloud')}<h2>天氣（12 月底）</h2></div>
+        <div class="wx"><div><span class="faint">白天</span><b>${w.high_c ?? '–'}°</b></div><div><span class="faint">晚上</span><b>${w.low_c ?? '–'}°</b></div>${w.sunset ? `<div><span class="faint">日落</span><b>${esc(w.sunset)}</b></div>` : ''}</div>
+        <div>${esc(w.conditions)}</div>
+        ${w.wear ? `<div class="dim">穿：${esc(w.wear)}</div>` : ''}
+      </div>
+    </div>
+    <div class="panel sec"><div class="sec-title">${svg('plane')}<h2>機票（每人來回）</h2></div>
+      <div class="tbl"><table><thead><tr><th>航線</th><th>航空</th><th>去程</th><th>回程</th><th class="r">每人</th><th>行李</th><th></th></tr></thead><tbody>${fRows || '<tr><td colspan="7" class="faint">待確認</td></tr>'}</tbody></table></div>
+    </div>
+    <div class="panel sec"><div class="sec-title">${svg('bed')}<h2>住宿</h2></div>
+      <div class="tbl"><table><thead><tr><th>旅館</th><th>區域</th><th class="r">晚</th><th class="r">兩人每晚</th><th>餐</th><th>空房</th></tr></thead><tbody>${hRows || '<tr><td colspan="6" class="faint">待確認</td></tr>'}</tbody></table></div>
+    </div>
+    <div class="grid2">
+      <div class="panel sec"><div class="sec-title">${svg('route')}<h2>行程（${nights()} 晚）</h2></div><ol class="days">${itin.map(d => `<li>${esc(d)}</li>`).join('')}</ol></div>
+      <div class="panel sec"><div class="sec-title">${svg('party')}<h2>那幾天有什麼</h2></div>
+        <div class="events">${(p.events||[]).map(e => `<div><span class="num dim">${esc(e.date)}</span><span><b>${esc(e.name)}</b>${e.note ? `<br><span class="dim">${esc(e.note)}</span>` : ''}</span></div>`).join('') || '<span class="faint">待確認</span>'}</div>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="panel sec"><div class="sec-title">${svg('star')}<h2>推薦</h2></div><ul class="plain">${(p.highlights||[]).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>
+      <div class="panel sec"><div class="sec-title">${svg('alert')}<h2>要注意</h2></div><ul class="plain">${(p.risks||[]).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>
+    </div>
+    ${p.sources?.length ? `<details class="panel sec"><summary>全部來源（${p.sources.length}）</summary><ul>${p.sources.map(u => `<li>${link(u,u)}</li>`).join('')}</ul></details>` : ''}
+  `;
+}
+
+function select(id){
+  current = id; store.set('dest', id);
+  document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.id === id));
+  renderDetail();
+}
+document.querySelectorAll('.seg button').forEach(b => {
+  b.setAttribute('aria-pressed', b.dataset.ret === ret);
+  b.onclick = () => { ret = b.dataset.ret; store.set('ret', ret);
+    document.querySelectorAll('.seg button').forEach(x => x.setAttribute('aria-pressed', x === b)); renderOverview(); renderDetail(); };
+});
+const sel = document.getElementById('sort');
+sel.value = sortKey;
+sel.onchange = () => { sortKey = sel.value; store.set('sort', sortKey); renderOverview(); };
+document.getElementById('checked').textContent = '查價 ' + (DATA.checked || '');
+renderOverview(); renderTabs(); renderDetail();
+</script>
