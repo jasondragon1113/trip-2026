@@ -2,37 +2,39 @@
 <meta name="robots" content="noindex,nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=Nunito:wght@600;800&display=swap">
 <style>
-/* Layout: 旅行手帳感 — 頂部條件列 → 總覽比較（預算條）→ 地點分頁詳情；手機一欄 */
+/* Layout: 兩人一起翻的旅行小冊 — 可愛頁首（飛機虛線＋小雪）→ 總覽比較 → 地點分頁；手機一欄 */
 :root{
-  --bg:#F1F4F6; --surface:#FFFFFF; --surface-2:#E7EDF1; --line:#D3DCE2; --line-strong:#B8C5CE;
-  --ink:#17212B; --ink-dim:#4C5B67; --ink-faint:#5F6D78;
-  --accent:#1D5B86; --accent-bg:rgba(29,91,134,.10);
-  --lamp:#A9500C; --lamp-bg:rgba(169,80,12,.10);
-  --ok:#15803D; --warn:#A16207; --danger:#B91C1C;
-  --band:rgba(21,128,61,.10); --bar:#1D5B86;
-  --font-display:'LXGW WenKai TC','Noto Serif TC',serif;
-  --font-body:'Noto Sans TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif;
-  --font-num:'IBM Plex Mono',ui-monospace,Menlo,monospace;
-  --r:12px; --r-sm:6px; --pill:999px;
+  --bg:#FFF4F6; --surface:#FFFFFF; --surface-2:#FFE9EF; --line:#F6D3DD; --line-strong:#EDB3C4;
+  --ink:#3A2A33; --ink-dim:#6E5964; --ink-faint:#7D6872;
+  --accent:#D9467A; --accent-bg:rgba(217,70,122,.10);
+  --lamp:#2F8F7A; --lamp-bg:rgba(47,143,122,.12);
+  --ok:#2F8F5A; --warn:#B4610B; --danger:#C62E4F;
+  --band:rgba(47,143,122,.14); --bar:#F07AA0; --snow:#F2B8C9;
+  --font-display:'Huninn','Zen Maru Gothic','PingFang TC',sans-serif;
+  --font-body:'Huninn','PingFang TC','Microsoft JhengHei',system-ui,sans-serif;
+  --font-num:'Nunito','Huninn',ui-rounded,system-ui,sans-serif;
+  --r:18px; --r-sm:12px; --pill:999px;
+  --shadow:0 6px 18px rgba(217,70,122,.10);
   --spring:cubic-bezier(.34,1.56,.64,1);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0E1318; --surface:#151C23; --surface-2:#1D262F; --line:#28333D; --line-strong:#3A4753;
-  --ink:#E3E9EE; --ink-dim:#A2AFB9; --ink-faint:#8693A0;
-  --accent:#7DB7E3; --accent-bg:rgba(125,183,227,.13);
-  --lamp:#F0A04B; --lamp-bg:rgba(240,160,75,.13);
-  --ok:#4ADE80; --warn:#FACC15; --danger:#F87171;
-  --band:rgba(74,222,128,.10); --bar:#7DB7E3; color-scheme:dark}}
+  --bg:#1E1620; --surface:#2A1F2C; --surface-2:#36283A; --line:#45344A; --line-strong:#5A4560;
+  --ink:#F6E9EF; --ink-dim:#D2BCC8; --ink-faint:#B29DAA;
+  --accent:#FF8FB4; --accent-bg:rgba(255,143,180,.14);
+  --lamp:#7EDCC4; --lamp-bg:rgba(126,220,196,.14);
+  --ok:#7EDCA4; --warn:#F7C064; --danger:#FF8B9F;
+  --band:rgba(126,220,196,.14); --bar:#FF8FB4; --snow:#6E4E66;
+  --shadow:0 6px 18px rgba(0,0,0,.35); color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0E1318; --surface:#151C23; --surface-2:#1D262F; --line:#28333D; --line-strong:#3A4753;
-  --ink:#E3E9EE; --ink-dim:#A2AFB9; --ink-faint:#8693A0;
-  --accent:#7DB7E3; --accent-bg:rgba(125,183,227,.13);
-  --lamp:#F0A04B; --lamp-bg:rgba(240,160,75,.13);
-  --ok:#4ADE80; --warn:#FACC15; --danger:#F87171;
-  --band:rgba(74,222,128,.10); --bar:#7DB7E3; color-scheme:dark}
-
+  --bg:#1E1620; --surface:#2A1F2C; --surface-2:#36283A; --line:#45344A; --line-strong:#5A4560;
+  --ink:#F6E9EF; --ink-dim:#D2BCC8; --ink-faint:#B29DAA;
+  --accent:#FF8FB4; --accent-bg:rgba(255,143,180,.14);
+  --lamp:#7EDCC4; --lamp-bg:rgba(126,220,196,.14);
+  --ok:#7EDCA4; --warn:#F7C064; --danger:#FF8B9F;
+  --band:rgba(126,220,196,.14); --bar:#FF8FB4; --snow:#6E4E66;
+  --shadow:0 6px 18px rgba(0,0,0,.35); color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14px;line-height:1.6}
 .wrap{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;gap:20px}
@@ -127,12 +129,49 @@ details ul{margin:8px 0 0;padding-left:20px;font-size:12px;word-break:break-all}
   .ov-row .c-v{grid-column:1/-1;order:5}
 }
 @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+/* cute layer */
+h1,h2,.ov-row .name,.d-head .tag{font-weight:400}
+h1{font-size:32px;letter-spacing:.02em}
+.panel{border:1.5px solid var(--line);box-shadow:var(--shadow)}
+.hero{position:relative;overflow:hidden;background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:20px 20px 16px}
+.hero .art{position:absolute;right:8px;top:6px;width:min(46%,260px);height:auto;opacity:.95;pointer-events:none}
+.hero .art .trail{stroke:var(--accent);stroke-dasharray:3 7;stroke-linecap:round;fill:none;stroke-width:2.5}
+.hero .art .plane{fill:var(--accent)}
+.hero .art .heart{fill:var(--bar)}
+.hero .art .cloud{fill:var(--surface-2)}
+.hero > div{position:relative}
+.hero > #snow{position:absolute;inset:0;pointer-events:none}
+.hero .sub{color:var(--accent);font-size:15px;margin-top:2px}
+.flake{position:absolute;top:-10px;width:6px;height:6px;border-radius:50%;background:var(--snow);animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(220px) translateX(18px)}}
+.badge{padding:5px 10px}
+.tabs button{border-width:1.5px;display:inline-flex;align-items:center;gap:6px}
+.tabs button svg,.ov-row .name svg,.d-head h2 svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.ov-row .name{display:flex;align-items:center;gap:8px}
+.ov-row .name svg{color:var(--accent);width:22px;height:22px}
+.ov-row .name small{margin-top:-2px}
+.d-head{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow)}
+.d-head h2{display:flex;align-items:center;gap:8px}
+.d-head h2 svg{color:var(--accent);width:26px;height:26px}
+.dots{color:var(--accent);letter-spacing:1px}
+.sec-title h2{font-size:18px}
+.bar .rng{height:10px;top:2px;border-radius:999px}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface);box-shadow:0 3px 10px var(--accent-bg)}
+@media (max-width:760px){h1{font-size:26px}.hero .art{width:150px;opacity:.5}}
+@media (prefers-reduced-motion:reduce){.flake{display:none}}
 </style>
 
 <div class="wrap">
-  <header class="top">
+  <header class="top hero">
+    <svg class="art" viewBox="0 0 260 120" aria-hidden="true">
+      <ellipse class="cloud" cx="200" cy="92" rx="46" ry="16"/><ellipse class="cloud" cx="226" cy="80" rx="24" ry="14"/>
+      <path class="trail" d="M10 104 C 60 100, 80 40, 140 58 S 200 40, 214 26"/>
+      <path class="heart" d="M120 70c-3-4-10-2-9 3 1 4 9 9 9 9s8-5 9-9c1-5-6-7-9-3z"/>
+      <g class="plane" transform="translate(206 12) rotate(-18)"><path d="M0 14 L34 10 L44 2 L50 2 L44 12 L62 12 C68 12 68 18 62 18 L44 18 L50 28 L44 28 L34 20 L0 18 Z"/></g>
+    </svg>
     <div>
-      <h1>跨年旅行比較</h1>
+      <h1>我們的跨年小旅行</h1>
+      <div class="sub">12/27 出發，要去哪裡呢？</div>
       <div class="meta">
         <span>12/27（日）出發</span><span>兩人預算 6–10 萬</span><span>機票上限每人 13,000</span><span id="checked"></span>
       </div>
@@ -150,6 +189,7 @@ details ul{margin:8px 0 0;padding-left:20px;font-size:12px;word-break:break-all}
         <option value="ease">最輕鬆</option>
       </select>
     </div>
+    <div id="snow" aria-hidden="true"></div>
   </header>
 
   <section class="panel" aria-label="總覽">
@@ -187,6 +227,15 @@ const ICON = {
   star:'<path d="M11.5 2.3a.5.5 0 0 1 .9 0l2.3 4.7 5.2.8a.5.5 0 0 1 .3.9l-3.8 3.7.9 5.2a.5.5 0 0 1-.7.5L12 15.6l-4.6 2.5a.5.5 0 0 1-.7-.5l.9-5.2-3.8-3.7a.5.5 0 0 1 .3-.9l5.2-.8z"/>',
   info:'<circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>'
 };
+Object.assign(ICON, {
+  onsen:'<path d="M7 20h10"/><path d="M4 16c0 2 3.6 4 8 4s8-2 8-4"/><path d="M8 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/><path d="M12 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/><path d="M16 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/>',
+  snow:'<path d="M12 2v20"/><path d="m4.9 6.5 14.2 11"/><path d="m4.9 17.5 14.2-11"/><path d="m9 4 3 3 3-3"/><path d="m9 20 3-3 3 3"/>',
+  tower:'<path d="M12 2v4"/><path d="m8 22 4-16 4 16"/><path d="M9 14h6"/><path d="M6 22h12"/>',
+  wave:'<path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><circle cx="17" cy="6" r="3"/>',
+  leaf:'<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>'
+});
+const PLACE_ICON = {ginzan:'onsen', aomori:'onsen', hakodate:'snow', aomori_hakodate:'snow', tokyo:'tower', seoul:'tower', busan:'wave', chiangmai:'leaf', danang:'wave'};
+const pIcon = id => svg(PLACE_ICON[id] || 'star');
 const svg = n => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICON[n]||ICON.info}</svg>`;
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const twd = n => (n == null || isNaN(n)) ? '待確認' : 'NT$' + Math.round(n).toLocaleString('en-US');
@@ -230,7 +279,7 @@ function renderOverview(){
         <div class="rng" style="left:${pct(t[0])};width:calc(${pct(t[1])} - ${pct(t[0])})"></div>
       </div><div class="lbl2 num">${wan(t[0])}–${wan(t[1])} 萬${over ? ' <span class="badge b-danger">超預算</span>' : t[1] > 100000 ? ' <span class="badge b-warn">可能超</span>' : ''}</div>` : '<span class="faint">待確認</span>';
     return `<div class="ov-row" data-id="${p.id}" role="button" tabindex="0" aria-label="${esc(p.name)} 詳情">
-      <div class="name">${esc(p.name)}<small>${esc(p.country)}</small></div>
+      <div class="name">${pIcon(p.id)}<span>${esc(p.name)}<small>${esc(p.country)}</small></span></div>
       <div class="c-bar">${bar}</div>
       <div class="fl c-fl">${flLine('台中', r)}${flLine('桃園', y)}</div>
       <div class="c-stay">${stayBadge(p)}</div>
@@ -247,7 +296,7 @@ function renderOverview(){
 
 function renderTabs(){
   document.getElementById('tabs').innerHTML = DATA.places.map(p =>
-    `<button role="tab" id="tab-${p.id}" aria-selected="${p.id === current}" data-id="${p.id}">${esc(p.name)}</button>`).join('');
+    `<button role="tab" id="tab-${p.id}" aria-selected="${p.id === current}" data-id="${p.id}">${pIcon(p.id)}${esc(p.name)}</button>`).join('');
   document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => select(b.dataset.id));
 }
 
@@ -256,7 +305,7 @@ function renderDetail(){
   if (!p) return;
   const t = p.total_for2_twd?.[ret] || [];
   const sc = p.scores || {};
-  const scoreNames = {chill:'chill', scenery:'風景', food:'吃', value:'划算', ease:'輕鬆'};
+  const scoreNames = {chill:'chill', scenery:'風景', food:'好吃', value:'划算', ease:'輕鬆'};
   const itin = (ret === 'to_1231' ? p.itinerary_1231 : p.itinerary_0101) || p.itinerary_1231 || [];
   const flights = (p.flights||[]).slice().sort((a,b) => (a.from > b.from ? -1 : a.from < b.from ? 1 : 0) || (a.price_pp_twd||9e9) - (b.price_pp_twd||9e9));
   const fRows = flights.map(f => {
@@ -274,14 +323,14 @@ function renderDetail(){
 
   document.getElementById('detail').innerHTML = `
     <div class="d-head">
-      <h2 style="font-size:26px">${esc(p.name)} <span class="dim" style="font-size:15px;font-family:var(--font-body);font-weight:400">${esc(p.country)}</span></h2>
+      <h2 style="font-size:26px">${pIcon(p.id)}${esc(p.name)} <span class="dim" style="font-size:15px;font-family:var(--font-body);font-weight:400">${esc(p.country)}</span></h2>
       <div class="tag">${esc(p.tagline)}</div>
       <div>${esc(p.verdict)}</div>
-      <div class="scores">${Object.keys(scoreNames).map(k => `<span class="badge">${scoreNames[k]} <span class="dots" aria-label="${sc[k]||0} 分">${'●'.repeat(sc[k]||0)}${'○'.repeat(5-(sc[k]||0))}</span></span>`).join('')}</div>
+      <div class="scores">${Object.keys(scoreNames).map(k => `<span class="badge">${scoreNames[k]} <span class="dots" aria-label="${sc[k]||0} 分">${'♥'.repeat(sc[k]||0)}${'♡'.repeat(5-(sc[k]||0))}</span></span>`).join('')}</div>
     </div>
     ${specials}
     <div class="grid2">
-      <div class="panel sec"><div class="sec-title">${svg('wallet')}<h2>兩人花費（${ret === 'to_1231' ? '12/31 回' : '1/1 回'}）</h2></div>
+      <div class="panel sec"><div class="sec-title">${svg('wallet')}<h2>兩個人大概要花（${ret === 'to_1231' ? '12/31 回' : '1/1 回'}）</h2></div>
         <div class="cost num">
           <div><span>機票（最便宜×2）</span><span>${(() => { const m = [minFlight(p,'RMQ'),minFlight(p,'TPE')].filter(Boolean).sort((a,b)=>a.price_pp_twd-b.price_pp_twd)[0]; return m ? twd(m.price_pp_twd*2) : '待確認'; })()}</span></div>
           <div><span>吃（每天）</span><span>${rng(p.daily_food_for2_twd)}</span></div>
@@ -306,13 +355,13 @@ function renderDetail(){
     </div>
     <div class="grid2">
       <div class="panel sec"><div class="sec-title">${svg('route')}<h2>行程（${nights()} 晚）</h2></div><ol class="days">${itin.map(d => `<li>${esc(d)}</li>`).join('')}</ol></div>
-      <div class="panel sec"><div class="sec-title">${svg('party')}<h2>那幾天有什麼</h2></div>
+      <div class="panel sec"><div class="sec-title">${svg('party')}<h2>那幾天有什麼活動</h2></div>
         <div class="events">${(p.events||[]).map(e => `<div><span class="num dim">${esc(e.date)}</span><span><b>${esc(e.name)}</b>${e.note ? `<br><span class="dim">${esc(e.note)}</span>` : ''}</span></div>`).join('') || '<span class="faint">待確認</span>'}</div>
       </div>
     </div>
     <div class="grid2">
-      <div class="panel sec"><div class="sec-title">${svg('star')}<h2>推薦</h2></div><ul class="plain">${(p.highlights||[]).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>
-      <div class="panel sec"><div class="sec-title">${svg('alert')}<h2>要注意</h2></div><ul class="plain">${(p.risks||[]).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>
+      <div class="panel sec"><div class="sec-title">${svg('star')}<h2>一定要去</h2></div><ul class="plain">${(p.highlights||[]).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>
+      <div class="panel sec"><div class="sec-title">${svg('alert')}<h2>小提醒</h2></div><ul class="plain">${(p.risks||[]).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>
     </div>
     ${p.sources?.length ? `<details class="panel sec"><summary>全部來源（${p.sources.length}）</summary><ul>${p.sources.map(u => `<li>${link(u,u)}</li>`).join('')}</ul></details>` : ''}
   `;
@@ -333,4 +382,10 @@ sel.value = sortKey;
 sel.onchange = () => { sortKey = sel.value; store.set('sort', sortKey); renderOverview(); };
 document.getElementById('checked').textContent = '查價 ' + (DATA.checked || '');
 renderOverview(); renderTabs(); renderDetail();
+// Gentle snow in the header only / 只有頁首下小雪
+(() => { const box = document.getElementById('snow'); if (!box) return;
+  for (let i = 0; i < 14; i++) { const f = document.createElement('span'); f.className = 'flake';
+    f.style.left = (Math.random()*100).toFixed(1) + '%'; f.style.animationDuration = (6 + Math.random()*6).toFixed(1) + 's';
+    f.style.animationDelay = (-Math.random()*10).toFixed(1) + 's'; const z = 3 + Math.random()*5; f.style.width = f.style.height = z.toFixed(1) + 'px';
+    box.appendChild(f); } })();
 </script>
