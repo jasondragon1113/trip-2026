@@ -39,7 +39,7 @@ html = (ROOT / "template.html").read_text(encoding="utf-8")
 def write(name, plist):
     out = ROOT / name
     out.parent.mkdir(exist_ok=True)
-    payload = json.dumps({"checked": extra.get("checked", ""), "places": plist}, ensure_ascii=False).replace("</", "<\\/")
+    payload = json.dumps({"checked": extra.get("checked", ""), "plans": extra.get("plans", []), "plans_note": extra.get("plans_note", ""), "places": plist}, ensure_ascii=False).replace("</", "<\\/")
     out.write_text(html.replace("__DATA__", payload), encoding="utf-8")
 
 # Public build: drop private-only fields, sections, and lines containing strip words

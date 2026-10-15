@@ -130,6 +130,26 @@ details ul{margin:8px 0 0;padding-left:20px;font-size:12px;word-break:break-all}
   .ov-row .c-v{grid-column:1/-1;order:5}
 }
 @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+/* plans */
+.plans-wrap{display:grid;gap:8px}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:4px}
+.plan{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;display:grid;gap:8px;align-content:start;min-width:0;transition:transform .3s var(--spring)}
+.plan:hover{transform:translateY(-3px)}
+.plan .top-row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.plan h3{font-family:var(--font-display);font-weight:400;font-size:22px;display:flex;align-items:center;gap:8px}
+.plan h3 svg{width:22px;height:22px;stroke:var(--accent);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.plan .when{color:var(--accent)}
+.plan .money{font-family:var(--font-num);font-size:22px;font-weight:800}
+.plan .money small{font-size:12px;font-weight:600;color:var(--ink-faint)}
+.plan .line{font-size:13px;color:var(--ink-dim)}
+.plan .line b{color:var(--ink);font-weight:400}
+.plan ol{margin:0;padding-left:20px;font-size:13px;display:grid;gap:2px}
+.plan .pc{display:grid;gap:4px;font-size:13px}
+.plan .pc span::before{display:inline-block;width:1.2em;color:var(--ok);content:"+"}
+.plan .pc span.bad::before{color:var(--danger);content:"−"}
+.plan button{justify-self:start;font:inherit;font-size:13px;border:1.5px solid var(--line);background:var(--surface-2);color:var(--ink);border-radius:var(--pill);padding:6px 14px;cursor:pointer;transition:transform .3s var(--spring)}
+.plan button:active{transform:scale(.95)}
+
 /* cute layer */
 h1,h2,.ov-row .name,.d-head .tag{font-weight:400}
 h1{font-size:32px;letter-spacing:.02em}
@@ -198,9 +218,9 @@ h1{font-size:32px;letter-spacing:.02em}
     </svg>
     <div>
       <h1>我們的跨年小旅行</h1>
-      <div class="sub">12/27 出發，兩個人要去哪裡呢？</div>
+      <div class="sub">兩個人要去哪裡呢？</div>
       <div class="meta">
-        <span>12/27（日）出發</span><span>兩人預算 6–10 萬</span><span>機票上限每人 13,000</span><span id="checked"></span>
+        <span>12/27–1/5 選 4–5 天</span><span>兩人預算 6–10 萬</span><span>機票上限每人 13,000</span><span id="checked"></span>
       </div>
     </div>
     <div class="controls">
@@ -219,6 +239,13 @@ h1{font-size:32px;letter-spacing:.02em}
     <div id="snow" aria-hidden="true"></div>
   </header>
 
+  <section aria-label="推薦方案" class="plans-wrap">
+    <h2>推薦方案</h2>
+    <div class="faint" id="plans-note"></div>
+    <div class="plans" id="plans"></div>
+  </section>
+
+  <h2>9 個地點比較（12/27 出發）</h2>
   <section class="panel" aria-label="總覽">
     <div class="ov-head"><span>地點</span><span>兩人總花費（綠框＝預算 6–10 萬）</span><span>機票每人最低</span><span>住宿</span><span>一句話</span></div>
     <div id="ov"></div>
@@ -408,7 +435,22 @@ const sel = document.getElementById('sort');
 sel.value = sortKey;
 sel.onchange = () => { sortKey = sel.value; store.set('sort', sortKey); renderOverview(); };
 document.getElementById('checked').textContent = '查價 ' + (DATA.checked || '');
-renderOverview(); renderTabs(); renderDetail();
+function renderPlans(){
+  document.getElementById('plans-note').textContent = DATA.plans_note || '';
+  document.getElementById('plans').innerHTML = (DATA.plans||[]).map(pl => `<article class="plan">
+    <div class="top-row"><span class="badge ${pl.tone||''}">${esc(pl.label)}</span><span class="faint">${pl.nights} 晚</span></div>
+    <h3>${pIcon(pl.id)}${esc(pl.place)}</h3>
+    <div class="when num">${esc(pl.dates)}</div>
+    <div class="money">${wan(pl.total[0])}–${wan(pl.total[1])} 萬 <small>兩個人全包</small></div>
+    <div class="line"><b>機票</b>　${esc(pl.flight)}</div>
+    <div class="line"><b>住宿</b>　${esc(pl.stay)}</div>
+    <ol>${pl.days.map(d => `<li>${esc(d)}</li>`).join('')}</ol>
+    <div class="pc"><span>${esc(pl.good)}</span><span class="bad">${esc(pl.bad)}</span></div>
+    <button data-go="${pl.id}">看${esc(pl.place.replace('日本東北雪國','銀山溫泉'))}詳細</button>
+  </article>`).join('');
+  document.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { select(b.dataset.go); document.getElementById('tabs').scrollIntoView({behavior:'smooth'}); });
+}
+renderPlans(); renderOverview(); renderTabs(); renderDetail();
 // Gentle snow in the header only / 只有頁首下小雪
 (() => { const box = document.getElementById('snow'); if (!box) return;
   for (let i = 0; i < 14; i++) { const f = document.createElement('span'); f.className = 'flake';
