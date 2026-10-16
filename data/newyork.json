@@ -1,0 +1,1965 @@
+{
+ "id": "newyork",
+ "name": "紐約",
+ "subtitle": "跑進 2027 的跨年七日",
+ "country": "美國",
+ "flag": "US",
+ "motif": "tower",
+ "palette": {
+  "primary": "#26B5A5",
+  "secondary": "#FFC83D",
+  "soft": "#EAF8F5"
+ },
+ "tagline": "煙火一放，跑進新年",
+ "summary": "長榮直飛 12/30 晚上到紐約，住中城 5 晚、全程地鐵加走路，1/6 清晨回到台灣。白天中央公園、大都會、布魯克林大橋日出、百老匯，吃 Katz's 燻牛肉、Russ & Daughters 貝果、一片披薩和米其林韓式烤肉；每晚一間酒吧收尾，從電話亭進的 PDT 到傳奇爵士俱樂部。12/31 不去時代廣場站 9 小時，改在中央公園看午夜煙火、跟著 NYRR 午夜跑一起跑進 2027。",
+ "dates": {
+  "out": "12/30",
+  "back": "1/6",
+  "nights": 5,
+  "why": "主推長榮 12/30（三）19:20 桃園出發、當天 21:05 到紐約；回程 1/5 00:05 從 JFK 起飛（＝1/4 週一深夜），1/6（三）清晨 06:20 落地桃園。紐約 6 天 5 晚，機票每人 55,622＋Arlo 5 晚，兩人機票＋住宿 171,901，是 10/16 查過的直飛組合裡最便宜的。縮成 5 天（1/4 00:05 回、1/5 06:20 落地、住 4 晚）兩人只少約 300 元，等於多玩一天幾乎不用錢；拉到 7 天（12/29 出發、住 6 晚、同樣 1/6 06:20 落地）兩人多約 1.4 萬。若一定要 1/5 前落地：上面的 5 天版（−300 元），或華航 12/29→1/3 23:40、1/5 06:00 落地（住 5 晚，兩人多約 6,600）。原訂 12/28 出發版兩人多約 2.8 萬。"
+ },
+ "flights": [
+  {
+   "from": "TPE",
+   "to": "JFK",
+   "airline": "長榮航空（直飛）",
+   "out": "12/30（三）19:20 桃園 → 12/30（三）21:05 紐約 JFK（飛 14 小時 45 分，同一天晚上到）",
+   "back": "1/5（二）00:05 JFK（＝1/4 週一深夜）→ 1/6（三）06:20 桃園（飛 17 小時 15 分）",
+   "price_pp_twd": 55622,
+   "baggage": "長榮美國線經濟艙一般含托運 2 件×23 公斤（依票種，訂票時確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-30%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 實查：12/30 去、JFK 1/5 00:05 回，長榮直飛來回每人 NT$55,622（含稅），1/6 清晨 06:20 落地。主推這組：紐約住 5 晚，加飯店算是所有組合裡兩人總價最低。"
+  },
+  {
+   "from": "TPE",
+   "to": "JFK",
+   "airline": "長榮航空（直飛）— 1/5 前落地・少住 1 晚",
+   "out": "12/30（三）19:20 → 12/30 21:05 JFK",
+   "back": "1/4（一）00:05 JFK（＝1/3 週日深夜）→ 1/5（二）06:20 桃園",
+   "price_pp_twd": 59017,
+   "baggage": "同上",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-30%20through%202027-01-04%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 實查：機票每人貴 3,395，但少住 1 晚（Arlo 4 晚 53,560），兩人機票＋住宿只比主推少約 300 元，等於少玩一天。"
+  },
+  {
+   "from": "TPE",
+   "to": "JFK",
+   "airline": "中華航空（直飛）— 1/5 前落地・住 5 晚",
+   "out": "12/29（二）17:35 桃園 → 12/29（二）19:20 JFK",
+   "back": "1/3（日）23:40 JFK → 1/5（二）06:00 桃園",
+   "price_pp_twd": 55050,
+   "baggage": "華航美國線經濟艙一般含托運 2 件×23 公斤（依票種，訂票時確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-29%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 實查：機票最便宜，但 12/29–1/3 的房價較貴（Arlo 5 晚 68,378），兩人機票＋住宿比主推多約 6,600。華航紐約線只在週日、二、四飛。"
+  },
+  {
+   "from": "TPE",
+   "to": "JFK",
+   "airline": "長榮航空（直飛）— 7 天版・住 6 晚",
+   "out": "12/29（二）19:20 → 12/29 21:05 JFK",
+   "back": "1/5（二）00:05 JFK（＝1/4 深夜）→ 1/6（三）06:20 桃園",
+   "price_pp_twd": 55622,
+   "baggage": "同上",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 實查：機票和主推同價，多住 12/29 一晚（Arlo 6 晚 74,748），兩人多約 1.4 萬。"
+  },
+  {
+   "from": "TPE",
+   "to": "JFK",
+   "airline": "長榮航空（直飛）— 原訂 12/28 出發版",
+   "out": "12/28（一）19:20 → 12/28 21:05 JFK",
+   "back": "1/3（日）00:05 JFK（＝1/2 深夜）→ 1/4（一）06:20 桃園",
+   "price_pp_twd": 62509,
+   "baggage": "同上",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-28%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 實查：每人 62,509，12/28–1/2 房價也較貴（Arlo 5 晚 74,731），兩人比主推多約 2.8 萬。"
+  },
+  {
+   "kind": "transfer",
+   "from": "RMQ",
+   "to": "JFK",
+   "airline": "大韓航空（仁川轉機，參考用）",
+   "out": "12/28（一）17:50 台中 → 12/29（二）19:40 JFK（在仁川等 22 小時）",
+   "back": "1/3 回程（轉機）",
+   "price_pp_twd": 46150,
+   "baggage": "依票種",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NYC%20from%20RMQ%20on%202026-12-28%20through%202027-01-03&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "台中 RMQ 沒有飛紐約的直飛，最便宜的都要轉機（大韓仁川 46,150、國泰港龍經香港 60,512）。依指示只算直飛，這筆不進預算。"
+  }
+ ],
+ "getting_around": {
+  "mode": "大眾運輸",
+  "license": "不自駕。曼哈頓塞車、停車一天 $50 起，地鐵 24 小時營運比開車快；真要租車需台灣駕照＋國際駕照＋護照，本行程不建議。",
+  "rental": {
+   "company": "不租車",
+   "car": "",
+   "days": 0,
+   "price_total_twd": 0,
+   "insurance": "",
+   "pickup": "",
+   "source": "",
+   "note": "全程地鐵、走路，機場來回與跨年深夜用計程車／Uber"
+  },
+  "road_notes": [
+   "地鐵 24 小時營運，12/31 跨年夜 1、2、3、7、C、L、N、Q、R 等線加開班次",
+   "12/31 時代廣場周邊 7th Ave 清晨起封、6th／8th Ave 16:00 起禁止穿越；Times Sq-42 St 站 42 街出入口約 10:00 關閉",
+   "冬天下雪後人行道結冰，穿防滑鞋；過馬路看行人號誌，紐約人常闖紅燈別跟"
+  ],
+  "public": [
+   "OMNY：地鐵／公車每趟 $3.00，直接用感應信用卡或手機 Apple Pay 刷；同一張卡 7 天內花滿 $35 之後免費（兩人各用自己的卡或手機）",
+   "JFK→曼哈頓：黃色計程車固定車資 $70＋附加費＋過路費＋小費，約 $95–105／車；AirTrain $8.50＋地鐵 $3／人，約 70 分",
+   "Uber／Lyft 跨年夜加價很兇，散場用地鐵最穩",
+   "布魯克林 Williamsburg：曼哈頓搭 L 線到 Bedford Av 約 15–20 分"
+  ]
+ },
+ "stays": [
+  {
+   "name": "Arlo Midtown",
+   "area": "中城西／Hell's Kitchen（時代廣場走路 10 分）",
+   "nights": 5,
+   "price_night_for2_twd": 12131,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Arlo+Midtown&checkin=2026-12-30&checkout=2027-01-04&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Arlo%20Midtown%20351%20W%2038th%20St%20New%20York",
+   "why": "Booking 10/16 實查 12/30→1/4 共 5 晚 NT$60,657（評分 8.8、可免費取消）。走路到時代廣場、Rudy's、Totto 拉麵，跨年跑完回來最近；有屋頂酒吧。"
+  },
+  {
+   "name": "citizenM New York Bowery",
+   "area": "下東城 Lower East Side",
+   "nights": 5,
+   "price_night_for2_twd": 11789,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=citizenM+New+York+Bowery&checkin=2026-12-30&checkout=2027-01-04&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=citizenM%20New%20York%20Bowery%20189%20Bowery%20New%20York",
+   "why": "Booking 10/16 實查 12/30→1/4 共 5 晚 NT$58,946（8.6）。走路到 Katz's、Russ & Daughters、Attaboy、PDT，酒吧多；房間小但新。"
+  },
+  {
+   "name": "The Hoxton, Williamsburg",
+   "area": "布魯克林 Williamsburg",
+   "nights": 5,
+   "price_night_for2_twd": 10967,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=The+Hoxton+Williamsburg&checkin=2026-12-30&checkout=2027-01-04&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Hoxton%20Williamsburg%2097%20Wythe%20Ave%20Brooklyn",
+   "why": "Booking 10/16 實查 12/30→1/4 共 5 晚 NT$54,836（8.5），三間最便宜、看得到曼哈頓天際線；缺點是每天進曼哈頓搭 L 線 15–25 分，跨年夜回程較遠。"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "晚上抵達紐約",
+   "area": "桃園→JFK→中城",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "傍晚從桃園飛，紐約同一天晚上到，吃一片披薩、喝一杯就睡",
+   "stops": [
+    {
+     "time": "16:30",
+     "name": "桃園機場第二航廈報到",
+     "kind": "transport",
+     "stay_min": 170,
+     "desc": "長榮 19:20 起飛，直飛 14 小時 45 分；紐約比台灣慢 13 小時，所以同一天 21:05 就落地 JFK。",
+     "price_for2_twd": null,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%E7%AC%AC%E4%BA%8C%E8%88%AA%E5%BB%88",
+     "site_url": "",
+     "address": "桃園市大園區航站南路9號",
+     "tip": "飛機上睡飽，落地是紐約晚上 9 點",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Departure%20Entrance%2C%20Taoyuan%20Airport%20Terminal%202%2020211127.jpg?width=1200",
+      "credit": "Solomon203（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "長榮航空官網",
+       "url": "https://www.evaair.com/"
+      }
+     ]
+    },
+    {
+     "time": "21:05",
+     "name": "JFK 入境＋計程車到飯店",
+     "kind": "transport",
+     "stay_min": 120,
+     "desc": "入境排隊約 1 小時。黃色計程車 JFK→曼哈頓固定車資 $70，再加附加費、過路費與 15–20% 小費，約 $95–105。",
+     "price_for2_twd": 3250,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=John%20F.%20Kennedy%20International%20Airport",
+     "site_url": "",
+     "address": "JFK Airport, Queens, NY 11430",
+     "tip": "省錢版：AirTrain $8.50＋地鐵 $3，約 70 分鐘，但半夜拖行李不推",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20F.%20Kennedy%20International%20Airport%20Terminal%208%20Arrivals%2020240520.jpg?width=1200",
+      "credit": "颐园居（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "JFK 機場官網（交通方式）",
+       "url": "https://www.jfkairport.com/"
+      }
+     ]
+    },
+    {
+     "time": "23:15",
+     "name": "Joe's Pizza（Broadway 店）",
+     "kind": "food",
+     "stay_min": 20,
+     "desc": "紐約經典一片披薩，1975 年從 Greenwich Village 起家；起司片一片約 $4–5，站著吃最紐約。",
+     "price_for2_twd": 520,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Joe%27s%20Pizza%201435%20Broadway%2C%20New%20York%2C%20NY%2010018",
+     "site_url": "https://www.joespizzanyc.com/",
+     "address": "1435 Broadway, New York, NY 10018",
+     "tip": "營業到很晚，第一晚宵夜最適合",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%27s%20Pizza%202022%20jeh.jpg?width=1200",
+      "credit": "Jim.henderson（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Joe's Pizza 官方 Instagram @joespizzanyc",
+       "url": "https://www.instagram.com/joespizzanyc/"
+      },
+      {
+       "type": "youtube",
+       "title": "Barstool Pizza Review - The Original Joe's Pizza（One Bite Pizza Reviews）",
+       "url": "https://www.youtube.com/watch?v=-ZK3apcuXpk"
+      },
+      {
+       "type": "official",
+       "title": "Joe's Pizza 官網",
+       "url": "https://www.joespizzanyc.com/"
+      }
+     ]
+    },
+    {
+     "time": "23:45",
+     "name": "The Rum House（酒吧：雞尾酒＋現場鋼琴）",
+     "kind": "bar",
+     "stay_min": 70,
+     "desc": "時代廣場旁老飯店 Hotel Edison 裡的蘭姆酒吧，每晚有現場音樂；週日到週四開到 01:00。兩人各一杯雞尾酒加小費約 $45–90。",
+     "price_for2_twd": 2920,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Rum%20House%20228%20W%2047th%20St%2C%20New%20York%2C%20NY%2010036",
+     "site_url": "https://www.therumhousenyc.com/",
+     "address": "228 W 47th St, New York, NY 10036",
+     "tip": "酒保每杯給 $1–2 小費；週三到週六可在 Resy 訂位，也可直接走進去",
+     "photo": null,
+     "links": [
+      {
+       "type": "ig",
+       "title": "The Rum House 官方 Instagram @therumhouse",
+       "url": "https://www.instagram.com/therumhouse/"
+      },
+      {
+       "type": "official",
+       "title": "The Rum House 營業時間",
+       "url": "https://www.therumhousenyc.com/location/the-rum-house/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "跑進 2027",
+   "area": "中城／中央公園",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "時差早起吃貝果、溜冰，下午補眠，晚上在中央公園看午夜煙火、跟著起跑跨年，跑完去老酒吧喝一杯",
+   "stops": [
+    {
+     "time": "09:00",
+     "name": "Ess-a-Bagel（1st Ave 本店）",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "紐約人票選多年的手捲大貝果，蓬鬆有嚼勁；點 everything bagel 抹奶油乳酪最基本。",
+     "price_for2_twd": 970,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Ess-a-Bagel%20324%201st%20Ave%2C%20New%20York%2C%20NY%2010009",
+     "site_url": "",
+     "address": "324 1st Ave, New York, NY 10009",
+     "tip": "另一間名店 Absolute Bagels 在上西城 108 街，順路也可",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ess-a-bagel%20in%20NYC.jpg?width=1200",
+      "credit": "victorgrigas（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Ess-a-Bagel 官方 Instagram @essabagel",
+       "url": "https://www.instagram.com/essabagel/"
+      },
+      {
+       "type": "youtube",
+       "title": "The Goldbelly Show: Live from Ess-a-Bagel in NYC（Goldbelly）",
+       "url": "https://www.youtube.com/watch?v=KoUtMtmfcvc"
+      },
+      {
+       "type": "official",
+       "title": "Ess-a-Bagel 官網",
+       "url": "https://www.essabagel.com/"
+      }
+     ]
+    },
+    {
+     "time": "11:30",
+     "name": "Bryant Park Winter Village 溜冰＋聖誕市集",
+     "kind": "activity",
+     "stay_min": 90,
+     "desc": "免費入場的戶外溜冰場，周圍是帝國大廈和圖書館；租鞋 $18.72–64.48（尖峰較貴），旁邊有上百攤聖誕小屋市集。",
+     "price_for2_twd": 1950,
+     "booking": "建議預約",
+     "booking_url": "https://bryantpark.org/activities/the-rink",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Bryant%20Park%20Winter%20Village%20%E6%BA%9C%E5%86%B0%EF%BC%8B%E8%81%96%E8%AA%95%E5%B8%82%E9%9B%86%20Bryant%20Park%2C%206th%20Ave%20%26%20W%2042nd%20St%2C%20New%20York%2C%20NY%2010018",
+     "site_url": "",
+     "address": "Bryant Park, 6th Ave & W 42nd St, New York, NY 10018",
+     "tip": "線上先預約時段比較不用排；溜完在市集喝熱可可",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Winter%20Village%20at%20Bryant%20Park%20%28December%202023%29%2003.jpg?width=1200",
+      "credit": "Kiran891（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Bryant Park The Rink（免費入場、租鞋價目）",
+       "url": "https://bryantpark.org/activities/the-rink"
+      },
+      {
+       "type": "ig",
+       "title": "Bryant Park 官方 Instagram @bryantparknyc",
+       "url": "https://www.instagram.com/bryantparknyc/"
+      },
+      {
+       "type": "youtube",
+       "title": "Bryant Park Winter Village 2025 — Holiday Markets, Ice Skating（Your Unofficial Guide）",
+       "url": "https://www.youtube.com/watch?v=hVLqeaB2sTo"
+      }
+     ]
+    },
+    {
+     "time": "13:30",
+     "name": "回飯店補眠",
+     "kind": "stay",
+     "stay_min": 240,
+     "desc": "剛到紐約有時差，晚上又要在戶外待 4 小時、跑 6.4 公里，下午一定要睡一覺、把保暖衣物準備好。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Arlo%20Midtown%20351%20W%2038th%20St%20New%20York",
+     "site_url": "",
+     "address": "351 W 38th St, New York, NY 10018",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arlo%20Midtown%202024%20jeh.jpg?width=1200",
+      "credit": "Jim.henderson（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "17:30",
+     "name": "Totto Ramen（52nd St 本店）",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "地獄廚房的雞白湯拉麵名店，湯頭濃、叉燒現烤；一碗約 $20。熱湯暖身，跑步前吃剛好。",
+     "price_for2_twd": 1690,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Totto%20Ramen%20366%20W%2052nd%20St%2C%20New%20York%2C%20NY%2010019",
+     "site_url": "https://tottoramen.com/",
+     "address": "366 W 52nd St, New York, NY 10019",
+     "tip": "跨年夜排隊長，17:30 前到",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tori-baitang%20ramen.jpg?width=1200",
+      "credit": "Totti（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Totto Ramen 官方 Instagram @tottoramen",
+       "url": "https://www.instagram.com/tottoramen/"
+      },
+      {
+       "type": "youtube",
+       "title": "【鸟人拉面】纽约美食 | 超人气拉面 | Totto Ramen（尔湾安安Ann）",
+       "url": "https://www.youtube.com/watch?v=oTPFkhNZrig"
+      }
+     ]
+    },
+    {
+     "time": "21:30",
+     "name": "NYRR Midnight Run：中央公園午夜煙火＋跑進 2027（挑戰）",
+     "kind": "challenge",
+     "stay_min": 210,
+     "desc": "紐約跑者協會的跨年路跑：23:59 倒數，午夜煙火一放就鳴槍起跑，繞中央公園 4 英里（6.4 公里），很多人穿派對服跑。非會員報名 $74.02／人。",
+     "price_for2_twd": 4800,
+     "booking": "需預約",
+     "booking_url": "https://events.nyrr.org/nyrr-midnight-run",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Naumburg%20Bandshell%20Central%20Park",
+     "site_url": "https://events.nyrr.org/nyrr-midnight-run",
+     "address": "Central Park, New York（集合點以 NYRR 賽前公告為準）",
+     "tip": "穿可以邊跑邊脫的外層、手套、毛帽；跑完約 00:50，走到 72 St 站搭 1/2/3 或 B/C 回中城（跨年夜地鐵加班）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20Park%20on%20foggy%20night.jpg?width=1200",
+      "credit": "Steveen Manon from New York, United States. Cropped and slig（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "NYRR Midnight Run 官方報名頁（2026/12/31 23:59，4 英里）",
+       "url": "https://events.nyrr.org/nyrr-midnight-run"
+      },
+      {
+       "type": "ig",
+       "title": "New York Road Runners 官方 Instagram @nyrr",
+       "url": "https://www.instagram.com/nyrr/"
+      },
+      {
+       "type": "youtube",
+       "title": "NYRR MIDNIGHT RUN 2025（Emma Adams）",
+       "url": "https://www.youtube.com/watch?v=6H61lcFbp1k"
+      }
+     ]
+    },
+    {
+     "time": "01:15",
+     "name": "Rudy's Bar & Grill（酒吧：1933 年老牌 dive bar）",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "地獄廚房從禁酒令時代撐到現在的平價酒吧，營業到 04:00，點任何飲料送免費熱狗；啤酒便宜，跑完喝一杯剛好。兩人約 $30。",
+     "price_for2_twd": 970,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Rudy%27s%20Bar%20%26%20Grill%20627%209th%20Ave%2C%20New%20York%2C%20NY%2010036",
+     "site_url": "https://www.rudysbarnyc.com/",
+     "address": "627 9th Ave, New York, NY 10036",
+     "tip": "跨年夜有沒有入場費待確認；離 Arlo 飯店走路 8 分鐘",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2013%20Rudy%27s%20Bar%20%26%20Grill%20627%209th%20Avenue%20Manhattan.jpg?width=1200",
+      "credit": "Chris06（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Rudy's Bar & Grill 官網（開到 4am、送熱狗）",
+       "url": "https://www.rudysbarnyc.com/"
+      },
+      {
+       "type": "youtube",
+       "title": "Rudy's Bar: FREE HOT DOG!（Chris' NYC Hot Dog Stands & More!）",
+       "url": "https://www.youtube.com/watch?v=-PxctfXiP6M"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "新年的布魯克林",
+   "area": "Williamsburg／中城／West Village",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "睡飽去布魯克林吃披薩看河景，SUMMIT 看日落，米其林韓式烤肉，最後聽一場爵士",
+   "stops": [
+    {
+     "time": "12:00",
+     "name": "L'Industrie Pizzeria（Williamsburg 本店）",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "這幾年紐約最紅的一片披薩，招牌是放整球 burrata 的切片；一片約 $5–9。",
+     "price_for2_twd": 1140,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=L%27Industrie%20Pizzeria%20254%20S%202nd%20St%2C%20Brooklyn%2C%20NY%2011211",
+     "site_url": "",
+     "address": "254 S 2nd St, Brooklyn, NY 11211",
+     "tip": "1/1 營業時間待確認；曼哈頓 West Village 也有分店（104 Christopher St）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Slices%20of%20thin-crust%20New%20York%20style%20pizza.jpg?width=1200",
+      "credit": "Wikiuser100（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "L'Industrie 官方 Instagram @lindustriebk",
+       "url": "https://www.instagram.com/lindustriebk/"
+      },
+      {
+       "type": "youtube",
+       "title": "Brooklyn's Hottest Pizzeria is Reinventing The New York Slice（Bon Appétit）",
+       "url": "https://www.youtube.com/watch?v=frocQGzc53I"
+      },
+      {
+       "type": "official",
+       "title": "L'Industrie 官網",
+       "url": "https://www.lindustriebk.com/"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "Domino Park＋Williamsburg 散步",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "老糖廠改成的河岸公園，正對曼哈頓天際線和威廉斯堡橋；附近 Bedford Ave 有古著、唱片行和咖啡店。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Domino%20Park%EF%BC%8BWilliamsburg%20%E6%95%A3%E6%AD%A5%2015%20River%20St%2C%20Brooklyn%2C%20NY%2011249",
+     "site_url": "",
+     "address": "15 River St, Brooklyn, NY 11249",
+     "tip": "冬天 Smorgasburg 戶外市集沒開（每年 4–10 月），這裡改逛街",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Domino%20Park%20002.jpg?width=1200",
+      "credit": "Kidfly182（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Domino Park 官方 Instagram @dominopark",
+       "url": "https://www.instagram.com/dominopark/"
+      },
+      {
+       "type": "official",
+       "title": "Domino Park 官網",
+       "url": "https://www.dominopark.com/"
+      },
+      {
+       "type": "youtube",
+       "title": "Explore Domino Park Brooklyn With Me!（Street Scenes Uncut）",
+       "url": "https://www.youtube.com/watch?v=0ADf9X_ezRg"
+      }
+     ]
+    },
+    {
+     "time": "15:45",
+     "name": "SUMMIT One Vanderbilt 日落",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "中央車站旁 93 樓的鏡面觀景台，整層玻璃鏡面＋氣球房，很好拍；16:38 日落後看曼哈頓亮燈。$44 起＋$3 手續費（日落時段較貴）。",
+     "price_for2_twd": 3240,
+     "booking": "需預約",
+     "booking_url": "https://summitov.com/tickets/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=SUMMIT%20One%20Vanderbilt%20%E6%97%A5%E8%90%BD%2045%20E%2042nd%20St%2C%20New%20York%2C%20NY%2010017",
+     "site_url": "",
+     "address": "45 E 42nd St, New York, NY 10017",
+     "tip": "鏡面地板穿褲裝；日落時段最早賣完，提早買",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SUMMIT%20One%20Vanderbilt%20-%20Affinity%20-%20NYC.jpg?width=1200",
+      "credit": "Changku88（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "SUMMIT 官方購票",
+       "url": "https://summitov.com/tickets/"
+      },
+      {
+       "type": "ig",
+       "title": "SUMMIT One Vanderbilt 官方 Instagram @summitov",
+       "url": "https://www.instagram.com/summitov/"
+      },
+      {
+       "type": "youtube",
+       "title": "紐約三大景觀台完整比較 Summit・帝國大廈・Top of the Rock（ELLY 親子旅遊趣）",
+       "url": "https://www.youtube.com/watch?v=5Iul7e-Ii6U"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "Cote Korean Steakhouse（韓式烤肉）",
+     "kind": "food",
+     "stay_min": 100,
+     "desc": "全美唯一米其林一星韓式烤肉，美國頂級牛在桌上烤；招牌 Butcher's Feast 四種牛肉＋小菜＋蛋羹＋大醬湯，每人約 $80+。",
+     "price_for2_twd": 9080,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Cote%20Korean%20Steakhouse%2016%20W%2022nd%20St%2C%20New%20York%2C%20NY%2010010",
+     "site_url": "https://www.cotenyc.com/",
+     "address": "16 W 22nd St, New York, NY 10010",
+     "tip": "1/1 營業與否待確認；想便宜一點改去 32 街韓國城",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cote%20%28restaurant%29%2022St%20HDR%202022%20jeh.jpg?width=1200",
+      "credit": "Jim.henderson（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Cote 官方 Instagram @cotenyc",
+       "url": "https://www.instagram.com/cotenyc/"
+      },
+      {
+       "type": "youtube",
+       "title": "How Two Master Chefs Run the Only Michelin-Starred Korean Steakhouse（Eater）",
+       "url": "https://www.youtube.com/watch?v=oAADFdfa-G4"
+      },
+      {
+       "type": "official",
+       "title": "Cote 官網訂位",
+       "url": "https://www.cotenyc.com/"
+      }
+     ]
+    },
+    {
+     "time": "21:30",
+     "name": "Village Vanguard（酒吧：傳奇爵士俱樂部）",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "1935 年開的地下室爵士俱樂部，Coltrane、Bill Evans 都在這錄過現場專輯。22:00 場（21:30 入場），門票另付＋每人一杯低消；不供餐。",
+     "price_for2_twd": 4060,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Village%20Vanguard%20178%207th%20Ave%20S%2C%20New%20York%2C%20NY%2010014",
+     "site_url": "https://villagevanguard.com/",
+     "address": "178 7th Ave S, New York, NY 10014",
+     "tip": "1/1 演出表 12 月公布，48 小時內購票不能退；客滿就去附近 Smalls Jazz Club（開到深夜）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Village%20Vanguard%20daytime%20jeh.jpg?width=1200",
+      "credit": "Jim.henderson（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Village Vanguard 官網（演出表、購票）",
+       "url": "https://villagevanguard.com/"
+      },
+      {
+       "type": "official",
+       "title": "Village Vanguard FAQ（場次時間、低消）",
+       "url": "https://villagevanguard.com/faq/"
+      },
+      {
+       "type": "youtube",
+       "title": "Robert Glasper Trio - LIVE at The Village Vanguard（Bear J. Sleemann）",
+       "url": "https://www.youtube.com/watch?v=kScYtiy4PEs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "1/2",
+   "weekday": "六",
+   "title": "公園、博物館、聖誕樹",
+   "area": "上西城／中城",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "中央公園散步、大都會博物館，傍晚看聖誕樹和日落夜景，吃老牛排館再上屋頂酒吧",
+   "stops": [
+    {
+     "time": "09:30",
+     "name": "Levain Bakery（74th St 本店）",
+     "kind": "food",
+     "stay_min": 20,
+     "desc": "1995 年開的元祖店，一顆 170 克的巨型巧克力核桃餅乾，外酥內軟；地下室小店常排隊。",
+     "price_for2_twd": 420,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Levain%20Bakery%20167%20W%2074th%20St%2C%20New%20York%2C%20NY%2010023",
+     "site_url": "",
+     "address": "167 W 74th St, New York, NY 10023",
+     "tip": "一人一顆就很飽，可以帶進中央公園吃",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levain%20Bakery%20-%20The%20Best%20Cookies%20in%20the%20World%20-%20Chocolate%20Chocolate%20Chip%2C%20Oatmeal%20Raisin%2C%20Chocolate%20Chip%20Walnut.jpg?width=1200",
+      "credit": "Biskuit（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Levain Bakery 官方 Instagram @levainbakery",
+       "url": "https://www.instagram.com/levainbakery/"
+      },
+      {
+       "type": "youtube",
+       "title": "Why Levain Bakery Is NYC's Favorite Cookie Shop（Insider Food）",
+       "url": "https://www.youtube.com/watch?v=07_oj-QXUl0"
+      },
+      {
+       "type": "official",
+       "title": "Levain Bakery 官網",
+       "url": "https://www.levainbakery.com/"
+      }
+     ]
+    },
+    {
+     "time": "10:00",
+     "name": "中央公園：Strawberry Fields→Bethesda Terrace→Bow Bridge",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "從 72 街西側進公園，走 John Lennon 紀念地、天使噴泉露台到弓橋，冬天樹光禿反而看得到天際線。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Bethesda%20Terrace%20Central%20Park",
+     "site_url": "",
+     "address": "Central Park, W 72nd St entrance, New York",
+     "tip": "穿防滑鞋，下雪後小路會結冰",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Winter%20view%20of%20the%20Bow%20Bridge%20in%20Central%20Park.jpg?width=1200",
+      "credit": "Ed Yourdon from New York City, USA（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Central Park 官方 Instagram @centralparknyc",
+       "url": "https://www.instagram.com/centralparknyc/"
+      },
+      {
+       "type": "official",
+       "title": "Central Park Conservancy",
+       "url": "https://www.centralparknyc.org/"
+      }
+     ]
+    },
+    {
+     "time": "11:45",
+     "name": "大都會藝術博物館 The Met",
+     "kind": "sight",
+     "stay_min": 180,
+     "desc": "全美最大的博物館：埃及神廟、歐洲名畫、盔甲廳。非紐約居民成人 $30；週六開到 21:00。",
+     "price_for2_twd": 1950,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%83%BD%E6%9C%83%E8%97%9D%E8%A1%93%E5%8D%9A%E7%89%A9%E9%A4%A8%20The%20Met%201000%205th%20Ave%2C%20New%20York%2C%20NY%2010028",
+     "site_url": "https://www.metmuseum.org/",
+     "address": "1000 5th Ave, New York, NY 10028",
+     "tip": "週三和 1/1 休館，所以排 1/2 週六；館內咖啡廳簡單吃午餐",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Metropolitan%20Museum%20of%20Art%20entrance%20NYC.JPG?width=1200",
+      "credit": "Arad（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "The Met 參觀資訊（票價／開放時間）",
+       "url": "https://www.metmuseum.org/plan-your-visit"
+      },
+      {
+       "type": "ig",
+       "title": "The Met 官方 Instagram @metmuseum",
+       "url": "https://www.instagram.com/metmuseum/"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "洛克斐勒中心聖誕樹＋Top of the Rock 夕陽",
+     "kind": "sight",
+     "stay_min": 150,
+     "desc": "先看聖誕樹和溜冰場，16:00 上 Top of the Rock 等 16:35 日落，看帝國大廈和中央公園一起亮燈。門票 $42 起（夕陽時段較貴）。",
+     "price_for2_twd": 2730,
+     "booking": "需預約",
+     "booking_url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%9B%E5%85%8B%E6%96%90%E5%8B%92%E4%B8%AD%E5%BF%83%E8%81%96%E8%AA%95%E6%A8%B9%EF%BC%8BTop%20of%20the%20Rock%20%E5%A4%95%E9%99%BD%2030%20Rockefeller%20Plaza%2C%20New%20York%2C%20NY%2010112",
+     "site_url": "",
+     "address": "30 Rockefeller Plaza, New York, NY 10112",
+     "tip": "洛克斐勒溜冰場年底尖峰每人約 $75–124，貴又擠；12/31 已在 Bryant Park 免費溜過",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christmas%20Tree%20and%20Decoration%20in%20front%20of%20Rockefeller%20Center%20Manhattan%20NYC.jpg?width=1200",
+      "credit": "Daniel Dimitrov（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Top of the Rock 官方購票（$42 起，8:00–24:00）",
+       "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck"
+      },
+      {
+       "type": "ig",
+       "title": "Top of the Rock 官方 Instagram @topoftherocknyc",
+       "url": "https://www.instagram.com/topoftherocknyc/"
+      },
+      {
+       "type": "youtube",
+       "title": "The Top Of The Rock At Sunset And Night（Something Of Everything）",
+       "url": "https://www.youtube.com/watch?v=u-eI0OTS8ec"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "Keens Steakhouse",
+     "kind": "food",
+     "stay_min": 100,
+     "desc": "1885 年的老牛排館，天花板掛滿上萬支舊菸斗；招牌是巨大的 mutton chop（羊排）和乾式熟成牛排。兩人含稅與小費約 $260。",
+     "price_for2_twd": 8430,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Keens%20Steakhouse%2072%20W%2036th%20St%2C%20New%20York%2C%20NY%2010018",
+     "site_url": "https://www.keens.com/",
+     "address": "72 W 36th St, New York, NY 10018",
+     "tip": "小費 18–22%＋稅 8.875%，帳單會比菜單多約 30%",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keens%20Steakhouse%20%28Manhattan%2C%20New%20York%29%20001.jpg?width=1200",
+      "credit": "Leonard J. DeFrancisci（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Keens Steakhouse 官方 Instagram @keenssteakhouse",
+       "url": "https://www.instagram.com/keenssteakhouse/"
+      },
+      {
+       "type": "youtube",
+       "title": "Why This 130-Year-Old Steakhouse Is Actually Best Known For Mutton Chops（Insider Food）",
+       "url": "https://www.youtube.com/watch?v=krlT6q5b9QY"
+      },
+      {
+       "type": "official",
+       "title": "Keens 官網訂位",
+       "url": "https://www.keens.com/"
+      }
+     ]
+    },
+    {
+     "time": "21:00",
+     "name": "230 Fifth Rooftop（酒吧：屋頂酒吧＋冬季冰屋）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "紐約最大的屋頂酒吧，正對帝國大廈；冬天屋頂有透明暖氣冰屋（igloo），可以邊喝熱紅酒邊看夜景。兩人兩杯加小費約 $95。",
+     "price_for2_twd": 3080,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=230%20Fifth%20Rooftop%201150%20Broadway%2C%20New%20York%2C%20NY%2010001",
+     "site_url": "https://www.230-fifth.com/",
+     "address": "1150 Broadway, New York, NY 10001",
+     "tip": "冰屋通常要訂位或低消（待確認）；入口在 Broadway 那側",
+     "photo": null,
+     "links": [
+      {
+       "type": "ig",
+       "title": "230 Fifth 官方 Instagram @230fifthrooftop",
+       "url": "https://www.instagram.com/230fifthrooftop/"
+      },
+      {
+       "type": "youtube",
+       "title": "230 Fifth's Rooftop Igloos（Time Out）",
+       "url": "https://www.youtube.com/watch?v=guzih7327FA"
+      },
+      {
+       "type": "official",
+       "title": "230 Fifth 官網",
+       "url": "https://www.230-fifth.com/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "1/3",
+   "weekday": "日",
+   "title": "大橋日出與百老匯",
+   "area": "布魯克林大橋／下東城／時代廣場",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "清晨走布魯克林大橋看日出，下東城吃貝果和燻牛肉，下午看百老匯午場，晚上鑽電話亭進地下酒吧",
+   "stops": [
+    {
+     "time": "06:45",
+     "name": "布魯克林大橋日出步行（挑戰）",
+     "kind": "challenge",
+     "stay_min": 75,
+     "desc": "日出約 07:20。從曼哈頓 City Hall 端上橋，走 1.8 公里到布魯克林 DUMBO，回頭看下城大樓被曬成橘色；清晨人最少。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Brooklyn%20Bridge%20Pedestrian%20Walkway%20Manhattan%20entrance",
+     "site_url": "",
+     "address": "Brooklyn Bridge Pedestrian Walkway, Centre St, New York, NY 10007",
+     "tip": "橋上風大、體感零下，毛帽手套暖暖包都帶；走完在 DUMBO 拍 Washington St",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn%20Bridge%20At%20Sunrise.jpg?width=1200",
+      "credit": "Siddhen87（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Brooklyn Bridge Sunrise Walk, New York 4K（Momentum 4K）",
+       "url": "https://www.youtube.com/watch?v=GslHz5W_Bj8"
+      },
+      {
+       "type": "youtube",
+       "title": "SEEING THE SUNRISE FROM BROOKLYN BRIDGE - Must do in NYC（Katrina Xiao）",
+       "url": "https://www.youtube.com/watch?v=rjXExpf-G1U"
+      },
+      {
+       "type": "official",
+       "title": "NYC DOT 布魯克林大橋",
+       "url": "https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml"
+      }
+     ]
+    },
+    {
+     "time": "09:00",
+     "name": "Russ & Daughters（Houston St 本店）",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "1914 年開的猶太煙燻魚老店，招牌 Classic：貝果＋燻鮭魚＋奶油乳酪＋酸豆洋蔥。外帶一個約 $20 起。",
+     "price_for2_twd": 1780,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Russ%20%26%20Daughters%20179%20E%20Houston%20St%2C%20New%20York%2C%20NY%2010002",
+     "site_url": "",
+     "address": "179 E Houston St, New York, NY 10002",
+     "tip": "店裡抽號碼牌；想坐下來吃改去附近的 Russ & Daughters Cafe",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NYC%20-%20Russ%20%26%20Daughters%20Cafe%20%28Oct%202015%29%20-%2001.jpg?width=1200",
+      "credit": "City Foodsters（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Russ & Daughters 官方 Instagram @russanddaughters",
+       "url": "https://www.instagram.com/russanddaughters/"
+      },
+      {
+       "type": "youtube",
+       "title": "Why Russ & Daughters Has The Best Bagel In NYC（Insider Food）",
+       "url": "https://www.youtube.com/watch?v=XV3nJaJgVh4"
+      },
+      {
+       "type": "official",
+       "title": "Russ & Daughters 官網",
+       "url": "https://www.russanddaughters.com/"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "Katz's Delicatessen",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "1888 年開的燻牛肉三明治聖地（電影《當哈利遇上莎莉》那間）；一份燻牛肉三明治約 $30，兩人分一份＋湯就夠。",
+     "price_for2_twd": 2110,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Katz%27s%20Delicatessen%20205%20E%20Houston%20St%2C%20New%20York%2C%20NY%2010002",
+     "site_url": "",
+     "address": "205 E Houston St, New York, NY 10002",
+     "tip": "進門拿的票別弄丟（掉了要罰錢）；給切肉師傅 $1–2 小費會先切一片給你試吃",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katz%27s%20Delicatessen%20in%202019.jpg?width=1200",
+      "credit": "TaurusEmerald（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Katz's 官方 Instagram @katzsdeli",
+       "url": "https://www.instagram.com/katzsdeli/"
+      },
+      {
+       "type": "youtube",
+       "title": "How Katz's Became The Most Legendary Deli In NYC（Insider Food）",
+       "url": "https://www.youtube.com/watch?v=fLt5cKJelis"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "TKTS 時代廣場紅階梯：買今天百老匯折扣票",
+     "kind": "activity",
+     "stay_min": 45,
+     "desc": "官方當日票亭，最多 5 折；週日 11:00 開賣，買 15:00 午場（週日很多劇只演午場）。熱門劇不一定有，挑當天有折扣的；兩人約 $180–300。",
+     "price_for2_twd": 7790,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=TKTS%20Times%20Square%20Red%20Steps",
+     "site_url": "",
+     "address": "TKTS Times Square, W 47th St & Broadway, New York, NY 10036",
+     "tip": "先下載 TKTS app 看當天有哪些劇、排隊多久",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TKTS%20-%20Times%20Square%2C%20New%20York%2C%20NY%2C%20USA%20-%20August%2019%2C%202015%2001.jpg?width=1200",
+      "credit": "Giorgio Galeotti（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "TKTS by TDF 官網",
+       "url": "https://www.tdf.org/discount-ticket-programs/tkts-by-tdf/tkts-live/"
+      },
+      {
+       "type": "youtube",
+       "title": "How to Book (the best, CHEAPEST) Broadway Tickets（Katharine Quinn）",
+       "url": "https://www.youtube.com/watch?v=OhEdFYyg7EY"
+      },
+      {
+       "type": "youtube",
+       "title": "Skip the Long TKTS Booth Lines in Times Square（Better Together Here）",
+       "url": "https://www.youtube.com/watch?v=1UslNoE_WYY"
+      }
+     ]
+    },
+    {
+     "time": "15:00",
+     "name": "百老匯看一齣（午場）",
+     "kind": "activity",
+     "stay_min": 160,
+     "desc": "看 TKTS 買到的那齣。歌舞劇大約 2.5 小時，中場可以買飲料。票價算在 TKTS 那站。",
+     "price_for2_twd": 0,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Broadway%20Theater%20District%20New%20York",
+     "site_url": "",
+     "address": "Theater District, Broadway, New York",
+     "tip": "劇院冷氣強、座位窄，大外套可寄放",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bway%20Theater%20W53%20St%20nite%20King%20Kong%20jeh.jpg?width=1200",
+      "credit": "Jim.henderson（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Broadway on a Budget: How to See a Show Without Going Broke!（Sarah Funk）",
+       "url": "https://www.youtube.com/watch?v=5iiWdComhGM"
+      }
+     ]
+    },
+    {
+     "time": "20:00",
+     "name": "PDT Please Don't Tell（酒吧：電話亭裡的 speakeasy）",
+     "kind": "bar",
+     "stay_min": 100,
+     "desc": "走進東村熱狗店 Crif Dogs，鑽進角落的老電話亭按鈴，牆打開就是 2007 年開的傳奇地下酒吧；還能點隔壁的熱狗配雞尾酒。兩人兩杯＋熱狗約 $110。",
+     "price_for2_twd": 3570,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=PDT%20Please%20Don%27t%20Tell%20113%20St%20Marks%20Pl%2C%20New%20York%2C%20NY%2010009",
+     "site_url": "https://pdtnyc.com/",
+     "address": "113 St Marks Pl, New York, NY 10009",
+     "tip": "位子很少，當天先訂；客滿就走 10 分鐘到下東城的 Attaboy（沒有酒單，跟酒保說喜好）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crif%20Dogs%20entrance.jpg?width=1200",
+      "credit": "Tom Page（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "PDT 官方 Instagram @pdtnyc",
+       "url": "https://www.instagram.com/pdtnyc/"
+      },
+      {
+       "type": "youtube",
+       "title": "PLEASE DON'T TELL NYC BAR: Hidden Speakeasy!（Exit Thru the Gift Shop）",
+       "url": "https://www.youtube.com/watch?v=OgSaDODc1h8"
+      },
+      {
+       "type": "official",
+       "title": "PDT 官網（訂位）",
+       "url": "https://pdtnyc.com/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "date": "1/4",
+   "weekday": "一",
+   "title": "最後一天深夜飛",
+   "area": "Chelsea／West Village→JFK",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "市場早午餐、走高線公園、逛街買伴手禮，深夜搭長榮回台（1/6 清晨落地）",
+   "stops": [
+    {
+     "time": "10:30",
+     "name": "Chelsea Market 早午餐",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "舊餅乾工廠改的室內市場：Los Tacos No.1 的墨西哥捲餅、Lobster Place 的龍蝦捲都很有名，邊走邊吃。",
+     "price_for2_twd": 1620,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Chelsea%20Market%20%E6%97%A9%E5%8D%88%E9%A4%90%2075%209th%20Ave%2C%20New%20York%2C%20NY%2010011",
+     "site_url": "",
+     "address": "75 9th Ave, New York, NY 10011",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chelsea%20Market%20October%202025.jpg?width=1200",
+      "credit": "Kidfly182（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Chelsea Market 官方 Instagram @chelseamarketny",
+       "url": "https://www.instagram.com/chelseamarketny/"
+      },
+      {
+       "type": "youtube",
+       "title": "NYC NOODLES & PIZZA FOOD TOUR of Chelsea Market（Miss Mina）",
+       "url": "https://www.youtube.com/watch?v=mNz8Z3Z1zpE"
+      },
+      {
+       "type": "official",
+       "title": "Chelsea Market 官網",
+       "url": "https://www.chelseamarket.com/"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "High Line 空中鐵道公園→Hudson Yards",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "廢棄高架鐵道改成的步道，從 Gansevoort St 一路走到 34 街 Hudson Yards，2.3 公里，冬天人少好拍。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=High%20Line%20Gansevoort%20Street%20entrance",
+     "site_url": "",
+     "address": "High Line, Gansevoort St entrance, New York, NY 10014",
+     "tip": "冬季開放時間較短（約 7:00–19:00，待確認）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/High%20Line%20Park%2C%20Section%201%2C%20in%20late%20winter.jpg?width=1200",
+      "credit": "Dansnguyen（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "The High Line 官方 Instagram @highlinenyc",
+       "url": "https://www.instagram.com/highlinenyc/"
+      },
+      {
+       "type": "official",
+       "title": "The High Line 官網",
+       "url": "https://www.thehighline.org/"
+      }
+     ]
+    },
+    {
+     "time": "14:30",
+     "name": "West Village／SoHo 逛街",
+     "kind": "shop",
+     "stay_min": 180,
+     "desc": "Bleecker St 一帶的小店、唱片行、甜點店，SoHo 有各大品牌旗艦店；買伴手禮的最後機會。",
+     "price_for2_twd": null,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Bleecker%20Street%20West%20Village%20New%20York",
+     "site_url": "",
+     "address": "Bleecker St, New York, NY 10014",
+     "tip": "美國標價不含 8.875% 銷售稅，結帳會多一點",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John%27s%20of%20Bleecker%20Street%20001.jpg?width=1200",
+      "credit": "Kidfly182（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "19:30",
+     "name": "回飯店拿行李→計程車到 JFK",
+     "kind": "transport",
+     "stay_min": 120,
+     "desc": "回飯店拿寄放的行李（白天先退房），20:30 叫車，晚上約 1 小時到 JFK，21:30 前到櫃台。",
+     "price_for2_twd": 3250,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=John%20F.%20Kennedy%20International%20Airport",
+     "site_url": "",
+     "address": "JFK Airport, Queens, NY 11430",
+     "tip": "長榮在 JFK 的航廈以出發前官網公告為準",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AirTrain%20JFK%20Terminal%204.jpg?width=1200",
+      "credit": "Simeon87（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "JFK 機場官網",
+       "url": "https://www.jfkairport.com/"
+      }
+     ]
+    },
+    {
+     "time": "00:05",
+     "name": "長榮直飛回台（1/5 00:05 起飛）",
+     "kind": "transport",
+     "stay_min": 1035,
+     "desc": "1/5（二）00:05 起飛，飛 17 小時 15 分，1/6（三）06:20 回到桃園。注意：班機日期寫 1/5，其實是 1/4 週一深夜。",
+     "price_for2_twd": null,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%A6%AE%E7%9B%B4%E9%A3%9B%E5%9B%9E%E5%8F%B0%20John%20F.%20Kennedy%20International%20Airport",
+     "site_url": "",
+     "address": "John F. Kennedy International Airport",
+     "tip": "1/6 清晨落地，當天直接上班會很累，可以排休",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/EVA%20Air%20Boeing%20777-300ER%20B-16739%20landing%20at%20Taoyuan%20February%202026.jpg?width=1200",
+      "credit": "4300streetcar（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "長榮航空官網",
+       "url": "https://www.evaair.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "Joe's Pizza",
+   "dish": "起司一片約 $4–5（經典紐約一片披薩）",
+   "price_for2_twd": 520,
+   "area": "時代廣場 Broadway 店／Greenwich Village 本店",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Joe%27s%20Pizza%201435%20Broadway%20New%20York",
+   "why": "1975 年開業；Barstool 披薩評分頻道、UA Eats 都評過，紐約一片披薩的標準答案",
+   "source": "https://www.joespizzanyc.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%27s%20Pizza%2C%20Greenwich%20Village%2C%20NYC.jpg?width=1200",
+    "credit": "Steam Pipe Trunk Distribution Venue（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Joe's Pizza 官方 Instagram @joespizzanyc",
+     "url": "https://www.instagram.com/joespizzanyc/"
+    },
+    {
+     "type": "youtube",
+     "title": "Barstool Pizza Review - The Original Joe's Pizza（One Bite Pizza Reviews）",
+     "url": "https://www.youtube.com/watch?v=-ZK3apcuXpk"
+    }
+   ]
+  },
+  {
+   "name": "L'Industrie Pizzeria",
+   "dish": "Burrata 切片、季節切片，一片約 $5–9",
+   "price_for2_twd": 1140,
+   "area": "布魯克林 Williamsburg（另有 West Village 分店）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=L%27Industrie%20Pizzeria%20254%20S%202nd%20St%20Brooklyn",
+   "why": "Bon Appétit《On The Line》專題、Barstool 高分，近年紐約排隊最久的一片披薩",
+   "source": "https://www.lindustriebk.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Slices%20of%20thin-crust%20New%20York%20style%20pizza.jpg?width=1200",
+    "credit": "Wikiuser100（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "L'Industrie 官方 Instagram @lindustriebk",
+     "url": "https://www.instagram.com/lindustriebk/"
+    },
+    {
+     "type": "youtube",
+     "title": "Brooklyn's Hottest Pizzeria is Reinventing The New York Slice（Bon Appétit）",
+     "url": "https://www.youtube.com/watch?v=frocQGzc53I"
+    }
+   ]
+  },
+  {
+   "name": "Russ & Daughters",
+   "dish": "The Classic 燻鮭魚貝果，約 $20 起",
+   "price_for2_twd": 1780,
+   "area": "下東城 Houston St",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Russ%20%26%20Daughters%20179%20E%20Houston%20St%20New%20York",
+   "why": "1914 年開的猶太煙燻魚老店，Insider Food 稱紐約最好的貝果",
+   "source": "https://www.russanddaughters.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lox%20Bagel%20Sandwich%20with%20Cream%20Cheese%20Schmear%20Onion%20Tomato.jpg?width=1200",
+    "credit": "LinguisticsGirl.Librarian（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Russ & Daughters 官方 Instagram @russanddaughters",
+     "url": "https://www.instagram.com/russanddaughters/"
+    },
+    {
+     "type": "youtube",
+     "title": "Why Russ & Daughters Has The Best Bagel In NYC（Insider Food）",
+     "url": "https://www.youtube.com/watch?v=XV3nJaJgVh4"
+    }
+   ]
+  },
+  {
+   "name": "Ess-a-Bagel",
+   "dish": "Everything bagel＋奶油乳酪，一個約 $5–15",
+   "price_for2_twd": 970,
+   "area": "Gramercy 1st Ave",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Ess-a-Bagel%20324%201st%20Ave%20New%20York",
+   "why": "官網寫『40 年票選紐約最佳貝果』；手捲大貝果。想吃 Absolute Bagels 改去上西城 108 街（沒有官方 IG）",
+   "source": "https://www.essabagel.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ess-a-bagel%20in%20NYC.jpg?width=1200",
+    "credit": "victorgrigas（Wikimedia Commons）",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Ess-a-Bagel 官方 Instagram @essabagel",
+     "url": "https://www.instagram.com/essabagel/"
+    },
+    {
+     "type": "youtube",
+     "title": "The Goldbelly Show: Live from Ess-a-Bagel in NYC（Goldbelly）",
+     "url": "https://www.youtube.com/watch?v=KoUtMtmfcvc"
+    }
+   ]
+  },
+  {
+   "name": "Katz's Delicatessen",
+   "dish": "燻牛肉三明治 Pastrami on rye，約 $30（兩人分一份）",
+   "price_for2_twd": 2110,
+   "area": "下東城 Houston St",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Katz%27s%20Delicatessen%20205%20E%20Houston%20St%20New%20York",
+   "why": "1888 年開業、《當哈利遇上莎莉》取景；Insider《Legendary Eats》740 萬觀看",
+   "source": "https://www.youtube.com/watch?v=fLt5cKJelis",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katz%27s%20pastrami%20sandwich.jpg?width=1200",
+    "credit": "Gerda Arendt（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Katz's 官方 Instagram @katzsdeli",
+     "url": "https://www.instagram.com/katzsdeli/"
+    },
+    {
+     "type": "youtube",
+     "title": "How Katz's Became The Most Legendary Deli In NYC（Insider Food）",
+     "url": "https://www.youtube.com/watch?v=fLt5cKJelis"
+    }
+   ]
+  },
+  {
+   "name": "Keens Steakhouse",
+   "dish": "Mutton chop 羊排、乾式熟成牛排；兩人含稅小費約 $260",
+   "price_for2_twd": 8430,
+   "area": "中城 Herald Square",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Keens%20Steakhouse%2072%20W%2036th%20St%20New%20York",
+   "why": "1885 年老店，Insider、Eater 都拍過招牌羊排；比 Peter Luger 好訂、氣氛更老派",
+   "source": "https://www.keens.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keens%20Steakhouse%20%28Manhattan%2C%20New%20York%29%20001.jpg?width=1200",
+    "credit": "Leonard J. DeFrancisci（Wikimedia Commons）",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Keens 官方 Instagram @keenssteakhouse",
+     "url": "https://www.instagram.com/keenssteakhouse/"
+    },
+    {
+     "type": "youtube",
+     "title": "Why This 130-Year-Old Steakhouse Is Actually Best Known For Mutton Chops（Insider Food）",
+     "url": "https://www.youtube.com/watch?v=krlT6q5b9QY"
+    }
+   ]
+  },
+  {
+   "name": "Cote Korean Steakhouse",
+   "dish": "Butcher's Feast 四種牛肉套餐，每人約 $80+",
+   "price_for2_twd": 9080,
+   "area": "Flatiron（離韓國城走路 10 分）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Cote%20Korean%20Steakhouse%2016%20W%2022nd%20St%20New%20York",
+   "why": "米其林一星韓式烤肉；Eater 影片 1,200 萬觀看、英國男子 영국남자 也拍過",
+   "source": "https://www.cotenyc.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cote%20%28restaurant%29%2022St%20HDR%202022%20jeh.jpg?width=1200",
+    "credit": "Jim.henderson（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Cote 官方 Instagram @cotenyc",
+     "url": "https://www.instagram.com/cotenyc/"
+    },
+    {
+     "type": "youtube",
+     "title": "Trying the ONLY Michelin Star Korean BBQ in the World.（영국남자 Korean Englishman）",
+     "url": "https://www.youtube.com/watch?v=3RDGsU8FT-I"
+    }
+   ]
+  },
+  {
+   "name": "Totto Ramen",
+   "dish": "雞白湯拉麵一碗約 $20",
+   "price_for2_twd": 1690,
+   "area": "地獄廚房 52nd St",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Totto%20Ramen%20366%20W%2052nd%20St%20New%20York",
+   "why": "紐約排隊拉麵代表之一，華人與日本 YouTuber 都推；離飯店近，跨年夜跑前吃熱湯",
+   "source": "https://tottoramen.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tori-baitang%20ramen.jpg?width=1200",
+    "credit": "Totti（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Totto Ramen 官方 Instagram @tottoramen",
+     "url": "https://www.instagram.com/tottoramen/"
+    },
+    {
+     "type": "youtube",
+     "title": "【鸟人拉面】纽约美食 | 超人气拉面 | Totto Ramen（尔湾安安Ann）",
+     "url": "https://www.youtube.com/watch?v=oTPFkhNZrig"
+    }
+   ]
+  },
+  {
+   "name": "Levain Bakery",
+   "dish": "巧克力核桃巨型餅乾，一顆約 $5–6",
+   "price_for2_twd": 420,
+   "area": "上西城 74th St",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Levain%20Bakery%20167%20W%2074th%20St%20New%20York",
+   "why": "1995 年元祖店，紐約時報形容『可能是全曼哈頓最大的餅乾』",
+   "source": "https://www.levainbakery.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levain%20Bakery%20-%20The%20Best%20Cookies%20in%20the%20World%20-%20Chocolate%20Chocolate%20Chip%2C%20Oatmeal%20Raisin%2C%20Chocolate%20Chip%20Walnut.jpg?width=1200",
+    "credit": "Biskuit（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Levain Bakery 官方 Instagram @levainbakery",
+     "url": "https://www.instagram.com/levainbakery/"
+    },
+    {
+     "type": "youtube",
+     "title": "Why Levain Bakery Is NYC's Favorite Cookie Shop（Insider Food）",
+     "url": "https://www.youtube.com/watch?v=07_oj-QXUl0"
+    }
+   ]
+  },
+  {
+   "name": "Crif Dogs",
+   "dish": "培根捲炸熱狗，一支約 $8–10",
+   "price_for2_twd": 650,
+   "area": "東村 St Marks Pl（PDT 入口）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Crif%20Dogs%20113%20St%20Marks%20Pl%20New%20York",
+   "why": "深夜熱狗名店，裡面的電話亭就是 PDT 地下酒吧的入口",
+   "source": "https://www.crifdogs.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crif%20Dogs%20entrance.jpg?width=1200",
+    "credit": "Tom Page（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Crif Dogs 官方 Instagram @crifdogs",
+     "url": "https://www.instagram.com/crifdogs/"
+    },
+    {
+     "type": "youtube",
+     "title": "Speakeasy in New York: Please Don't Tell (PDT) at Crif Dogs（Andressa Cobucci）",
+     "url": "https://www.youtube.com/watch?v=VFV6EhhkkIw"
+    }
+   ]
+  },
+  {
+   "name": "Chelsea Market",
+   "dish": "Los Tacos No.1 墨西哥捲餅、Lobster Place 龍蝦捲",
+   "price_for2_twd": 1620,
+   "area": "Chelsea 9th Ave",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Chelsea%20Market%2075%209th%20Ave%20New%20York",
+   "why": "舊 Nabisco 餅乾工廠改的室內市場，冬天也能邊走邊吃",
+   "source": "https://www.chelseamarket.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chelsea%20Market%20October%202025.jpg?width=1200",
+    "credit": "Kidfly182（Wikimedia Commons）",
+    "license": "CC BY 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Chelsea Market 官方 Instagram @chelseamarketny",
+     "url": "https://www.instagram.com/chelseamarketny/"
+    },
+    {
+     "type": "youtube",
+     "title": "NYC NOODLES & PIZZA FOOD TOUR of Chelsea Market（Miss Mina）",
+     "url": "https://www.youtube.com/watch?v=mNz8Z3Z1zpE"
+    }
+   ]
+  },
+  {
+   "name": "Peter Luger Steak House（備選牛排館）",
+   "dish": "午餐限定漢堡約 $25；牛排雙人份約 $150",
+   "price_for2_twd": 2270,
+   "area": "布魯克林 Williamsburg",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Peter%20Luger%20Steak%20House%20178%20Broadway%20Brooklyn",
+   "why": "1887 年的布魯克林傳奇牛排館；行程沒排，1/1 去 Williamsburg 時想吃可替換 L'Industrie（營業時間待確認）",
+   "source": "https://www.peterluger.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Luger%20Steak%20House%20%28Brooklyn%2C%20New%20York%29%20001%20crop.jpg?width=1200",
+    "credit": "Leonard J. DeFrancisci（Wikimedia Commons）",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Peter Luger 官方 Instagram @peterlugersteakhouse",
+     "url": "https://www.instagram.com/peterlugersteakhouse/"
+    },
+    {
+     "type": "youtube",
+     "title": "Why Peter Luger Is The Most Legendary Steakhouse In NYC（Insider Food）",
+     "url": "https://www.youtube.com/watch?v=pNnM-QJCY4I"
+    }
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "name": "NYRR Midnight Run 跨年午夜跑",
+   "what": "12/31 23:59 倒數、午夜煙火一放就起跑，繞中央公園 4 英里（6.4 公里）",
+   "price_for2_twd": 4800,
+   "duration": "21:30 集合～00:50 跑完",
+   "booking": "需報名（非會員 $74.02／人；一般組已售完，現在只剩可計入 9+1 的組別名額）",
+   "season_ok": true,
+   "url": "https://events.nyrr.org/nyrr-midnight-run",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Naumburg%20Bandshell%20Central%20Park",
+   "note": "10/16 官網顯示仍可報名，名額可能隨時賣完；號碼布怎麼領以賽前公告為準。外國人也能報名（不需會員）。",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20Park%20on%20foggy%20night.jpg?width=1200",
+    "credit": "Steveen Manon from New York, United States. Cropped and slig（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "NYRR Midnight Run 官方報名頁",
+     "url": "https://events.nyrr.org/nyrr-midnight-run"
+    },
+    {
+     "type": "ig",
+     "title": "New York Road Runners @nyrr",
+     "url": "https://www.instagram.com/nyrr/"
+    },
+    {
+     "type": "youtube",
+     "title": "NYRR MIDNIGHT RUN 2025（Emma Adams）",
+     "url": "https://www.youtube.com/watch?v=6H61lcFbp1k"
+    }
+   ]
+  },
+  {
+   "name": "布魯克林大橋清晨步行",
+   "what": "06:45 從曼哈頓端上橋，零度下走 1.8 公里看日出到 DUMBO",
+   "price_for2_twd": 0,
+   "duration": "1 小時",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Brooklyn%20Bridge%20Pedestrian%20Walkway%20Manhattan%20entrance",
+   "note": "日出約 07:20；風大體感零下，戴毛帽手套",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn%20Bridge%20At%20Sunrise.jpg?width=1200",
+    "credit": "Siddhen87（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "youtube",
+     "title": "Brooklyn Bridge Sunrise Walk, New York 4K（Momentum 4K）",
+     "url": "https://www.youtube.com/watch?v=GslHz5W_Bj8"
+    },
+    {
+     "type": "youtube",
+     "title": "SEEING THE SUNRISE FROM BROOKLYN BRIDGE（Katrina Xiao）",
+     "url": "https://www.youtube.com/watch?v=rjXExpf-G1U"
+    }
+   ]
+  },
+  {
+   "name": "Bryant Park 戶外溜冰",
+   "what": "帝國大廈旁的免費入場溜冰場，租鞋即可下場",
+   "price_for2_twd": 1950,
+   "duration": "1–1.5 小時",
+   "booking": "建議線上預約時段",
+   "season_ok": true,
+   "url": "https://bryantpark.org/activities/the-rink",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Bryant%20Park%20Winter%20Village%20The%20Rink",
+   "note": "2026/10/28–2027/2/28 開放；租鞋 $18.72–64.48（尖峰貴）。想在洛克斐勒溜：年底尖峰每人約 $75–124（待確認）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Winter%20Village%20at%20Bryant%20Park%20%28December%202023%29%2003.jpg?width=1200",
+    "credit": "Kiran891（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Bryant Park The Rink",
+     "url": "https://bryantpark.org/activities/the-rink"
+    },
+    {
+     "type": "ig",
+     "title": "Bryant Park @bryantparknyc",
+     "url": "https://www.instagram.com/bryantparknyc/"
+    },
+    {
+     "type": "youtube",
+     "title": "Bryant Park Winter Village 2025（Your Unofficial Guide）",
+     "url": "https://www.youtube.com/watch?v=hVLqeaB2sTo"
+    }
+   ]
+  },
+  {
+   "name": "時代廣場水晶球（極限版，不推薦）",
+   "what": "免費但要下午就進場卡位，站 9 小時：沒有流動廁所、沒有餐飲攤、離開就回不來、不能帶背包雨傘和酒",
+   "price_for2_twd": 0,
+   "duration": "15:00～00:15（9 小時以上）",
+   "booking": "免票、先到先站",
+   "season_ok": true,
+   "url": "https://www.timessquarenyc.org/nye/nye-faq",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Times%20Square%20New%20York",
+   "note": "官方 FAQ：觀賞區 15:00 開放、入口只在 6th／8th Ave 的 45、49、52、56 街；台灣 YouTuber 包尿布站 12 小時。想體驗改看電視轉播，或付費進周邊餐廳派對",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Times%20Square%20New%20Year%27s%20Eve%202023%20Numbers%20Ball%20drop%20%2852579744724%29.jpg?width=1200",
+    "credit": "Anthony Quintano from Mount Laurel, United States（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Times Square NYE 官方 FAQ",
+     "url": "https://www.timessquarenyc.org/nye/nye-faq"
+    },
+    {
+     "type": "youtube",
+     "title": "【此生必去時代廣場跨年！包尿布站12hrs壯觀全紀錄】（台灣達人秀）",
+     "url": "https://www.youtube.com/watch?v=TfBtm0jkO1o"
+    },
+    {
+     "type": "youtube",
+     "title": "Tips for Watching the Times Square Ball Drop（Tours by Foot）",
+     "url": "https://www.youtube.com/watch?v=0GLuqBsHxeI"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 111244,
+  "stay_for2": 60657,
+  "food_for2": [
+   45000,
+   60000
+  ],
+  "transport_for2": [
+   8000,
+   11000
+  ],
+  "activities_for2": [
+   22000,
+   32000
+  ],
+  "total_for2": [
+   241000,
+   284000
+  ],
+  "note": "匯率 1 USD≈32.44 TWD（10/16）。機票＝長榮直飛 55,622×2（10/16 Google 航班實查）；住宿＝Arlo Midtown 12/30→1/4 共 5 晚 60,657（Booking 實查），低估用 Hoxton 54,836、高估加紐約住宿稅約 15% 到 70,000（Booking 卡片是否含稅待結帳頁確認）。吃＝各店菜單價加稅 8.875% 與小費：餐廳 18–22%、酒吧每杯 $1–2，含 5 晚酒吧約 1.5 萬、Keens＋Cote 兩頓約 1.75 萬；交通＝JFK 計程車來回約 6,500＋OMNY 地鐵每人 7 天封頂 $35；活動＝大都會 $60、Top of the Rock 與 SUMMIT 各約 $100、百老匯 TKTS 兩張 $180–300、午夜跑 $148、Village Vanguard 約 $90、溜冰租鞋、ESTA 兩人 $81。未含旅遊保險（美國醫療貴，建議保）。"
+ },
+ "weather": {
+  "high_c": 5,
+  "low_c": -3,
+  "conditions": "乾冷、常陰天，偶爾下雪；河邊和橋上風很大",
+  "sunrise": "07:20",
+  "sunset": "16:38",
+  "wear": "發熱衣＋毛衣＋防風防水羽絨外套、毛帽、圍巾、觸控手套、防滑靴；12/31 晚上跑步：排汗長袖＋薄刷毛＋可脫的外套，跑前跑後各一套"
+ },
+ "events": [
+  {
+   "date": "12/31",
+   "name": "NYRR Midnight Run（中央公園午夜煙火＋4 英里路跑）",
+   "note": "2026 年版已公告：12/31 23:59、4 英里、非會員 $74.02；午夜煙火即起跑。本行程主推",
+   "url": "https://events.nyrr.org/nyrr-midnight-run"
+  },
+  {
+   "date": "12/31",
+   "name": "時代廣場水晶球降落",
+   "note": "免費、不用票；觀賞區 15:00 開放，18:00 升球、23:59 降落；沒有廁所和餐飲、離開不能回來。官方 FAQ 目前是 2025 年版",
+   "url": "https://www.timessquarenyc.org/nye/nye-faq"
+  },
+  {
+   "date": "12/31",
+   "name": "Prospect Park 跨年煙火（布魯克林 Grand Army Plaza）",
+   "note": "免費。2025 年版約 22:00 起現場音樂、午夜放煙火；2026 年版待公告（不想跑步的替代方案）",
+   "url": "https://www.prospectpark.org/"
+  },
+  {
+   "date": "12/31",
+   "name": "230 Fifth 屋頂跨年派對",
+   "note": "2027 跨年場已開賣：20:00–02:00，開放酒吧到 00:30、香檳倒數，$250／人起（21 歲以上）",
+   "url": "https://www.eventbrite.com/e/new-years-eve-2027-230-fifth-rooftop-tickets-1988771602399"
+  },
+  {
+   "date": "12/31",
+   "name": "跨年煙火遊船（Circle Line 等）",
+   "note": "從港口看自由女神與煙火，GetYourGuide 上 Circle Line 21+ 派對船 $279／人起；越接近越貴",
+   "url": "https://www.circleline.com/"
+  },
+  {
+   "date": "12/30–1/4",
+   "name": "洛克斐勒中心聖誕樹",
+   "note": "每年 12 月初點燈，通常亮到 1 月上旬（2026–27 撤樹日期待確認）",
+   "url": "https://www.rockefellercenter.com/"
+  },
+  {
+   "date": "12/30–1/4",
+   "name": "Bryant Park Winter Village",
+   "note": "溜冰場 2026/10/28–2027/2/28 開放、免費入場；聖誕市集通常開到 1 月初",
+   "url": "https://bryantpark.org/activities/the-rink"
+  }
+ ],
+ "prep": [
+  {
+   "item": "申請 ESTA（美國免簽電子旅行許可）：只用官方網站 esta.cbp.dhs.gov，每人 $40.62（10/16 起新價），核准後效期 2 年（或到護照到期）；官方建議至少出發前 72 小時申請，非官方代辦網站會多收錢",
+   "when": "11/30 前（最晚 12/24）",
+   "url": "https://esta.cbp.dhs.gov/"
+  },
+  {
+   "item": "訂長榮直飛 TPE⇄JFK（12/30 去、1/5 00:05 回＝1/6 06:20 落地），10/16 每人 55,622",
+   "when": "越早越好",
+   "url": "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-30%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+  },
+  {
+   "item": "訂 Arlo Midtown 12/30→1/4（可免費取消）",
+   "when": "10 月底前（跨年週會漲）",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Arlo+Midtown&checkin=2026-12-30&checkout=2027-01-04&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD"
+  },
+  {
+   "item": "報名 NYRR Midnight Run（兩人，非會員 $74.02／人）",
+   "when": "現在（名額隨時賣完）",
+   "url": "https://events.nyrr.org/nyrr-midnight-run"
+  },
+  {
+   "item": "訂 Cote 1/1 18:30、Keens 1/2 18:30（Resy／官網）",
+   "when": "11 月底（約前 30 天開放）",
+   "url": "https://www.keens.com/"
+  },
+  {
+   "item": "買 SUMMIT 1/1 日落、Top of the Rock 1/2 日落門票",
+   "when": "12 月初",
+   "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck"
+  },
+  {
+   "item": "Village Vanguard 1/1 22:00 場、PDT 1/3 訂位",
+   "when": "演出表公布後／當天",
+   "url": "https://villagevanguard.com/"
+  },
+  {
+   "item": "保旅平險＋海外醫療（美國看病很貴）、買美國 eSIM、手機設定 Apple Pay／Google Pay 直接刷 OMNY",
+   "when": "出發前一週",
+   "url": "https://omny.info/"
+  }
+ ],
+ "risks": [
+  "冷：白天約 5°C、晚上 −3°C，橋上與河邊體感更低；12/31 要在戶外待到凌晨 1 點",
+  "回程班機寫 1/5 00:05，實際是 1/4 週一深夜，千萬別 1/5 晚上才去機場；落地台灣是 1/6（三）06:20",
+  "Midnight Run 名額可能賣完；沒報到就改 Prospect Park 免費煙火或 230 Fifth 屋頂派對（$250／人起）",
+  "菜單價不含 8.875% 稅與 18–22% 小費，餐廳帳單實際多約 30%；酒吧每杯給 $1–2",
+  "12/31 時代廣場周邊從中午起封街、地鐵 49 St（N/R/W）與 50 St（1 號線）中午到 00:15 不停靠",
+  "大都會博物館週三與 1/1 休館；Cote、L'Industrie、Village Vanguard 的 1/1 營業／演出待確認",
+  "Booking 房價可能不含紐約住宿稅（約 14.75%＋每晚 $3.50），結帳頁再確認",
+  "時差 13 小時，到紐約隔天就是跨年夜：早上會很早醒，下午一定要補眠，否則撐不到午夜跑"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：飛紐約",
+    "icons": [
+     "plane",
+     "night",
+     "beer"
+    ],
+    "caption": "晚上到、一片披薩"
+   },
+   {
+    "title": "第二天：跑進2027",
+    "icons": [
+     "coffee",
+     "ramen",
+     "fireworks",
+     "beer"
+    ],
+    "caption": "溜冰、午夜跑"
+   },
+   {
+    "title": "第三天：布魯克林",
+    "icons": [
+     "camera",
+     "tower",
+     "bbq",
+     "night"
+    ],
+    "caption": "披薩、韓烤、爵士"
+   },
+   {
+    "title": "第四天：公園與聖誕樹",
+    "icons": [
+     "park",
+     "museum",
+     "tower",
+     "beer"
+    ],
+    "caption": "大都會、日落夜景"
+   },
+   {
+    "title": "第五天：大橋日出",
+    "icons": [
+     "sunrise",
+     "bridge",
+     "night",
+     "beer"
+    ],
+    "caption": "燻牛肉、百老匯"
+   },
+   {
+    "title": "第六天：深夜回家",
+    "icons": [
+     "market",
+     "park",
+     "shopping",
+     "plane"
+    ],
+    "caption": "市場、高線、回台"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "【此生必去時代廣場跨年！包尿布站12hrs壯觀全紀錄】｜@iris.416",
+   "channel": "台灣達人秀",
+   "url": "https://www.youtube.com/watch?v=TfBtm0jkO1o",
+   "takeaway": "台灣人實際在時代廣場站 12 小時、包尿布的過程，確認水晶球不適合他們，改排午夜跑"
+  },
+  {
+   "title": "紐約跨年🇺🇸花了五萬買門票差點看不到紐約時代廣場跨年？",
+   "channel": "Jenn 珍妮",
+   "url": "https://www.youtube.com/watch?v=X46qcuTgjX4",
+   "takeaway": "付費派對票也可能因封街進不去；買跨年派對票要問清楚入口"
+  },
+  {
+   "title": "NYRR MIDNIGHT RUN 2025",
+   "channel": "Emma Adams",
+   "url": "https://www.youtube.com/watch?v=6H61lcFbp1k",
+   "takeaway": "去年午夜跑現場：煙火同時起跑、很多人變裝、跑完很冷，要準備換穿的衣服"
+  },
+  {
+   "title": "Tips for Watching the Times Square Ball Drop | NYC New Year's Eve",
+   "channel": "Tours by Foot - New York",
+   "url": "https://www.youtube.com/watch?v=0GLuqBsHxeI",
+   "takeaway": "時代廣場進場時間、入口與限制，寫進 challenges 的極限版說明"
+  },
+  {
+   "title": "紐約景點～紐約三大景觀台完整比較～Summit・帝國大廈・Top of the Rock",
+   "channel": "ELLY 親子旅遊趣",
+   "url": "https://www.youtube.com/watch?v=5Iul7e-Ii6U",
+   "takeaway": "Top of the Rock 看得到帝國大廈＋中央公園、SUMMIT 好拍鏡面，所以兩個都排、分兩天看日落"
+  },
+  {
+   "title": "2024 紐約旅遊懶人包 | 三天精華行程安排 | 住宿交通美食推薦",
+   "channel": "JBros不回家",
+   "url": "https://www.youtube.com/watch?v=ImRyk-4SwXE",
+   "takeaway": "住中城走路就能到大部分景點、OMNY 直接刷卡，確認住 Midtown 的安排"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-30%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-29%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-30%20through%202027-01-04%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.google.com/travel/flights?q=Flights%20to%20JFK%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.google.com/travel/flights?q=Flights%20to%20NYC%20from%20RMQ%20on%202026-12-28%20through%202027-01-03&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.booking.com/searchresults.zh-tw.html?ss=Arlo+Midtown&checkin=2026-12-30&checkout=2027-01-04&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+  "https://www.booking.com/searchresults.zh-tw.html?ss=citizenM+New+York+Bowery&checkin=2026-12-30&checkout=2027-01-04&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+  "https://www.booking.com/searchresults.zh-tw.html?ss=The+Hoxton+Williamsburg&checkin=2026-12-30&checkout=2027-01-04&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+  "https://events.nyrr.org/nyrr-midnight-run",
+  "https://www.timessquarenyc.org/nye/nye-faq",
+  "https://esta.cbp.dhs.gov/",
+  "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck",
+  "https://summitov.com/tickets/",
+  "https://www.metmuseum.org/plan-your-visit",
+  "https://bryantpark.org/activities/the-rink",
+  "https://www.eventbrite.com/e/new-years-eve-2027-230-fifth-rooftop-tickets-1988771602399",
+  "https://villagevanguard.com/faq/",
+  "https://www.rudysbarnyc.com/",
+  "https://www.therumhousenyc.com/location/the-rum-house/",
+  "https://omny.info/fares",
+  "https://www.nyc.gov/site/tlc/passengers/taxi-fare.page"
+ ],
+ "checked": "2026-10-16"
+}

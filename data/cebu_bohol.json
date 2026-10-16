@@ -11,12 +11,12 @@
   "soft": "#E6F7FB"
  },
  "tagline": "最便宜的挑戰型海島跨年",
- "summary": "桃園直飛 3 小時，披索便宜，兩人全包估 4.4–5.2 萬。前兩晚住薄荷島 Alona 海灘：眼鏡猴、巧克力山、河上吃午餐、和海龜浮潛；12/31 回宿霧市區跟當地人一起在 Plaza Independencia 免費倒數看煙火；1/1 直接去 Kawasan 溪降跳水＋Moalboal 沙丁魚風暴，晚上在 Chili Bar 看夕陽收尾。",
+ "summary": "桃園直飛 3 小時，披索便宜，兩人全包估 5.3–6.1 萬。前兩晚住薄荷島 Alona 海灘：眼鏡猴、巧克力山、河上吃午餐；12/30 早上和海龜浮潛後坐船回宿霧、直接南下 Moalboal；12/31 白天 Kawasan 溪降跳水＋沙丁魚風暴，傍晚回宿霧市區跟當地人一起在 Plaza Independencia 免費倒數看煙火；1/1 睡飽，搭晚班機回家。",
  "dates": {
-  "out": "12/29",
-  "back": "1/2",
+  "out": "12/28",
+  "back": "1/1（晚上 19:35 起飛）",
   "nights": 4,
-  "why": "12/31 宿霧市政府在 Plaza Independencia 辦免費跨年倒數＋煙火（同時揭幕 Sinulog）；1/2 週六回台還能休兩天；避開 12/27–28 聖誕後出國高峰。長榮去程 08:00 早班符合偏好，回程 12:15 偏早是唯一缺點"
+  "why": "12/31 宿霧市政府在 Plaza Independencia 辦免費跨年倒數＋煙火（同時揭幕 Sinulog）。12/28 去、1/1 回的星宇直飛每人 NT$15,836，比原本 12/29→1/2（每人 NT$19,778）省 NT$3,942；去程 06:55 早班、回程 1/1 晚上 19:35，跨年隔天還能睡飽。想省錢可改 1/1→1/5（1/5 晚上 22:25 回到台灣），每人 NT$13,097、再省 NT$2,739，但跨年就不在宿霧"
  },
  "flights": [
   {
@@ -35,6 +35,22 @@
    "note": "易遊網 RMQ→CEB 頁面：全部需轉機（吉祥 LJ 單程 7,206 起／國泰 CX 7,945 起），沒有任何直飛；台中起飛者建議改桃園",
    "basis": "10/16 Google 航班：台中沒有直飛宿霧；轉機每人 NT$18,049 起（越捷經胡志明 20,245、香港快運＋國泰 21,268），比桃園直飛還貴，不建議",
    "kind": "transfer"
+  },
+  {
+   "from": "TPE",
+   "to": "CEB",
+   "airline": "星宇 JX781／JX782（直飛）",
+   "out": "12/28 06:55→09:50",
+   "back": "1/1 19:35→22:25",
+   "price_pp_twd": 15836,
+   "baggage": "含托運（待確認）",
+   "fits_time_pref": true,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 傍晚實查：12/28 06:55→09:50 星宇直飛、1/1 19:35 回程，來回每人 NT$15,836（含稅），比原 12/29→1/2 每人省 NT$3,942；同日長榮 08:20 班 20,274",
+   "note": "去程 06:55 要 04:30 前到桃園機場"
   },
   {
    "from": "TPE",
@@ -65,7 +81,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "Kayak 列星宇直飛最低 NT$7,660（非指定日期）；回程 10:50 太早，從 Moalboal 回來趕不上，若選星宇要把第 4 晚改住宿霧市區。星宇官網 12/31 前訂 2027/2/13 前出發輸入 JX2025PDOT 折 1,000（新聞見，待確認）",
+   "note": "原主推（12/29→1/2）；Kayak 列星宇直飛最低 NT$7,660（非指定日期）；回程 10:50 太早，從 Moalboal 回來趕不上，若選星宇要把第 4 晚改住宿霧市區。星宇官網 12/31 前訂 2027/2/13 前出發輸入 JX2025PDOT 折 1,000（新聞見，待確認）",
    "basis": "Google 航班 10/16 下午實查：12/29 15:40→18:35 星宇直飛，來回每人 NT$19,778（含稅），桃園直飛最便宜"
   },
   {
@@ -116,6 +132,23 @@
    "basis": "Google 航班 10/16 下午實查：國泰經香港轉機來回每人 NT$10,966，是全部選項最便宜，但去回各多半天；轉機不列入預算",
    "note": "直飛全部超過 13,000 預算；要省錢只能轉機，等於去回各少半天",
    "kind": "transfer"
+  },
+  {
+   "from": "TPE",
+   "to": "CEB",
+   "airline": "星宇 JX781／JX782（直飛，延後回程）",
+   "out": "1/1 15:40→18:35",
+   "back": "1/5 19:35→22:25（1/5 晚上回到桃園）",
+   "price_pp_twd": 13097,
+   "baggage": "含托運（待確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "alt": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202027-01-01%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "延後回程備案：每人省 NT$2,739（Google 航班 10/16 日期方格：1/1→1/5 星宇直飛來回每人 NT$13,097，比原 12/29→1/2 省 6,681；1/2→1/5 三晚 NT$15,230；12/30→1/3 反而 NT$24,146）",
+   "note": "跨年要在台灣或飛機上過；日期整組往後挪 3 天，住宿與行程要整個重排"
   }
  ],
  "getting_around": {
@@ -151,19 +184,29 @@
    "nights": 2,
    "price_night_for2_twd": 1820,
    "availability": "滿房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Vida+Beach+Resort&checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Vida+Beach+Resort&checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Alona%20Vida%20Beach%20Resort%20Panglao",
-   "why": "10/16 Booking 查：12/28–12/31 都沒有空房，最近要 1/1 才有（一晚約 NT$3,936）。走路到海灘，喜歡的話只能等釋出或改日期。"
+   "why": "10/16 Booking 重查：12/28–12/30 仍沒有空房（最近 1/2 起才有）。走路到海灘，喜歡的話只能等釋出。"
   },
   {
    "name": "Alona Katchajo Inn／Citadel Alona Inn（省錢版）",
    "area": "薄荷島 Alona 後排",
    "nights": 2,
-   "price_night_for2_twd": 1030,
+   "price_night_for2_twd": 782,
    "availability": "有空房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Katchajo+Inn&checkin=2026-12-29&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Katchajo+Inn&checkin=2026-12-28&checkout=2026-12-29&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Alona%20Katchajo%20Inn%20Panglao",
-   "why": "10/16 Booking 查：KatChaJo Inn 12/29 一晚 NT$1,180、12/30 一晚 NT$880（兩晚一起查會顯示訂不到，要分開訂）；Citadel Alona Inn 12/29 一晚 NT$579。走路到潛店和餐廳，不付海灘第一排的錢。"
+   "why": "10/16 傍晚 Booking 重查：KatChaJo Inn 12/28 一晚 NT$785、12/29 一晚 NT$779（兩晚一起查會顯示訂不到，要分開訂）；Citadel Alona Inn 這兩晚沒重查。走路到潛店和餐廳，不付海灘第一排的錢。"
+  },
+  {
+   "name": "Moalboal Casablanca Inn",
+   "area": "Moalboal Panagsama",
+   "nights": 1,
+   "price_night_for2_twd": 1380,
+   "availability": "未知",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Moalboal&checkin=2026-12-30&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Moalboal%20Casablanca%20Inn",
+   "why": "Booking 搜不到這間，要上別的訂房網確認。10/16 傍晚重查 12/30 那晚 Booking 上 Moalboal 還有 143 間有房，例如 CJ Hideaway NT$514（9.5 分）；之前推的 Dolce Vita Resort 這晚滿房。"
   },
   {
    "name": "Mariners Court Hotel",
@@ -173,24 +216,14 @@
    "availability": "有空房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Mariners+Court+Hotel+Cebu&checkin=2026-12-31&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Mariners%20Court%20Hotel%20Cebu%20Pier%201",
-   "why": "10/16 Booking 查：12/31 一晚 NT$1,194（標準雙人房）；Booking 評分只有 5.1，求方便不求舒適。就在 Pier 1，下船走路到；跨年倒數的 Plaza Independencia 走路 10 分，散場不用搶車。"
-  },
-  {
-   "name": "Moalboal Casablanca Inn",
-   "area": "Moalboal Panagsama",
-   "nights": 1,
-   "price_night_for2_twd": 1380,
-   "availability": "未知",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Moalboal&checkin=2027-01-01&checkout=2027-01-02&group_adults=2&no_rooms=1&selected_currency=TWD",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=Moalboal%20Casablanca%20Inn",
-   "why": "10/16 Booking 搜不到這間（Pescadores Suites 也搜不到），要上別的訂房網確認。同一晚 Booking 上 Moalboal 有空房的：Dolce Vita Resort NT$1,022、8.8 分。"
+   "why": "10/16 Booking 查：12/31 一晚 NT$1,194（標準雙人房）；Booking 評分只有 5.1，求方便不求舒適。在 Pier 1 旁，從 Moalboal 包車直接送到；跨年倒數的 Plaza Independencia 走路 10 分，散場不用搶車。"
   }
  ],
  "days": [
   {
    "day": 1,
-   "date": "12/29",
-   "weekday": "二",
+   "date": "12/28",
+   "weekday": "一",
    "title": "飛宿霧，坐船到薄荷島",
    "area": "宿霧市區→薄荷島 Alona",
    "drive_km": null,
@@ -198,18 +231,18 @@
    "summary": "早班機到，先吃一頓烤乳豬，下午坐快船到薄荷島看夕陽",
    "stops": [
     {
-     "time": "05:30",
+     "time": "04:30",
      "name": "桃園機場第二航廈",
      "kind": "transport",
      "stay_min": 150,
-     "desc": "長榮 BR281 08:00 起飛，10:50 到宿霧麥克坦機場。",
+     "desc": "星宇 JX781 06:55 起飛，09:50 到宿霧麥克坦機場。",
      "price_for2_twd": null,
      "booking": "需預約",
-     "booking_url": "https://www.evaair.com/",
+     "booking_url": "https://www.starlux-airlines.com/",
      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%E7%AC%AC%E4%BA%8C%E8%88%AA%E5%BB%88",
-     "site_url": "https://www.evaair.com/",
+     "site_url": "https://www.starlux-airlines.com/",
      "address": "桃園市大園區航站南路9號",
-     "tip": "出發前 72 小時內先填好菲律賓 eTravel，登機會查",
+     "tip": "出發前 72 小時內先填好菲律賓 eTravel，登機會查；06:55 班要搭最早的機捷或前一晚住機場附近",
      "photo": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Terminal_2_in_Taiwan_Taoyuan_Intl_Airport_09.tif/lossy-page1-1280px-Terminal_2_in_Taiwan_Taoyuan_Intl_Airport_09.tif.jpg",
       "credit": "Illinois_Roadbuff (Rogue Jr)",
@@ -218,7 +251,7 @@
      "links": []
     },
     {
-     "time": "11:30",
+     "time": "10:30",
      "name": "麥克坦機場→市區（Grab）",
      "kind": "transport",
      "stay_min": 60,
@@ -244,7 +277,7 @@
      ]
     },
     {
-     "time": "12:30",
+     "time": "11:45",
      "name": "House of Lechon 烤乳豬午餐",
      "kind": "food",
      "stay_min": 60,
@@ -398,8 +431,8 @@
   },
   {
    "day": 2,
-   "date": "12/30",
-   "weekday": "三",
+   "date": "12/29",
+   "weekday": "二",
    "title": "眼鏡猴、巧克力山、河上午餐",
    "area": "薄荷島內陸",
    "drive_km": 120,
@@ -606,13 +639,13 @@
   },
   {
    "day": 3,
-   "date": "12/31",
-   "weekday": "四",
-   "title": "海龜浮潛，回宿霧跨年",
-   "area": "Panglao 外海→宿霧市區",
-   "drive_km": null,
-   "drive_time": null,
-   "summary": "早上跳島看海龜，中午坐船回宿霧，晚上跟當地人倒數",
+   "date": "12/30",
+   "weekday": "三",
+   "title": "海龜浮潛，回宿霧再南下 Moalboal",
+   "area": "Panglao 外海→宿霧→Moalboal",
+   "drive_km": 90,
+   "drive_time": "Pier 1→Moalboal 約 3 小時",
+   "summary": "早上跳島看海龜，中午坐船回宿霧，傍晚包車南下沙丁魚小鎮",
    "stops": [
     {
      "time": "06:00",
@@ -675,14 +708,14 @@
      "name": "退房→Tagbilaran 港→OceanJet 14:00 回宿霧",
      "kind": "transport",
      "stay_min": 180,
-     "desc": "包車 ₱700 到港口，14:00 船 16:00 到 Pier 1；12/31 船票會滿，前一天就買。",
+     "desc": "包車 ₱700 到港口，14:00 船 16:00 到 Pier 1；年底船票會滿，前一天就買。",
      "price_for2_twd": 910,
      "booking": "需預約",
      "booking_url": "https://book.bustickets.ph/en/travel/cebu/tagbilaran",
      "map_url": "https://www.google.com/maps/search/?api=1&query=Tagbilaran%20City%20Port",
      "site_url": "",
      "address": "Tagbilaran City Port",
-     "tip": "住 Pier 1 旁的 Mariners Court，下船走路到",
+     "tip": "下船直接上預約好的包車南下 Moalboal",
      "photo": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Near-empty_OceanJet_vessel_during_the_COVID-19_pandemic.jpg/1280px-Near-empty_OceanJet_vessel_during_the_COVID-19_pandemic.jpg",
       "credit": "Howhontanozaz",
@@ -697,7 +730,221 @@
      ]
     },
     {
-     "time": "18:30",
+     "time": "16:15",
+     "name": "包車 Pier 1→Moalboal",
+     "kind": "transport",
+     "stay_min": 180,
+     "desc": "私人廂型車送到 Moalboal 約 ₱4,000、3 小時；省錢版 Grab 到南站搭 Ceres 巴士往 Bato via Barili，₱200／人、3.5 小時。",
+     "price_for2_twd": 2080,
+     "booking": "建議預約",
+     "booking_url": "https://www.klook.com/activity/12419?aid=356",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Cebu%20South%20Bus%20Terminal",
+     "site_url": "",
+     "address": "",
+     "tip": "傍晚出城會塞，抓 3 小時；跟包車司機約好 12/31 下午再載你回市區",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Kawasan_Falls_Level_2%2C_Badian%2C_Cebu_in_2026.jpg/1280px-Kawasan_Falls_Level_2%2C_Badian%2C_Cebu_in_2026.jpg",
+      "credit": "A.C.T. Alejandre",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Klook：Cebu Private Transfers between Moalboal, Oslob, Alegria",
+       "url": "https://www.klook.com/activity/12419?aid=356"
+      },
+      {
+       "type": "blog",
+       "title": "Cebu bus routes transport guide",
+       "url": "https://bohol-philippines.com/cebu-bus-routes-transport-guide/"
+      }
+     ]
+    },
+    {
+     "time": "19:15",
+     "name": "Panagsama 入住",
+     "kind": "stay",
+     "stay_min": 30,
+     "desc": "到的時候天已經黑了；整條 Panagsama 海岸都是面西的小餐廳和潛店。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Moalboal%20Casablanca%20Inn",
+     "site_url": "",
+     "address": "Panagsama, Moalboal",
+     "tip": "",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Children_playing_on_Panagsama_beach.jpg/1280px-Children_playing_on_Panagsama_beach.jpg",
+      "credit": "Paul Grach",
+      "license": "CC BY 2.0"
+     },
+     "links": []
+    },
+    {
+     "time": "19:45",
+     "name": "Chili Bar（晚餐＋酒）",
+     "kind": "bar",
+     "stay_min": 150,
+     "desc": "Panagsama 海灘上最有名的露天酒吧，柴燒披薩、海鮮、調酒、撞球；每杯／每道 ₱200–400，兩人晚餐加酒約 ₱1,800。",
+     "price_for2_twd": 940,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Chili%20Bar%20Panagsama%20Beach%20Moalboal",
+     "site_url": "",
+     "address": "Panagsama Beach, Moalboal",
+     "tip": "Wanderlog／Expat Exchange 都列 Moalboal 夜生活第一；明早要溯溪，別太晚",
+     "photo": null,
+     "links": [
+      {
+       "type": "blog",
+       "title": "Experience Moalboal: Discovering the Best of Moalboal（Expat Exchange）",
+       "url": "https://expatexchange.com/article/10142/Experience-Moalboal-Discovering-the-Best-of-Moalboal"
+      },
+      {
+       "type": "blog",
+       "title": "Chili Bar Moalboal（Wanderlog）",
+       "url": "https://wanderlog.com/place/details/1641472"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "溪降沙丁魚，回宿霧跨年",
+   "area": "Badian・Moalboal→宿霧市區",
+   "drive_km": 120,
+   "drive_time": "Moalboal⇄Kawasan 40 分；Moalboal→宿霧市區約 3 小時",
+   "summary": "挑戰日：早上在峽谷裡跳水，中午跟百萬條沙丁魚一起游，傍晚回宿霧跟當地人倒數",
+   "stops": [
+    {
+     "time": "07:00",
+     "name": "Kawasan Falls 溪降 Canyoneering",
+     "kind": "challenge",
+     "stay_min": 240,
+     "desc": "從 Alegria 上游一路跳水、滑瀑布、游泳到 Kawasan 瀑布，3–5 小時。LGU 認證套裝 ₱2,000–2,100／人，含嚮導、安全帽、救生衣、防水袋、機車接駁、所有門票和午餐。",
+     "price_for2_twd": 2180,
+     "booking": "需預約",
+     "booking_url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Kawasan%20Falls%20Badian%20Cebu",
+     "site_url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/",
+     "address": "Matutinao, Badian, Cebu",
+     "tip": "旺季（12–5 月）「No Booking, No Entry」，先跟認證業者約，請業者到 Moalboal 飯店接（車程 40 分）；最高跳台 10 公尺可以不跳。2025/10/23 落石傷到嚮導、停業兩天後 10/28 重開，雨後水濁也會停；跨年夜前別喝太多",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Badian_Kawasan_Falls_Cebu.jpg/1280px-Badian_Kawasan_Falls_Cebu.jpg",
+      "credit": "Shemlongakit",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "#kawasanfalls",
+       "url": "https://www.instagram.com/explore/tags/kawasanfalls/"
+      },
+      {
+       "type": "youtube",
+       "title": "菲律賓6天5夜 #沙丁魚 #鯨鯊 #溯溪 #潛水",
+       "url": "https://www.youtube.com/watch?v=_O88vDgejLk"
+      },
+      {
+       "type": "blog",
+       "title": "Kawasan Falls Guide 2026: Price, Tips & How to Get There",
+       "url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/"
+      }
+     ]
+    },
+    {
+     "time": "11:30",
+     "name": "Kawasan 瀑布下午餐（套裝含）",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "溪降結束在瀑布第一層吃套裝附的菲式便當（烤肉＋飯），想加點就買椰子。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Kawasan%20Falls%20Badian%20Cebu",
+     "site_url": "",
+     "address": "Matutinao, Badian",
+     "tip": "現金，瀑布區沒 ATM",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Kawasan_Falls_Cebu.jpg/1280px-Kawasan_Falls_Cebu.jpg",
+      "credit": "Rollymagpayo",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "Kawasan Falls Guide 2026（tunextravels）",
+       "url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "Moalboal Panagsama 沙丁魚風暴浮潛",
+     "kind": "challenge",
+     "stay_min": 120,
+     "desc": "從 Panagsama 海灘岸邊游 30 公尺就是百萬條沙丁魚牆，常有海龜；全年都在。自己來：環境費 ₱100＋面鏡呼吸管 ₱200–250／人，嚮導另加 ₱300–500。",
+     "price_for2_twd": 360,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Panagsama%20Beach%20Moalboal",
+     "site_url": "https://www.tunextravels.com/moalboal-travel-guide-sardine-run-cost-and-tips/",
+     "address": "Panagsama Beach, Moalboal",
+     "tip": "這就是 Oslob 鯨鯊的道德替代：不餵食、野生、免費看。Moalboal 面西，12 月東北季風吹不到，海況平",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sardine_run_over_seafloor_in_Moalboal_01.jpg/1280px-Sardine_run_over_seafloor_in_Moalboal_01.jpg",
+      "credit": "Iampjanz",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "#moalboal（1.5M reels）",
+       "url": "https://www.instagram.com/explore/tags/moalboal/"
+      },
+      {
+       "type": "blog",
+       "title": "Moalboal Travel Guide: Sardine Run, Cost, and Tips",
+       "url": "https://www.tunextravels.com/moalboal-travel-guide-sardine-run-cost-and-tips/"
+      },
+      {
+       "type": "youtube",
+       "title": "【宿霧薄荷島】2024-2025 最新行程：壯觀的沙丁魚風暴",
+       "url": "https://www.youtube.com/watch?v=U4sk8FGU15A"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "包車 Moalboal→宿霧市區",
+     "kind": "transport",
+     "stay_min": 180,
+     "desc": "包車約 ₱3,000，3 小時直接送到 Pier 1 旁的飯店；省錢版 Ceres 巴士到南站（₱250）再 Grab，要多抓 1 小時。",
+     "price_for2_twd": 1560,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Mariners%20Court%20Hotel%20Cebu%20Pier%201",
+     "site_url": "",
+     "address": "",
+     "tip": "跨年夜傍晚進城會塞，15:30 前一定要出發",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/MACTAN_CEBU_INTERNATIONAL_AIRPORT_AERIAL_VIEW.jpg/1280px-MACTAN_CEBU_INTERNATIONAL_AIRPORT_AERIAL_VIEW.jpg",
+      "credit": "Lucky Ambago Purok Otso",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "How to get to Moalboal from Mactan-Cebu airport（3D Universal）",
+       "url": "https://3d-universal.com/en/blogs/how-to-get-to-moalboal-from-mactan-cebu-international-airport.html"
+      }
+     ]
+    },
+    {
+     "time": "19:00",
      "name": "Larsian 烤肉街晚餐",
      "kind": "food",
      "stay_min": 75,
@@ -708,7 +955,7 @@
      "map_url": "https://www.google.com/maps/search/?api=1&query=Larsian%20sa%20Fuente%20Cebu%20City",
      "site_url": "",
      "address": "Fuente Osmeña, Cebu City",
-     "tip": "跨年夜人多，19:30 前到；從 Pier 1 搭 Grab 約 15 分",
+     "tip": "跨年夜人多；先回飯店放行李，從 Pier 1 搭 Grab 約 15 分",
      "photo": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Inihaw_na_baboy_%28Filipino_pork_barbecue_on_skewers%29.jpg/1280px-Inihaw_na_baboy_%28Filipino_pork_barbecue_on_skewers%29.jpg",
       "credit": "Obsidian Soul",
@@ -788,232 +1035,44 @@
    ]
   },
   {
-   "day": 4,
+   "day": 5,
    "date": "1/1",
    "weekday": "五",
-   "title": "溪降跳水＋沙丁魚風暴",
-   "area": "Badian・Moalboal",
-   "drive_km": 110,
-   "drive_time": "宿霧市區→Kawasan 約 3 小時",
-   "summary": "挑戰日：早上在峽谷裡跳水，下午跟百萬條沙丁魚一起游",
+   "title": "睡飽，晚班機回家",
+   "area": "宿霧市區→麥克坦機場",
+   "drive_km": 15,
+   "drive_time": "約 30–60 分",
+   "summary": "跨年隔天睡到自然醒，傍晚去機場買芒果乾，晚上的飛機回桃園",
    "stops": [
     {
-     "time": "05:00",
-     "name": "包車宿霧市區→Kawasan（→Moalboal）",
+     "time": "16:00",
+     "name": "宿霧市區→麥克坦機場（Grab）",
      "kind": "transport",
-     "stay_min": 180,
-     "desc": "私人廂型車一天約 ₱4,000（送到 Moalboal 為止）；省錢版搭南站 Ceres 巴士往 Bato via Barili，在 Matutinao 教堂下車，₱200／人、3.5 小時。",
-     "price_for2_twd": 2080,
-     "booking": "建議預約",
-     "booking_url": "https://www.klook.com/activity/12419?aid=356",
-     "map_url": "https://www.google.com/maps/search/?api=1&query=Cebu%20South%20Bus%20Terminal",
-     "site_url": "",
-     "address": "",
-     "tip": "1/1 清晨路最空；跨年夜別喝太多",
-     "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Kawasan_Falls_Level_2%2C_Badian%2C_Cebu_in_2026.jpg/1280px-Kawasan_Falls_Level_2%2C_Badian%2C_Cebu_in_2026.jpg",
-      "credit": "A.C.T. Alejandre",
-      "license": "CC BY-SA 4.0"
-     },
-     "links": [
-      {
-       "type": "official",
-       "title": "Klook：Cebu Private Transfers between Moalboal, Oslob, Alegria",
-       "url": "https://www.klook.com/activity/12419?aid=356"
-      },
-      {
-       "type": "blog",
-       "title": "Cebu bus routes transport guide",
-       "url": "https://bohol-philippines.com/cebu-bus-routes-transport-guide/"
-      }
-     ]
-    },
-    {
-     "time": "08:00",
-     "name": "Kawasan Falls 溪降 Canyoneering",
-     "kind": "challenge",
-     "stay_min": 240,
-     "desc": "從 Alegria 上游一路跳水、滑瀑布、游泳到 Kawasan 瀑布，3–5 小時。LGU 認證套裝 ₱2,000–2,100／人，含嚮導、安全帽、救生衣、防水袋、機車接駁、所有門票和午餐。",
-     "price_for2_twd": 2180,
-     "booking": "需預約",
-     "booking_url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/",
-     "map_url": "https://www.google.com/maps/search/?api=1&query=Kawasan%20Falls%20Badian%20Cebu",
-     "site_url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/",
-     "address": "Matutinao, Badian, Cebu",
-     "tip": "旺季（12–5 月）「No Booking, No Entry」，先跟認證業者約；最高跳台 10 公尺可以不跳。2025/10/23 落石傷到嚮導、停業兩天後 10/28 重開，雨後水濁也會停",
-     "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Badian_Kawasan_Falls_Cebu.jpg/1280px-Badian_Kawasan_Falls_Cebu.jpg",
-      "credit": "Shemlongakit",
-      "license": "CC BY-SA 4.0"
-     },
-     "links": [
-      {
-       "type": "ig",
-       "title": "#kawasanfalls",
-       "url": "https://www.instagram.com/explore/tags/kawasanfalls/"
-      },
-      {
-       "type": "youtube",
-       "title": "菲律賓6天5夜 #沙丁魚 #鯨鯊 #溯溪 #潛水",
-       "url": "https://www.youtube.com/watch?v=_O88vDgejLk"
-      },
-      {
-       "type": "blog",
-       "title": "Kawasan Falls Guide 2026: Price, Tips & How to Get There",
-       "url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/"
-      }
-     ]
-    },
-    {
-     "time": "12:30",
-     "name": "Kawasan 瀑布下午餐（套裝含）",
-     "kind": "food",
-     "stay_min": 45,
-     "desc": "溪降結束在瀑布第一層吃套裝附的菲式便當（烤肉＋飯），想加點就買椰子。",
-     "price_for2_twd": 0,
+     "stay_min": 60,
+     "desc": "跨年隔天睡到自然醒、中午退房；Grab 到機場 ₱500 起，不塞 30 分、傍晚抓 1 小時。",
+     "price_for2_twd": 300,
      "booking": "免預約",
      "booking_url": "",
-     "map_url": "https://www.google.com/maps/search/?api=1&query=Kawasan%20Falls%20Badian%20Cebu",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Mactan-Cebu%20International%20Airport%20Terminal%202",
      "site_url": "",
-     "address": "Matutinao, Badian",
-     "tip": "現金，瀑布區沒 ATM",
+     "address": "Lapu-Lapu City, Cebu",
+     "tip": "元旦部分店家休息，這天只排去機場",
      "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Kawasan_Falls_Cebu.jpg/1280px-Kawasan_Falls_Cebu.jpg",
-      "credit": "Rollymagpayo",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Mactan-Cebu_International_Airport_Terminal_2%2C_Jan_2024.jpg/1280px-Mactan-Cebu_International_Airport_Terminal_2%2C_Jan_2024.jpg",
+      "credit": "Ralff Nestor Nacor",
       "license": "CC BY-SA 4.0"
      },
      "links": [
       {
        "type": "blog",
-       "title": "Kawasan Falls Guide 2026（tunextravels）",
-       "url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/"
-      }
-     ]
-    },
-    {
-     "time": "14:30",
-     "name": "Moalboal Panagsama 沙丁魚風暴浮潛",
-     "kind": "challenge",
-     "stay_min": 120,
-     "desc": "從 Panagsama 海灘岸邊游 30 公尺就是百萬條沙丁魚牆，常有海龜；全年都在。自己來：環境費 ₱100＋面鏡呼吸管 ₱200–250／人，嚮導另加 ₱300–500。",
-     "price_for2_twd": 360,
-     "booking": "免預約",
-     "booking_url": "",
-     "map_url": "https://www.google.com/maps/search/?api=1&query=Panagsama%20Beach%20Moalboal",
-     "site_url": "https://www.tunextravels.com/moalboal-travel-guide-sardine-run-cost-and-tips/",
-     "address": "Panagsama Beach, Moalboal",
-     "tip": "這就是 Oslob 鯨鯊的道德替代：不餵食、野生、免費看。Moalboal 面西，12 月東北季風吹不到，海況平",
-     "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sardine_run_over_seafloor_in_Moalboal_01.jpg/1280px-Sardine_run_over_seafloor_in_Moalboal_01.jpg",
-      "credit": "Iampjanz",
-      "license": "CC BY-SA 4.0"
-     },
-     "links": [
-      {
-       "type": "ig",
-       "title": "#moalboal（1.5M reels）",
-       "url": "https://www.instagram.com/explore/tags/moalboal/"
-      },
-      {
-       "type": "blog",
-       "title": "Moalboal Travel Guide: Sardine Run, Cost, and Tips",
-       "url": "https://www.tunextravels.com/moalboal-travel-guide-sardine-run-cost-and-tips/"
-      },
-      {
-       "type": "youtube",
-       "title": "【宿霧薄荷島】2024-2025 最新行程：壯觀的沙丁魚風暴",
-       "url": "https://www.youtube.com/watch?v=U4sk8FGU15A"
+       "title": "Cebu Airport Transfer: MCIA to Cebu City Guide（Wego）",
+       "url": "https://blog.wego.com/cebu-airport-transfer/"
       }
      ]
     },
     {
      "time": "17:00",
-     "name": "Panagsama 海邊看夕陽、入住",
-     "kind": "stay",
-     "stay_min": 60,
-     "desc": "日落 17:35，整條海岸線都是面西的小餐廳。",
-     "price_for2_twd": 0,
-     "booking": "免預約",
-     "booking_url": "",
-     "map_url": "https://www.google.com/maps/search/?api=1&query=Moalboal%20Casablanca%20Inn",
-     "site_url": "",
-     "address": "Panagsama, Moalboal",
-     "tip": "",
-     "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Children_playing_on_Panagsama_beach.jpg/1280px-Children_playing_on_Panagsama_beach.jpg",
-      "credit": "Paul Grach",
-      "license": "CC BY 2.0"
-     },
-     "links": []
-    },
-    {
-     "time": "18:30",
-     "name": "Chili Bar（晚餐＋酒）",
-     "kind": "bar",
-     "stay_min": 150,
-     "desc": "Panagsama 海灘上最有名的露天酒吧，柴燒披薩、海鮮、調酒、撞球；每杯／每道 ₱200–400，兩人晚餐加酒約 ₱1,800。",
-     "price_for2_twd": 940,
-     "booking": "免預約",
-     "booking_url": "",
-     "map_url": "https://www.google.com/maps/search/?api=1&query=Chili%20Bar%20Panagsama%20Beach%20Moalboal",
-     "site_url": "",
-     "address": "Panagsama Beach, Moalboal",
-     "tip": "Wanderlog／Expat Exchange 都列 Moalboal 夜生活第一；明早 06:30 要出發，別太晚",
-     "photo": null,
-     "links": [
-      {
-       "type": "blog",
-       "title": "Experience Moalboal: Discovering the Best of Moalboal（Expat Exchange）",
-       "url": "https://expatexchange.com/article/10142/Experience-Moalboal-Discovering-the-Best-of-Moalboal"
-      },
-      {
-       "type": "blog",
-       "title": "Chili Bar Moalboal（Wanderlog）",
-       "url": "https://wanderlog.com/place/details/1641472"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "day": 5,
-   "date": "1/2",
-   "weekday": "六",
-   "title": "回家，順手帶芒果乾",
-   "area": "Moalboal→麥克坦機場",
-   "drive_km": 100,
-   "drive_time": "約 3 小時",
-   "summary": "早上出發去機場，中午的飛機回桃園",
-   "stops": [
-    {
-     "time": "06:30",
-     "name": "包車 Moalboal→麥克坦機場",
-     "kind": "transport",
-     "stay_min": 180,
-     "desc": "包車約 ₱3,000，3 小時直達；省錢版 Ceres 巴士到南站（₱250）再 Grab 到機場（₱500），要多抓 1 小時。",
-     "price_for2_twd": 1560,
-     "booking": "建議預約",
-     "booking_url": "",
-     "map_url": "https://www.google.com/maps/search/?api=1&query=Mactan-Cebu%20International%20Airport%20Terminal%202",
-     "site_url": "",
-     "address": "",
-     "tip": "前一晚跟 Chili Bar 附近的車行或飯店訂好；週六早上市區不太塞",
-     "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/MACTAN_CEBU_INTERNATIONAL_AIRPORT_AERIAL_VIEW.jpg/1280px-MACTAN_CEBU_INTERNATIONAL_AIRPORT_AERIAL_VIEW.jpg",
-      "credit": "Lucky Ambago Purok Otso",
-      "license": "CC BY-SA 4.0"
-     },
-     "links": [
-      {
-       "type": "blog",
-       "title": "How to get to Moalboal from Mactan-Cebu airport（3D Universal）",
-       "url": "https://3d-universal.com/en/blogs/how-to-get-to-moalboal-from-mactan-cebu-international-airport.html"
-      }
-     ]
-    },
-    {
-     "time": "09:45",
-     "name": "機場買 7D 芒果乾＋早午餐",
+     "name": "機場買 7D 芒果乾＋晚餐",
      "kind": "shop",
      "stay_min": 90,
      "desc": "7D 是宿霧起家的芒果乾品牌，100g 超市 ₱120–130、機場更貴一點；時間夠的話前一天在市區 SM 超市先買。",
@@ -1043,18 +1102,18 @@
      ]
     },
     {
-     "time": "12:15",
-     "name": "長榮 BR282 回桃園",
+     "time": "19:35",
+     "name": "星宇 JX782 回桃園",
      "kind": "transport",
      "stay_min": 140,
-     "desc": "12:15 起飛，14:35 到桃園。",
+     "desc": "19:35 起飛，22:25 到桃園。",
      "price_for2_twd": null,
      "booking": "需預約",
-     "booking_url": "https://www.evaair.com/",
+     "booking_url": "https://www.starlux-airlines.com/",
      "map_url": "https://www.google.com/maps/search/?api=1&query=Mactan-Cebu%20International%20Airport%20Terminal%202",
      "site_url": "",
      "address": "",
-     "tip": "離境日沒排酒吧：中午航班，T2 登機口有咖啡和啤酒吧可以自己收尾",
+     "tip": "晚班機，T2 登機口有咖啡和啤酒吧可以自己收尾",
      "photo": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Outside_Mactan-Cebu_International_Airport_Terminal_2.jpg/1280px-Outside_Mactan-Cebu_International_Airport_Terminal_2.jpg",
       "credit": "Ralff Nestor Nacor",
@@ -1063,8 +1122,8 @@
      "links": [
       {
        "type": "official",
-       "title": "BR282 班表（trip.com）",
-       "url": "https://ph.trip.com/flights/status-br282/"
+       "title": "星宇航空官網",
+       "url": "https://www.starlux-airlines.com/"
       }
      ]
     }
@@ -1403,8 +1462,8 @@
   }
  ],
  "budget": {
-  "flights_for2": 39556,
-  "stay_for2": 4634,
+  "flights_for2": 31672,
+  "stay_for2": 4138,
   "food_for2": [
    6000,
    10000
@@ -1418,10 +1477,10 @@
    7000
   ],
   "total_for2": [
-   61690,
-   69690
+   53310,
+   61310
   ],
-  "note": "匯率 1 PHP ≈ NT$0.52（待確認）。機票＝桃園直飛星宇 19,778×2；住宿＝Alona Vida 滿房，改用 KatChaJo Inn 2 晚 2,060＋Pier 1 旁 1 晚 1,194＋Moalboal 1 晚沿用原估 1,380；交通＝渡輪 2 趟 1,100＋包車 3 天約 5,200＋Grab；活動＝溪降 2,180＋薄荷包車 1,560＋門票 220＋跳島 940＋沙丁魚 360。 機票與住宿 10/16 下午重查。"
+  "note": "匯率 1 PHP ≈ NT$0.52（待確認）。機票＝桃園直飛星宇 12/28→1/1 15,836×2；住宿＝Alona Vida 滿房，改用 KatChaJo Inn 2 晚 1,564＋Moalboal 1 晚沿用原估 1,380＋Pier 1 旁 12/31 一晚 1,194；交通＝渡輪 2 趟 1,100＋包車 3 天約 5,200（薄荷一日、Pier 1→Moalboal、Moalboal→市區）＋Grab；活動＝溪降 2,180＋薄荷包車 1,560＋門票 220＋跳島 940＋沙丁魚 360。機票與住宿 10/16 傍晚重查。"
  },
  "weather": {
   "high_c": 30,
@@ -1465,26 +1524,26 @@
   },
   {
    "item": "填菲律賓 eTravel 電子入境（免簽也要，出發前 72 小時內，免費）",
-   "when": "12/26–12/29",
+   "when": "12/25–12/28",
    "url": "https://etravel.gov.ph/"
   },
   {
-   "item": "訂機票：長榮 BR281/282（或星宇，但回程 10:50 要改第 4 晚住市區）；先上 tigerairtw.com 看冬季有沒有飛宿霧",
+   "item": "訂機票：星宇 JX781/782（12/28 06:55 去、1/1 19:35 回）；先上 tigerairtw.com 看冬季有沒有飛宿霧",
    "when": "11 月前",
-   "url": "https://www.evaair.com/"
+   "url": "https://www.starlux-airlines.com/"
   },
   {
    "item": "訂 Alona 住宿（可免費取消），12 月會滿",
    "when": "11 月中前",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Beach%2C+Panglao&checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD"
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Beach%2C+Panglao&checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD"
   },
   {
-   "item": "約 Kawasan 溪降（LGU 認證業者，問 1/1 是否營業）＋ 1/1 清晨包車",
+   "item": "約 Kawasan 溪降（LGU 認證業者，問 12/31 是否營業、能否到 Moalboal 接）＋ 12/30 Pier 1→Moalboal、12/31 Moalboal→市區包車",
    "when": "12 月初",
    "url": "https://www.tunextravels.com/kawasan-falls-guide-2026-price-tips-how-to-get-there/"
   },
   {
-   "item": "買 OceanJet 船票 12/29 14:00 去、12/31 14:00 回",
+   "item": "買 OceanJet 船票 12/28 14:00 去、12/30 14:00 回",
    "when": "12 月中",
    "url": "https://book.bustickets.ph/en/travel/cebu/tagbilaran"
   },
@@ -1500,16 +1559,16 @@
   }
  ],
  "risks": [
-  "台中沒有直飛，只能桃園；桃園直飛最便宜是星宇每人 NT$19,778，超過 13,000 預算；虎航宿霧線冬季沒飛",
-  "回程 12:15 偏早，1/2 要 06:30 離開 Moalboal；改星宇更早（10:50），得把第 4 晚改住市區",
+  "台中沒有直飛，只能桃園；主推星宇 12/28→1/1 每人 NT$15,836，仍超過 13,000 預算；虎航宿霧線冬季沒飛",
+  "去程 06:55 很早，要搭最早的機捷或前一晚住機場附近；12/31 下午要從 Moalboal 開 3 小時回市區，15:30 前出發",
   "入境：免簽 14 天僅到 2027/6/30，eTravel 未填會被拒登機；護照效期不足 6 個月不能入境",
-  "溪降安全：2025/10 落石事件後重開；雨後水濁隨時停辦，1/1 是否營業要先問；只跟認證嚮導、一定戴頭盔",
+  "溪降安全：2025/10 落石事件後重開；雨後水濁隨時停辦，12/31 是否營業要先問；只跟認證嚮導、一定戴頭盔",
   "Oslob 鯨鯊有餵食爭議，已改 Moalboal 沙丁魚；若堅持去要多 5 小時車程",
   "跨年夜民間鞭炮多（2024 跨年全國 188 人受傷），待在 Plaza Independencia 官方會場，別走小巷",
-  "12/31 船票、Alona 住宿旺季會滿；宿霧市區 17–20 時塞車，機場→市區抓 1 小時",
+  "年底船票、Alona 住宿旺季會滿；宿霧市區 17–20 時塞車，機場→市區抓 1 小時",
   "白牌計程車「跳表壞了」是最常見的坑，一律 Grab 或上車前要求跳表",
   "匯率 1 PHP≈NT$0.52 是概估，所有披索換算待確認",
-  "1/1 元旦部分店家休息（Loboc 遊船已排在 12/30 避開）"
+  "1/1 元旦部分店家休息（這天只排去機場，Loboc 遊船在 12/29）"
  ],
  "sketch": {
   "days": [
@@ -1534,33 +1593,32 @@
     "caption": "眼鏡猴、巧克力山、河上午餐"
    },
    {
-    "title": "第三天：海龜與跨年",
+    "title": "第三天：海龜與南下",
     "icons": [
      "boat",
      "fish",
      "ferry",
-     "fireworks"
+     "car"
     ],
-    "caption": "Balicasag 浮潛、宿霧倒數"
+    "caption": "Balicasag 浮潛、南下 Moalboal"
    },
    {
-    "title": "第四天：溪降沙丁魚",
+    "title": "第四天：溪降沙丁魚跨年",
     "icons": [
      "waterfall",
-     "hike",
      "fish",
-     "beer"
+     "car",
+     "fireworks"
     ],
-    "caption": "Kawasan 跳水、沙丁魚風暴"
+    "caption": "Kawasan 跳水、沙丁魚、宿霧倒數"
    },
    {
     "title": "第五天：回家",
     "icons": [
-     "car",
      "shopping",
      "plane"
     ],
-    "caption": "買芒果乾、中午飛桃園"
+    "caption": "睡飽、買芒果乾、晚上飛桃園"
    }
   ]
  },
