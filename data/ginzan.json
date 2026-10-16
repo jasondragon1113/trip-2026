@@ -16,23 +16,41 @@
   "out": "12/28",
   "back": "12/31",
   "nights": 3,
-  "why": "第一輪查價查過 12/27–1/5 所有組合：12/28（一）酷航早班去成田、12/31（四）虎航 19:40 從仙台回，每人 11,997 是唯一在 1.3 萬內又符合早去晚回的開口票；12/29、12/30 都是平日，銀山巴士正常班（12/31–1/3 部分運休）、山寺與店家都開；天童旅館這三晚都有空房。多留到 1/1 的話虎航仙台無班、12/31 天童全滿，所以不延。"
+  "why": "第一輪查價查過 12/27–1/5 所有組合：12/28（一）酷航早班去成田、12/31（四）虎航 19:40 從仙台回，每人 12,747 是唯一在 1.3 萬內又符合早去晚回的開口票；12/29、12/30 都是平日，銀山巴士正常班（12/31–1/3 部分運休）、山寺與店家都開；天童旅館這三晚都有空房。多留到 1/1 的話虎航仙台無班、12/31 天童全滿，所以不延。"
  },
  "flights": [
   {
    "from": "RMQ",
    "to": "SDJ",
    "airline": "無直飛（只有香港快運經 HKG 轉機）",
-   "out": "12/27 10:10→12/28 14:05",
+   "out": "12/28 10:10→12/29 14:05",
    "back": "12/31",
-   "price_pp_twd": 24107,
+   "price_pp_twd": 23175,
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "：台中沒有直飛仙台、成田（星宇 RMQ→NRT 直飛 1/1 回也要 20,836），台中出發者建議改桃園"
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20SDJ%20from%20RMQ%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "台中沒有直飛仙台；轉機要隔天下午才到，不列入預算。台中出發者改桃園，或看下一筆星宇台中直飛成田",
+   "basis": "Google 航班 10/16 下午實查：台中到仙台沒有直飛，最便宜是香港快運轉機",
+   "kind": "transfer"
+  },
+  {
+   "baggage": "含托運（看票種）",
+   "verified": true,
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查",
+   "from": "RMQ",
+   "to": "NRT",
+   "airline": "星宇航空（台中直飛成田）",
+   "out": "12/28 09:15→13:25",
+   "back": "12/31 14:25→17:55",
+   "price_pp_twd": 30871,
+   "fits_time_pref": false,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20RMQ%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "note": "台中唯一直飛，但每人 3 萬多；回程 12/31 14:25 從成田飛，當天早上就得離開天童（約 5 小時車程），不建議",
+   "within_budget": false
   },
   {
    "from": "TPE",
@@ -40,14 +58,15 @@
    "airline": "酷航 TPE→NRT ＋ 台灣虎航 SDJ→TPE（開口）",
    "out": "12/28 06:50→10:55",
    "back": "12/31 19:40→23:00",
-   "price_pp_twd": 11997,
+   "price_pp_twd": 12747,
    "baggage": "不含托運；冬衣多建議加購（約 NT$1,500–2,000／人／段，待確認）",
    "fits_time_pref": true,
    "within_budget": true,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "（Google 航班單程相加 5,360＋6,637）。酷航 06:50 要 04:30 前到桃園，台中出發前一晚北上或搭夜車；10/15 價格會隨時間漲"
+   "source": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20NRT%20from%20TPE%20on%202026-12-28&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "兩段都直飛。酷航 06:50 要 04:30 前到桃園，台中出發前一晚北上或搭夜車；仙台回程虎航比 10/15 漲了 750。另有樂桃 02:25 紅眼班去成田 5,240（相加 12,627），但半夜出發不建議",
+   "basis": "Google 航班 10/16 下午實查，兩張單程相加（5,360＋7,387），兩段都是直飛"
   },
   {
    "from": "TPE",
@@ -55,14 +74,15 @@
    "airline": "酷航來回（純東京進出，備案）",
    "out": "12/28 06:50→10:55",
    "back": "12/31 19:45→22:55",
-   "price_pp_twd": 11995,
+   "price_pp_twd": 12190,
    "baggage": "不含托運",
    "fits_time_pref": true,
    "within_budget": true,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "。若不想仙台出，12/31 要坐つばさ回東京（約 3 小時、¥12,230），最後一天會全耗在車上，所以主方案選仙台出"
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20TPE%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "12/31 要坐つばさ回東京（約 3 小時、¥12,230），最後一天會全耗在車上，所以主方案選仙台出",
+   "basis": "Google 航班 10/16 下午實查"
   },
   {
    "from": "TPE",
@@ -74,10 +94,27 @@
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": false,
+   "verified": false,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20SDJ%20from%20TPE%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "10/16 查 12/28 桃園→仙台只剩星宇和長榮，虎航這班沒出現（可能已售完或沒飛）；改看下一筆星宇",
+   "basis": "10/16 Google 航班查不到這班"
+  },
+  {
+   "baggage": "含托運（看票種）",
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "。去程下午班、超預算 3,460；優點是省掉成田→天童 5 小時車程（仙台→天童約 2 小時）"
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查",
+   "from": "TPE",
+   "to": "SDJ",
+   "airline": "星宇航空直飛來回",
+   "out": "12/28 11:50→16:00",
+   "back": "12/31（回程班次未點開）",
+   "price_pp_twd": 18765,
+   "fits_time_pref": false,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20SDJ%20from%20TPE%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "note": "桃園直飛仙台 12/28 只剩這班有位；超預算 5,765，但省掉成田→天童 5 小時車程",
+   "within_budget": false
   }
  ],
  "getting_around": {
@@ -116,7 +153,7 @@
    "nights": 1,
    "price_night_for2_twd": 10520,
    "availability": "有空房",
-   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5954",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5954?f_nen1=2026&f_tuki1=12&f_hi1=28&f_nen2=2026&f_tuki2=12&f_hi2=29&f_otona_su=2&f_heya_su=1&f_flg=PLAN",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%AB%A5%E3%83%9B%E3%83%86%E3%83%AB%20%E5%B1%B1%E5%BD%A2%E7%9C%8C%E5%A4%A9%E7%AB%A5%E5%B8%82%E9%8E%8C%E7%94%B0%E6%9C%AC%E7%94%BA2-1-3",
    "why": "12/28 含兩食最便宜（¥50,820，第一輪查價實查）；院子裡有看瀑布的露天「滝見露天風呂」，一人含兩食 ¥18,700 起（gltjp）。第一天 17:00 才到天童，直接進旅館吃飯泡湯最省力",
    "photo": null,
@@ -145,7 +182,7 @@
    "nights": 1,
    "price_night_for2_twd": 9336,
    "availability": "有空房",
-   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/84800",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/84800?f_nen1=2026&f_tuki1=12&f_hi1=29&f_nen2=2026&f_tuki2=12&f_hi2=30&f_otona_su=2&f_heya_su=1&f_flg=PLAN",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A0%84%E5%B1%8B%E3%83%9B%E3%83%86%E3%83%AB%20%E5%B1%B1%E5%BD%A2%E7%9C%8C%E5%A4%A9%E7%AB%A5%E5%B8%82%E9%8E%8C%E7%94%B02-3-16",
    "why": "12/29 含兩食 ¥45,100 是三晚裡最便宜的一晚；天童唯一的展望露天風呂＋大浴場＋飲泉處（IG 自述）。這天從銀山回來會晚（約 19:30），要先跟旅館講晚餐時間",
    "photo": null,
@@ -174,7 +211,7 @@
    "nights": 1,
    "price_night_for2_twd": 14573,
    "availability": "有空房",
-   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/18363",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/18363?f_nen1=2026&f_tuki1=12&f_hi1=30&f_nen2=2026&f_tuki2=12&f_hi2=31&f_otona_su=2&f_heya_su=1&f_flg=PLAN",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%BC%AF%E4%BA%AD%E3%81%82%E3%81%A5%E3%81%BE%E8%8D%98%20%E5%B1%B1%E5%BD%A2%E7%9C%8C%E5%A4%A9%E7%AB%A5%E5%B8%82%E9%8E%8C%E7%94%B02-2-1",
    "why": "12/30 含兩食 ¥70,400；開湯百年老舖，天童溫泉街唯一「無屋頂」露天風呂，下雪天泡最有感；最後一晚給自己升級。12/27–12/30 每晚都有空",
    "photo": null,
@@ -203,9 +240,9 @@
    "nights": 1,
    "price_night_for2_twd": 8197,
    "availability": "滿房",
-   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/52933",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/52933?f_nen1=2026&f_tuki1=12&f_hi1=29&f_nen2=2026&f_tuki2=12&f_hi2=30&f_otona_su=2&f_heya_su=1&f_flg=PLAN",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E6%97%85%E9%A4%A8%E6%9D%BE%E6%9C%AC",
-   "why": "13 間溫泉街旅館 12/27–1/5 每晚全滿。松本是最便宜的（年末年始特別プラン ¥19,800／人含兩食）、30 日前才收取消費→11/27–12/1 最可能釋出；候補成功就退掉 12/29 的栄屋改住這裡，天童ホテル與あづま荘不動",
+   "why": "13 間溫泉街旅館 12/27–1/5 每晚全滿。松本是最便宜的（年末年始特別プラン ¥19,800／人含兩食）、30 日前才收取消費→11/27–12/1 最可能釋出；候補成功就退掉 12/29 的栄屋改住這裡，天童ホテル與あづま荘不動。10/16 下午再查：樂天上銀山溫泉 9 間（松本、藤屋、銀山荘、古山閣、古勢起屋本館與別館、瀧見舘、やなだ屋、いとうや）12/28、12/29、12/30 三晚全滿；溫泉組合官方預約系統松本沒有開放方案、銀山荘 12 月整月打叉",
    "photo": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Notoya_Ryokan_in_January_2022_A.jpg/1280px-Notoya_Ryokan_in_January_2022_A.jpg",
     "credit": "さかおり",
@@ -263,7 +300,7 @@
      "links": [
       {
        "type": "official",
-       "title": "第一輪查價機票矩陣（12/28–12/31 開口 11,997）",
+       "title": "第一輪查價機票矩陣（12/28–12/31 開口 12,747）",
        "url": "https://www.google.com/travel/flights"
       }
      ]
@@ -1402,7 +1439,7 @@
   }
  ],
  "budget": {
-  "flights_for2": 23994,
+  "flights_for2": 25494,
   "stay_for2": 34429,
   "food_for2": [
    6000,
@@ -1417,10 +1454,10 @@
    3500
   ],
   "total_for2": [
-   74923,
-   97212
+   76423,
+   98712
   ],
-  "note": "匯率 1 JPY≈NT$0.207（臺銀 10/15）。機票＝第一輪查價開口票 11,997×2（高估再加托運約 4,000）；住宿低＝天童ホテル 12/28 ¥50,820＋栄屋 12/29 ¥45,100＋あづま荘 12/30 ¥70,400（含兩食，第一輪查價實查），高＝あづま荘連住三晚 43,718；吃＝三天含兩食只算午餐、小吃、酒吧＋12/31 仙台一整天；交通＝N'EX＋つばさ東京→天童＋天童↔大石田＋銀山巴士與接駁＋山寺來回＋天童→仙台→機場，兩人約 ¥43,000–55,000；活動＝山寺、將棋資料館、書き駒、雜費。高估 97,212 略超 10 萬內，低估在預算內"
+  "note": "匯率 1 JPY≈NT$0.207（臺銀 10/15）。機票＝酷航去成田＋虎航仙台回（兩段直飛）12,747×2（高估再加托運約 4,000）；住宿低＝天童ホテル 12/28 ¥50,820＋栄屋 12/29 ¥45,100＋あづま荘 12/30 ¥70,400（含兩食，第一輪查價實查），高＝あづま荘連住三晚 43,718；吃＝三天含兩食只算午餐、小吃、酒吧＋12/31 仙台一整天；交通＝N'EX＋つばさ東京→天童＋天童↔大石田＋銀山巴士與接駁＋山寺來回＋天童→仙台→機場，兩人約 ¥43,000–55,000；活動＝山寺、將棋資料館、書き駒、雜費。高估 97,212 略超 10 萬內，低估在預算內。機票與住宿 10/16 下午重查（天童三間價格沒變）"
  },
  "weather": {
   "high_c": 5,
@@ -1459,7 +1496,7 @@
  "prep": [
   {
    "item": "訂機票：酷航 TPE→NRT 12/28 06:50 ＋ 虎航 SDJ→TPE 12/31 19:40（兩張單程分開買），順手加購托運",
-   "when": "11/1 前（10/15 價 11,997／人，會漲）",
+   "when": "11/1 前（10/16 價 12,747／人，會漲）",
    "url": "https://www.flyscoot.com/"
   },
   {
@@ -1499,12 +1536,12 @@
   }
  ],
  "risks": [
-  "溫泉街 13 間旅館 12/27–1/5 全滿，候補不保證；本方案不靠候補也成立（白天進場看黃昏點燈）",
+  "溫泉街 13 間旅館 12/27–1/5 全滿（10/16 再查樂天 9 間＋組合官方預約系統，12/28–12/30 仍沒有空房），候補不保證；本方案不靠候補也成立（白天進場看黃昏點燈）",
   "銀山 2026–27 冬季入場預約頁 10/16 仍「準備中」，名額可能秒殺；沒預約就只能在大正ろまん館轉接駁，去程 18:00 後沒車、回程指定班＝去程後 1 小時 20 分，看到點燈的時間只有約 1 小時",
   "回程只靠 18:21 末班巴士（12/31–1/3 運休，12/29 正常）；錯過要叫計程車到大石田（約 ¥5,000–6,000，待確認）",
   "豪雪：つばさ、仙山線偶有延誤停駛；12/31 要趕 19:40 班機，仙山線停就改山形駅→仙台空港高速巴士或計程車",
   "つばさ全車指定席、年末一定滿：11/28 10:00 開賣當天沒訂到就很難",
-  "廉航 不含托運且 10/15 價格會漲；酷航 06:50 要凌晨到桃園",
+  "廉航不含托運，10/16 重查仙台回程已漲 750，越晚越貴；酷航 06:50 要凌晨到桃園",
   "12/29 從銀山回天童約 19:30，旅館晚餐要先講晚一點，否則吃不到含在房價裡的那餐",
   "山寺冬季 15:00 停止受付；石階結冰，沒防滑鞋套不要上",
   "JR EAST PASS 新版 ¥35,000 比單買貴，不要買；舊東北版已停售",

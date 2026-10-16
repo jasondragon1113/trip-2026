@@ -30,7 +30,7 @@
    "fits_time_pref": false,
    "within_budget": true,
    "verified": false,
-   "basis": "Google Flights 無結果（12/28–1/2 RMQ–BKK 列表沒有越捷／泰越捷直飛，只有香港快運轉機 NT$14,775 起；台中直飛 12 月是否照飛要上 vietjetair.com 確認）",
+   "basis": "10/16 Google 航班查不到這班（台中直飛曼谷沒有出現）；台中出發只有轉機：香港快運經香港每人 NT$12,329 起（10:10 出發、香港等 9 小時 40 分），13:10→19:00 那班 12,815",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20RMQ%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "source2": "https://flight.eztravel.com.tw/tickets-rmq-bkk",
    "source3": "https://sophiee.tw/thai-vietjet-air/",
@@ -47,7 +47,7 @@
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "Google Flights 實查：12/28 13:45→16:35／1/2 03:00→08:00 泰獅航直飛來回每人 NT$10,819（含稅、不含托運）；回程改 1/2 09:55→15:10 則 11,519",
+   "basis": "Google 航班 10/16 下午實查：12/28 13:45→16:35 泰獅航直飛，來回每人 NT$10,819（含稅、不含托運）",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DMK%20from%20TPE%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "source2": "https://aviability.com/en/flight/sl1398-thai-lion-air/dmk-tpe",
    "source3": "https://flight.eztravel.com.tw/tickets-tpe-bkk",
@@ -64,7 +64,7 @@
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "Google Flights 實查：12/28 18:35→21:30／1/2 07:45→12:30 泰亞航直飛來回每人 NT$11,575（含稅、不含托運）",
+   "basis": "Google 航班 10/16 下午實查：12/28 18:35→21:30 泰亞航直飛，來回每人 NT$11,575（含稅、不含托運）",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DMK%20from%20TPE%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "source2": "https://flight.eztravel.com.tw/tickets-tpe-bkk",
    "checked": "2026-10-16"
@@ -73,14 +73,14 @@
    "from": "TPE",
    "to": "BKK",
    "airline": "泰越捷 Thai Vietjet（VZ569 去／VZ 回）",
-   "out": "12/28 19:55→22:40（VZ569 每天飛；VZ571 13:25→16:10 只飛二四六）",
+   "out": "12/28 19:50→22:50（直飛）",
    "back": "1/2 01:55→06:45 或 09:10→13:55（Trip.com 列時刻）",
-   "price_pp_twd": 9000,
+   "price_pp_twd": 11706,
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": true,
-   "verified": false,
-   "basis": "Google Flights 無結果（12/28–1/2 TPE–BKK 直飛列表沒有泰越捷；傳統航空直飛最低華航 22:30 紅眼 NT$15,164、長榮 16,619）",
+   "verified": true,
+   "basis": "Google 航班 10/16 下午實查：12/28 19:50→22:50 泰越捷直飛，來回每人 NT$11,706（含稅、不含托運）；回程班次訂票時再確認",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20TPE%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "source2": "https://www.trip.com/hot/bangkok-to-taipei-flight-time/",
    "checked": "2026-10-16"
@@ -98,7 +98,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DMK%20from%20TPE%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "basis": "Google Flights 實查：12/28–1/2 TPE–DMK 最便宜，來回每人 NT$10,219（含稅）；比 13:45 班便宜 600 但第一晚等於睡機場旅館",
+   "basis": "Google 航班 10/16 下午實查：12/28 22:10→01:05+1 泰獅航直飛，來回每人 NT$10,219（含稅），桃園直飛最便宜；第一晚等於只睡半夜",
    "note": "12/28 深夜抵達，第一天行程要順延到 12/29"
   }
  ],
@@ -134,12 +134,12 @@
   {
    "name": "ASAI Bangkok Chinatown（Dusit）",
    "area": "曼谷唐人街 Charoen Krung",
-   "nights": 2,
-   "price_night_for2_twd": 2600,
-   "availability": "未知",
+   "nights": 3,
+   "price_night_for2_twd": 5058,
+   "availability": "有空房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=ASAI+Bangkok+Chinatown&checkin=2026-12-28&checkout=2026-12-29&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=ASAI%20Bangkok%20Chinatown%20531%20Charoen%20Krung%20Road%20Bangkok",
-   "why": "Kayak：8.9 分、4,387 則評論，一般價 US$44–89／晚（約 NT$1,400–2,900），跨年夜估較高；走路到耀華力路 10 分鐘、Soi Nana 酒吧 5 分鐘；飯店內 House of Flavours 泰菜課兩人 1,500++ 泰銖可當備案。12/28 與 12/31 各住一晚。",
+   "why": "10/16 Booking 查：12/28 一晚 NT$4,101；12/31 那晚規定至少住 2 晚，訂 12/31–1/2 兩晚 NT$11,074，剛好可以放行李、休息到半夜去機場。8.9 分；走路到耀華力路 10 分鐘、Soi Nana 酒吧 5 分鐘；飯店內 House of Flavours 泰菜課兩人 1,500++ 泰銖可當備案。",
    "links": [
     {
      "type": "official",
@@ -157,11 +157,11 @@
    "name": "Amari Hua Hin",
    "area": "華欣 Khao Takiab 側海邊",
    "nights": 2,
-   "price_night_for2_twd": 3500,
-   "availability": "未知",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Amari+Hua+Hin&checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "price_night_for2_twd": 6537,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Amari+Hua+Hin&checkin=2026-12-29&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Amari%20Hua%20Hin",
-   "why": "帶你飛 2026 華欣住宿文：CP 值最高的四星海景飯店，淡季 NT$2,200 起、含早餐、有泳池；年底旺季估 NT$3,000–4,500。離 KBA 風箏學校與 Chatchai 夜市都 10 分鐘內。",
+   "why": "10/16 Booking 查：12/29 一晚 NT$6,295、12/30 一晚 NT$6,779（兩晚一起查會顯示訂不到，要分開訂）。四星海景、含早餐、有泳池；離 KBA 風箏學校與 Chatchai 夜市都 10 分鐘內。",
    "links": [
     {
      "type": "blog",
@@ -174,11 +174,11 @@
    "name": "Royal Pavilion Hua Hin",
    "area": "華欣市區（夜市、火車站步行可到）",
    "nights": 2,
-   "price_night_for2_twd": 1500,
-   "availability": "未知",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Royal+Pavilion+Hua+Hin&checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "price_night_for2_twd": 1574,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Royal+Pavilion+Hua+Hin&checkin=2026-12-29&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Royal%20Pavilion%20Hua%20Hin",
-   "why": "帶你飛：市區超便宜含早餐，淡季 NT$1,000 起；沒泳池但夜市、火車站、海灘走路到。省錢版。",
+   "why": "10/16 Booking 查：12/29 一晚 NT$1,595、12/30 一晚 NT$1,554（經濟雙人房，要分開訂）。市區便宜，沒泳池但夜市、火車站、海灘走路到。省錢版。",
    "links": [
     {
      "type": "blog",
@@ -191,11 +191,11 @@
    "name": "Centara Grand Beach Resort & Villas Hua Hin",
    "area": "華欣市中心海邊",
    "nights": 2,
-   "price_night_for2_twd": 5500,
-   "availability": "未知",
-   "url": "https://tw.trip.com/hotels/beach/city/th/hua-hin.html",
+   "price_night_for2_twd": 14656,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Centara+Grand+Beach+Resort+Hua+Hin&checkin=2026-12-29&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Centara%20Grand%20Beach%20Resort%20%26%20Villas%20Hua%20Hin",
-   "why": "百年殖民風老飯店、五星、Trip.com 列 NT$3,360 起（淡季）；想奢侈一晚的選項。",
+   "why": "10/16 Booking 查：12/29 一晚 NT$14,734、12/30 一晚 NT$14,578，年底價很高。百年殖民風老飯店、五星；想奢侈一晚再考慮。",
    "links": [
     {
      "type": "official",
@@ -1498,7 +1498,7 @@
  ],
  "budget": {
   "flights_for2": 20438,
-  "stay_for2": 12200,
+  "stay_for2": 28249,
   "food_for2": [
    12000,
    18000
@@ -1512,10 +1512,10 @@
    17000
   ],
   "total_for2": [
-   61638,
-   74138
+   77687,
+   90187
   ],
-  "note": "機票＝泰獅航估價 NT$9,500×2（未驗證）；住宿＝ASAI 2 晚約 5,200＋Amari 2 晚約 7,000；吃＝每天 2,400–3,600；交通＝小巴 4 趟＋Grab＋機場；活動＝風箏 8,000＋泰拳 1,300＋料理課 3,000＋水上樂園 1,200＋按摩 1,900＋門票。匯率以 1 泰銖≈NT$0.97 估（待確認）。機票 10/16 核價：最便宜 已核價＝泰獅航 22:10 班 10,219×2＝20,438（舊估 9,500×2）；13:45 班 10,819×2＝21,638 差 1,200"
+  "note": "機票＝桃園直飛泰獅航 22:10 班 10,219×2（不含托運）；住宿＝ASAI 12/28 一晚 4,101＋12/31–1/2 兩晚 11,074＋Amari 兩晚 13,074；吃＝每天 2,400–3,600；交通＝小巴 4 趟＋Grab＋機場；活動＝風箏 8,000＋泰拳 1,300＋料理課 3,000＋水上樂園 1,200＋按摩 1,900＋門票。匯率以 1 泰銖≈NT$0.97 估（待確認）。 機票與住宿 10/16 下午重查。"
  },
  "weather": {
   "high_c": 31,
@@ -1588,7 +1588,7 @@
   }
  ],
  "risks": [
-  "機票全部是估價（Google 航班／Kayak 抓不到），要自己開官網查；台中越捷直飛 12 月是否照飛待確認",
+  "台中沒有直飛曼谷（10/16 Google 航班查不到越捷直飛），要從桃園出發；桃園直飛最便宜是泰獅航每人 NT$10,219（不含托運）",
   "回程是 1/2 凌晨 03:30 紅眼班（SL398），回到桃園早上 08:20，1/2 會很累；不想紅眼就改 1/1 20:35 SL396，但那天就沒有酒吧了",
   "ICONSIAM 2026→2027 跨年尚未公告，照往年排；散場叫不到車要走路",
   "1/1 是泰國假日，YOKKAO／Here Hai／Mae Varee 可能休息，要先問",

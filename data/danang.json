@@ -16,7 +16,7 @@
   "out": "12/28",
   "back": "12/31",
   "nights": 3,
-  "why": "第一輪查價 12/28→12/31 桃園直飛（星宇去＋虎航回）每人 NT$10,604，是峴港最便宜又驗證過的組合；三晚剛好峴港 2＋會安 1，不塞。想在會安跨年改 12/28→1/1 台中越捷（網格價 NT$8,760，班次待確認），桃園直飛跨年要 1.7 萬以上。"
+  "why": "10/16 重查 12/28→12/31 桃園直飛（星宇去＋虎航回）每人 NT$10,619，是峴港最便宜的直飛組合；三晚剛好峴港 2＋會安 1，不塞。台中沒有直飛峴港（只有越捷轉機），所以只算桃園出發；桃園直飛跨年要 1.7 萬以上。"
  },
  "flights": [
   {
@@ -25,14 +25,14 @@
    "airline": "星宇 JX 去＋台灣虎航 IT 回（分開買）",
    "out": "12/28 15:20→17:15",
    "back": "12/31 19:50→23:15",
-   "price_pp_twd": 10604,
+   "price_pp_twd": 10619,
    "baggage": "星宇依票種；虎航不含托運，加購約 NT$600–1,000／人（待確認）",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "（Google 航班 2026-10-15 已點開，標『分段購票』）",
+   "basis": "Google 航班 10/16 下午實查：桃園直飛，星宇 12/28 15:20 去＋虎航 12/31 19:50 回（分開買）每人 NT$10,619，是最便宜的直飛組合",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DAD%20from%20TPE%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "checked": "2026-10-16"
   },
   {
    "from": "TPE",
@@ -40,14 +40,14 @@
    "airline": "星宇 JX 來回",
    "out": "12/28 15:20→17:15",
    "back": "12/31 18:25→22:10",
-   "price_pp_twd": 12458,
+   "price_pp_twd": 13914,
    "baggage": "依票種（待確認）",
    "fits_time_pref": false,
-   "within_budget": true,
+   "within_budget": false,
    "verified": true,
-   "basis": "（已點開）；同一家航空、比分段買貴 1,854 但不用擔兩張票",
+   "basis": "Google 航班 10/16 下午實查：星宇來回直飛每人 NT$13,914（比 10/15 貴約 1,450，超過預算）；比分開買貴 3,295 但只要一張票",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DAD%20from%20TPE%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "checked": "2026-10-16"
   },
   {
    "from": "RMQ",
@@ -55,29 +55,31 @@
    "airline": "越捷 VJ 經河內 HAN 轉機",
    "out": "12/27 11:30→18:05（轉 3h25）",
    "back": "12/31 07:55→17:00",
-   "price_pp_twd": 9742,
+   "price_pp_twd": 9165,
    "baggage": "不含托運（加購價待確認）",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "（已點開）；台中出發不用跑桃園，但單程 7.5 小時以上、回程清晨起飛；用這組就是 4 晚（12/27 多住峴港一晚）",
+   "basis": "Google 航班 10/16 下午實查：台中沒有直飛峴港，這是越捷轉機（12/27 11:30 去，約 7.5 小時）每人 NT$9,165；只找直飛，所以不算進預算",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DAD%20from%20RMQ%20on%202026-12-27%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "checked": "2026-10-16",
+   "kind": "transfer"
   },
   {
    "from": "RMQ",
    "to": "DAD",
    "airline": "越捷 VJ 經河內／胡志明轉機（跨年版）",
-   "out": "12/28 待確認",
-   "back": "1/1 待確認",
+   "out": "12/28 18:00→隔天 08:50（轉機約 16 小時）",
+   "back": "1/1 回程班次沒點開",
    "price_pp_twd": 8760,
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": true,
-   "verified": false,
-   "basis": "的 Google 航班網格價，班次沒點開；可以在會安跨年（12/31 古城 20:30–00:30 迎新年）",
-   "source": "https://www.google.com/travel/flights?q=Flights%20to%20DAD%20from%20RMQ%20on%202026-12-27%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "verified": true,
+   "basis": "Google 航班 10/16 下午實查：台中→峴港 12/28–1/1 只有轉機，最便宜越捷每人 NT$8,760（12/28 18:00 出發、隔天 08:50 才到，約 16 小時）；只找直飛，所以不算進預算",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20DAD%20from%20RMQ%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "kind": "transfer"
   }
  ],
  "getting_around": {
@@ -114,10 +116,10 @@
    "area": "峴港美溪海灘",
    "nights": 2,
    "price_night_for2_twd": 1697,
-   "availability": "有空房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=My+Khe+Beach%2C+Da+Nang&checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "availability": "滿房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=BlueSun+Danang+Beach&checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=BlueSun%20Danang%20Beach%20Hotel%20%C4%90%C3%A0%20N%E1%BA%B5ng",
-   "why": "：12/28→12/31 三晚 NT$5,091、9.1 分、可免費取消；本行程只住 12/28、12/29 兩晚（兩晚價待確認，按每晚 1,697 估）。走路到海邊、An Thượng 酒吧街 5 分鐘。",
+   "why": "10/16 Booking 查 12/28–12/30 已經沒有空房（10/15 時每晚約 1,697）；改住 Sala，或之後再看有沒有人取消。走路到海邊、An Thượng 酒吧街 5 分鐘。",
    "links": [
     {
      "type": "official",
@@ -130,11 +132,11 @@
    "name": "Sala Danang Beach Hotel",
    "area": "峴港美溪海灘",
    "nights": 2,
-   "price_night_for2_twd": 2814,
+   "price_night_for2_twd": 2268,
    "availability": "有空房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=My+Khe+Beach%2C+Da+Nang&checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Sala%20Danang%20Beach%20Hotel%20%C4%90%C3%A0%20N%E1%BA%B5ng",
-   "why": "：三晚 NT$8,441、9.4 分、可免費取消；想要海景＋泳池就選這家（每晚 2,814 估）。",
+   "why": "10/16 Booking 實查 12/28→12/30：2 晚 NT$4,535（無景高級雙人房、含早餐）、評分 9.4、可免費取消；離美溪海灘 250 公尺，有泳池。",
    "links": [
     {
      "type": "official",
@@ -148,10 +150,10 @@
    "area": "會安河畔（古城 2.5 km）",
    "nights": 1,
    "price_night_for2_twd": 1862,
-   "availability": "有空房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Hoi+An+Ancient+Town&checkin=2026-12-30&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "availability": "滿房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Ancient+Retreat+Hoi+An&checkin=2026-12-30&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Ancient%20Retreat%20Hoi%20An%20Riverfront%20Resort",
-   "why": "：兩晚 NT$3,724、9.5 分、平價度假村；離 Cẩm Thanh 椰林近，進古城 Grab 5 分鐘。單晚 12/30 價待確認。",
+   "why": "10/16 Booking 查 12/30 這晚已經沒有空房；平價改住下面的 Happy Town，想住好一點選 Allegro。離 Cẩm Thanh 椰林近，進古城 Grab 5 分鐘。",
    "links": [
     {
      "type": "official",
@@ -161,14 +163,24 @@
    ]
   },
   {
+   "name": "Happy Town Hoi An",
+   "area": "會安古城",
+   "nights": 1,
+   "price_night_for2_twd": 502,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Hoi+An+Ancient+Town&checkin=2026-12-30&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD&nflt=review_score%3D90&order=price",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Happy%20Town%20Hoi%20An",
+   "why": "10/16 Booking 實查 12/30 一晚 NT$502、評分 9.2（417 則）、含早餐、可免費取消、剩 1 間；古城區的平價民宿，走路進古城。"
+  },
+  {
    "name": "Allegro Hoi An Little Luxury Hotel & Spa",
    "area": "會安古城",
    "nights": 1,
-   "price_night_for2_twd": 5248,
+   "price_night_for2_twd": 5052,
    "availability": "有空房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Hoi+An+Ancient+Town&checkin=2026-12-30&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Allegro%20Hoi%20An%20Little%20Luxury%20Hotel%20%26%20Spa",
-   "why": "：兩晚 NT$10,496、9.5 分、可免費取消；走路就到古城和燈籠船碼頭，一晚奢侈一下的選項。",
+   "why": "10/16 Booking 實查 12/30 一晚 NT$5,052（小套房含早餐）、評分 9.5、可免費取消；走路就到古城和燈籠船碼頭，一晚奢侈一下的選項。",
    "links": [
     {
      "type": "official",
@@ -1404,8 +1416,8 @@
   }
  ],
  "budget": {
-  "flights_for2": 21208,
-  "stay_for2": 7000,
+  "flights_for2": 21238,
+  "stay_for2": 9587,
   "food_for2": [
    5000,
    12000
@@ -1419,10 +1431,10 @@
    12000
   ],
   "total_for2": [
-   45000,
-   64000
+   42000,
+   63000
   ],
-  "note": "機票＝星宇去＋虎航回 10,604×2；住宿＝BlueSun 2 晚 3,400＋Ancient Retreat 1 晚 1,862 ≈ 5,300（低）到 Sala 2 晚＋Allegro 1 晚 ≈ 10,900（高），取中間 7,000；吃＝每天 1,200–3,000；交通＝台中⇄桃園 2,000–3,000＋Grab 全程 2,000–3,500＋峴港⇄會安⇄機場 1,100；活動＝電子簽 1,610＋料理課 2,600＋籃舟 410＋燈籠船與古城票 675＋五行山 225＋三晚酒吧 1,000＋按摩 1,000；裁縫另計（現場報價）。巴拿山不在內（＋2,900＋車資）。匯率 1 TWD ≈ 805 VND。"
+  "note": "機票＝桃園直飛星宇去＋虎航回 10,619×2（台中沒有直飛峴港）；住宿＝Sala 2 晚 4,535＋會安 1 晚：Happy Town 502（低）到 Allegro 5,052（高），BlueSun 和 Ancient Retreat 這幾天已滿房；吃＝每天 1,200–3,000；交通＝台中⇄桃園 2,000–3,000＋Grab 全程 2,000–3,500＋峴港⇄會安⇄機場 1,100；活動＝電子簽 1,610＋料理課 2,600＋籃舟 410＋燈籠船與古城票 675＋五行山 225＋三晚酒吧 1,000＋按摩 1,000；裁縫另計（現場報價）。巴拿山不在內（＋2,900＋車資）。匯率 1 TWD ≈ 805 VND。機票與住宿 10/16 下午重查"
  },
  "weather": {
   "high_c": 24,

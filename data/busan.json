@@ -25,14 +25,14 @@
    "airline": "真航空 LJ",
    "out": "12/28 16:15→19:35",
    "back": "1/1 14:00→15:15",
-   "price_pp_twd": 8668,
+   "price_pp_twd": 8671,
    "baggage": "不含托運，加購價待確認（台韓線通常 15kg 約 NT$700–1,000／段）",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PUS%20from%20RMQ%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15",
-   "basis": "（10/15 Google 航班實查）；去程下午班、第一天只剩晚上，回程 14:00 比想要的下午晚一點早"
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查：台中直飛來回每人 NT$8,671（含稅）；去程下午班、第一天只剩晚上，回程 14:00 比想要的下午早一點。桃園最便宜直飛是虎航 NT$9,191，台中比較便宜"
   },
   {
    "from": "RMQ",
@@ -40,14 +40,14 @@
    "airline": "星宇航空 JX",
    "out": "12/28 08:00→11:15",
    "back": "1/1 12:15→14:00",
-   "price_pp_twd": 10998,
+   "price_pp_twd": 11002,
    "baggage": "全服務，含托運（公斤數待確認）",
    "fits_time_pref": true,
    "within_budget": true,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PUS%20from%20RMQ%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15",
-   "basis": "；早班去多半天，但 1/1 12:15 回要 09:30 到機場，看完日出就得走"
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查：台中直飛來回每人 NT$11,002；早班去多半天，但 1/1 12:15 回要 09:30 到機場，看完日出就得走"
   }
  ],
  "getting_around": {
@@ -80,21 +80,21 @@
    "name": "Ciel de Mer 海雲台",
    "area": "海雲台",
    "nights": 4,
-   "price_night_for2_twd": 3000,
+   "price_night_for2_twd": 3014,
    "availability": "有空房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Ciel%20de%20Mer%20Haeundae",
-   "why": "（10/15 Booking 實查）：4 晚 NT$11,995、評分 9.1、剩 6 間可免費取消；走路到海邊與할매국밥"
+   "why": "10/16 Booking 實查 12/28→1/1：4 晚 NT$12,057、評分 9.1、剩 6 間可免費取消；走路到海邊與할매국밥"
   },
   {
    "name": "MS Hotel 海雲台",
    "area": "海雲台",
    "nights": 4,
-   "price_night_for2_twd": 4486,
+   "price_night_for2_twd": 4510,
    "availability": "有空房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=MS%20Hotel%20Haeundae",
-   "why": "：4 晚 NT$17,944、評分 8.9、地點 9.7，房間大一點；剩 2 間"
+   "why": "10/16 Booking 實查：4 晚 NT$18,038、評分 8.9、地點 9.7，房間大一點；剩 2 間"
   }
  ],
  "days": [
@@ -1441,8 +1441,8 @@
   }
  ],
  "budget": {
-  "flights_for2": 17336,
-  "stay_for2": 11995,
+  "flights_for2": 17342,
+  "stay_for2": 12057,
   "food_for2": [
    15000,
    20000
@@ -1459,7 +1459,7 @@
    50000,
    64000
   ],
-  "note": "機票＝真航空 8,668×2（星宇 10,998×2 則 +4,660）；住宿低估＝Ciel de Mer 4 晚 11,995、高估＝MS Hotel 17,944；吃＝本行程各店菜單價加總約 16,000（烤肉 3,000、雪蟹 2,100、札嘎其 1,900、烤貝 1,900、四晚酒吧 4,300…）＋咖啡零食；交通＝機場計程車來回 2,100＋T-money＋市區計程車；活動＝膠囊列車 1,320＋Spa Land 1,220＋釜山塔 470＋雜項。匯率以 ₩1,000≈NT$23.5 估（10/16，待確認）；真航空托運另計"
+  "note": "機票＝台中直飛真航空 8,671×2（星宇 11,002×2 則 +4,662）；住宿低估＝Ciel de Mer 4 晚 12,057、高估＝MS Hotel 18,038；吃＝本行程各店菜單價加總約 16,000（烤肉 3,000、雪蟹 2,100、札嘎其 1,900、烤貝 1,900、四晚酒吧 4,300…）＋咖啡零食；交通＝機場計程車來回 2,100＋T-money＋市區計程車；活動＝膠囊列車 1,320＋Spa Land 1,220＋釜山塔 470＋雜項。匯率以 ₩1,000≈NT$23.5 估（待確認）；真航空托運另計。機票與住宿 10/16 下午重查"
  },
  "weather": {
   "high_c": 8,

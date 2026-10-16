@@ -331,11 +331,12 @@ document.getElementById('h1').innerHTML = `${esc(D.name)}<small>${esc(D.tagline|
 document.getElementById('tag').textContent = '';
 document.getElementById('summary').textContent = D.summary || '';
 document.getElementById('dates').innerHTML = `<span class="d">${esc(D.dates?.out)} → ${esc(D.dates?.back)}</span><span class="dim">${D.dates?.nights} 晚</span>${D.dates?.why ? `<span class="faint">${esc(D.dates.why)}</span>` : ''}`;
-const minF = (D.flights||[]).filter(f => f.price_pp_twd).sort((a,b) => a.price_pp_twd - b.price_pp_twd)[0];
+const isDirect = f => f.kind !== 'transfer' && !/轉機|香港快運|國泰|無直飛|經.{1,6}(轉|HKG|KUL|SIN|HAN|ICN)/.test((f.airline||'') + (f.out||'') + (f.basis||'') + (f.note||'') + (f.back||''));
+const minF = (D.flights||[]).filter(f => f.price_pp_twd && isDirect(f)).sort((a,b) => a.price_pp_twd - b.price_pp_twd)[0];
 document.getElementById('stats').innerHTML = `
   <div class="stat"><b>${(D.days||[]).length}</b><span>天</span></div>
   <div class="stat"><b>${b.total_for2 ? wan(b.total_for2[0]) + '–' + wan(b.total_for2[1]) : '–'}</b><span>萬・兩人全包</span></div>
-  <div class="stat"><b>${minF ? Math.round(minF.price_pp_twd/1000) + 'K' : '–'}</b><span>機票每人・${minF ? (minF.from === 'RMQ' ? '台中' : '桃園') + '出發' : ''}</span></div>`;
+  <div class="stat"><b>${minF ? Math.round(minF.price_pp_twd/1000) + 'K' : '–'}</b><span>直飛每人・${minF ? (minF.from === 'RMQ' ? '台中' : '桃園') + '出發' : ''}</span></div>`;
 
 // sketch scroll: per-day photo polaroids (fallback to icons)
 (function(){

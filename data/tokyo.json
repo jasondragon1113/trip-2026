@@ -11,12 +11,12 @@
   "soft": "#FFF0F4"
  },
  "tagline": "機票最便宜、吃喝最密集的東京 4 天",
- "summary": "桃園酷航早去晚回每人 11,995，是所有候選裡最便宜的機票，而且不用自駕、不用擔心下雪。住押上（晴空塔旁）三晚，白天一天淺草、一天鎌倉江之島沿海步行（挑戰）、一天豐洲市場壽司＋teamLab＋澀谷夕陽；晚上照你們的規矩每天收在一條橫丁：淺草ホッピー通り、新宿黃金街、澀谷のんべい横丁、上野立飲。兩人全包估 6.3–8.3 萬。",
+ "summary": "桃園酷航早去晚回每人 12,190，是早去晚回裡最便宜的機票，而且不用自駕、不用擔心下雪。住押上（晴空塔旁）三晚，白天一天淺草、一天鎌倉江之島沿海步行（挑戰）、一天豐洲市場壽司＋teamLab＋澀谷夕陽；晚上照你們的規矩每天收在一條橫丁：淺草ホッピー通り、新宿黃金街、澀谷のんべい横丁、上野立飲。兩人全包估 6.3–8.3 萬。",
  "dates": {
   "out": "12/28",
   "back": "12/31",
   "nights": 3,
-  "why": "第一輪查價的機票日期矩陣裡，12/28（一）去、12/31（四）回是酷航早去（06:50）晚回（19:45）最便宜的一組（每人 11,995，4 晚的 12/27 版同價但多一晚住宿 ¥26,000）。12/30 豐洲市場有開（12/31 休市）、12/31 築地場外與阿美橫町年末市集最熱鬧。想跨年＋初詣的話改 12/30→1/2（跨年夜在增上寺聽除夜鐘＋東京鐵塔，1/1 清晨淺草寺或明治神宮初詣）：第一輪查價 12/29–1/2 酷航＋捷星每人 13,080（略超）、12/31 晚住宿比平日貴約 ¥10,000，1/1 百貨休息、1/2 初賣；12/30 去的實價未查（已核價）。"
+  "why": "第一輪查價的機票日期矩陣裡，12/28（一）去、12/31（四）回是酷航早去（06:50）晚回（19:45）最便宜的一組（每人 12,190，4 晚的 12/27 版同價但多一晚住宿 ¥26,000）。12/30 豐洲市場有開（12/31 休市）、12/31 築地場外與阿美橫町年末市集最熱鬧。想跨年＋初詣的話改 12/30→1/2（跨年夜在增上寺聽除夜鐘＋東京鐵塔，1/1 清晨淺草寺或明治神宮初詣）：第一輪查價 12/29–1/2 酷航＋捷星每人 13,090（略超）、12/31 晚住宿比平日貴約 ¥10,000，1/1 百貨休息、1/2 初賣；12/30 去的實價未查（已核價）。"
  },
  "flights": [
   {
@@ -25,14 +25,31 @@
    "airline": "星宇航空（直飛）",
    "out": "12/27 09:15→13:25",
    "back": "12/31 14:25→17:55",
-   "price_pp_twd": 38740,
+   "price_pp_twd": 38743,
    "baggage": "含托運（艙等待確認）",
    "fits_time_pref": true,
    "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "（Google Flights 10/15 即時來回價，12/27 去）。台中唯一直飛但 3 倍預算；第一輪查價的 RMQ↔NRT 日期方格 12/28–12/31 最低 18,156（班次未細查，多為轉機）。1/1 回版 20,836"
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20RMQ%20on%202026-12-27%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "台中唯一直飛，12/27 去要每人 3.9 萬；同班 12/28 去較便宜（見下一筆）。轉機最低約 18,160，但要隔天才到，不考慮",
+   "basis": "Google 航班 10/16 下午實查"
+  },
+  {
+   "baggage": "含托運（看票種）",
+   "verified": true,
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查",
+   "from": "RMQ",
+   "to": "NRT",
+   "airline": "星宇航空（直飛，12/28 去）",
+   "out": "12/28 09:15→13:25",
+   "back": "12/31 14:25→17:55",
+   "price_pp_twd": 30871,
+   "fits_time_pref": false,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20RMQ%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "note": "台中出發唯一直飛、日期跟本行程一樣，但每人 3 萬多，是桃園的 2.5 倍；12/31 下午就得回",
+   "within_budget": false
   },
   {
    "from": "TPE",
@@ -40,14 +57,15 @@
    "airline": "酷航 TR（來回）",
    "out": "12/28 06:50→10:55",
    "back": "12/31 19:45→22:55",
-   "price_pp_twd": 11995,
+   "price_pp_twd": 12190,
    "baggage": "不含托運（加購約 NT$1,000–1,500／段，待確認）",
    "fits_time_pref": true,
    "within_budget": true,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "★推薦。 1-1 表 ★2（單程 5,360＋6,635）。06:50 起飛要 04:30 前到桃園第一航廈，台中出發前一晚北上或搭夜車"
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20TPE%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "★推薦（早去晚回裡最便宜）。比 10/15 漲 195。06:50 起飛要 04:30 前到桃園第一航廈，台中出發前一晚北上或搭夜車",
+   "basis": "Google 航班 10/16 下午實查"
   },
   {
    "from": "TPE",
@@ -55,14 +73,15 @@
    "airline": "樂桃 MM（來回）",
    "out": "12/27 10:40→14:55",
    "back": "12/31 16:35→20:00",
-   "price_pp_twd": 12588,
+   "price_pp_twd": 14120,
    "baggage": "不含托運",
    "fits_time_pref": false,
-   "within_budget": true,
+   "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "。去程 10:40 不算早班、回程 16:35 會吃掉 12/31 下午；酷航睡不到的話可選"
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20TPE%20on%202026-12-27%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "12/27 去 10:40、12/31 回 16:35，比 10/15 漲 1,532；回程會吃掉 12/31 下午",
+   "basis": "Google 航班 10/16 下午實查"
   },
   {
    "from": "TPE",
@@ -70,14 +89,15 @@
    "airline": "酷航去＋捷星回（跨年版 12/29→1/2）",
    "out": "12/29 06:50→10:55",
    "back": "1/2 12:30→15:45",
-   "price_pp_twd": 13080,
+   "price_pp_twd": 13090,
    "baggage": "不含托運",
    "fits_time_pref": true,
    "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "1-1 表第 4 列（6,326＋6,754），略超 80 元。本頁建議的跨年版 12/30→1/2 未查實價（12/30 去程參考 1/1 版酷航 7,350），要跨年請之後核價"
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20TPE%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "跨年版，略超 90 元；12/30 去的版本未查",
+   "basis": "Google 航班 10/16 下午實查（分段購票，兩段直飛）"
   },
   {
    "from": "TPE",
@@ -85,14 +105,31 @@
    "airline": "星宇航空",
    "out": "12/27 08:25→12:35",
    "back": "12/31 15:40→18:45",
-   "price_pp_twd": 22267,
+   "price_pp_twd": 16292,
    "baggage": "含托運",
    "fits_time_pref": true,
    "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
-   "checked": "2026-10-15",
-   "note": "（9,756＋12,511）。含行李、時間最舒服，但兩人多 2 萬"
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20TPE%20on%202026-12-27%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "note": "12/27 08:25 去、12/31 15:40 回，比 10/15 便宜 6 千；回程改 20:10 班是 15,847。含行李、時間最舒服",
+   "basis": "Google 航班 10/16 下午實查"
+  },
+  {
+   "baggage": "不含托運",
+   "verified": true,
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查",
+   "from": "TPE",
+   "to": "NRT",
+   "airline": "樂桃 MM（紅眼班來回）",
+   "out": "12/28 02:25→06:30",
+   "back": "12/31 22:05→1/1 01:25",
+   "price_pp_twd": 11030,
+   "fits_time_pref": false,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20NRT%20from%20TPE%20on%202026-12-28%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
+   "note": "最便宜，但半夜 2 點多起飛、回到台灣是元旦凌晨 1 點半，兩天都睡不好；想省 1,160 才選",
+   "within_budget": true
   }
  ],
  "getting_around": {
@@ -128,39 +165,39 @@
    "nights": 3,
    "price_night_for2_twd": 6817,
    "availability": "有空房",
-   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/162860",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/162860?f_nen1=2026&f_tuki1=12&f_hi1=28&f_nen2=2026&f_tuki2=12&f_hi2=31&f_otona_su=2&f_heya_su=1&f_flg=PLAN",
    "map_url": "https://www.google.com/maps/search/?api=1&query=ONE%40Tokyo%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A2%A8%E7%94%B0%E5%8C%BA%E6%8A%BC%E4%B8%8A1-19-3",
-   "why": "：12/28–12/31 三晚 ¥98,800≈NT$20,452（樂天 10/15 實查，素泊）。隈研吾設計、房內看得到晴空塔、アクセス特急從成田直達押上不用換車；房間 14m² 偏小是唯一缺點"
+   "why": "：12/28–12/31 三晚 ¥98,800≈NT$20,452（樂天 10/16 再查同價、還剩 7 間，素泊）。隈研吾設計、房內看得到晴空塔、アクセス特急從成田直達押上不用換車；房間 14m² 偏小是唯一缺點"
   },
   {
    "name": "東急ステイ門前仲町",
    "area": "門前仲町（去豐洲、築地都近）",
    "nights": 3,
-   "price_night_for2_twd": 7245,
+   "price_night_for2_twd": 7412,
    "availability": "有空房",
-   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/41707",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Tokyu+Stay+Monzen-Nakacho&checkin=2026-12-28&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%80%A5%E3%82%B9%E3%83%86%E3%82%A4%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA",
-   "why": "：三晚 ¥105,000≈NT$21,735。房內有洗衣機、房間比 ONE@Tokyo 大；到豐洲市場 15 分、到淺草 20 分"
+   "why": "：三晚 NT$22,237（Booking 10/16 年末優惠價，樂天已滿）。房內有洗衣機、房間比 ONE@Tokyo 大；到豐洲市場 15 分、到淺草 20 分"
   },
   {
    "name": "東急ステイ築地",
    "area": "築地（走路到場外市場）",
    "nights": 3,
-   "price_night_for2_twd": 8252,
+   "price_night_for2_twd": 8114,
    "availability": "有空房",
-   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/41702",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/41702?f_nen1=2026&f_tuki1=12&f_hi1=28&f_nen2=2026&f_tuki2=12&f_hi2=31&f_otona_su=2&f_heya_su=1&f_flg=PLAN",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%80%A5%E3%82%B9%E3%83%86%E3%82%A4%E7%AF%89%E5%9C%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AF%89%E5%9C%B0",
-   "why": "：三晚 ¥119,600≈NT$24,757。12/31 早上走路就到築地場外，銀座也在走路範圍；有洗衣機"
+   "why": "：三晚 ¥117,600≈NT$24,343（樂天 10/16 連泊方案）。12/31 早上走路就到築地場外，銀座也在走路範圍；有洗衣機"
   },
   {
    "name": "京成リッチモンドホテル東京押上",
    "area": "押上",
    "nights": 3,
-   "price_night_for2_twd": 8301,
+   "price_night_for2_twd": 8163,
    "availability": "有空房",
-   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/183299",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/183299?f_nen1=2026&f_tuki1=12&f_hi1=28&f_nen2=2026&f_tuki2=12&f_hi2=31&f_otona_su=2&f_heya_su=1&f_flg=PLAN",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E6%8A%BC%E4%B8%8A",
-   "why": "：三晚 ¥120,300≈NT$24,902。押上第二選擇，房間比 ONE@Tokyo 大，Skyliner／アクセス特急同樣直達"
+   "why": "：三晚 ¥118,300≈NT$24,488（樂天 10/16，剩 2 間）。押上第二選擇，房間比 ONE@Tokyo 大，Skyliner／アクセス特急同樣直達"
   }
  ],
  "days": [
@@ -1282,7 +1319,7 @@
   }
  ],
  "budget": {
-  "flights_for2": 23990,
+  "flights_for2": 24380,
   "stay_for2": 20452,
   "food_for2": [
    13000,
@@ -1297,10 +1334,10 @@
    5500
   ],
   "total_for2": [
-   63000,
-   83000
+   63390,
+   82976
   ],
-  "note": "匯率 1 JPY≈NT$0.207（臺銀 10/15）。機票＝酷航 11,995×2；住宿＝ONE@Tokyo 3 晚 ¥98,800（高估用東急ステイ築地 24,757）；吃＝4 天含酒吧：壽司 2,900＋燒肉 4,060＋其他正餐小吃約 6,000＋每晚酒吧 1,000–1,500；交通＝アクセス特急來回 ¥5,200＋鎌倉 Freepass ¥3,280＋地鐵約 ¥3,600（高估改 Skyliner）；活動＝teamLab ¥7,600＋SHIBUYA SKY 約 ¥5,000＋晴空塔 ¥4,200＋鎌倉門票 ¥1,400＋江之島 ¥2,200。若改跨年版多 1 晚（12/31 住宿約貴 ¥10,000）約再加 1.5 萬"
+  "note": "匯率 1 JPY≈NT$0.207（臺銀 10/15）。機票＝酷航 12,190×2（樂桃紅眼班 11,030 更便宜但半夜飛）；住宿＝ONE@Tokyo 3 晚 ¥98,800（高估用東急ステイ築地 24,343）；吃＝4 天含酒吧：壽司 2,900＋燒肉 4,060＋其他正餐小吃約 6,000＋每晚酒吧 1,000–1,500；交通＝アクセス特急來回 ¥5,200＋鎌倉 Freepass ¥3,280＋地鐵約 ¥3,600（高估改 Skyliner）；活動＝teamLab ¥7,600＋SHIBUYA SKY 約 ¥5,000＋晴空塔 ¥4,200＋鎌倉門票 ¥1,400＋江之島 ¥2,200。若改跨年版多 1 晚（12/31 住宿約貴 ¥10,000）約再加 1.5 萬。機票與住宿 10/16 下午重查"
  },
  "weather": {
   "high_c": 12,
@@ -1356,7 +1393,7 @@
  ],
  "prep": [
   {
-   "item": "訂機票：酷航 TPE⇄NRT 12/28 06:50／12/31 19:45（每人 11,995，10/15 價會漲）；決定要不要加托運",
+   "item": "訂機票：酷航 TPE⇄NRT 12/28 06:50／12/31 19:45（每人 12,190，10/16 價會漲）；決定要不要加托運",
    "when": "11 月前",
    "url": "https://www.flyscoot.com/zh-tw"
   },
@@ -1397,7 +1434,7 @@
   }
  ],
  "risks": [
-  "機票價格是 10/15 查的，廉航 年末會漲；酷航不含托運，兩人一件 20kg 加購約 NT$1,000–1,500／段（待確認）",
+  "機票價格是 10/16 查的（酷航已比 10/15 漲 195），廉航 年末會漲；酷航不含托運，兩人一件 20kg 加購約 NT$1,000–1,500／段（待確認）",
   "酷航 06:50 要 04:30 到桃園，台中出發等於前一晚不睡或住機場旁",
   "RMQ 只有星宇直飛且每人 2–3.9 萬，台中出發基本上得改桃園",
   "12/31 豐洲市場休市，壽司早餐一定要排在 12/30；大和寿司排 30–90 分、壽司大要凌晨排",

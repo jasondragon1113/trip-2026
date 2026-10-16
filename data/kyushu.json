@@ -11,12 +11,12 @@
   "soft": "#FFF3EA"
  },
  "tagline": "吃遍博多，開車進由布院，別府跨年",
- "summary": "桃園虎航早班直飛福岡、元旦亞航下午飛回，每人 10,612。福岡住兩晚把屋台、もつ鍋、水炊き吃一輪，第二天開車去糸島爬 40 分鐘的立石山、在漁港烤牡蠣；第三天開上大分道進由布院泡湯、第四天看金鱗湖晨霧、走一段由布岳、到別府看地獄、蒸桑拿，在居酒屋跨年；元旦早上砂湯活埋＋初詣再回福岡搭機。喜歡開車就租 4 天（由布院可能結冰，有備案），不想開就全程高速巴士，兩種都排好了。",
+ "summary": "桃園虎航早班直飛福岡、元旦亞航下午飛回，每人 10,634。福岡住兩晚把屋台、もつ鍋、水炊き吃一輪，第二天開車去糸島爬 40 分鐘的立石山、在漁港烤牡蠣；第三天開上大分道進由布院泡湯、第四天看金鱗湖晨霧、走一段由布岳、到別府看地獄、蒸桑拿，在居酒屋跨年；元旦早上砂湯活埋＋初詣再回福岡搭機。喜歡開車就租 4 天（由布院可能結冰，有備案），不想開就全程高速巴士，兩種都排好了。",
  "dates": {
   "out": "12/28",
   "back": "1/1",
   "nights": 4,
-  "why": "Google 航班 10/16 實查：12/28（一）虎航 06:45 去＋1/1（五）亞航 16:20 回，每人 10,612 是 12/27–1/5 裡最便宜又符合「早去、下午回」的組合（12/27–12/31 虎航來回 11,361 次之）。12/29 平日糸島牡蠣小屋正常開（12/31–1/2 休）、12/30 由布院入住價還沒到跨年高峰、12/31 在別府跨年、1/1 初詣不去太宰府（三天 200 萬人、12/31 23:00 起交通管制），改第一天就先去太宰府。"
+  "why": "Google 航班 10/16 實查：12/28（一）虎航 06:45 去＋1/1（五）亞航 16:20 回，每人 10,634 是 12/27–1/5 裡最便宜又符合「早去、下午回」的組合（12/27–12/31 虎航來回 11,361 次之）。12/29 平日糸島牡蠣小屋正常開（12/31–1/2 休）、12/30 由布院入住價還沒到跨年高峰、12/31 在別府跨年、1/1 初詣不去太宰府（三天 200 萬人、12/31 23:00 起交通管制），改第一天就先去太宰府。"
  },
  "flights": [
   {
@@ -30,9 +30,11 @@
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20FUK%20from%20RMQ%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "Google 航班 10/16 實查 RMQ→FUK 12/28–1/1：全部轉機、最低 17,046、隔天才到。台中出發者直接改桃園（高鐵／客運前一晚北上）"
+   "note": "全部轉機、最低 17,046、隔天才到，不列入預算。台中出發者直接改桃園（高鐵／客運前一晚北上）",
+   "basis": "Google 航班 10/16 下午實查：台中到福岡沒有直飛",
+   "kind": "transfer"
   },
   {
    "from": "TPE",
@@ -40,14 +42,15 @@
    "airline": "台灣虎航 去 ＋ 亞洲航空 回（分段購票）",
    "out": "12/28 06:45→10:00",
    "back": "1/1 16:20→18:10",
-   "price_pp_twd": 10612,
+   "price_pp_twd": 10634,
    "baggage": "兩段都是 廉航 不含托運；虎航 20kg 約 NT$900–1,200／段、亞航約 NT$1,000／段（待確認）",
    "fits_time_pref": true,
    "within_budget": true,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20FUK%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "Google 航班 10/16 實查：點進虎航 06:45 去程後，回程列表最便宜是亞航 16:20 分段購票 10,612（兩張單程分開買）。推薦這組"
+   "note": "★推薦。虎航 06:45 去＋亞航 16:20 回，兩張單程分開買，比上午多 22",
+   "basis": "Google 航班 10/16 下午實查（分段購票，兩段直飛）"
   },
   {
    "from": "TPE",
@@ -60,9 +63,10 @@
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20FUK%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "同一家買來回反而貴，且 1/1 早上就得離開別府，砂湯與初詣做不到"
+   "note": "同一家買來回反而貴，且 1/1 早上就得離開別府，砂湯與初詣做不到",
+   "basis": "Google 航班 10/16 下午實查"
   },
   {
    "from": "TPE",
@@ -70,14 +74,15 @@
    "airline": "台灣虎航 去 ＋ 中華航空 回",
    "out": "12/28 06:45→10:00",
    "back": "1/1 11:00→12:35",
-   "price_pp_twd": 13400,
+   "price_pp_twd": 13432,
    "baggage": "華航段含 23kg 托運；虎航段不含",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20FUK%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "想要回程有托運的備案；回程偏早"
+   "note": "想要回程有托運的備案；回程偏早",
+   "basis": "Google 航班 10/16 下午實查（分段購票，兩段直飛）"
   },
   {
    "from": "TPE",
@@ -90,9 +95,10 @@
    "fits_time_pref": true,
    "within_budget": true,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20FUK%20from%20TPE%20on%202026-12-27%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "Google 航班 10/16 實查 12/27（日）去 12/31（四）回最低 11,361（回程班次時間未點開，待確認）。少了跨年與元旦，但 12/31 當天回台灣可以在家跨年"
+   "note": "Google 航班 10/16 實查 12/27（日）去 12/31（四）回最低 11,361（回程班次時間未點開，待確認）。少了跨年與元旦，但 12/31 當天回台灣可以在家跨年",
+   "basis": "Google 航班 10/16 下午實查"
   },
   {
    "from": "TPE",
@@ -100,14 +106,15 @@
    "airline": "星宇航空 來回",
    "out": "12/28 14:45→18:00",
    "back": "1/1",
-   "price_pp_twd": 14682,
+   "price_pp_twd": 14703,
    "baggage": "含托運",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "source": "https://www.google.com/travel/flights",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20FUK%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "去程下午班，第一天只剩晚上；華航／JAL 06:50 班來回 14,623、長榮 08:00 班 15,627 也都超預算"
+   "note": "去程下午班，第一天只剩晚上；華航／JAL 06:50 班來回 14,623、長榮 08:00 班 15,627 也都超預算",
+   "basis": "Google 航班 10/16 下午實查"
   }
  ],
  "getting_around": {
@@ -145,30 +152,30 @@
    "name": "Quintessa Hotel Fukuoka Watanabedori（クインテッサホテル福岡 渡辺通）",
    "area": "福岡 渡辺通（天神南／中洲步行 10 分）",
    "nights": 2,
-   "price_night_for2_twd": 2562,
+   "price_night_for2_twd": 5423,
    "availability": "有空房",
-   "url": "https://www.google.com/travel/search?q=Quintessa%20Hotel%20Fukuoka%20Watanabedori",
+   "url": "https://www.booking.com/hotel/jp/quintessahotel-fukuokawatanabedouri-comic-amp-books.zh-tw.html?checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Quintessa%20Hotel%20Fukuoka%20Watanabedori",
-   "why": "Google 飯店 10/16 實查 12/28–12/30 每晚 NT$2,562、評分 4.3（97 則）；有溫泉大浴場＋露天浴場＋三溫暖，走路到天神立飲、中洲屋台、華味鳥都 10 分內，第二天開車也方便上都市高速",
+   "why": "Booking 10/16 下午實查 12/28–12/30 標準雙床房兩晚 NT$10,846（每晚約 5,423）；有溫泉大浴場＋露天浴場＋三溫暖，走路到天神立飲、中洲屋台、華味鳥都 10 分內，第二天開車也方便上都市高速",
    "photo": null,
    "links": [
     {
      "type": "official",
-     "title": "Google 飯店搜尋（12/28–12/30 有價）",
-     "url": "https://www.google.com/travel/search?q=hotels%20near%20Hakata%20Station%20Fukuoka%20Dec%2028%20-%20Dec%2030%202026"
+     "title": "Booking.com Quintessa 渡辺通（12/28–12/30 有空房）",
+     "url": "https://www.booking.com/hotel/jp/quintessahotel-fukuokawatanabedouri-comic-amp-books.zh-tw.html?checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD"
     }
    ],
-   "note": "備案：東急STAY博多 NT$2,735／晚 4.3（1,600 則）、福岡蒙特埃馬納 NT$2,322／晚 4.3（3,800 則，台灣房客多），同日實查"
+   "note": "早上 Google 飯店顯示的 2,562 其實不是 12 月的價；備案：東急STAY博多兩晚 NT$11,829（Booking 10/16）"
   },
   {
    "name": "溫泉旅館 つたや（由布院）",
    "area": "由布院",
    "nights": 1,
    "price_night_for2_twd": 2323,
-   "availability": "有空房",
-   "url": "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026",
+   "availability": "未知",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E3%81%A4%E3%81%9F%E3%82%84+%E7%94%B1%E5%B8%83%E9%99%A2&checkin=2026-12-30&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8%E3%81%A4%E3%81%9F%E3%82%84%20%E7%94%B1%E5%B8%83%E9%99%A2",
-   "why": "Google 飯店 10/16 實查 12/30–12/31 NT$2,323、4.5（78 則）、露天浴場＋免費停車，由布院 12/30 便宜又有露天的少數選擇。想升級：Yufuin Lamp no Yado NT$4,598（4.6／721 則，私人浴池＋酒吧）、Yufuin Akarinoyado NT$3,537（4.1／206）",
+   "why": "4.5 分（78 則）、露天浴場＋免費停車，由布院 12/30 便宜又有露天的少數選擇。想升級：Yufuin Lamp no Yado NT$4,598（4.6／721 則，私人浴池＋酒吧）、Yufuin Akarinoyado NT$3,537（4.1／206）",
    "photo": {
     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20winter%20near%20Yufuin%20Hot%20Spring%20and%20Mount%20Fukumazan.JPG?width=1200",
     "credit": "そらみみ",
@@ -181,17 +188,30 @@
      "url": "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026"
     }
    ],
-   "note": "是否含晚餐待確認；照片是由布院冬天田野（Commons），不是旅館本身。界 由布院、亀の井別荘 10/16 已無報價（可能滿房）"
+   "note": "Booking 沒上架這間，12/30 空房與價格要另外問（早上 Google 飯店的 2,323 不是 12 月的價）；照片是由布院冬天田野（Commons），不是旅館本身"
+  },
+  {
+   "name": "Yufuin Akarinoyado（由布院 灯りの宿）",
+   "area": "由布院",
+   "nights": 1,
+   "price_night_for2_twd": 6483,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E3%81%A4%E3%81%9F%E3%82%84+%E7%94%B1%E5%B8%83%E9%99%A2&checkin=2026-12-30&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Yufuin%20Akarinoyado",
+   "why": "Booking 10/16 實查 12/30–12/31 NT$6,483（7.8 分），つたや查不到時的有房選擇；同日同區還有湯布院旅之藏 NT$3,696（8.4 分）",
+   "photo": null,
+   "links": [],
+   "note": "是否含晚餐待確認"
   },
   {
    "name": "西鉄リゾートイン別府（Nishitetsu Resort Inn Beppu）",
    "area": "別府駅前（北浜）",
    "nights": 1,
-   "price_night_for2_twd": 2767,
+   "price_night_for2_twd": 5344,
    "availability": "有空房",
-   "url": "https://www.google.com/travel/search?q=hotels%20Beppu%20Dec%2031%202026%20-%20Jan%201%202027",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Beppu&checkin=2026-12-31&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD&nflt=review_score%3D80",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%89%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%A4%E3%83%B3%E5%88%A5%E5%BA%9C",
-   "why": "Google 飯店 10/16 實查 12/31–1/1 NT$2,767、4.0（1,800 則）、溫泉＋露天浴場、停車場，走路 5 分到跨年居酒屋浜右衛門；便宜版 SUPERHOTEL 別府駅前 NT$2,303（4.4／680，溫泉）、別府第一飯店 NT$1,885（4.2／718）",
+   "why": "Booking 10/16 實查 12/31–1/1 NT$5,344（8.0 分）、溫泉＋露天浴場、停車場，走路 5 分到跨年居酒屋浜右衛門；同日 SUPERHOTEL 別府駅前 NT$5,353（8.8 分，溫泉）",
    "photo": {
     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beppu%20station%20center%201.jpg?width=1200",
     "credit": "wkpn本人が撮影。画像補正済み。",
@@ -200,8 +220,8 @@
    "links": [
     {
      "type": "official",
-     "title": "Google 飯店搜尋（12/31–1/1 有價）",
-     "url": "https://www.google.com/travel/search?q=hotels%20Beppu%20Dec%2031%202026%20-%20Jan%201%202027"
+     "title": "Booking.com 別府 12/31 搜尋",
+     "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Beppu&checkin=2026-12-31&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD&nflt=review_score%3D80"
     }
    ],
    "note": "照片是別府駅（Commons）。想住鉄輪溫泉街就改鉄輪的湯治宿（地獄蒸し步行可到），但 12/31 多數旅館含兩食會貴 1 倍"
@@ -210,11 +230,11 @@
    "name": "東急STAY博多（備案）",
    "area": "博多駅步行 8 分",
    "nights": 2,
-   "price_night_for2_twd": 2735,
+   "price_night_for2_twd": 5915,
    "availability": "有空房",
-   "url": "https://www.google.com/travel/search?q=hotels%20near%20Hakata%20Station%20Fukuoka%20Dec%2028%20-%20Dec%2030%202026",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Fukuoka&checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD&nflt=review_score%3D80",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%80%A5%E3%82%B9%E3%83%86%E3%82%A4%E5%8D%9A%E5%A4%9A",
-   "why": "Google 飯店 10/16 實查 NT$2,735／晚、4.3（1,600 則）；房內有洗衣機，第二天博多駅取車走路就到。缺點：有人評鐵道噪音",
+   "why": "Booking 10/16 實查兩晚 NT$11,829（8.7 分）；房內有洗衣機，第二天博多駅取車走路就到。缺點：有人評鐵道噪音",
    "photo": {
     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakata%20Station%20Hakata%20Exit%20INT%20the%20NNW%20view%20from%20Kitte%20Hakata%20Hakata-eki-ch%C5%AB%C5%8Dgai%20Hakata-ku%20Fukuoka%2020250624.jpg?width=1200",
     "credit": "Hirho",
@@ -223,8 +243,8 @@
    "links": [
     {
      "type": "official",
-     "title": "Google 飯店搜尋",
-     "url": "https://www.google.com/travel/search?q=hotels%20near%20Hakata%20Station%20Fukuoka%20Dec%2028%20-%20Dec%2030%202026"
+     "title": "Booking.com 福岡 12/28–12/30 搜尋",
+     "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Fukuoka&checkin=2026-12-28&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD&nflt=review_score%3D80"
     }
    ],
    "note": "照片是博多駅博多口（Commons）"
@@ -253,7 +273,7 @@
      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%E7%AC%AC%E4%B8%80%E8%88%AA%E5%BB%88",
      "site_url": "https://www.tigerairtw.com/",
      "address": "桃園市大園區航站南路 15 號",
-     "tip": "台中出發前一晚北上；10/16 價 10,612／人會漲，11 月前買",
+     "tip": "台中出發前一晚北上；10/16 價 10,634／人會漲，11 月前買",
      "photo": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Taiwan_Taoyuan_International_Airport_-_Terminal_1.jpg/1280px-Taiwan_Taoyuan_International_Airport_-_Terminal_1.jpg",
       "credit": "毛貓大少爺",
@@ -314,7 +334,7 @@
      "booking_url": "https://www.google.com/travel/search?q=Quintessa%20Hotel%20Fukuoka%20Watanabedori",
      "map_url": "https://www.google.com/maps/search/?api=1&query=Quintessa%20Hotel%20Fukuoka%20Watanabedori",
      "site_url": "",
-     "address": "福岡市中央区渡辺通（Google 飯店實查 NT$2,562／晚）",
+     "address": "福岡市中央区渡辺通（Booking 10/16 實查 NT$5,423／晚）",
      "tip": "15:00 入住；若選東急STAY博多就改搭西鉄到天神轉地下鉄到博多",
      "photo": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nishitetsu-Fukuoka%20%28Tenjin%29%20Station%2020160808.jpg?width=1200",
@@ -788,7 +808,7 @@
      "name": "溫泉旅館 つたや 入住、露天泡湯",
      "kind": "stay",
      "stay_min": 180,
-     "desc": "Google 飯店 10/16 實查 12/30 NT$2,323／晚、4.5 分、露天浴場＋免費停車。放行李、泡湯、睡一下；晚餐若不含就在湯の坪吃地雞或ゆふいん麦酒館。",
+     "desc": "12/30 價格待確認、4.5 分、露天浴場＋免費停車。放行李、泡湯、睡一下；晚餐若不含就在湯の坪吃地雞或ゆふいん麦酒館。",
      "price_for2_twd": 2323,
      "booking": "需預約",
      "booking_url": "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026",
@@ -1649,8 +1669,8 @@
   }
  ],
  "budget": {
-  "flights_for2": 21224,
-  "stay_for2": 10214,
+  "flights_for2": 21268,
+  "stay_for2": 22673,
   "food_for2": [
    7200,
    11400
@@ -1664,10 +1684,10 @@
    3500
   ],
   "total_for2": [
-   44738,
-   64124
+   57241,
+   76627
   ],
-  "note": "匯率 1 JPY≈NT$0.207（臺銀 10/15）。機票＝虎航＋亞航分段 10,612×2（高估加托運約 4,000）；住宿＝Quintessa×2＋つたや＋西鉄リゾートイン別府（Google 飯店 10/16 實查價相加）；吃＝5 天約 ¥35,000–55,000（屋台、もつ鍋、水炊き、牡蠣、まぶし、居酒屋跨年）；交通低＝JR＋高速巴士版約 ¥20,000，高＝自駕版租車 NT$8,560＋油＋過路費＋停車約 ¥18,000；活動＝地獄共通券、むし湯、砂湯、立石山與由布岳免費。兩版都在 10 萬內，自駕版約 6.4 萬"
+  "note": "匯率 1 JPY≈NT$0.207（臺銀 10/15）。機票＝虎航＋亞航分段（兩段直飛）10,634×2（高估加托運約 4,000）；住宿＝Quintessa 2 晚 10,846＋由布院灯りの宿 6,483（つたや查不到）＋西鉄リゾートイン別府 5,344（Booking 10/16 實查）；吃＝5 天約 ¥35,000–55,000（屋台、もつ鍋、水炊き、牡蠣、まぶし、居酒屋跨年）；交通低＝JR＋高速巴士版約 ¥20,000，高＝自駕版租車 NT$8,560＋油＋過路費＋停車約 ¥18,000；活動＝地獄共通券、むし湯、砂湯、立石山與由布岳免費。兩版都在 10 萬內，自駕版約 7.7 萬。機票與住宿 10/16 下午重查，住宿比早上 Google 飯店顯示的貴一倍多（那是非 12 月的價）"
  },
  "weather": {
   "high_c": 11,
@@ -1717,7 +1737,7 @@
   },
   {
    "item": "訂機票：虎航 TPE→FUK 12/28 06:45 ＋ 亞航 FUK→TPE 1/1 16:20，兩張單程分開買；順手加購托運（每人每段約 NT$1,000）",
-   "when": "11/1 前（10/16 價 10,612／人，年末會漲）",
+   "when": "11/1 前（10/16 價 10,634／人，年末會漲）",
    "url": "https://www.tigerairtw.com/"
   },
   {
@@ -1759,7 +1779,7 @@
   "由布岳冬季全程（東峰）標準 5 小時 20 分、12 月有結冰鎖場，沒 6 爪冰爪就只走到合野越折返；風雪或結冰就直接放棄改泡湯",
   "糸島牡蠣小屋 12/31–1/2 休（本行程 12/29 去沒事）；立石山花崗岩雨天滑",
   "Toyota 年末年始地區旺季價、同縣乘捨費、ゆふいん号／とよのくに号年末加班、旅人巴士班次、別府路線巴士票價都標了待確認",
-  "匯率 0.207 是 10/15 臺銀；Google 飯店價為 10/16 顯示價，訂房網實際可能不同"
+  "匯率 0.207 是 10/15 臺銀；住宿價為 Booking 10/16 下午實查"
  ],
  "sketch": {
   "days": [

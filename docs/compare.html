@@ -1,184 +1,111 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>body{margin:0}</style></head><body><title>跨年旅行比較</title>
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>body{margin:0}</style></head><body><title>12 個地方比一比</title>
 <meta name="robots" content="noindex,nofollow">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=LXGW+WenKai+TC:wght@400;700&family=Nunito:wght@700;900&display=swap">
 <style>
-/* Layout: 狐狸與貍貓的旅行繪本 — 可愛頁首（飛機虛線＋小雪）→ 總覽比較 → 地點分頁；手機一欄 */
-/* Layout: 第一輪比價表——與手帳同一套紙本風格；固定亮色 */
+/* Layout: 手帳風比價表 — 頁首 → 推薦方案卡 → 篩選列 → 12 列比較表（手機變卡片）；固定亮色，資料全部來自 12 本手帳 */
 :root{
-  --bg:#FFFDF7; --surface:#FFFFFF; --surface-2:#FFF7E8; --line:#E8DCC8; --line-strong:#3B3024;
+  --bg:#FFFDF7; --paper:#FFFFFF; --paper-2:#FFF7E8; --line:#E8DCC8; --line-ink:#3B3024;
   --ink:#3B3024; --ink-dim:#6F6151; --ink-faint:#8A7B6A;
-  --accent:#E8743B; --accent-bg:#FFF0E3;
-  --lamp:#5E8A4E; --lamp-bg:rgba(94,138,78,.13);
+  --p:#E8743B; --s:#FFB84C; --soft:#FFF0E3; --sky:#2E6FB0;
   --ok:#3E9B5F; --warn:#C9811A; --danger:#D1495B;
-  --band:rgba(62,155,95,.14); --bar:#E8743B; --snow:#F4D3B0;
-  --fox:#FFFFFF; --fox-dark:#F6C9C9; --tanuki:#A5724E; --tanuki-dark:#E9C9A8; --cream:#FFF4E2; --cheek:#F6A99A;
-  --font-display:'LXGW WenKai TC','PingFang TC',serif;
+  --band:rgba(62,155,95,.13);
+  --font-hand:'LXGW WenKai TC','PingFang TC',serif;
   --font-body:'Huninn','PingFang TC','Microsoft JhengHei',system-ui,sans-serif;
   --font-num:'Nunito','Huninn',system-ui,sans-serif;
-  --r:18px; --r-sm:12px; --pill:999px;
-  --blob:255px 18px 225px 18px / 18px 225px 18px 255px;
-  --shadow:0 4px 0 var(--line);
-  --spring:cubic-bezier(.34,1.56,.64,1);
+  --blob:255px 18px 225px 18px / 18px 225px 18px 255px; --pill:999px;
+  --spring:cubic-bezier(.34,1.56,.64,1); --shadow:0 4px 0 var(--line);
   color-scheme:light;
 }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14.5px;line-height:1.6;background-image:radial-gradient(var(--line) .8px, transparent .8px);background-size:22px 22px}
-.wrap{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;gap:20px}
-h1,h2,h3{font-family:var(--font-display);font-weight:700;text-wrap:balance;margin:0;line-height:1.3}
-h1{font-size:28px}
-h2{font-size:20px}
-h3{font-size:15px;font-family:var(--font-body);font-weight:700}
-a{color:var(--accent)}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.6;
+  background-image:radial-gradient(var(--line) .8px, transparent .8px);background-size:22px 22px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:14px 60px;display:grid;gap:22px}
+.wrap > *{min-width:0}
+h1,h2,h3{margin:0;font-family:var(--font-hand);font-weight:700;text-wrap:balance;line-height:1.25}
+h2{font-size:24px}
+a{color:var(--p)}
 .num{font-family:var(--font-num);font-variant-numeric:tabular-nums}
-.dim{color:var(--ink-dim)} .faint{color:var(--ink-faint);font-size:12px}
+.faint{color:var(--ink-faint);font-size:12.5px}
+.dim{color:var(--ink-dim)}
+.ico{display:inline-block;width:18px;height:18px;vertical-align:-3px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid var(--s);outline-offset:2px;border-radius:6px}
+.back{font-size:14px;text-decoration:none}
 
-/* top bar */
-.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 20px}
-.top .meta{display:flex;flex-wrap:wrap;gap:6px 14px;color:var(--ink-dim);font-size:13px;margin-top:4px}
-.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.seg{display:inline-flex;background:var(--surface-2);border:2px solid var(--line-strong);border-radius:var(--pill);padding:3px}
-.seg button{border:0;background:transparent;color:var(--ink-dim);font:inherit;font-size:13px;padding:6px 14px;border-radius:var(--pill);cursor:pointer;transition:transform .3s var(--spring)}
-.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.12)}
-.seg button:active{transform:scale(.95)}
-select{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--pill);padding:6px 12px}
-button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:center;background:var(--paper);border:2px solid var(--line-ink);border-radius:var(--blob);box-shadow:var(--shadow);padding:20px 24px}
+.hero h1{font-size:clamp(30px,5vw,46px)}
+.hero p{margin:6px 0 0;color:var(--ink-dim)}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.hero .meta span{background:var(--paper-2);border:2px dashed var(--line-ink);border-radius:var(--pill);padding:3px 12px;font-size:13.5px}
+.hero svg.art{width:100%;max-width:300px;height:auto;justify-self:center}
+.art .bear{fill:#A5724E;stroke:#3B3024;stroke-width:2}.art .bear-in{fill:#E9C9A8}.art .fox{fill:#FFFFFF;stroke:#3B3024;stroke-width:2}.art .fox-ear{fill:#F6C9C9}.art .eye{fill:#3B2A20;stroke:#3B2A20;stroke-width:1.2;stroke-linecap:round}.art .cheek{fill:#F6A99A}.art .ground{fill:var(--soft)}.art .ln{stroke:var(--line-ink);stroke-width:2;fill:none;stroke-linecap:round}
 
-/* overview */
-.panel{background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--blob);box-shadow:var(--shadow)}
-.ov-head,.ov-row{display:grid;grid-template-columns:minmax(120px,1.1fr) minmax(220px,2fr) minmax(110px,.9fr) minmax(90px,.7fr) minmax(150px,1.2fr);gap:14px;align-items:center;padding:10px 14px}
-.ov-head{font-size:12px;color:var(--ink-faint);border-bottom:1px solid var(--line);letter-spacing:.04em}
-.ov-row{border-bottom:1px solid var(--line);cursor:pointer;transition:background .15s}
-.ov-row:last-child{border-bottom:0}
-.ov-row:hover{background:var(--surface-2)}
-.ov-row .name{font-family:var(--font-display);font-size:17px;font-weight:700}
-.ov-row .name small{display:block;font-family:var(--font-body);font-size:12px;color:var(--ink-faint);font-weight:400}
-.ov-row > *{min-width:0}
-.bar{position:relative;height:14px}
-.bar .band{position:absolute;top:0;bottom:0;background:var(--band);border-left:1px dashed var(--ok);border-right:1px dashed var(--ok)}
-.bar .rng{position:absolute;top:3px;height:8px;background:var(--bar);border-radius:4px;min-width:8px}
-.lbl2{font-size:12px;color:var(--ink-dim);margin-top:2px}
+/* picks */
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.pick{background:var(--paper);border:2px solid var(--line-ink);border-radius:var(--blob);box-shadow:var(--shadow);padding:16px 18px;display:grid;gap:8px;align-content:start;text-decoration:none;color:inherit;transition:transform .3s var(--spring);min-width:0}
+.pick:hover{transform:translateY(-3px) rotate(-.4deg)}
+.pick .row1{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.pick h3{font-size:24px;display:flex;align-items:center;gap:8px}
+.pick h3 .ico{width:24px;height:24px;color:var(--p)}
+.pick .money{font-family:var(--font-num);font-size:24px;font-weight:900;color:var(--p)}
+.pick .money small{font-size:12px;color:var(--ink-faint);font-weight:700}
+.pick .why{font-size:14px;color:var(--ink-dim)}
+.pick .ln2{font-size:13.5px}
+.pick .ln2 b{font-weight:400;color:var(--ink-faint);margin-right:6px}
+
+.badge{display:inline-flex;align-items:center;gap:4px;font-size:12px;line-height:1;padding:5px 9px;border-radius:var(--pill);white-space:nowrap;background:var(--paper-2);color:var(--ink-dim);border:1.5px solid var(--line)}
+.b-ok{background:color-mix(in srgb,var(--ok) 14%,transparent);color:var(--ok);border-color:transparent}
+.b-warn{background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn);border-color:transparent}
+.b-danger{background:color-mix(in srgb,var(--danger) 13%,transparent);color:var(--danger);border-color:transparent}
+.b-sky{background:color-mix(in srgb,var(--sky) 13%,transparent);color:var(--sky);border-color:transparent;font-weight:700}
+.b-p{background:var(--soft);color:var(--p);border-color:transparent}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filters button{font:inherit;font-size:14px;background:var(--paper);border:2px solid var(--line-ink);border-radius:var(--pill);padding:5px 13px;cursor:pointer;color:var(--ink);transition:transform .3s var(--spring);box-shadow:var(--shadow)}
+.filters button:hover{transform:translateY(-2px)}
+.filters button[aria-pressed="true"]{background:var(--p);color:#fff;border-color:var(--p)}
+.filters select{margin-left:auto;font:inherit;font-size:14px;border:2px solid var(--line-ink);border-radius:var(--pill);padding:5px 12px;background:var(--paper);color:var(--ink)}
+
+/* table */
+.tbl{background:var(--paper);border:2px solid var(--line-ink);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.trow{display:grid;grid-template-columns:minmax(140px,1.1fr) minmax(110px,.8fr) minmax(200px,1.5fr) minmax(130px,1fr) minmax(140px,1fr) minmax(120px,.9fr) minmax(70px,.5fr);gap:12px;align-items:center;padding:12px 16px;border-top:2px dashed var(--line);text-decoration:none;color:inherit;transition:background .15s}
+.trow > *{min-width:0}
+.trow.head{border-top:0;background:var(--paper-2);font-size:12.5px;color:var(--ink-faint);letter-spacing:.04em;padding-block:9px}
+a.trow:hover{background:var(--soft)}
+.name{display:flex;align-items:center;gap:8px;font-family:var(--font-hand);font-size:19px;font-weight:700;line-height:1.2}
+.name .ico{width:22px;height:22px;color:var(--p)}
+.name small{display:block;font-family:var(--font-body);font-size:12px;font-weight:400;color:var(--ink-faint)}
+.cell{display:grid;gap:3px;font-size:13.5px}
+.big{font-family:var(--font-num);font-weight:900;font-size:16px}
+.bar{position:relative;height:12px;border-radius:var(--pill);background:var(--paper-2);border:1.5px solid var(--line)}
+.bar .band{position:absolute;top:0;bottom:0;background:var(--band);border-left:1.5px dashed var(--ok);border-right:1.5px dashed var(--ok)}
+.bar .rng{position:absolute;top:1px;bottom:1px;background:var(--p);border-radius:var(--pill);min-width:8px}
 .axis{position:relative;height:16px;font-size:11px;color:var(--ink-faint)}
 .axis span{position:absolute;transform:translateX(-50%)}
-.fl{font-size:13px;display:grid;gap:1px}
-.verdict{font-size:13px;color:var(--ink-dim);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.go{font-size:13px;color:var(--p);font-weight:700;text-align:right}
+.note{font-size:12.5px;color:var(--ink-faint)}
 
-.badge{display:inline-flex;align-items:center;gap:4px;font-size:12px;line-height:1;padding:4px 8px;border-radius:var(--pill);white-space:nowrap;background:var(--surface-2);color:var(--ink-dim)}
-.b-ok{background:color-mix(in srgb,var(--ok) 13%,transparent);color:var(--ok)}
-.b-warn{background:color-mix(in srgb,var(--warn) 15%,transparent);color:var(--warn)}
-.b-danger{background:color-mix(in srgb,var(--danger) 13%,transparent);color:var(--danger)}
-.b-info{background:var(--accent-bg);color:var(--accent)}
-.b-lamp{background:var(--lamp-bg);color:var(--lamp)}
-
-/* destination tabs */
-.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
-.tabs button{flex:none;font:inherit;font-size:14px;border:2px solid var(--line-strong);background:var(--surface);color:var(--ink-dim);border-radius:var(--pill);padding:7px 16px;cursor:pointer;transition:transform .3s var(--spring)}
-.tabs button:hover{transform:translateY(-2px)}
-.tabs button[aria-selected="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-bg);font-weight:700}
-
-.detail{display:grid;gap:16px}
-.d-head{display:grid;gap:8px}
-.d-head .tag{font-family:var(--font-display);font-size:18px;color:var(--lamp)}
-.scores{display:flex;flex-wrap:wrap;gap:6px}
-.dots{letter-spacing:2px;color:var(--lamp)}
-.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
-.grid2 > *{min-width:0}
-.sec{padding:14px 16px;display:grid;gap:10px;align-content:start}
-.sec-title{display:flex;align-items:center;gap:8px}
-.sec-title svg{width:18px;height:18px;stroke:var(--accent);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
-.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-sm)}
-table{border-collapse:collapse;width:100%;font-size:13px}
-th{background:var(--surface-2);color:var(--ink-dim);font-weight:500;text-align:left;padding:7px 10px;white-space:nowrap}
-td{padding:7px 10px;border-top:1px solid var(--line);vertical-align:top}
-td.r,th.r{text-align:right}
-.cost{display:grid;gap:6px}
-.cost div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--line);padding-bottom:4px}
-.cost .total{border-bottom:0;font-weight:700;font-size:16px}
-.wx{display:flex;flex-wrap:wrap;gap:10px 22px}
-.wx b{display:block;font-family:var(--font-num);font-size:20px;font-weight:500}
-ol.days,ul.plain{margin:0;padding-left:20px;display:grid;gap:4px}
-.events{display:grid;gap:6px}
-.events div{display:grid;grid-template-columns:64px 1fr;gap:10px}
-.special{border-color:var(--lamp)}
-.special .sec-title svg{stroke:var(--lamp)}
-.special p{margin:0}
-details summary{cursor:pointer;color:var(--ink-dim)}
-details ul{margin:8px 0 0;padding-left:20px;font-size:12px;word-break:break-all}
-.note{font-size:12px;color:var(--ink-faint)}
-
-@media (max-width:760px){
-  h1{font-size:24px}
-  .ov-head{display:none}
-  .ov-row{grid-template-columns:1fr auto;gap:8px 12px}
-  .ov-row .c-bar{grid-column:1/-1;order:3}
-  .ov-row .c-fl{order:2;text-align:right}
-  .ov-row .c-stay{order:4}
-  .ov-row .c-v{grid-column:1/-1;order:5}
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr}.hero svg.art{max-width:220px;order:-1}
+  .trow.head{display:none}
+  .trow{grid-template-columns:1fr 1fr;gap:8px 12px;padding:14px}
+  .trow .c-name{grid-column:1/-1}
+  .trow .c-total{grid-column:1/-1}
+  .trow .c-go{grid-column:1/-1;text-align:left}
+  .filters select{margin-left:0}
 }
-@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
-/* plans */
-.plans-wrap{display:grid;gap:8px}
-.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:4px}
-.plan{background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;display:grid;gap:8px;align-content:start;min-width:0;transition:transform .3s var(--spring)}
-.plan:hover{transform:translateY(-3px)}
-.plan .top-row{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.plan h3{font-family:var(--font-display);font-weight:400;font-size:22px;display:flex;align-items:center;gap:8px}
-.plan h3 svg{width:22px;height:22px;stroke:var(--accent);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.plan .when{color:var(--accent)}
-.plan .money{font-family:var(--font-num);font-size:22px;font-weight:800}
-.plan .money small{font-size:12px;font-weight:600;color:var(--ink-faint)}
-.plan .line{font-size:13px;color:var(--ink-dim)}
-.plan .line b{color:var(--ink);font-weight:400}
-.plan ol{margin:0;padding-left:20px;font-size:13px;display:grid;gap:2px}
-.plan .pc{display:grid;gap:4px;font-size:13px}
-.plan .pc span::before{display:inline-block;width:1.2em;color:var(--ok);content:"+"}
-.plan .pc span.bad::before{color:var(--danger);content:"−"}
-.plan button{justify-self:start;font:inherit;font-size:13px;border:1.5px solid var(--line);background:var(--surface-2);color:var(--ink);border-radius:var(--pill);padding:6px 14px;cursor:pointer;transition:transform .3s var(--spring)}
-.plan button:active{transform:scale(.95)}
-
-/* cute layer */
-h1,h2,.ov-row .name,.d-head .tag{font-weight:400}
-h1{font-size:32px;letter-spacing:.02em}
-.panel{border:1.5px solid var(--line);box-shadow:var(--shadow)}
-.hero{position:relative;overflow:hidden;background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--r);box-shadow:var(--shadow);padding:20px 20px 16px}
-.hero .art{position:absolute;right:8px;bottom:0;top:auto;width:min(44%,250px);height:auto;opacity:.95;pointer-events:none}
-.hero .art .trail{stroke:var(--accent);stroke-dasharray:3 7;stroke-linecap:round;fill:none;stroke-width:2.5}
-.hero .art .bear{fill:#A5724E;stroke:#3B3024;stroke-width:2}.hero .art .bear-in{fill:#E9C9A8}.hero .art .fox{fill:#FFFFFF;stroke:#3B3024;stroke-width:2}.hero .art .fox-ear{fill:#F6C9C9}.hero .art .ln{stroke:var(--line-strong);stroke-width:2;fill:none;stroke-linecap:round}
-.hero .art .ear{fill:var(--fox-dark)}
-.hero .art .tanuki{fill:var(--tanuki)}
-.hero .art .mask{fill:var(--tanuki-dark)}
-.hero .art .cream{fill:var(--cream)}
-.hero .art .eye{fill:#3B2A20;stroke:#3B2A20;stroke-width:1.2;stroke-linecap:round}
-.hero .art .shine{fill:var(--cream)}
-.hero .art .cheek{fill:var(--cheek)}
-.hero .art .heart{fill:var(--cheek)}
-.hero .art .ground{fill:var(--surface-2)}
-.hero > div{position:relative}
-.hero > #snow{position:absolute;inset:0;pointer-events:none}
-.hero .sub{color:var(--accent);font-size:15px;margin-top:2px}
-.flake{position:absolute;top:-10px;width:6px;height:6px;border-radius:50%;background:var(--snow);animation:fall linear infinite}
-@keyframes fall{to{transform:translateY(220px) translateX(18px)}}
-.badge{padding:5px 10px}
-.tabs button{border-width:1.5px;display:inline-flex;align-items:center;gap:6px}
-.tabs button svg,.ov-row .name svg,.d-head h2 svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
-.ov-row .name{display:flex;align-items:center;gap:8px}
-.ov-row .name svg{color:var(--accent);width:22px;height:22px}
-.ov-row .name small{margin-top:-2px}
-.d-head{background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow)}
-.d-head h2{display:flex;align-items:center;gap:8px}
-.d-head h2 svg{color:var(--accent);width:26px;height:26px}
-.dots{color:var(--accent);letter-spacing:1px}
-.sec-title h2{font-size:18px}
-.bar .rng{height:10px;top:2px;border-radius:999px}
-.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface);box-shadow:0 3px 10px var(--accent-bg)}
-@media (max-width:760px){h1{font-size:26px}.hero{padding-top:120px}.hero .art{top:4px;bottom:auto;right:50%;transform:translateX(50%);width:200px}}
-@media (prefers-reduced-motion:reduce){.flake{display:none}}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}}
 </style>
 
 <div class="wrap">
-  <a href="index.html" style="font-size:14px;text-decoration:none">← 回到所有手帳</a>
-  <header class="top hero">
+  <a class="back" href="index.html">← 回到所有手帳</a>
+  <header class="hero">
+    <div>
+      <h1>12 個地方比一比</h1>
+      <p>每一列都是一本手帳的重點：哪幾天去、兩個人要花多少、從台中能不能飛、住的地方還有沒有房。點一列就打開那本手帳。</p>
+      <div class="meta"><span>12/27–1/5 選 4–5 天</span><span>兩人預算 6–10 萬</span><span>機票每人 1.3 萬內</span><span id="checked"></span></div>
+    </div>
     <svg class="art" viewBox="0 0 260 150" aria-hidden="true">
       <ellipse class="ground" cx="130" cy="136" rx="112" ry="10"/>
       <path class="ln" d="M12 118 C 36 108, 54 70, 84 76" stroke-dasharray="3 7"/>
@@ -203,246 +130,109 @@ h1{font-size:32px;letter-spacing:.02em}
       <path class="cheek" d="M150 28c-3-4-10-2-9 3 1 4 9 9 9 9s8-5 9-9c1-5-6-7-9-3z"/>
       <g class="ln"><rect x="222" y="98" width="24" height="32" rx="4" fill="#FFF"/><path d="M228 98v-6h12v6"/><path d="M222 112h24"/></g>
     </svg>
-    <div>
-      <h1>第一輪比價表</h1>
-      <div class="sub">12/27 出發版的 9 個地點，機票、住宿、兩人花費一次比</div>
-      <div class="meta">
-        <span>12/27–1/5 選 4–5 天</span><span>兩人預算 6–10 萬</span><span>機票上限每人 13,000</span><span id="checked"></span>
-      </div>
-    </div>
-    <div class="controls">
-      <div class="seg" role="group" aria-label="回程日">
-        <button id="ret-1231" data-ret="to_1231" aria-pressed="true">12/31 回・4 晚</button>
-        <button id="ret-0101" data-ret="to_0101" aria-pressed="false">1/1 回・5 晚</button>
-      </div>
-      <select id="sort" aria-label="排序">
-        <option value="cost">總花費低→高</option>
-        <option value="chill">最 chill</option>
-        <option value="scenery">風景</option>
-        <option value="food">好吃</option>
-        <option value="ease">最輕鬆</option>
-      </select>
-    </div>
-    <div id="snow" aria-hidden="true"></div>
   </header>
 
-  <section aria-label="推薦方案" class="plans-wrap">
+  <section style="display:grid;gap:12px">
     <h2>推薦方案</h2>
-    <div class="faint" id="plans-note"></div>
-    <div class="plans" id="plans"></div>
+    <div class="picks" id="picks"></div>
   </section>
 
-  <h2>9 個地點比較（12/27 出發）</h2>
-  <section class="panel" aria-label="總覽">
-    <div class="ov-head"><span>地點</span><span>兩人總花費（綠框＝預算 6–10 萬）</span><span>機票每人最低</span><span>住宿</span><span>一句話</span></div>
-    <div id="ov"></div>
-    <div class="ov-head" style="border:0;border-top:1px solid var(--line)"><span></span><div class="axis" id="axis"></div><span></span><span></span><span></span></div>
+  <section style="display:grid;gap:12px">
+    <h2>全部比一比</h2>
+    <div class="filters" id="filters">
+      <button data-f="all" aria-pressed="true">全部</button>
+      <button data-f="budget">預算內</button>
+      <button data-f="rmq">台中直飛</button>
+      <button data-f="nye">能跨年</button>
+      <button data-f="car">可自駕</button>
+      <button data-f="warm">溫暖</button>
+      <button data-f="snow">看雪</button>
+      <select id="sort" aria-label="排序"><option value="cost">花費低→高</option><option value="flight">機票低→高</option><option value="warm">溫度高→低</option><option value="date">出發日</option></select>
+    </div>
+    <div class="tbl">
+      <div class="trow head"><span>地點</span><span>日期</span><span>兩個人全包（綠框＝6–10 萬）</span><span>直飛機票每人（算預算那班）</span><span>住宿</span><span>天氣・交通</span><span></span></div>
+      <div id="rows"></div>
+      <div class="trow head" style="border-top:2px dashed var(--line)"><span></span><span></span><div class="axis" id="axis"></div><span></span><span></span><span></span><span></span></div>
+    </div>
+    <p class="note">「已核價」是當天在 Google 航班或訂房網站實際查到的價格；其他是同季節行情推的。機票和住宿每天在變，訂之前再查一次。</p>
   </section>
-
-  <nav class="tabs" id="tabs" role="tablist" aria-label="地點"></nav>
-  <section class="detail" id="detail"></section>
-
-  <p class="note">價格是查價當天的數字，機票和住宿每天在變；標「估算」的是依同季節價格推的，訂之前請再查一次。</p>
 </div>
 
-<script id="data" type="application/json">{"checked": "2026-10-15", "plans": [{"label": "最便宜", "tone": "b-ok", "place": "峴港", "id": "danang", "dates": "12/28（一）→ 12/31（四）", "nights": 3, "total": [37000, 60000], "flight": "桃園直飛：去星宇 15:20→17:15、回虎航 19:50→23:15（分開買），每人 NT$10,604", "stay": "美溪海灘 BlueSun 3 晚 NT$5,091，或 Sala Danang Beach NT$8,441（都有空房）", "days": ["12/28 下午飛峴港，晚上美溪海灘吃海鮮", "12/29 睡飽喝咖啡，下午去會安古城坐燈籠船、放水燈", "12/30 巴拿山一日（雲多就改五行山＋按摩）", "12/31 韓市場、靈應寺、按摩，晚上飛回台灣"], "good": "錢最少、天氣暖、步調最 chill", "bad": "雨季尾巴偏陰、浪大；跨年在飛機上；要跑桃園（台中轉機版每人 9,742）"}, {"label": "跨年最划算", "tone": "b-lamp", "place": "釜山", "id": "busan", "dates": "12/28（一）→ 1/1（五）", "nights": 4, "total": [44000, 77000], "flight": "台中直飛真航空：去 16:15→19:35、回 1/1 14:00→15:15，每人 NT$8,668（要早班選星宇 08:00，每人 NT$10,998）", "stay": "海雲台 Ciel de Mer 4 晚 NT$11,995，或 MS 飯店 NT$17,944（都有空房）", "days": ["12/28 下午從台中飛，晚上海雲台吃豬肉湯飯", "12/29 海岸天空膠囊列車、青沙浦，下午機張市場吃帝王蟹", "12/30 甘川洞文化村、南浦洞、札嘎其市場", "12/31 廣安里海邊咖啡，晚上跨年倒數＋無人機秀", "1/1 海雲台看新年日出，下午飛回台中"], "good": "台中直飛不用跑桃園、跨年活動最熱鬧、1/1 店家照常開", "bad": "白天約 0–8°C；跨年散場人很多"}, {"label": "最好玩", "tone": "b-info", "place": "日本東北雪國", "id": "ginzan", "dates": "12/28（一）→ 12/31（四）", "nights": 3, "total": [72000, 94000], "flight": "桃園：去酷航 06:50→成田 10:55、回虎航仙台 19:40→23:00，每人 NT$11,997（價格和時段都符合）", "stay": "天童溫泉連住 3 晚含早晚餐（天童ホテル→栄屋→あづま荘，都有空房）", "days": ["12/28 早班到成田，搭山形新幹線到天童，泡湯吃晚餐", "12/29 去銀山溫泉散步，留到黃昏看煤氣燈點燈", "12/30 山寺雪景、天童慢逛、露天溫泉", "12/31 睡飽，到仙台吃牛舌，晚上飛回台灣"], "good": "下雪機率最高、銀山黃昏、溫泉旅館連住不用趕", "bad": "銀山溫泉街 12/27–1/5 全滿，只能白天去；第一天交通約 5 小時；最貴"}], "plans_note": "可以在 12/27–1/5 之間選日期；這 3 個是查完整段期間後，最便宜或最值得的去回日。", "places": [{"id": "ginzan", "name": "銀山溫泉（山形）＋周邊", "country": "日本", "tagline": "雪中大正浪漫溫泉街＋天童/山寺/藏王樹冰的東北雪國慢旅", "verdict": "景色第一，但溫泉街 13 間旅館 12/27–12/31 全滿，只能住天童等附近溫泉白天預約入場或賭候補", "fx": "1 JPY ≈ 0.207 TWD（臺銀 2026-10-15）", "flights": [{"from": "RMQ", "to": "SDJ", "airline": "RMQ 無直飛（香港快運經 HKG）", "out": "12/27 10:10→12/28 14:05", "back": "12/31", "back_alt": "", "price_pp_twd": 24107, "baggage": "不含", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google Flights 即時來回價；RMQ 無直飛仙台", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "NRT（去）/SDJ（回）", "airline": "酷航＋台灣虎航（開口）", "out": "12/27 06:50→10:55", "back": "12/31 19:40→23:00（SDJ→TPE）", "back_alt": "", "price_pp_twd": 11994, "baggage": "不含托運", "fits_time_pref": true, "within_budget": true, "verified": true, "basis": "Google Flights 單程即時價相加 5,360＋6,634", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "NRT", "airline": "酷航去＋樂桃回（1/1 版，東京進出）", "out": "12/27 06:50→10:55", "back": "1/1 16:35→20:00", "back_alt": "", "price_pp_twd": 12708, "baggage": "不含托運", "fits_time_pref": true, "within_budget": true, "verified": true, "basis": "Google Flights 單程即時價相加 5,360＋7,348", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "SDJ", "airline": "台灣虎航", "out": "12/27 14:35→18:45", "back": "12/31 19:40→23:00", "back_alt": "1/1 無班", "price_pp_twd": 15133, "baggage": "不含托運", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google Flights 單程即時價相加 8,499＋6,634", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "SDJ", "airline": "星宇航空", "out": "12/27 11:50→16:00", "back": "1/1 17:25→20:35", "back_alt": "12/31 17:25→20:35（單程 13,287）", "price_pp_twd": 25078, "baggage": "含托運（待確認艙等）", "fits_time_pref": true, "within_budget": false, "verified": true, "basis": "Google Flights 單程即時價相加 10,704＋14,374", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "SDJ", "airline": "長榮航空", "out": "12/27 10:15→14:25", "back": "1/1 16:15→19:30", "back_alt": "", "price_pp_twd": 33216, "baggage": "含托運", "fits_time_pref": true, "within_budget": false, "verified": true, "basis": "Google Flights 單程即時價相加 16,012＋17,204", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}], "hotels": [{"name": "仙峡の宿 銀山荘", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 15165, "meals": "含兩食", "availability": "滿房", "source": "https://www.nj-yoyaku.net/ginzanso/plan.aspx?PID=-1", "note": "官方/樂天/じゃらん 12/27–31 全 ×；12/23 曾出現 △；價為平日牌價中位"}, {"name": "古勢起屋別館", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 14254, "meals": "含兩食", "availability": "滿房", "source": "https://www.nj-yoyaku.net/kosekiya/plan.aspx?PID=-1", "note": "官方/樂天"}, {"name": "本館古勢起屋", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 0, "meals": "含兩食", "availability": "滿房", "source": "https://www.nj-yoyaku.net/kosekikan/plan.aspx?PID=-1", "note": "價格待確認"}, {"name": "能登屋旅館", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 0, "meals": "含兩食", "availability": "滿房", "source": "https://www.nj-yoyaku.net/notoya/plan.aspx?PID=-1", "note": "價格待確認"}, {"name": "滝と蕎麦の宿 瀧見館", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 0, "meals": "含兩食", "availability": "滿房", "source": "https://www.jalan.net/yad316868/", "note": "價格待確認"}, {"name": "古山閣", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 10930, "meals": "含兩食", "availability": "滿房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/137447", "note": "樂天連 2027/3/9 都無房"}, {"name": "古山閣新館 クラノバ", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 0, "meals": "含兩食（義大利料理）", "availability": "滿房", "source": "https://www.jalan.net/yad356689", "note": "價格待確認"}, {"name": "藤屋", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 16974, "meals": "含兩食", "availability": "滿房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/68602", "note": "隈研吾改建"}, {"name": "旅館 松本", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 8197, "meals": "含兩食（年末年始特別膳）", "availability": "滿房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/52933", "note": "30 日前起收取消費→11/27 前後易有取消房；大石田站 15:45 接送"}, {"name": "昭和館", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 0, "meals": "含兩食", "availability": "滿房", "source": "https://www.nj-yoyaku.net/showakan/plan.aspx?PID=-1", "note": "價格待確認"}, {"name": "旅館 永澤平八", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 0, "meals": "含兩食", "availability": "滿房", "source": "https://www.jalan.net/yad319755/", "note": "僅查じゃらん；官網未查"}, {"name": "旅籠 いとうや", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 0, "meals": "含兩食", "availability": "滿房", "source": "https://www.nj-yoyaku.net/itouya/plan.aspx?PID=-1", "note": "價格待確認"}, {"name": "御宿 やなだ屋", "area": "銀山溫泉街", "nights": 1, "price_night_for2_twd": 0, "meals": "含兩食", "availability": "滿房", "source": "https://www.nj-yoyaku.net/yanadaya/plan.aspx?PID=-1", "note": "價格待確認"}, {"name": "天童温泉 松伯亭 あづま荘", "area": "天童（備案A）", "nights": 2, "price_night_for2_twd": 11046, "meals": "樂天最低價方案（餐食未篩，待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/18363", "note": "12/27–30 每晚有空，¥45,980–70,400"}, {"name": "天童温泉 天童ホテル", "area": "天童（備案A）", "nights": 2, "price_night_for2_twd": 10520, "meals": "樂天最低價方案（待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5954", "note": "12/27–29 有空、12/30 滿"}, {"name": "肘折温泉 料理自慢の宿 松屋", "area": "肘折（備案A）", "nights": 1, "price_night_for2_twd": 6003, "meals": "樂天最低價方案（待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/40306", "note": "最便宜；豪雪秘湯，到銀山轉乘較遠"}, {"name": "かみのやま温泉 葉山舘", "area": "上山（備案A）", "nights": 1, "price_night_for2_twd": 12979, "meals": "樂天最低價方案（待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/31208", "note": "接藏王方便"}, {"name": "赤倉温泉 わらべ唄の宿 湯の原", "area": "赤倉（備案A）", "nights": 1, "price_night_for2_twd": 6761, "meals": "樂天最低價方案（待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/16235", "note": "12/27 滿、12/28–30 有空；大眾交通不便"}], "daily_food_for2_twd": [2000, 3500], "local_transport_for2_twd": [10350, 13250], "tickets_other_for2_twd": [2000, 4000], "total_for2_twd": {"to_1231": [82154, 112691], "to_0101": [98582, 139557]}, "weather": {"high_c": 4, "low_c": -2, "conditions": "持續降雪常態，12 月平年降水 157.6mm、年底積雪約 40cm（尾花沢 12 月平年高 4.6/低 -1.5，年底更冷）", "sunset": "約 16:30（待確認）", "wear": "防水雪靴＋冰爪、羽絨外套、毛帽手套、暖暖包"}, "itinerary_1231": ["D1 12/27 酷航 06:50→成田 10:55→東京→山形新幹線→天童溫泉", "D2 12/28 天童→大石田→銀山溫泉（預約 14:00 後接駁看黃昏點燈）→回天童", "D3 12/29 山寺→山形→藏王/上山溫泉（樹冰若開季）", "D4 12/30 慢早晨泡湯→仙台逛街吃牛舌", "D5 12/31 仙台半日/松島→仙台機場 虎航 19:40 回"], "itinerary_0101": ["D1 12/27 酷航 06:50→成田→新幹線→天童溫泉", "D2 12/28 銀山溫泉日歸（預約制接駁）", "D3 12/29 山寺→藏王/上山溫泉", "D4 12/30 仙台（或天童再住一晚更 chill）", "D5 12/31 東北新幹線回東京，東京跨年", "D6 1/1 淺草寺初詣→成田 樂桃 16:35 回"], "highlights": ["雪夜煤氣燈＋木造旅館的大正浪漫街景", "天童/上山泡湯、山寺雪景", "藏王樹冰（年底剛開季）", "開口機票每人不到 1.2 萬"], "events": [{"date": "12月底起", "name": "藏王樹冰夜間點燈", "note": "2025–26 為 12/27 起 17–21 時、纜車 ¥4,400；2026–27 待確認"}, {"date": "12/6–12/25", "name": "SENDAI 光のページェント", "note": "到仙台時已結束"}, {"date": "2026/12–2027/3 初", "name": "銀山溫泉冬季交通管制", "note": "自用車禁入、大正ろまん館轉接駁、回程指定班；預約頁準備中"}], "risks": ["溫泉街 13 間旅館 12/27–31 全滿，候補不保證", "冬季管制 2026–27 仍為草稿，入場預約可能秒殺", "豪雪致新幹線延誤；不建議自駕", "LCC 不含托運", "虎航仙台 1/1 無班，1/1 回需改東京出或付高價", "つばさ全車指定，需提早訂"], "scores": {"chill": 4, "scenery": 5, "food": 4, "value": 3, "ease": 2}, "sources": ["https://www.ginzanonsen.jp/winter/2026/", "https://www.ginzanonsen.jp/yado/", "https://www.nj-yoyaku.net/portal/main", "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/52933", "https://www.jalan.net/yad314994/", "https://travel.watch.impress.co.jp/docs/news/1628281.html", "https://www.funliday.com/posts/?p=105493", "https://shinkansen.tabiris.com/fare08.html", "https://rate.bot.com.tw/xrt", "https://www.google.com/travel/flights"], "stay_status": {"text": "溫泉街全滿，附近有房", "tone": "b-warn"}, "special": [{"title": "想住銀山溫泉街：怎麼搶房", "icon": "bed", "body": ["現況：溫泉街旅館 12/27–1/5 每晚都滿，換日期也一樣（官方預約、樂天、じゃらん三邊一致）。", "第 1 步：先在天童或肘折訂一間可以免費取消的房當底，搶到銀山再退。", "第 2 步：11/27–12/1 每天看官方空房月曆。旅館松本 30 天前開始收取消費，這幾天最容易有人退房。", "第 3 步：12/20–12/26 再盯一輪（很多旅館 7 天前或前一天才收取消費）。", "也可以打電話問候補（只能講日文）：銀山荘／古勢起屋 0237-28-2322、能登屋 0237-28-2327、古山閣 0237-28-2039、藤屋 0237-28-2141、松本 0237-28-2021、昭和館 0237-28-2151。", "沒住到也能去：冬天要先預約入場，自己開車進不去，要在大正ろまん館換接駁車。選 14:00–18:00 的時段可以看到黃昏點燈。2026–27 年的官方規定還是草稿，預約也還沒開。"]}]}, {"id": "aomori", "name": "青森", "country": "日本", "tagline": "酸湯千人風呂、煤油燈祕湯、暖爐列車，最有日本雪國味", "verdict": "景色最好，但唯一直飛的長榮來回 2.5 萬超預算，景點分散較累；想玩青森建議走函館串聯", "fx": "1 JPY ≈ 0.22 TWD（2026-10-15）", "flights": [{"from": "RMQ", "to": "AOJ", "airline": "無直飛", "out": "—", "back": "—", "back_alt": "—", "price_pp_twd": 0, "baggage": "—", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "台中無青森航線；台中最近只有星宇飛札幌（來回 22,018）", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "AOJ", "airline": "長榮 BR122/121", "out": "12/27 09:55→14:20", "back": "12/31 15:30→19:00", "back_alt": "1/1 15:30→19:00（同價 25,609）", "price_pp_twd": 25609, "baggage": "待確認（經濟艙通常含托運）", "fits_time_pref": true, "within_budget": false, "verified": true, "basis": "Google 航班即時查價，每人來回含稅", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}], "hotels": [{"name": "Richmond Hotel 青森", "area": "青森市區", "nights": 1, "price_night_for2_twd": 2830, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com", "note": "12/27 一晚含稅，8.7 分"}, {"name": "Dormy Inn 青森", "area": "青森市區", "nights": 1, "price_night_for2_twd": 5053, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com", "note": "天然溫泉大浴場，9.1 分"}, {"name": "城倉飯店", "area": "八甲田（酸湯附近）", "nights": 1, "price_night_for2_twd": 11783, "meals": "含兩食", "availability": "有空房", "source": "https://www.booking.com", "note": "12/27 一晚含稅，方便泡酸湯、坐八甲田纜車"}, {"name": "南部屋・海扇閣", "area": "淺蟲溫泉", "nights": 1, "price_night_for2_twd": 13723, "meals": "含兩食", "availability": "有空房", "source": "https://www.booking.com", "note": "海景溫泉，9.1 分"}, {"name": "青荷溫泉（煤油燈祕湯）", "area": "黑石", "nights": 1, "price_night_for2_twd": 6050, "meals": "含兩食（待確認）", "availability": "未知", "source": "https://yado.knt.co.jp/planlist/S020064/", "note": "¥13,750–19,250/人；冬季只能從道の駅虹の湖坐接駁車"}, {"name": "酸湯溫泉旅館", "area": "八甲田", "nights": 1, "price_night_for2_twd": 4600, "meals": "含兩食（待確認）", "availability": "未知", "source": "https://travel.rakuten.co.jp/onsen/aomori/OK00077.html", "note": "價格待確認（楽天顯示湯治棟兩食 ¥20,944 起）；千人風呂混浴"}], "daily_food_for2_twd": [3000, 5000], "local_transport_for2_twd": [6000, 10000], "tickets_other_for2_twd": [3000, 6000], "total_for2_twd": {"to_1231": [89758, 122577], "to_0101": [96718, 134718]}, "weather": {"high_c": 4.5, "low_c": -1.4, "conditions": "大雪城市，12 月降水 155mm 多為雪；山區更冷", "sunset": "約 16:15（待確認）", "wear": "羽絨外套、發熱衣、防滑雪靴、帽子手套"}, "itinerary_1231": ["D1 12/27 長榮到青森 14:20，逛 A-Factory、睡魔之家，住市區", "D2 12/28 JR 巴士到八甲田纜車看初期樹冰，泡酸湯千人風呂，住城倉／酸湯", "D3 12/29 弘前城雪景 → 青荷溫泉煤油燈祕湯住一晚", "D4 12/30 津輕鐵道暖爐列車，回青森市區", "D5 12/31 古川市場のっけ丼，15:30 長榮回台"], "itinerary_0101": ["D1 12/27 到青森，市區", "D2 12/28 八甲田＋酸湯溫泉", "D3 12/29 弘前城 → 青荷溫泉", "D4 12/30 暖爐列車，回市區", "D5 12/31 淺蟲溫泉海景旅館跨年", "D6 1/1 新年參拜，15:30 回台"], "highlights": ["酸湯溫泉千人風呂", "八甲田纜車＋初期樹冰", "青荷溫泉煤油燈祕湯", "津輕鐵道暖爐列車（2026/12/1 復駛）", "古川市場自選海鮮丼"], "events": [{"date": "12/1 起", "name": "津輕鐵道暖爐列車", "note": "2025 年底事故後停駛，官網公告 2026/12/1 重新開跑，年末班次待確認"}, {"date": "12/25–12/31", "name": "五能線 Resort Shirakami", "note": "下行 1 號有運行，1/1 待確認"}, {"date": "12/25 起", "name": "奧入瀨冰瀑點燈導覽", "note": "星野飯店主辦，非住客能否參加待確認"}, {"date": "冬季", "name": "弘前城", "note": "天守 11/24–3/31 不開放，本丸免費"}], "risks": ["機票遠超預算（長榮 25,609）", "景點在山裡，每天坐 1–2 小時巴士，較累", "八甲田纜車強風常停駛；樹冰 12 月底還沒長大", "不建議自駕：結冰、地吹雪、山路封閉", "地吹雪體驗要 1 月下旬才有"], "scores": {"chill": 3, "scenery": 5, "food": 4, "value": 2, "ease": 2}, "sources": ["https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/aviation_taiwan.html", "https://www.google.com/travel/flights", "https://www.booking.com", "https://yado.knt.co.jp/planlist/S020064/", "https://tsutetsu.com/?p=5492", "https://www.tohokukanko.jp/transport/detail_1001187.html", "https://www.jeepe.jp/ja/articles/hakkoda-mountain-travel-guide-1343", "https://media.jreast.co.jp/articles/5766", "https://weather.time-j.net/climate/chart/aomori"], "stay_status": {"text": "市區有房，秘湯未知", "tone": "b-warn"}, "special": []}, {"id": "hakodate", "name": "函館", "country": "日本", "tagline": "下飛機 10 分鐘就泡湯，夜景、燈飾、朝市都在市區", "verdict": "台灣直飛最便宜、最好走、最 chill；可惜聖誕夢幻節 12/25 就結束，跨年煙火也沒查到", "fx": "1 JPY ≈ 0.22 TWD（2026-10-15）", "flights": [{"from": "RMQ", "to": "HKD", "airline": "無直飛", "out": "—", "back": "—", "back_alt": "—", "price_pp_twd": 0, "baggage": "—", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "台中無函館航線；替代是星宇台中–札幌來回 22,018 再坐 JR 約 3.5–4 小時，不建議", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "HKD", "airline": "星宇 JX860/861", "out": "12/27 12:00→16:30", "back": "12/31 18:00→21:40", "back_alt": "1/1 18:00→21:40（17,389）", "price_pp_twd": 14716, "baggage": "待確認（看票種）", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價，每人來回含稅；回程符合、去程是中午", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "HKD", "airline": "台灣虎航 IT236/237", "out": "12/27 06:45→11:10", "back": "12/31 12:20→16:00", "back_alt": "1/1 12:20→16:00（22,094）", "price_pp_twd": 18894, "baggage": "待確認（最低票通常不含托運）", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價，每人來回含稅；去程符合、回程是中午", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}], "hotels": [{"name": "花菱飯店", "area": "湯之川溫泉", "nights": 1, "price_night_for2_twd": 6390, "meals": "含兩食", "availability": "有空房", "source": "https://www.booking.com", "note": "12/27 一晚含稅，8.3 分"}, {"name": "一乃松", "area": "湯之川溫泉", "nights": 1, "price_night_for2_twd": 10518, "meals": "含兩食", "availability": "有空房", "source": "https://www.booking.com", "note": "9.1 分"}, {"name": "Umi to Akari（Hewitt Resort）", "area": "湯之川溫泉", "nights": 1, "price_night_for2_twd": 15673, "meals": "含兩食", "availability": "有空房", "source": "https://www.booking.com", "note": "8.8 分；12/31 晚約 15,075（未稅）"}, {"name": "湯之川王子飯店渚亭", "area": "湯之川溫泉", "nights": 1, "price_night_for2_twd": 7276, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com", "note": "12/27 有房；12/31 搜尋沒出現，可能已滿（待確認）"}, {"name": "函館 Premier Hotel Cabin President", "area": "函館站前", "nights": 1, "price_night_for2_twd": 3363, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com", "note": "12/28 一晚含稅，8.6 分"}, {"name": "HOTEL & SPA Century Marina", "area": "函館灣區", "nights": 1, "price_night_for2_twd": 7625, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com", "note": "12/28 一晚含稅，9.1 分，海景大浴場"}], "daily_food_for2_twd": [3000, 5000], "local_transport_for2_twd": [4000, 8000], "tickets_other_for2_twd": [2000, 5000], "total_for2_twd": {"to_1231": [69938, 114028], "to_0101": [85378, 143378]}, "weather": {"high_c": 3.2, "low_c": -3.6, "conditions": "冷、會下雪，12 月降水 95mm；坡道結冰", "sunset": "約 16:05（待確認）", "wear": "羽絨外套、發熱衣、防滑雪靴"}, "itinerary_1231": ["D1 12/27 星宇 16:30 到，直接住湯之川溫泉", "D2 12/28 朝市、元町坡道、紅磚倉庫，晚上函館山夜景，住市區", "D3 12/29 五稜郭塔＋星形燈飾，元町燈飾", "D4 12/30 JR 到大沼公園看雪景，回市區吃壽司", "D5 12/31 朝市早餐，18:00 星宇回台"], "itinerary_0101": ["D1 12/27 到函館，湯之川溫泉", "D2 12/28 朝市、元町、夜景", "D3 12/29 五稜郭、燈飾", "D4 12/30 大沼公園", "D5 12/31 上午朝市，回湯之川溫泉旅館跨年", "D6 1/1 初日出、函館八幡宮參拜，18:00 回台"], "highlights": ["函館山夜景", "湯之川溫泉（離機場 10 分鐘）", "元町八幡坂燈飾", "五稜郭星形燈飾", "函館朝市海鮮丼"], "events": [{"date": "12/1–12/25", "name": "函館聖誕夢幻節", "note": "12/25 結束，抵達時已錯過"}, {"date": "12 月–3 月", "name": "函館燈飾（元町）", "note": "2025 年是 11/29–3/31，日落–22:00；2026 日期待確認"}, {"date": "12 月–2 月", "name": "五稜星の夢", "note": "2025 年是 12/1–2/28，日落–19:00；2026 待確認"}, {"date": "12/31", "name": "跨年", "note": "沒查到函館港跨年煙火（待確認）；朝市很多店只開上午"}, {"date": "1/1", "name": "初日出／新年參拜", "note": "日出約 07:04；函館山纜車特別班次 12 月中公告；朝市約 30–40 家營業"}], "risks": ["機票小超預算（星宇 14,716）", "去程早班和回程晚班沒有同一家航空能兩全", "聖誕夢幻節已結束、跨年煙火沒查到", "12/31 下午起店家大量休息", "雪天航班延誤"], "scores": {"chill": 5, "scenery": 4, "food": 5, "value": 4, "ease": 5}, "sources": ["https://www.hokkaido-airports.com/zh-CHT/hakodate/airport/time/inter/", "https://www.google.com/travel/flights", "https://www.booking.com", "https://www.nta.co.jp/kokunai/special/eventinfo/10642696.htm", "https://www.visit-hokkaido.jp/event/detail_11011.html", "https://tabi-mag.jp/goryouboshi/", "https://banzokubiology.com/hakodateyama-newyear-crowd/", "https://banzokubiology.com/?p=19852", "https://weather.time-j.net/climate/chart/hakodate"], "special": []}, {"id": "aomori_hakodate", "name": "青森＋函館串聯", "country": "日本", "tagline": "用函館的機票價，多玩一趟青森的酸湯溫泉和八甲田", "verdict": "想玩青森最划算的方法：飛函館來回、新幹線去青森 1–2 晚；5 晚（1/1 回）版最從容", "fx": "1 JPY ≈ 0.22 TWD（2026-10-15）", "flights": [{"from": "RMQ", "to": "HKD", "airline": "無直飛", "out": "—", "back": "—", "back_alt": "—", "price_pp_twd": 0, "baggage": "—", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "台中無青森、函館航線", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "HKD", "airline": "星宇 JX860/861（函館來回）", "out": "12/27 12:00→16:30", "back": "12/31 18:00→21:40", "back_alt": "1/1 18:00→21:40（17,389）", "price_pp_twd": 14716, "baggage": "待確認（看票種）", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價；青森進出要多花約 1 萬/人，所以用函館來回", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "AOJ", "airline": "長榮去青森＋虎航函館回（開口）", "out": "12/27 09:55→14:20（青森）", "back": "12/31 12:20→16:00（函館）", "back_alt": "星宇函館回 18:00 則每人 28,675", "price_pp_twd": 24402, "baggage": "待確認", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "兩段單程相加（16,012＋8,390），Google 航班即時查價", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}], "hotels": [{"name": "花菱飯店", "area": "函館・湯之川溫泉", "nights": 1, "price_night_for2_twd": 6390, "meals": "含兩食", "availability": "有空房", "source": "https://www.booking.com", "note": "第一晚，離機場近"}, {"name": "函館 Premier Hotel Cabin President", "area": "函館站前", "nights": 2, "price_night_for2_twd": 3363, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com", "note": "站前，方便坐はこだてライナー轉新幹線"}, {"name": "城倉飯店", "area": "青森・八甲田", "nights": 1, "price_night_for2_twd": 11783, "meals": "含兩食", "availability": "有空房", "source": "https://www.booking.com", "note": "酸湯溫泉附近"}, {"name": "Richmond Hotel 青森", "area": "青森市區", "nights": 1, "price_night_for2_twd": 2830, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com", "note": "平價選項（5 晚版用）"}], "daily_food_for2_twd": [3000, 5000], "local_transport_for2_twd": [10500, 13000], "tickets_other_for2_twd": [2500, 6000], "total_for2_twd": {"to_1231": [73378, 116138], "to_0101": [89324, 145984]}, "weather": {"high_c": 3.5, "low_c": -3.0, "conditions": "函館 3.2/-3.6、青森 4.5/-1.4；兩地都會下雪，青森雪更多", "sunset": "約 16:05–16:15（待確認）", "wear": "羽絨外套、發熱衣、防滑雪靴、帽子手套"}, "itinerary_1231": ["D1 12/27 星宇 16:30 到函館，湯之川溫泉", "D2 12/28 函館朝市、元町、紅磚倉庫、函館山夜景，住市區", "D3 12/29 新幹線到新青森（約 1 小時）→ JR 巴士八甲田、酸湯溫泉（住）", "D4 12/30 青森古川市場，傍晚新幹線回函館，五稜郭燈飾", "D5 12/31 朝市早餐，18:00 星宇回台"], "itinerary_0101": ["D1 12/27 到函館，湯之川溫泉", "D2 12/28 函館市區、夜景", "D3 12/29 新幹線到青森 → 八甲田、酸湯溫泉（住）", "D4 12/30 弘前城雪景或暖爐列車，住青森市區或淺蟲溫泉", "D5 12/31 上午古川市場，新幹線回函館，湯之川溫泉跨年", "D6 1/1 初日出、八幡宮參拜，18:00 回台"], "highlights": ["一趟玩兩地：函館夜景＋青森雪國溫泉", "北海道新幹線穿過青函隧道（約 1 小時）", "酸湯溫泉千人風呂", "機票用最便宜的函館來回"], "events": [{"date": "12/29–12/30", "name": "新幹線年末尖峰", "note": "全車指定席，年末容易賣完，要早訂；尖峰票價可能加價（待確認）"}, {"date": "12/31", "name": "函館跨年", "note": "朝市上午收攤；跨年煙火未查到"}, {"date": "12 月", "name": "暖爐列車／八甲田纜車", "note": "都有營運（纜車強風會停）"}], "risks": ["4 晚版有兩天在移動，有點趕", "新幹線年末可能訂不到指定席", "大雪時巴士、新幹線延誤會連鎖影響回程", "機票仍小超預算"], "scores": {"chill": 3, "scenery": 5, "food": 5, "value": 4, "ease": 3}, "sources": ["https://www.google.com/travel/flights", "https://www.booking.com", "https://ekitan.com/zh-tw/article/hakodate-to-aomori-shinkansen", "https://www.hokkaido-airports.com/zh-CHT/hakodate/airport/time/inter/", "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/aviation_taiwan.html"], "special": []}, {"id": "tokyo", "name": "東京", "country": "日本", "tagline": "機票最便宜、最好走的城市跨年＋鎌倉/河口湖慢遊", "verdict": "最穩最省力，桃園早去晚回每人 1.2 萬內、飯店還訂得到；缺雪景、跨年人潮多", "fx": "1 JPY ≈ 0.207 TWD（臺銀 2026-10-15）", "flights": [{"from": "RMQ", "to": "NRT", "airline": "星宇航空（直飛）", "out": "12/27 09:15→13:25", "back": "12/31 14:25→17:55", "back_alt": "", "price_pp_twd": 38740, "baggage": "含托運（待確認艙等）", "fits_time_pref": true, "within_budget": false, "verified": true, "basis": "Google Flights 即時來回價", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "RMQ", "to": "NRT", "airline": "星宇航空（直飛）", "out": "12/27 09:15→13:25", "back": "1/1 14:25→17:55", "back_alt": "", "price_pp_twd": 20836, "baggage": "含托運（待確認艙等）", "fits_time_pref": true, "within_budget": false, "verified": true, "basis": "Google Flights 即時來回價", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "NRT", "airline": "酷航", "out": "12/27 06:50→10:55", "back": "12/31 19:45→22:55", "back_alt": "1/1 19:45→23:00（來回 13,839）", "price_pp_twd": 11993, "baggage": "不含托運", "fits_time_pref": true, "within_budget": true, "verified": true, "basis": "Google Flights 單程即時價相加 5,360＋6,633", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "NRT", "airline": "樂桃航空", "out": "12/27 10:40→14:55", "back": "12/31 16:35→20:00", "back_alt": "1/1 16:35→20:00（同價 7,348）", "price_pp_twd": 12588, "baggage": "不含托運", "fits_time_pref": true, "within_budget": true, "verified": true, "basis": "Google Flights 單程即時價相加 5,240＋7,348", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "NRT", "airline": "酷航去＋樂桃回", "out": "12/27 06:50→10:55", "back": "1/1 16:35→20:00", "back_alt": "", "price_pp_twd": 12708, "baggage": "不含托運", "fits_time_pref": true, "within_budget": true, "verified": true, "basis": "Google Flights 單程即時價相加 5,360＋7,348", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "NRT", "airline": "台灣虎航", "out": "12/27 06:35→10:35", "back": "12/31 20:25→23:25", "back_alt": "1/1 18:25→21:55（來回 17,799）", "price_pp_twd": 15132, "baggage": "不含托運", "fits_time_pref": true, "within_budget": false, "verified": true, "basis": "Google Flights 單程即時價相加 7,099＋8,033", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "NRT", "airline": "星宇航空", "out": "12/27 08:25→12:35", "back": "12/31 15:40→18:45", "back_alt": "1/1 15:40→18:45（來回 24,052）", "price_pp_twd": 22267, "baggage": "含托運", "fits_time_pref": true, "within_budget": false, "verified": true, "basis": "Google Flights 單程即時價相加 9,756＋12,511", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}], "hotels": [{"name": "ONE@Tokyo", "area": "押上（晴空塔）", "nights": 4, "price_night_for2_twd": 6457, "meals": "素泊", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/162860", "note": "4 晚合計 ¥124,774；5 晚 ¥203,036（12/31 晚很貴）；房間 14m²"}, {"name": "Richmond Hotel Premier 淺草", "area": "淺草", "nights": 4, "price_night_for2_twd": 8963, "meals": "最低價方案（待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/149160", "note": "4 晚 ¥173,200；5 晚 ¥226,000"}, {"name": "ホテル龍名館東京", "area": "東京站八重洲", "nights": 4, "price_night_for2_twd": 8384, "meals": "最低價方案（待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/76496", "note": "4 晚 ¥162,000；含 12/31 的 5 晚滿房"}, {"name": "東急ステイ銀座", "area": "銀座", "nights": 4, "price_night_for2_twd": 11624, "meals": "最低價方案（待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/149481", "note": "4 晚 ¥224,624；5 晚 ¥281,892；有洗衣機"}, {"name": "ミレニアム三井ガーデンホテル東京", "area": "銀座", "nights": 4, "price_night_for2_twd": 13025, "meals": "最低價方案（待確認）", "availability": "有空房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/147093", "note": "4 晚 ¥251,680；5 晚 ¥323,840"}, {"name": "ホテルグレイスリー新宿", "area": "新宿", "nights": 4, "price_night_for2_twd": 0, "meals": "", "availability": "滿房", "source": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/147436", "note": "樂天 4 晚/5 晚皆無房"}], "daily_food_for2_twd": [2500, 4500], "local_transport_for2_twd": [5000, 10000], "tickets_other_for2_twd": [2000, 9000], "total_for2_twd": {"to_1231": [69314, 116997], "to_0101": [89944, 136352]}, "weather": {"high_c": 12, "low_c": 4, "conditions": "晴多乾燥少雨，12 月平年日照 174 小時（JMA 1991–2020：高 12.0/低 3.8）", "sunset": "約 16:35", "wear": "大衣＋薄羽絨、圍巾；跨年夜室外要更暖"}, "itinerary_1231": ["D1 12/27 酷航 06:50→成田 10:55→押上/淺草，晴空塔與隅田川散步", "D2 12/28 河口湖一日（新宿高速巴士，看富士山）", "D3 12/29 鎌倉/江之島慢遊", "D4 12/30 清澄白河咖啡→銀座日本橋→阿美橫町年貨市場", "D5 12/31 睡飽逛街→成田 酷航 19:45 或樂桃 16:35 回"], "itinerary_0101": ["D1 12/27 酷航 06:50→成田→押上/淺草", "D2 12/28 河口湖一日", "D3 12/29 鎌倉/江之島", "D4 12/30 銀座/日本橋/阿美橫町", "D5 12/31 白天休息，晚上都廳跨年投影或增上寺除夜鐘", "D6 1/1 早上淺草寺初詣→成田 樂桃 16:35 回"], "highlights": ["桃園早去晚回每人 1.2 萬內", "跨年夜＋元旦初詣的日本過年氣氛", "鎌倉、河口湖富士山一日遊", "吃的選擇最多"], "events": [{"date": "12/31", "name": "都廳 Happy New Year Tokyo 跨年投影", "note": "2025 版 23:30–24:10；2026 待確認"}, {"date": "12/31", "name": "澀谷不辦倒數＋路上禁酒 18:00–翌 05:00", "note": "2025–26 規定，2026–27 待確認"}, {"date": "1/1", "name": "明治神宮/淺草寺初詣", "note": "明治神宮 0:00 開門、三日約 300 萬人；避開 0–3 時與 11–15 時"}, {"date": "1/1", "name": "百貨公司休、1/2 初賣福袋", "note": "銀座三越/新宿伊勢丹 2026 年 1/1 休；2027 待確認"}, {"date": "12/31→1/1", "name": "JR 首都圈終夜運轉", "note": "2026 元旦 5 條線；2027 待確認"}], "risks": ["LCC 不含托運", "酷航 06:50 早班需凌晨到桃園", "RMQ 星宇直飛超預算", "12/31 住宿特別貴", "1/1 百貨休、神社排隊", "年末河口湖/鎌倉人潮"], "scores": {"chill": 3, "scenery": 3, "food": 5, "value": 4, "ease": 5}, "sources": ["https://www.google.com/travel/flights", "https://wantrich.chinatimes.com/news/20251231900337-420101", "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/162860", "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/149481", "https://www.watch.impress.co.jp/docs/news/1558139.html", "https://www.metro.tokyo.lg.jp/information/press/2025/11/2025111211", "https://www.gotokyo.org/jp/kanko/shibuya/event/meijijingu_hatsumode.html", "https://www.sakigake.jp/news/article/20260102CO0031/", "https://tetsudo-ch.com/13019783.html", "https://rate.bot.com.tw/xrt"], "special": []}, {"id": "seoul", "name": "首爾（明洞）", "country": "韓國", "tagline": "台中直飛，普信閣敲鐘跨年，吃的、逛的選擇最多", "verdict": "跨年氣氛最濃、吃的最多，但很冷，chill 程度不如釜山", "fx": "1 KRW ≈ 0.0240 TWD（2026-10-15）", "flights": [{"from": "RMQ", "to": "ICN", "airline": "真航空", "out": "12/27 11:00→14:40", "back": "12/31 15:35→17:30", "back_alt": "1/1 15:35→17:30", "price_pp_twd": 12688, "baggage": "台韓航線通常含 15kg（看票種，待確認）", "fits_time_pref": true, "within_budget": true, "verified": true, "basis": "Google 航班即時查價；兩種回程同價", "source": "https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20RMQ%20on%202026-12-27%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW", "checked": "2026-10-15"}, {"from": "RMQ", "to": "ICN", "airline": "大韓航空", "out": "12/27 17:50→21:35", "back": "待確認", "back_alt": "待確認", "price_pp_twd": 14612, "baggage": "含 23kg", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價；晚班出發、超預算", "source": "https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20RMQ%20on%202026-12-27%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW", "checked": "2026-10-15"}, {"from": "TPE", "to": "ICN", "airline": "中華航空", "out": "12/27 07:50→11:20", "back": "12/31 20:15→22:15", "back_alt": "1/1 時間待確認（同價 12,672）", "price_pp_twd": 12672, "baggage": "待確認", "fits_time_pref": true, "within_budget": true, "verified": true, "basis": "Google 航班即時查價", "source": "https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20TPE%20on%202026-12-27%20through%202026-12-31&curr=TWD&hl=zh-TW&gl=TW", "checked": "2026-10-15"}, {"from": "TPE", "to": "ICN", "airline": "長榮航空", "out": "12/27 07:05→10:30", "back": "待確認（12/31 回 13,239）", "back_alt": "1/1 時間待確認", "price_pp_twd": 12560, "baggage": "待確認", "fits_time_pref": true, "within_budget": true, "verified": true, "basis": "Google 航班即時查價（1/1 回價格）；回程時間未查", "source": "https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20TPE%20on%202026-12-27%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW", "checked": "2026-10-15"}], "hotels": [{"name": "The Road Hotel", "area": "明洞", "nights": 5, "price_night_for2_twd": 3481, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "note": "評分 7.7；5 晚總價 17,405；平價"}, {"name": "Hotel Marguerite Seoul", "area": "明洞", "nights": 5, "price_night_for2_twd": 5469, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "note": "評分 8.8（地點 9.8）；看得到南山；5 晚總價 27,344；剩 2 間"}, {"name": "Stanford Hotel Myeongdong", "area": "明洞", "nights": 5, "price_night_for2_twd": 9176, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "note": "評分 8.9；5 晚總價 45,880；可免費取消"}, {"name": "明洞 28 酒店", "area": "明洞", "nights": 5, "price_night_for2_twd": 13062, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "note": "評分 9.3；5 晚總價 65,312；選這間總額會超出預算上限"}], "daily_food_for2_twd": [2500, 4500], "local_transport_for2_twd": [3000, 5500], "tickets_other_for2_twd": [2000, 9000], "total_for2_twd": {"to_1231": [64752, 98580], "to_0101": [73220, 112756]}, "weather": {"high_c": 3, "low_c": -5, "conditions": "乾燥、晴天多，月底偶爾下雪；寒流時 -10°C 以下", "sunset": "17:23（日出 07:46）", "wear": "發熱衣褲兩層＋厚羽絨長版外套、毛帽、手套、圍巾、防滑靴、暖暖包"}, "itinerary_1231": ["D1 12/27 11:00 台中出發 → 14:40 到仁川 → 搭 AREX 到明洞 → 晚上看新世界百貨聖誕燈光、吃明洞小吃", "D2 12/28 穿韓服逛景福宮、北村、仁寺洞 → 晚上逛光化門聖誕市集、清溪川燈光", "D3 12/29 南怡島一日遊，或江村滑雪半天（太冷就改去聖水洞逛咖啡廳）", "D4 12/30 聖水洞咖啡廳、首爾林 → 晚上去汗蒸幕", "D5 12/31 明洞吃早餐、最後採買 → 15:35 起飛，17:30 回到台中（看不到跨年）"], "itinerary_0101": ["D1 12/27 11:00 台中出發 → 14:40 到仁川 → 搭 AREX 到明洞 → 晚上看新世界百貨聖誕燈光、吃明洞小吃", "D2 12/28 穿韓服逛景福宮、北村、仁寺洞 → 晚上逛光化門聖誕市集、清溪川燈光", "D3 12/29 南怡島一日遊，或江村滑雪半天（太冷就改去聖水洞逛咖啡廳）", "D4 12/30 聖水洞咖啡廳、首爾林 → 晚上去汗蒸幕", "D5 12/31 白天上樂天世界塔 Seoul Sky、逛石村湖 → 晚上到普信閣看敲鐘、光化門倒數", "D6 1/1 睡晚一點、吃早午餐 → 12:00 去機場 → 15:35 起飛，17:30 回到台中"], "highlights": ["普信閣除夕敲鐘＋光化門倒數秀", "首爾冬季慶典、光化門聖誕市集", "吃的、逛的選擇最多（聖水洞、明洞）", "可以安排滑雪或南怡島一日遊"], "events": [{"date": "12/31", "name": "普信閣除夕敲鐘", "note": "2025 年 23:00–00:20、約 1.5 萬人，地鐵延長到凌晨 2 點；2026 年尚未公告"}, {"date": "12/31", "name": "光化門倒數秀", "note": "2025 年有辦；2026 年尚未公告"}, {"date": "12/31", "name": "樂天世界塔", "note": "2025 年沒有煙火、只有雷射秀；不要期待煙火"}, {"date": "12/27–12/31", "name": "首爾冬季慶典／光化門市集", "note": "2025 年慶典 12/12–1/18，市集到 12/31"}], "risks": ["很冷：-5°C 以下很常見，跨年夜站在戶外很辛苦", "普信閣人潮多", "機票接近預算上限，Google 標示價格偏高", "真航空是廉航，退改和行李要看票種", "12/31 回就看不到跨年", "冰釣慶典 1 月才開始，這趟玩不到"], "scores": {"chill": 3, "scenery": 3, "food": 5, "value": 4, "ease": 4}, "sources": ["https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20RMQ%20on%202026-12-27%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW", "https://www.aeroroutes.com/eng/250923-ljnw25rmq", "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "https://mediahub.seoul.go.kr/archives/2016662", "https://mobile.newsis.com/view/NISX20260101_0003461913", "https://mediahub.seoul.go.kr/archives/2016486", "https://blog.namanecard.com/korea-meal-prices-seoul-2026-ko/", "https://taxnews.ey.com/news/2026-0101-korea-extends-temporary-electronic-travel-authorization-exemption-until-31-december-2026"], "special": []}, {"id": "busan", "name": "釜山（海雲台）", "country": "韓國", "tagline": "台中直飛早班、不太冷，可看光安里跨年無人機秀和海雲台新年日出", "verdict": "韓國最推薦的版本：便宜又輕鬆；選 1/1 回才看得到跨年和日出", "fx": "1 KRW ≈ 0.0240 TWD（2026-10-15）", "flights": [{"from": "RMQ", "to": "PUS", "airline": "星宇航空", "out": "12/27 08:00→11:15", "back": "12/31 12:15→14:00", "back_alt": "1/1 12:15→14:00", "price_pp_twd": 10998, "baggage": "待確認（星宇經濟艙一般含托運）", "fits_time_pref": false, "within_budget": true, "verified": true, "basis": "Google 航班即時查價；兩種回程同價；回程中午 12:15，比偏好的下午早", "source": "https://www.google.com/travel/flights?q=Flights%20to%20PUS%20from%20RMQ%20on%202026-12-27%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW", "checked": "2026-10-15"}, {"from": "TPE", "to": "PUS", "airline": "中華航空", "out": "12/27 07:40→10:50", "back": "待確認", "back_alt": "1/1 時間待確認", "price_pp_twd": 15336, "baggage": "待確認", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價（1/1 回）；超預算；回程時間未查", "source": "https://www.google.com/travel/flights?q=Flights%20to%20PUS%20from%20TPE%20on%202026-12-27%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW", "checked": "2026-10-15"}, {"from": "TPE", "to": "PUS", "airline": "台灣虎航", "out": "12/27 16:50→20:00", "back": "待確認", "back_alt": "1/1 時間待確認", "price_pp_twd": 10291, "baggage": "不含", "fits_time_pref": false, "within_budget": true, "verified": true, "basis": "Google 航班即時查價（1/1 回）；晚班出發", "source": "https://www.google.com/travel/flights?q=Flights%20to%20PUS%20from%20TPE%20on%202026-12-27%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW", "checked": "2026-10-15"}], "hotels": [{"name": "Fairfield by Marriott Busan", "area": "海雲台", "nights": 5, "price_night_for2_twd": 3843, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "note": "評分 8.3；5 晚總價 19,216；可免費取消"}, {"name": "海雲台 MS 飯店", "area": "海雲台", "nights": 5, "price_night_for2_twd": 4390, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "note": "評分 8.9（地點 9.7）；5 晚總價 21,950；剩 2 間"}, {"name": "L7 海雲台樂天飯店", "area": "海雲台", "nights": 5, "price_night_for2_twd": 6283, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "note": "評分 8.9；5 晚總價 31,413；可免費取消、到店付款"}, {"name": "Grand Josun Busan", "area": "海雲台（海灘第一排）", "nights": 5, "price_night_for2_twd": 9827, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD&nflt=class%3D5%3Bclass%3D4", "note": "評分 9.2；5 晚總價 49,135；市景房（海景房更貴）"}], "daily_food_for2_twd": [2300, 4000], "local_transport_for2_twd": [2500, 5000], "tickets_other_for2_twd": [1500, 4000], "total_for2_twd": {"to_1231": [52868, 89804], "to_0101": [59312, 104131]}, "weather": {"high_c": 9, "low_c": 1, "conditions": "乾燥、多晴天，海邊風大", "sunset": "17:20（日出 07:31）", "wear": "發熱衣＋毛衣＋防風羽絨外套、圍巾；跨年夜和看日出要加毛帽、手套、暖暖包"}, "itinerary_1231": ["D1 12/27 08:00 台中出發 → 11:15 到釜山 → 海雲台入住、逛海灘和市場、晚上看海雲台燈光節", "D2 12/28 藍線公園天空膠囊列車、青沙浦海邊咖啡廳 → 傍晚去 Spa Land 泡湯", "D3 12/29 慶州一日遊：大陵苑、皇理團路、東宮與月池夜景", "D4 12/30 甘川文化村 → 南浦洞光復路聖誕燈飾、札嘎其市場", "D5 12/31 早上吃完早餐 → 12:15 起飛，14:00 回到台中（看不到跨年）"], "itinerary_0101": ["D1 12/27 08:00 台中出發 → 11:15 到釜山 → 海雲台入住、逛海灘和市場、晚上看海雲台燈光節", "D2 12/28 藍線公園天空膠囊列車、青沙浦海邊咖啡廳 → 傍晚去 Spa Land 泡湯", "D3 12/29 慶州一日遊：大陵苑、皇理團路、東宮與月池夜景", "D4 12/30 甘川文化村 → 南浦洞光復路聖誕燈飾、札嘎其市場", "D5 12/31 睡到自然醒、走迎月路 → 晚上到光安里看跨年倒數和無人機秀", "D6 1/1 07:31 海雲台看日出 → 吃早餐 → 12:15 起飛，14:00 回到台中"], "highlights": ["台中直飛早班，每人 NT$10,998", "光安里跨年 2,500 台無人機表演（2025 年資料）", "1/1 走路到海雲台看新年日出", "可以安排慶州一日遊看古蹟", "比首爾暖約 6°C"], "events": [{"date": "12/31", "name": "光安里跨年倒數＋無人機秀", "note": "2025 年 22:00–00:10；2026 年尚未公告"}, {"date": "1/1", "name": "海雲台新年日出", "note": "日出 07:31；2025 年預估 10 萬人以上"}, {"date": "12/27–1/1", "name": "海雲台燈光節", "note": "2025 年辦在 11/29–1/18，每天 18:00–23:00；2026 年尚未公告"}, {"date": "12/27–1/1", "name": "南浦洞光復路聖誕樹燈飾", "note": "2025 年辦在 12/5–2/22"}], "risks": ["1/1 回程 12:15 起飛，看完日出就要趕去機場", "2026 年跨年活動尚未公告", "星宇台中－釜山每週只有約 3～4 班，行李額度待確認", "光安里跨年人潮多，散場很難叫車", "12/31 回就看不到跨年"], "scores": {"chill": 4, "scenery": 4, "food": 4, "value": 5, "ease": 5}, "sources": ["https://www.google.com/travel/flights?q=Flights%20to%20PUS%20from%20RMQ%20on%202026-12-27%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW", "https://finance.technews.tw/2026/02/23/exclusive-direct-flights/", "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%B5%B7%E9%9B%B2%E5%8F%B0%2C+%E9%87%9C%E5%B1%B1&checkin=2026-12-27&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD", "https://www.busan.go.kr/eng/bsevents/1713160", "https://www.heraldk.com/article/2025122918375262265", "https://travelmapjourney.com/busan-winter-festival-2025-haeundae-seomyeon-christmas/", "https://taxnews.ey.com/news/2026-0101-korea-extends-temporary-electronic-travel-authorization-exemption-until-31-december-2026"], "special": []}, {"id": "chiangmai", "name": "清邁", "country": "泰國", "tagline": "涼季乾爽、古城咖啡和夜市，跨年可參加官方放天燈", "verdict": "最 chill、天氣最好，但桃園直飛機票每人最低 NT$14,158 且時間差，全部超出 NT$13,000 上限；台中只能經香港轉機", "fx": "1 THB ≈ 0.957 TWD（2026-10-15）", "flights": [{"from": "RMQ", "to": "CNX", "airline": "香港快運（經 HKG 轉機）", "out": "12/27 13:10→18:55", "back": "12/31 待確認", "back_alt": "1/1 待確認", "price_pp_twd": 24374, "baggage": "不含", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價，12/27–12/31 來回；台中無直飛清邁/曼谷", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "CNX", "airline": "泰國亞航 FD", "out": "12/27 18:55→22:10", "back": "12/31 00:20→04:55（實為 12/30 深夜）", "back_alt": "1/1 00:20→04:55（跨年夜在機場）", "price_pp_twd": 14171, "baggage": "不含", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價；1/1 回 NT$14,158", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "CNX", "airline": "星宇 JX751/752", "out": "12/27 13:05→16:00", "back": "12/31 18:10→23:00", "back_alt": "1/1 18:10→23:00", "price_pp_twd": 20593, "baggage": "依票種，待確認", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價；1/1 回 NT$19,339–20,580", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "CNX", "airline": "中華 CI851/852", "out": "12/27 07:20→10:25", "back": "12/31 11:25→15:55", "back_alt": "1/1 11:25→15:55", "price_pp_twd": 25193, "baggage": "全服務含托運（待確認）", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價；去程符合早班，回程上午起飛", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "CNX", "airline": "長榮 BR257/258", "out": "12/27 07:30→10:35", "back": "12/31 11:50→16:20", "back_alt": "1/1 11:50→16:20", "price_pp_twd": 26456, "baggage": "全服務含托運（待確認）", "fits_time_pref": false, "within_budget": false, "verified": true, "basis": "Google 航班即時查價；1/1 回 NT$27,904", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}], "hotels": [{"name": "B2 Chang Phueak Gate Premier Hotel", "area": "古城北門", "nights": 4, "price_night_for2_twd": 1918, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Chiang+Mai+Old+City&checkin=2026-12-27&checkout=2026-12-31&group_adults=2", "note": "4 晚 NT$7,670，8.6 分"}, {"name": "LA BURIE HOTEL Chiang Mai", "area": "古城", "nights": 4, "price_night_for2_twd": 2475, "meals": "待確認", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Chiang+Mai+Old+City&checkin=2026-12-27&checkout=2026-12-31&group_adults=2", "note": "4 晚 NT$9,898，8.9 分"}, {"name": "我們的清邁布里扎酒店（Riverside）", "area": "河濱區", "nights": 4, "price_night_for2_twd": 1569, "meals": "含咖啡吐司", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Chiang+Mai+Old+City&checkin=2026-12-27&checkout=2026-12-31&group_adults=2", "note": "4 晚 NT$6,277，7.9 分，剩 4 間"}, {"name": "Eastin Tan Hotel Chiang Mai", "area": "寧曼路", "nights": 4, "price_night_for2_twd": 5354, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Nimmanhaemin%2C+Chiang+Mai&checkin=2026-12-27&checkout=2026-12-31&group_adults=2", "note": "4 晚 NT$21,416；寧曼路 4–5 星已 92% 訂滿"}, {"name": "Capybara Zen Resort And Spa", "area": "山區 Mae Pong", "nights": 4, "price_night_for2_twd": 3474, "meals": "素泊", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Chiang+Mai+Old+City&checkin=2026-12-27&checkout=2026-12-31&group_adults=2", "note": "4 晚 NT$13,894，山景套房剩 1 間，9.2 分"}, {"name": "U Nimman Chiang Mai", "area": "寧曼路", "nights": 4, "price_night_for2_twd": 9423, "meals": "含早", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Nimmanhaemin%2C+Chiang+Mai&checkin=2026-12-27&checkout=2026-12-31&group_adults=2", "note": "4 晚 NT$37,690，高價位"}], "daily_food_for2_twd": [1500, 3500], "local_transport_for2_twd": [2000, 5000], "tickets_other_for2_twd": [5000, 12000], "total_for2_twd": {"to_1231": [52000, 110000], "to_0101": [57000, 128000]}, "weather": {"high_c": 28, "low_c": 16, "conditions": "乾季，降雨日約 10%；12 月 AQI 平均約 61（中等），燒山季在 2–4 月", "sunset": "約 17:55", "wear": "白天短袖，早晚薄外套；上茵他儂山帶羽絨"}, "itinerary_1231": ["D1 12/27 早班到清邁，古城咖啡，晚上週日夜市", "D2 12/28 湄登大象保育營半日（不騎不洗）＋按摩", "D3 12/29 茵他儂國家公園一日遊", "D4 12/30 寧曼路、One Nimman、傍晚素帖山雙龍寺", "D5 12/31 Warorot 市場，11:25 起飛回台"], "itinerary_0101": ["D1 12/27 早班到清邁，古城咖啡，晚上週日夜市", "D2 12/28 大象保育營半日＋按摩", "D3 12/29 茵他儂國家公園", "D4 12/30 寧曼路咖啡廳、素帖山", "D5 12/31 白天泳池休息，晚上 CAD 官方跨年放天燈或 Nawarat 橋煙火", "D6 1/1 上午航班回台"], "highlights": ["12 月底是涼季乾季，早晚涼爽", "週日夜市剛好在 12/27", "CAD 官方跨年活動有放天燈＋煙火", "道德大象保育營、茵他儂山", "咖啡廳密度高，很 chill"], "events": [{"date": "12/27", "name": "週日夜市", "note": "古城 Ratchadamnoen 路"}, {"date": "12/27-12/31", "name": "One Nimman Glow Countdown／MAYA Singha Winter Fest", "note": "2025 年的紀錄，2026 年待確認"}, {"date": "12/31", "name": "CAD 跨年倒數（官方放天燈）", "note": "2025 年 23:45 放天燈、00:00 煙火，要買票；2026 票價待確認"}, {"date": "12/31", "name": "Nawarat 橋／塔佩門跨年煙火", "note": "市府主場；塔佩門、三王像過去公告禁放天燈"}], "risks": ["機票全部超出每人 NT$13,000 上限；最便宜的亞航是晚班去、紅眼回", "台中無直飛，只能經香港轉機，NT$20,000 以上", "寧曼路 4–5 星已 92% 訂滿", "天燈只能在核准時段、核准地點放，違規最高 5 年徒刑或 20 萬泰銖；2026 跨年公告待確認", "入境要填 TDAC；免簽已改回 30 天"], "scores": {"chill": 5, "scenery": 4, "food": 4, "value": 2, "ease": 3}, "sources": ["https://www.google.com/travel/flights", "https://www.booking.com", "https://www.thaipbs.or.th/verify/en/content/7109", "https://technews.tw/2026/05/20/thailand-cancels-60-day-visa-exemption-thai-media-taiwanese-tourists-revert-to-30-day-stay-limit/", "https://bestdateweather.com/en/chiang-mai-weather-december", "https://theo-courant.com/en/new-year-2026-chiang-mai-events-fireworks/", "https://elephantnaturepark.org/enp/"], "stay_status": {"text": "有空房，寧曼路快滿", "tone": "b-ok"}, "special": []}, {"id": "danang", "name": "峴港／會安", "country": "越南", "tagline": "海邊飯店＋會安古城燈籠，便宜又好吃的 chill 選項", "verdict": "最省、機票唯一落在預算內（台中轉機 NT$9,165、桃園直飛 NT$11,600），兩人 4–9 萬就能玩；12 月底雨季尾巴偏陰、浪大，玩水看運氣", "fx": "1 TWD ≈ 804 VND；100 萬 VND ≈ NT$1,243（2026-10-15）", "flights": [{"from": "RMQ", "to": "DAD", "airline": "越捷（經 HAN 轉機）", "out": "12/27 11:30→18:05", "back": "12/31 待確認", "back_alt": "1/1 待確認", "price_pp_twd": 9165, "baggage": "不含托運", "fits_time_pref": false, "within_budget": true, "verified": true, "basis": "Google 航班即時查價；冬季台中無直飛（星宇台中–峴港 10 月到 3 月無票價）", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "DAD", "airline": "星宇去＋台灣虎航回（分開買）", "out": "12/27 15:20→17:15", "back": "12/31 19:50→23:15", "back_alt": "1/1 待確認", "price_pp_twd": 11600, "baggage": "星宇依票種；虎航不含", "fits_time_pref": false, "within_budget": true, "verified": true, "basis": "Google 航班即時查價", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "DAD", "airline": "星宇 來回", "out": "12/27 15:20→17:15", "back": "12/31 18:25→22:10", "back_alt": "1/1 同時段，NT$16,838–22,838", "price_pp_twd": 12458, "baggage": "依票種，待確認", "fits_time_pref": false, "within_budget": true, "verified": true, "basis": "Google 航班即時查價；1/1 回超預算", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "DAD", "airline": "越南航空（經 SGN 轉機）", "out": "12/27 07:45→14:50", "back": "待確認", "back_alt": "1/1 回 NT$10,898", "price_pp_twd": 10898, "baggage": "全服務含托運（待確認）", "fits_time_pref": false, "within_budget": true, "verified": true, "basis": "Google 航班即時查價（1/1 回）；回程時間未查", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}, {"from": "TPE", "to": "DAD", "airline": "長榮", "out": "12/27 09:45→11:40", "back": "12/31 13:00→16:50", "back_alt": "1/1 NT$22,836–28,017", "price_pp_twd": 22197, "baggage": "全服務含托運（待確認）", "fits_time_pref": true, "within_budget": false, "verified": true, "basis": "Google 航班即時查價；唯一符合早去午回", "source": "https://www.google.com/travel/flights", "checked": "2026-10-15"}], "hotels": [{"name": "M Hotel Danang", "area": "峴港美溪海灘", "nights": 2, "price_night_for2_twd": 4755, "meals": "含早＋下午茶", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=My+Khe+Beach%2C+Da+Nang&checkin=2026-12-27&checkout=2026-12-29&group_adults=2", "note": "2 晚 NT$9,509，9.4 分"}, {"name": "Stella Maris Beach Danang", "area": "峴港美溪海灘", "nights": 2, "price_night_for2_twd": 2491, "meals": "含早", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=My+Khe+Beach%2C+Da+Nang&checkin=2026-12-27&checkout=2026-12-29&group_adults=2", "note": "2 晚 NT$4,982，9.1 分"}, {"name": "Allegro Hoi An Little Luxury Hotel & Spa", "area": "會安古城", "nights": 2, "price_night_for2_twd": 5248, "meals": "含早", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Hoi+An+Ancient+Town&checkin=2026-12-29&checkout=2026-12-31&group_adults=2", "note": "2 晚 NT$10,496，9.5 分，可免費取消"}, {"name": "Ancient Retreat Hoi An - Riverfront Resort", "area": "會安河畔（古城 2.5km）", "nights": 2, "price_night_for2_twd": 1862, "meals": "含早", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Hoi+An+Ancient+Town&checkin=2026-12-29&checkout=2026-12-31&group_adults=2", "note": "2 晚 NT$3,724，9.5 分"}, {"name": "RiverTown Hoi An Resort & Spa", "area": "會安古城 0.9km 河景", "nights": 2, "price_night_for2_twd": 7754, "meals": "含早", "availability": "有空房", "source": "https://www.booking.com/searchresults.zh-tw.html?ss=Hoi+An+Ancient+Town&checkin=2026-12-29&checkout=2026-12-31&group_adults=2", "note": "2 晚 NT$15,508，無邊泳池，剩 4 間"}], "daily_food_for2_twd": [1200, 3000], "local_transport_for2_twd": [1500, 4000], "tickets_other_for2_twd": [6000, 13000], "total_for2_twd": {"to_1231": [42500, 93000], "to_0101": [48400, 109000]}, "weather": {"high_c": 24, "low_c": 19, "conditions": "雨季尾聲，12 月約 6.5 天下雨、偏陰；海水約 24°C 可下水但常有大浪", "sunset": "約 17:24", "wear": "短袖＋防風薄外套、輕便雨衣；巴拿山帶長袖"}, "itinerary_1231": ["D1 12/27 抵達峴港，入住美溪海灘，晚上看龍橋", "D2 12/28 巴拿山（黃金佛手橋）＋按摩", "D3 12/29 海邊咖啡→移動會安，傍晚古城燈籠、搭船放水燈；量身做衣服", "D4 12/30 會安單車、稻田、安邦海灘、咖啡", "D5 12/31 取衣服→峴港機場 18:25／19:50 回台"], "itinerary_0101": ["D1 12/27 抵達峴港，入住美溪海灘", "D2 12/28 巴拿山＋按摩", "D3 12/29 移動會安，古城燈籠、搭船", "D4 12/30 會安單車、裁縫、咖啡", "D5 12/31 會安跨年（安會雕塑公園）或峴港東海公園跨年雷射秀", "D6 1/1 睡飽，傍晚回台"], "highlights": ["機票唯一落在預算內", "會安古城燈籠＋秋盆河放水燈", "海邊飯店 4 星每晚 NT$2,500 左右", "巴拿山黃金佛手橋", "按摩、咖啡、做衣服都便宜"], "events": [{"date": "12/30-1/1", "name": "峴港迎新年大道（龍橋東岸、白藤步行街）", "note": "2025 年的紀錄"}, {"date": "12/31", "name": "Larue LumiFest 峴港跨年雷射秀（東海公園）", "note": "2025 年 19:00 起；2026 年待確認"}, {"date": "12/31", "name": "會安迎新年（安會雕塑公園）", "note": "2025 年 20:30–00:30"}, {"date": "每晚", "name": "會安秋盆河燈籠船", "note": "船 12–30 萬 VND／艘，水燈 2–4 萬 VND"}], "risks": ["12 月底雨季尾巴，可能連續陰雨，海邊常有大浪禁止下水", "要先辦電子簽證（US$25，3–5 個工作天，只用 evisa.gov.vn）", "台中冬季無直飛，轉機要 3 小時以上", "1/1 回機票明顯比 12/31 回貴", "峴港／會安 4–5 星已 82–88% 訂滿（價格仍便宜）"], "scores": {"chill": 4, "scenery": 4, "food": 4, "value": 5, "ease": 4}, "sources": ["https://www.google.com/travel/flights", "https://www.booking.com", "https://www.funliday.com/posts/2026-vietnam-visa-application/", "https://localvietnam.com/da-nang/da-nang-december-weather/", "https://sunparadiseland.com/en/SunParadiseLandDaNang/tin-tuc/ba-na-hills-ticket-prices-2026-cable-car-fares-and-saving-tips-7745", "https://danangfantasticity.com/news/hoi-an-bustles-on-new-years-eve", "https://www.aeroroutes.com/eng/240123-jxns24dad"], "special": []}]}</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-onsen" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M4 16c0 2 3.6 4 8 4s8-2 8-4"/><path d="M8 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/><path d="M12 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/><path d="M16 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/></symbol>
+<symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2v20"/><path d="m4.9 6.5 14.2 11"/><path d="m4.9 17.5 14.2-11"/><path d="m9 4 3 3 3-3"/><path d="m9 20 3-3 3 3"/></symbol>
+<symbol id="i-tower" viewBox="0 0 24 24"><path d="M12 2v3"/><path d="m8 22 3-16h2l3 16"/><path d="M9 14h6"/><path d="M6 22h12"/></symbol>
+<symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><circle cx="17" cy="6" r="3"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
+<symbol id="i-lantern" viewBox="0 0 24 24"><path d="M12 2v2"/><path d="M8 4h8"/><path d="M6 11a6 6 0 0 1 12 0v3a6 6 0 0 1-12 0z"/><path d="M8 20h8"/><path d="M12 20v2"/></symbol>
+<symbol id="i-car" viewBox="0 0 24 24"><path d="M5 13 6.5 8.5A2 2 0 0 1 8.4 7h7.2a2 2 0 0 1 1.9 1.5L19 13"/><rect x="3" y="13" width="18" height="5" rx="2"/><circle cx="7.5" cy="18" r="1.6"/><circle cx="16.5" cy="18" r="1.6"/></symbol>
+<symbol id="i-whale" viewBox="0 0 24 24"><path d="M3 13c3-5 10-6 16-3 2 1 2 3 0 4-5 3-12 2-16-1z"/><path d="M19 10l2-4-4 2"/><path d="M8 15l-2 4"/><circle cx="6.5" cy="12" r=".7"/></symbol>
+<symbol id="i-mountain" viewBox="0 0 24 24"><path d="M3 20 9 8l3 5 3-4 6 11z"/></symbol>
+<symbol id="i-market" viewBox="0 0 24 24"><path d="M3 9l1.5-4h15L21 9"/><path d="M5 11.5V20h14v-8.5"/><path d="M9 20v-5h6v5"/></symbol>
+<symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4 9h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M16 11h2a2 2 0 0 1 0 4h-2"/></symbol>
+<symbol id="i-castle" viewBox="0 0 24 24"><path d="M4 20V9l2-2 2 2v3h3V9l1-2 1 2v3h3V9l2-2 2 2v11"/><path d="M3 20h18"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M11.5 2.3a.5.5 0 0 1 .9 0l2.3 4.7 5.2.8a.5.5 0 0 1 .3.9l-3.8 3.7.9 5.2a.5.5 0 0 1-.7.5L12 15.6l-4.6 2.5a.5.5 0 0 1-.7-.5l.9-5.2-3.8-3.7a.5.5 0 0 1 .3-.9l5.2-.8z"/></symbol>
+</defs></svg>
+
+<script id="data" type="application/json">{"checked": "2026-10-16", "picks": [{"id": "danang", "label": "最便宜", "tone": "b-ok", "why": "12 個裡兩人總花費最低。廣南麵、海鮮街、燈籠船，四天花不到六萬"}, {"id": "busan", "label": "台中直飛＋跨年", "tone": "b-sky", "why": "不用跑桃園。12/31 廣安里無人機倒數，1/1 海雲台看日出，女友清單五樣都排了。"}, {"id": "kyushu", "label": "吃喝溫泉＋自駕", "tone": "b-p", "why": "中洲屋台、糸島牡蠣小屋、由布院、別府跨年；糸島那天自己開車。"}, {"id": "ginzan", "label": "最想看雪", "tone": "b-warn", "why": "銀山溫泉黃昏點燈、山寺雪景、天童溫泉連住三晚。溫泉街旅館還是滿的，只能白天去。"}], "places": [{"id": "ginzan", "order": 0, "name": "東北雪國・銀山溫泉", "country": "日本", "tagline": "雪夜煤氣燈＋溫泉旅館慢三晚", "motif": "onsen", "color": "#4A90C8", "out": "12/28", "back": "12/31", "nights": 3, "total": [76423, 98712], "nye": false, "car": false, "mode": "大眾運輸", "high": 5, "low": -2, "tpe_min": 12747, "best_from": "TPE", "flight_min": 12747, "rmq": {"kind": "direct", "price": 30871}, "verified": true, "flight_checked": "10/16", "flight_line": "酷航 TPE→NRT ＋ 台灣虎航 SDJ→TPE（開口） 12/28 06:50→10:55／12/31 19:40→23:00，每人 NT$12,747", "stay_name": "天童温泉 美味求真の宿 天童ホテル", "stay_avail": "有空房", "stay_price": 10520, "stay_line": "天童温泉 美味求真の宿 天童ホテル（有空房，每晚 NT$10,520）"}, {"id": "tokyo", "order": 1, "name": "東京", "country": "日本", "tagline": "機票最便宜、吃喝最密集的東京 4 天", "motif": "tower", "color": "#E94E77", "out": "12/28", "back": "12/31", "nights": 3, "total": [63390, 82976], "nye": false, "car": false, "mode": "大眾運輸", "high": 12, "low": 4, "tpe_min": 12190, "best_from": "TPE", "flight_min": 12190, "rmq": {"kind": "direct", "price": 30871}, "verified": true, "flight_checked": "10/16", "flight_line": "酷航 TR（來回） 12/28 06:50→10:55／12/31 19:45→22:55，每人 NT$12,190", "stay_name": "ONE@Tokyo（押上）", "stay_avail": "有空房", "stay_price": 6817, "stay_line": "ONE@Tokyo（押上）（有空房，每晚 NT$6,817）"}, {"id": "hakodate_aomori", "order": 2, "name": "函館＋青森串聯", "country": "日本", "tagline": "海膽丼、樹冰、千人風呂、跨年初日出", "motif": "snow", "color": "#3A7BD5", "out": "12/28", "back": "1/1", "nights": 4, "total": [83684, 97284], "nye": true, "car": false, "mode": "大眾運輸", "high": 3, "low": -3, "tpe_min": 17392, "best_from": "TPE", "flight_min": 17392, "rmq": {"kind": "none", "price": null}, "verified": true, "flight_checked": "10/16", "flight_line": "星宇 JX860／JX861（主方案，1/1 回） 12/28 12:00→16:30／1/1 18:00→21:40，每人 NT$17,392", "stay_name": "湯の川温泉 湯元啄木亭", "stay_avail": "有空房", "stay_price": 6160, "stay_line": "湯の川温泉 湯元啄木亭（有空房，每晚 NT$6,160）"}, {"id": "busan", "order": 3, "name": "釜山", "country": "韓國", "tagline": "看海、吃湯飯、跨年看無人機", "motif": "wave", "color": "#2E86DE", "out": "12/28", "back": "1/1", "nights": 4, "total": [50000, 64000], "nye": true, "car": false, "mode": "大眾運輸", "high": 8, "low": 0, "tpe_min": 8671, "best_from": "RMQ", "flight_min": 8671, "rmq": {"kind": "direct", "price": 8671}, "verified": true, "flight_checked": "10/16", "flight_line": "真航空 LJ 12/28 16:15→19:35／1/1 14:00→15:15，每人 NT$8,671", "stay_name": "Ciel de Mer 海雲台", "stay_avail": "有空房", "stay_price": 3014, "stay_line": "Ciel de Mer 海雲台（有空房，每晚 NT$3,014）"}, {"id": "seoul", "order": 4, "name": "首爾", "country": "韓國", "tagline": "韓服逛古宮、市場吃生牛肉、普信閣敲鐘跨年", "motif": "lantern", "color": "#E85D75", "out": "12/28", "back": "1/1", "nights": 4, "total": [56000, 82000], "nye": true, "car": false, "mode": "大眾運輸", "high": 3, "low": -5, "tpe_min": 11691, "best_from": "RMQ", "flight_min": 10991, "rmq": {"kind": "direct", "price": 10991}, "verified": true, "flight_checked": "10/16", "flight_line": "真航空 LJ 12/28 11:00→14:40／1/1 15:35→17:30，每人 NT$11,691", "stay_name": "318 Stay", "stay_avail": "有空房", "stay_price": 3288, "stay_line": "318 Stay（有空房，每晚 NT$3,288）"}, {"id": "danang", "order": 5, "name": "峴港＋會安", "country": "越南", "tagline": "廣南麵、海鮮街、燈籠船，四天花不到六萬", "motif": "lantern", "color": "#F4A261", "out": "12/28", "back": "12/31", "nights": 3, "total": [42000, 63000], "nye": false, "car": false, "mode": "大眾運輸", "high": 24, "low": 18, "tpe_min": 10619, "best_from": "TPE", "flight_min": 10619, "rmq": {"kind": "none", "price": null}, "verified": true, "flight_checked": "10/16", "flight_line": "星宇 JX 去＋台灣虎航 IT 回（分開買） 12/28 15:20→17:15／12/31 19:50→23:15，每人 NT$10,619", "stay_name": "Sala Danang Beach Hotel", "stay_avail": "有空房", "stay_price": 2268, "stay_line": "Sala Danang Beach Hotel（有空房，每晚 NT$2,268）"}, {"id": "chiangmai", "order": 6, "name": "清邁", "country": "泰國", "tagline": "涼季清邁：吃麵、看象、爬泰國屋脊", "motif": "lantern", "color": "#E8A317", "out": "1/2", "back": "1/5", "nights": 3, "total": [45493, 57993], "nye": false, "car": true, "mode": "混合", "high": 28, "low": 15, "tpe_min": 11567, "best_from": "TPE", "flight_min": 11567, "rmq": {"kind": "none", "price": null}, "verified": true, "flight_checked": "10/16", "flight_line": "泰國亞航 Thai AirAsia FD（直飛） 1/2 18:55→22:10／1/5 01:40→06:15（推算，和 12/31 班次相同，訂票時再確認），每人 NT$11,567", "stay_name": "The Empire Nimman", "stay_avail": "有空房", "stay_price": 1977, "stay_line": "The Empire Nimman（有空房，每晚 NT$1,977）"}, {"id": "bangkok_huahin", "order": 7, "name": "曼谷＋華欣", "country": "泰國", "tagline": "唐人街吃宵夜、華欣玩風箏、湄南河看煙火", "motif": "market", "color": "#F2A33A", "out": "12/28", "back": "1/1", "nights": 4, "total": [77687, 90187], "nye": true, "car": true, "mode": "混合", "high": 31, "low": 21, "tpe_min": 10219, "best_from": "TPE", "flight_min": 10219, "rmq": {"kind": "none", "price": null}, "verified": true, "flight_checked": "10/16", "flight_line": "泰國獅航 Thai Lion Air（晚班） 12/28 22:10→01:05+1／1/2 03:00→08:00（或 09:55→15:10 每人 +700），每人 NT$10,219", "stay_name": "ASAI Bangkok Chinatown（Dusit）", "stay_avail": "有空房", "stay_price": 5058, "stay_line": "ASAI Bangkok Chinatown（Dusit）（有空房，每晚 NT$5,058）"}, {"id": "kyushu", "order": 8, "name": "九州北部・福岡由布院別府", "country": "日本", "tagline": "吃遍博多，開車進由布院，別府跨年", "motif": "onsen", "color": "#E8793F", "out": "12/28", "back": "1/1", "nights": 4, "total": [57241, 76627], "nye": true, "car": true, "mode": "混合", "high": 11, "low": 4, "tpe_min": 10634, "best_from": "TPE", "flight_min": 10634, "rmq": {"kind": "none", "price": null}, "verified": true, "flight_checked": "10/16", "flight_line": "台灣虎航 去 ＋ 亞洲航空 回（分段購票） 12/28 06:45→10:00／1/1 16:20→18:10，每人 NT$10,634", "stay_name": "Quintessa Hotel Fukuoka Watanabedori（クインテッサホテル福岡 渡辺通）", "stay_avail": "有空房", "stay_price": 5423, "stay_line": "Quintessa Hotel Fukuoka Watanabedori（クインテッサホテル福岡 渡辺通）（有空房，每晚 NT$5,423）"}, {"id": "jeju", "order": 9, "name": "濟州島", "country": "韓國", "tagline": "開車環島、吃黑豬肉、看新年第一道光", "motif": "car", "color": "#FF8A3D", "out": "12/28", "back": "1/1", "nights": 4, "total": [55903, 67403], "nye": true, "car": true, "mode": "自駕", "high": 10, "low": 4, "tpe_min": 8121, "best_from": "TPE", "flight_min": 8121, "rmq": {"kind": "none", "price": null}, "verified": true, "flight_checked": "10/16", "flight_line": "真航空 Jin Air（紅眼；易斯達 03:05 班無報價） 12/28 02:45→06:05／1/1 22:15→23:45，每人 NT$8,121", "stay_name": "Ventimo Hotel & Residence Jeju", "stay_avail": "有空房", "stay_price": 2497, "stay_line": "Ventimo Hotel & Residence Jeju（有空房，每晚 NT$2,497）"}, {"id": "cebu_bohol", "order": 10, "name": "宿霧＋薄荷島", "country": "菲律賓", "tagline": "最便宜的挑戰型海島跨年", "motif": "whale", "color": "#1FA7C9", "out": "12/29", "back": "1/2", "nights": 4, "total": [61690, 69690], "nye": true, "car": true, "mode": "混合", "high": 30, "low": 24, "tpe_min": 19778, "best_from": "TPE", "flight_min": 19778, "rmq": {"kind": "none", "price": null}, "verified": true, "flight_checked": "10/16", "flight_line": "星宇 JX781／JX782 12/29 15:40→18:35／1/2 10:50→13:40，每人 NT$19,778", "stay_name": "Alona Katchajo Inn／Citadel Alona Inn（省錢版）", "stay_avail": "有空房", "stay_price": 1030, "stay_line": "Alona Katchajo Inn／Citadel Alona Inn（省錢版）（有空房，每晚 NT$1,030）"}, {"id": "penang", "order": 11, "name": "檳城", "country": "馬來西亞", "tagline": "吃遍老城小攤，跨年看海邊煙火", "motif": "market", "color": "#1FA2A6", "out": "12/28", "back": "1/1", "nights": 4, "total": [75975, 85475], "nye": true, "car": true, "mode": "混合", "high": 31, "low": 24, "tpe_min": 21225, "best_from": "TPE", "flight_min": 21225, "rmq": {"kind": "none", "price": null}, "verified": true, "flight_checked": "10/16", "flight_line": "中華航空（直飛） 12/28 09:30→14:20（CI731）／1/1 15:20→19:55（CI732），每人 NT$21,225", "stay_name": "Hotel Penaga", "stay_avail": "滿房", "stay_price": 2385, "stay_line": "Hotel Penaga（滿房，每晚 NT$2,385）"}]}</script>
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
-const store = {
-  get(k, d){ try{ return localStorage.getItem(k) ?? d }catch(e){ return d } },
-  set(k, v){ try{ localStorage.setItem(k, v) }catch(e){} }
-};
-let ret = store.get('ret', 'to_1231');
-let sortKey = store.get('sort', 'cost');
-let current = store.get('dest', DATA.places[0]?.id);
-if (location.hash && DATA.places.some(p => p.id === location.hash.slice(1))) current = location.hash.slice(1);
-
-const ICON = {
-  plane:'<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',
-  bed:'<path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/>',
-  wallet:'<path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/>',
-  cloud:'<path d="M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25"/><path d="M8 16h.01"/><path d="M8 20h.01"/><path d="M12 18h.01"/><path d="M12 22h.01"/><path d="M16 16h.01"/><path d="M16 20h.01"/>',
-  route:'<circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/>',
-  party:'<path d="M5.8 11.3 2 22l10.7-3.79"/><path d="M4 3h.01"/><path d="M22 8h.01"/><path d="M15 2h.01"/><path d="M22 20h.01"/><path d="m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10"/><path d="m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11-.11.7-.72 1.22-1.43 1.22H17"/><path d="m11 2 .33.82c.34.86-.2 1.82-1.11 1.98-.7.1-1.22.72-1.22 1.43V7"/><path d="M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z"/>',
-  alert:'<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
-  star:'<path d="M11.5 2.3a.5.5 0 0 1 .9 0l2.3 4.7 5.2.8a.5.5 0 0 1 .3.9l-3.8 3.7.9 5.2a.5.5 0 0 1-.7.5L12 15.6l-4.6 2.5a.5.5 0 0 1-.7-.5l.9-5.2-3.8-3.7a.5.5 0 0 1 .3-.9l5.2-.8z"/>',
-  info:'<circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>'
-};
-Object.assign(ICON, {
-  onsen:'<path d="M7 20h10"/><path d="M4 16c0 2 3.6 4 8 4s8-2 8-4"/><path d="M8 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/><path d="M12 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/><path d="M16 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/>',
-  snow:'<path d="M12 2v20"/><path d="m4.9 6.5 14.2 11"/><path d="m4.9 17.5 14.2-11"/><path d="m9 4 3 3 3-3"/><path d="m9 20 3-3 3 3"/>',
-  tower:'<path d="M12 2v4"/><path d="m8 22 4-16 4 16"/><path d="M9 14h6"/><path d="M6 22h12"/>',
-  wave:'<path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><circle cx="17" cy="6" r="3"/>',
-  leaf:'<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>'
-});
-const PLACE_ICON = {ginzan:'onsen', aomori:'onsen', hakodate:'snow', aomori_hakodate:'snow', tokyo:'tower', seoul:'tower', busan:'wave', chiangmai:'leaf', danang:'wave'};
-const pIcon = id => svg(PLACE_ICON[id] || 'star');
-const svg = n => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICON[n]||ICON.info}</svg>`;
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const twd = n => (n == null || isNaN(n)) ? '待確認' : 'NT$' + Math.round(n).toLocaleString('en-US');
 const wan = n => (n/10000).toFixed(1).replace(/\.0$/, '');
-const rng = a => Array.isArray(a) ? (a[0] === a[1] ? twd(a[0]) : `${twd(a[0])}–${Math.round(a[1]).toLocaleString('en-US')}`) : twd(a);
-const link = (u, t) => u && /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || '來源')}</a>` : esc(t || '');
-const nights = () => ret === 'to_1231' ? 4 : 5;
+const k = n => n ? (n/1000).toFixed(1).replace(/\.0$/, '') + 'K' : '–';
+const ico = n => `<svg class="ico" viewBox="0 0 24 24"><use href="#i-${n}"/></svg>`;
+const store = { get(a,d){ try{ return localStorage.getItem(a) ?? d }catch(e){ return d } }, set(a,v){ try{ localStorage.setItem(a,v) }catch(e){} } };
+const P = DATA.places;
+document.getElementById('checked').textContent = '查價 ' + DATA.checked;
 
-function minFlight(p, from){
-  const f = (p.flights||[]).filter(x => x.from === from && x.price_pp_twd);
-  if (!f.length) return null;
-  return f.reduce((a,b) => a.price_pp_twd <= b.price_pp_twd ? a : b);
-}
-function stayBadge(p){
-  const hs = p.hotels||[];
-  if (p.stay_status) return `<span class="badge ${p.stay_status.tone||''}">${esc(p.stay_status.text)}</span>`;
-  const n = s => hs.filter(h => (h.availability||'').includes(s)).length;
-  if (n('有空')) return `<span class="badge b-ok">${n('有空')} 間有空房</span>`;
-  if (n('滿')) return `<span class="badge b-danger">查到的都滿</span>`;
-  return `<span class="badge">未確認</span>`;
-}
-function availBadge(a){
-  a = a || '未知';
-  const t = a.includes('有空') ? 'b-ok' : a.includes('滿') ? 'b-danger' : a.includes('候補') ? 'b-warn' : '';
-  return `<span class="badge ${t}">${esc(a)}</span>`;
-}
+// picks
+document.getElementById('picks').innerHTML = DATA.picks.map(pk => {
+  const p = P.find(x => x.id === pk.id); if (!p) return '';
+  return `<a class="pick" href="${p.id}.html" style="--p:${esc(p.color)}">
+    <div class="row1"><span class="badge ${pk.tone||'b-p'}">${esc(pk.label)}</span><span class="faint">${p.nights} 晚</span></div>
+    <h3>${ico(p.motif)}${esc(p.name)}</h3>
+    <div class="num" style="color:var(--p);font-weight:700">${esc(p.out)} → ${esc(p.back)}</div>
+    <div class="money">${wan(p.total[0])}–${wan(p.total[1])} 萬 <small>兩個人全包</small></div>
+    <div class="why">${esc(pk.why)}</div>
+    <div class="ln2"><b>機票</b>${esc(p.flight_line)}</div>
+    <div class="ln2"><b>住宿</b>${esc(p.stay_line)}</div>
+  </a>`;
+}).join('');
 
-function renderOverview(){
-  const ps = [...DATA.places];
-  if (sortKey === 'cost') ps.sort((a,b) => (a.total_for2_twd?.[ret]?.[0]??9e9) - (b.total_for2_twd?.[ret]?.[0]??9e9));
-  else ps.sort((a,b) => (b.scores?.[sortKey]||0) - (a.scores?.[sortKey]||0));
-  const max = Math.max(120000, ...ps.map(p => p.total_for2_twd?.[ret]?.[1] || 0)) * 1.05;
-  const pct = v => (v/max*100).toFixed(2) + '%';
-  document.getElementById('ov').innerHTML = ps.map(p => {
-    const t = p.total_for2_twd?.[ret] || [];
-    const r = minFlight(p,'RMQ'), y = minFlight(p,'TPE');
-    const flLine = (code, f) => f ? `<span><span class="faint">${code}</span> <span class="num">${f.price_pp_twd.toLocaleString('en-US')}</span>${f.price_pp_twd > 13000 ? ' <span class="badge b-danger">超</span>' : ''}</span>` : `<span class="faint">${code} 無</span>`;
-    const over = t[0] > 100000;
-    const bar = t.length ? `<div class="bar" title="兩人 ${twd(t[0])}–${twd(t[1])}">
-        <div class="band" style="left:${pct(60000)};width:calc(${pct(100000)} - ${pct(60000)})"></div>
-        <div class="rng" style="left:${pct(t[0])};width:calc(${pct(t[1])} - ${pct(t[0])})"></div>
-      </div><div class="lbl2 num">${wan(t[0])}–${wan(t[1])} 萬${over ? ' <span class="badge b-danger">超預算</span>' : t[1] > 100000 ? ' <span class="badge b-warn">可能超</span>' : ''}</div>` : '<span class="faint">待確認</span>';
-    return `<div class="ov-row" data-id="${p.id}" role="button" tabindex="0" aria-label="${esc(p.name)} 詳情">
-      <div class="name">${pIcon(p.id)}<span>${esc(p.name)}<small>${esc(p.country)}</small></span></div>
-      <div class="c-bar">${bar}</div>
-      <div class="fl c-fl">${flLine('台中', r)}${flLine('桃園', y)}</div>
-      <div class="c-stay">${stayBadge(p)}</div>
-      <div class="verdict c-v">${esc(p.verdict)}</div>
-    </div>`;
-  }).join('');
-  const ticks = [0, 50000, 100000, 150000, 200000].filter(v => v <= max);
-  document.getElementById('axis').innerHTML = ticks.map(v => `<span class="num" style="left:${pct(v)}">${v ? wan(v)+'萬' : '0'}</span>`).join('');
-  document.querySelectorAll('.ov-row').forEach(el => {
-    const go = () => { select(el.dataset.id); document.getElementById('tabs').scrollIntoView({behavior:'smooth'}); };
-    el.onclick = go; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } };
-  });
+// table
+const WARM = new Set(['泰國','越南','菲律賓','馬來西亞']);
+let f = store.get('cmp-f','all'), sortKey = store.get('cmp-s','cost');
+const MAX = Math.max(120000, ...P.map(p => p.total[1])) * 1.04;
+const pct = v => (v/MAX*100).toFixed(2) + '%';
+function render(){
+  let ps = P.slice();
+  if (f === 'budget') ps = ps.filter(p => p.total[0] <= 100000 && p.tpe_min && p.tpe_min <= 13000 || (p.rmq?.kind === 'direct' && p.rmq.price <= 13000));
+  if (f === 'rmq') ps = ps.filter(p => p.rmq && (p.rmq.kind === 'direct' || p.rmq.kind === 'maybe'));
+  if (f === 'nye') ps = ps.filter(p => p.nye);
+  if (f === 'car') ps = ps.filter(p => p.car);
+  if (f === 'warm') ps = ps.filter(p => WARM.has(p.country));
+  if (f === 'snow') ps = ps.filter(p => p.low <= 0);
+  ps.sort((a,b) => sortKey === 'cost' ? a.total[0]-b.total[0] : sortKey === 'flight' ? (a.flight_min||9e9)-(b.flight_min||9e9) : sortKey === 'warm' ? (b.high||0)-(a.high||0) : a.order - b.order);
+  document.getElementById('rows').innerHTML = ps.map(p => {
+    const r = p.rmq || {kind:'none'};
+    const rmq = r.kind === 'direct' ? `<span class="badge b-sky">台中直飛 ${k(r.price)}${r.price > 13000 ? '・超' : ''}</span>` : r.kind === 'maybe' ? `<span class="badge b-sky" style="font-weight:400">台中直飛待確認</span>` : '<span class="badge">台中沒直飛</span>';
+    const tpe = p.tpe_min ? `<span><span class="big">${k(p.tpe_min)}</span> <span class="faint">${p.best_from === 'RMQ' ? '台中' : '桃園'}出發</span> ${p.tpe_min > 13000 ? '<span class="badge b-danger">超</span>' : ''}</span>` : '<span class="faint">沒有直飛</span>';
+    const st = p.stay_avail === '有空房' ? 'b-ok' : p.stay_avail === '滿房' ? 'b-danger' : 'b-warn';
+    const over = p.total[0] > 100000 ? '<span class="badge b-danger">超預算</span>' : p.total[1] > 100000 ? '<span class="badge b-warn">高估會超</span>' : '<span class="badge b-ok">預算內</span>';
+    return `<a class="trow" href="${p.id}.html" style="--p:${esc(p.color)}">
+      <div class="name c-name">${ico(p.motif)}<span>${esc(p.name)}<small>${esc(p.country)}・${esc(p.tagline)}</small></span></div>
+      <div class="cell"><span class="big">${esc(p.out)}→${esc(p.back)}</span><span class="faint">${p.nights} 晚${p.nye ? '・能跨年' : ''}</span></div>
+      <div class="cell c-total"><div class="bar" title="兩人 ${p.total[0]}–${p.total[1]}"><div class="band" style="left:${pct(60000)};width:calc(${pct(100000)} - ${pct(60000)})"></div><div class="rng" style="left:${pct(p.total[0])};width:calc(${pct(p.total[1])} - ${pct(p.total[0])})"></div></div><span><span class="big">${wan(p.total[0])}–${wan(p.total[1])} 萬</span> ${over}</span></div>
+      <div class="cell">${tpe}<div class="chips">${rmq}</div>${p.verified ? '<span class="faint">已核價 ' + esc(p.flight_checked) + '</span>' : '<span class="faint">行情估算</span>'}</div>
+      <div class="cell"><span>${esc(p.stay_name)}</span><div class="chips"><span class="badge ${st}">${esc(p.stay_avail)}</span>${p.stay_price ? `<span class="badge">每晚 ${k(p.stay_price)}</span>` : ''}</div></div>
+      <div class="cell"><span class="num">${p.high ?? '–'}° / ${p.low ?? '–'}°</span><span class="faint">${esc(p.mode)}${p.car ? '・可自駕' : ''}</span></div>
+      <div class="go c-go">打開手帳 →</div>
+    </a>`;
+  }).join('') || '<p class="faint" style="padding:16px">這個條件沒有符合的</p>';
+  document.getElementById('axis').innerHTML = [0,50000,100000,150000].filter(v => v <= MAX).map(v => `<span class="num" style="left:${pct(v)}">${v ? wan(v)+'萬' : '0'}</span>`).join('');
 }
-
-function renderTabs(){
-  document.getElementById('tabs').innerHTML = DATA.places.map(p =>
-    `<button role="tab" id="tab-${p.id}" aria-selected="${p.id === current}" data-id="${p.id}">${pIcon(p.id)}${esc(p.name)}</button>`).join('');
-  document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => select(b.dataset.id));
-}
-
-function renderDetail(){
-  const p = DATA.places.find(x => x.id === current) || DATA.places[0];
-  if (!p) return;
-  const t = p.total_for2_twd?.[ret] || [];
-  const sc = p.scores || {};
-  const scoreNames = {chill:'chill', scenery:'風景', food:'好吃', value:'划算', ease:'輕鬆'};
-  const itin = (ret === 'to_1231' ? p.itinerary_1231 : p.itinerary_0101) || p.itinerary_1231 || [];
-  const flights = (p.flights||[]).slice().sort((a,b) => (a.from > b.from ? -1 : a.from < b.from ? 1 : 0) || (a.price_pp_twd||9e9) - (b.price_pp_twd||9e9));
-  const fRows = flights.map(f => {
-    const back = ret === 'to_0101' && f.back_alt ? f.back_alt : f.back;
-    const tags = [
-      f.fits_time_pref ? '<span class="badge b-ok">時段符合</span>' : '',
-      f.price_pp_twd > 13000 ? '<span class="badge b-danger">超預算</span>' : '',
-      f.verified === false ? '<span class="badge b-warn">估算</span>' : ''
-    ].join(' ');
-    return `<tr><td>${f.from === 'RMQ' ? '台中' : f.from === 'TPE' ? '桃園' : esc(f.from)}→${esc(f.to)}</td><td>${esc(f.airline)}</td><td class="num">${esc(f.out)}</td><td class="num">${esc(back)}</td><td class="r num">${f.price_pp_twd ? f.price_pp_twd.toLocaleString('en-US') : '待確認'}</td><td>${esc(f.baggage)}</td><td>${tags} ${link(f.source,'查')}</td></tr>`;
-  }).join('');
-  const hRows = (p.hotels||[]).map(h => `<tr><td>${link(h.source, h.name)}${h.note ? `<div class="faint">${esc(h.note)}</div>` : ''}</td><td>${esc(h.area)}</td><td class="r num">${h.nights ?? ''}</td><td class="r num">${h.price_night_for2_twd ? h.price_night_for2_twd.toLocaleString('en-US') : '待確認'}</td><td>${esc(h.meals)}</td><td>${availBadge(h.availability)}</td></tr>`).join('');
-  const w = p.weather || {};
-  const specials = (p.special||[]).map(s => `<div class="panel sec special"><div class="sec-title">${svg(s.icon||'alert')}<h2>${esc(s.title)}</h2></div>${(s.body||[]).map(x => `<p>${esc(x)}</p>`).join('')}${s.sources?.length ? `<details><summary>來源</summary><ul>${s.sources.map(u => `<li>${link(u,u)}</li>`).join('')}</ul></details>` : ''}</div>`).join('');
-
-  document.getElementById('detail').innerHTML = `
-    <div class="d-head">
-      <h2 style="font-size:26px">${pIcon(p.id)}${esc(p.name)} <span class="dim" style="font-size:15px;font-family:var(--font-body);font-weight:400">${esc(p.country)}</span></h2>
-      <div class="tag">${esc(p.tagline)}</div>
-      <div>${esc(p.verdict)}</div>
-      <div class="scores">${Object.keys(scoreNames).map(k => `<span class="badge">${scoreNames[k]} <span class="dots" aria-label="${sc[k]||0} 分">${'♥'.repeat(sc[k]||0)}${'♡'.repeat(5-(sc[k]||0))}</span></span>`).join('')}</div>
-    </div>
-    ${specials}
-    <div class="grid2">
-      <div class="panel sec"><div class="sec-title">${svg('wallet')}<h2>兩個人大概要花（${ret === 'to_1231' ? '12/31 回' : '1/1 回'}）</h2></div>
-        <div class="cost num">
-          <div><span>機票（最便宜×2）</span><span>${(() => { const m = [minFlight(p,'RMQ'),minFlight(p,'TPE')].filter(Boolean).sort((a,b)=>a.price_pp_twd-b.price_pp_twd)[0]; return m ? twd(m.price_pp_twd*2) : '待確認'; })()}</span></div>
-          <div><span>吃（每天）</span><span>${rng(p.daily_food_for2_twd)}</span></div>
-          <div><span>當地交通</span><span>${rng(p.local_transport_for2_twd)}</span></div>
-          <div><span>門票/其他</span><span>${rng(p.tickets_other_for2_twd)}</span></div>
-          <div class="total"><span>合計</span><span>${t.length ? rng(t) : '待確認'}</span></div>
-        </div>
-        ${t[0] > 100000 ? '<span class="badge b-danger">最低就超過 10 萬預算</span>' : t[1] > 100000 ? '<span class="badge b-warn">高估會超過 10 萬</span>' : t.length ? '<span class="badge b-ok">在預算內</span>' : ''}
-        <div class="faint">${esc(p.fx)}</div>
-      </div>
-      <div class="panel sec"><div class="sec-title">${svg('cloud')}<h2>天氣（12 月底）</h2></div>
-        <div class="wx"><div><span class="faint">白天</span><b>${w.high_c ?? '–'}°</b></div><div><span class="faint">晚上</span><b>${w.low_c ?? '–'}°</b></div>${w.sunset ? `<div><span class="faint">日落</span><b>${esc(w.sunset)}</b></div>` : ''}</div>
-        <div>${esc(w.conditions)}</div>
-        ${w.wear ? `<div class="dim">穿：${esc(w.wear)}</div>` : ''}
-      </div>
-    </div>
-    <div class="panel sec"><div class="sec-title">${svg('plane')}<h2>機票（每人來回）</h2></div>
-      <div class="tbl"><table><thead><tr><th>航線</th><th>航空</th><th>去程</th><th>回程</th><th class="r">每人</th><th>行李</th><th></th></tr></thead><tbody>${fRows || '<tr><td colspan="7" class="faint">待確認</td></tr>'}</tbody></table></div>
-    </div>
-    <div class="panel sec"><div class="sec-title">${svg('bed')}<h2>住宿</h2></div>
-      <div class="tbl"><table><thead><tr><th>旅館</th><th>區域</th><th class="r">晚</th><th class="r">兩人每晚</th><th>餐</th><th>空房</th></tr></thead><tbody>${hRows || '<tr><td colspan="6" class="faint">待確認</td></tr>'}</tbody></table></div>
-    </div>
-    <div class="grid2">
-      <div class="panel sec"><div class="sec-title">${svg('route')}<h2>行程（${nights()} 晚）</h2></div><ol class="days">${itin.map(d => `<li>${esc(d)}</li>`).join('')}</ol></div>
-      <div class="panel sec"><div class="sec-title">${svg('party')}<h2>那幾天有什麼活動</h2></div>
-        <div class="events">${(p.events||[]).map(e => `<div><span class="num dim">${esc(e.date)}</span><span><b>${esc(e.name)}</b>${e.note ? `<br><span class="dim">${esc(e.note)}</span>` : ''}</span></div>`).join('') || '<span class="faint">待確認</span>'}</div>
-      </div>
-    </div>
-    <div class="grid2">
-      <div class="panel sec"><div class="sec-title">${svg('star')}<h2>一定要去</h2></div><ul class="plain">${(p.highlights||[]).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>
-      <div class="panel sec"><div class="sec-title">${svg('alert')}<h2>小提醒</h2></div><ul class="plain">${(p.risks||[]).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div>
-    </div>
-    ${p.sources?.length ? `<details class="panel sec"><summary>全部來源（${p.sources.length}）</summary><ul>${p.sources.map(u => `<li>${link(u,u)}</li>`).join('')}</ul></details>` : ''}
-  `;
-}
-
-function select(id){
-  current = id; store.set('dest', id);
-  document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.id === id));
-  renderDetail();
-}
-document.querySelectorAll('.seg button').forEach(b => {
-  b.setAttribute('aria-pressed', b.dataset.ret === ret);
-  b.onclick = () => { ret = b.dataset.ret; store.set('ret', ret);
-    document.querySelectorAll('.seg button').forEach(x => x.setAttribute('aria-pressed', x === b)); renderOverview(); renderDetail(); };
-});
-const sel = document.getElementById('sort');
-sel.value = sortKey;
-sel.onchange = () => { sortKey = sel.value; store.set('sort', sortKey); renderOverview(); };
-document.getElementById('checked').textContent = '查價 ' + (DATA.checked || '');
-function renderPlans(){
-  document.getElementById('plans-note').textContent = DATA.plans_note || '';
-  document.getElementById('plans').innerHTML = (DATA.plans||[]).map(pl => `<article class="plan">
-    <div class="top-row"><span class="badge ${pl.tone||''}">${esc(pl.label)}</span><span class="faint">${pl.nights} 晚</span></div>
-    <h3>${pIcon(pl.id)}${esc(pl.place)}</h3>
-    <div class="when num">${esc(pl.dates)}</div>
-    <div class="money">${wan(pl.total[0])}–${wan(pl.total[1])} 萬 <small>兩個人全包</small></div>
-    <div class="line"><b>機票</b>　${esc(pl.flight)}</div>
-    <div class="line"><b>住宿</b>　${esc(pl.stay)}</div>
-    <ol>${pl.days.map(d => `<li>${esc(d)}</li>`).join('')}</ol>
-    <div class="pc"><span>${esc(pl.good)}</span><span class="bad">${esc(pl.bad)}</span></div>
-    <button data-go="${pl.id}">看${esc(pl.place.replace('日本東北雪國','銀山溫泉'))}詳細</button>
-  </article>`).join('');
-  document.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { select(b.dataset.go); document.getElementById('tabs').scrollIntoView({behavior:'smooth'}); });
-}
-renderPlans(); renderOverview(); renderTabs(); renderDetail();
-// Gentle snow in the header only / 只有頁首下小雪
-(() => { const box = document.getElementById('snow'); if (!box) return;
-  for (let i = 0; i < 14; i++) { const f = document.createElement('span'); f.className = 'flake';
-    f.style.left = (Math.random()*100).toFixed(1) + '%'; f.style.animationDuration = (6 + Math.random()*6).toFixed(1) + 's';
-    f.style.animationDelay = (-Math.random()*10).toFixed(1) + 's'; const z = 3 + Math.random()*5; f.style.width = f.style.height = z.toFixed(1) + 'px';
-    box.appendChild(f); } })();
+document.querySelectorAll('#filters button').forEach(b => { b.setAttribute('aria-pressed', b.dataset.f === f); b.onclick = () => { f = b.dataset.f; store.set('cmp-f', f); document.querySelectorAll('#filters button').forEach(x => x.setAttribute('aria-pressed', x === b)); render(); }; });
+const sel = document.getElementById('sort'); sel.value = sortKey; sel.onchange = () => { sortKey = sel.value; store.set('cmp-s', sortKey); render(); };
+render();
 </script>
 </body></html>

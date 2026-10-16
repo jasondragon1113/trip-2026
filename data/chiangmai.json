@@ -16,7 +16,7 @@
   "out": "1/2",
   "back": "1/5（凌晨 01:40 起飛，實際 1/4 深夜去機場）",
   "nights": 3,
-  "why": "第一輪查價（2026-10-15 Google 航班）：跨年版 12/30→1/3 亞航每人 NT$20,900、中華／長榮 NT$31,900，是年後的兩倍；1/2→1/5 亞航 NT$11,457 是唯一壓進 NT$13,000 的直飛，而且 1/3（日）剛好有 Jing Jai 週末市集＋週日夜市。代價是回程紅眼班、實際只能玩 2.5 天。"
+  "why": "第一輪查價（2026-10-15 Google 航班）：跨年版 12/30→1/3 亞航每人 NT$20,900、中華／長榮 NT$31,900，是年後的兩倍；1/2→1/5 亞航 NT$11,567（10/16 重查） 是唯一壓進 NT$13,000 的直飛，而且 1/3（日）剛好有 Jing Jai 週末市集＋週日夜市。代價是回程紅眼班、實際只能玩 2.5 天。"
  },
  "flights": [
   {
@@ -25,14 +25,14 @@
    "airline": "泰國亞航 Thai AirAsia FD（直飛）",
    "out": "1/2 18:55→22:10",
    "back": "1/5 01:40→06:15（推算，和 12/31 班次相同，訂票時再確認）",
-   "price_pp_twd": 11457,
+   "price_pp_twd": 11567,
    "baggage": "不含托運，加購約 NT$1,000–1,500／人來回（待確認）",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "2026-10-15 Google 航班列表價（1/2→1/5）",
+   "basis": "Google 航班 10/16 下午實查：1/2 18:55→22:10 泰亞航直飛，來回每人 NT$11,567（含稅、不含托運），直飛最便宜",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "checked": "2026-10-16"
   },
   {
    "from": "TPE",
@@ -40,14 +40,14 @@
    "airline": "中華 CI851/852（直飛，全服務）",
    "out": "1/2 07:20→10:25",
    "back": "1/5 11:25→15:55",
-   "price_pp_twd": 21263,
+   "price_pp_twd": 21984,
    "baggage": "含托運（待確認艙等）",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "basis": "：1/2→1/5 早班全服務最便宜是中華 NT$21,263；去程早班符合、回程上午起飛不符合",
+   "basis": "Google 航班 10/16 下午實查：1/2 07:20→10:25 華航直飛，來回每人 NT$21,984",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "checked": "2026-10-16"
   },
   {
    "from": "TPE",
@@ -55,14 +55,29 @@
    "airline": "長榮 BR257/258（直飛，全服務）",
    "out": "1/2 07:30→10:35",
    "back": "1/5 11:50→16:20",
-   "price_pp_twd": 23958,
+   "price_pp_twd": 23961,
    "baggage": "含托運（待確認）",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "basis": "1/2→1/5 列表價",
+   "basis": "Google 航班 10/16 下午實查：1/2 07:30→10:35 長榮直飛，來回每人 NT$23,961",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "checked": "2026-10-16"
+  },
+  {
+   "from": "TPE",
+   "to": "CNX",
+   "airline": "星宇 JX（直飛，全服務）",
+   "out": "1/2 13:05→16:00",
+   "back": "1/5（回程班次訂票時確認）",
+   "price_pp_twd": 20177,
+   "baggage": "含托運（待確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "basis": "Google 航班 10/16 下午實查：1/2 13:05→16:00 星宇直飛，來回每人 NT$20,177，比華航、長榮便宜的全服務直飛",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16"
   },
   {
    "from": "TPE",
@@ -70,29 +85,31 @@
    "airline": "泰國獅航 Thai Lion Air（經曼谷廊曼轉機）",
    "out": "1/1 13:45→20:45",
    "back": "1/5 21:30→1/6 08:00",
-   "price_pp_twd": 12446,
+   "price_pp_twd": 12542,
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "（日期是 1/1→1/5，4 晚）；回程隔天早上才到台灣",
-   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "basis": "Google 航班 10/16 下午實查：1/1 13:45→20:45 泰獅航經曼谷廊曼轉機，來回每人 NT$12,542（1/1 21:20 那班 12,446）；轉機不列入預算",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-01%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "kind": "transfer"
   },
   {
    "from": "RMQ",
    "to": "CNX",
    "airline": "香港快運（經香港轉機）",
-   "out": "1/1 或 12/31 出發（班次待確認）",
-   "back": "1/5（班次待確認）",
-   "price_pp_twd": 13930,
+   "out": "1/2 10:10→1/3 09:50（香港等 19 小時 50 分）",
+   "back": "1/5（班次見 Google 航班）",
+   "price_pp_twd": 11484,
    "baggage": "不含托運",
    "fits_time_pref": false,
-   "within_budget": false,
+   "within_budget": true,
    "verified": true,
-   "basis": "：台中無直飛清邁，3–4 晚最低是 12/31→1/5 或 1/1→1/5 的網格價 NT$13,930（超預算），其餘 NT$15,600–27,000",
-   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20RMQ%20on%202027-01-01%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "basis": "Google 航班 10/16 下午實查：台中沒有直飛清邁；香港快運經香港轉機每人 NT$11,484 起（香港等將近 20 小時），1/2 20:35→1/3 09:50 那班 12,458；轉機不列入預算",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20RMQ%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "kind": "transfer"
   },
   {
    "from": "TPE",
@@ -100,14 +117,14 @@
    "airline": "泰國亞航 FD（跨年版，對照用）",
    "out": "12/30 18:55→22:10",
    "back": "1/3 01:40→06:15",
-   "price_pp_twd": 20900,
+   "price_pp_twd": 20955,
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "basis": "：跨年週直飛價格翻倍，所以不推薦跨年版",
-   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15"
+   "basis": "Google 航班 10/16 下午實查：12/30→1/3 泰亞航直飛來回每人 NT$20,955（華航 31,290、長榮 33,180），跨年週直飛幾乎翻倍，所以不推跨年版",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202026-12-30%20through%202027-01-03&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16"
   }
  ],
  "getting_around": {
@@ -143,10 +160,10 @@
    "area": "古城北門（Chang Phueak Gate）外",
    "nights": 3,
    "price_night_for2_twd": 1918,
-   "availability": "未知",
+   "availability": "滿房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=B2+Chang+Phueak+Gate+Premier+Hotel&checkin=2027-01-02&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=B2%20Chang%20Phueak%20Gate%20Premier%20Hotel%20Chiang%20Mai",
-   "why": "第一輪查價（12/27–12/31 查價）每晚約 NT$1,918、8.6 分、可免費取消；1/2–1/5 價格待確認。位置是重點：走路 2 分鐘到北門夜市的 Cowboy Hat Lady、5 分鐘到 North Gate Jazz，深夜抵達最省事。",
+   "why": "10/16 Booking 查 3 次都顯示 1/2–1/5 沒有空房（只剩合作商列表）。位置原本是重點：走路 2 分鐘到北門夜市的 Cowboy Hat Lady、5 分鐘到 North Gate Jazz；想住要改上其他訂房網找。",
    "links": [
     {
      "type": "official",
@@ -159,11 +176,11 @@
    "name": "The Empire Nimman",
    "area": "寧曼路",
    "nights": 3,
-   "price_night_for2_twd": 1950,
+   "price_night_for2_twd": 1977,
    "availability": "有空房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=The+Empire+Nimman&checkin=2027-01-02&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Empire%20Nimman%20Chiang%20Mai",
-   "why": "第一輪查價直接查 1/2–1/5：3 晚 NT$5,849、8.6 分、可免費取消。想住寧曼咖啡區、晚上走路去精釀酒吧就選這間。",
+   "why": "10/16 Booking 查 1/2–1/5：3 晚 NT$5,932、8.6 分、可免費取消。想住寧曼咖啡區、晚上走路去精釀酒吧就選這間。",
    "links": [
     {
      "type": "official",
@@ -176,11 +193,11 @@
    "name": "Moose Hotel Nimman",
    "area": "寧曼路",
    "nights": 3,
-   "price_night_for2_twd": 3478,
+   "price_night_for2_twd": 4510,
    "availability": "有空房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Moose+Hotel+Nimman&checkin=2027-01-02&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Moose%20Hotel%20Nimman%20Chiang%20Mai",
-   "why": "第一輪查價查 1/2–1/5：3 晚 NT$10,433、8.7 分、可免費取消；有泳池，預算高一點的寧曼選項。",
+   "why": "10/16 Booking 查 1/2–1/5：3 晚 NT$13,531（含早餐）、8.7 分、可免費取消；有泳池，預算高一點的寧曼選項。",
    "links": [
     {
      "type": "official",
@@ -193,11 +210,11 @@
    "name": "Parasol Inn Old City",
    "area": "古城中心（三王像旁）",
    "nights": 3,
-   "price_night_for2_twd": 2604,
+   "price_night_for2_twd": 1786,
    "availability": "有空房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Parasol+Inn+Old+City+Chiang+Mai&checkin=2027-01-02&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Parasol%20Inn%20Old%20City%20Chiang%20Mai",
-   "why": "第一輪查價查 1/2–1/5：3 晚 NT$7,813、8.1 分，剩 5 間。走路到週日夜市 3 分鐘、Zoe in Yellow 5 分鐘。",
+   "why": "10/16 Booking 查 1/2–1/5：3 晚 NT$5,359（無窗標準房，剩 5 間）、8.1 分。走路到週日夜市 3 分鐘、Zoe in Yellow 5 分鐘。北門 B2 滿房時的古城首選。",
    "links": [
     {
      "type": "official",
@@ -210,11 +227,11 @@
    "name": "Capybara Zen Resort And Spa",
    "area": "山區 Mae Pong（市區車程約 40 分）",
    "nights": 3,
-   "price_night_for2_twd": 3474,
-   "availability": "未知",
+   "price_night_for2_twd": 2444,
+   "availability": "有空房",
    "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Capybara+Zen+Resort+And+Spa&checkin=2027-01-02&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Capybara%20Zen%20Resort%20And%20Spa%20Chiang%20Mai",
-   "why": "第一輪查價（12 月底查價）山景套房每晚約 NT$3,474、9.2 分，當時只剩 1 間；想要 villa 感就是它，但離夜市酒吧遠，這版 3 晚不建議，列備案。",
+   "why": "10/16 Booking 查 1/2–1/5：山景房 3 晚 NT$7,333、9.2 分；想要 villa 感就是它，但離夜市酒吧遠（車程約 40 分），這版 3 晚不建議，列備案。",
    "links": [
     {
      "type": "official",
@@ -1367,8 +1384,8 @@
   }
  ],
  "budget": {
-  "flights_for2": 25400,
-  "stay_for2": 5800,
+  "flights_for2": 23134,
+  "stay_for2": 5359,
   "food_for2": [
    5000,
    11000
@@ -1382,10 +1399,10 @@
    12000
   ],
   "total_for2": [
-   48200,
-   65400
+   45493,
+   57993
   ],
-  "note": "機票＝亞航 NT$11,457×2＋托運加購約 2,500；住宿＝B2 北門 3 晚約 5,800（寧曼 Moose 約 10,500 → 高估用 10,500）；吃＝每天 1,500–3,500×3.5 天；交通＝機場 Grab 2 趟＋市區 Grab＋茵他儂包車 3,200 泰銖；活動＝大象營 3,800 泰銖＋茵他儂門票嚮導 700 泰銖＋按摩 1,800 泰銖＋三晚酒吧約 1,500 泰銖。匯率 1 泰銖≈NT$0.96。台中⇄桃園機場兩人來回另約 NT$2,000–3,000 未計入。"
+  "note": "機票＝桃園直飛泰亞航 11,567×2（不含托運，加購約 2,500 另計）；住宿＝北門 B2 滿房，改用古城 Parasol Inn 3 晚 5,359（寧曼 Moose 3 晚 13,531）；吃＝每天 1,500–3,500×3.5 天；交通＝機場 Grab 2 趟＋市區 Grab＋茵他儂包車 3,200 泰銖；活動＝大象營 3,800 泰銖＋茵他儂門票嚮導 700 泰銖＋按摩 1,800 泰銖＋三晚酒吧約 1,500 泰銖。匯率 1 泰銖≈NT$0.96。台中⇄桃園機場兩人來回另約 NT$2,000–3,000 未計入。 機票與住宿 10/16 下午重查。"
  },
  "weather": {
   "high_c": 28,

@@ -33,7 +33,8 @@
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PEN%20from%20RMQ%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
    "note": "台中沒有飛檳城的航班（KAYAK 台中機場航點表無 PEN；也沒有經吉隆坡的台中出發組合值得推），一律從桃園走",
-   "basis": "Google Flights 無結果（RMQ–PEN 無直飛；香港快運轉機來回 NT$12,824 起，10:10→00:05+1，不如桃園酷航）"
+   "basis": "10/16 Google 航班：台中沒有直飛檳城；香港快運經香港轉機每人 NT$11,761 起（10:10→隔天 00:05）；轉機不列入預算",
+   "kind": "transfer"
   },
   {
    "from": "TPE",
@@ -48,8 +49,8 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PEN%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "價格是估的：Trip.com 10/27 直飛來回範例 NT$13,455、KAYAK 直飛來回最低 NT$13,276、12 月是全年最貴月份 → 12/28–1/1 估每人 NT$14,000–16,000（待確認，Google Flights 與 KAYAK 頁面抓不到即時價）。時刻：CI731 09:30→14:10（trip.com 航班狀態頁）、CI732 15:10→19:55（flightsfrom.com，2026-10-25 起時刻）",
-   "basis": "Google Flights 實查：12/28 09:30→14:20／1/1 15:20→19:55 華航直飛來回每人 NT$21,225（含稅），比原估 15,000 高 6,000 多"
+   "note": "CI731 09:30→14:20、CI732 15:20→19:55，桃園唯一直飛",
+   "basis": "Google 航班 10/16 下午實查：12/28 09:30→14:20 華航直飛，來回每人 NT$21,225（含稅）"
   },
   {
    "from": "TPE",
@@ -57,7 +58,7 @@
    "airline": "AirAsia（經吉隆坡轉）",
    "out": "12/28 00:30→09:05（TPE→KUL→PEN，紅眼）",
    "back": "1/1 06:15→14:25（PEN→KUL→TPE）",
-   "price_pp_twd": 14246,
+   "price_pp_twd": 14254,
    "baggage": "不含托運，20 公斤約 NT$1,000／段（待確認）",
    "fits_time_pref": false,
    "within_budget": false,
@@ -65,7 +66,8 @@
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PEN%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
    "note": "AirAsia 官網 TPE→PEN 單程 12/16 顯示 TWD 14,853（含轉機組合，日期不同差很多）、Trip.com 12/7 單程 1 停 TWD 3,696；年末來回估每人 NT$8,000–11,000（待確認）。省錢但多 3–4 小時",
-   "basis": "Google Flights 實查：12/28 00:30→09:05（吉隆坡轉，8 小時 35 分）／1/1 06:15→14:25（8 小時 10 分）亞航來回每人 NT$14,246（含稅、不含托運）；另有 00:30→07:45 組合 14,553"
+   "basis": "Google 航班 10/16 下午實查：亞航經吉隆坡轉機，12/28 00:30→09:05 來回每人 NT$14,254（00:30→07:45 那班 14,563）；轉機不列入預算",
+   "kind": "transfer"
   },
   {
    "from": "TPE",
@@ -81,7 +83,8 @@
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PEN%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
    "note": "長榮官網「飛往檳城」最低 TWD 17,543（8–9 月範例），非直飛，年末只會更貴，列出來當對照",
-   "basis": "Google Flights 無結果（12/28–1/1 列表沒有長榮組合；最接近的是馬航＋華航轉機 15:10→23:20 每人 NT$21,077）"
+   "basis": "10/16 Google 航班查不到這班（12/28–1/1 沒有長榮組合）；轉機不列入預算",
+   "kind": "transfer"
   },
   {
    "from": "TPE",
@@ -89,15 +92,16 @@
    "airline": "酷航 Scoot（經新加坡轉）",
    "out": "12/28 00:10→08:30（TPE→SIN→PEN，8 小時 20 分；或 12/28 23:20→08:30+1 同價）",
    "back": "1/1 09:30→17:00（7 小時 30 分；或 17:25→05:35+1 同價）",
-   "price_pp_twd": 12207,
+   "price_pp_twd": 12209,
    "baggage": "不含托運，加購待確認",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PEN%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "basis": "Google Flights 實查：12/28–1/1 TPE–PEN 全部選項中最便宜，來回每人 NT$12,207（含稅）；唯一在 13,000 預算內的選項",
-   "note": "凌晨出發、新加坡轉機；若回程選 17:25 班會在樟宜過夜"
+   "basis": "Google 航班 10/16 下午實查：酷航經新加坡轉機來回每人 NT$12,209，全部選項最便宜，但凌晨出發；轉機不列入預算",
+   "note": "凌晨出發、新加坡轉機；若回程選 17:25 班會在樟宜過夜",
+   "kind": "transfer"
   }
  ],
  "getting_around": {
@@ -131,31 +135,31 @@
    "name": "Hotel Penaga",
    "area": "喬治市（Jalan Hutton）",
    "nights": 4,
-   "price_night_for2_twd": 2730,
-   "availability": "未知",
-   "url": "https://www.hotelpenaga.com/",
+   "price_night_for2_twd": 2385,
+   "availability": "滿房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Hotel+Penaga+Penang&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Penaga%20George%20Town%20Penang",
-   "why": "1920 年代老屋改的精品飯店，Time Out 促銷價 RM346／晚含兩人早餐（需提前 30 天訂）；走路到汕頭街 5 分鐘、壁畫區 10 分鐘。年末加價待確認"
+   "why": "10/16 Booking 查：12/29 那晚滿房，4 晚連住訂不到；12/28 一晚 NT$2,385、12/30–1/1 兩晚 NT$4,769 還有房。1920 年代老屋改的精品飯店，走路到汕頭街 5 分鐘、壁畫區 10 分鐘。"
   },
   {
    "name": "Campbell House",
    "area": "喬治市（Lebuh Campbell）",
    "nights": 4,
-   "price_night_for2_twd": 2600,
-   "availability": "未知",
-   "url": "https://www.expedia.com/George-Town-Hotels-Campbell-House.h4883436.Hotel-Information",
+   "price_night_for2_twd": 5846,
+   "availability": "滿房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Campbell+House+Penang&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Campbell%20House%20106%20Lebuh%20Campbell%20George%20Town",
-   "why": "1903 年老建築、hotels.com 評分 9.8（398 則），約 US$81／晚含早餐；多春茶室就在同一條街。年末價待確認"
+   "why": "10/16 Booking 查：12/30 那晚滿房，4 晚連住訂不到；12/28 一晚 NT$4,459、12/29 一晚 NT$6,371、12/31 一晚 NT$6,709 還有房。1903 年老建築、9.2 分，多春茶室就在同一條街。"
   },
   {
    "name": "Areca Hotel Penang",
    "area": "喬治市世遺區",
    "nights": 4,
-   "price_night_for2_twd": 1650,
-   "availability": "未知",
-   "url": "https://www.hotels.com/de1721904/book-near-sri-mariamman-temple-george-town-malaysia-hotel-rooms",
+   "price_night_for2_twd": 10730,
+   "availability": "滿房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Areca+Hotel+Penang&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Areca%20Hotel%20Penang%20George%20Town",
-   "why": "評分 9.4（386 則）、S$66／晚起的便宜選項，省下來的錢拿去吃；年末價待確認"
+   "why": "10/16 Booking 查：4 晚連住訂不到；12/28、12/29 單晚還有，但一晚要 NT$10,730，年底不再是便宜選項。"
   }
  ],
  "days": [
@@ -1521,8 +1525,8 @@
   }
  ],
  "budget": {
-  "flights_for2": 24414,
-  "stay_for2": 10920,
+  "flights_for2": 42450,
+  "stay_for2": 13525,
   "food_for2": [
    8000,
    12000
@@ -1536,10 +1540,10 @@
    12000
   ],
   "total_for2": [
-   55414,
-   64914
+   75975,
+   85475
   ],
-  "note": "機票＝華航直飛估每人 NT$15,000×2（未驗證；改 AirAsia 轉機可省約 NT$11,000）；住宿＝Hotel Penaga RM346×4 晚；吃飯每天 NT$2,000–3,000 含夜市；交通＝Grab 約 NT$2,500＋租車 1 天 NT$1,150＋油錢；活動＝料理課 3,940＋Habitat 851＋纜車 473＋國家公園與船 1,576＋藍屋 394＋酒吧 4 晚約 4,400。匯率 1 MYR＝7.88 TWD（open.er-api.com 2026-10-15）。機票 10/16 核價：最便宜 已核價＝酷航轉機 12,207×2＝24,414（舊估華航 15,000×2）；華航直飛實價 21,225×2＝42,450，選直飛總額再加 18,036"
+  "note": "機票＝桃園直飛華航 21,225×2；住宿＝4 晚沒有一間能連住：Penaga 12/28 一晚 2,385＋Campbell House 12/29 一晚 6,371＋Penaga 12/30–1/1 兩晚 4,769；吃飯每天 NT$2,000–3,000 含夜市；交通＝Grab 約 NT$2,500＋租車 1 天 NT$1,150＋油錢；活動＝料理課 3,940＋Habitat 851＋纜車 473＋國家公園與船 1,576＋藍屋 394＋酒吧 4 晚約 4,400。匯率 1 MYR＝7.88 TWD。 機票與住宿 10/16 下午重查。"
  },
  "weather": {
   "high_c": 31,
@@ -1612,7 +1616,7 @@
   }
  ],
  "risks": [
-  "華航直飛來回估每人 NT$14,000–16,000，超過 13,000 預算；省錢要改 AirAsia 轉機多 3–4 小時",
+  "台中沒有直飛；桃園直飛只有華航，每人 NT$21,225，超過 13,000 預算",
   "馬來西亞入境近年嚴查：沒填 MDAC、沒回程機票或財力證明可能被拒；信用卡不算財力證明，帶一些現金",
   "午後雷雨：國家公園和升旗山行程排早上",
   "猴子海灘步道 2026 封閉只能坐船；船家價格 RM100 來回要先講好",

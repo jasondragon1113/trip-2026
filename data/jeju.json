@@ -32,7 +32,7 @@
    "verified": false,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20RMQ%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "basis": "Google Flights 無結果（12/28–1/1 RMQ–CJU 列表沒有虎航直飛，只有香港快運轉機 NT$11,951 起；虎航台中—濟州每週僅 2–3 班，12/28 週一可能沒飛，開票前上 tigerairtw.com 查班表或改日期）"
+   "basis": "10/16 Google 航班查不到這班：12/28–1/1 和 12/27–12/31 台中都沒有直飛濟州（只剩香港轉機），開票前上虎航官網看班表，或改從桃園飛"
   },
   {
    "from": "TPE",
@@ -47,7 +47,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "basis": "Google Flights 實查：12/28 14:25→17:25／1/1 12:05→13:15 德威（泰赫）直飛來回每人 NT$13,407（含稅）"
+   "basis": "Google 航班 10/16 下午實查：桃園直飛 12/28 14:25 去、1/1 12:05 回每人 NT$13,407（含稅），略超預算"
   },
   {
    "from": "TPE",
@@ -62,7 +62,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "basis": "Google Flights 實查：12/28 02:45→06:05／1/1 22:15→23:45 真航空（Jin Air）直飛來回每人 NT$8,121（含稅）；同時段易斯達 03:05 班『無法提供價格』"
+   "basis": "Google 航班 10/16 下午實查：桃園直飛紅眼班 12/28 02:45 去、1/1 22:15 回每人 NT$8,121（含稅），最便宜；同時段易斯達 03:05 班沒有報價"
   },
   {
    "from": "TPE",
@@ -77,7 +77,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CJU%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "basis": "Google Flights 實查：12/28–1/1 TPE–CJU 虎航直飛來回每人 NT$8,391（含稅）；去程早班符合偏好，回程 11:45 偏早（1/1 看完日出就要往機場）",
+   "basis": "Google 航班 10/16 下午實查：桃園直飛 12/28 07:55 去、1/1 11:45 回每人 NT$8,391（含稅）；去程早班符合偏好，回程偏早（1/1 看完日出就要往機場）",
    "note": "台中沒班時的首選：比真航空貴 270 但不用凌晨出發"
   }
  ],
@@ -113,30 +113,40 @@
    "area": "濟州市（新濟州）",
    "nights": 1,
    "price_night_for2_twd": 1527,
-   "availability": "未知",
-   "url": "https://www.tw.kayak.com/%E6%BF%9F%E5%B7%9E-%E9%A3%AF%E5%BA%97-%E6%BF%9F%E5%B7%9E%E4%BA%82%E6%89%93%E9%85%92%E5%BA%97.2767392.ksp",
+   "availability": "滿房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Hotel+Nanta+Jeju&checkin=2026-12-28&checkout=2026-12-29&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Nanta%20Jeju%2056-26%20Seondolmokdong-gil%20Jeju",
-   "why": "Kayak 10/16 起價 NT$1,527、評分 8.9（5,083 則）、免費自助停車、離機場 8.9 公里；12/28 住一晚，走路或 10 分鐘車程到蓮洞商圈與黑豬肉街。12/28 當日實價待查。"
+   "why": "10/16 Booking 查 12/28 這晚已經沒有空房（Kayak 先前起價 NT$1,527、評分 8.9）；改住下面的 Ventimo，或等有人取消。"
+  },
+  {
+   "name": "Ventimo Hotel & Residence Jeju",
+   "area": "濟州市",
+   "nights": 1,
+   "price_night_for2_twd": 2497,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Hotel+Nanta+Jeju&checkin=2026-12-28&checkout=2026-12-29&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Ventimo%20Hotel%20%26%20Residence%20Jeju",
+   "why": "10/16 Booking 實查 12/28 一晚 NT$2,497、評分 9.0（2,356 則）、可免費取消；亂打飯店滿房時的替代，一樣住濟州市區。"
   },
   {
    "name": "Park Sunshine Jeju 濟州陽光公園飯店",
    "area": "西歸浦市區",
    "nights": 2,
-   "price_night_for2_twd": 1677,
-   "availability": "未知",
-   "url": "https://www.tw.kayak.com/%E8%A5%BF%E6%AD%B8%E6%B5%A6-%E9%A3%AF%E5%BA%97-%E6%BF%9F%E5%B7%9E%E9%99%BD%E5%85%89%E5%85%AC%E5%9C%92%E9%A3%AF%E5%BA%97.2363813.ksp",
+   "price_night_for2_twd": 3780,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E8%A5%BF%E6%AD%B8%E6%B5%A6&checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Park%20Sunshine%20Jeju%20135%20Namseongjung-ro%20Seogwipo",
-   "why": "Kayak 10/16 起價 NT$1,677、評分 9.1（3,057 則）、免費停車、離西歸浦市中心 1.4 公里；12/29–30 住兩晚，去漢拿山、偶來市場、外돌개都順。年末實價待查。"
+   "why": "10/16 Booking 實查 12/29→12/31：2 晚 NT$7,560（原價 13,263）、評分 9.0、可免費取消、剩 4 間；離西歸浦市中心約 1 公里，去漢拿山、偶來市場、外돌개都順。"
   },
   {
    "name": "Playce Camp Jeju 플레이스캠프 제주",
    "area": "城山（日出峰旁）",
    "nights": 1,
-   "price_night_for2_twd": null,
-   "availability": "未知",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B6%9C%EB%B4%89&checkin=2026-12-31&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "price_night_for2_twd": 3104,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B6%9C%EB%B4%89&checkin=2026-12-31&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%EC%BA%A0%ED%94%84%20%EC%A0%9C%EC%A3%BC%20%EC%84%B1%EC%82%B0",
-   "why": "12/31 住城山才能走路去倒數、清晨 5 點走去登頂看日出（約 1.5 公里）。價格與空房待查（10/16 訂房網站以文字抓取抓不到），12/31 是整島最難訂的一晚，確定日期就先訂可免費取消的房。"
+   "why": "10/16 Booking 實查 12/31 一晚 NT$3,104、評分 8.7、可免費取消。12/31 住城山才能走去倒數、清晨走去登頂看日出（Booking 標離日出峰 2.4 公里）。這晚是整島最難訂的，確定日期就先訂。"
   }
  ],
  "days": [
@@ -1494,7 +1504,7 @@
  ],
  "budget": {
   "flights_for2": 16242,
-  "stay_for2": 8000,
+  "stay_for2": 13161,
   "food_for2": [
    12000,
    18000
@@ -1508,10 +1518,10 @@
    5000
   ],
   "total_for2": [
-   50742,
-   62242
+   55903,
+   67403
   ],
-  "note": "機票＝虎航估每人 NT$7,500（淡季來回 5,206–6,919 加年末加成，未驗證）；住宿＝Nanta 1,527＋Park Sunshine 1,677×2＋城山一晚估 3,000；交通＝租車含全險約 10,300＋油資 1,500＋牛島船票 500＋計程車 1,000–2,000；活動＝門票、採橘、電動單車、冰爪；吃飯每天 2,500–4,000。10/16 估價，寫「待確認」的待確認。機票 10/16 核價：最便宜 已核價＝真航空紅眼 8,121×2＝16,242（舊估虎航 7,500×2）；桃園虎航 8,391×2＝16,782 差 540"
+  "note": "機票＝桃園直飛真航空紅眼班 8,121×2（虎航早班 8,391×2 多 540；台中沒有直飛）；住宿＝Ventimo 1 晚 2,497（亂打飯店 12/28 滿房）＋Park Sunshine 2 晚 7,560＋城山 Playce Camp 1 晚 3,104；交通＝租車含全險約 10,300＋油資 1,500＋牛島船票 500＋計程車 1,000–2,000，台中↔桃園另計；活動＝門票、採橘、電動單車、冰爪；吃飯每天 2,500–4,000。寫「待確認」的待確認。機票與住宿 10/16 下午重查"
  },
  "weather": {
   "high_c": 10,
@@ -1584,7 +1594,7 @@
   }
  ],
  "risks": [
-  "虎航台中—濟州每週只有 2–3 班，12/28 或 1/1 可能沒班，要改桃園或改日期",
+  "10/16 查：12/28–1/1 台中沒有直飛濟州，只能從桃園飛（紅眼班或早班），台中↔桃園交通要另外算",
   "漢拿山遇大雪警報會全線封閉，靈室改成 1100 高地看雪就好",
   "牛島冬天風浪大時停航；12/31 城山一帶大塞車、停車難，用走的",
   "1/1 很多店公休，生牛肉店與豆腐鍋店要出發前再確認",

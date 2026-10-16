@@ -162,7 +162,7 @@ function render(){
   document.getElementById('cards').innerHTML = ps.map(p => {
     const t = p.budget?.total_for2, mf = p.min_flight && p.min_flight < 9e8 ? p.min_flight : null;
     const r = p.rmq || {kind:'none'}; const k = r.price ? ' ' + Math.round(r.price/1000) + 'K' : '';
-    const rmqChip = r.kind === 'direct' ? `<span class="chip rmq">台中直飛${k}${r.price > 13000 ? '（超預算）' : ''}</span>` : r.kind === 'maybe' ? `<span class="chip rmq soft">台中直飛待確認${k}</span>` : r.kind === 'transfer' ? `<span class="chip">台中轉機${k}</span>` : '<span class="chip">台中沒航線</span>';
+    const rmqChip = r.kind === 'direct' ? `<span class="chip rmq">台中直飛${k}${r.price > 13000 ? '（超預算）' : ''}</span>` : r.kind === 'maybe' ? `<span class="chip rmq soft">台中直飛待確認${k}</span>` : '<span class="chip">台中沒直飛</span>';
     const chips = [rmqChip, nye(p) ? '<span class="chip hot">能跨年</span>' : '', hasCar(p) ? '<span class="chip car">可自駕</span>' : '', ...(p.challenges||[]).slice(0,2).map(c => `<span class="chip">${esc(c)}</span>`), ...(p.foods||[]).slice(0,2).map(c => `<span class="chip">${esc(c)}</span>`)].join('');
     return `<a class="card ${p.placeholder ? 'soon' : ''}" href="${p.placeholder ? '#' : p.id + '.html'}" style="--p:${esc(p.palette?.primary||'#E8743B')};--s:${esc(p.palette?.secondary||'#FFB84C')};--soft:color-mix(in srgb,${esc(p.palette?.primary||'#E8743B')} 12%,#fff)">
       ${t && t[0] === cheapest ? '<span class="ribbon">最便宜</span>' : ''}

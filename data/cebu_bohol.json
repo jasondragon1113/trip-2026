@@ -33,7 +33,8 @@
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20RMQ%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
    "note": "易遊網 RMQ→CEB 頁面：全部需轉機（吉祥 LJ 單程 7,206 起／國泰 CX 7,945 起），沒有任何直飛；台中起飛者建議改桃園",
-   "basis": "Google Flights 無結果（RMQ–CEB 無直飛；只有香港快運＋國泰轉機，來回 NT$17,950–20,518，比桃園貴，不建議）"
+   "basis": "10/16 Google 航班：台中沒有直飛宿霧；轉機每人 NT$18,049 起（越捷經胡志明 20,245、香港快運＋國泰 21,268），比桃園直飛還貴，不建議",
+   "kind": "transfer"
   },
   {
    "from": "TPE",
@@ -48,8 +49,8 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "價格未驗證：Google Flights／Kayak／Skyscanner 的動態頁 WebFetch 讀不到結果。依據 Kayak 路線頁：TPE–CEB 直飛來回 NT$7,763–11,680，長榮例價 8,075–8,171、12 月均價約 7,751（FunTime）；年末尖峰估 9,000–11,000。時刻依 trip.com 班表（BR281 08:00→10:50、BR282 12:15→14:35）",
-   "basis": "Google Flights 實查：12/29 08:20→11:15／1/2 12:30→15:20 長榮直飛只列商務艙 NT$22,166，經濟艙無報價（疑似售罄或未開賣），訂票前上長榮官網再確認"
+   "note": "長榮經濟艙 10/16 仍無報價，訂票前上長榮官網確認",
+   "basis": "Google 航班 10/16 下午實查：12/29 08:20→11:15 長榮直飛只剩商務艙 NT$22,166，經濟艙沒有報價"
   },
   {
    "from": "TPE",
@@ -65,7 +66,7 @@
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
    "note": "Kayak 列星宇直飛最低 NT$7,660（非指定日期）；回程 10:50 太早，從 Moalboal 回來趕不上，若選星宇要把第 4 晚改住宿霧市區。星宇官網 12/31 前訂 2027/2/13 前出發輸入 JX2025PDOT 折 1,000（新聞見，待確認）",
-   "basis": "Google Flights 實查：12/29 15:40→18:35／1/2 10:50→13:40 星宇直飛來回每人 NT$19,778（含稅）"
+   "basis": "Google 航班 10/16 下午實查：12/29 15:40→18:35 星宇直飛，來回每人 NT$19,778（含稅），桃園直飛最便宜"
   },
   {
    "from": "TPE",
@@ -80,8 +81,8 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "note": "菲航桃園–宿霧是華航代飛的共掛班號，不是自己的飛機；價格待查",
-   "basis": "Google Flights 實查：12/29 08:05→11:10／1/2 12:10→14:55 華航（菲航共掛）直飛來回每人 NT$20,711（含稅）"
+   "note": "菲航桃園–宿霧是華航代飛的共掛班號，不是自己的飛機",
+   "basis": "Google 航班 10/16 下午實查：12/29 08:05→11:10 華航直飛，來回每人 NT$20,711（含稅）"
   },
   {
    "from": "TPE",
@@ -97,7 +98,7 @@
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
    "note": "虎航官網列宿霧航點但查無班表，trip.com 顯示 IT538 取消；曾促銷單程未稅 1,099。訂票前先上 tigerairtw.com 確認冬季有沒有飛。宿霧太平洋只飛桃園–馬尼拉，沒有直飛宿霧",
-   "basis": "Google Flights 無結果（12/29–1/2 TPE–CEB 列表沒有虎航班次，冬季應未飛）"
+   "basis": "10/16 Google 航班查不到這班（12/29–1/2 沒有虎航宿霧班次，冬季應該沒飛）"
   },
   {
    "from": "TPE",
@@ -105,15 +106,16 @@
    "airline": "國泰航空 CX（經香港轉機）",
    "out": "12/29 08:20→18:20（香港轉機，共 10 小時）",
    "back": "1/2 19:35→09:40+1（香港過夜轉機 14 小時；改 12:25→20:10 則每人 NT$15,286）",
-   "price_pp_twd": 11486,
+   "price_pp_twd": 10966,
    "baggage": "含托運（國泰經濟艙一般含 23kg，以票種為準）",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-16",
-   "basis": "Google Flights 實查：12/29–1/2 TPE–CEB 全部選項中最便宜，來回每人 NT$11,486（含稅）；直飛最低是星宇 19,778。省 8,000 但去回各多 7–11 小時",
-   "note": "直飛全部超過 13,000 預算；要省錢只能轉機，等於去回各少半天"
+   "basis": "Google 航班 10/16 下午實查：國泰經香港轉機來回每人 NT$10,966，是全部選項最便宜，但去回各多半天；轉機不列入預算",
+   "note": "直飛全部超過 13,000 預算；要省錢只能轉機，等於去回各少半天",
+   "kind": "transfer"
   }
  ],
  "getting_around": {
@@ -148,30 +150,30 @@
    "area": "薄荷島 Alona 海灘",
    "nights": 2,
    "price_night_for2_twd": 1820,
-   "availability": "未知",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Beach%2C+Panglao&checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "availability": "滿房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Vida+Beach+Resort&checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Alona%20Vida%20Beach%20Resort%20Panglao",
-   "why": "約 ₱3,500／晚、4.0/5（850+ 評論），走路到海灘；12 月 Alona 很快滿房，先訂可免費取消的"
+   "why": "10/16 Booking 查：12/28–12/31 都沒有空房，最近要 1/1 才有（一晚約 NT$3,936）。走路到海灘，喜歡的話只能等釋出或改日期。"
   },
   {
    "name": "Alona Katchajo Inn／Citadel Alona Inn（省錢版）",
    "area": "薄荷島 Alona 後排",
    "nights": 2,
-   "price_night_for2_twd": 2100,
-   "availability": "未知",
-   "url": "https://bohol-philippines.com/listicles/best-value-hotels-50-80-in-alona-beach/",
+   "price_night_for2_twd": 1030,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Alona+Katchajo+Inn&checkin=2026-12-29&checkout=2026-12-30&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Alona%20Katchajo%20Inn%20Panglao",
-   "why": "bohol-philippines.com 2026 精選的 $50–80 級，走路到潛店和餐廳，不付海灘第一排的錢"
+   "why": "10/16 Booking 查：KatChaJo Inn 12/29 一晚 NT$1,180、12/30 一晚 NT$880（兩晚一起查會顯示訂不到，要分開訂）；Citadel Alona Inn 12/29 一晚 NT$579。走路到潛店和餐廳，不付海灘第一排的錢。"
   },
   {
    "name": "Mariners Court Hotel",
    "area": "宿霧市區 Pier 1 旁",
    "nights": 1,
-   "price_night_for2_twd": 960,
-   "availability": "未知",
-   "url": "https://3d-universal.com/en/blogs/hotels-near-cebu-pier-port-area.html",
+   "price_night_for2_twd": 1194,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Mariners+Court+Hotel+Cebu&checkin=2026-12-31&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Mariners%20Court%20Hotel%20Cebu%20Pier%201",
-   "why": "從 $30 起、就在 Pier 1，下船走路到；跨年倒數的 Plaza Independencia 走路 10 分，散場不用搶車"
+   "why": "10/16 Booking 查：12/31 一晚 NT$1,194（標準雙人房）；Booking 評分只有 5.1，求方便不求舒適。就在 Pier 1，下船走路到；跨年倒數的 Plaza Independencia 走路 10 分，散場不用搶車。"
   },
   {
    "name": "Moalboal Casablanca Inn",
@@ -179,9 +181,9 @@
    "nights": 1,
    "price_night_for2_twd": 1380,
    "availability": "未知",
-   "url": "https://www.hotelscombined.co.uk/Place/Moalboal.htm",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Moalboal&checkin=2027-01-01&checkout=2027-01-02&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Moalboal%20Casablanca%20Inn",
-   "why": "$43／晚、評分 9.8/10；便宜一點選 Pescadores Suites（$34、8.5 分、2,120 則評論）"
+   "why": "10/16 Booking 搜不到這間（Pescadores Suites 也搜不到），要上別的訂房網確認。同一晚 Booking 上 Moalboal 有空房的：Dolce Vita Resort NT$1,022、8.8 分。"
   }
  ],
  "days": [
@@ -1401,8 +1403,8 @@
   }
  ],
  "budget": {
-  "flights_for2": 22972,
-  "stay_for2": 6000,
+  "flights_for2": 39556,
+  "stay_for2": 4634,
   "food_for2": [
    6000,
    10000
@@ -1416,10 +1418,10 @@
    7000
   ],
   "total_for2": [
-   46472,
-   54472
+   61690,
+   69690
   ],
-  "note": "匯率 1 PHP ≈ NT$0.52（x-rates，待確認）。機票＝長榮估 10,000／人×2（未驗證，Kayak 直飛區間 7,763–11,680）；住宿＝Alona 2 晚 1,820＋Pier 1 旁 1 晚 960＋Moalboal 1 晚 1,380；交通＝渡輪 2 趟 1,100＋包車 3 天約 5,200＋Grab；活動＝溪降 2,180＋薄荷包車 1,560＋門票 220＋跳島 940＋沙丁魚 360。都是 10/16 查價。機票 10/16 核價：最便宜 已核價＝國泰轉機 11,486×2＝22,972（舊估長榮 10,000×2）；直飛最低星宇 19,778×2＝39,556，選直飛請把總額再加 16,584"
+  "note": "匯率 1 PHP ≈ NT$0.52（待確認）。機票＝桃園直飛星宇 19,778×2；住宿＝Alona Vida 滿房，改用 KatChaJo Inn 2 晚 2,060＋Pier 1 旁 1 晚 1,194＋Moalboal 1 晚沿用原估 1,380；交通＝渡輪 2 趟 1,100＋包車 3 天約 5,200＋Grab；活動＝溪降 2,180＋薄荷包車 1,560＋門票 220＋跳島 940＋沙丁魚 360。 機票與住宿 10/16 下午重查。"
  },
  "weather": {
   "high_c": 30,
@@ -1498,7 +1500,7 @@
   }
  ],
  "risks": [
-  "台中沒有直飛，只能桃園；虎航宿霧線狀態不明，便宜票可能只剩傳統航空（估 9,000–11,000／人，未驗證）",
+  "台中沒有直飛，只能桃園；桃園直飛最便宜是星宇每人 NT$19,778，超過 13,000 預算；虎航宿霧線冬季沒飛",
   "回程 12:15 偏早，1/2 要 06:30 離開 Moalboal；改星宇更早（10:50），得把第 4 晚改住市區",
   "入境：免簽 14 天僅到 2027/6/30，eTravel 未填會被拒登機；護照效期不足 6 個月不能入境",
   "溪降安全：2025/10 落石事件後重開；雨後水濁隨時停辦，1/1 是否營業要先問；只跟認證嚮導、一定戴頭盔",

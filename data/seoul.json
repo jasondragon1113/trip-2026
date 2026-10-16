@@ -24,15 +24,15 @@
    "to": "ICN",
    "airline": "長榮航空 BR",
    "out": "12/28 07:05→10:30",
-   "back": "1/1 19:45→約 21:35（抵達時間待確認）",
-   "price_pp_twd": 12560,
+   "back": "1/1 19:45→21:40",
+   "price_pp_twd": 12563,
    "baggage": "全服務一般含托運 23kg（票種待確認）",
    "fits_time_pref": true,
    "within_budget": true,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15",
-   "basis": "（10/15 Google 航班已點開）：12/28→1/1 長榮去 07:05→10:30，回 1/1 11:40→13:30 每人 NT$11,881、回 19:45 班 NT$12,560。本行程選 19:45 回程，1/1 才能看日出＋吃午餐；台中↔桃園交通兩人另計 2,000–3,000"
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查：長榮直飛 07:05 去、1/1 19:45 回每人 NT$12,563（回 11:40 班 NT$11,884）。選 19:45 回程，1/1 才能看日出＋吃午餐；台中↔桃園交通兩人另計 2,000–3,000"
   },
   {
    "from": "RMQ",
@@ -40,29 +40,44 @@
    "airline": "真航空 LJ",
    "out": "12/28 11:00→14:40",
    "back": "1/1 15:35→17:30",
-   "price_pp_twd": 12688,
+   "price_pp_twd": 11691,
    "baggage": "廉航，台韓線通常含 15kg（看票種，待確認）",
    "fits_time_pref": true,
    "within_budget": true,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20RMQ%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15",
-   "basis": "（10/15 Google 航班即時查價，12/27 出發、12/31 或 1/1 回同價 12,688）；第一輪查價網格顯示 12/28→1/1 約 NT$10,988（班次待確認）。台中出發不用跑桃園，但 14:40 才落地、第一天少半天；1/1 15:35 回程要 12:30 前到機場，第五天採買要縮短"
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查：台中直飛 11:00 去、1/1 15:35 回每人 NT$11,691（比 10/15 便宜約 1,000）。不用跑桃園，但 14:40 才落地、第一天少半天；1/1 要 12:30 前到機場，第五天採買要縮短"
   },
   {
    "from": "TPE",
    "to": "ICN",
    "airline": "台灣虎航 IT",
    "out": "12/28 20:00→23:30",
-   "back": "1/1（回程時間待確認）",
+   "back": "1/1 00:30→02:15（12/31 深夜就要到機場）",
    "price_pp_twd": 8908,
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": true,
-   "verified": false,
+   "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-15",
-   "basis": "列表價；晚班出發、深夜才到明洞，當備案"
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查：桃園直飛每人 NT$8,908，但回程是 1/1 凌晨 00:30 起飛，12/31 晚上 10 點半前就要到仁川機場，看不到跨年也看不到日出，只能當備案"
+  },
+  {
+   "from": "RMQ",
+   "to": "ICN",
+   "airline": "真航空 LJ（晚班）",
+   "out": "12/28 18:30→22:15",
+   "back": "1/1 15:35→17:30",
+   "price_pp_twd": 10991,
+   "baggage": "廉航，台韓線通常含 15kg（看票種，待確認）",
+   "fits_time_pref": false,
+   "within_budget": true,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20ICN%20from%20RMQ%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 下午實查：台中直飛 18:30 去、1/1 15:35 回每人 NT$10,991；比 11:00 班便宜 700，但晚上 10 點多才落地，第一天整天沒了"
   }
  ],
  "getting_around": {
@@ -96,31 +111,31 @@
    "name": "318 Stay",
    "area": "明洞",
    "nights": 4,
-   "price_night_for2_twd": 3635,
+   "price_night_for2_twd": 3288,
    "availability": "有空房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=318%20Stay%20%EB%AA%85%EB%8F%99%20%EC%84%9C%EC%9A%B8",
-   "why": "（10/15 Booking 實查 12/28→1/1）：4 晚 NT$14,538、評分 9.0、只剩 1 間；明洞走路到地鐵 5 分，預算內最划算"
+   "why": "10/16 Booking 實查 12/28→1/1：4 晚 NT$13,152（年末優惠，原價 14,614）、評分 9.0、含早餐、只剩 1 間；明洞走路到地鐵 5 分，預算內最划算"
   },
   {
    "name": "Hotel Marguerite Seoul",
    "area": "明洞",
    "nights": 4,
-   "price_night_for2_twd": 6270,
+   "price_night_for2_twd": 5673,
    "availability": "有空房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Marguerite%20Seoul%20%EB%AA%85%EB%8F%99",
-   "why": "：4 晚 NT$25,081、評分 8.8（地點 9.8）、看得到南山、剩 2 間；想住好一點的中價位"
+   "why": "10/16 Booking 實查：4 晚 NT$22,691（原價 25,212）、評分 8.8（地點 9.8）、看得到南山、剩 2 間；想住好一點的中價位"
   },
   {
    "name": "Stanford Hotel Myeongdong",
    "area": "明洞",
    "nights": 4,
-   "price_night_for2_twd": 8984,
+   "price_night_for2_twd": 9073,
    "availability": "有空房",
-   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%98%8E%E6%B4%9E%2C+%E9%A6%96%E7%88%BE&checkin=2026-12-28&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD",
    "map_url": "https://www.google.com/maps/search/?api=1&query=Stanford%20Hotel%20Myeongdong%20%EC%84%9C%EC%9A%B8",
-   "why": "：4 晚 NT$35,934、評分 8.9、可免費取消；選這間總額會到預算上限"
+   "why": "10/16 Booking 實查：4 晚 NT$36,293、評分 8.9、可免費取消（目前只看到無障礙雙人房）；選這間總額會超出預算"
   }
  ],
  "days": [
@@ -1597,8 +1612,8 @@
   }
  ],
  "budget": {
-  "flights_for2": 25120,
-  "stay_for2": 14538,
+  "flights_for2": 23382,
+  "stay_for2": 13152,
   "food_for2": [
    13000,
    22000
@@ -1612,10 +1627,10 @@
    5000
   ],
   "total_for2": [
-   60000,
-   86000
+   56000,
+   82000
   ],
-  "note": "機票＝長榮 12,560×2（真航空台中 12,688×2 差不多）；住宿低估＝318 Stay 4 晚 14,538、高估＝Marguerite 25,081；吃＝每天兩人 2,500–4,500；交通＝AREX 來回＋T-money＋計程車 3 趟約 3,500，長榮版另加台中↔桃園 2,000–3,000；活動＝韓服 750＋汗蒸幕 750＋N 塔展望台 990＋日出計程車 350＋雜項。匯率以 ₩1,000≈NT$23.5 估（10/16，待確認）"
+  "note": "機票＝台中直飛真航空 11:00 班 11,691×2（最便宜的虎航 8,908 回程是 1/1 凌晨、會錯過跨年，晚班真航空 10,991 第一天整天沒了，所以不算；長榮 12,563×2 要另加台中↔桃園 2,000–3,000）；住宿低估＝318 Stay 4 晚 13,152、高估＝Marguerite 22,691；吃＝每天兩人 2,500–4,500；交通＝AREX 來回＋T-money＋計程車 3 趟約 3,500，改搭長榮另加台中↔桃園；活動＝韓服 750＋汗蒸幕 750＋N 塔展望台 990＋日出計程車 350＋雜項。匯率以 ₩1,000≈NT$23.5 估（待確認）。機票與住宿 10/16 下午重查"
  },
  "weather": {
   "high_c": 3,
