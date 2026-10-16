@@ -4,7 +4,7 @@
 import json, pathlib, subprocess, hashlib, urllib.request, sys, re
 ROOT = pathlib.Path(__file__).parent
 SITE = ROOT / "docs"; IMG = SITE / "img"; IMG.mkdir(parents=True, exist_ok=True)  # GitHub Pages serves /docs
-ORDER = ["ginzan","tokyo","hakodate_aomori","busan","seoul","danang","chiangmai","bangkok_huahin","kyushu","jeju","cebu_bohol","penang"]
+ORDER = ["ginzan","tokyo","hakodate_aomori","busan","seoul","danang","chiangmai","bangkok_huahin","kyushu","jeju","cebu_bohol","penang","sydney","newyork"]
 TPL = (ROOT / "roadbook-template.html").read_text(encoding="utf-8")
 HEAD = "<!doctype html><html lang=\"zh-Hant\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\"><style>body{margin:0}</style></head><body>"
 TAIL = "</body></html>"
@@ -65,7 +65,7 @@ for f in sorted(ROOT.glob("data/*.json")):
     built.append(d); print(f"ok {d['id']}: {len(d.get('days',[]))} days, {n} photos, cover={'cover' in d}")
 # Placeholders for destinations still being researched (cover if ready)
 # 還沒查完的目的地先放佔位卡
-NAMES = {"ginzan":("東北雪國","日本","onsen","銀山溫泉・天童・山寺"),"tokyo":("東京","日本","tower","跨年與初詣"),"hakodate_aomori":("函館＋青森","日本","snow","夜景、朝市、樹冰"),"busan":("釜山","韓國","wave",""),"seoul":("首爾","韓國","tower","跨年敲鐘"),"danang":("峴港＋會安","越南","lantern","燈籠與海灘"),"chiangmai":("清邁","泰國","leaf","古城與大象"),"bangkok_huahin":("曼谷＋華欣","泰國","market","美食與海邊"),"kyushu":("九州北部","日本","onsen","屋台與溫泉"),"jeju":("濟州島","韓國","car","自駕與黑豬肉"),"cebu_bohol":("宿霧＋薄荷島","菲律賓","whale","溪降與鯨鯊"),"penang":("檳城","馬來西亞","coffee","美食之都")}
+NAMES = {"ginzan":("東北雪國","日本","onsen","銀山溫泉・天童・山寺"),"tokyo":("東京","日本","tower","跨年與初詣"),"hakodate_aomori":("函館＋青森","日本","snow","夜景、朝市、樹冰"),"busan":("釜山","韓國","wave",""),"seoul":("首爾","韓國","tower","跨年敲鐘"),"danang":("峴港＋會安","越南","lantern","燈籠與海灘"),"chiangmai":("清邁","泰國","leaf","古城與大象"),"bangkok_huahin":("曼谷＋華欣","泰國","market","美食與海邊"),"kyushu":("九州北部","日本","onsen","屋台與溫泉"),"jeju":("濟州島","韓國","car","自駕與黑豬肉"),"cebu_bohol":("宿霧＋薄荷島","菲律賓","whale","溪降與鯨鯊"),"penang":("檳城","馬來西亞","coffee","美食之都"),"sydney":("雪梨","澳洲","wave","夏天看港灣煙火"),"newyork":("紐約","美國","tower","時代廣場跨年")}
 have = {d["id"] for d in built}
 for pid, (nm, ct, mo, tg) in NAMES.items():
     if pid in have: continue

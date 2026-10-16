@@ -81,3 +81,10 @@
 5. **美食的 `links` 以 Instagram 為主**（女友愛看 IG）：每個 food 至少 1 條 `type:"ig"`（店家官方帳號、或美食帳號介紹該店的貼文／Reels），找法：WebSearch `"<店名>" instagram` 或 `site:instagram.com <店名>`。找不到 IG 再用 YouTube／部落格。
 6. **搜尋額度**：每個 agent 的 WebSearch 大約只有 200 次，照片與 IG 驗證請直接 WebFetch Commons API（`https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=<關鍵字>&srnamespace=6&format=json`）與 `https://www.instagram.com/<帳號>/`，不要用搜尋查照片。機票：Google Flights 動態頁 WebFetch 讀不到——先沿用研究-A～F 的價格；沒有的標 verified:false，之後會有專門的 agent 用瀏覽器核價。
 7. **WebSearch 額度是整個 session 共用的 200 次，現在已經用完**（2026-10-16 05:00 起）。改用：①已知網址直接 WebFetch；②需要搜尋時用**內建瀏覽器**：先 `tabs_create` 開自己的分頁，之後每個動作都帶自己的 tabId，用 Google 搜尋、Instagram、Commons；③scratchpad 下的腳本放自己的子目錄 `scratchpad/<id>/`，不要放根目錄（會被別的 agent 覆寫）。
+
+## 2026-10-16 長途版（雪梨、紐約）差異
+- 日期：12/28（一）出發 → 1/3（日）回台灣落地前後，約 6 晚；要在當地跨年。可前後挪 1 天找更好的直飛班次（仍在 12/27–1/5）。
+- **只算直飛**（使用者指示）：台中 RMQ 有直飛就列，沒有就桃園 TPE。轉機的不列入預算（可以列一筆 kind:"transfer" 當參考）。
+- 預算不設上限，照實算兩人全包；`within_budget` 一律依「每人 ≤13,000」照實標（會是 false）。
+- 搜尋：WebSearch 已用完。用內建瀏覽器（先 tabs_create 開自己的分頁、每個動作帶 tabId）；分頁不夠時可改用 Chrome 擴充功能，限唯讀：不登入、不填表、不下單，用完關分頁。照片用 Commons API（curl，間隔 2 秒），YouTube 可 curl 搜尋頁抓 ytInitialData。腳本放 `scratchpad/<id>/`。
+- 其他（photo、每晚酒吧、links 以 IG 為主、JSON 結構）全部照前面 1–7 點。

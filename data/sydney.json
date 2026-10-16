@@ -1,0 +1,1697 @@
+{
+ "id": "sydney",
+ "name": "雪梨",
+ "subtitle": "南半球夏天跨年",
+ "country": "澳洲",
+ "flag": "AU",
+ "motif": "wave",
+ "palette": {
+  "primary": "#1E88E5",
+  "secondary": "#FF8A65",
+  "soft": "#EAF5FD"
+ },
+ "tagline": "穿短袖看港灣大橋煙火",
+ "summary": "華航桃園直飛，住雪梨港邊 6 晚。跨年夜在歌劇院前庭看兩場煙火，其他天爬港灣大橋、走邦代懸崖步道、曼利上衝浪課、租車自駕藍山；吃魚市場生蠔、肉派、泰國城、澳式早午餐，每晚換一間屋頂或得獎酒吧。",
+ "dates": {
+  "out": "12/29",
+  "back": "1/5",
+  "nights": 6,
+  "why": "雪梨直飛只有華航（桃園 23:50 紅眼、隔天中午到），回程 1/5 那班特別便宜：12/29→1/5 每人 44,333，比原訂 12/28→1/3 的 59,438 便宜 1.5 萬，所以晚一天出發、多玩一天（當地 7 天 6 晚，1/6 清晨 04:20 回到桃園）。比較：縮成 5 天（12/29→1/3、4 晚）機票每人漲到 63,083，扣掉少兩晚住宿與吃喝，兩人只省約 6 千；改 6 天（12/30→1/5、12/31 中午才落地）兩人省約 2.6 萬但跨年當天很趕；拉到 8 天（12/28→1/5、7 晚）兩人多約 1.3 萬。"
+ },
+ "flights": [
+  {
+   "from": "TPE",
+   "to": "SYD",
+   "airline": "中華航空 CI（澳航共掛）",
+   "out": "12/29 23:50→12/30 12:15",
+   "back": "1/5 22:10→1/6 04:20",
+   "price_pp_twd": 44333,
+   "baggage": "全服務，含托運（件數／公斤待確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "Google 航班 10/16 實查（含稅、只看直飛）：雪梨直飛只剩華航一家每天一班，兩段都是紅眼；台中 RMQ 沒有雪梨直飛（最快要經胡志明／仁川／香港轉機）。主推這組"
+  },
+  {
+   "from": "TPE",
+   "to": "SYD",
+   "airline": "中華航空 CI（澳航共掛）",
+   "out": "12/28 23:50→12/29 12:15",
+   "back": "1/3 22:10→1/4 04:20",
+   "price_pp_twd": 59438,
+   "baggage": "全服務，含托運（件數／公斤待確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20TPE%20on%202026-12-28%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "原訂日期，同一班機但回程 1/3 比 1/5 貴；12/28→1/2、12/28→1/4 也都是 59,438"
+  },
+  {
+   "from": "TPE",
+   "to": "SYD",
+   "airline": "中華航空 CI（澳航共掛）",
+   "out": "12/30 23:50→12/31 12:15",
+   "back": "1/5 22:10→1/6 04:20",
+   "price_pp_twd": 42583,
+   "baggage": "全服務，含托運（件數／公斤待確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20TPE%20on%202026-12-30%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "最便宜的直飛組合，但 12/31 中午才落地，要直接拖行李去卡位，不推"
+  },
+  {
+   "kind": "transfer",
+   "from": "TPE",
+   "to": "SYD",
+   "airline": "酷航（新加坡轉機，參考用、不列入預算）",
+   "out": "12/28 01:50→18:50",
+   "back": "1/3（時刻待確認）",
+   "price_pp_twd": 32032,
+   "baggage": "廉航不含托運",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20TPE%20on%202026-12-28%20through%202027-01-03&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-16",
+   "basis": "轉機最便宜參考：單程 14 小時、新加坡轉 1 次。使用者指示只算直飛，所以不採用"
+  }
+ ],
+ "getting_around": {
+  "mode": "混合",
+  "license": "台灣駕照不是英文，要帶「台灣駕照正本＋國際駕照」：到各地監理站臨櫃辦，帶身分證、駕照、護照影本、2 吋照片，規費 NT$250、當場拿；NSW 規定觀光客可用外國駕照開 6 個月，非英文要附國際駕照或英譯本。",
+  "rental": {
+   "company": "經 Booking.com／Kayak 比價（Hertz、Avis、Budget 等市區店）",
+   "car": "經濟或小型車（自排）",
+   "days": 1,
+   "price_total_twd": 3400,
+   "insurance": "基本險通常含，自負額很高（常見 A$4,000 以上），建議加購降自負額（待確認）",
+   "pickup": "市區（CBD）取還",
+   "source": "https://www.kayak.com.au/cars/Sydney-City-Centre,Sydney,NSW,Australia/2027-01-02-09h/2027-01-02-21h",
+   "note": "Kayak 10/16 查一日（09–21 時）經濟車 A$84、小型車 A$91（Booking.com 報價）；另估油錢 A$40、M4 過路費約 A$10，合計約 A$150"
+  },
+  "road_notes": [
+   "靠左行駛、右駕；圓環順時針、讓右方來車",
+   "M4 是收費路，租車通常有 e-tag，事後連手續費一起扣",
+   "藍山 Echo Point、Scenic World 停車場收費；週一比週末好停",
+   "夏天 12–1 月偶有森林火災或高溫封路，出發前看 Live Traffic NSW 與國家公園公告",
+   "市區不要開車：停車貴、單行道多，只有藍山那天租"
+  ],
+  "public": [
+   "Opal：火車、公車、渡輪都可直接用信用卡／手機感應，不用買卡；每天有搭乘上限，週日上限較低（金額以官方為準）",
+   "機場快線：國際航廈 → Wynyard／Circular Quay 約 20 分，含機場站通行費每人單程約 A$20（待確認）",
+   "渡輪：環形碼頭 → 曼利 F1 約 30 分、→ Taronga 動物園 F2 約 12 分",
+   "邦代：Central／Town Hall 搭火車到 Bondi Junction 轉 333 公車；庫吉回市區搭 373／374 公車",
+   "12/31 跨年夜：火車整夜加開、市中心大範圍封路、環形碼頭站會管制，詳細在 11 月由 Transport for NSW 公布"
+  ]
+ },
+ "stays": [
+  {
+   "name": "A by Adina Sydney",
+   "area": "CBD（Wynyard／York St，離岩石區 0.6 km）",
+   "nights": 6,
+   "price_night_for2_twd": 17114,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=A+by+Adina+Sydney&checkin=2026-12-30&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=A%20by%20Adina%20Sydney",
+   "why": "10/16 Booking 實查 12/30→1/5：6 晚 NT$102,684、評分 8.7、地點 9.5；有小廚房，走路 15 分到歌劇院前庭、散場直接走回"
+  },
+  {
+   "name": "Rydges World Square",
+   "area": "CBD 南（World Square，近泰國城）",
+   "nights": 6,
+   "price_night_for2_twd": 14480,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Rydges+World+Square+Sydney&checkin=2026-12-30&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Rydges%20World%20Square%20389%20Pitt%20Street%20Sydney",
+   "why": "10/16 Booking 實查：6 晚 NT$86,881、評分 8.3、可免費取消、入住才付款；離港邊 1.9 km，跨年散場要走 30 分或等火車"
+  },
+  {
+   "name": "Shangri-La Sydney",
+   "area": "岩石區（The Rocks）",
+   "nights": 6,
+   "price_night_for2_twd": 23035,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=The+Rocks%2C+Sydney&checkin=2026-12-30&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Shangri-La%20Sydney%20176%20Cumberland%20Street%20The%20Rocks",
+   "why": "10/16 Booking 實查：6 晚 NT$138,207、評分 8.7；在岩石區高樓、港景房看得到大橋，想升級才選"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "落地雪梨港邊散步",
+   "area": "Circular Quay／植物園／Woolloomooloo",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "前一晚 23:50 從桃園飛，中午到；下午沿港邊走到麥考瑞夫人椅看夕陽、順便勘查跨年位置，晚上歌劇院下喝第一杯。",
+   "stops": [
+    {
+     "time": "12:15",
+     "name": "雪梨機場 T1 → 市區",
+     "kind": "transport",
+     "stay_min": 90,
+     "desc": "華航 CI 直飛 12:15 落地。出關後搭機場快線（Airport Link）到 Wynyard／Circular Quay 約 20 分，先放行李。",
+     "price_for2_twd": 900,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Airport%20T1%20International%20Terminal",
+     "site_url": "https://transportnsw.info/",
+     "address": "Sydney Airport T1",
+     "tip": "Opal 不用買卡，信用卡／手機感應進站就好；機場站另收通行費",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Airport%20Terminal%201a.jpg?width=1200",
+      "credit": "MDRX（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Transport for NSW 交通查詢",
+       "url": "https://transportnsw.info/"
+      }
+     ]
+    },
+    {
+     "time": "15:00",
+     "name": "環形碼頭＋雪梨歌劇院",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "從碼頭走到歌劇院階梯，看渡輪進出、對岸就是港灣大橋。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Opera%20House%20Bennelong%20Point%20Sydney",
+     "site_url": "https://www.sydneyoperahouse.com/",
+     "address": "Bennelong Point, Sydney NSW 2000",
+     "tip": "陽光很強，第一天就要擦防曬",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Opera%20House%20from%20Circular%20Quay%2C%202023%2C%2013.jpg?width=1200",
+      "credit": "Kgbo（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Sydney Opera House 官方 Instagram",
+       "url": "https://www.instagram.com/sydneyoperahouse/"
+      },
+      {
+       "type": "youtube",
+       "title": "Sydney New Year's Eve Fireworks full guide: Best Spots & Tips（By SAEH）",
+       "url": "https://www.youtube.com/watch?v=bMFZOZfMYRQ"
+      }
+     ]
+    },
+    {
+     "time": "17:00",
+     "name": "皇家植物園 → 麥考瑞夫人椅",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "沿著植物園海邊步道走到 Mrs Macquarie's Chair，同時看到歌劇院和大橋的經典角度；這裡也是跨年免費看點（Mrs Macquaries Point）。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Mrs%20Macquarie%27s%20Chair%20Sydney",
+     "site_url": "https://www.botanicgardens.org.au/",
+     "address": "Mrs Macquaries Rd, Sydney NSW 2000",
+     "tip": "順便看好跨年 B 計畫的排隊入口；日落約 20:08",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mrs%20Macquarie%27s%20Chair%202013.jpg?width=1200",
+      "credit": "Mitch Ames（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "皇家植物園跨年：Mrs Macquaries Point 10:00 開門、容量 1 萬人",
+       "url": "https://www.botanicgardens.org.au/whats-on/new-years-eve"
+      },
+      {
+       "type": "official",
+       "title": "Sydney New Year's Eve 官方：48 個看煙火地點地圖",
+       "url": "https://www.sydneynewyearseve.com/vantage-points"
+      }
+     ]
+    },
+    {
+     "time": "18:45",
+     "name": "Harry's Cafe de Wheels（肉派）",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "1938 年開到現在的港邊肉派餐車，招牌 Tiger 肉派（肉派＋薯泥＋豌豆泥＋肉汁）。從麥考瑞夫人椅走下來約 20 分。",
+     "price_for2_twd": 700,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Harry%27s%20Cafe%20de%20Wheels%20Cowper%20Wharf%20Roadway%20Woolloomooloo",
+     "site_url": "https://www.harryscafedewheels.com.au/",
+     "address": "Cowper Wharf Roadway, Woolloomooloo NSW 2011",
+     "tip": "站著吃，旁邊就是手指碼頭夜景",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harrys%20Cafe%20de%20Wheels%20%286960417355%29.jpg?width=1200",
+      "credit": "Eva Rinaldi（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Harry's Cafe de Wheels 官方 Instagram @harryscafedw",
+       "url": "https://www.instagram.com/harryscafedw/"
+      },
+      {
+       "type": "youtube",
+       "title": "We went to the famous Harry's Cafe de Wheels for pie, mash & peas（The MacMaster）",
+       "url": "https://www.youtube.com/watch?v=doEqyXuFcQ0"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Opera Bar（酒吧：港邊露天雞尾酒）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "歌劇院正下方的露天酒吧，正對港灣大橋夜景，有 DJ。兩人各兩杯＋一份小點約 A$90。",
+     "price_for2_twd": 2000,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Opera%20Bar%20Sydney%20Opera%20House%20Lower%20Concourse",
+     "site_url": "https://www.operabar.com.au/",
+     "address": "Lower Concourse Level, Sydney Opera House, Bennelong Point",
+     "tip": "跨年前一晚人很多，站位也很好看",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Opera%20Bar%20%283401033971%29.jpg?width=1200",
+      "credit": "Alex Proimos from Sydney, Australia（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Opera Bar 官方 Instagram @operabarsydney",
+       "url": "https://www.instagram.com/operabarsydney/"
+      },
+      {
+       "type": "official",
+       "title": "Opera Bar 官網",
+       "url": "https://www.operabar.com.au/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "雪梨港跨年煙火",
+   "area": "魚市場／歌劇院前庭",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上去新魚市場吃生蠔、買野餐，中午進歌劇院前庭卡位，21:00 家庭場、00:00 午夜場兩次煙火，散場走路回岩石區。",
+   "stops": [
+    {
+     "time": "09:00",
+     "name": "雪梨魚市場（新館）吃生蠔",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "2026 年初搬到 Blackwattle Bay 的新魚市場，每天 7:00–22:00。現開生蠔、生魚片、海鮮拼盤，順便外帶野餐（前庭可帶食物、不能帶酒）。",
+     "price_for2_twd": 2700,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Fish%20Market%201%20Bridge%20Road%20Glebe",
+     "site_url": "https://www.sydneyfishmarket.com.au/",
+     "address": "1 Bridge Road, Glebe NSW 2037",
+     "tip": "不要買玻璃瓶裝的東西，前庭安檢會擋",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oysters%20at%20Sydney%20Fish%20Market.jpg?width=1200",
+      "credit": "Maksym Kozlenko（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Sydney Fish Market 官方 Instagram",
+       "url": "https://www.instagram.com/sydneyfishmarket/"
+      },
+      {
+       "type": "youtube",
+       "title": "I Tried Sydney's NEW Fish Markets（Curious Foodie）",
+       "url": "https://www.youtube.com/watch?v=W837lOIGeDU"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "進場：歌劇院前庭（A 計畫，免費但要搶票）",
+     "kind": "activity",
+     "stay_min": 540,
+     "desc": "官方免費票 12/26（五）雪梨時間 10:00＝台灣 07:00 開放登記，每筆最多 6 張；12/31 只能 12:00–15:00 入場，15:00 後不能進。現場有合法酒吧（不能自帶酒）。",
+     "price_for2_twd": 0,
+     "booking": "需預約",
+     "booking_url": "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Opera%20House%20Forecourt",
+     "site_url": "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt",
+     "address": "Sydney Opera House Forecourt, Bennelong Point",
+     "tip": "沒搶到：B 計畫 Mrs Macquaries Point 免費、10:00 開門、容量 1 萬人，早上 8 點前去排；C 計畫北岸 Lower Bradfield Park 售票 A$65／人、14:00 開門、全區禁酒",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20New%20Year.jpg?width=1200",
+      "credit": "Siamax（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "雪梨歌劇院前庭跨年免費票（12/26 10:00 開放登記）",
+       "url": "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt"
+      },
+      {
+       "type": "official",
+       "title": "皇家植物園跨年：Mrs Macquaries Point 10:00 開門、容量 1 萬人",
+       "url": "https://www.botanicgardens.org.au/whats-on/new-years-eve"
+      },
+      {
+       "type": "official",
+       "title": "Sydney New Year's Eve 官方：48 個看煙火地點地圖",
+       "url": "https://www.sydneynewyearseve.com/vantage-points"
+      }
+     ]
+    },
+    {
+     "time": "21:00",
+     "name": "家庭場煙火（21:00）",
+     "kind": "night",
+     "stay_min": 15,
+     "desc": "9 點那場較短、適合先拍照；之後港上有燈船遊行，等午夜場。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Harbour%20Bridge",
+     "site_url": "https://www.sydneynewyearseve.com/vantage-points",
+     "address": "",
+     "tip": "帶薄外套和行動電源，晚上海風會涼",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20new%20year%20eve%20fireworks%202016.jpg?width=1200",
+      "credit": "Ashishlohorung（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "『2025雪梨跨年』歷經16小時終於看到跨年煙火（JoyceInSydney）",
+       "url": "https://www.youtube.com/watch?v=aGT3Wk9hf2I"
+      },
+      {
+       "type": "youtube",
+       "title": "澳洲雪梨跨年夢想清單 真相爆料（菜苔苔與菜生生）",
+       "url": "https://www.youtube.com/watch?v=ZgmgyY-UOYM"
+      }
+     ]
+    },
+    {
+     "time": "00:00",
+     "name": "午夜場煙火（主秀）",
+     "kind": "night",
+     "stay_min": 30,
+     "desc": "港灣大橋整座噴煙火、約 12 分鐘，世界最早跨年的大城市之一。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Harbour%20Bridge",
+     "site_url": "https://www.sydneynewyearseve.com/vantage-points",
+     "address": "",
+     "tip": "散場：前庭出口人潮管制，住岩石區／Wynyard 直接走路回飯店 15–20 分最穩；火車整夜加開但環形碼頭站會管制（以 11 月官方交通公告為準）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20New%20Year%27s%20Eve%20Fireworks%202024.jpg?width=1200",
+      "credit": "JustARandomEditor123（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Sydney New Year's Eve Fireworks full guide: Best Spots & Tips（By SAEH）",
+       "url": "https://www.youtube.com/watch?v=bMFZOZfMYRQ"
+      },
+      {
+       "type": "official",
+       "title": "Sydney New Year's Eve 官方：48 個看煙火地點地圖",
+       "url": "https://www.sydneynewyearseve.com/vantage-points"
+      }
+     ]
+    },
+    {
+     "time": "00:45",
+     "name": "The Lord Nelson Brewery Hotel（酒吧：自釀啤酒老酒館）",
+     "kind": "bar",
+     "stay_min": 60,
+     "desc": "1841 年就有的岩石區老酒館、澳洲最老的自釀酒吧之一，散場走路 10 分。招牌 Three Sheets 淡色艾爾，一杯約 A$13。",
+     "price_for2_twd": 1200,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Lord%20Nelson%20Brewery%20Hotel%2019%20Kent%20Street%20Millers%20Point",
+     "site_url": "https://www.lordnelsonbrewery.com/",
+     "address": "19 Kent St, Millers Point NSW 2000",
+     "tip": "跨年夜營業到幾點、要不要門票待確認；太擠就回飯店開一瓶氣泡酒",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lord%20Nelson%20Hotel%20%26%20Brewery%20-%20Miller%27s%20Point%2C%20Sydney%2C%20NSW%20%287889965224%29.jpg?width=1200",
+      "credit": "sv1ambo（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Lord Nelson Brewery 官方 Instagram",
+       "url": "https://www.instagram.com/lordnelsonbrewery/"
+      },
+      {
+       "type": "youtube",
+       "title": "The Lord Nelson Brewery Hotel｜Sydney（Unidentified Traveler）",
+       "url": "https://www.youtube.com/watch?v=6ShbsThgT_U"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "新年走海岸步道",
+   "area": "邦代→庫吉",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "睡飽後去邦代吃 bills 早午餐，沿懸崖步道走 6 公里到庫吉，傍晚在海邊屋頂酒吧收尾。",
+   "stops": [
+    {
+     "time": "10:30",
+     "name": "bills Bondi（早午餐）",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "雪梨早午餐代表，招牌瑞可塔鬆餅（ricotta hotcakes）配蜂巢奶油。兩人加咖啡約 A$85。",
+     "price_for2_twd": 1900,
+     "booking": "建議預約",
+     "booking_url": "https://bills.com.au/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=bills%20Bondi%2079%20Hall%20Street%20Bondi%20Beach",
+     "site_url": "https://bills.com.au/",
+     "address": "79 Hall Street, Bondi Beach NSW 2026",
+     "tip": "1/1 國定假日多數餐廳加收 10–15% 假日附加費",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ricotta%20hotcakes%20%288625761799%29.jpg?width=1200",
+      "credit": "pelican from Tokyo, Japan（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "bills Australia 官方 Instagram",
+       "url": "https://www.instagram.com/billsaustralia/"
+      },
+      {
+       "type": "official",
+       "title": "bills 門市（Bondi／Surry Hills／Double Bay）",
+       "url": "https://bills.com.au/"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "邦代海灘＋Icebergs 海水泳池",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "邦代海灘南端懸崖上的海水泳池，浪打進池子是招牌畫面。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Bondi%20Icebergs%20Notts%20Avenue%20Bondi%20Beach",
+     "site_url": "https://icebergs.com.au/",
+     "address": "1 Notts Ave, Bondi Beach NSW 2026",
+     "tip": "下水要買泳池票；只拍照免費",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bondi%20Icebergs%20pool%20and%20Ben%20Buckler.jpg?width=1200",
+      "credit": "Sgroey（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Bondi Icebergs Club 官方 Instagram",
+       "url": "https://www.instagram.com/icebergsclub/"
+      }
+     ]
+    },
+    {
+     "time": "12:45",
+     "name": "邦代→庫吉海岸步道（挑戰）",
+     "kind": "challenge",
+     "stay_min": 180,
+     "desc": "6 公里懸崖步道，經 Tamarama、Bronte、Waverley 墓園，上下樓梯多，慢走約 2.5–3 小時，中途可以下海泡水。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Bondi%20to%20Coogee%20Coastal%20Walk",
+     "site_url": "",
+     "address": "Bondi Beach → Coogee Beach",
+     "tip": "中午太陽很毒：帽子、2 公升水、防曬每 2 小時補；累了 Bronte 可搭公車回市區",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waverley%20Cemetery%20and%20the%20boardwalk%20for%20the%20Bondi%20to%20Coogee%20Coastal%20Walk%20in%20July%202018.jpg?width=1200",
+      "credit": "Nick-D（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "We Walked The Famous Bondi to Coogee Coastal Walk（Glen And Mado）",
+       "url": "https://www.youtube.com/watch?v=bx_e2QpSLvI"
+      },
+      {
+       "type": "youtube",
+       "title": "Bondi to Coogee Coastal Walk 4K（Prowalk Tours）",
+       "url": "https://www.youtube.com/watch?v=yLYMciwOtFo"
+      }
+     ]
+    },
+    {
+     "time": "17:00",
+     "name": "Coogee Pavilion Rooftop（酒吧：海景屋頂）",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "庫吉海灘正前方的老建築改成的大型酒館，頂樓看海喝 spritz。兩人兩輪＋小點約 A$80。",
+     "price_for2_twd": 1800,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Coogee%20Pavilion%20169%20Dolphin%20Street%20Coogee",
+     "site_url": "",
+     "address": "169 Dolphin St, Coogee NSW 2034",
+     "tip": "回市區搭 373／374 公車約 40 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coogee%20Pavilion%2001.jpg?width=1200",
+      "credit": "Sam Wilson（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Coogee Pavilion 官方 Instagram",
+       "url": "https://www.instagram.com/coogeepavilion/"
+      },
+      {
+       "type": "youtube",
+       "title": "Coogee Pavilion in Sydney - Review（The Rooftop Guide）",
+       "url": "https://www.youtube.com/watch?v=otHynDCkrBs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "1/2",
+   "weekday": "六",
+   "title": "市集爬大橋",
+   "area": "Surry Hills／岩石區",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上喝一杯扁白，逛週末岩石區市集，傍晚爬上港灣大橋頂端看夕陽，晚上在屋頂酒吧看歌劇院。",
+   "stops": [
+    {
+     "time": "09:00",
+     "name": "Single O Surry Hills（扁白咖啡）",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "雪梨精品咖啡代表，1 號店在 Surry Hills，點一杯 flat white 配早餐。兩人約 A$60。",
+     "price_for2_twd": 1350,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Single%20O%20Surry%20Hills%2060-64%20Reservoir%20Street",
+     "site_url": "https://singleo.com.au/",
+     "address": "60-64 Reservoir St, Surry Hills NSW 2010",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flat%20white%20coffee%20with%20pretty%20feather%20pattern.jpg?width=1200",
+      "credit": "GeorgeMichaelFarewell（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Single O 官方 Instagram",
+       "url": "https://www.instagram.com/single_o/"
+      },
+      {
+       "type": "youtube",
+       "title": "Single O Surry Hills 雪梨咖啡早餐店（Jesse Hu）",
+       "url": "https://www.youtube.com/watch?v=JEh_316f34s"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "岩石區週末市集 The Rocks Markets",
+     "kind": "shop",
+     "stay_min": 120,
+     "desc": "週六日 10:00–17:00，手作、澳洲蜂蜜、小吃攤，邊吃邊逛當午餐。",
+     "price_for2_twd": 900,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Rocks%20Markets%20George%20Street%20The%20Rocks",
+     "site_url": "https://www.therocks.com/",
+     "address": "George St & Jack Mundey Place, The Rocks NSW 2000",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rocks%20Weekend%20Markets%20in%20Sydney%2C%20Australia.jpg?width=1200",
+      "credit": "Julia Kado（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "The Rocks 官方 Instagram @therocks",
+       "url": "https://www.instagram.com/therocks/"
+      },
+      {
+       "type": "youtube",
+       "title": "EXPLORE Sydney's best kept secret at The Rocks Markets（happy-GO-aussie）",
+       "url": "https://www.youtube.com/watch?v=ryqAdS0A_cY"
+      }
+     ]
+    },
+    {
+     "time": "16:30",
+     "name": "BridgeClimb 港灣大橋攀登（挑戰）",
+     "kind": "challenge",
+     "stay_min": 210,
+     "desc": "穿安全裝備扣著鋼索爬上 134 公尺的大橋頂端，Summit Climb 約 3 小時（橋上 2 小時，有梯子）。白天 A$375 起、夜間 A$325 起，跨年週價格待確認。",
+     "price_for2_twd": 17000,
+     "booking": "需預約",
+     "booking_url": "https://www.bridgeclimb.com/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=BridgeClimb%20Sydney%203%20Cumberland%20Street%20The%20Rocks",
+     "site_url": "https://www.bridgeclimb.com/",
+     "address": "3 Cumberland St, The Rocks NSW 2000",
+     "tip": "8 歲以上、要做酒測；手機相機不能帶上去，有官方合照",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BridgeClimb%20Sydney.%20%2821273323798%29.jpg?width=1200",
+      "credit": "Bernard Spragg. NZ from Christchurch, New Zealand（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "BridgeClimb Sydney 官方 Instagram",
+       "url": "https://www.instagram.com/bridgeclimb/"
+      },
+      {
+       "type": "youtube",
+       "title": "Do NOT climb the Sydney Harbour Bridge without watching this（Sarah and Kiran）",
+       "url": "https://www.youtube.com/watch?v=T6RBamy24HE"
+      },
+      {
+       "type": "official",
+       "title": "BridgeClimb 各路線比較與價格",
+       "url": "https://www.bridgeclimb.com/experiences/compare"
+      }
+     ]
+    },
+    {
+     "time": "20:15",
+     "name": "The Glenmore Rooftop（酒吧：屋頂酒館）",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "岩石區老酒館的頂樓，正面看歌劇院和港口；有酒館餐點，晚餐一起解決。兩人約 A$110。",
+     "price_for2_twd": 2500,
+     "booking": "建議預約",
+     "booking_url": "https://www.theglenmore.com.au/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Glenmore%20Hotel%2096%20Cumberland%20Street%20The%20Rocks",
+     "site_url": "https://www.theglenmore.com.au/",
+     "address": "96 Cumberland St, The Rocks NSW 2000",
+     "tip": "週六晚上頂樓要排隊，爬完橋直接走過去 3 分鐘",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Outside%20the%20famous%20Glenmore%20Hotel%20pub%20in%20the%20Rocks%20with%20a%20roof%20terrace%20-%20panoramio.jpg?width=1200",
+      "credit": "Peter Gill / UK（Wikimedia Commons）",
+      "license": "CC BY 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "The Glenmore 官方 Instagram",
+       "url": "https://www.instagram.com/theglenmore/"
+      },
+      {
+       "type": "youtube",
+       "title": "The Glenmore in Sydney - Review（The Rooftop Guide）",
+       "url": "https://www.youtube.com/watch?v=4PLIDa2qHqo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "1/3",
+   "weekday": "日",
+   "title": "曼利渡輪衝浪",
+   "area": "曼利／泰國城／岩石區",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "搭渡輪橫越港口到曼利上一堂衝浪課，下午去 Shelly Beach 泡水，晚上回泰國城吃泰國菜、到世界 50 大酒吧喝調酒。",
+   "stops": [
+    {
+     "time": "08:30",
+     "name": "環形碼頭 → 曼利渡輪",
+     "kind": "transport",
+     "stay_min": 30,
+     "desc": "F1 渡輪約 30 分，一路經過歌劇院和港口，是最便宜的港灣遊船。",
+     "price_for2_twd": 450,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Circular%20Quay%20Wharf%203%20Manly%20Ferry",
+     "site_url": "https://transportnsw.info/",
+     "address": "Circular Quay Wharf 3",
+     "tip": "週日 Opal 每日上限便宜（金額以官方為準），盡量週日搭",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manly%20Ferry%20Wharf.jpg?width=1200",
+      "credit": "JustARandomEditor123（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Transport for NSW 渡輪時刻",
+       "url": "https://transportnsw.info/"
+      }
+     ]
+    },
+    {
+     "time": "09:30",
+     "name": "Manly Surf School 衝浪團體課（挑戰）",
+     "kind": "challenge",
+     "stay_min": 120,
+     "desc": "1995 年開業的老牌衝浪學校，成人團體課 A$90／人（約 2 小時），含板子和防寒衣，教練帶站起來。",
+     "price_for2_twd": 4050,
+     "booking": "需預約",
+     "booking_url": "https://manlysurfschool.com/lessons/adult-group-lesson/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Manly%20Surf%20School%20North%20Steyne%20Manly",
+     "site_url": "https://manlysurfschool.com/",
+     "address": "North Steyne, Manly Beach NSW 2095",
+     "tip": "早上浪小風小；要會基本游泳",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Summer%20days%20at%20Manly%20Beach.jpg?width=1200",
+      "credit": "Hardlinerr（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Manly Surf School 官方 Instagram",
+       "url": "https://www.instagram.com/manlysurfschool/"
+      },
+      {
+       "type": "official",
+       "title": "Manly Surf School 成人團體課",
+       "url": "https://manlysurfschool.com/lessons/adult-group-lesson/"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "Shelly Beach 小海灣",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "從曼利海灘走 15 分到的保護區小海灣，浪很平，常看得到魚群，適合衝浪後放空浮潛。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Shelly%20Beach%20Manly",
+     "site_url": "",
+     "address": "Bower St, Manly NSW 2095",
+     "tip": "想喝啤酒：回碼頭前 4 Pines Manly 自釀酒吧可以先喝一杯",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelly%20Beach%20in%20Manly%20Sydney%20Australia.jpg?width=1200",
+      "credit": "Hardlinerr（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "4 Pines Manly 官方 Instagram（碼頭旁自釀酒吧）",
+       "url": "https://www.instagram.com/4pinesmanly/"
+      }
+     ]
+    },
+    {
+     "time": "18:00",
+     "name": "Chat Thai 泰國城總店",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "雪梨泰國城（Haymarket）最有名的泰國菜，泰國人也來吃；週日營業到 22:00。兩人三道菜約 A$80。",
+     "price_for2_twd": 1800,
+     "booking": "免預約",
+     "booking_url": "https://chatthai.com.au/ct_branches/thaitown/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Chat%20Thai%2020%20Campbell%20Street%20Haymarket",
+     "site_url": "https://chatthai.com.au/",
+     "address": "20 Campbell St, Haymarket NSW 2000",
+     "tip": "晚餐尖峰常排隊 20–30 分，早點到",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thai-Pad-Thai%202023-06-04.jpg?width=1200",
+      "credit": "Andy Li（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Chat Thai 官方 Instagram @chatthailife",
+       "url": "https://www.instagram.com/chatthailife/"
+      },
+      {
+       "type": "youtube",
+       "title": "Best place for Thai food - Chat Thai（Shalvin Diaries）",
+       "url": "https://www.youtube.com/watch?v=7B4jCJOBWCY"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Maybe Sammy（酒吧：得獎雞尾酒）",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "岩石區的復古好萊塢風調酒吧，常年在世界 50 大酒吧榜上；一杯約 A$25–28，兩人各兩杯約 A$110。",
+     "price_for2_twd": 2500,
+     "booking": "建議預約",
+     "booking_url": "https://www.maybesammy.com/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Maybe%20Sammy%20115%20Harrington%20Street%20The%20Rocks",
+     "site_url": "https://www.maybesammy.com/",
+     "address": "115 Harrington St, The Rocks NSW 2000",
+     "tip": "",
+     "photo": null,
+     "links": [
+      {
+       "type": "ig",
+       "title": "Maybe Sammy 官方 Instagram",
+       "url": "https://www.instagram.com/maybe_sammy_sydney/"
+      },
+      {
+       "type": "youtube",
+       "title": "Sydney's 'Maybe Sammy' named world's most influential bar（news.com.au）",
+       "url": "https://www.youtube.com/watch?v=c-J8TD5Flq4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "date": "1/4",
+   "weekday": "一",
+   "title": "自駕藍山",
+   "area": "藍山國家公園（Katoomba）",
+   "drive_km": 220,
+   "drive_time": "來回約 4 小時",
+   "summary": "租一天車走 M4 上藍山：三姊妹岩、世界最陡的觀光鐵道、溫特沃斯瀑布步道，傍晚還車去地下威士忌酒吧。",
+   "stops": [
+    {
+     "time": "07:30",
+     "name": "Bourke Street Bakery（肉派早餐）＋市區取車",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "雪梨人最愛的麵包店之一，買肉派、香腸卷和咖啡帶上車，再到市區租車點取車。早餐兩人約 A$35。",
+     "price_for2_twd": 800,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Bourke%20Street%20Bakery%20633%20Bourke%20Street%20Surry%20Hills",
+     "site_url": "https://bourkestreetbakery.com.au/",
+     "address": "633 Bourke St, Surry Hills NSW 2010",
+     "tip": "靠左行駛、右駕；M4 收費用租車 e-tag 自動扣",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sausage%20roll%202023-07-16.jpg?width=1200",
+      "credit": "Andy Li（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Bourke Street Bakery 官方 Instagram",
+       "url": "https://www.instagram.com/bourkestreetbakery/"
+      },
+      {
+       "type": "youtube",
+       "title": "In search of Sydney's best meat pie ft. an expert（Jemima Skelley）",
+       "url": "https://www.youtube.com/watch?v=zHJtnvwbSHE"
+      }
+     ]
+    },
+    {
+     "time": "10:00",
+     "name": "Echo Point 三姊妹岩",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "藍山最經典的觀景台，看三座砂岩柱和一整片藍色尤加利林。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Echo%20Point%20Lookout%20Katoomba",
+     "site_url": "",
+     "address": "Echo Point Rd, Katoomba NSW 2780",
+     "tip": "停車場收費、週一比週末好停",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Three%20Sisters%2C%20Blue%20Mountains%20%281%29.jpg?width=1200",
+      "credit": "Alicia Brogan (Ali b at English Wikipedia)（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "澳洲租車「藍山悉尼自駕遊」即日來回（Channel General 難得籠統）",
+       "url": "https://www.youtube.com/watch?v=a4tyiE2FPn8"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "Scenic World 景觀世界",
+     "kind": "activity",
+     "stay_min": 150,
+     "desc": "一張票玩四樣：世界最陡的觀光鐵道（52 度）、峽谷纜車、空中纜車、雨林步道。網購 A$64 起／人；平日 10:00–16:00。",
+     "price_for2_twd": 2900,
+     "booking": "建議預約",
+     "booking_url": "https://www.scenicworld.com.au/tickets/unlimited-discovery-pass",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Scenic%20World%20Katoomba",
+     "site_url": "https://www.scenicworld.com.au/",
+     "address": "Cnr Violet St & Cliff Dr, Katoomba NSW 2780",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katoomba%2C%20Scenic%20Railway%20%2820231005b%29%20%2853322903160%29.jpg?width=1200",
+      "credit": "Takeshi Aida from Hong Kong（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Best of Blue Mountains + Scenic World（CJ Explores）",
+       "url": "https://www.youtube.com/watch?v=S4SHBWbTSRg"
+      },
+      {
+       "type": "youtube",
+       "title": "藍山國家公園 世界最陡鐵路有多刺激？（Wake up Sonya）",
+       "url": "https://www.youtube.com/watch?v=2TFtjVYc5Ak"
+      }
+     ]
+    },
+    {
+     "time": "14:00",
+     "name": "溫特沃斯瀑布步道（挑戰）",
+     "kind": "challenge",
+     "stay_min": 150,
+     "desc": "從 Wentworth Falls 停車場走到瀑布頂和 Fletchers Lookout，往下接 National Pass 一段，石階陡、要手腳並用，走 2–2.5 小時折返。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Wentworth%20Falls%20Lookout",
+     "site_url": "https://www.nationalparks.nsw.gov.au/",
+     "address": "Falls Rd, Wentworth Falls NSW 2782",
+     "tip": "出發前查國家公園官網步道是否因落石／火災封閉；夏天午後易雷雨",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wentworth%20Falls%2C%20Blue%20Mountains%2C%20New%20South%20Wales%20%28483633%29%20%289440564567%29.jpg?width=1200",
+      "credit": "Robert Linsdell from St. Andrews, Canada（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "NSW 國家公園官網（步道開放狀態）",
+       "url": "https://www.nationalparks.nsw.gov.au/"
+      }
+     ]
+    },
+    {
+     "time": "20:00",
+     "name": "The Baxter Inn（酒吧：地下威士忌）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "CBD 小巷地下室的威士忌酒吧，整面牆好幾百支酒，常上世界 50 大。還完車走過去；兩人約 A$100。",
+     "price_for2_twd": 2300,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Baxter%20Inn%20152%20Clarence%20Street%20Sydney",
+     "site_url": "",
+     "address": "Basement, 152-156 Clarence St, Sydney NSW 2000",
+     "tip": "不用訂位、門口排隊；入口是沒招牌的樓梯",
+     "photo": null,
+     "links": [
+      {
+       "type": "ig",
+       "title": "The Baxter Inn 官方 Instagram",
+       "url": "https://www.instagram.com/thebaxterinnsydney/"
+      },
+      {
+       "type": "youtube",
+       "title": "The Baxter Inn Bar Sydney（Places And Foods）",
+       "url": "https://www.youtube.com/watch?v=QHotskK9wnM"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "date": "1/5",
+   "weekday": "二",
+   "title": "無尾熊後回家",
+   "area": "Taronga 動物園／Darlinghurst",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "搭渡輪去 Taronga 動物園看無尾熊和港景，下午吃一球 Messina 冰淇淋，晚上搭 22:10 直飛回台灣。",
+   "stops": [
+    {
+     "time": "09:30",
+     "name": "Taronga 動物園（無尾熊）",
+     "kind": "activity",
+     "stay_min": 240,
+     "desc": "從環形碼頭搭 F2 渡輪 12 分；看無尾熊、袋鼠，山坡上眺望整個雪梨港。網購成人 A$51.30。",
+     "price_for2_twd": 2700,
+     "booking": "建議預約",
+     "booking_url": "https://ticketsales.taronga.org.au/Tickets/sydney",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Taronga%20Zoo%20Sydney%20Bradleys%20Head%20Road%20Mosman",
+     "site_url": "https://www.taronga.org.au/sydney-zoo",
+     "address": "Bradleys Head Rd, Mosman NSW 2088",
+     "tip": "從下碼頭搭 Sky Safari 纜車上山、一路往下逛最省力",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taronga%20Zoo%20koala%20bear%20003.jpg?width=1200",
+      "credit": "Sardaka（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Taronga Zoo 官方 Instagram",
+       "url": "https://www.instagram.com/tarongazoo/"
+      },
+      {
+       "type": "youtube",
+       "title": "It's Save the Koala Month!（Taronga Zoo Sydney）",
+       "url": "https://www.youtube.com/watch?v=pqZmHhqYKrw"
+      }
+     ]
+    },
+    {
+     "time": "14:30",
+     "name": "Gelato Messina Darlinghurst",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "雪梨人排隊的義式冰淇淋，口味天天換、很多甜點口味。兩人兩杯約 A$20。",
+     "price_for2_twd": 450,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Gelato%20Messina%20241%20Victoria%20Street%20Darlinghurst",
+     "site_url": "https://www.gelatomessina.com/",
+     "address": "241 Victoria St, Darlinghurst NSW 2010",
+     "tip": "",
+     "photo": null,
+     "links": [
+      {
+       "type": "ig",
+       "title": "Gelato Messina 官方 Instagram",
+       "url": "https://www.instagram.com/gelatomessina/"
+      },
+      {
+       "type": "youtube",
+       "title": "Inside Sydney's tastiest gelato at Gelato Messina（Reuben M）",
+       "url": "https://www.youtube.com/watch?v=mSRBOeiCkos"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "取行李 → 機場快線 → SYD T1",
+     "kind": "transport",
+     "stay_min": 210,
+     "desc": "回飯店拿行李，搭機場快線到國際航廈；華航 CI 22:10 起飛，1/6 04:20 回到桃園。",
+     "price_for2_twd": 900,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Airport%20T1%20International%20Terminal",
+     "site_url": "https://transportnsw.info/",
+     "address": "Sydney Airport T1",
+     "tip": "起飛前 3 小時到；澳洲退稅 TRS 在出境安檢後辦",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Airport%20Terminal%201c.jpg?width=1200",
+      "credit": "MDRX（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "中華航空官網",
+       "url": "https://www.china-airlines.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "Sydney Fish Market 雪梨魚市場（新館）",
+   "dish": "現開生蠔、生魚片、海鮮拼盤",
+   "price_for2_twd": 2700,
+   "area": "Glebe（Blackwattle Bay）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Fish%20Market%201%20Bridge%20Road%20Glebe",
+   "why": "南半球最大魚市場，2026 年初搬新館；YouTube Curious Foodie 實測新館、Guardian 也有報導",
+   "source": "https://www.sydneyfishmarket.com.au/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oysters%20at%20Sydney%20Fish%20Market.jpg?width=1200",
+    "credit": "Maksym Kozlenko（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Sydney Fish Market 官方 Instagram",
+     "url": "https://www.instagram.com/sydneyfishmarket/"
+    },
+    {
+     "type": "youtube",
+     "title": "I Tried Sydney's NEW Fish Markets（Curious Foodie）",
+     "url": "https://www.youtube.com/watch?v=W837lOIGeDU"
+    }
+   ]
+  },
+  {
+   "name": "Harry's Cafe de Wheels",
+   "dish": "Tiger 肉派（肉派＋薯泥＋豌豆泥）",
+   "price_for2_twd": 700,
+   "area": "Woolloomooloo",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Harry%27s%20Cafe%20de%20Wheels%20Cowper%20Wharf%20Roadway%20Woolloomooloo",
+   "why": "1938 年開業的港邊肉派餐車，Anthony Bourdain 也來吃過",
+   "source": "https://www.harryscafedewheels.com.au/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harrys%20Cafe%20de%20Wheels%20%286960417355%29.jpg?width=1200",
+    "credit": "Eva Rinaldi（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Harry's Cafe de Wheels 官方 Instagram @harryscafedw",
+     "url": "https://www.instagram.com/harryscafedw/"
+    },
+    {
+     "type": "youtube",
+     "title": "Anthony Bourdain at Harry's Cafe de Wheels（Charles Tyler）",
+     "url": "https://www.youtube.com/watch?v=qo6cDLVRK_w"
+    }
+   ]
+  },
+  {
+   "name": "Chat Thai 泰國城總店",
+   "dish": "脆皮豬、打拋、泰式甜點",
+   "price_for2_twd": 1800,
+   "area": "Haymarket 泰國城",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Chat%20Thai%2020%20Campbell%20Street%20Haymarket",
+   "why": "雪梨泰國城代表店，週五六開到凌晨 2 點；姊妹店 Boon Cafe、Jarern Chai 雜貨也在旁邊",
+   "source": "https://chatthai.com.au/ct_branches/thaitown/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thai-Pad-Thai%202023-06-04.jpg?width=1200",
+    "credit": "Andy Li（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Chat Thai 官方 Instagram @chatthailife",
+     "url": "https://www.instagram.com/chatthailife/"
+    },
+    {
+     "type": "youtube",
+     "title": "Best place for Thai food - Chat Thai（Shalvin Diaries）",
+     "url": "https://www.youtube.com/watch?v=7B4jCJOBWCY"
+    }
+   ]
+  },
+  {
+   "name": "bills Bondi",
+   "dish": "瑞可塔鬆餅、炒蛋、扁白咖啡",
+   "price_for2_twd": 1900,
+   "area": "邦代海灘",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=bills%20Bondi%2079%20Hall%20Street%20Bondi%20Beach",
+   "why": "已故名廚 Bill Granger 的店，被稱為「讓全世界愛上澳式早午餐」的始祖",
+   "source": "https://bills.com.au/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ricotta%20hotcakes%20%288625761799%29.jpg?width=1200",
+    "credit": "pelican from Tokyo, Japan（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "bills Australia 官方 Instagram",
+     "url": "https://www.instagram.com/billsaustralia/"
+    },
+    {
+     "type": "official",
+     "title": "bills 門市資訊",
+     "url": "https://bills.com.au/"
+    }
+   ]
+  },
+  {
+   "name": "Single O Surry Hills",
+   "dish": "扁白咖啡 flat white＋早餐",
+   "price_for2_twd": 1350,
+   "area": "Surry Hills",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Single%20O%20Surry%20Hills%2060-64%20Reservoir%20Street",
+   "why": "雪梨精品咖啡烘豆商的 1 號店，IG 6.7 萬追蹤",
+   "source": "https://singleo.com.au/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flat%20white%20coffee%20with%20pretty%20feather%20pattern.jpg?width=1200",
+    "credit": "GeorgeMichaelFarewell（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Single O 官方 Instagram",
+     "url": "https://www.instagram.com/single_o/"
+    },
+    {
+     "type": "youtube",
+     "title": "Single O Surry Hills 雪梨咖啡早餐店（Jesse Hu）",
+     "url": "https://www.youtube.com/watch?v=JEh_316f34s"
+    }
+   ]
+  },
+  {
+   "name": "Bourke Street Bakery",
+   "dish": "肉派、香腸卷、酸種麵包",
+   "price_for2_twd": 800,
+   "area": "Surry Hills",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Bourke%20Street%20Bakery%20633%20Bourke%20Street%20Surry%20Hills",
+   "why": "雪梨最有名的街角麵包店，肉派和香腸卷是當地人早餐",
+   "source": "https://bourkestreetbakery.com.au/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sausage%20roll%202023-07-16.jpg?width=1200",
+    "credit": "Andy Li（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Bourke Street Bakery 官方 Instagram",
+     "url": "https://www.instagram.com/bourkestreetbakery/"
+    },
+    {
+     "type": "youtube",
+     "title": "In search of Sydney's best meat pie ft. an expert（Jemima Skelley）",
+     "url": "https://www.youtube.com/watch?v=zHJtnvwbSHE"
+    }
+   ]
+  },
+  {
+   "name": "Gelato Messina",
+   "dish": "義式冰淇淋（每日口味）",
+   "price_for2_twd": 450,
+   "area": "Darlinghurst",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Gelato%20Messina%20241%20Victoria%20Street%20Darlinghurst",
+   "why": "雪梨最紅的冰淇淋店，創辦人被稱為改變澳洲甜點文化的人",
+   "source": "https://www.gelatomessina.com/",
+   "photo": null,
+   "links": [
+    {
+     "type": "ig",
+     "title": "Gelato Messina 官方 Instagram",
+     "url": "https://www.instagram.com/gelatomessina/"
+    },
+    {
+     "type": "youtube",
+     "title": "Inside Sydney's tastiest gelato at Gelato Messina（Reuben M）",
+     "url": "https://www.youtube.com/watch?v=mSRBOeiCkos"
+    }
+   ]
+  },
+  {
+   "name": "The Lord Nelson Brewery Hotel",
+   "dish": "自釀艾爾啤酒＋酒館餐",
+   "price_for2_twd": 1500,
+   "area": "Millers Point（岩石區）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Lord%20Nelson%20Brewery%20Hotel%2019%20Kent%20Street%20Millers%20Point",
+   "why": "澳洲最老的酒館自釀酒廠之一，在地人下班喝一杯的地方",
+   "source": "https://www.lordnelsonbrewery.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lord%20Nelson%20Hotel%20%26%20Brewery%20-%20Miller%27s%20Point%2C%20Sydney%2C%20NSW%20%287889965224%29.jpg?width=1200",
+    "credit": "sv1ambo（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Lord Nelson Brewery 官方 Instagram",
+     "url": "https://www.instagram.com/lordnelsonbrewery/"
+    },
+    {
+     "type": "youtube",
+     "title": "Matt visits The Lord Nelson Hotel in Sydney（The Beer Pioneer）",
+     "url": "https://www.youtube.com/watch?v=O56yixJ9HtM"
+    }
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "name": "BridgeClimb 港灣大橋攀登",
+   "what": "扣鋼索爬上 134 公尺大橋頂端（Summit Climb 約 3 小時）",
+   "price_for2_twd": 17000,
+   "duration": "3 小時",
+   "booking": "需預約（跨年週要提早）",
+   "season_ok": true,
+   "url": "https://www.bridgeclimb.com/experiences/compare",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=BridgeClimb%20Sydney%203%20Cumberland%20Street%20The%20Rocks",
+   "note": "白天 A$375 起、夜間 A$325 起、Ultimate A$415 起；跨年週實際價格待確認。要酒測、8 歲以上",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BridgeClimb%20Sydney.%20%2821273323798%29.jpg?width=1200",
+    "credit": "Bernard Spragg. NZ from Christchurch, New Zealand（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "BridgeClimb Sydney 官方 Instagram",
+     "url": "https://www.instagram.com/bridgeclimb/"
+    },
+    {
+     "type": "youtube",
+     "title": "Experience the ULTIMATE BridgeClimb（Sydney Weekender）",
+     "url": "https://www.youtube.com/watch?v=Xd7BOm89sdo"
+    },
+    {
+     "type": "official",
+     "title": "BridgeClimb 各路線比較",
+     "url": "https://www.bridgeclimb.com/experiences/compare"
+    }
+   ]
+  },
+  {
+   "name": "邦代→庫吉海岸步道",
+   "what": "6 公里懸崖步道，樓梯多，2.5–3 小時",
+   "price_for2_twd": 0,
+   "duration": "3 小時",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://www.youtube.com/watch?v=bx_e2QpSLvI",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Bondi%20to%20Coogee%20Coastal%20Walk",
+   "note": "夏天紫外線極強，正中午避開最陡段；沿途有廁所和飲水機",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waverley%20Cemetery%20and%20the%20boardwalk%20for%20the%20Bondi%20to%20Coogee%20Coastal%20Walk%20in%20July%202018.jpg?width=1200",
+    "credit": "Nick-D（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "youtube",
+     "title": "We Walked The Famous Bondi to Coogee Coastal Walk（Glen And Mado）",
+     "url": "https://www.youtube.com/watch?v=bx_e2QpSLvI"
+    },
+    {
+     "type": "youtube",
+     "title": "Bondi to Coogee Coastal Walk Hyperlapse（Sydney）",
+     "url": "https://www.youtube.com/watch?v=E3Y8nyDvTpI"
+    }
+   ]
+  },
+  {
+   "name": "曼利衝浪課",
+   "what": "Manly Surf School 成人團體課約 2 小時，含板與防寒衣",
+   "price_for2_twd": 4050,
+   "duration": "2 小時",
+   "booking": "需預約",
+   "season_ok": true,
+   "url": "https://manlysurfschool.com/lessons/adult-group-lesson/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Manly%20Surf%20School%20North%20Steyne%20Manly",
+   "note": "A$90／人（官網 10/16 價）；夏天水溫約 22°C",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Summer%20days%20at%20Manly%20Beach.jpg?width=1200",
+    "credit": "Hardlinerr（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Manly Surf School 官方 Instagram",
+     "url": "https://www.instagram.com/manlysurfschool/"
+    },
+    {
+     "type": "official",
+     "title": "Manly Surf School 成人團體課",
+     "url": "https://manlysurfschool.com/lessons/adult-group-lesson/"
+    }
+   ]
+  },
+  {
+   "name": "藍山自駕＋溫特沃斯瀑布步道",
+   "what": "右駕靠左開 M4 上藍山，走瀑布頂到 National Pass 一段",
+   "price_for2_twd": 3400,
+   "duration": "一整天",
+   "booking": "租車需預約",
+   "season_ok": true,
+   "url": "https://www.nationalparks.nsw.gov.au/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Wentworth%20Falls%20Lookout",
+   "note": "價格＝一天經濟車約 A$84（Kayak 10/16 查 Booking.com 報價）＋油錢與過路費；步道夏天可能因火災風險封閉，出發前查",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wentworth%20Falls%2C%20Blue%20Mountains%2C%20New%20South%20Wales%20%28483633%29%20%289440564567%29.jpg?width=1200",
+    "credit": "Robert Linsdell from St. Andrews, Canada（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "youtube",
+     "title": "澳洲租車「藍山悉尼自駕遊」即日來回（Channel General 難得籠統）",
+     "url": "https://www.youtube.com/watch?v=a4tyiE2FPn8"
+    },
+    {
+     "type": "youtube",
+     "title": "悉尼自由行 藍山自駕遊 航拍 4K（IMAGIN WORKSHOP）",
+     "url": "https://www.youtube.com/watch?v=JYpFZ6hKE5Y"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 88666,
+  "stay_for2": 102684,
+  "food_for2": [
+   31500,
+   44000
+  ],
+  "transport_for2": [
+   10000,
+   13000
+  ],
+  "activities_for2": [
+   27000,
+   32000
+  ],
+  "total_for2": [
+   244000,
+   281000
+  ],
+  "note": "匯率 1 澳幣＝22.52 台幣（Google 10/16）。機票＝華航直飛每人 44,333×2；住宿＝A by Adina 6 晚（改 Rydges 省約 1.6 萬）；吃喝每天兩人 A$200–280×7 天（含每晚酒吧，1/1 假日加價）；交通＝機場快線＋Opal＋渡輪＋藍山租車一天；活動＝BridgeClimb、衝浪課、Scenic World、Taronga、ETA A$20×2，上限含 Lower Bradfield Park 跨年票 A$65×2 的備案。跨年遊船另計（Captain Cook 每人 A$1,599 起）。"
+ },
+ "weather": {
+  "high_c": 26,
+  "low_c": 19,
+  "conditions": "南半球盛夏，多晴天、午後偶有雷陣雨，紫外線指數常到 11 以上（極高）",
+  "sunrise": "05:45",
+  "sunset": "20:08",
+  "wear": "短袖短褲＋薄外套（跨年夜海風、冷氣），帽子、太陽眼鏡、SPF50 防曬、好走的運動鞋；衝浪和海岸步道帶泳衣"
+ },
+ "events": [
+  {
+   "date": "12/26",
+   "name": "歌劇院前庭跨年免費票開放登記",
+   "note": "雪梨 10:00＝台灣 07:00，每筆最多 6 張，數量有限",
+   "url": "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt"
+  },
+  {
+   "date": "12/31",
+   "name": "雪梨港跨年煙火（21:00 家庭場＋00:00 午夜場）",
+   "note": "48 個官方看點，大部分免費但禁酒；Mrs Macquaries Point 10:00 開門、可現場買酒",
+   "url": "https://www.sydneynewyearseve.com/vantage-points"
+  },
+  {
+   "date": "1/1",
+   "name": "新年國定假日",
+   "note": "多數餐廳照開但加收 10–15% 假日附加費",
+   "url": ""
+  },
+  {
+   "date": "1/2–1/3",
+   "name": "岩石區週末市集",
+   "note": "週六日 10:00–17:00",
+   "url": "https://www.therocks.com/"
+  }
+ ],
+ "prep": [
+  {
+   "item": "申請澳洲 ETA 電子簽證：手機下載官方 Australian ETA App，掃護照晶片＋自拍，服務費 A$20／人，多數當下核准；一年內多次入境、每次可停留 3 個月",
+   "when": "訂機票前（11 月初前）",
+   "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+  },
+  {
+   "item": "訂華航直飛 12/29→1/5（每人 44,333，價格會變）",
+   "when": "越早越好（10 月底前）",
+   "url": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+  },
+  {
+   "item": "訂住宿 12/30→1/5 六晚，選可免費取消",
+   "when": "10 月底前",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=A+by+Adina+Sydney&checkin=2026-12-30&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD"
+  },
+  {
+   "item": "預約 BridgeClimb（1/2 傍晚場）",
+   "when": "11 月中前",
+   "url": "https://www.bridgeclimb.com/"
+  },
+  {
+   "item": "搶歌劇院前庭跨年免費票（設鬧鐘：台灣時間 12/26 07:00）；沒搶到改買 Lower Bradfield Park A$65／人",
+   "when": "12/26 07:00（台灣時間）",
+   "url": "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt"
+  },
+  {
+   "item": "辦國際駕照（監理站，NT$250，當天拿）＋預約 1/4 租車",
+   "when": "12/20 前",
+   "url": "https://www.mvdis.gov.tw/"
+  },
+  {
+   "item": "預約 Manly Surf School 1/3 早上團體課、網購 Taronga 動物園票",
+   "when": "12 月中前",
+   "url": "https://manlysurfschool.com/lessons/adult-group-lesson/"
+  }
+ ],
+ "risks": [
+  "直飛只有華航一班，來回都是紅眼；改期或取消選擇很少",
+  "歌劇院前庭免費票數量有限，幾分鐘內會被搶光；B 計畫 Mrs Macquaries Point 要很早排隊、滿了就關門",
+  "跨年週住宿是全年最貴，越晚訂越貴、也常不能退",
+  "夏天紫外線極強、偶有熱浪和森林火災，藍山步道可能臨時封閉",
+  "免費看點大多全區禁酒，要喝酒就選有合法酒吧的植物園／前庭",
+  "國際駕照＋靠左右駕第一次開要小心；跨年後 1/1 店家假日加價",
+  "價格以澳幣計，匯率變動會影響總額"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：港邊散步",
+    "icons": [
+     "plane",
+     "tower",
+     "beer"
+    ],
+    "caption": "肉派配大橋夜景"
+   },
+   {
+    "title": "第二天：跨年煙火",
+    "icons": [
+     "seafood",
+     "fireworks",
+     "night"
+    ],
+    "caption": "生蠔野餐等倒數"
+   },
+   {
+    "title": "第三天：海岸步道",
+    "icons": [
+     "coffee",
+     "hike",
+     "beach"
+    ],
+    "caption": "邦代走到庫吉"
+   },
+   {
+    "title": "第四天：爬大橋",
+    "icons": [
+     "market",
+     "bridge",
+     "beer"
+    ],
+    "caption": "大橋頂上看夕陽"
+   },
+   {
+    "title": "第五天：曼利衝浪",
+    "icons": [
+     "ferry",
+     "beach",
+     "beer"
+    ],
+    "caption": "衝浪後吃泰國菜"
+   },
+   {
+    "title": "第六天：自駕藍山",
+    "icons": [
+     "car",
+     "mountain",
+     "waterfall"
+    ],
+    "caption": "三姊妹岩和瀑布"
+   },
+   {
+    "title": "第七天：無尾熊",
+    "icons": [
+     "park",
+     "dessert",
+     "plane"
+    ],
+    "caption": "看完無尾熊回家"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "『2025雪梨跨年』歷經16小時終於看到跨年煙火",
+   "channel": "JoyceInSydney",
+   "url": "https://www.youtube.com/watch?v=aGT3Wk9hf2I",
+   "takeaway": "免費看點要一大早排、整天卡位的真實狀況，所以主推搶前庭免費票"
+  },
+  {
+   "title": "Sydney New Year's Eve Fireworks full guide: Best Spots & Tips",
+   "channel": "By SAEH",
+   "url": "https://www.youtube.com/watch?v=bMFZOZfMYRQ",
+   "takeaway": "各看點的視野比較與散場動線"
+  },
+  {
+   "title": "【澳洲旅遊攻略】雪梨六天五夜行程這樣玩！",
+   "channel": "KKday Taiwan",
+   "url": "https://www.youtube.com/watch?v=1V3x-6qM5G8",
+   "takeaway": "雪梨市區＋藍山＋曼利的天數分配"
+  },
+  {
+   "title": "澳洲租車「藍山悉尼自駕遊」即日來回",
+   "channel": "Channel General 難得籠統",
+   "url": "https://www.youtube.com/watch?v=a4tyiE2FPn8",
+   "takeaway": "藍山一日自駕可行、車程與停車"
+  },
+  {
+   "title": "We Walked The Famous Bondi to Coogee Coastal Walk - Was It Worth It?",
+   "channel": "Glen And Mado",
+   "url": "https://www.youtube.com/watch?v=bx_e2QpSLvI",
+   "takeaway": "步道長度、坡度與中途休息點"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.sydneynewyearseve.com/vantage-points",
+  "https://www.sydneynewyearseve.com/ticketed-vantage-points",
+  "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt",
+  "https://www.botanicgardens.org.au/whats-on/new-years-eve",
+  "https://tickets.iwannaticket.com.au/event/lower-bradfield-park-north-sydney-nye-2026-19mlzk",
+  "https://www.captaincook.com.au/whats-on/sydney-new-years-eve/",
+  "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+  "https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/driver-and-rider-licences/visiting-or-moving-to-nsw/visiting-from-overseas-or-interstate",
+  "https://www.bridgeclimb.com/experiences/compare",
+  "https://manlysurfschool.com/lessons/adult-group-lesson/",
+  "https://www.scenicworld.com.au/tickets/unlimited-discovery-pass",
+  "https://ticketsales.taronga.org.au/Tickets/sydney",
+  "https://www.timeanddate.com/sun/australia/sydney?month=12&year=2026",
+  "https://www.booking.com/searchresults.zh-tw.html?ss=The+Rocks%2C+Sydney&checkin=2026-12-30&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD"
+ ],
+ "checked": "2026-10-16"
+}
