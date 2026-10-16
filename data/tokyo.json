@@ -1,0 +1,1553 @@
+{
+ "id": "tokyo",
+ "name": "東京",
+ "subtitle": "市場早餐、鎌倉海岸、每晚一條橫丁",
+ "country": "日本",
+ "flag": "JP",
+ "motif": "tower",
+ "palette": {
+  "primary": "#E94E77",
+  "secondary": "#4C6FE5",
+  "soft": "#FFF0F4"
+ },
+ "tagline": "機票最便宜、吃喝最密集的東京 4 天",
+ "summary": "桃園酷航早去晚回每人 11,995，是所有候選裡最便宜的機票，而且不用自駕、不用擔心下雪。住押上（晴空塔旁）三晚，白天一天淺草、一天鎌倉江之島沿海步行（挑戰）、一天豐洲市場壽司＋teamLab＋澀谷夕陽；晚上照你們的規矩每天收在一條橫丁：淺草ホッピー通り、新宿黃金街、澀谷のんべい横丁、上野立飲。兩人全包估 6.3–8.3 萬。",
+ "dates": {
+  "out": "12/28",
+  "back": "12/31",
+  "nights": 3,
+  "why": "第一輪查價的機票日期矩陣裡，12/28（一）去、12/31（四）回是酷航早去（06:50）晚回（19:45）最便宜的一組（每人 11,995，4 晚的 12/27 版同價但多一晚住宿 ¥26,000）。12/30 豐洲市場有開（12/31 休市）、12/31 築地場外與阿美橫町年末市集最熱鬧。想跨年＋初詣的話改 12/30→1/2（跨年夜在增上寺聽除夜鐘＋東京鐵塔，1/1 清晨淺草寺或明治神宮初詣）：第一輪查價 12/29–1/2 酷航＋捷星每人 13,080（略超）、12/31 晚住宿比平日貴約 ¥10,000，1/1 百貨休息、1/2 初賣；12/30 去的實價未查（已核價）。"
+ },
+ "flights": [
+  {
+   "from": "RMQ",
+   "to": "NRT",
+   "airline": "星宇航空（直飛）",
+   "out": "12/27 09:15→13:25",
+   "back": "12/31 14:25→17:55",
+   "price_pp_twd": 38740,
+   "baggage": "含托運（艙等待確認）",
+   "fits_time_pref": true,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "（Google Flights 10/15 即時來回價，12/27 去）。台中唯一直飛但 3 倍預算；第一輪查價的 RMQ↔NRT 日期方格 12/28–12/31 最低 18,156（班次未細查，多為轉機）。1/1 回版 20,836"
+  },
+  {
+   "from": "TPE",
+   "to": "NRT",
+   "airline": "酷航 TR（來回）",
+   "out": "12/28 06:50→10:55",
+   "back": "12/31 19:45→22:55",
+   "price_pp_twd": 11995,
+   "baggage": "不含托運（加購約 NT$1,000–1,500／段，待確認）",
+   "fits_time_pref": true,
+   "within_budget": true,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "★推薦。 1-1 表 ★2（單程 5,360＋6,635）。06:50 起飛要 04:30 前到桃園第一航廈，台中出發前一晚北上或搭夜車"
+  },
+  {
+   "from": "TPE",
+   "to": "NRT",
+   "airline": "樂桃 MM（來回）",
+   "out": "12/27 10:40→14:55",
+   "back": "12/31 16:35→20:00",
+   "price_pp_twd": 12588,
+   "baggage": "不含托運",
+   "fits_time_pref": false,
+   "within_budget": true,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "。去程 10:40 不算早班、回程 16:35 會吃掉 12/31 下午；酷航睡不到的話可選"
+  },
+  {
+   "from": "TPE",
+   "to": "NRT",
+   "airline": "酷航去＋捷星回（跨年版 12/29→1/2）",
+   "out": "12/29 06:50→10:55",
+   "back": "1/2 12:30→15:45",
+   "price_pp_twd": 13080,
+   "baggage": "不含托運",
+   "fits_time_pref": true,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "1-1 表第 4 列（6,326＋6,754），略超 80 元。本頁建議的跨年版 12/30→1/2 未查實價（12/30 去程參考 1/1 版酷航 7,350），要跨年請之後核價"
+  },
+  {
+   "from": "TPE",
+   "to": "NRT",
+   "airline": "星宇航空",
+   "out": "12/27 08:25→12:35",
+   "back": "12/31 15:40→18:45",
+   "price_pp_twd": 22267,
+   "baggage": "含托運",
+   "fits_time_pref": true,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "（9,756＋12,511）。含行李、時間最舒服，但兩人多 2 萬"
+  }
+ ],
+ "getting_around": {
+  "mode": "大眾運輸",
+  "license": "不自駕：東京市區停車 ¥300–600／30 分、首都高過路費貴，電車比開車快；鎌倉、高尾山都有電車直達。若硬要租車需台灣駕照＋JAF 日文譯本（監理站或 JAF 辦，約 NT$300–400／¥4,000，1–7 天），本行程用不到。",
+  "rental": {
+   "company": "",
+   "car": "",
+   "days": 0,
+   "price_total_twd": null,
+   "insurance": "",
+   "pickup": "",
+   "source": "",
+   "note": "不自駕，此趟不租車"
+  },
+  "road_notes": [
+   "不自駕。12 月底東京市區幾乎不下雪，但鎌倉海邊風大、高尾山頂約 2°C",
+   "12/31 18:00–1/1 05:00 澀谷車站周邊公共場所禁止飲酒、20:00 起車站前封路（2025–26 版規定，2026–27 待確認）",
+   "12/31→1/1 JR 與地鐵有終夜運轉（2026 元旦 5 條線，2027 待確認）"
+  ],
+  "public": [
+   "Suica：iPhone 打開 Wallet →「＋」→ 交通卡 → Suica，用信用卡儲值，不用買實體卡（iPhone 8 以上）；電車、公車、便利商店都刷手機",
+   "成田→押上（ONE@Tokyo）：京成「アクセス特急」直達押上約 60 分、每人約 ¥1,300（待確認，依 2026/3 調價後約 1,270 推估）；Skyliner 到日暮里／上野 36–41 分 ¥2,570；成田特快 N'EX 到東京站約 60 分 ¥3,140；東京車站巴士（AIRPORT BUS TYO-NRT）¥1,500",
+   "鎌倉江之島：小田急「江の島・鎌倉フリーパス」新宿出發 ¥1,640／人，含新宿⇄藤澤來回＋江ノ電、小田急江之島線無限搭（Romancecar 加 ¥750 單程）；只玩江ノ電可買「のりおりくん」¥800",
+   "高尾山（替代挑戰）：京王線新宿→高尾山口特急約 50 分；纜車單程 ¥490／來回 ¥950",
+   "市區地鐵單程 ¥180–320；東京 Metro 24 小時券 ¥600（本行程每天跨區不多，刷 Suica 就好）"
+  ]
+ },
+ "stays": [
+  {
+   "name": "ONE@Tokyo（押上）",
+   "area": "押上・晴空塔旁",
+   "nights": 3,
+   "price_night_for2_twd": 6817,
+   "availability": "有空房",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/162860",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=ONE%40Tokyo%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A2%A8%E7%94%B0%E5%8C%BA%E6%8A%BC%E4%B8%8A1-19-3",
+   "why": "：12/28–12/31 三晚 ¥98,800≈NT$20,452（樂天 10/15 實查，素泊）。隈研吾設計、房內看得到晴空塔、アクセス特急從成田直達押上不用換車；房間 14m² 偏小是唯一缺點"
+  },
+  {
+   "name": "東急ステイ門前仲町",
+   "area": "門前仲町（去豐洲、築地都近）",
+   "nights": 3,
+   "price_night_for2_twd": 7245,
+   "availability": "有空房",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/41707",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%80%A5%E3%82%B9%E3%83%86%E3%82%A4%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA",
+   "why": "：三晚 ¥105,000≈NT$21,735。房內有洗衣機、房間比 ONE@Tokyo 大；到豐洲市場 15 分、到淺草 20 分"
+  },
+  {
+   "name": "東急ステイ築地",
+   "area": "築地（走路到場外市場）",
+   "nights": 3,
+   "price_night_for2_twd": 8252,
+   "availability": "有空房",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/41702",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%80%A5%E3%82%B9%E3%83%86%E3%82%A4%E7%AF%89%E5%9C%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AF%89%E5%9C%B0",
+   "why": "：三晚 ¥119,600≈NT$24,757。12/31 早上走路就到築地場外，銀座也在走路範圍；有洗衣機"
+  },
+  {
+   "name": "京成リッチモンドホテル東京押上",
+   "area": "押上",
+   "nights": 3,
+   "price_night_for2_twd": 8301,
+   "availability": "有空房",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/183299",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E6%88%90%E3%83%AA%E3%83%83%E3%83%81%E3%83%A2%E3%83%B3%E3%83%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC%E6%8A%BC%E4%B8%8A",
+   "why": "：三晚 ¥120,300≈NT$24,902。押上第二選擇，房間比 ONE@Tokyo 大，Skyliner／アクセス特急同樣直達"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/28",
+   "weekday": "一",
+   "title": "飛東京，淺草晴空塔",
+   "area": "成田→押上→淺草",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早班機中午前到，放行李走去淺草吃波蘿麵包、看雷門，傍晚上晴空塔看日落，晚上在ホッピー通り喝第一杯",
+   "stops": [
+    {
+     "time": "04:30",
+     "name": "桃園機場第一航廈→酷航 TR 06:50 飛成田",
+     "kind": "transport",
+     "stay_min": 150,
+     "desc": "酷航 06:50 起飛、10:55 到成田。廉航 不含托運，兩人一件 20kg 共用就夠（加購價待確認）。",
+     "price_for2_twd": 23990,
+     "booking": "需預約",
+     "booking_url": "https://www.flyscoot.com/zh-tw",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%E7%AC%AC%E4%B8%80%E8%88%AA%E5%BB%88",
+     "site_url": "https://www.flyscoot.com/zh-tw",
+     "address": "桃園市大園區航站南路 15 號",
+     "tip": "台中出發前一晚北上住機場旁或搭 02:00 的客運；日本入境先在 Visit Japan Web 填好 QR",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Exterior_of_Terminal_1%2C_Taoyuan_Airport_20141230.jpg/1280px-Exterior_of_Terminal_1%2C_Taoyuan_Airport_20141230.jpg",
+      "credit": "KCS",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Visit Japan Web（入境＋海關 QR）",
+       "url": "https://www.vjw.digital.go.jp/"
+      },
+      {
+       "type": "official",
+       "title": "酷航官網",
+       "url": "https://www.flyscoot.com/zh-tw"
+      }
+     ]
+    },
+    {
+     "time": "11:30",
+     "name": "成田→押上：京成アクセス特急直達，飯店寄行李",
+     "kind": "transport",
+     "stay_min": 90,
+     "desc": "出關後在第 1 航廈地下京成月台搭「アクセス特急」直達押上，約 60 分、每人約 ¥1,300（待確認）；不用換車，到站走 1 分鐘就是 ONE@Tokyo。15:00 前只能寄行李。",
+     "price_for2_twd": 540,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=ONE%40Tokyo%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A2%A8%E7%94%B0%E5%8C%BA%E6%8A%BC%E4%B8%8A1-19-3",
+     "site_url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/162860",
+     "address": "東京都墨田区押上1-19-3",
+     "tip": "先在機場的 Wallet 裡建 Suica 並儲值 ¥5,000；趕時間或行李多再花 ¥2,570 搭 Skyliner 到日暮里轉車",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Keisei-Series3056.jpg/1280px-Keisei-Series3056.jpg",
+      "credit": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Apple 支援：在 iPhone 加入 Suica",
+       "url": "https://support.apple.com/ja-jp/HT207155"
+      },
+      {
+       "type": "blog",
+       "title": "成田機場交通 2026 年版料金整理（travelist）",
+       "url": "https://travelist.jp/airport_TYO/guide/posts/p524"
+      }
+     ]
+    },
+    {
+     "time": "13:30",
+     "name": "淺草寺・雷門・仲見世",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "從押上走隅田川吾妻橋過去 20 分（或地鐵一站）。雷門→仲見世商店街→本堂抽籤，年末人多但比 1/1 初詣少很多。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%85%E8%8D%89%E5%AF%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-3-1",
+     "site_url": "https://www.senso-ji.jp/",
+     "address": "東京都台東区浅草2-3-1",
+     "tip": "本堂 06:30–17:00 開，仲見世多數 18:00 收；先去本堂再回頭吃",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Kaminarimon_%28outer_gate%29%2C_Sensoji_Temple%2C_Akakusa%2C_Tokyo.jpg/1280px-Kaminarimon_%28outer_gate%29%2C_Sensoji_Temple%2C_Akakusa%2C_Tokyo.jpg",
+      "credit": "Daderot",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "淺草寺官網",
+       "url": "https://www.senso-ji.jp/"
+      },
+      {
+       "type": "youtube",
+       "title": "新宿Shinjuku｜越夜越熱鬧的歌舞伎町！到黃金街、思出橫丁體驗居酒屋文化（看的到、聽說的）",
+       "url": "https://www.youtube.com/watch?v=rRyCHK0DZBg"
+      }
+     ]
+    },
+    {
+     "time": "15:00",
+     "name": "浅草花月堂 本店 ジャンボめろんぱん",
+     "kind": "food",
+     "stay_min": 20,
+     "desc": "一天賣 3,000 個的大波蘿麵包，外酥內軟，一個約 ¥300；加霜淇淋夾心也行。",
+     "price_for2_twd": 125,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%85%E8%8D%89%E8%8A%B1%E6%9C%88%E5%A0%82%20%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-7-13",
+     "site_url": "https://www.asakusa-kagetsudo.com/",
+     "address": "東京都台東区浅草2-7-13",
+     "tip": "本店在西參道，離ホッピー通り 2 分，賣完就收",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/%E6%B5%85%E8%8D%89_%E8%8A%B1%E6%9C%88%E5%A0%82_%E3%83%A1%E3%83%AD%E3%83%B3%E3%83%91%E3%83%B3_%E3%82%BD%E3%83%95%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0_2016_%2829193162564%29.jpg",
+      "credit": "donchili",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "浅草花月堂 官方 IG（6.2K）",
+       "url": "https://www.instagram.com/asakusa.kagetsudo/"
+      },
+      {
+       "type": "blog",
+       "title": "サクふわ食感！浅草花月堂のジャンボめろんぱん（MATCHA）",
+       "url": "https://matcha-jp.com/jp/989"
+      }
+     ]
+    },
+    {
+     "time": "16:00",
+     "name": "東京晴空塔 天望デッキ 看日落",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "日落 16:35，16:00 上去可同時看白天、夕陽、夜景。天望デッキ（350m）平日線上票約 ¥2,100／人，假日與當日票較貴（待確認）；想省錢就在隅田川邊看塔點燈。",
+     "price_for2_twd": 870,
+     "booking": "建議預約",
+     "booking_url": "https://www.tokyo-skytree.jp/ticket/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A2%A8%E7%94%B0%E5%8C%BA%E6%8A%BC%E4%B8%8A1-1-2",
+     "site_url": "https://www.tokyo-skytree.jp/",
+     "address": "東京都墨田区押上1-1-2",
+     "tip": "就在飯店旁邊，先回飯店 check-in 再上去；年末可能有限定點燈",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tokyo_Skytree_at_night_view.jpg/1280px-Tokyo_Skytree_at_night_view.jpg",
+      "credit": "VaneTrz20",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "晴空塔購票頁",
+       "url": "https://www.tokyo-skytree.jp/ticket/"
+      },
+      {
+       "type": "blog",
+       "title": "東京晴空塔攻略（LIVE JAPAN）",
+       "url": "https://livejapan.com/zh-tw/in-tokyo/in-pref-tokyo/in-tokyo_skytree/article-a0000131/"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "ホッピー通り「鈴芳」牛すじ煮込み＋生ホッピー",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "淺草寺西側 80 公尺的露天大眾酒場街（又叫煮込み通り）。鈴芳是整條街唯一有「生ホッピー」（桶裝）的店，白／黑／半半三種；配牛すじ煮込み、串燒，兩人約 ¥4,000。11:30–21:00、週二休，12/28 週一有開。",
+     "price_for2_twd": 830,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%88%B4%E8%8A%B3%20%E3%83%9B%E3%83%83%E3%83%94%E3%83%BC%E9%80%9A%E3%82%8A%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-4-1",
+     "site_url": "https://tabelog.com/matome/8982/",
+     "address": "東京都台東区浅草2-4 ホッピー通り",
+     "tip": "露天座位冷，穿夠；正ちゃん週一二休、居酒屋浩司週一休，別白跑；21:00 關門後想續攤走到淺草地下街或回押上",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Koenhondori_shopping_street_asakusa_2014.jpg/1280px-Koenhondori_shopping_street_asakusa_2014.jpg",
+      "credit": "Kentin",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "浅草ホッピー通りのおすすめ店（食べログまとめ）",
+       "url": "https://tabelog.com/matome/8982/"
+      },
+      {
+       "type": "blog",
+       "title": "ホッピー通り完全ガイド（aumo）",
+       "url": "https://aumo.jp/articles/19735"
+      },
+      {
+       "type": "blog",
+       "title": "浅草のホッピー通り（MATCHA）",
+       "url": "https://matcha-jp.com/jp/63"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/29",
+   "weekday": "二",
+   "title": "鎌倉江之島海岸步行",
+   "area": "鎌倉・江之島→新宿",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "挑戰日：大佛、長谷寺之後沿湘南海岸走到江之島（7 公里），吃生吻仔魚丼、看富士山夕陽，晚上回新宿思い出横丁＋黃金街",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "新宿→藤澤→江ノ電長谷：鎌倉大佛（高徳院）＋長谷寺",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "押上搭地鐵到新宿（約 35 分），買小田急「江の島・鎌倉フリーパス」¥1,640／人（含來回＋江ノ電無限搭），小田急到藤澤→江ノ電到長谷站，走 7 分到大佛（門票 ¥300，胎內加 ¥50）；再走 10 分到花之寺長谷寺（¥400），冬天有水仙和早梅，見晴台俯瞰由比ヶ浜。",
+     "price_for2_twd": 975,
+     "booking": "免預約",
+     "booking_url": "https://odakyu-global.com/passes/enoshima-kamakura-freepass/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E5%BE%B3%E9%99%A2%20%E9%8E%8C%E5%80%89%E5%A4%A7%E4%BB%8F%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E9%8E%8C%E5%80%89%E5%B8%82%E9%95%B7%E8%B0%B74-2-28",
+     "site_url": "https://www.kotoku-in.jp/",
+     "address": "神奈川県鎌倉市長谷4-2-28（長谷寺：長谷3-11-2）",
+     "tip": "價格含兩人 Freepass ¥3,280＋兩寺門票 ¥1,400；押上→新宿地鐵另約 ¥300／人。09:30 前到大佛人少；順路買一個「大仏さま焼」當路上點心",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/The_Great_Buddha_of_Kamakura.jpg/1280px-The_Great_Buddha_of_Kamakura.jpg",
+      "credit": "Alexandar Vujadinovic",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "小田急 江の島・鎌倉フリーパス",
+       "url": "https://odakyu-global.com/passes/enoshima-kamakura-freepass/"
+      },
+      {
+       "type": "youtube",
+       "title": "【鎌倉江之電一日遊】10個推薦景點美食（實彩子Misako）",
+       "url": "https://www.youtube.com/watch?v=KlF1VIU_tIM"
+      },
+      {
+       "type": "blog",
+       "title": "長谷駅から北へ：長谷寺と鎌倉大仏を巡る（LIVE JAPAN）",
+       "url": "https://livejapan.com/ja/in-kamakura/article-a0001493/"
+      }
+     ]
+    },
+    {
+     "time": "10:30",
+     "name": "挑戰：長谷→由比ヶ浜→稲村ヶ崎→七里ヶ浜→鎌倉高校前→江之島 海岸步行",
+     "kind": "challenge",
+     "stay_min": 150,
+     "desc": "沿國道 134 的海岸人行道走約 7 公里、2–2.5 小時，一路看江ノ電貼著海跑；中途經過《灌籃高手》平交道（鎌倉高校前）和七里ヶ浜的海景咖啡。走不動隨時跳上江ノ電（Freepass 含）。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%8E%8C%E5%80%89%E9%AB%98%E6%A0%A1%E5%89%8D%E9%A7%85%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E9%8E%8C%E5%80%89%E5%B8%82%E8%85%B0%E8%B6%8A1-1-25",
+     "site_url": "https://kanagawa-kankou.or.jp/courses/14",
+     "address": "神奈川県鎌倉市 由比ヶ浜～腰越 海岸",
+     "tip": "12 月海風大，防風外套＋帽子；晴天從稲村ヶ崎起就看得到富士山；平交道拍照別站在路中間",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kamakurakokomae_station_2020_8_21.jpg/1280px-Kamakurakokomae_station_2020_8_21.jpg",
+      "credit": "Nesnad",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "不走人擠人路線！鎌倉江之島一日遊 私藏富士山江之電拍攝點（黃小米Mii）",
+       "url": "https://www.youtube.com/watch?v=tptsoYQFXmY"
+      },
+      {
+       "type": "youtube",
+       "title": "鎌倉、江之島一日遊真的太硬了！單日狂走27000步（地方爸爸 Luis）",
+       "url": "https://www.youtube.com/watch?v=GHshiG1E15M"
+      },
+      {
+       "type": "blog",
+       "title": "江ノ電鎌倉高校前（灌籃高手平交道）",
+       "url": "https://www.gltjp.com/zh-hant/directory/item/11211/"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "しらす問屋 とびっちょ 本店 生吻仔魚丼",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "江之島最有名的吻仔魚專門店，生しらす只在當天有漁獲時供應（1/1–3/10 禁漁，12 月底看天氣）；招牌「とびっちょ丼」蝦、鮪魚、鮭魚卵加熟吻仔魚。兩人約 ¥4,500。",
+     "price_for2_twd": 930,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%82%89%E3%81%99%E5%95%8F%E5%B1%8B%20%E3%81%A8%E3%81%B3%E3%81%A3%E3%81%A1%E3%82%87%20%E6%9C%AC%E5%BA%97%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E8%97%A4%E6%B2%A2%E5%B8%82%E6%B1%9F%E3%81%AE%E5%B3%B61-6-7",
+     "site_url": "https://tobiccho.com/",
+     "address": "神奈川県藤沢市江の島1-6-7",
+     "tip": "開店前就排隊，13:00 以後人少一點；滿了就去弁天仲見世通り分店",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shirasu-don_001.jpg/1280px-Shirasu-don_001.jpg",
+      "credit": "Ocdp",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "しらす問屋 とびっちょ 官方 IG",
+       "url": "https://www.instagram.com/tobiccho/"
+      },
+      {
+       "type": "blog",
+       "title": "江の島 とびっちょ 本店（食べログまとめ）",
+       "url": "https://tabelog.com/matome/25156/"
+      }
+     ]
+    },
+    {
+     "time": "14:30",
+     "name": "江島神社→江の島シーキャンドル 看富士山夕陽",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "走弁天仲見世通り上江島神社，買「シーキャンドルセット券」¥1,100（エスカー手扶梯＋燈塔展望台），16:35 日落時從燈塔看富士山剪影；冬天空氣乾淨，看到機率最高。",
+     "price_for2_twd": 455,
+     "booking": "免預約",
+     "booking_url": "https://enoshima-seacandle.com/tickets/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B1%9F%E3%81%AE%E5%B3%B6%E3%82%B7%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%89%E3%83%AB%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E8%97%A4%E6%B2%A2%E5%B8%82%E6%B1%9F%E3%81%AE%E5%B3%B62-3",
+     "site_url": "https://enoshima-seacandle.com/",
+     "address": "神奈川県藤沢市江の島2-3-28",
+     "tip": "看完夕陽走回片瀬江ノ島站，小田急直達新宿約 70 分（Freepass 含；想坐 Romancecar 加 ¥750）",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sunset_from_Enoshima_%285500601617%29.jpg/1280px-Sunset_from_Enoshima_%285500601617%29.jpg",
+      "credit": "Takashi Hososhima",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "江の島シーキャンドル 票價",
+       "url": "https://enoshima-seacandle.com/tickets/"
+      },
+      {
+       "type": "youtube",
+       "title": "【鎌倉江之島一日遊】富士山日落！登上瞭望台+限定夜間燈飾（Kiki & May）",
+       "url": "https://www.youtube.com/watch?v=KAtLRMsGc0s"
+      },
+      {
+       "type": "ig",
+       "title": "#enoshima",
+       "url": "https://www.instagram.com/explore/tags/enoshima/"
+      }
+     ]
+    },
+    {
+     "time": "19:00",
+     "name": "思い出横丁「鳥園」串燒晚餐",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "新宿西口 80 公尺的昭和小巷、60 多間燒烤店。鳥園開了 70 年、是橫丁裡座位最多的一間，名物是放在木飯杓上的つくね；串燒 ¥150–300、生啤 ¥600，兩人約 ¥5,000。12:00–23:40 無休。",
+     "price_for2_twd": 1035,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%B3%A5%E5%9C%92%20%E6%80%9D%E3%81%84%E5%87%BA%E6%A8%AA%E4%B8%81%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E8%A5%BF%E6%96%B0%E5%AE%BF1-2-7",
+     "site_url": "https://r.gnavi.co.jp/ga3y900/",
+     "address": "東京都新宿区西新宿1-2-7",
+     "tip": "有英文菜單；橫丁多數店有 ¥300–500 お通し，是正常的",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Shinjuku-West_Omoide-Yokocho.jpg/1280px-Shinjuku-West_Omoide-Yokocho.jpg",
+      "credit": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "#omoideyokocho（82K reels）",
+       "url": "https://www.instagram.com/explore/tags/omoideyokocho/"
+      },
+      {
+       "type": "official",
+       "title": "鳥園（ぐるなび）",
+       "url": "https://r.gnavi.co.jp/ga3y900/"
+      },
+      {
+       "type": "blog",
+       "title": "橫丁指南：思い出横丁（Time Out Tokyo）",
+       "url": "https://www.timeout.jp/tokyo/ja/nightlife/yokocho-guide-omoide-yokocho"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "新宿黃金街「Albatross G」＋跳一兩間",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "歌舞伎町旁 6 條小巷、近 300 間 5–10 席的小酒吧。Albatross G 是 Time Out 推薦、對觀光客最友善的入門店：紅絲絨＋水晶燈的三層樓小屋，charge ¥500、調酒 ¥800 起；之後再走去 The Open Book（檸檬沙瓦）或 Deathmatch in Hell（金屬恐怖片吧）。兩人兩間約 ¥6,000。",
+     "price_for2_twd": 1240,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Albatross%20G%20%E6%96%B0%E5%AE%BF%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E8%A1%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA1-1-7",
+     "site_url": "https://www.timeout.jp/tokyo/ja/bars-and-pubs/best-bars-in-golden-gai-shinjuku",
+     "address": "東京都新宿区歌舞伎町1-1-7",
+     "tip": "20:00 後店才陸續開；不要拍店內、不要拍人；門口寫「会員制」或沒標價的店別硬闖；每間 1 杯就換，別待太久",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/2024-10-20_Shinjuku_Golden_Gai_at_night.jpg/1280px-2024-10-20_Shinjuku_Golden_Gai_at_night.jpg",
+      "credit": "Alexkom000",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "鑽進東京小巷弄！深入神秘黃金街！意外走進怪奇醫院酒吧？（鬧著玩 Nowyouon）",
+       "url": "https://www.youtube.com/watch?v=iMiT6UOUOlQ"
+      },
+      {
+       "type": "youtube",
+       "title": "【東京vlog（上）】新宿黃金街特色酒吧（參拾）",
+       "url": "https://www.youtube.com/watch?v=17Yxgot8KH4"
+      },
+      {
+       "type": "blog",
+       "title": "新宿ゴールデン街のおすすめバー（Time Out Tokyo）",
+       "url": "https://www.timeout.jp/tokyo/ja/bars-and-pubs/best-bars-in-golden-gai-shinjuku"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "豐洲壽司、teamLab、澀谷",
+   "area": "豐洲→新宿→澀谷",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早起去豐洲市場吃老店握壽司，隔壁 teamLab Planets 玩到中午，新宿吃百名店拉麵，傍晚 SHIBUYA SKY 看日落，晚上燒肉＋のんべい横丁",
+   "stops": [
+    {
+     "time": "06:30",
+     "name": "豐洲市場「大和寿司」握壽司早餐",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "從築地搬來的老店，老闆直接去市場挑魚；おまかせ 10 貫約 ¥6,000–8,000／人。06:00–13:00、週日休，12/30（三）市場有開（12/31 休市）。排隊 30–90 分，比隔壁壽司大（凌晨 4 點就排 2 小時）人性。",
+     "price_for2_twd": 2900,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%92%8C%E5%AF%BF%E5%8F%B8%20%E8%B1%8A%E6%B4%B2%E5%B8%82%E5%A0%B4%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E8%B1%8A%E6%B4%B26-3-1%205%E8%A1%97%E5%8C%BA",
+     "site_url": "https://hamoni.jp/en/shop/QfFxqhKi5oxqqw07kV3r",
+     "address": "東京都江東区豊洲6-3-1 豊洲市場 5 街区 青果棟 1F",
+     "tip": "押上→豐洲約 35 分（半蔵門線→有樂町線→ゆりかもめ市場前）；吃完到 6 街區看鮪魚拍賣廊道、千客万来 的足湯",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Toyosu_fish_market-2h.jpg/1280px-Toyosu_fish_market-2h.jpg",
+      "credit": "江戸村のとくぞう",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "大和寿司 官方 IG（11.1K）",
+       "url": "https://www.instagram.com/daiwazushi/"
+      },
+      {
+       "type": "youtube",
+       "title": "壽司大vs大和壽司 @豐洲市場（丹尼爾公園Daniel Park）",
+       "url": "https://www.youtube.com/watch?v=K7wozVAkdqA"
+      },
+      {
+       "type": "official",
+       "title": "豐洲市場 2026 開市日曆（JNTO PDF）",
+       "url": "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+      }
+     ]
+    },
+    {
+     "time": "09:00",
+     "name": "teamLab Planets TOKYO（豐洲）",
+     "kind": "activity",
+     "stay_min": 150,
+     "desc": "赤腳走水、躺在鏡面花園的沉浸式美術館，從市場走 5 分。大人 ¥3,800 起、日時指定、當日券買不到；2025 年新增 Forest 區，要留 2 小時以上。",
+     "price_for2_twd": 1575,
+     "booking": "需預約",
+     "booking_url": "https://teamlabplanets.dmm.com/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=teamLab%20Planets%20TOKYO%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E8%B1%8A%E6%B4%B26-1-16",
+     "site_url": "https://www.teamlab.art/jp/e/planets/",
+     "address": "東京都江東区豊洲6-1-16",
+     "tip": "穿好脫的褲子（水到小腿）；開館第一場最空。想看麻布台的 Borderless 也行但要另外半天",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Photos_at_teamlab_planets_tokyo.jpg/1280px-Photos_at_teamlab_planets_tokyo.jpg",
+      "credit": "Sasa0403",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "teamLab Planets 官方購票",
+       "url": "https://teamlabplanets.dmm.com/"
+      },
+      {
+       "type": "youtube",
+       "title": "2026 teamLab 無邊界 vs 星球，實際動線告訴你（小卡的美麗日誌）",
+       "url": "https://www.youtube.com/watch?v=siElXtETdDE"
+      },
+      {
+       "type": "youtube",
+       "title": "東京豐洲一日行程 teamLab Planets＋千客萬來（李佳穎）",
+       "url": "https://www.youtube.com/watch?v=LkFtbssXB6Y"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "らぁ麺 はやし田 新宿本店",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "食べログ拉麵百名店 TOKYO，鴨＋大山雞清湯醬油拉麵，不是一蘭那種連鎖；特製醬油らぁ麺約 ¥1,300。豐洲→新宿約 40 分。",
+     "price_for2_twd": 540,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%81%81%E9%BA%BA%20%E3%81%AF%E3%82%84%E3%81%97%E7%94%B0%20%E6%96%B0%E5%AE%BF%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF3-31-5",
+     "site_url": "https://tabelog.com/matome/5848/",
+     "address": "東京都新宿区新宿3-31-5 新宿ペガサス館 1F",
+     "tip": "午餐尖峰 12–13 時排 20 分；吃完新宿→澀谷山手線 2 站",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg/1280px-Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg",
+      "credit": "Quercus acuta",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "らぁ麺 はやし田 官方 IG",
+       "url": "https://www.instagram.com/ramen_hayashida/"
+      },
+      {
+       "type": "blog",
+       "title": "新宿ラーメン百名店まとめ（食べログ）",
+       "url": "https://tabelog.com/matome/5848/"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "SHIBUYA SKY 屋頂看日落",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "澀谷 Scramble Square 229m 的露天屋頂，俯瞰十字路口，晴天看得到富士山。完全預約制、日落時段最早賣完；大人線上票約 ¥2,000–2,700（官網抓不到，待確認）。日落 16:35，訂 15:30 入場。",
+     "price_for2_twd": 1035,
+     "booking": "需預約",
+     "booking_url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=SHIBUYA%20SKY%20%E6%B8%8B%E8%B0%B7%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B72-24-12",
+     "site_url": "https://www.shibuya-scramble-square.com/sky/",
+     "address": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア 14F 入口",
+     "tip": "票約 2 週前的 00:05 開賣，12/16 零點上官網搶 12/30 15:30 場；屋頂風大、包包要寄櫃",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Shibuya_Crossing%2C_Aerial.jpg/1280px-Shibuya_Crossing%2C_Aerial.jpg",
+      "credit": "David Kernan",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "SHIBUYA SKY 購票",
+       "url": "https://www.shibuya-scramble-square.com/sky/ticket/"
+      },
+      {
+       "type": "blog",
+       "title": "渋谷スカイ予約 2026 年最新ガイド（trvlogue）",
+       "url": "https://www.trvlogue.com/ja/shibuya-sky-tokyo-guide"
+      },
+      {
+       "type": "blog",
+       "title": "SHIBUYA SKY 混雑と狙い目時間（banzokubiology）",
+       "url": "https://banzokubiology.com/shibuya-sky-crowd/"
+      }
+     ]
+    },
+    {
+     "time": "18:00",
+     "name": "焼肉ホルモン 新井屋 渋谷",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "食べログ百名店、IG 14.7K 的燒肉店：厚切牛肝、香草奶油心臟、一整片 BIG ハラミ 現場剪；人均約 ¥9,800，兩人約 ¥20,000。",
+     "price_for2_twd": 4060,
+     "booking": "需預約",
+     "booking_url": "https://retty.me/restaurant/100001500738/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E6%96%B0%E4%BA%95%E5%B1%8B%20%E6%B8%8B%E8%B0%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA",
+     "site_url": "https://www.instagram.com/araiya_shibuya/",
+     "address": "東京都渋谷区（渋谷駅徒步數分，詳見 IG）",
+     "tip": "要訂位（Retty／電話）；預算省一半的替代：焼肉ライク 渋谷（一人一爐 ¥1,500 起）",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Yakiniku_20200830-05.jpg/1280px-Yakiniku_20200830-05.jpg",
+      "credit": "円周率３パーセント",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "新井屋 渋谷 官方 IG（14.7K）",
+       "url": "https://www.instagram.com/araiya_shibuya/"
+      },
+      {
+       "type": "blog",
+       "title": "行列覚悟の予約推奨店「焼肉ホルモン新井屋 渋谷」（Retty）",
+       "url": "https://retty.me/theme/100651615/"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "渋谷のんべい横丁",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "澀谷站旁鐵道邊的 1950 年老橫丁，近 40 間 6–10 席小店：四代おでん「なだ一」、老居酒屋「会津」、也有葡萄酒吧。多數 18:00–24:00 開。兩人兩杯加小菜約 ¥5,000。",
+     "price_for2_twd": 1035,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%8B%E8%B0%B7%E3%81%AE%E3%82%93%E3%81%B9%E3%81%84%E6%A8%AA%E4%B8%81%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B71-25",
+     "site_url": "https://www.gltjp.com/zh-hant/directory/item/10870/",
+     "address": "東京都渋谷区渋谷1-25-9",
+     "tip": "從 SHIBUYA SKY 走 5 分；想安靜一點改去宮下公園下的「渋谷横丁」（比較觀光）",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shibuya_Nonbei_Yokocho_%2853085175407%29.jpg/1280px-Shibuya_Nonbei_Yokocho_%2853085175407%29.jpg",
+      "credit": "Dick Thomas Johnson",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "渋谷のんべい横丁（MATCHA）",
+       "url": "https://matcha-jp.com/jp/22757"
+      },
+      {
+       "type": "blog",
+       "title": "東京の横丁ガイド（Time Out Tokyo）",
+       "url": "https://www.timeout.jp/tokyo/ja/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/%E6%9D%B1%E4%BA%AC%E3%81%AE%E6%A8%AA%E4%B8%81%E3%82%AC%E3%82%A4%E3%83%89"
+      },
+      {
+       "type": "blog",
+       "title": "渋谷のんべい横丁 介紹（GOOD LUCK TRIP 繁中）",
+       "url": "https://www.gltjp.com/zh-hant/directory/item/10870/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "築地年末市集，回家",
+   "area": "築地→芝公園→上野→成田",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "大晦日早上擠築地場外吃玉子燒和海鮮丼，增上寺看東京鐵塔，阿美橫町採買年貨，上野立飲收尾，傍晚回押上拿行李去成田",
+   "stops": [
+    {
+     "time": "08:30",
+     "name": "築地場外市場：山長串玉、海鮮丼邊走邊吃",
+     "kind": "food",
+     "stay_min": 120,
+     "desc": "12/31 是築地一年最擠的一天（日本人買年菜），但也最有年味。1949 年創業的「山長」串玉子燒一串 ¥150、丸武玉子燒、再找一家海鮮丼；兩人約 ¥5,000。多數店 09:00–14:00。",
+     "price_for2_twd": 1035,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AF%89%E5%9C%B04-16-2",
+     "site_url": "https://www.tsukiji.or.jp/",
+     "address": "東京都中央区築地4-16-2",
+     "tip": "08:30 前到人還能走；押上→築地 都営浅草線 東銀座站走 5 分。先退房、行李寄飯店",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Tsukiji_Outer_Market_2.jpg/1280px-Tsukiji_Outer_Market_2.jpg",
+      "credit": "Aw1805",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "#tsukiji（1.9M reels）",
+       "url": "https://www.instagram.com/explore/tags/tsukiji/"
+      },
+      {
+       "type": "blog",
+       "title": "築地場外市場の年末年始・混雑カレンダー（banzokubiology）",
+       "url": "https://banzokubiology.com/tsukiji-crowd-tips/"
+      },
+      {
+       "type": "blog",
+       "title": "築地 食べ歩きガイド（Time Out Tokyo）",
+       "url": "https://www.timeout.jp/tokyo/ja/restaurant/tsukiji-tabearuki"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "增上寺＋東京鐵塔",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "築地搭大江戶線到大門走 7 分。德川家菩提寺，大殿正後方就是東京鐵塔，是東京最好拍的寺塔同框。免費。今晚 0:00 這裡敲除夜鐘 108 下（跨年版才聽得到）。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A2%97%E4%B8%8A%E5%AF%BA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%8A%9D%E5%85%AC%E5%9C%924-7-35",
+     "site_url": "https://www.zojoji.or.jp/",
+     "address": "東京都港区芝公園4-7-35",
+     "tip": "改跨年版的話：鐘つき券 12/1 09:00 起少量發售，沒券也能在境內跟著倒數看鐵塔",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tokyo_Tower_and_Zojoji_temple_%287475558188%29.jpg/1280px-Tokyo_Tower_and_Zojoji_temple_%287475558188%29.jpg",
+      "credit": "KimonBerlin",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "除夜の鐘（増上寺）活動頁（るるぶ）",
+       "url": "https://rurubu.jp/andmore/spot/20000740"
+      },
+      {
+       "type": "blog",
+       "title": "東京 年末年始＆カウントダウンまとめ（FUN! JAPAN）",
+       "url": "https://fun-japan.jp/jp/articles/14322"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "上野阿美橫町 年末市集",
+     "kind": "shop",
+     "stay_min": 90,
+     "desc": "12/28–12/31 阿美橫町變成年貨大街，海鮮、乾貨攤叫賣，是東京年末最有畫面的地方；買海苔、昆布、零食當伴手禮。",
+     "price_for2_twd": 400,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%A1%E6%A8%AA%20%E3%82%A2%E3%83%A1%E3%83%A4%E6%A8%AA%E4%B8%81%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%8A%E9%87%8E6-10",
+     "site_url": "https://www.ameyoko.net/",
+     "address": "東京都台東区上野6-10",
+     "tip": "人潮比築地還密，錢包放前面；要買冷藏的別買，回家帶不了",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ameyoko_Shopping_Streets%2C_Ueno_%2853416667926%29.jpg/1280px-Ameyoko_Shopping_Streets%2C_Ueno_%2853416667926%29.jpg",
+      "credit": "Stephen Kelly",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "アメ横商店街 官網",
+       "url": "https://www.ameyoko.net/"
+      },
+      {
+       "type": "blog",
+       "title": "東京の年末年始でやっておきたいこと10選（LIVE JAPAN）",
+       "url": "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-roppongi/article-a0001606/"
+      }
+     ]
+    },
+    {
+     "time": "14:00",
+     "name": "立飲み たきおか（上野）最後一杯",
+     "kind": "bar",
+     "stay_min": 60,
+     "desc": "阿美橫町旁開了幾十年的站著喝大眾酒場，07:00 就開、無休；煮込み、刺身、串燒 ¥160–300，大瓶啤酒、Highball ¥300–490，現金即付。兩人喝兩杯吃三樣約 ¥2,500。15:00 離開回押上拿行李。",
+     "price_for2_twd": 520,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E9%A3%B2%E3%81%BF%20%E3%81%9F%E3%81%8D%E3%81%8A%E3%81%8B%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%8A%E9%87%8E6-9-14",
+     "site_url": "https://tabelog.com/tokyo/A1311/A131101/13024952/",
+     "address": "東京都台東区上野6-9-14",
+     "tip": "回程：上野→押上約 25 分拿行李，16:00 押上搭アクセス特急直達成田第 1 航廈（約 60 分、¥1,300），酷航 19:45 起飛、17:45 前到櫃台。成田 T2 連絡通路有 NRT BEER FLIGHT CAFE（20 種精釀），T1 出境後酒吧待確認",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ameyoko_Shopping_Street_%40_Ueno_%289254214098%29.jpg/1280px-Ameyoko_Shopping_Street_%40_Ueno_%289254214098%29.jpg",
+      "credit": "Guilhem Vellut",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "立飲み たきおか（食べログ）",
+       "url": "https://tabelog.com/tokyo/A1311/A131101/13024952/"
+      },
+      {
+       "type": "blog",
+       "title": "上野の立ち飲み名店まとめ（aumo）",
+       "url": "https://aumo.jp/articles/25845"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "大和寿司（豐洲市場）",
+   "dish": "おまかせ握壽司 10 貫、鮪魚三種",
+   "price_for2_twd": 2900,
+   "area": "豐洲市場 5 街區",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%92%8C%E5%AF%BF%E5%8F%B8%20%E8%B1%8A%E6%B4%B2%E5%B8%82%E5%A0%B4%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E8%B1%8A%E6%B4%B26-3-1%205%E8%A1%97%E5%8C%BA",
+   "why": "築地時代就排隊的老店，IG 11.1K；比壽司大（凌晨排 2 小時）好排；多支台灣 vlog 兩家都吃過",
+   "source": "https://hamoni.jp/en/shop/QfFxqhKi5oxqqw07kV3r",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Long%2C_winding_line_in_front_of_the_Daiwa_sushi_restaurant_%282076786741%29.jpg/1280px-Long%2C_winding_line_in_front_of_the_Daiwa_sushi_restaurant_%282076786741%29.jpg",
+    "credit": "KimonBerlin",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "大和寿司 官方 IG",
+     "url": "https://www.instagram.com/daiwazushi/"
+    },
+    {
+     "type": "youtube",
+     "title": "再累也要爬起來排隊必吃!!豐洲市場第一輪壽司大vs大和壽司（吉吉與芝麻）",
+     "url": "https://www.youtube.com/watch?v=BrkYxfpEkig"
+    },
+    {
+     "type": "blog",
+     "title": "豐洲市場美食精選（LIVE JAPAN 繁中）",
+     "url": "https://livejapan.com/zh-tw/in-tokyo/in-pref-tokyo/in-odaiba/article-a0002910"
+    }
+   ]
+  },
+  {
+   "name": "らぁ麺 はやし田 新宿本店",
+   "dish": "特製醤油らぁ麺（鴨＋大山雞湯）",
+   "price_for2_twd": 540,
+   "area": "新宿三丁目",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%81%81%E9%BA%BA%20%E3%81%AF%E3%82%84%E3%81%97%E7%94%B0%20%E6%96%B0%E5%AE%BF%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF3-31-5",
+   "why": "食べログ拉麵百名店 TOKYO；INGS 集團在新宿的本店，是日本人排的那種，不是觀光連鎖",
+   "source": "https://tabelog.com/matome/5848/",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg/1280px-Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg",
+    "credit": "Quercus acuta",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "らぁ麺 はやし田 官方 IG",
+     "url": "https://www.instagram.com/ramen_hayashida/"
+    },
+    {
+     "type": "blog",
+     "title": "新宿の名店が進出「らぁ麺 はやし田」（macaroni）",
+     "url": "https://macaro-ni.jp/110076?page=2"
+    }
+   ]
+  },
+  {
+   "name": "焼肉ホルモン 新井屋 渋谷",
+   "dish": "厚切牛肝、BIG ハラミ、香草奶油心臟",
+   "price_for2_twd": 4060,
+   "area": "澀谷",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E6%96%B0%E4%BA%95%E5%B1%8B%20%E6%B8%8B%E8%B0%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA",
+   "why": "食べログ百名店、上過 30 次以上媒體；Retty 2026 澀谷燒肉第一名，要預約",
+   "source": "https://retty.me/theme/100651615/",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Yakiniku_20200830-05.jpg/1280px-Yakiniku_20200830-05.jpg",
+    "credit": "円周率３パーセント",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "新井屋 渋谷 官方 IG（14.7K）",
+     "url": "https://www.instagram.com/araiya_shibuya/"
+    },
+    {
+     "type": "blog",
+     "title": "渋谷 焼肉 おすすめ（Retty）",
+     "url": "https://retty.me/theme/100651615/"
+    }
+   ]
+  },
+  {
+   "name": "しらす問屋 とびっちょ 本店（江之島）",
+   "dish": "生しらす丼／とびっちょ丼（蝦、鮪魚、鮭魚卵、熟吻仔魚）",
+   "price_for2_twd": 930,
+   "area": "江之島",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%82%89%E3%81%99%E5%95%8F%E5%B1%8B%20%E3%81%A8%E3%81%B3%E3%81%A3%E3%81%A1%E3%82%87%20%E6%9C%AC%E5%BA%97%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E8%97%A4%E6%B2%A2%E5%B8%82%E6%B1%9F%E3%81%AE%E5%B3%B61-6-7",
+   "why": "江之島吻仔魚丼的代名詞，開店前就排；生しらす只在當天有漁獲時供應",
+   "source": "https://tabelog.com/matome/25156/",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shirasu-don_001.jpg/1280px-Shirasu-don_001.jpg",
+    "credit": "Ocdp",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "とびっちょ 官方 IG",
+     "url": "https://www.instagram.com/tobiccho/"
+    },
+    {
+     "type": "youtube",
+     "title": "最美夏日鎌倉江之島一日遊，小町通美食推薦（老辣妹）",
+     "url": "https://www.youtube.com/watch?v=-F-Q8ROf5rU"
+    }
+   ]
+  },
+  {
+   "name": "鳥園（新宿思い出横丁）",
+   "dish": "木飯杓上的つくね、串燒、ホッピー",
+   "price_for2_twd": 1035,
+   "area": "新宿西口",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%B3%A5%E5%9C%92%20%E6%80%9D%E3%81%84%E5%87%BA%E6%A8%AA%E4%B8%81%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E8%A5%BF%E6%96%B0%E5%AE%BF1-2-7",
+   "why": "思い出横丁開了 70 年、座位最多、外國人也多的一間，12:00–23:40 無休",
+   "source": "https://r.gnavi.co.jp/ga3y900/",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Shinjuku-West_Omoide-Yokocho.jpg/1280px-Shinjuku-West_Omoide-Yokocho.jpg",
+    "credit": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "#omoideyokocho（82K reels）",
+     "url": "https://www.instagram.com/explore/tags/omoideyokocho/"
+    },
+    {
+     "type": "official",
+     "title": "鳥園 名物料理（ぐるなび）",
+     "url": "https://r.gnavi.co.jp/ga3y900/menu2/"
+    },
+    {
+     "type": "youtube",
+     "title": "新宿Shinjuku｜到黃金街、思出橫丁體驗居酒屋文化（看的到、聽說的）",
+     "url": "https://www.youtube.com/watch?v=rRyCHK0DZBg"
+    }
+   ]
+  },
+  {
+   "name": "浅草花月堂 本店",
+   "dish": "ジャンボめろんぱん（一天 3,000 個）",
+   "price_for2_twd": 125,
+   "area": "淺草西參道",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%85%E8%8D%89%E8%8A%B1%E6%9C%88%E5%A0%82%20%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-7-13",
+   "why": "淺草最有名的邊走邊吃，IG 6.2K、電視常客",
+   "source": "https://matcha-jp.com/jp/989",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/%E6%B5%85%E8%8D%89_%E8%8A%B1%E6%9C%88%E5%A0%82_%E3%83%A1%E3%83%AD%E3%83%B3%E3%83%91%E3%83%B3_%E3%82%BD%E3%83%95%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0_2016_%2829193162564%29.jpg",
+    "credit": "donchili",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "浅草花月堂 官方 IG",
+     "url": "https://www.instagram.com/asakusa.kagetsudo/"
+    },
+    {
+     "type": "blog",
+     "title": "浅草花月堂のジャンボめろんぱん（MATCHA）",
+     "url": "https://matcha-jp.com/jp/989"
+    }
+   ]
+  },
+  {
+   "name": "築地場外「山長」串玉子燒",
+   "dish": "串玉（一串 ¥150）、甜／不甜兩種",
+   "price_for2_twd": 1035,
+   "area": "築地場外市場",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%AF%89%E5%9C%B0%20%E5%B1%B1%E9%95%B7%20%E7%8E%89%E5%AD%90%E7%84%BC%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AF%89%E5%9C%B04-10-10",
+   "why": "1949 年創業、發明串玉子燒的店，一天賣 2,000 串；配海鮮丼就是築地早餐（兩人含海鮮丼約 ¥5,000）",
+   "source": "https://www.nippon.com/ja/guide-to-japan/gu900250/",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tsukiji_Outer_Market_-04.jpg/1280px-Tsukiji_Outer_Market_-04.jpg",
+    "credit": "Aimaimyi",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "#tsukiji（1.9M reels）",
+     "url": "https://www.instagram.com/explore/tags/tsukiji/"
+    },
+    {
+     "type": "blog",
+     "title": "築地場外市場 食べ歩き（nippon.com）",
+     "url": "https://www.nippon.com/ja/guide-to-japan/gu900250/"
+    },
+    {
+     "type": "blog",
+     "title": "築地市場 フードガイド（trvlogue）",
+     "url": "https://www.trvlogue.com/ja/tsukiji-market-food-guide"
+    }
+   ],
+   "note": "山長官方 IG 未找到，改用 #tsukiji 標籤頁"
+  },
+  {
+   "name": "ホッピー通り 鈴芳（淺草）",
+   "dish": "牛すじ煮込み＋生ホッピー（白／黑／半半）",
+   "price_for2_twd": 830,
+   "area": "淺草寺西側",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%88%B4%E8%8A%B3%20%E3%83%9B%E3%83%83%E3%83%94%E3%83%BC%E9%80%9A%E3%82%8A%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-4-1",
+   "why": "整條街唯一桶裝生ホッピー的店；食べログ、aumo 的ホッピー通り清單都列",
+   "source": "https://tabelog.com/matome/8982/",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Koenhondori_shopping_street_asakusa_2014.jpg/1280px-Koenhondori_shopping_street_asakusa_2014.jpg",
+    "credit": "Kentin",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "#asakusa（10M reels，搜 ホッピー通り）",
+     "url": "https://www.instagram.com/explore/tags/asakusa/"
+    },
+    {
+     "type": "blog",
+     "title": "浅草ホッピー通りのおすすめ（食べログまとめ）",
+     "url": "https://tabelog.com/matome/8982/"
+    },
+    {
+     "type": "blog",
+     "title": "ホッピー通りガイド（aumo）",
+     "url": "https://aumo.jp/articles/19735"
+    }
+   ],
+   "note": "店家無官方 IG、#hoppystreet 標籤頁被登入牆擋，改用 #asakusa 標籤頁"
+  }
+ ],
+ "challenges": [
+  {
+   "name": "鎌倉→江之島 湘南海岸步行",
+   "what": "長谷（大佛）沿國道 134 海岸走到江之島，約 7 公里、2–2.5 小時，經稲村ヶ崎、七里ヶ浜、鎌倉高校前平交道；累了跳江ノ電",
+   "price_for2_twd": 0,
+   "duration": "半天",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://kanagawa-kankou.or.jp/courses/14",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%A8%B2%E6%9D%91%E3%83%B6%E5%B4%8E%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E9%8E%8C%E5%80%89%E5%B8%82%E7%A8%B2%E6%9D%91%E3%82%AC%E5%B4%8E",
+   "note": "已排在第 2 天。冬天海風強但晴天率高、富士山最清楚；有 Freepass 隨時可上車",
+   "links": [
+    {
+     "type": "youtube",
+     "title": "鎌倉、江之島一日遊真的太硬了！單日狂走27000步（地方爸爸 Luis）",
+     "url": "https://www.youtube.com/watch?v=GHshiG1E15M"
+    },
+    {
+     "type": "blog",
+     "title": "鎌倉大仏・長谷寺・江ノ島コース（神奈川県観光協会）",
+     "url": "https://kanagawa-kankou.or.jp/courses/14"
+    }
+   ]
+  },
+  {
+   "name": "高尾山 稲荷山コース 冬季健行＋極楽湯（替代第 3 天）",
+   "what": "新宿京王線 50 分到高尾山口，走稲荷山コース（3.1 km、上 90 分）登頂 599m，晴天看富士山，1 號路下山（80 分）或纜車；山腳京王高尾山温泉 極楽湯泡湯",
+   "price_for2_twd": 1125,
+   "duration": "半天（07:00 出發、14:00 回新宿）",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-mount_takao/article-a0003384/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E5%B0%BE%E5%B1%B1%E5%8F%A3%E9%A7%85%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%85%AB%E7%8E%8B%E5%AD%90%E5%B8%82%E9%AB%98%E5%B0%BE%E7%94%BA",
+   "note": "費用＝京王來回約 ¥860×2＋極楽湯 ¥1,300×2（12/29–1/3 繁忙期價）＋纜車單程 ¥490×2。12 月山頂平均 2.3°C，要手套帽子；12/19–23 前後山頂看得到鑽石富士（12/30 已過）。選這個就把豐洲＋teamLab 換掉或改第 4 天早上去豐洲（12/31 休市，不行）",
+   "links": [
+    {
+     "type": "youtube",
+     "title": "〘ver.冬〙高尾山・稲荷山コース（高尾山‖遠足のしおり）",
+     "url": "https://www.youtube.com/watch?v=d97G9eZTVOc"
+    },
+    {
+     "type": "youtube",
+     "title": "【高尾山】初心者が冬の高尾山にひとり登山（mizuiro vlog）",
+     "url": "https://www.youtube.com/watch?v=qG0wxuNaSYk"
+    },
+    {
+     "type": "blog",
+     "title": "高尾山パーフェクトガイド（LIVE JAPAN）",
+     "url": "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-mount_takao/article-a0003384/"
+    }
+   ]
+  },
+  {
+   "name": "豐洲「壽司大」凌晨排隊（給想拚的人）",
+   "what": "04:30 起床、05:00 前到豐洲 6 街區 3F 抽號碼牌，排 2 小時吃米其林推薦（2015–17）的 おまかせ；假日 08:00 就收客",
+   "price_for2_twd": 2900,
+   "duration": "早上（05:00–09:00）",
+   "booking": "免預約（先到先排）",
+   "season_ok": true,
+   "url": "https://omakaseje.com/zh-tw/articles/or520968",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E5%8F%B8%E5%A4%A7%20%E8%B1%8A%E6%B4%B2%E5%B8%82%E5%A0%B4%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E8%B1%8A%E6%B4%B26-5-1%20%E6%B0%B4%E7%94%A3%E4%BB%B2%E5%8D%B8%E5%A3%B2%E5%A0%B4%E6%A3%9F3F",
+   "note": "本行程主線選大和寿司（好排）；要拚壽司大就把第 3 天早上提前到 05:00，押上首班車 05:00 左右，可能要搭計程車（約 ¥3,500）",
+   "links": [
+    {
+     "type": "youtube",
+     "title": "壽司大》凌晨五點來排隊真的值得嗎？（柒柒夫妻543）",
+     "url": "https://www.youtube.com/watch?v=2fxNdeHH8Eg"
+    },
+    {
+     "type": "youtube",
+     "title": "豐洲市場美食｜壽司大五點去抽號碼牌（來一球叭噗）",
+     "url": "https://www.youtube.com/watch?v=7tNcC6SnOwk"
+    }
+   ]
+  },
+  {
+   "name": "河口湖一日（富士山，替代第 2 或第 3 天）",
+   "what": "新宿高速巴士約 2 小時到河口湖，天上山纜車看富士山、湖畔走一圈；冬天富士山最清楚",
+   "price_for2_twd": 1700,
+   "duration": "一整天",
+   "booking": "建議預約（巴士年末客滿）",
+   "season_ok": true,
+   "url": "https://www.highwaybus.com/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E5%8F%A3%E6%B9%96%E9%A7%85%20%E5%B1%B1%E6%A2%A8%E7%9C%8C%E5%8D%97%E9%83%BD%E7%95%99%E9%83%A1%E5%AF%8C%E5%A3%AB%E6%B2%B3%E5%8F%A3%E6%B9%96%E7%94%BA%E8%88%B9%E6%B4%A5",
+   "note": "巴士來回約 ¥4,200／人（待確認）；第一輪查價原本排的點，但來回 4 小時車程對 3 晚行程太重，列為替代。1/2–1/3 箱根驛傳別走箱根",
+   "links": [
+    {
+     "type": "official",
+     "title": "高速巴士 新宿⇄河口湖（highwaybus.com）",
+     "url": "https://www.highwaybus.com/"
+    },
+    {
+     "type": "blog",
+     "title": "河口湖冬天富士山攻略（Funliday）",
+     "url": "https://www.funliday.com/posts/?p=91453"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 23990,
+  "stay_for2": 20452,
+  "food_for2": [
+   13000,
+   24000
+  ],
+  "transport_for2": [
+   2500,
+   4500
+  ],
+  "activities_for2": [
+   3300,
+   5500
+  ],
+  "total_for2": [
+   63000,
+   83000
+  ],
+  "note": "匯率 1 JPY≈NT$0.207（臺銀 10/15）。機票＝酷航 11,995×2；住宿＝ONE@Tokyo 3 晚 ¥98,800（高估用東急ステイ築地 24,757）；吃＝4 天含酒吧：壽司 2,900＋燒肉 4,060＋其他正餐小吃約 6,000＋每晚酒吧 1,000–1,500；交通＝アクセス特急來回 ¥5,200＋鎌倉 Freepass ¥3,280＋地鐵約 ¥3,600（高估改 Skyliner）；活動＝teamLab ¥7,600＋SHIBUYA SKY 約 ¥5,000＋晴空塔 ¥4,200＋鎌倉門票 ¥1,400＋江之島 ¥2,200。若改跨年版多 1 晚（12/31 住宿約貴 ¥10,000）約再加 1.5 萬"
+ },
+ "weather": {
+  "high_c": 12,
+  "low_c": 4,
+  "conditions": "東京 12 月平年高 12.0°C／低 3.8°C，晴天多、乾燥、幾乎不下雨；鎌倉海邊風大體感更冷，高尾山頂約 2°C",
+  "sunrise": "06:49",
+  "sunset": "16:35",
+  "wear": "大衣或薄羽絨＋圍巾＋手套；鎌倉步行日穿好走的鞋、防風外套；ホッピー通り與橫丁多露天，晚上要再加一層。日出日落為國立天文台歷年值"
+ },
+ "events": [
+  {
+   "date": "12/28–12/31",
+   "name": "上野阿美橫町 年末市集",
+   "note": "年貨大街，海鮮乾貨叫賣，12/30–31 最擠（確切日期待確認）",
+   "url": "https://www.ameyoko.net/"
+  },
+  {
+   "date": "12/30",
+   "name": "豐洲市場 年內最後開市日",
+   "note": "2026 開市日曆：12/31 休市、12/27（日）特別開市；大和寿司週日休",
+   "url": "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+  },
+  {
+   "date": "12/31",
+   "name": "築地場外市場 大晦日",
+   "note": "一年最擠（★★★★★），一般客 09:00–14:00；年始多數店 1/5 前後才開",
+   "url": "https://banzokubiology.com/tsukiji-crowd-tips/"
+  },
+  {
+   "date": "12/31",
+   "name": "澀谷：連 5 年不辦跨年倒數＋18:00–05:00 路上禁酒",
+   "note": "2025–26 版規定（渋谷1丁目、道玄坂、宇田川町、神南、神宮前），20:00 起站前封路；2026–27 待確認。跨年版請避開澀谷",
+   "url": "https://www.watch.impress.co.jp/docs/news/1558139.html"
+  },
+  {
+   "date": "12/31→1/1",
+   "name": "增上寺 除夜の鐘＋東京鐵塔（跨年版）",
+   "note": "0:00 起 108 下、約 1 小時；鐘つき券 12/1 09:00 少量發售；12/31–1/3 約 5 萬人",
+   "url": "https://rurubu.jp/andmore/spot/20000740"
+  },
+  {
+   "date": "12/31",
+   "name": "都廳「Happy New Year Tokyo」投影跨年（跨年版）",
+   "note": "2025 版 23:30–24:10，2026 版待確認",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2025/11/2025111211"
+  },
+  {
+   "date": "1/1",
+   "name": "明治神宮 初詣（跨年版）",
+   "note": "0:00 開門，三日約 300 萬人；建議 1/1 07–09 時去，避開 0–3 時與 11–15 時",
+   "url": "https://www.gotokyo.org/jp/kanko/shibuya/event/meijijingu_hatsumode.html"
+  }
+ ],
+ "prep": [
+  {
+   "item": "訂機票：酷航 TPE⇄NRT 12/28 06:50／12/31 19:45（每人 11,995，10/15 價會漲）；決定要不要加托運",
+   "when": "11 月前",
+   "url": "https://www.flyscoot.com/zh-tw"
+  },
+  {
+   "item": "訂 ONE@Tokyo 12/28–12/31（可取消方案），年末押上會滿",
+   "when": "11 月中前",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/162860"
+  },
+  {
+   "item": "teamLab Planets 買 12/30 09:00 日時指定券（當日券買不到；¥3,800 起，Klook 有時有折扣）",
+   "when": "12 月初（開賣就買）",
+   "url": "https://teamlabplanets.dmm.com/"
+  },
+  {
+   "item": "SHIBUYA SKY 12/30 15:30 日落場：約 2 週前 00:05 開賣，12/16 零點搶",
+   "when": "12/16 00:05",
+   "url": "https://www.shibuya-scramble-square.com/sky/ticket/"
+  },
+  {
+   "item": "iPhone Wallet 建 Suica 並儲值（不用買實體卡）；下載 Visit Japan Web 填入境 QR",
+   "when": "出發前一週",
+   "url": "https://support.apple.com/ja-jp/HT207155"
+  },
+  {
+   "item": "訂新井屋 渋谷 12/30 18:00（Retty／電話）；大和寿司、とびっちょ、鳥園免預約",
+   "when": "12 月初",
+   "url": "https://retty.me/restaurant/100001500738/"
+  },
+  {
+   "item": "晴空塔天望デッキ 12/28 16:00 線上票（可省現場排隊；不上去就免）",
+   "when": "12 月中",
+   "url": "https://www.tokyo-skytree.jp/ticket/"
+  },
+  {
+   "item": "若改跨年版（12/30→1/2）：12/1 09:00 搶增上寺鐘つき券、機票重新核價、12/31 住宿加訂",
+   "when": "12/1",
+   "url": "https://rurubu.jp/andmore/spot/20000740"
+  }
+ ],
+ "risks": [
+  "機票價格是 10/15 查的，廉航 年末會漲；酷航不含托運，兩人一件 20kg 加購約 NT$1,000–1,500／段（待確認）",
+  "酷航 06:50 要 04:30 到桃園，台中出發等於前一晚不睡或住機場旁",
+  "RMQ 只有星宇直飛且每人 2–3.9 萬，台中出發基本上得改桃園",
+  "12/31 豐洲市場休市，壽司早餐一定要排在 12/30；大和寿司排 30–90 分、壽司大要凌晨排",
+  "teamLab 與 SHIBUYA SKY 日落場都會提前完售，沒搶到就改白天場或改去 Borderless",
+  "黃金街部分店不接觀光客或收高額 charge，只進門口有標價的店；全區禁止拍店內",
+  "鎌倉海岸步行 7 公里，冬天海風大；生しらす 看當天漁獲，沒有就吃釜揚げ",
+  "12/31 築地、阿美橫町人潮極多，下午店家提早收；12/31 晚上澀谷禁酒封路（跨年版注意）",
+  "ONE@Tokyo 房間 14m²，兩人加行李偏擠；要寬一點選東急ステイ（有洗衣機）",
+  "SHIBUYA SKY、アクセス特急、晴空塔票價為部落格與推估值，官網抓不到，標待確認"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：淺草晴空塔",
+    "icons": [
+     "plane",
+     "train",
+     "temple",
+     "tower",
+     "beer"
+    ],
+    "caption": "雷門、波蘿麵包、ホッピー通り"
+   },
+   {
+    "title": "第二天：鎌倉江之島",
+    "icons": [
+     "train",
+     "hike",
+     "seafood",
+     "sunrise",
+     "night"
+    ],
+    "caption": "大佛、海岸 7 公里、黃金街"
+   },
+   {
+    "title": "第三天：豐洲到澀谷",
+    "icons": [
+     "sushi",
+     "museum",
+     "ramen",
+     "camera",
+     "bbq"
+    ],
+    "caption": "大和壽司、teamLab、燒肉"
+   },
+   {
+    "title": "第四天：築地回家",
+    "icons": [
+     "market",
+     "shopping",
+     "beer",
+     "plane"
+    ],
+    "caption": "築地、阿美橫町、立飲"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "鑽進東京小巷弄！發現新宿居酒屋一條街｜深入神秘黃金街！意外走進怪奇醫院酒吧？【鬧著玩 567】",
+   "channel": "鬧著玩 Nowyouon",
+   "url": "https://www.youtube.com/watch?v=iMiT6UOUOlQ",
+   "takeaway": "黃金街的玩法是一間一杯跳著喝，主題店（醫院吧、恐怖片吧）比正經酒吧有趣；思い出横丁先吃飽再過去"
+  },
+  {
+   "title": "【東京vlog（上）】2025澀谷潮牌攻略｜單人去很危險？新宿黃金街特色酒吧｜在地人帶路美食太美味",
+   "channel": "參拾",
+   "url": "https://www.youtube.com/watch?v=17Yxgot8KH4",
+   "takeaway": "黃金街 charge 與不接觀光客的店要先看門口；本行程選 Time Out 列的 Albatross G 當入門"
+  },
+  {
+   "title": "【鎌倉江之電一日遊】10個推薦景點美食🚃鎌倉大佛、小町通商店街、大佛今川燒、豐島屋鬆餅、鶴岡八幡宮⛩️富士山日落",
+   "channel": "實彩子Misako（50 萬次觀看）",
+   "url": "https://www.youtube.com/watch?v=KlF1VIU_tIM",
+   "takeaway": "江ノ電一日券路線：長谷（大佛、長谷寺）→鎌倉高校前→江之島看富士山日落，就是第 2 天的骨架"
+  },
+  {
+   "title": "不走人擠人路線！鎌倉江之島一日遊🇯🇵私藏富士山江之電拍攝點🗻美到捨不得回家的夕陽",
+   "channel": "黃小米Mii",
+   "url": "https://www.youtube.com/watch?v=tptsoYQFXmY",
+   "takeaway": "稲村ヶ崎、七里ヶ浜的海岸步道能同時拍江ノ電和富士山，所以把這段改成用走的"
+  },
+  {
+   "title": "壽司大vs大和壽司 @豐洲市場 從今天開始我也可以吃海膽了┃東京男子旅 EP.04",
+   "channel": "丹尼爾公園Daniel Park",
+   "url": "https://www.youtube.com/watch?v=K7wozVAkdqA",
+   "takeaway": "兩家品質接近、大和寿司排隊時間只要壽司大的一半，主線選大和"
+  },
+  {
+   "title": "💥(東京)2026星球升級互動又多了,但是90%的人都選錯!! 2026玩爆teamLab無邊界 vs 星球,實際動線告訴你!",
+   "channel": "小卡的美麗日誌",
+   "url": "https://www.youtube.com/watch?v=siElXtETdDE",
+   "takeaway": "Planets（豐洲）比 Borderless（麻布台）更適合第一次、而且就在市場旁邊，一早接著去最順"
+  },
+  {
+   "title": "〘ver.冬〙高尾山・稲荷山コース",
+   "channel": "高尾山‖遠足のしおり",
+   "url": "https://www.youtube.com/watch?v=d97G9eZTVOc",
+   "takeaway": "冬天稲荷山コース路況乾、人少，上 90 分可行；列為第 3 天的替代挑戰"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights",
+  "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/162860",
+  "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/41707",
+  "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/41702",
+  "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/183299",
+  "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf",
+  "https://banzokubiology.com/tsukiji-crowd-tips/",
+  "https://teamlabplanets.dmm.com/",
+  "https://castel.jp/p/8734",
+  "https://www.trvlogue.com/ja/shibuya-sky-tokyo-guide",
+  "https://banzokubiology.com/shibuya-sky-crowd/",
+  "https://www.timeout.jp/tokyo/ja/bars-and-pubs/best-bars-in-golden-gai-shinjuku",
+  "https://www.timeout.jp/tokyo/ja/nightlife/yokocho-guide-omoide-yokocho",
+  "https://r.gnavi.co.jp/ga3y900/",
+  "https://tabelog.com/matome/8982/",
+  "https://aumo.jp/articles/19735",
+  "https://matcha-jp.com/jp/22757",
+  "https://www.gltjp.com/zh-hant/directory/item/10870/",
+  "https://tabelog.com/tokyo/A1311/A131101/13024952/",
+  "https://aumo.jp/articles/25845",
+  "https://kanagawa-kankou.or.jp/courses/14",
+  "https://livejapan.com/ja/in-kamakura/article-a0001493/",
+  "https://odakyu-global.com/passes/enoshima-kamakura-freepass/",
+  "https://enoshima-seacandle.com/tickets/",
+  "https://tabelog.com/matome/25156/",
+  "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-mount_takao/article-a0003384/",
+  "https://onsen.nifty.com/takaosan-onsen/onsen012049/",
+  "https://hamoni.jp/en/shop/QfFxqhKi5oxqqw07kV3r",
+  "https://omakaseje.com/zh-tw/articles/or520968",
+  "https://tabelog.com/matome/5848/",
+  "https://retty.me/theme/100651615/",
+  "https://matcha-jp.com/jp/989",
+  "https://www.nippon.com/ja/guide-to-japan/gu900250/",
+  "https://travelist.jp/airport_TYO/guide/posts/p524",
+  "https://www.trvlogue.com/ja/narita-express-tickets-2026-2",
+  "https://support.apple.com/ja-jp/HT207155",
+  "https://www.watch.impress.co.jp/docs/news/1558139.html",
+  "https://rurubu.jp/andmore/spot/20000740",
+  "https://fun-japan.jp/jp/articles/14322",
+  "https://www.metro.tokyo.lg.jp/information/press/2025/11/2025111211",
+  "https://www.gotokyo.org/jp/kanko/shibuya/event/meijijingu_hatsumode.html",
+  "https://www.instagram.com/daiwazushi/",
+  "https://www.instagram.com/ramen_hayashida/",
+  "https://www.instagram.com/araiya_shibuya/",
+  "https://www.instagram.com/tobiccho/",
+  "https://www.instagram.com/asakusa.kagetsudo/",
+  "https://www.youtube.com/results?search_query=新宿+黃金街+酒吧+vlog（2026-10-16 抓取）",
+  "https://commons.wikimedia.org/w/api.php（照片 30 張，2026-10-16 查）"
+ ],
+ "checked": "2026-10-16"
+}

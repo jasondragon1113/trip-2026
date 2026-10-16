@@ -1,0 +1,1906 @@
+{
+ "id": "kyushu",
+ "name": "九州北部・福岡由布院別府",
+ "subtitle": "屋台、牡蠣小屋、金鱗湖晨霧，別府地獄跨年",
+ "country": "日本",
+ "flag": "JP",
+ "motif": "onsen",
+ "palette": {
+  "primary": "#E8793F",
+  "secondary": "#3FA7C9",
+  "soft": "#FFF3EA"
+ },
+ "tagline": "吃遍博多，開車進由布院，別府跨年",
+ "summary": "桃園虎航早班直飛福岡、元旦亞航下午飛回，每人 10,612。福岡住兩晚把屋台、もつ鍋、水炊き吃一輪，第二天開車去糸島爬 40 分鐘的立石山、在漁港烤牡蠣；第三天開上大分道進由布院泡湯、第四天看金鱗湖晨霧、走一段由布岳、到別府看地獄、蒸桑拿，在居酒屋跨年；元旦早上砂湯活埋＋初詣再回福岡搭機。喜歡開車就租 4 天（由布院可能結冰，有備案），不想開就全程高速巴士，兩種都排好了。",
+ "dates": {
+  "out": "12/28",
+  "back": "1/1",
+  "nights": 4,
+  "why": "Google 航班 10/16 實查：12/28（一）虎航 06:45 去＋1/1（五）亞航 16:20 回，每人 10,612 是 12/27–1/5 裡最便宜又符合「早去、下午回」的組合（12/27–12/31 虎航來回 11,361 次之）。12/29 平日糸島牡蠣小屋正常開（12/31–1/2 休）、12/30 由布院入住價還沒到跨年高峰、12/31 在別府跨年、1/1 初詣不去太宰府（三天 200 萬人、12/31 23:00 起交通管制），改第一天就先去太宰府。"
+ },
+ "flights": [
+  {
+   "from": "RMQ",
+   "to": "FUK",
+   "airline": "無直飛（真航空經首爾／香港快運經香港，轉機 7–23 小時）",
+   "out": "12/28 16:15→12/29 09:55（真航空）",
+   "back": "1/1",
+   "price_pp_twd": 17046,
+   "baggage": "依航空，轉機票通常不含",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-16",
+   "note": "Google 航班 10/16 實查 RMQ→FUK 12/28–1/1：全部轉機、最低 17,046、隔天才到。台中出發者直接改桃園（高鐵／客運前一晚北上）"
+  },
+  {
+   "from": "TPE",
+   "to": "FUK",
+   "airline": "台灣虎航 去 ＋ 亞洲航空 回（分段購票）",
+   "out": "12/28 06:45→10:00",
+   "back": "1/1 16:20→18:10",
+   "price_pp_twd": 10612,
+   "baggage": "兩段都是 廉航 不含托運；虎航 20kg 約 NT$900–1,200／段、亞航約 NT$1,000／段（待確認）",
+   "fits_time_pref": true,
+   "within_budget": true,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-16",
+   "note": "Google 航班 10/16 實查：點進虎航 06:45 去程後，回程列表最便宜是亞航 16:20 分段購票 10,612（兩張單程分開買）。推薦這組"
+  },
+  {
+   "from": "TPE",
+   "to": "FUK",
+   "airline": "台灣虎航 來回",
+   "out": "12/28 06:45→10:00",
+   "back": "1/1 10:55→12:40",
+   "price_pp_twd": 15061,
+   "baggage": "不含托運",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-16",
+   "note": "同一家買來回反而貴，且 1/1 早上就得離開別府，砂湯與初詣做不到"
+  },
+  {
+   "from": "TPE",
+   "to": "FUK",
+   "airline": "台灣虎航 去 ＋ 中華航空 回",
+   "out": "12/28 06:45→10:00",
+   "back": "1/1 11:00→12:35",
+   "price_pp_twd": 13400,
+   "baggage": "華航段含 23kg 托運；虎航段不含",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-16",
+   "note": "想要回程有托運的備案；回程偏早"
+  },
+  {
+   "from": "TPE",
+   "to": "FUK",
+   "airline": "台灣虎航 來回（12/27–12/31 備案）",
+   "out": "12/27 06:45→10:00",
+   "back": "12/31",
+   "price_pp_twd": 11361,
+   "baggage": "不含托運",
+   "fits_time_pref": true,
+   "within_budget": true,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-16",
+   "note": "Google 航班 10/16 實查 12/27（日）去 12/31（四）回最低 11,361（回程班次時間未點開，待確認）。少了跨年與元旦，但 12/31 當天回台灣可以在家跨年"
+  },
+  {
+   "from": "TPE",
+   "to": "FUK",
+   "airline": "星宇航空 來回",
+   "out": "12/28 14:45→18:00",
+   "back": "1/1",
+   "price_pp_twd": 14682,
+   "baggage": "含托運",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-16",
+   "note": "去程下午班，第一天只剩晚上；華航／JAL 06:50 班來回 14,623、長榮 08:00 班 15,627 也都超預算"
+  }
+ ],
+ "getting_around": {
+  "mode": "混合",
+  "license": "台灣駕照正本＋「駕照日文譯本」＋護照，三樣一起才能租車上路（日本不承認台灣發的國際駕照）。譯本到全國任一公路監理所／站臨櫃辦，可越區，規費 NT$100，駕照要在有效期內（舊式無期限駕照要先換新）；也可線上申辦郵寄，加掛號 28 元、7–12 個工作天。來源：公路局「臺日駕照互惠」https://www.thb.gov.tw 、我的E政府申辦頁 https://www.gov.tw/News_Content_2_376856 （10/16 Google 查到的官方頁）",
+  "rental": {
+   "company": "トヨタレンタカー 博多駅筑紫口店 取車 → 福岡空港国際線店 還車（Times 福岡空港店為備案）",
+   "car": "C1 級小車（Yaris／Roomy）",
+   "days": 4,
+   "price_total_twd": 8560,
+   "insurance": "基本險含；免責補償 Toyota 約 ¥1,100–1,650／日（待確認），Times 免責補償 ¥1,100／24h（官網）",
+   "pickup": "博多駅（12/29 09:00）→ 福岡空港（1/1 14:00）",
+   "source": "https://rent.toyota.co.jp/eng/pricelist_minicompact.aspx",
+   "note": "Toyota 官網英文價：C1 24h ¥10,340＋每追加 1 日 ¥8,690 → 4 天基本費 ¥36,410；ETC 卡租借 ¥550／次；雪胎加租 ¥2,200／日。加免責補償 4 日約 ¥4,400 合計約 ¥41,360≈NT$8,560。年末年始（12/28–1/3）屬旺季，Toyota 地區旺季價與同縣內乘捨費（博多→福岡空港多為免費）都待官網試算確認。Times：軽・コンパクト C-1 通常 24h ¥8,855＋追加日 ¥7,920、旺季 24h ¥9,108，但 Times 不出租 ETC 卡（官網明寫），走高速要現金／信用卡付過路費"
+  },
+  "road_notes": [
+   "靠左行駛、右駕；福岡市區停車貴（¥300–600／30 分），所以第一天不租車，第二天早上才在博多駅取車",
+   "高速路線：博多→糸島走都市高速＋西九州道（約 45 分）；博多→由布院走九州道→鳥栖 JCT→大分道→湯布院 IC 約 115 km／1 小時 40 分，普通車過路費約 ¥3,000（待確認）；別府→福岡 約 150 km／2 小時，約 ¥3,800（待確認）。有 ETC 卡直接走 ETC 車道，沒有就走「一般」車道刷卡",
+   "【12 月底結冰風險】由布院盆地標高約 450 m，12–1 月清晨常 −2～−5℃（山と溪谷 2023/1 記錄登山口 −5℃）；由布院觀光協會 2026/1/11 公告「ノーマルタイヤ走雪路極危險」、月洸樹旅館 2025/12/27 公告「大分道降雪時只有雪胎車能走」，NEXCO 西日本大分高速道路事務所：2018/12 起大雪時義務裝鏈。九州高速遇雪多半直接封閉（Yahoo 知恵袋多位在地人說法）。對策：①出發前一週看預報，有雪就把 12/30–1/1 改成「JR＋高速巴士版」、車只租 12/29 一天糸島用；②要開就加租雪胎（Toyota ¥2,200／日）；③由布院→別府走大分道（湯布院 IC→別府 IC）不走城島高原的県道 11 號山路；④每天早上看 NEXCO 西日本路況 https://www.w-nexco.co.jp/",
+   "1/1 回福岡：太宰府 IC 出口 1/1–1/4 因初詣大塞（NEXCO 歷年公告），走大分道→鳥栖 JCT→九州道→福岡 IC→都市高速進機場，不要在太宰府 IC 下；太宰府市內 12/31 23:00–1/3 18:00 交通管制（太宰府觀光協會 IG）",
+   "糸島牡蠣小屋、立石山登山口（芥屋海水浴場第二駐車場）、由布院旅館、別府地獄都有免費停車；金鱗湖周邊私營停車場約 ¥500–1,000／次",
+   "加油：還車前在福岡空港附近加滿（Toyota 要求滿油還車）；油價約 ¥175／L，全程約 350 km 用 25 L 左右"
+  ],
+  "public": [
+   "【JR＋高速巴士版】全程不開車也排得出來：福岡空港→博多 地下鉄空港線 2 站 5 分 ¥260；福岡空港國際線→太宰府 直達巴士「旅人」約 25 分 ¥600（待確認班次）；西鉄 太宰府→福岡（天神）約 30 分 ¥420",
+   "糸島：JR 筑肥線 博多→筑前前原 約 40 分 ¥590，轉昭和バス芥屋線到終點「芥屋」¥200（SpotTour 2022）可登立石山；牡蠣小屋在岐志漁港，筑前前原駅搭計程車約 15 分（約 ¥2,500，待確認），不自駕的話牡蠣小屋多數有接駁或改去 JR 九大学研都市駅附近的小屋",
+   "福岡→由布院：高速巴士「ゆふいん号」博多バスターミナル／天神／福岡空港国際線→由布院駅前 BC，2 小時 25 分、大人 ¥3,250、WEB 早割 7 日前 ¥2,880、1 日 14 往復、座席指定要預約（西鉄官網 10/16 實查，訂票 https://www.highwaybus.com/gp/index ）；或 JR 特急ゆふいんの森 博多→由布院 約 2 小時 10 分、全車指定（年末一定要先訂）",
+   "由布院→別府：亀の井バス 路線巴士 由布院駅前 BC→別府駅 約 50 分、約 ¥1,100（待確認）；或 JR 由布院→大分→別府 約 1 小時 20 分",
+   "別府→福岡：高速巴士「とよのくに号」別府北浜／別府駅→博多 BT 約 2 小時 50 分、大人 ¥3,250、WEB 往復 ¥5,760、1 日 12 往復、要預約（亀の井バス官網 10/16 實查）；**有班次直達福岡空港國際線**，1/1 回程最方便",
+   "市內：福岡地下鉄 1 日券 ¥640；別府市內 亀の井バス（鉄輪⇄別府駅 約 ¥390、MyべっぷFree 1 日券約 ¥1,100，待確認）；用 iPhone Wallet 直接建 Suica／ICOCA 全程可刷"
+  ]
+ },
+ "stays": [
+  {
+   "name": "Quintessa Hotel Fukuoka Watanabedori（クインテッサホテル福岡 渡辺通）",
+   "area": "福岡 渡辺通（天神南／中洲步行 10 分）",
+   "nights": 2,
+   "price_night_for2_twd": 2562,
+   "availability": "有空房",
+   "url": "https://www.google.com/travel/search?q=Quintessa%20Hotel%20Fukuoka%20Watanabedori",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Quintessa%20Hotel%20Fukuoka%20Watanabedori",
+   "why": "Google 飯店 10/16 實查 12/28–12/30 每晚 NT$2,562、評分 4.3（97 則）；有溫泉大浴場＋露天浴場＋三溫暖，走路到天神立飲、中洲屋台、華味鳥都 10 分內，第二天開車也方便上都市高速",
+   "photo": null,
+   "links": [
+    {
+     "type": "official",
+     "title": "Google 飯店搜尋（12/28–12/30 有價）",
+     "url": "https://www.google.com/travel/search?q=hotels%20near%20Hakata%20Station%20Fukuoka%20Dec%2028%20-%20Dec%2030%202026"
+    }
+   ],
+   "note": "備案：東急STAY博多 NT$2,735／晚 4.3（1,600 則）、福岡蒙特埃馬納 NT$2,322／晚 4.3（3,800 則，台灣房客多），同日實查"
+  },
+  {
+   "name": "溫泉旅館 つたや（由布院）",
+   "area": "由布院",
+   "nights": 1,
+   "price_night_for2_twd": 2323,
+   "availability": "有空房",
+   "url": "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8%E3%81%A4%E3%81%9F%E3%82%84%20%E7%94%B1%E5%B8%83%E9%99%A2",
+   "why": "Google 飯店 10/16 實查 12/30–12/31 NT$2,323、4.5（78 則）、露天浴場＋免費停車，由布院 12/30 便宜又有露天的少數選擇。想升級：Yufuin Lamp no Yado NT$4,598（4.6／721 則，私人浴池＋酒吧）、Yufuin Akarinoyado NT$3,537（4.1／206）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20winter%20near%20Yufuin%20Hot%20Spring%20and%20Mount%20Fukumazan.JPG?width=1200",
+    "credit": "そらみみ",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Google 飯店搜尋（12/30–12/31 有價）",
+     "url": "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026"
+    }
+   ],
+   "note": "是否含晚餐待確認；照片是由布院冬天田野（Commons），不是旅館本身。界 由布院、亀の井別荘 10/16 已無報價（可能滿房）"
+  },
+  {
+   "name": "西鉄リゾートイン別府（Nishitetsu Resort Inn Beppu）",
+   "area": "別府駅前（北浜）",
+   "nights": 1,
+   "price_night_for2_twd": 2767,
+   "availability": "有空房",
+   "url": "https://www.google.com/travel/search?q=hotels%20Beppu%20Dec%2031%202026%20-%20Jan%201%202027",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%89%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%A4%E3%83%B3%E5%88%A5%E5%BA%9C",
+   "why": "Google 飯店 10/16 實查 12/31–1/1 NT$2,767、4.0（1,800 則）、溫泉＋露天浴場、停車場，走路 5 分到跨年居酒屋浜右衛門；便宜版 SUPERHOTEL 別府駅前 NT$2,303（4.4／680，溫泉）、別府第一飯店 NT$1,885（4.2／718）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beppu%20station%20center%201.jpg?width=1200",
+    "credit": "wkpn本人が撮影。画像補正済み。",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Google 飯店搜尋（12/31–1/1 有價）",
+     "url": "https://www.google.com/travel/search?q=hotels%20Beppu%20Dec%2031%202026%20-%20Jan%201%202027"
+    }
+   ],
+   "note": "照片是別府駅（Commons）。想住鉄輪溫泉街就改鉄輪的湯治宿（地獄蒸し步行可到），但 12/31 多數旅館含兩食會貴 1 倍"
+  },
+  {
+   "name": "東急STAY博多（備案）",
+   "area": "博多駅步行 8 分",
+   "nights": 2,
+   "price_night_for2_twd": 2735,
+   "availability": "有空房",
+   "url": "https://www.google.com/travel/search?q=hotels%20near%20Hakata%20Station%20Fukuoka%20Dec%2028%20-%20Dec%2030%202026",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%80%A5%E3%82%B9%E3%83%86%E3%82%A4%E5%8D%9A%E5%A4%9A",
+   "why": "Google 飯店 10/16 實查 NT$2,735／晚、4.3（1,600 則）；房內有洗衣機，第二天博多駅取車走路就到。缺點：有人評鐵道噪音",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakata%20Station%20Hakata%20Exit%20INT%20the%20NNW%20view%20from%20Kitte%20Hakata%20Hakata-eki-ch%C5%AB%C5%8Dgai%20Hakata-ku%20Fukuoka%2020250624.jpg?width=1200",
+    "credit": "Hirho",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Google 飯店搜尋",
+     "url": "https://www.google.com/travel/search?q=hotels%20near%20Hakata%20Station%20Fukuoka%20Dec%2028%20-%20Dec%2030%202026"
+    }
+   ],
+   "note": "照片是博多駅博多口（Commons）"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/28",
+   "weekday": "一",
+   "title": "飛福岡，太宰府先拜",
+   "area": "桃園→福岡空港→太宰府→博多・中洲",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早班機 10:00 到福岡，機場直達巴士先去太宰府吃梅枝餅（避開元旦人潮），傍晚進市區拜櫛田神社、吃もつ鍋，夜裡去中洲屋台喝一杯",
+   "stops": [
+    {
+     "time": "04:30",
+     "name": "桃園機場第一航廈（虎航 IT 06:45→10:00）",
+     "kind": "transport",
+     "stay_min": 135,
+     "desc": "台灣虎航 TPE→FUK 06:45 起飛、10:00 到福岡國際線航廈；廉航 不含托運，冬衣多先在官網加購。",
+     "price_for2_twd": 21224,
+     "booking": "需預約",
+     "booking_url": "https://www.tigerairtw.com/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%E7%AC%AC%E4%B8%80%E8%88%AA%E5%BB%88",
+     "site_url": "https://www.tigerairtw.com/",
+     "address": "桃園市大園區航站南路 15 號",
+     "tip": "台中出發前一晚北上；10/16 價 10,612／人會漲，11 月前買",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Taiwan_Taoyuan_International_Airport_-_Terminal_1.jpg/1280px-Taiwan_Taoyuan_International_Airport_-_Terminal_1.jpg",
+      "credit": "毛貓大少爺",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Google 航班 TPE→FUK 12/28–1/1（10/16 實查）",
+       "url": "https://www.google.com/travel/flights"
+      }
+     ]
+    },
+    {
+     "time": "11:30",
+     "name": "太宰府天満宮 參道＋かさの家 梅ヶ枝餅（機場直達巴士「旅人」）",
+     "kind": "sight",
+     "stay_min": 150,
+     "desc": "國際線航廈 1 樓搭西鉄直達巴士「旅人」到西鉄太宰府駅約 25 分、¥600／人（班次待確認；備案地下鉄→天神轉西鉄約 50 分 ¥680），行李寄太宰府駅投幣置物櫃。學問之神菅原道真的總本宮，御本殿整修中以「仮殿」參拜（官網 10/16 公告正面參拜另有說明）。參道上百年老店「かさの家」的梅ヶ枝餅現烤 ¥150 一個，25 日限定艾草口味。平日 12/28 比元旦（三天 200 萬人）好逛太多。",
+     "price_for2_twd": 400,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%A4%A9%E6%BA%80%E5%AE%AE%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82%E5%AE%B0%E5%BA%9C4-7-1",
+     "site_url": "https://www.dazaifutenmangu.or.jp/",
+     "address": "福岡県太宰府市宰府 4-7-1（かさの家：宰府 2-7-24）",
+     "tip": "兩人巴士約 ¥1,200 另計；午餐就在參道解決：梅ヶ枝餅＋參道的太宰府バーガー或うどん；飛行機 10:00 落地時差 0，不會太累",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20100719%20Dazaifu%20Tenmangu%20Shrine%203328.jpg?width=1200",
+      "credit": "Jakub Hałun",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "太宰府 かさの家 官方 IG @dazaifu_kasanoya",
+       "url": "https://www.instagram.com/dazaifu_kasanoya/"
+      },
+      {
+       "type": "official",
+       "title": "太宰府天満宮 官網（初詣交通案內）",
+       "url": "https://www.dazaifutenmangu.or.jp/"
+      },
+      {
+       "type": "youtube",
+       "title": "正月三が日は200万人訪れる見込み（RKB NEWS）",
+       "url": "https://www.youtube.com/watch?v=z6nfltWfKWk"
+      }
+     ]
+    },
+    {
+     "time": "14:00",
+     "name": "西鉄 太宰府→福岡（天神）→ 入住 Quintessa 渡辺通",
+     "kind": "stay",
+     "stay_min": 90,
+     "desc": "西鉄太宰府線到二日市轉特急到福岡（天神）約 30 分 ¥420，再走或地下鉄一站到渡辺通；飯店有溫泉大浴場，先放行李泡一下。",
+     "price_for2_twd": 170,
+     "booking": "需預約",
+     "booking_url": "https://www.google.com/travel/search?q=Quintessa%20Hotel%20Fukuoka%20Watanabedori",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Quintessa%20Hotel%20Fukuoka%20Watanabedori",
+     "site_url": "",
+     "address": "福岡市中央区渡辺通（Google 飯店實查 NT$2,562／晚）",
+     "tip": "15:00 入住；若選東急STAY博多就改搭西鉄到天神轉地下鉄到博多",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nishitetsu-Fukuoka%20%28Tenjin%29%20Station%2020160808.jpg?width=1200",
+      "credit": "そらみみ (Soramimi)",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Google 飯店搜尋 12/28–12/30",
+       "url": "https://www.google.com/travel/search?q=hotels%20near%20Hakata%20Station%20Fukuoka%20Dec%2028%20-%20Dec%2030%202026"
+      }
+     ]
+    },
+    {
+     "time": "16:00",
+     "name": "櫛田神社＋川端商店街＋かろのうろん",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "博多總鎮守，境內有山笠飾山；穿過川端商店街（川端ぜんざい、明太子店）。神社旁 1882 年創業的「かろのうろん」吃一碗ごぼう天うどん墊肚子（約 ¥700，店內禁止拍照）。",
+     "price_for2_twd": 300,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%AB%9B%E7%94%B0%E7%A5%9E%E7%A4%BE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%8A%E5%B7%9D%E7%AB%AF%E7%94%BA1-41",
+     "site_url": "https://www.hakatayamakasa.com/",
+     "address": "福岡市博多区上川端町 1-41（かろのうろん：上川端町 2-1）",
+     "tip": "1/1 早上也可以回來櫛田神社初詣；かろのうろん平日 10:00–20:00、出汁賣完就關",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kushida%20Shrine%20Kair%C5%8D%201-41%20Kami-kawabatamachi%20Hakata-ku%20Fukuoka%2020231128.jpg?width=1200",
+      "credit": "Hirho",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "#かろのうろん",
+       "url": "https://www.instagram.com/explore/tags/%E3%81%8B%E3%82%8D%E3%81%AE%E3%81%86%E3%82%8D%E3%82%93/"
+      },
+      {
+       "type": "blog",
+       "title": "Retty／食べログ 川端周邊",
+       "url": "https://tabelog.com/"
+      }
+     ]
+    },
+    {
+     "time": "19:00",
+     "name": "博多もつ鍋おおやま 本店",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "福岡縣營業額 No.1 的もつ鍋專門店（IG 自述、5 萬追蹤），味噌／醬油湯底配熊本產牛腸，兩人一鍋＋締めちゃんぽん麵＋酢もつ約 ¥6,000。2026/10 本店剛翻新到 73 席，有巨大山笠裝飾。",
+     "price_for2_twd": 1240,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%82%82%E3%81%A4%E9%8D%8B%E3%81%8A%E3%81%8A%E3%82%84%E3%81%BE%20%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%BA%97%E5%B1%8B%E7%94%BA",
+     "site_url": "https://www.motu-ooyama.com/",
+     "address": "福岡市博多区店屋町（本店；KITTE 博多 9F、博多一番街也有分店）",
+     "tip": "年末客滿，請飯店代訂或用官網；吃不下就點 1 人份＋單品",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Motsunabe.jpg?width=1200",
+      "credit": "w:ja:利用者:Hykw-a4",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "【公式】博多もつ鍋おおやま @ooyama.motu",
+       "url": "https://www.instagram.com/ooyama.motu/"
+      },
+      {
+       "type": "official",
+       "title": "もつ鍋おおやま 官網",
+       "url": "https://www.motu-ooyama.com/"
+      }
+     ]
+    },
+    {
+     "time": "21:00",
+     "name": "中洲屋台街（那珂川沿い，例：博多屋台 KURO-chan）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "那珂川邊一排 20 多攤屋台，坐 8–10 人的小吧台，點一杯生啤＋焼きラーメン、明太子玉子焼き、おでん。屋台類型；兩人兩杯加 3 樣約 ¥4,000。KURO-chan 在中洲中島町 1，主打地鶏炭火焼。",
+     "price_for2_twd": 830,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E5%B1%8B%E5%8F%B0%20KURO-chan%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA1",
+     "site_url": "",
+     "address": "福岡市博多区中洲 1 丁目 那珂川沿い（KURO-chan：中洲中島町 1）",
+     "tip": "18:00 開始擺，21:00 後較好入座；只收現金、有些攤有 chaji；YouTube 阿倫頻道提醒看清價目表再點",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nakasu-yatai.JPG?width=1200",
+      "credit": "ｍｍｒｙ0241",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "【福岡博多屋台】中洲・天神の主要屋台街3エリア紹介（福岡道案内）",
+       "url": "https://www.youtube.com/watch?v=LzyFH1BBitA"
+      },
+      {
+       "type": "youtube",
+       "title": "來福岡中洲屋台就是要被坑過才是真玩過？（阿倫去旅行）",
+       "url": "https://www.youtube.com/watch?v=N3ZLI2CN23Q"
+      },
+      {
+       "type": "ig",
+       "title": "#中洲屋台",
+       "url": "https://www.instagram.com/explore/tags/%E4%B8%AD%E6%B4%B2%E5%B1%8B%E5%8F%B0/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/29",
+   "weekday": "二",
+   "title": "糸島爬山烤牡蠣",
+   "area": "博多→芥屋→岐志漁港→二見ヶ浦→博多・大名",
+   "drive_km": 100,
+   "drive_time": "約 3 小時（含市區）",
+   "summary": "早上博多駅取車，40 分鐘登頂立石山看糸島藍，中午漁港牡蠣小屋自己烤，傍晚夫婦岩看夕陽，回市區吃水炊き、大名立飲收尾",
+   "stops": [
+    {
+     "time": "09:00",
+     "name": "トヨタレンタカー 博多駅筑紫口店 取車",
+     "kind": "transport",
+     "stay_min": 40,
+     "desc": "拿駕照正本＋日文譯本＋護照取 C1 小車，加 ETC 卡（¥550）。走都市高速→西九州道 前原 IC 到芥屋約 1 小時。",
+     "price_for2_twd": 8560,
+     "booking": "需預約",
+     "booking_url": "https://rent.toyota.co.jp/eng/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%A8%E3%82%BF%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC%20%E5%8D%9A%E5%A4%9A%E9%A7%85%E7%AD%91%E7%B4%AB%E5%8F%A3%E5%BA%97",
+     "site_url": "https://rent.toyota.co.jp/eng/",
+     "address": "福岡市博多区博多駅中央街（筑紫口側）",
+     "tip": "4 天基本費 ¥36,410＋免責補償＋ETC 卡（Toyota 英文官網價，年末旺季待確認）；Times 博多店便宜一點但不租 ETC 卡",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakata%20Station%20Hakata%20Exit%20INT%20the%20NNW%20view%20from%20Kitte%20Hakata%20Hakata-eki-ch%C5%AB%C5%8Dgai%20Hakata-ku%20Fukuoka%2020250624.jpg?width=1200",
+      "credit": "Hirho",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Toyota Rent a Car 英文價目（C1 ¥10,340／24h）",
+       "url": "https://rent.toyota.co.jp/eng/pricelist_minicompact.aspx"
+      },
+      {
+       "type": "official",
+       "title": "ETC 卡／雪胎選配價",
+       "url": "https://rent.toyota.co.jp/global_eng/service/option.html"
+      }
+     ]
+    },
+    {
+     "time": "10:30",
+     "name": "立石山（209 m）登頂看糸島藍",
+     "kind": "challenge",
+     "stay_min": 90,
+     "desc": "芥屋海水浴場免費停車場起登，單程約 1.5 km、30–40 分，標高差 200 m，初學者路線；山頂 360 度看芥屋海灣、玄界灘，花崗岩稜線是糸島最美展望（sushi-tozan 2026/5、つなぐ糸島官方特集）。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E7%9F%B3%E5%B1%B1%20%E7%99%BB%E5%B1%B1%E5%8F%A3%20%E8%8A%A5%E5%B1%8B%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4%20%E7%B3%B8%E5%B3%B6%E5%B8%82%E5%BF%97%E6%91%A9%E8%8A%A5%E5%B1%8B",
+     "site_url": "https://kanko-itoshima.jp/tateishiyamawonoboru2025",
+     "address": "福岡県糸島市志摩芥屋（芥屋海水浴場第二駐車場，約 120 台）",
+     "tip": "花崗岩路面硬底鞋；海風大帶風衣；停車場有登山地圖箱。想更輕鬆改開車上火山（Mt. Hi）展望台",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keya%20Beach.jpg?width=1200",
+      "credit": "STA3816",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "立石山(糸島)の登山コース・駐車場・所要時間まとめ（Mt.Sushi）",
+       "url": "https://sushi-tozan.com/tateishiyama"
+      },
+      {
+       "type": "official",
+       "title": "つなぐ糸島：芥屋の大門からすぐ、絶景の立石山に登る",
+       "url": "https://kanko-itoshima.jp/tateishiyamawonoboru2025"
+      },
+      {
+       "type": "blog",
+       "title": "SpotTour 立石山（芥屋）登山【片道約40分】",
+       "url": "https://www.spottour.jp/"
+      }
+     ]
+    },
+    {
+     "time": "12:15",
+     "name": "のぶりん 糸島牡蠣小屋（岐志漁港）",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "岐志漁港牡蠣小屋街 24 年老攤，糸島「海王」單籽牡蠣 1 kg（約 10 顆）¥1,200 前後，自己放炭火上烤，加點ホタテ、サザエ、カキフライ；兩人烤 2 kg＋飲料約 ¥4,000。9:00–15:00，休 12/31–1/2（12/29 有開）。",
+     "price_for2_twd": 830,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%AE%E3%81%B6%E3%82%8A%E3%82%93%20%E7%B3%B8%E5%B3%B6%E7%89%A1%E8%A0%A3%E5%B0%8F%E5%B1%8B%20%E5%B2%90%E5%BF%97%E6%BC%81%E6%B8%AF%20%E7%B3%B8%E5%B3%B6%E5%B8%82%E5%BF%97%E6%91%A9%E5%B2%90%E5%BF%97",
+     "site_url": "https://www.instagram.com/kakinonoburins/",
+     "address": "福岡県糸島市志摩岐志 岐志漁港",
+     "tip": "店家借外套防噴油；只收現金；可帶調味料（檸檬、醬油）；隔壁冨士丸、えびす也熱門，哪家人少進哪家",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%8B%E3%81%8D%E5%B0%8F%E5%B1%8B%20%2848196365287%29.jpg?width=1200",
+      "credit": "MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "のぶりん 糸島牡蠣小屋 官方 IG @kakinonoburins",
+       "url": "https://www.instagram.com/kakinonoburins/"
+      },
+      {
+       "type": "youtube",
+       "title": "[福岡] 糸島船越漁港 | 牡蠣小屋原來要這樣選？",
+       "url": "https://www.youtube.com/watch?v=Fx3ZDFu2F7Q"
+      },
+      {
+       "type": "youtube",
+       "title": "福岡糸島燒蠔🔥4大燒蠔地區＋交通全攻略（2026最新）",
+       "url": "https://www.youtube.com/watch?v=GD-v01ZVW5I"
+      }
+     ]
+    },
+    {
+     "time": "15:00",
+     "name": "桜井二見ヶ浦 夫婦岩＋海邊咖啡",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "糸島代表景點：海上的夫婦岩與白色鳥居，日本夕陽百選；沿サンセットロード開，路邊有 Beach Cafe SUNSET、Palm Beach 等海景咖啡坐一下。日落 17:20 前後。",
+     "price_for2_twd": 600,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%9C%E4%BA%95%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6%20%E5%A4%AB%E5%A9%A6%E5%B2%A9%20%E7%B3%B8%E5%B3%B6%E5%B8%82%E5%BF%97%E6%91%A9%E6%A1%9C%E4%BA%95",
+     "site_url": "",
+     "address": "福岡県糸島市志摩桜井",
+     "tip": "冬天風大，夕陽看完就走；回博多約 1 小時，19:00 前到飯店停車",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Futamigaura%20Beach%20from%20Futamigaura%20Cemetery.JPG?width=1200",
+      "credit": "そらみみ (Soramimi)",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "福岡旅遊 糸島自駕一日遊 牡蠣小屋｜朝聖夫婦岩（卉卉）",
+       "url": "https://www.youtube.com/watch?v=sSjhtHmpaLg"
+      },
+      {
+       "type": "ig",
+       "title": "#二見ヶ浦",
+       "url": "https://www.instagram.com/explore/tags/%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6/"
+      }
+     ]
+    },
+    {
+     "time": "19:30",
+     "name": "水たき料亭 博多華味鳥 中洲本店",
+     "kind": "food",
+     "stay_min": 100,
+     "desc": "博多水炊き名店，2025/10 中洲本店重建開幕。華味鳥雞湯先喝一碗，再涮雞肉、丸子、野菜，最後雑炊；水炊きコース約 ¥4,000–5,500／人，兩人約 ¥9,000。水炊きセット 2 人起訂。",
+     "price_for2_twd": 1860,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E8%8F%AF%E5%91%B3%E9%B3%A5%20%E4%B8%AD%E6%B4%B2%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2",
+     "site_url": "https://www.hanamidori.net/",
+     "address": "福岡市博多区中洲（中洲本店）",
+     "tip": "年末一定要訂；吃不下コース點「水炊きセット」就好；開車的人這餐不喝酒，把車停飯店走路來",
+     "photo": null,
+     "links": [
+      {
+       "type": "ig",
+       "title": "水たき料亭 博多華味鳥 官方 IG @hanamidori_jp",
+       "url": "https://www.instagram.com/hanamidori_jp/"
+      },
+      {
+       "type": "official",
+       "title": "華味鳥 官網",
+       "url": "https://www.hanamidori.net/"
+      }
+     ]
+    },
+    {
+     "time": "21:45",
+     "name": "st.763（ナナロクサン）大名 立飲",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "大名的 standing bar，Google 4.8（211 則）、食べログ大名立飲第一個被列的店；精釀啤酒、自然派葡萄酒配炸物與小皿，17:00 開；兩人兩杯加兩樣約 ¥4,000。",
+     "price_for2_twd": 830,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=st.763%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2-9-17",
+     "site_url": "",
+     "address": "福岡市中央区大名 2-9-17 1F-A",
+     "tip": "照片是大名街景不是店；備案：シフト（大名 1-15-27 4F，21:00 開，¥3,000 喝到飽，Google 4.9／542）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuoka%20Daimy%C5%8D%20Garden%20City%20Stage%20The%20WSW%20side%20Daimyo%202-ch%C5%8Dme%20Ch%C5%AB%C5%8D-ku%20Fukuoka%2020250717.jpg?width=1200",
+      "credit": "Hirho",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "st.763 官方 IG @st.763_fuk",
+       "url": "https://www.instagram.com/st.763_fuk/"
+      },
+      {
+       "type": "blog",
+       "title": "食べログ 大名 立ち飲み",
+       "url": "https://tabelog.com/"
+      },
+      {
+       "type": "blog",
+       "title": "Retty 大名で立ち飲みできる人気店10選",
+       "url": "https://retty.me/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "開上大分道進由布院",
+   "area": "博多→大分道→由布院",
+   "drive_km": 115,
+   "drive_time": "約 1 小時 40 分",
+   "summary": "西中洲吃めんたい重早餐，九州道轉大分道開進由布院，湯の坪街道散步、豊後牛まぶし午餐、金鱗湖，入住泡露天，夜裡去亀の井別荘的 BAR 山猫",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "元祖博多めんたい重（西中洲）早餐",
+     "kind": "food",
+     "stay_min": 50,
+     "desc": "07:00 就開的明太子專門店，昆布巻き明太子整條放在海苔飯上的「めんたい重」¥1,980 起，加上自家製辣醬；1.3 萬追蹤的官方 IG。兩人約 ¥4,500。",
+     "price_for2_twd": 930,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E5%8D%9A%E5%A4%9A%E3%82%81%E3%82%93%E3%81%9F%E3%81%84%E9%87%8D%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%A5%BF%E4%B8%AD%E6%B4%B26-15",
+     "site_url": "https://www.mentaiju.com/",
+     "address": "福岡市中央区西中洲 6-15（博多駅内也有分店 9:00–21:00）",
+     "tip": "從渡辺通走 10 分；吃完回飯店取車 09:30 出發",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mentai-don.jpg?width=1200",
+      "credit": "Masahiko OHKUBO",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "元祖博多めんたい重 官方 IG @ganso_hakata_mentaiju",
+       "url": "https://www.instagram.com/ganso_hakata_mentaiju/"
+      },
+      {
+       "type": "official",
+       "title": "元祖博多めんたい重 官網",
+       "url": "https://www.mentaiju.com/"
+      }
+     ]
+    },
+    {
+     "time": "09:30",
+     "name": "自駕 博多→由布院（九州道→鳥栖 JCT→大分道 湯布院 IC）",
+     "kind": "transport",
+     "stay_min": 110,
+     "desc": "約 115 km、1 小時 40 分，過路費約 ¥3,000（待確認）。日田以後進山，由布岳就在眼前。不自駕版：ゆふいん号 高速巴士 ¥3,250（WEB 早割 ¥2,880）2 小時 25 分，或 JR ゆふいんの森。",
+     "price_for2_twd": 620,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%B8%83%E9%99%A2IC%20%E5%A4%A7%E5%88%86%E8%87%AA%E5%8B%95%E8%BB%8A%E9%81%93",
+     "site_url": "https://www.w-nexco.co.jp/",
+     "address": "九州自動車道→大分自動車道 湯布院 IC",
+     "tip": "前一天晚上看 NEXCO 西日本路況；大分道有雪就改走巴士（ゆふいん号 1 日 14 往復要預約）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyushu-expressway-kiyama.jpg?width=1200",
+      "credit": "ja:User:みんと",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "ゆふいん号 時刻・運賃（西鉄）",
+       "url": "https://www.nishitetsu.jp/bus/highwaybus/rosen/yufuin/"
+      },
+      {
+       "type": "official",
+       "title": "NEXCO 西日本 大分高速道路事務所 雪道対策",
+       "url": "https://www.w-nexco.co.jp/safety_drive/ooita/snow/"
+      },
+      {
+       "type": "official",
+       "title": "YUFUINFO：2026年も安全運転で｜Safe Winter Driving in Yufuin",
+       "url": "https://yufuin.gr.jp/"
+      }
+     ]
+    },
+    {
+     "time": "11:30",
+     "name": "湯の坪街道 散步 → 金鱗湖",
+     "kind": "sight",
+     "stay_min": 75,
+     "desc": "由布院駅到金鱗湖之間 1 公里的小店街：B-speak 蛋糕捲、金鱗餅、菓子工房、ゆふいん麦酒館；背景就是由布岳。走到底就是金鱗湖：溫泉水注入、湖面常年約 18℃，下午先繞一圈看天祖神社的水中鳥居（湖邊共同浴場下ん湯 ¥300），明早再來看霧。",
+     "price_for2_twd": 400,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E5%9D%AA%E8%A1%97%E9%81%93%20%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A",
+     "site_url": "",
+     "address": "大分県由布市湯布院町川上（湯の坪街道）",
+     "tip": "車停金鱗湖附近私營停車場（約 ¥500–1,000）或先 check-in 旅館停車再走；年末遊客多，12:00 前先去排まぶし心",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%B9%AF%E5%B8%83%E9%99%A2%2C%20Oita%20Prefecture%2C%20Kyushu%2C%20Japan%20%F0%9F%87%AF%F0%9F%87%B5%20-%2055117378904.jpg?width=1200",
+      "credit": "Sharon Hahn Darlin",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "【福岡由布院行程懶人包】（里歐愛旅遊，10 萬觀看）",
+       "url": "https://www.youtube.com/watch?v=ElObKLZvbUw"
+      },
+      {
+       "type": "youtube",
+       "title": "日本九州自駕遊 (EP3)-由布院及別府地獄（宗哥，4 萬觀看）",
+       "url": "https://www.youtube.com/watch?v=580aam0veJU"
+      },
+      {
+       "type": "ig",
+       "title": "#金鱗湖",
+       "url": "https://www.instagram.com/explore/tags/%E9%87%91%E9%B1%97%E6%B9%96/"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "由布まぶし心 金鱗湖本店（豊後牛まぶし）",
+     "kind": "food",
+     "stay_min": 70,
+     "desc": "由布院最紅的名物：炭烤豊後牛鋪在飯上，三吃（原味、藥味、茶泡飯）；也有地雞、鰻魚版。約 ¥2,800–3,500／人，兩人約 ¥6,500。IG 3 千追蹤，台灣美食帳號 2026/7 也推。",
+     "price_for2_twd": 1350,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E3%81%BE%E3%81%B6%E3%81%97%E5%BF%83%20%E9%87%91%E9%B1%97%E6%B9%96%E6%9C%AC%E5%BA%97%20%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A1492-1",
+     "site_url": "https://yufumabushi-shin.com/",
+     "address": "大分県由布市湯布院町川上 1492-1（駅前支店：川北 5-3）",
+     "tip": "金鱗湖店 10:30–18:30、駅前店有晚餐時段；開店前 20 分到就不用排太久",
+     "photo": null,
+     "links": [
+      {
+       "type": "ig",
+       "title": "由布まぶし心 官方 IG @yufumabusi_sin",
+       "url": "https://www.instagram.com/yufumabusi_sin/"
+      },
+      {
+       "type": "official",
+       "title": "由布まぶし心 官網",
+       "url": "https://yufumabushi-shin.com/"
+      },
+      {
+       "type": "youtube",
+       "title": "福岡自由行 Day 3｜由布院住一晚太幸福了♨️ 豐後牛釜飯（Jocelyn）",
+       "url": "https://www.youtube.com/watch?v=-zvxciNpwZ0"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "溫泉旅館 つたや 入住、露天泡湯",
+     "kind": "stay",
+     "stay_min": 180,
+     "desc": "Google 飯店 10/16 實查 12/30 NT$2,323／晚、4.5 分、露天浴場＋免費停車。放行李、泡湯、睡一下；晚餐若不含就在湯の坪吃地雞或ゆふいん麦酒館。",
+     "price_for2_twd": 2323,
+     "booking": "需預約",
+     "booking_url": "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8%E3%81%A4%E3%81%9F%E3%82%84%20%E7%94%B1%E5%B8%83%E9%99%A2",
+     "site_url": "",
+     "address": "大分県由布市湯布院町（由布院）",
+     "tip": "訂房時確認含不含晚餐、停車位；升級選擇 Lamp no Yado（私人浴池＋酒吧）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy%20field%20in%20winter%20near%20Yufuin%20Hot%20Spring%20and%20Mount%20Fukumazan.JPG?width=1200",
+      "credit": "そらみみ",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Google 飯店搜尋 由布院 12/30–12/31",
+       "url": "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "BAR 山猫（亀の井別荘，金鱗湖畔）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "由布院老牌名宿亀の井別荘裡的酒吧，17:00–24:00，非房客也能進；木造老屋、看夜裡的庭園，威士忌與雞尾酒為主；食べログ由布院バー第一個被推的店。兩人兩杯約 ¥4,000。類型：旅館酒吧／雞尾酒。",
+     "price_for2_twd": 830,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=BAR%20%E5%B1%B1%E7%8C%AB%20%E4%BA%80%E3%81%AE%E4%BA%95%E5%88%A5%E8%8D%98%20%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A2633-1",
+     "site_url": "https://www.kamenoi-bessou.jp/",
+     "address": "大分県由布市湯布院町川上 2633-1（亀の井別荘内，TEL 0977-85-2866）",
+     "tip": "從金鱗湖走路 3 分；備案：ニコルズ バー（由布院駅步行，Hot Pepper 夜 ¥1,000–1,999）",
+     "photo": null,
+     "links": [
+      {
+       "type": "official",
+       "title": "亀の井別荘 茶房 天井棧敷・BAR 山猫",
+       "url": "https://www.kamenoi-bessou.jp/"
+      },
+      {
+       "type": "blog",
+       "title": "食べログ 金鱗湖周辺のバー",
+       "url": "https://tabelog.com/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "晨霧、由布岳、別府跨年",
+   "area": "由布院→由布岳正面登山口→別府 鉄輪→別府駅前",
+   "drive_km": 35,
+   "drive_time": "約 1 小時（分段）",
+   "summary": "天亮前到金鱗湖看霧，上由布岳走一段（冬季量力），中午別府吃とり天元祖，下午地獄巡禮＋鐵輪蒸桑拿，晚上居酒屋跨年",
+   "stops": [
+    {
+     "time": "07:00",
+     "name": "金鱗湖 朝霧",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "日出 07:23（福岡 12/31），氣溫比湖水低 20 度時湖面整片白霧，是由布院的招牌畫面；12 月底機率最高。旅館早餐前走過去。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%B1%97%E6%B9%96%20%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A",
+     "site_url": "",
+     "address": "大分県由布市湯布院町川上",
+     "tip": "天氣越冷越晴霧越濃；手套毛帽帶著，拍完回旅館吃早餐 08:00",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yufuin%20morning%20fog%2001.JPG?width=1200",
+      "credit": "Miya.m",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "#金鱗湖朝霧",
+       "url": "https://www.instagram.com/explore/tags/%E9%87%91%E9%B1%97%E6%B9%96%E6%9C%9D%E9%9C%A7/"
+      },
+      {
+       "type": "youtube",
+       "title": "福岡由布院別府12小時爆吃7間｜金鱗湖（麥鬧兄妹）",
+       "url": "https://www.youtube.com/watch?v=YHxNkx_G0X8"
+      }
+     ]
+    },
+    {
+     "time": "09:00",
+     "name": "由布岳 正面登山口 → 合野越（冬季短版）",
+     "kind": "challenge",
+     "stay_min": 150,
+     "desc": "由布岳 1,583 m 是由布院的象徵。正面登山口（免費停車、廁所）到合野越約 1 小時，再往上到マタエ鞍部、東峰全程標準 5 小時 20 分（登山やってみっか 2025/12）；12 月上段有霧淞與結冰、鎖場要 6 爪冰爪（Yahoo 知恵袋 2025/1 討論）。本行程走到合野越或視體力到マタエ折返，2–2.5 小時。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E5%B2%B3%E6%AD%A3%E9%9D%A2%E7%99%BB%E5%B1%B1%E5%8F%A3%20%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A",
+     "site_url": "https://www.visit-oita.jp/spots/detail/4379",
+     "address": "大分県由布市湯布院町川上（やまなみハイウェイ沿い，由布院往別府方向約 15 分）",
+     "tip": "風雪、結冰、能見度差就放棄改去別府泡湯；YouTube ゆうFILM 12 月影片可先看雪況；下山後 12:00 前開到別府（大分道 湯布院 IC→別府 IC 約 40 分，不走城島高原山路）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Yufudake%2009.jpg?width=1200",
+      "credit": "Σ64",
+      "license": "CC BY 3.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "【日帰り登山】ホワイトモンブラン！ 12月 雪化粧の由布岳へ！（ゆうFILM）",
+       "url": "https://www.youtube.com/watch?v=69rr5GA6Mwo"
+      },
+      {
+       "type": "blog",
+       "title": "【由布岳】冬の東峰・西峰登頂！圧巻の樹氷と鎖場の緊張感！（登山やってみっか）",
+       "url": "https://www.yamanack.com/"
+      },
+      {
+       "type": "official",
+       "title": "由布市 由布岳登山マップ PDF",
+       "url": "http://www.city.yufu.oita.jp/"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "レストラン東洋軒（とり天發祥店）",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "大正 15 年創業、別府名物「とり天」的發源店，鹽麴醃雞腿肉炸成天婦羅沾柑橘醋＋芥末；とり天定食約 ¥1,500，兩人約 ¥3,200。IG 5 千追蹤、停車場 83 台。",
+     "price_for2_twd": 660,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E6%9D%B1%E6%B4%8B%E8%BB%92%20%E5%88%A5%E5%BA%9C%E5%B8%82%E7%9F%B3%E5%9E%A3%E6%9D%B17-8-22",
+     "site_url": "https://www.instagram.com/toyoken_in_beppu/",
+     "address": "大分県別府市石垣東 7-8-22",
+     "tip": "11:00–15:00 LO、每月第 2 週二休；12/31 營業與否待確認（IG 會公告），休的話改鉄輪的地獄蒸し當午餐",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toriten.JPG?width=1200",
+      "credit": "Toritencat",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "レストラン東洋軒 官方 IG @toyoken_in_beppu",
+       "url": "https://www.instagram.com/toyoken_in_beppu/"
+      },
+      {
+       "type": "blog",
+       "title": "食べログ 東洋軒",
+       "url": "https://tabelog.com/"
+      }
+     ]
+    },
+    {
+     "time": "14:00",
+     "name": "別府地獄めぐり：海地獄＋血の池地獄",
+     "kind": "sight",
+     "stay_min": 100,
+     "desc": "七個地獄不必全看：鈷藍色 98℃ 的海地獄（國家名勝，溫室有大王蓮）和紅色的血の池地獄最值得；單館 ¥450／人、7 館共通券 ¥2,400／人（待確認）。兩館兩人約 ¥1,800。",
+     "price_for2_twd": 370,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%9C%B0%E7%8D%84%20%E5%88%A5%E5%BA%9C%E5%B8%82%E9%89%84%E8%BC%AA559-1",
+     "site_url": "http://www.beppu-jigoku.com/",
+     "address": "大分県別府市鉄輪 559-1（血の池地獄：野田 778）",
+     "tip": "海地獄有免費停車；足湯在海地獄出口；年末開放時間 8:00–17:00",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beppu%20Umi-jigoku03n3200.jpg?width=1200",
+      "credit": "663highland",
+      "license": "CC BY 2.5"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "九州自駕vlog｜福岡/由布院/別府｜別府地獄巡禮（Yajan，5 萬觀看）",
+       "url": "https://www.youtube.com/watch?v=2cApSfTRAec"
+      },
+      {
+       "type": "ig",
+       "title": "#海地獄",
+       "url": "https://www.instagram.com/explore/tags/%E6%B5%B7%E5%9C%B0%E7%8D%84/"
+      }
+     ]
+    },
+    {
+     "time": "16:00",
+     "name": "鉄輪：地獄蒸し工房 鉄輪 → 鉄輪むし湯",
+     "kind": "activity",
+     "stay_min": 120,
+     "desc": "先在地獄蒸し工房用 100℃ 溫泉蒸氣自己蒸海鮮與蔬菜（釜使用費 ¥400 起＋食材，兩人約 ¥3,000，年末年始照常營業 LO 19:00，IG 4.9 千追蹤）；再走 3 分到鉄輪むし湯：躺在石菖蒲草上被溫泉蒸氣蒸 8–10 分鐘，¥700＋浴衣 ¥220，冬季 7:30–19:30（最終受付 19:00）。",
+     "price_for2_twd": 1000,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E7%8D%84%E8%92%B8%E3%81%97%E5%B7%A5%E6%88%BF%20%E9%89%84%E8%BC%AA%20%E5%88%A5%E5%BA%9C%E5%B8%82%E9%A2%A8%E5%91%82%E6%9C%AC5%E7%B5%84",
+     "site_url": "https://jigokumushi.com/",
+     "address": "大分県別府市風呂本 5 組（むし湯：鉄輪上 1 組，熱の湯停車場免費 2 小時）",
+     "tip": "12/29–1/3 むし湯可能提早到 18:00 關（2024 年例子），先蒸湯再吃就不會被關門；入住別府駅前旅館在 18:30 前",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2020-02-24%20Kannawa%20Onsen%20%E9%89%84%E8%BC%AA%E6%B8%A9%E6%B3%89%20DSCF8198.jpg?width=1200",
+      "credit": "松岡明芳",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "地獄蒸し工房鉄輪 官方 IG @jigokumushikoubou",
+       "url": "https://www.instagram.com/jigokumushikoubou/"
+      },
+      {
+       "type": "official",
+       "title": "別府八湯温泉道 第40番 鉄輪むし湯（¥700）",
+       "url": "https://onsendo.beppu-navi.jp/y40/"
+      },
+      {
+       "type": "youtube",
+       "title": "【女ひとり旅】別府温泉旅行。泥湯に蒸し湯、とり天に鉄輪古民家カフェ巡り",
+       "url": "https://www.youtube.com/watch?v=rUaYdSE2vEg"
+      }
+     ]
+    },
+    {
+     "time": "20:00",
+     "name": "炙り屋 浜右衛門 跨年（居酒屋）",
+     "kind": "bar",
+     "stay_min": 150,
+     "desc": "別府駅走路 5 分的海鮮居酒屋，Google 4.6（256 則）：浜焼き牡蠣、ホタテ奶油、關あじ／關さば刺身拼盤配大分麦焼酎；類型：居酒屋。兩人喝到跨年約 ¥8,000。00:00 前走到附近寺廟聽除夜の鐘。",
+     "price_for2_twd": 1660,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%82%99%E3%82%8A%E5%B1%8B%20%E6%B5%9C%E5%8F%B3%E8%A1%9B%E9%96%80%20%E5%88%A5%E5%BA%9C%E5%B8%82%E5%8C%97%E6%B5%9C2-7-31",
+     "site_url": "",
+     "address": "大分県別府市北浜 2-7-31 モズヤビル 1F（17:30 開）",
+     "tip": "12/31 是否營業一定先打電話；備案：陽なたや（元町 4-10，Google 4.8）、THE NIKAIDO STAND（駅前本町），都休就在地獄蒸し工房吃完回旅館泡湯跨年",
+     "photo": null,
+     "links": [
+      {
+       "type": "ig",
+       "title": "#浜右衛門",
+       "url": "https://www.instagram.com/explore/tags/%E6%B5%9C%E5%8F%B3%E8%A1%9B%E9%96%80/"
+      },
+      {
+       "type": "blog",
+       "title": "Retty 駅前本町（別府市）の居酒屋・バー人気店",
+       "url": "https://retty.me/"
+      },
+      {
+       "type": "blog",
+       "title": "note：別府駅徒歩圏 おすすめの居酒屋（まゆみトラベルラボ）",
+       "url": "https://note.com/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "砂湯初詣，一蘭回家",
+   "area": "別府→（大分道・九州道）→博多→福岡空港",
+   "drive_km": 150,
+   "drive_time": "約 2 小時 15 分",
+   "summary": "元旦早上被溫泉砂活埋 15 分鐘，八幡朝見神社初詣，開回福岡吃一蘭本店，機場還車，亞航 16:20 回台",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "Sand SPA 別府海浜砂湯（上人ヶ浜）",
+     "kind": "challenge",
+     "stay_min": 75,
+     "desc": "穿浴衣躺在海邊沙灘，工作人員把 40℃ 溫泉砂堆滿全身 15 分鐘，像被活埋但全身發熱出汗；砂湯＋大浴場＋浴巾 ¥2,500／人，11–3 月 8:00–18:00，官網預約（不定休、月 2 次換砂）。",
+     "price_for2_twd": 1040,
+     "booking": "建議預約",
+     "booking_url": "https://www.shoninpark.jp/guide/spa/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Sand%20SPA%20%E5%88%A5%E5%BA%9C%E6%B5%B7%E6%B5%9C%E7%A0%82%E6%B9%AF%20%E5%88%A5%E5%BA%9C%E5%B8%82%E4%B8%8A%E4%BA%BA%E3%82%B1%E6%B5%9C%E7%94%BA795-1",
+     "site_url": "https://www.shoninpark.jp/guide/spa/",
+     "address": "大分県別府市上人ケ浜町 795-1（TKP 上人ヶ浜公園內）",
+     "tip": "元旦是否營業待確認（官網未寫）；不開就改竹瓦温泉砂湯（別府駅旁，¥1,500，8:00 開，待確認）",
+     "photo": null,
+     "links": [
+      {
+       "type": "official",
+       "title": "Sand SPA 別府海浜砂湯（料金・営業時間）",
+       "url": "https://www.shoninpark.jp/guide/spa/"
+      },
+      {
+       "type": "youtube",
+       "title": "【九州自駕#16】體驗被活埋的感覺ft.沙浴（1620 夫妻生活）",
+       "url": "https://www.youtube.com/watch?v=v5UHh-tKHwE"
+      }
+     ]
+    },
+    {
+     "time": "09:45",
+     "name": "八幡朝見神社 初詣",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "別府的總鎮守、在地人初詣的地方；境內有「夫婦杉」與看得到別府灣的參道，元旦早上人多但不用排幾小時。抽個籤、買御守就上路。",
+     "price_for2_twd": 200,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E5%B9%A1%E6%9C%9D%E8%A6%8B%E7%A5%9E%E7%A4%BE%20%E5%88%A5%E5%BA%9C%E5%B8%82%E6%9C%9D%E8%A6%8B2-15-19",
+     "site_url": "",
+     "address": "大分県別府市朝見 2-15-19",
+     "tip": "停車場元旦可能管制，停旅館走路 15 分或計程車",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%85%AB%E5%B9%A1%E6%9C%9D%E8%A6%8B%E7%A5%9E%E7%A4%BE.JPG?width=1200",
+      "credit": "Zantarou",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "#八幡朝見神社",
+       "url": "https://www.instagram.com/explore/tags/%E5%85%AB%E5%B9%A1%E6%9C%9D%E8%A6%8B%E7%A5%9E%E7%A4%BE/"
+      },
+      {
+       "type": "official",
+       "title": "大分県観光情報 visit-oita",
+       "url": "https://www.visit-oita.jp/"
+      }
+     ]
+    },
+    {
+     "time": "10:45",
+     "name": "自駕 別府→福岡（別府 IC→大分道→鳥栖 JCT→九州道→福岡 IC）",
+     "kind": "transport",
+     "stay_min": 135,
+     "desc": "約 150 km、2 小時 15 分，過路費約 ¥3,800（待確認）。元旦太宰府 IC 塞到 2 小時以上，一定走福岡 IC 下。不自駕版：とよのくに号 別府駅→福岡空港國際線直達，約 3 小時、¥3,250，要預約。",
+     "price_for2_twd": 790,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1IC%20%E4%B9%9D%E5%B7%9E%E8%87%AA%E5%8B%95%E8%BB%8A%E9%81%93",
+     "site_url": "https://kamenoibus.com/highway/",
+     "address": "大分自動車道→九州自動車道",
+     "tip": "途中山田 SA／基山 PA 休息；13:00 前到中洲",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyushu-expressway-kiyama.jpg?width=1200",
+      "credit": "ja:User:みんと",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "とよのくに号（亀の井バス）別府⇔福岡・福岡空港",
+       "url": "https://kamenoibus.com/highway/"
+      },
+      {
+       "type": "official",
+       "title": "NEXCO 西日本 年末年始 太宰府 IC 混雑",
+       "url": "https://corp.w-nexco.co.jp/"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "一蘭 本店（中洲川端）",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "豚骨拉麵發源地福岡的一蘭總本店，24 小時、年中無休，元旦也開；一人一格的味集中カウンター，一碗 ¥1,000 前後，兩人約 ¥2,400。本店有「釜だれとんこつ」限定。",
+     "price_for2_twd": 500,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E8%98%AD%20%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B25-3-2",
+     "site_url": "https://ichiran.com/",
+     "address": "福岡市博多区中洲 5-3-2",
+     "tip": "車停中洲附近投幣停車場（元旦空位多）；趕時間就改在機場國際線吃",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ichiran%20Main%20Building.JPG?width=1200",
+      "credit": "Jkr2255",
+      "license": "CC BY 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "一蘭 ICHIRAN 官方 IG @ichiran_jp（7.5 萬追蹤）",
+       "url": "https://www.instagram.com/ichiran_jp/"
+      },
+      {
+       "type": "official",
+       "title": "一蘭 官網",
+       "url": "https://ichiran.com/"
+      }
+     ]
+    },
+    {
+     "time": "14:15",
+     "name": "福岡空港國際線 還車 → 亞航 16:20→18:10",
+     "kind": "transport",
+     "stay_min": 125,
+     "desc": "トヨタレンタカー 福岡空港国際線店還車（先在附近加滿油），走路進國際線航廈；亞航 FUK→TPE 16:20 起飛、18:10 到桃園。",
+     "price_for2_twd": 0,
+     "booking": "需預約",
+     "booking_url": "https://www.airasia.com/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%A8%E3%82%BF%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC%20%E7%A6%8F%E5%B2%A1%E7%A9%BA%E6%B8%AF%E5%9B%BD%E9%9A%9B%E7%B7%9A%E5%BA%97",
+     "site_url": "",
+     "address": "福岡市博多区青木（國際線航廈旁）",
+     "tip": "廉航 14:20 前要到櫃台；伴手禮：明太子（ふくや）、通りもん在國際線管制區內有",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Departure%20gate%20of%20Fukuoka%20Airport%20International%20Terminal%2020140421.JPG?width=1200",
+      "credit": "そらみみ",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Google 航班 FUK→TPE 1/1 亞航 16:20（10/16 實查）",
+       "url": "https://www.google.com/travel/flights"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "博多もつ鍋おおやま 本店",
+   "dish": "味噌もつ鍋 2 人前＋締めちゃんぽん＋酢もつ",
+   "price_for2_twd": 1242,
+   "area": "博多 店屋町",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%82%82%E3%81%A4%E9%8D%8B%E3%81%8A%E3%81%8A%E3%82%84%E3%81%BE%20%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%BA%97%E5%B1%8B%E7%94%BA",
+   "why": "IG 自述福岡縣もつ鍋營業額 No.1、Monde Selection 金賞；本店 2026/10 翻新 73 席；排進第一天晚餐",
+   "source": "https://www.instagram.com/ooyama.motu/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Motsunabe.jpg?width=1200",
+    "credit": "w:ja:利用者:Hykw-a4",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "【公式】博多もつ鍋おおやま @ooyama.motu（5 萬追蹤）",
+     "url": "https://www.instagram.com/ooyama.motu/"
+    },
+    {
+     "type": "official",
+     "title": "官網",
+     "url": "https://www.motu-ooyama.com/"
+    }
+   ]
+  },
+  {
+   "name": "水たき料亭 博多華味鳥 中洲本店",
+   "dish": "水炊きコース（雞湯、涮雞、丸子、雑炊）",
+   "price_for2_twd": 1863,
+   "area": "中洲",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E8%8F%AF%E5%91%B3%E9%B3%A5%20%E4%B8%AD%E6%B4%B2%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2",
+   "why": "博多水炊き代表店，2025/10 中洲本店重建開幕；IG 8.9 千追蹤，台灣帳號 kukulala 2026/9 吃過金華套餐推薦；第二天晚餐",
+   "source": "https://www.instagram.com/hanamidori_jp/",
+   "photo": null,
+   "links": [
+    {
+     "type": "ig",
+     "title": "博多華味鳥 官方 IG @hanamidori_jp",
+     "url": "https://www.instagram.com/hanamidori_jp/"
+    },
+    {
+     "type": "official",
+     "title": "官網",
+     "url": "https://www.hanamidori.net/"
+    }
+   ]
+  },
+  {
+   "name": "博多らーめん Shin-Shin 天神本店",
+   "dish": "博多純情らーめん＋替え玉＋焼きめし",
+   "price_for2_twd": 497,
+   "area": "天神",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20ShinShin%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E3-2-19",
+   "why": "屋台出身的細麵豚骨，Tabelog 福岡拉麵常勝；官方 IG 6 千追蹤、IG 上 1 萬篇打卡；想吃第二碗拉麵就排在第二天回市區前",
+   "source": "https://www.instagram.com/hakata_shinshin/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakata%20Ramen%20%283362780458%29.jpg?width=1200",
+    "credit": "David Pursehouse from Kawasaki, Japan",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "【公式】博多らーめんShin-Shin @hakata_shinshin",
+     "url": "https://www.instagram.com/hakata_shinshin/"
+    },
+    {
+     "type": "ig",
+     "title": "#shinshin",
+     "url": "https://www.instagram.com/explore/tags/shinshin/"
+    }
+   ]
+  },
+  {
+   "name": "一蘭 本店",
+   "dish": "天然とんこつラーメン（本店限定 釜だれとんこつ）",
+   "price_for2_twd": 497,
+   "area": "中洲川端",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E8%98%AD%20%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B25-3-2",
+   "why": "24 小時年中無休，元旦唯一穩開的名店；官方 IG 7.5 萬追蹤；最後一天午餐",
+   "source": "https://www.instagram.com/ichiran_jp/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ichiran%20Main%20Building.JPG?width=1200",
+    "credit": "Jkr2255",
+    "license": "CC BY 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "一蘭 ICHIRAN 官方 IG @ichiran_jp",
+     "url": "https://www.instagram.com/ichiran_jp/"
+    },
+    {
+     "type": "official",
+     "title": "一蘭 官網",
+     "url": "https://ichiran.com/"
+    }
+   ]
+  },
+  {
+   "name": "屋台 小金ちゃん（天神）",
+   "dish": "焼きラーメン（元祖）＋明太子玉子焼き＋どて焼き",
+   "price_for2_twd": 724,
+   "area": "天神（福岡銀行本店前）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8B%E5%8F%B0%20%E5%B0%8F%E9%87%91%E3%81%A1%E3%82%83%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E",
+   "why": "焼きラーメン的發源屋台，IG 上 4,500 篇貼文、池田航等美食帳號密着影片；中洲屋台之外另一個必去",
+   "source": "https://www.instagram.com/explore/tags/%E5%B0%8F%E9%87%91%E3%81%A1%E3%82%83%E3%82%93/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Watanabe%20D%C5%8Dri%20the%20Fukuoka%20Hakata%20Yatai%20near%20the%20Nishinippon%20Watanabe%20Bldg%20Tenjin%201-ch%C5%8Dme%20Ch%C5%AB%C5%8D-ku%20Fukuoka%2020251001.jpg?width=1200",
+    "credit": "Hirho",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "#小金ちゃん",
+     "url": "https://www.instagram.com/explore/tags/%E5%B0%8F%E9%87%91%E3%81%A1%E3%82%83%E3%82%93/"
+    },
+    {
+     "type": "youtube",
+     "title": "中洲・天神の主要屋台街3エリア紹介",
+     "url": "https://www.youtube.com/watch?v=LzyFH1BBitA"
+    }
+   ]
+  },
+  {
+   "name": "のぶりん 糸島牡蠣小屋（岐志漁港）",
+   "dish": "炭火烤牡蠣 1 kg（約 10 顆）＋ホタテ＋サザエ",
+   "price_for2_twd": 828,
+   "area": "糸島 岐志漁港",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%AE%E3%81%B6%E3%82%8A%E3%82%93%20%E7%B3%B8%E5%B3%B6%E7%89%A1%E8%A0%A3%E5%B0%8F%E5%B1%8B%20%E5%B2%90%E5%BF%97%E6%BC%81%E6%B8%AF%20%E7%B3%B8%E5%B3%B6%E5%B8%82%E5%BF%97%E6%91%A9%E5%B2%90%E5%BF%97",
+   "why": "岐志漁港 24 年老攤、IG 2.9 千追蹤；YouTube 樂郵日本 2026 燒蠔攻略 1 kg 約 ¥1,200；冬季限定，第二天午餐",
+   "source": "https://www.instagram.com/kakinonoburins/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%8B%E3%81%8D%E5%B0%8F%E5%B1%8B%20%2848196365287%29.jpg?width=1200",
+    "credit": "MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "のぶりん 糸島牡蠣小屋 @kakinonoburins",
+     "url": "https://www.instagram.com/kakinonoburins/"
+    },
+    {
+     "type": "ig",
+     "title": "糸島カキ小屋 えびす @kaki_yebisu（2026/10/17 新裝開幕）",
+     "url": "https://www.instagram.com/kaki_yebisu/"
+    },
+    {
+     "type": "youtube",
+     "title": "福岡糸島燒蠔 4大燒蠔地區＋交通全攻略（2026）",
+     "url": "https://www.youtube.com/watch?v=GD-v01ZVW5I"
+    }
+   ]
+  },
+  {
+   "name": "太宰府 かさの家",
+   "dish": "梅ヶ枝餅（¥150／個，25 日艾草版）",
+   "price_for2_twd": 124,
+   "area": "太宰府 參道",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%95%E3%81%AE%E5%AE%B6%20%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82%E5%AE%B0%E5%BA%9C2-7-24",
+   "why": "參道最有名的梅ヶ枝餅老店，只用紅豆、糯米、粳米、鹽；官方 IG 3.8 千追蹤，排隊時可看現烤；第一天",
+   "source": "https://www.instagram.com/dazaifu_kasanoya/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Umegaemochi%20in%20Dazaifu.jpg?width=1200",
+    "credit": "Kyoww",
+    "license": "Public domain"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "太宰府 かさの家 @dazaifu_kasanoya",
+     "url": "https://www.instagram.com/dazaifu_kasanoya/"
+    }
+   ]
+  },
+  {
+   "name": "元祖博多めんたい重（西中洲）",
+   "dish": "めんたい重＋博多めんたい煮こみつけ麺",
+   "price_for2_twd": 932,
+   "area": "西中洲",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E5%8D%9A%E5%A4%9A%E3%82%81%E3%82%93%E3%81%9F%E3%81%84%E9%87%8D%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%A5%BF%E4%B8%AD%E6%B4%B26-15",
+   "why": "07:00 開的明太子專門店，整條昆布巻き明太子；IG 1.3 萬追蹤、IG 地點 5 萬篇貼文；第三天出發前早餐",
+   "source": "https://www.instagram.com/ganso_hakata_mentaiju/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mentai-don.jpg?width=1200",
+    "credit": "Masahiko OHKUBO",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "元祖博多めんたい重 @ganso_hakata_mentaiju",
+     "url": "https://www.instagram.com/ganso_hakata_mentaiju/"
+    },
+    {
+     "type": "official",
+     "title": "官網（中文頁）",
+     "url": "https://www.mentaiju.com/"
+    }
+   ]
+  },
+  {
+   "name": "かろのうろん",
+   "dish": "ごぼう天うどん（博多式軟麵）",
+   "price_for2_twd": 310,
+   "area": "博多 櫛田神社旁",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%82%8D%E3%81%AE%E3%81%86%E3%82%8D%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%8A%E5%B7%9D%E7%AB%AF%E7%94%BA2-1",
+   "why": "1882 年創業、羅臼昆布高湯＋熟成手打麵的博多うどん代表；IG 地點 1.9 千篇貼文、台灣帳號 gogopayne 影片 1,230 讚；第一天傍晚",
+   "source": "https://www.instagram.com/explore/tags/%E3%81%8B%E3%82%8D%E3%81%AE%E3%81%86%E3%82%8D%E3%82%93/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gobo-ten%20Udon%20Kyushu.JPG?width=1200",
+    "credit": "NY066",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "#かろのうろん",
+     "url": "https://www.instagram.com/explore/tags/%E3%81%8B%E3%82%8D%E3%81%AE%E3%81%86%E3%82%8D%E3%82%93/"
+    },
+    {
+     "type": "ig",
+     "title": "#ごぼう天うどん",
+     "url": "https://www.instagram.com/explore/tags/%E3%81%94%E3%81%BC%E3%81%86%E5%A4%A9%E3%81%86%E3%81%A9%E3%82%93/"
+    }
+   ]
+  },
+  {
+   "name": "博多ごまさば屋",
+   "dish": "ごまさば定食／トロサバ定食 ¥1,600",
+   "price_for2_twd": 662,
+   "area": "舞鶴（赤坂駅 5 分）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%81%94%E3%81%BE%E3%81%95%E3%81%B0%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B41-2-11",
+   "why": "福岡名物ごまさば（芝麻醬醃生鯖魚）的專門店，午餐定食配鯖魚南蠻與沙拉吃到飽；IG 地點 3.5 千篇貼文；排不進行程就當備案午餐",
+   "source": "https://www.instagram.com/hakatagomasabya0719/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%94%E3%81%BE%E3%81%95%E3%81%B0%20%28256930677%29.jpg?width=1200",
+    "credit": "ayustety from Tokyo, Japan",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "博多ごまさば屋 @hakatagomasabya0719",
+     "url": "https://www.instagram.com/hakatagomasabya0719/"
+    },
+    {
+     "type": "ig",
+     "title": "#ごまさば",
+     "url": "https://www.instagram.com/explore/tags/%E3%81%94%E3%81%BE%E3%81%95%E3%81%B0/"
+    }
+   ]
+  },
+  {
+   "name": "由布まぶし心 金鱗湖本店",
+   "dish": "豊後牛まぶし（三吃）",
+   "price_for2_twd": 1346,
+   "area": "由布院 金鱗湖",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E3%81%BE%E3%81%B6%E3%81%97%E5%BF%83%20%E9%87%91%E9%B1%97%E6%B9%96%E6%9C%AC%E5%BA%97%20%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A1492-1",
+   "why": "由布院最紅名物，IG 地點 1 萬篇貼文，台灣美食帳號 Tiffany 2026/7「值得排隊」；第三天午餐",
+   "source": "https://www.instagram.com/yufumabusi_sin/",
+   "photo": null,
+   "links": [
+    {
+     "type": "ig",
+     "title": "由布まぶし心 @yufumabusi_sin",
+     "url": "https://www.instagram.com/yufumabusi_sin/"
+    },
+    {
+     "type": "official",
+     "title": "官網",
+     "url": "https://yufumabushi-shin.com/"
+    }
+   ]
+  },
+  {
+   "name": "レストラン東洋軒",
+   "dish": "とり天定食（發祥店）",
+   "price_for2_twd": 662,
+   "area": "別府 石垣東",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E6%9D%B1%E6%B4%8B%E8%BB%92%20%E5%88%A5%E5%BA%9C%E5%B8%82%E7%9F%B3%E5%9E%A3%E6%9D%B17-8-22",
+   "why": "大正 15 年創業、とり天發祥；IG 5.2 千追蹤；第四天午餐",
+   "source": "https://www.instagram.com/toyoken_in_beppu/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toriten.JPG?width=1200",
+    "credit": "Toritencat",
+    "license": "Public domain"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "レストラン東洋軒 @toyoken_in_beppu",
+     "url": "https://www.instagram.com/toyoken_in_beppu/"
+    }
+   ]
+  },
+  {
+   "name": "地獄蒸し工房 鉄輪",
+   "dish": "地獄蒸し（海鮮籠＋野菜籠＋溫泉蛋）",
+   "price_for2_twd": 621,
+   "area": "別府 鉄輪",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E7%8D%84%E8%92%B8%E3%81%97%E5%B7%A5%E6%88%BF%20%E9%89%84%E8%BC%AA%20%E5%88%A5%E5%BA%9C%E5%B8%82%E9%A2%A8%E5%91%82%E6%9C%AC5%E7%B5%84",
+   "why": "用溫泉蒸氣自己蒸，年末年始照常營業；官方 IG 4.9 千追蹤、IG 地點 8.7 千篇；第四天下午",
+   "source": "https://jigokumushi.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2020-02-24%20Kannawa%20Onsen%20%E9%89%84%E8%BC%AA%E6%B8%A9%E6%B3%89%E5%8F%8C%E8%91%89%E8%8D%98%20%E5%9C%B0%E7%8D%84%E8%92%B8%E3%81%97%EF%BC%88%E6%BA%90%E6%B3%89%EF%BC%89DSCF8228.jpg?width=1200",
+    "credit": "松岡明芳",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "地獄蒸し工房鉄輪 @jigokumushikoubou",
+     "url": "https://www.instagram.com/jigokumushikoubou/"
+    },
+    {
+     "type": "official",
+     "title": "官網（年末年始も営業）",
+     "url": "https://jigokumushi.com/"
+    }
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "name": "立石山（糸島）登頂",
+   "what": "芥屋海水浴場起登，單程 1.5 km／30–40 分、標高差 200 m，花崗岩稜線 360 度看糸島藍",
+   "price_for2_twd": 0,
+   "duration": "往返 1.5 小時",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://sushi-tozan.com/tateishiyama",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E7%9F%B3%E5%B1%B1%20%E7%99%BB%E5%B1%B1%E5%8F%A3%20%E8%8A%A5%E5%B1%8B%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4%20%E7%B3%B8%E5%B3%B6%E5%B8%82%E5%BF%97%E6%91%A9%E8%8A%A5%E5%B1%8B",
+   "note": "初學者路線但岩面滑，硬底鞋；海風大。免費停車 120 台、巴士芥屋站步行 5 分",
+   "links": [
+    {
+     "type": "blog",
+     "title": "Mt.Sushi 立石山コース・駐車場・所要時間",
+     "url": "https://sushi-tozan.com/tateishiyama"
+    },
+    {
+     "type": "official",
+     "title": "つなぐ糸島 特集",
+     "url": "https://kanko-itoshima.jp/tateishiyamawonoboru2025"
+    }
+   ],
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keya%20Beach.jpg?width=1200",
+    "credit": "STA3816",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "name": "由布岳 冬季登山（正面登山口→合野越／マタエ，量力到東峰）",
+   "what": "由布院的象徵 1,583 m；全程東峰標準 5 小時 20 分，12 月上段結冰、鎖場；短版到合野越 2 小時",
+   "price_for2_twd": 0,
+   "duration": "2–5.5 小時",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://www.yamanack.com/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E5%B2%B3%E6%AD%A3%E9%9D%A2%E7%99%BB%E5%B1%B1%E5%8F%A3%20%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A",
+   "note": "要 6 爪冰爪＋登山杖＋防水手套；風雪就放棄。2014/12/30 紀錄：正面登山口 10:05 出發→西峰→東峰→14:30 回，4 小時 25 分（fc2 山行記）",
+   "links": [
+    {
+     "type": "youtube",
+     "title": "12月 雪化粧の由布岳へ！（ゆうFILM）",
+     "url": "https://www.youtube.com/watch?v=69rr5GA6Mwo"
+    },
+    {
+     "type": "blog",
+     "title": "冬の由布岳2023（山と溪谷オンライン，登山口 −5℃）",
+     "url": "https://www.yamakei-online.com/"
+    },
+    {
+     "type": "blog",
+     "title": "12月 冬の由布岳登山（＆お鉢巡り）2014.12.30",
+     "url": "http://ridergoupamountain.blog.fc2.com/blog-entry-60.html"
+    }
+   ],
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Yufudake%2009.jpg?width=1200",
+    "credit": "Σ64",
+    "license": "CC BY 3.0"
+   }
+  },
+  {
+   "name": "別府砂湯（Sand SPA 別府海浜砂湯）",
+   "what": "穿浴衣被 40℃ 溫泉砂埋 15 分鐘，之後大浴場洗掉",
+   "price_for2_twd": 1035,
+   "duration": "1 小時",
+   "booking": "建議預約（官網）",
+   "season_ok": true,
+   "url": "https://www.shoninpark.jp/guide/spa/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Sand%20SPA%20%E5%88%A5%E5%BA%9C%E6%B5%B7%E6%B5%9C%E7%A0%82%E6%B9%AF%20%E5%88%A5%E5%BA%9C%E5%B8%82%E4%B8%8A%E4%BA%BA%E3%82%B1%E6%B5%9C%E7%94%BA795-1",
+   "note": "¥2,500／人含砂湯＋大浴場＋浴巾；11–3 月 8:00–18:00；元旦營業待確認，備案竹瓦温泉砂湯",
+   "links": [
+    {
+     "type": "official",
+     "title": "Sand SPA 料金・営業時間",
+     "url": "https://www.shoninpark.jp/guide/spa/"
+    },
+    {
+     "type": "youtube",
+     "title": "體驗被活埋的感覺ft.沙浴（1620 夫妻生活）",
+     "url": "https://www.youtube.com/watch?v=v5UHh-tKHwE"
+    }
+   ],
+   "photo": null
+  },
+  {
+   "name": "鉄輪むし湯（石菖蒲溫泉蒸氣浴）",
+   "what": "躺在石室裡的石菖蒲草上被溫泉蒸氣蒸 8–10 分鐘，百年湯治法",
+   "price_for2_twd": 381,
+   "duration": "40 分",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://onsendo.beppu-navi.jp/y40/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%89%84%E8%BC%AA%E3%82%80%E3%81%97%E6%B9%AF%20%E5%88%A5%E5%BA%9C%E5%B8%82%E9%89%84%E8%BC%AA%E4%B8%8A1%E7%B5%84",
+   "note": "¥700＋浴衣 ¥220，冬季 7:30–19:30、第 4 週四休；年末可能提早 18:00 關",
+   "links": [
+    {
+     "type": "official",
+     "title": "別府八湯温泉道 第40番 鉄輪むし湯",
+     "url": "https://onsendo.beppu-navi.jp/y40/"
+    },
+    {
+     "type": "youtube",
+     "title": "泥湯に蒸し湯、とり天に鉄輪古民家カフェ巡り",
+     "url": "https://www.youtube.com/watch?v=rUaYdSE2vEg"
+    }
+   ],
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KannawaMushiyu.jpg?width=1200",
+    "credit": "Belle Equipe",
+    "license": "CC BY-SA 3.0"
+   }
+  }
+ ],
+ "budget": {
+  "flights_for2": 21224,
+  "stay_for2": 10214,
+  "food_for2": [
+   7200,
+   11400
+  ],
+  "transport_for2": [
+   4100,
+   12500
+  ],
+  "activities_for2": [
+   2000,
+   3500
+  ],
+  "total_for2": [
+   44738,
+   64124
+  ],
+  "note": "匯率 1 JPY≈NT$0.207（臺銀 10/15）。機票＝虎航＋亞航分段 10,612×2（高估加托運約 4,000）；住宿＝Quintessa×2＋つたや＋西鉄リゾートイン別府（Google 飯店 10/16 實查價相加）；吃＝5 天約 ¥35,000–55,000（屋台、もつ鍋、水炊き、牡蠣、まぶし、居酒屋跨年）；交通低＝JR＋高速巴士版約 ¥20,000，高＝自駕版租車 NT$8,560＋油＋過路費＋停車約 ¥18,000；活動＝地獄共通券、むし湯、砂湯、立石山與由布岳免費。兩版都在 10 萬內，自駕版約 6.4 萬"
+ },
+ "weather": {
+  "high_c": 11,
+  "low_c": 4,
+  "conditions": "福岡平年值（氣象廳 1991–2020）：12 月高 12.6／低 5.8℃、1 月高 10.2／低 3.9℃，月雨量約 70 mm、偶有一兩天降雪；由布院盆地比福岡冷 4–6 度，清晨常低於 0℃、12 月中以後有機會積雪；別府靠海較暖。年末常有寒流，糸島海邊風大",
+  "sunrise": "07:23",
+  "sunset": "17:21",
+  "wear": "羽絨＋防風外套、毛帽手套；由布岳要防水登山鞋＋6 爪輕冰爪＋登山杖（12 月有霧淞與結冰）；立石山花崗岩路面硬底鞋就好；溫泉小毛巾自備；糸島牡蠣小屋會借外套防油噴，穿不怕味道的衣服"
+ },
+ "events": [
+  {
+   "date": "12/31 23:00–1/3 18:00",
+   "name": "太宰府市內初詣交通管制",
+   "note": "太宰府天滿宮正月三日約 200 萬人，12/31 22:00–1/1 02:00 最擠、太宰府 IC 到天滿宮塞 2 小時以上；本行程 12/28 先去太宰府避開",
+   "url": "https://www.dazaifutenmangu.or.jp/"
+  },
+  {
+   "date": "12/31",
+   "name": "別府跨年：居酒屋＋除夜の鐘",
+   "note": "浜右衛門等居酒屋 12/31 是否營業待確認（多數年末只營業到 12/30）；備案是旅館附近的鐵輪地獄蒸し工房（年末年始照常營業，LO 19:00）吃完回旅館泡湯跨年",
+   "url": "https://jigokumushi.com/"
+  },
+  {
+   "date": "1/1",
+   "name": "八幡朝見神社 初詣（別府）",
+   "note": "別府在地人的初詣神社，元旦清晨去不用排太久，順路再去砂湯",
+   "url": "https://www.visit-oita.jp/"
+  },
+  {
+   "date": "10 月中–3 月底",
+   "name": "糸島牡蠣小屋季節",
+   "note": "岐志漁港「のぶりん」營業 9:00–15:00，休 11/6、12/31–1/2（IG 自述）；冨士丸 10/15–3/31、10:00–16:00",
+   "url": "https://www.instagram.com/kakinonoburins/"
+  },
+  {
+   "date": "2026/10/1–2027/1/31",
+   "name": "鉄輪むし湯 冬季營業時間變更",
+   "note": "別府市官網公告冬季 7:30 起營業；2024 年末例子：12/29–1/3 7:30–18:00（最終受付 17:30）",
+   "url": "https://www.city.beppu.oita.jp/"
+  }
+ ],
+ "prep": [
+  {
+   "item": "辦「駕照日文譯本」：帶駕照正本＋身分證到任一監理所／站臨櫃，NT$100，當場領；駕照快到期或舊式無期限駕照先換照",
+   "when": "11/30 前",
+   "url": "https://www.gov.tw/News_Content_2_376856"
+  },
+  {
+   "item": "訂機票：虎航 TPE→FUK 12/28 06:45 ＋ 亞航 FUK→TPE 1/1 16:20，兩張單程分開買；順手加購托運（每人每段約 NT$1,000）",
+   "when": "11/1 前（10/16 價 10,612／人，年末會漲）",
+   "url": "https://www.tigerairtw.com/"
+  },
+  {
+   "item": "訂 Toyota 租車：博多駅筑紫口店 12/29 09:00 取、福岡空港国際線店 1/1 14:00 還，C1 小車＋ETC 卡（¥550）＋免責補償；12 月中看預報決定要不要加雪胎（¥2,200／日）",
+   "when": "11 月初（年末年始旺季車少）",
+   "url": "https://rent.toyota.co.jp/eng/"
+  },
+  {
+   "item": "訂住宿：福岡 Quintessa 渡辺通 12/28–30、由布院つたや 12/30、別府西鉄リゾートイン 12/31；由布院與別府跨年夜會先滿",
+   "when": "10 月底前",
+   "url": "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026"
+  },
+  {
+   "item": "華味鳥 中洲本店 12/29 19:30 水炊き 2 人（電話或官網，可請飯店代訂）；浜右衛門 12/31 是否營業先打電話問（+81 977-xx，Google 地圖有）",
+   "when": "12 月初",
+   "url": "https://www.instagram.com/hanamidori_jp/"
+  },
+  {
+   "item": "不自駕版才要：ゆふいん号 12/30 與 とよのくに号 1/1（直達福岡空港國際線）在 highwaybus.com 預約，乘車日 1 個月前開放；ゆふいんの森 要在 JR 九州網路訂票",
+   "when": "11/30、12/1",
+   "url": "https://www.highwaybus.com/gp/index"
+  },
+  {
+   "item": "Sand SPA 別府海浜砂湯 1/1 08:00 官網預約 2 人（¥2,500／人）；順便確認元旦有沒有開",
+   "when": "12 月中",
+   "url": "https://www.shoninpark.jp/guide/spa/"
+  },
+  {
+   "item": "裝備：6 爪輕冰爪、登山杖、防水手套（由布岳）；下載 NEXCO 西日本路況、Yahoo 天気「湯布院」；帶現金（屋台、牡蠣小屋、巴士多只收現金）",
+   "when": "出發前",
+   "url": "https://www.w-nexco.co.jp/"
+  }
+ ],
+ "risks": [
+  "由布院 12 月底可能下雪結冰：租的小車是一般胎，大分道降雪會封閉或限雪胎車；出發前一週看預報，有雪就改 JR＋高速巴士版（車只租 12/29 一天）",
+  "12/31 別府居酒屋多數休息，浜右衛門營業與否待確認；備案鉄輪地獄蒸し工房年末年始照常營業",
+  "1/1 元旦福岡市區很多店休（一蘭本店 24 小時年中無休是少數例外）；回程亞航 16:20 不能誤點，1/1 高速往福岡的太宰府 IC 塞車，要走福岡 IC",
+  "虎航＋亞航都是 廉航：托運另購、改期難；10/16 價格年末一定漲",
+  "由布岳冬季全程（東峰）標準 5 小時 20 分、12 月有結冰鎖場，沒 6 爪冰爪就只走到合野越折返；風雪或結冰就直接放棄改泡湯",
+  "糸島牡蠣小屋 12/31–1/2 休（本行程 12/29 去沒事）；立石山花崗岩雨天滑",
+  "Toyota 年末年始地區旺季價、同縣乘捨費、ゆふいん号／とよのくに号年末加班、旅人巴士班次、別府路線巴士票價都標了待確認",
+  "匯率 0.207 是 10/15 臺銀；Google 飯店價為 10/16 顯示價，訂房網實際可能不同"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：飛福岡拜太宰府",
+    "icons": [
+     "plane",
+     "temple",
+     "dessert",
+     "night"
+    ],
+    "caption": "梅枝餅、櫛田神社、屋台"
+   },
+   {
+    "title": "第二天：糸島烤牡蠣",
+    "icons": [
+     "car",
+     "hike",
+     "seafood",
+     "beer"
+    ],
+    "caption": "立石山、牡蠣小屋、立飲"
+   },
+   {
+    "title": "第三天：開進由布院",
+    "icons": [
+     "car",
+     "bbq",
+     "onsen",
+     "coffee"
+    ],
+    "caption": "豊後牛まぶし、金鱗湖、泡湯"
+   },
+   {
+    "title": "第四天：別府地獄跨年",
+    "icons": [
+     "sunrise",
+     "mountain",
+     "onsen",
+     "fireworks"
+    ],
+    "caption": "晨霧、由布岳、むし湯、跨年"
+   },
+   {
+    "title": "第五天：砂湯初詣回家",
+    "icons": [
+     "beach",
+     "temple",
+     "ramen",
+     "plane"
+    ],
+    "caption": "砂湯、朝見神社、一蘭"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "5日4夜福岡自駕遊！別府由布院糸島一路玩！溫泉旅館一泊二食！",
+   "channel": "Timetravelor時空旅行",
+   "url": "https://www.youtube.com/watch?v=Y9nzX-gV8iY",
+   "takeaway": "福岡→糸島→由布院→別府 4 晚自駕路線跟本行程幾乎一樣，確認 4 天小車玩得完"
+  },
+  {
+   "title": "福岡由布院別府12小時爆吃7間｜兩天一夜花4萬｜絕美小鎮｜金鱗湖｜壯觀地獄溫泉｜第一名炸牛排居酒屋",
+   "channel": "麥鬧兄妹",
+   "url": "https://www.youtube.com/watch?v=YHxNkx_G0X8",
+   "takeaway": "由布院與別府一天可以串起來吃，地獄巡禮挑 2 個就夠，別全看"
+  },
+  {
+   "title": "原來北九州這麼好玩！3天竟花不到萬元🔥深度遊玩日本最大溫泉之都！仙境般的由布院、別府地獄巡禮",
+   "channel": "R榮",
+   "url": "https://www.youtube.com/watch?v=tuYKJRioBuY",
+   "takeaway": "13 萬觀看的中文行程，由布院＋別府的省錢玩法與預算參考"
+  },
+  {
+   "title": "福岡旅遊🇯🇵糸島自駕一日遊🚗行程費用大公開💰牡蠣小屋｜花鹽布丁｜海鮮丼｜朝聖夫婦岩｜夢幻白色鳥居",
+   "channel": "卉卉住在日本的台灣人",
+   "url": "https://www.youtube.com/watch?v=sSjhtHmpaLg",
+   "takeaway": "住在福岡的台灣人示範糸島自駕一日：牡蠣小屋→夫婦岩的順序與費用"
+  },
+  {
+   "title": "福岡糸島冬季限定玩法，喜歡吃牡蠣的人必收藏！｜海景×現烤牡蠣的最強組合",
+   "channel": "福岡 Fukuoka Insider",
+   "url": "https://www.youtube.com/watch?v=xNwmbKsHcOc",
+   "takeaway": "牡蠣小屋是冬季限定，12 月正是季節"
+  },
+  {
+   "title": "【福岡博多屋台】中洲・天神の主要屋台街3エリア紹介",
+   "channel": "福岡道案内",
+   "url": "https://www.youtube.com/watch?v=LzyFH1BBitA",
+   "takeaway": "中洲（那珂川沿い）、天神、長浜三區屋台的差別；第一晚選中洲看河景"
+  },
+  {
+   "title": "【日帰り登山】ホワイトモンブラン！ 12月 雪化粧の由布岳へ！",
+   "channel": "ゆうFILM",
+   "url": "https://www.youtube.com/watch?v=69rr5GA6Mwo",
+   "takeaway": "12 月由布岳的實際雪況，決定冬季只走到合野越或量力登東峰"
+  },
+  {
+   "title": "【九州自駕#16】體驗被活埋的感覺ft.沙浴｜百年歷史竹瓦溫泉",
+   "channel": "1620 夫妻生活",
+   "url": "https://www.youtube.com/watch?v=v5UHh-tKHwE",
+   "takeaway": "情侶視角的別府砂湯體驗，元旦早上排這個"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights",
+  "https://www.google.com/travel/search?q=hotels%20near%20Hakata%20Station%20Fukuoka%20Dec%2028%20-%20Dec%2030%202026",
+  "https://www.google.com/travel/search?q=hotels%20in%20Yufuin%20Oita%20Japan%20Dec%2030%20-%20Dec%2031%202026",
+  "https://www.google.com/travel/search?q=hotels%20Beppu%20Dec%2031%202026%20-%20Jan%201%202027",
+  "https://rent.toyota.co.jp/eng/pricelist_minicompact.aspx",
+  "https://rent.toyota.co.jp/global_eng/service/option.html",
+  "https://rental.timescar.jp/price/car/",
+  "https://rental.timescar.jp/price/",
+  "https://www.thb.gov.tw/",
+  "https://www.gov.tw/News_Content_2_376856",
+  "https://yufuin.gr.jp/",
+  "https://www.w-nexco.co.jp/safety_drive/ooita/snow/",
+  "https://gekkoju-yufuin.jp/news/",
+  "https://www.nishitetsu.jp/bus/highwaybus/rosen/yufuin/",
+  "https://kamenoibus.com/highway/",
+  "https://www.highwaybus.com/gp/index",
+  "https://onsendo.beppu-navi.jp/y40/",
+  "https://www.shoninpark.jp/guide/spa/",
+  "https://www.city.beppu.oita.jp/",
+  "https://jigokumushi.com/",
+  "https://www.dazaifutenmangu.or.jp/",
+  "https://www.yomiuri.co.jp/",
+  "https://sushi-tozan.com/tateishiyama",
+  "https://kanko-itoshima.jp/tateishiyamawonoboru2025",
+  "https://www.yamanack.com/",
+  "http://ridergoupamountain.blog.fc2.com/blog-entry-60.html",
+  "https://www.yamakei-online.com/",
+  "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=82&block_no=47807",
+  "https://www.hinotabi.com/",
+  "https://tabelog.com/",
+  "https://retty.me/",
+  "https://www.kamenoi-bessou.jp/",
+  "https://www.instagram.com/",
+  "https://www.youtube.com/",
+  "https://commons.wikimedia.org/"
+ ],
+ "checked": "2026-10-16"
+}

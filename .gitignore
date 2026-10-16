@@ -4,5 +4,9 @@
 WORKLOG.md
 派工共用規格.md
 extra.private.json
-dist/private.html
+dist/
 .DS_Store
+scratchpad/
+data/busan-agy-test.jpg
+__pycache__/
+研究-R-*.md

@@ -2,42 +2,29 @@
 <meta name="robots" content="noindex,nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=Nunito:wght@600;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=LXGW+WenKai+TC:wght@400;700&family=Nunito:wght@700;900&display=swap">
 <style>
 /* Layout: 狐狸與貍貓的旅行繪本 — 可愛頁首（飛機虛線＋小雪）→ 總覽比較 → 地點分頁；手機一欄 */
+/* Layout: 第一輪比價表——與手帳同一套紙本風格；固定亮色 */
 :root{
-  --bg:#FFF6EA; --surface:#FFFDF8; --surface-2:#FCEBD6; --line:#F1D9BC; --line-strong:#E6BF95;
-  --ink:#4A3426; --ink-dim:#7A5C49; --ink-faint:#86685A;
-  --accent:#D9661F; --accent-bg:rgba(217,102,31,.11);
+  --bg:#FFFDF7; --surface:#FFFFFF; --surface-2:#FFF7E8; --line:#E8DCC8; --line-strong:#3B3024;
+  --ink:#3B3024; --ink-dim:#6F6151; --ink-faint:#8A7B6A;
+  --accent:#E8743B; --accent-bg:#FFF0E3;
   --lamp:#5E8A4E; --lamp-bg:rgba(94,138,78,.13);
-  --ok:#4C8A3E; --warn:#B26A00; --danger:#C2412D;
-  --band:rgba(94,138,78,.15); --bar:#F29A52; --snow:#F4D3B0;
-  --font-display:'Huninn','Zen Maru Gothic','PingFang TC',sans-serif;
+  --ok:#3E9B5F; --warn:#C9811A; --danger:#D1495B;
+  --band:rgba(62,155,95,.14); --bar:#E8743B; --snow:#F4D3B0;
+  --fox:#FFFFFF; --fox-dark:#F6C9C9; --tanuki:#A5724E; --tanuki-dark:#E9C9A8; --cream:#FFF4E2; --cheek:#F6A99A;
+  --font-display:'LXGW WenKai TC','PingFang TC',serif;
   --font-body:'Huninn','PingFang TC','Microsoft JhengHei',system-ui,sans-serif;
-  --font-num:'Nunito','Huninn',ui-rounded,system-ui,sans-serif;
+  --font-num:'Nunito','Huninn',system-ui,sans-serif;
   --r:18px; --r-sm:12px; --pill:999px;
-  --fox:#F08A3C; --fox-dark:#C9631F; --tanuki:#9A7258; --tanuki-dark:#5B3F30; --cream:#FFF4E2; --cheek:#F6A99A;
-  --shadow:0 6px 18px rgba(184,110,50,.12);
+  --blob:255px 18px 225px 18px / 18px 225px 18px 255px;
+  --shadow:0 4px 0 var(--line);
   --spring:cubic-bezier(.34,1.56,.64,1);
+  color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#1D1714; --surface:#29201B; --surface-2:#352920; --line:#46362B; --line-strong:#5C4636;
-  --ink:#F7EADD; --ink-dim:#D6BFAA; --ink-faint:#B59E8A;
-  --accent:#FFA460; --accent-bg:rgba(255,164,96,.14);
-  --lamp:#A9D493; --lamp-bg:rgba(169,212,147,.14);
-  --ok:#A9D493; --warn:#F7C064; --danger:#FF9A85;
-  --band:rgba(169,212,147,.13); --bar:#FFA460; --snow:#6B5444;
-  --shadow:0 6px 18px rgba(0,0,0,.35); color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#1D1714; --surface:#29201B; --surface-2:#352920; --line:#46362B; --line-strong:#5C4636;
-  --ink:#F7EADD; --ink-dim:#D6BFAA; --ink-faint:#B59E8A;
-  --accent:#FFA460; --accent-bg:rgba(255,164,96,.14);
-  --lamp:#A9D493; --lamp-bg:rgba(169,212,147,.14);
-  --ok:#A9D493; --warn:#F7C064; --danger:#FF9A85;
-  --band:rgba(169,212,147,.13); --bar:#FFA460; --snow:#6B5444;
-  --shadow:0 6px 18px rgba(0,0,0,.35); color-scheme:dark}
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14px;line-height:1.6}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14.5px;line-height:1.6;background-image:radial-gradient(var(--line) .8px, transparent .8px);background-size:22px 22px}
 .wrap{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;gap:20px}
 h1,h2,h3{font-family:var(--font-display);font-weight:700;text-wrap:balance;margin:0;line-height:1.3}
 h1{font-size:28px}
@@ -51,15 +38,15 @@ a{color:var(--accent)}
 .top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 20px}
 .top .meta{display:flex;flex-wrap:wrap;gap:6px 14px;color:var(--ink-dim);font-size:13px;margin-top:4px}
 .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.seg{display:inline-flex;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--pill);padding:3px}
+.seg{display:inline-flex;background:var(--surface-2);border:2px solid var(--line-strong);border-radius:var(--pill);padding:3px}
 .seg button{border:0;background:transparent;color:var(--ink-dim);font:inherit;font-size:13px;padding:6px 14px;border-radius:var(--pill);cursor:pointer;transition:transform .3s var(--spring)}
 .seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.12)}
 .seg button:active{transform:scale(.95)}
-select{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--pill);padding:6px 12px}
+select{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--pill);padding:6px 12px}
 button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
 /* overview */
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.panel{background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--blob);box-shadow:var(--shadow)}
 .ov-head,.ov-row{display:grid;grid-template-columns:minmax(120px,1.1fr) minmax(220px,2fr) minmax(110px,.9fr) minmax(90px,.7fr) minmax(150px,1.2fr);gap:14px;align-items:center;padding:10px 14px}
 .ov-head{font-size:12px;color:var(--ink-faint);border-bottom:1px solid var(--line);letter-spacing:.04em}
 .ov-row{border-bottom:1px solid var(--line);cursor:pointer;transition:background .15s}
@@ -86,7 +73,7 @@ button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible{
 
 /* destination tabs */
 .tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
-.tabs button{flex:none;font:inherit;font-size:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink-dim);border-radius:var(--pill);padding:7px 16px;cursor:pointer;transition:transform .3s var(--spring)}
+.tabs button{flex:none;font:inherit;font-size:14px;border:2px solid var(--line-strong);background:var(--surface);color:var(--ink-dim);border-radius:var(--pill);padding:7px 16px;cursor:pointer;transition:transform .3s var(--spring)}
 .tabs button:hover{transform:translateY(-2px)}
 .tabs button[aria-selected="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-bg);font-weight:700}
 
@@ -133,7 +120,7 @@ details ul{margin:8px 0 0;padding-left:20px;font-size:12px;word-break:break-all}
 /* plans */
 .plans-wrap{display:grid;gap:8px}
 .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:4px}
-.plan{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;display:grid;gap:8px;align-content:start;min-width:0;transition:transform .3s var(--spring)}
+.plan{background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;display:grid;gap:8px;align-content:start;min-width:0;transition:transform .3s var(--spring)}
 .plan:hover{transform:translateY(-3px)}
 .plan .top-row{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .plan h3{font-family:var(--font-display);font-weight:400;font-size:22px;display:flex;align-items:center;gap:8px}
@@ -154,10 +141,10 @@ details ul{margin:8px 0 0;padding-left:20px;font-size:12px;word-break:break-all}
 h1,h2,.ov-row .name,.d-head .tag{font-weight:400}
 h1{font-size:32px;letter-spacing:.02em}
 .panel{border:1.5px solid var(--line);box-shadow:var(--shadow)}
-.hero{position:relative;overflow:hidden;background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:20px 20px 16px}
+.hero{position:relative;overflow:hidden;background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--r);box-shadow:var(--shadow);padding:20px 20px 16px}
 .hero .art{position:absolute;right:8px;bottom:0;top:auto;width:min(44%,250px);height:auto;opacity:.95;pointer-events:none}
 .hero .art .trail{stroke:var(--accent);stroke-dasharray:3 7;stroke-linecap:round;fill:none;stroke-width:2.5}
-.hero .art .fox{fill:var(--fox)}
+.hero .art .bear{fill:#A5724E;stroke:#3B3024;stroke-width:2}.hero .art .bear-in{fill:#E9C9A8}.hero .art .fox{fill:#FFFFFF;stroke:#3B3024;stroke-width:2}.hero .art .fox-ear{fill:#F6C9C9}.hero .art .ln{stroke:var(--line-strong);stroke-width:2;fill:none;stroke-linecap:round}
 .hero .art .ear{fill:var(--fox-dark)}
 .hero .art .tanuki{fill:var(--tanuki)}
 .hero .art .mask{fill:var(--tanuki-dark)}
@@ -178,7 +165,7 @@ h1{font-size:32px;letter-spacing:.02em}
 .ov-row .name{display:flex;align-items:center;gap:8px}
 .ov-row .name svg{color:var(--accent);width:22px;height:22px}
 .ov-row .name small{margin-top:-2px}
-.d-head{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow)}
+.d-head{background:var(--surface);border:2px solid var(--line-strong);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow)}
 .d-head h2{display:flex;align-items:center;gap:8px}
 .d-head h2 svg{color:var(--accent);width:26px;height:26px}
 .dots{color:var(--accent);letter-spacing:1px}
@@ -190,35 +177,35 @@ h1{font-size:32px;letter-spacing:.02em}
 </style>
 
 <div class="wrap">
+  <a href="index.html" style="font-size:14px;text-decoration:none">← 回到所有手帳</a>
   <header class="top hero">
-    <svg class="art" viewBox="0 0 260 130" aria-hidden="true">
-      <ellipse class="ground" cx="168" cy="122" rx="88" ry="8"/>
-      <path class="trail" d="M8 110 C 50 106, 70 60, 110 66"/>
-      <!-- fox -->
-      <path class="fox" d="M96 104c-8 2-16-6-12-16 4-9 16-6 18 2z"/>
-      <ellipse class="fox" cx="132" cy="100" rx="22" ry="20"/>
-      <path class="fox" d="M112 64 116 40 128 56z"/><path class="fox" d="M152 64 148 40 136 56z"/>
-      <path class="ear" d="M116 58 118 46 124 55z"/><path class="ear" d="M148 58 146 46 140 55z"/>
-      <ellipse class="fox" cx="132" cy="68" rx="22" ry="18"/>
-      <path class="cream" d="M114 72c6 12 30 12 36 0-6 8-30 8-36 0z"/>
-      <ellipse class="cream" cx="132" cy="104" rx="11" ry="12"/>
-      <circle class="eye" cx="124" cy="68" r="2.2"/><circle class="eye" cx="140" cy="68" r="2.2"/>
-      <ellipse class="cheek" cx="119" cy="74" rx="4" ry="2.4"/><ellipse class="cheek" cx="145" cy="74" rx="4" ry="2.4"/>
-      <path class="eye" d="M130 74q2 2 4 0"/>
-      <!-- tanuki -->
-      <ellipse class="tanuki" cx="192" cy="102" rx="21" ry="19"/>
-      <circle class="tanuki" cx="176" cy="56" r="6"/><circle class="tanuki" cx="208" cy="56" r="6"/>
-      <ellipse class="tanuki" cx="192" cy="72" rx="21" ry="18"/>
-      <ellipse class="mask" cx="184" cy="72" rx="6" ry="5"/><ellipse class="mask" cx="200" cy="72" rx="6" ry="5"/>
-      <ellipse class="cream" cx="192" cy="104" rx="11" ry="11"/>
-      <circle class="shine" cx="184" cy="72" r="1.8"/><circle class="shine" cx="200" cy="72" r="1.8"/>
-      <ellipse class="cheek" cx="178" cy="80" rx="3.6" ry="2.2"/><ellipse class="cheek" cx="206" cy="80" rx="3.6" ry="2.2"/>
-      <ellipse class="eye" cx="192" cy="79" rx="2.4" ry="1.6"/>
-      <path class="heart" d="M162 34c-3-4-10-2-9 3 1 4 9 9 9 9s8-5 9-9c1-5-6-7-9-3z"/>
+    <svg class="art" viewBox="0 0 260 150" aria-hidden="true">
+      <ellipse class="ground" cx="130" cy="136" rx="112" ry="10"/>
+      <path class="ln" d="M12 118 C 36 108, 54 70, 84 76" stroke-dasharray="3 7"/>
+      <!-- coffee bear: round -->
+      <circle class="bear" cx="92" cy="62" r="11"/><circle class="bear" cx="140" cy="62" r="11"/>
+      <circle class="bear-in" cx="92" cy="62" r="5"/><circle class="bear-in" cx="140" cy="62" r="5"/>
+      <circle class="bear" cx="116" cy="92" r="36"/>
+      <ellipse class="bear-in" cx="116" cy="104" rx="14" ry="10"/>
+      <circle class="eye" cx="104" cy="88" r="2.6"/><circle class="eye" cx="128" cy="88" r="2.6"/>
+      <ellipse class="eye" cx="116" cy="100" rx="3" ry="2.2"/>
+      <path class="eye" d="M112 105q4 3 8 0" fill="none"/>
+      <ellipse class="cheek" cx="98" cy="97" rx="5" ry="3"/><ellipse class="cheek" cx="134" cy="97" rx="5" ry="3"/>
+      <!-- white fox: round -->
+      <path class="fox" d="M150 70 156 42 174 60z"/><path class="fox" d="M210 70 204 42 186 60z"/>
+      <path class="fox-ear" d="M157 66 160 50 170 61z"/><path class="fox-ear" d="M203 66 200 50 190 61z"/>
+      <circle class="fox" cx="180" cy="94" r="34"/>
+      <path class="fox" d="M212 112c12-6 22 2 18 12-3 8-14 8-20 2z"/>
+      <circle class="eye" cx="168" cy="90" r="2.6"/><circle class="eye" cx="192" cy="90" r="2.6"/>
+      <ellipse class="eye" cx="180" cy="99" rx="2.4" ry="1.8"/>
+      <path class="eye" d="M176 104q4 3 8 0" fill="none"/>
+      <ellipse class="cheek" cx="163" cy="99" rx="5" ry="3"/><ellipse class="cheek" cx="197" cy="99" rx="5" ry="3"/>
+      <path class="cheek" d="M150 28c-3-4-10-2-9 3 1 4 9 9 9 9s8-5 9-9c1-5-6-7-9-3z"/>
+      <g class="ln"><rect x="222" y="98" width="24" height="32" rx="4" fill="#FFF"/><path d="M228 98v-6h12v6"/><path d="M222 112h24"/></g>
     </svg>
     <div>
-      <h1>我們的跨年小旅行</h1>
-      <div class="sub">兩個人要去哪裡呢？</div>
+      <h1>第一輪比價表</h1>
+      <div class="sub">12/27 出發版的 9 個地點，機票、住宿、兩人花費一次比</div>
       <div class="meta">
         <span>12/27–1/5 選 4–5 天</span><span>兩人預算 6–10 萬</span><span>機票上限每人 13,000</span><span id="checked"></span>
       </div>

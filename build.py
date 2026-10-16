@@ -56,13 +56,13 @@ for p in ordered:
     for k in ("risks", "highlights", "events", "itinerary_1231", "itinerary_0101"):
         q[k] = [r for r in q.get(k, []) if not hit(r)]
     public.append(q)
-write("docs/index.html", public)  # GitHub Pages serves /docs
+write("dist/compare-public.html", public)  # 公開版比價表，build_site 會複製到 docs/compare.html
 
 private = [dict(p) for p in ordered]
 for p in private:
     p["special"] = list(p.get("special", [])) + priv.get("places", {}).get(p["id"], {}).get("special", [])
 write("dist/private.html", private)
-pub = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+pub = (ROOT / "dist" / "compare-public.html").read_text(encoding="utf-8")
 leaks = [w for w in words if w.lower() in pub.lower()]
 print(f"built {len(ordered)} places; public leaks: {leaks or 'none'}")
 if leaks:

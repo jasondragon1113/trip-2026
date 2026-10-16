@@ -1,0 +1,1875 @@
+{
+ "id": "hakodate_aomori",
+ "name": "函館＋青森串聯",
+ "subtitle": "飛函館來回，新幹線過青函隧道去泡酸湯",
+ "country": "日本",
+ "flag": "JP",
+ "motif": "snow",
+ "palette": {
+  "primary": "#3A7BD5",
+  "secondary": "#F28C28",
+  "soft": "#EAF2FC"
+ },
+ "tagline": "海膽丼、樹冰、千人風呂、跨年初日出",
+ "summary": "桃園星宇直飛函館（每人 17,389，略超預算），第一晚先到離機場 10 分鐘的湯之川溫泉泡湯；第二天朝市吃完海膽丼就坐新幹線一小時穿過青函隧道到青森，兩晚住青森市區：睡魔之家、A-Factory 蘋果酒、三味線居酒屋，隔天搭預約制巴士上八甲田看成形中的樹冰、下山泡酸湯千人風呂。12/31 早上のっけ丼＋味噌咖哩牛奶拉麵後回函館，上函館山看黃昏轉夜景、回湯之川旅館吃年越しそば跨年；1/1 到五稜郭塔看初日出、八幡宮初詣，幸運小丑漢堡＋はこだてビール收尾，18:00 飛回台灣。全程大眾運輸，不自駕。",
+ "dates": {
+  "out": "12/28",
+  "back": "1/1",
+  "nights": 4,
+  "why": "主推 12/28（一）→1/1（五）4 晚：星宇 JX860 12:00→16:30／JX861 18:00→21:40，每人 17,389。4 晚才塞得下「函館 2 晚＋青森 2 晚」而且每天只有 3–6 個點；12/29、12/30 都是平日（古川市場週二休、味の札幌大西火水休，所以のっけ丼與拉麵排 12/31 四）；ワ・ラッセ 12/31–1/1 休所以排 12/29；1/1 有五稜郭塔 6:30 初日出特別營業＋八幡宮初詣，18:00 班機讓最後一天玩滿。省錢版 12/28→12/31（3 晚、每人 14,716）：函館 1 晚＋青森 1 晚（12/29 只做市區）＋函館 1 晚（12/30 八甲田纜車後直接新幹線回函館），少掉酸湯與跨年，兩人約省 2–2.5 萬但兩天都在移動，第一輪查價也判定 4 晚版才從容。"
+ },
+ "flights": [
+  {
+   "from": "RMQ",
+   "to": "HKD／AOJ",
+   "airline": "無直飛",
+   "out": "—",
+   "back": "—",
+   "price_pp_twd": 0,
+   "baggage": "—",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "：台中沒有函館、青森航線；替代是星宇台中–札幌來回 22,018 再坐 JR 特急約 3h40m 到函館，不建議"
+  },
+  {
+   "from": "TPE",
+   "to": "HKD",
+   "airline": "星宇 JX860／JX861（主方案，1/1 回）",
+   "out": "12/28 12:00→16:30",
+   "back": "1/1 18:00→21:40",
+   "price_pp_twd": 17389,
+   "baggage": "待確認（星宇經濟艙通常含托運，看票種）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "／第一輪查價日期矩陣：12/28→1/1 每人 17,389，超預算 4,389；回程 18:00 符合偏好、去程中午不符。年末越晚越貴"
+  },
+  {
+   "from": "TPE",
+   "to": "HKD",
+   "airline": "星宇 JX860／JX861（省錢版，12/31 回）",
+   "out": "12/28 12:00→16:30",
+   "back": "12/31 18:00→21:40",
+   "price_pp_twd": 14716,
+   "baggage": "待確認（看票種）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "：3 晚版，每人 14,716（超預算 1,716）；12/27→12/31 同價。少一晚＝少酸湯日與跨年"
+  },
+  {
+   "from": "TPE",
+   "to": "HKD",
+   "airline": "台灣虎航 IT236／IT237",
+   "out": "12/27 06:45→11:10",
+   "back": "12/31 12:20→16:00",
+   "price_pp_twd": 18894,
+   "baggage": "待確認（最低票通常不含托運）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "：去程早班符合、回程中午不符、比星宇貴；1/1 回 22,094"
+  },
+  {
+   "from": "TPE",
+   "to": "AOJ",
+   "airline": "長榮 BR122／BR121（青森進出，參考）",
+   "out": "12/27 09:55→14:20",
+   "back": "12/31 15:30→19:00",
+   "price_pp_twd": 25609,
+   "baggage": "待確認（經濟艙通常含托運）",
+   "fits_time_pref": true,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights",
+   "checked": "2026-10-15",
+   "note": "：時間最好但幾乎是預算兩倍，所以本方案用函館來回＋新幹線"
+  }
+ ],
+ "getting_around": {
+  "mode": "大眾運輸",
+  "license": "不自駕。函館坡道結冰、青森是世界級豪雪城市、往八甲田／酸湯的山路冬季常封閉且有地吹雪，外國人租車不建議。真要租：日本要台灣駕照＋日文譯本（監理所／台灣的日本交流協會辦，約 NT$100、當場或數日），但本行程全程 JR＋巴士＋市電就夠。",
+  "rental": {
+   "company": "不租",
+   "car": "",
+   "days": 0,
+   "price_total_twd": 0,
+   "insurance": "",
+   "pickup": "",
+   "source": "https://www.tohokukanko.jp/transport/detail_1001187.html",
+   "note": "冬季青森→八甲田只剩 JR 巴士はっこうだ号（一天 3 班、預約制），酸湯以南道路封閉"
+  },
+  "road_notes": [
+   "北海道新幹線はやぶさ全車指定席：新函館北斗↔新青森 ¥7,850／人單程（約 57 分–1 小時），年末 12/29、12/31 容易賣完，乘車日 1 個月前 10:00 開賣（JR-EAST Train Reservation 可再早一週事前受付）",
+   "はっこうだ号（青森駅→酸ヶ湯方向）2026/11/12–2027/3/31 預約制：WILLER 網站乘車日 3 個月前 10:00 起可訂（12/30 的票 9/30 起就能訂），每席 ¥300 預約費＋車資 ¥1,290 下車付現／IC；回程（酸ヶ湯→青森）不用預約",
+   "八甲田纜車風速 25 m/s 以上停駛（10/15 當天就全日運休）；出發前看官網運行狀況，停駛就改成青森市區日（弘前城雪景或淺蟲溫泉）",
+   "12/31 函館山纜車縮短營業（10:00 起、上行末班 18:50，部落格資料；官方 10–4 月表定 20:30）；函館朝市 12/31 中午大量收攤、1/1–1/3 只有 30–40 家（餐廳為主）",
+   "雪天航班、新幹線、JR 巴士都可能延誤，1/1 回程留 3 小時緩衝；防滑鞋套、雪靴必備（元町坂道、湯の川人行道都結冰）"
+  ],
+  "public": [
+   "函館市電一日乗車券 ¥800（紙本，車上／函館駅案內所／機場可買；單程 ¥250–300，坐 3 次回本）；市電＋函館バス共通一日券 ¥1,600（只有手機版）。路線：湯の川⇄五稜郭公園前⇄函館駅前⇄十字街（函館山纜車）⇄末広町（八幡坂）⇄谷地頭（八幡宮）",
+   "函館空港→湯の川温泉／函館駅：帝産シャトルバス約 20 分到函館駅 ¥700（湯の川約 10 分，票價待確認）；函館バス 96 路約 35 分 ¥300；計程車到湯の川約 10 分",
+   "函館⇄新函館北斗：はこだてライナー約 20 分 ¥360（Suica 可刷）；新函館北斗⇄新青森：はやぶさ ¥7,850 指定席；新青森⇄青森：奥羽本線約 6 分（票價約 ¥200，待確認）",
+   "青森駅→八甲田ロープウェー駅前 約 80 分 ¥1,290、ロープウェー駅前→酸ヶ湯温泉 約 15 分 ¥460（JR 巴士；去程預約制 +¥300）",
+   "市內短程用 Welcome Suica／Suica（市電、巴士、ライナー都能刷；JR 巴士はっこうだ号可刷交通 IC）"
+  ]
+ },
+ "stays": [
+  {
+   "name": "湯の川温泉 湯元啄木亭",
+   "area": "函館・湯の川温泉（機場巴士約 10 分、市電湯の川電停走 5 分）",
+   "nights": 1,
+   "price_night_for2_twd": 6160,
+   "availability": "有空房",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5503",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%85%83%E5%95%84%E6%9C%A8%E4%BA%AD%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%87%BD%E9%A4%A8%E5%B8%82%E6%B9%AF%E5%B7%9D%E7%94%BA1-18-15",
+   "why": "第一輪查價實查：12/28 兩人含早晚餐 ¥28,000（每人 ¥14,000 兩食）是湯の川 CP 值最高；11 樓頂樓大浴場看津輕海峽與函館山夜景。第一天 16:30 才落地，直接進旅館最省力（12/31 這間滿房）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yunokawa_Onsen_Hakodate_Hokkaido_Japan01s3.jpg?width=1200",
+    "credit": "663highland",
+    "license": "CC BY 2.5"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "樂天トラベル 湯元啄木亭（12/28 有空房）",
+     "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5503"
+    }
+   ],
+   "note": "Commons 沒有這間旅館的照片，用湯の川溫泉街示意；另收入湯稅＋函館宿泊稅（金額待確認）"
+  },
+  {
+   "name": "Dormy Inn 青森（天然溫泉）",
+   "area": "青森市區（青森駅走約 10 分）",
+   "nights": 2,
+   "price_night_for2_twd": 5053,
+   "availability": "有空房",
+   "url": "https://www.booking.com",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%BC%E3%83%9F%E3%83%BC%E3%82%A4%E3%83%B3%E9%9D%92%E6%A3%AE%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%9C%AC%E7%94%BA1-1-5",
+   "why": "第一輪查價：Booking 9.1 分、兩人一晚 NT$5,053（12/27 價，12/29–12/30 待確認）；有天然溫泉大浴場＋免費宵夜拉麵，從八甲田回來泡湯剛好。本町一帶就是居酒屋街，走路到津軽じょっぱり漁屋酒場 5 分",
+   "photo": null,
+   "links": [
+    {
+     "type": "official",
+     "title": "Booking.com 青森市區搜尋",
+     "url": "https://www.booking.com"
+    }
+   ],
+   "note": "Commons 無照片；平價替代 Richmond Hotel 青森 NT$2,830"
+  },
+  {
+   "name": "湯の川観光ホテル祥苑",
+   "area": "函館・湯の川温泉",
+   "nights": 1,
+   "price_night_for2_twd": 5732,
+   "availability": "有空房",
+   "url": "https://www.booking.com",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E5%B7%9D%E8%A6%B3%E5%85%89%E3%83%9B%E3%83%86%E3%83%AB%E7%A5%A5%E8%8B%91%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%B9%AF%E5%B7%9D%E7%94%BA2-4-20",
+   "why": "第一輪查價：12/31 跨年夜含兩食約 NT$5,732（未稅）是湯の川最平價的有房選項（啄木亭 12/31 滿、花びし 12/31 開 ¥189,200）；7.1 分不算高，但只住一晚、重點是年越し晚餐＋溫泉。12/31 湯の川只剩約 25 間有房，要早訂",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yunokawa_Onsen_Hakodate_Hokkaido_Japan02n.jpg?width=1200",
+    "credit": "663highland",
+    "license": "CC BY 2.5"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Booking.com 湯の川 12/31 搜尋",
+     "url": "https://www.booking.com"
+    }
+   ],
+   "note": "升級版：Umi to Akari（Hewitt Resort）12/31 約 NT$15,075 未稅、8.8 分"
+  },
+  {
+   "name": "酸ヶ湯温泉旅館（12/30 改住山上的選項）",
+   "area": "八甲田・酸ヶ湯（JR 巴士終點）",
+   "nights": 1,
+   "price_night_for2_twd": 4600,
+   "availability": "未知",
+   "url": "https://travel.rakuten.co.jp/HOTEL/41009/41009.html",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%85%B8%E3%83%B6%E6%B9%AF%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8%20%E9%9D%92%E6%A3%AE%E5%B8%82%E8%8D%92%E5%B7%9D%E5%8D%97%E8%8D%92%E5%B7%9D%E5%B1%B1%E5%9B%BD%E6%9C%89%E6%9E%97%E9%85%B8%E6%B9%AF%E6%B2%A250",
+   "why": "第一輪查價：樂天湯治棟兩食 ¥20,944 起（約 NT$4,600，待確認）、4.40 分 1,560 則；住宿才泡得到晚上 20–21 時女性專用時段的千人風呂。若 12/30 參加雪鞋團（13:50 結束後沒有往酸湯的巴士），住這裡可改坐旅館免費接駁（新青森 14:00 發，住客限定、要預約）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukayu_Onsen_Winter.jpg?width=1200",
+    "credit": "Nogiuchi",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "酸ヶ湯温泉 官網（宿泊・日帰り）",
+     "url": "https://sukayu.jp/"
+    },
+    {
+     "type": "official",
+     "title": "樂天トラベル 酸ヶ湯温泉旅館",
+     "url": "https://travel.rakuten.co.jp/HOTEL/41009/41009.html"
+    }
+   ],
+   "note": "12/30 年末空房未查；住這裡就把 Dormy Inn 改 1 晚"
+  },
+  {
+   "name": "ホテル城ヶ倉（八甲田）",
+   "area": "八甲田・酸湯附近（城ヶ倉温泉）",
+   "nights": 1,
+   "price_night_for2_twd": 11783,
+   "availability": "有空房",
+   "url": "https://www.booking.com",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=HOTEL%20Jogakura%20%E9%9D%92%E6%A3%AE%E5%B8%82%E8%8D%92%E5%B7%9D%E5%8D%97%E8%8D%92%E5%B7%9D%E5%B1%B1",
+   "why": "第一輪查價：12/27 含兩食 NT$11,783（Booking）；比酸湯新、有男女別溫泉，也可日歸去酸湯。想住山上但不想湯治棟的升級版",
+   "photo": null,
+   "links": [
+    {
+     "type": "official",
+     "title": "Booking.com",
+     "url": "https://www.booking.com"
+    }
+   ],
+   "note": "12/30 空房待確認"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/28",
+   "weekday": "一",
+   "title": "飛函館，湯之川先泡湯",
+   "area": "桃園→函館空港→湯の川温泉→大門横丁",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "中午班機 16:30 落地，機場巴士 10 分鐘進湯の川，泡湯吃旅館晚餐，再坐市電到大門橫丁喝一杯",
+   "stops": [
+    {
+     "time": "09:30",
+     "name": "桃園機場（星宇 JX860 12:00）",
+     "kind": "transport",
+     "stay_min": 150,
+     "desc": "星宇 TPE→HKD 12:00 起飛、16:30 到函館（時差 +1）。每人來回 17,389（1/1 回），星宇經濟艙是否含托運看票種。",
+     "price_for2_twd": 34778,
+     "booking": "需預約",
+     "booking_url": "https://www.starlux-airlines.com/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%E7%AC%AC%E4%B8%80%E8%88%AA%E5%BB%88",
+     "site_url": "https://www.starlux-airlines.com/",
+     "address": "桃園市大園區航站南路 15 號",
+     "tip": "星宇在第一航廈（待確認）；台中出發當天早上高鐵北上來得及。價格是 10/15 查的，會漲",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taiwan_Taoyuan_International_Airport_-_Terminal_1.jpg?width=1200",
+      "credit": "毛貓大少爺",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "第一輪查價機票矩陣（Google 航班 10/15）",
+       "url": "https://www.google.com/travel/flights"
+      }
+     ]
+    },
+    {
+     "time": "16:30",
+     "name": "函館空港→湯の川温泉（帝産シャトルバス）",
+     "kind": "transport",
+     "stay_min": 45,
+     "desc": "入境約 40 分；機場 1 樓搭帝産シャトルバス（到函館駅 ¥700／約 20 分，湯の川温泉是中途站約 10 分），或函館バス 96 路約 ¥300。湯の川是「日本最靠近機場的溫泉街」。",
+     "price_for2_twd": 310,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%87%BD%E9%A4%A8%E7%A9%BA%E6%B8%AF",
+     "site_url": "https://www.hokkaido-airports.com/zh-CHT/hakodate/",
+     "address": "北海道函館市高松町 511",
+     "tip": "巴士班次對航班，出關就看站牌；市電一日券在機場也買得到，但今天用不到",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakodate-Airport-01.jpg?width=1200",
+      "credit": "J o",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "函館空港から市内へのバス・アクセス（travelist）",
+       "url": "https://travelist.jp/airport_HKD/guide/posts/p611"
+      },
+      {
+       "type": "official",
+       "title": "函館空港 國際線時刻",
+       "url": "https://www.hokkaido-airports.com/zh-CHT/hakodate/airport/time/inter/"
+      }
+     ]
+    },
+    {
+     "time": "17:30",
+     "name": "湯元啄木亭 入住・晚餐・頂樓大浴場",
+     "kind": "stay",
+     "stay_min": 150,
+     "desc": "兩人含早晚餐 ¥28,000；11 樓頂樓大浴場看函館山與海峽夜景，晚餐北海道會席。",
+     "price_for2_twd": 6160,
+     "booking": "需預約",
+     "booking_url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5503",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%85%83%E5%95%84%E6%9C%A8%E4%BA%AD%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%87%BD%E9%A4%A8%E5%B8%82%E6%B9%AF%E5%B7%9D%E7%94%BA1-18-15",
+     "site_url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5503",
+     "address": "北海道函館市湯川町 1-18-15",
+     "tip": "訂房備註晚餐 18:00，吃完才來得及去大門橫丁；湯倉神社（市電湯の川電停 1 分）順路拍一張",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yunokawa_Onsen_Hakodate_Hokkaido_Japan01s3.jpg?width=1200",
+      "credit": "663highland",
+      "license": "CC BY 2.5"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "樂天トラベル 湯元啄木亭",
+       "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5503"
+      }
+     ]
+    },
+    {
+     "time": "20:00",
+     "name": "函館ひかりの屋台 大門横丁（屋台村）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "市電湯の川→函館駅前約 30 分。東京以北最大的屋台村，26 間：函館いか家（イカスミ餃子，17:00–23:00）、はこ八漁港（イカ塩辛、刺身，約 ¥3,000 兩杯加 6–7 品）、燒鳥、酒吧。類型＝屋台／酒吧街；兩人兩杯加小菜約 ¥6,000。評價來源：まっぷる（mapple）函館居酒屋特集。",
+     "price_for2_twd": 1320,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%87%BD%E9%A4%A8%E3%81%B2%E3%81%8B%E3%82%8A%E3%81%AE%E5%B1%8B%E5%8F%B0%20%E5%A4%A7%E9%96%80%E6%A8%AA%E4%B8%81%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9D%BE%E9%A2%A8%E7%94%BA7-5",
+     "site_url": "https://www.mapple.net/original/508285/",
+     "address": "北海道函館市松風町 7-5（函館駅走路 5 分）",
+     "tip": "各店公休不同、年末年始營業待確認；末班市電約 22:30（待確認），錯過計程車回湯の川約 ¥2,000",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakodate_Daimon_Yokocho.jpg?width=1200",
+      "credit": "扣茶",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "函館駅周辺 居酒屋・バー（mapple，含大門横丁、はこ八漁港）",
+       "url": "https://www.mapple.net/original/508285/"
+      },
+      {
+       "type": "blog",
+       "title": "函館・道南 居酒屋一覽（mapple，含函館いか家）",
+       "url": "https://www.mapple.net/region/a0102060000_g030a0000/spot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/29",
+   "weekday": "二",
+   "title": "朝市海膽丼，新幹線過青函",
+   "area": "函館朝市→新函館北斗→新青森→青森市區",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "一早朝市吃元祖巴丼，10:53 はやぶさ一小時穿過青函隧道，下午青森市區看睡魔、喝蘋果酒，晚上三味線居酒屋",
+   "stops": [
+    {
+     "time": "07:00",
+     "name": "函館朝市 きくよ食堂 本店 元祖函館巴丼",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "昭和 31 年創業、12–4 月 6:00–13:30（週二有開）；招牌「元祖函館巴丼」＝近海生海膽＋帆立＋自家醬油漬鮭魚卵三色丼，另有うに丼、三種お好み丼可自選。價格 10/16 查不到正確數字（待確認，網路照片約 ¥3,000 上下／碗）。",
+     "price_for2_twd": null,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%81%8F%E3%82%88%E9%A3%9F%E5%A0%82%20%E6%9C%AC%E5%BA%97%20%E5%87%BD%E9%A4%A8%E5%B8%82%E8%8B%A5%E6%9D%BE%E7%94%BA11-15",
+     "site_url": "https://hakodate-kikuyo.com/sns",
+     "address": "北海道函館市若松町 11-15（函館駅走 3 分）",
+     "tip": "湯の川 6:20 市電出發、7:00 前到最不用排；行李寄函館駅置物櫃（大型約 ¥700）；1/1 本店休",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_bowl_topped_with_sea_urchin_%289665261271%29.jpg?width=1200",
+      "credit": "pelican from Tokyo, Japan",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "きくよ食堂 官方 IG @kikuyo.shokudo",
+       "url": "https://www.instagram.com/kikuyo.shokudo/"
+      },
+      {
+       "type": "official",
+       "title": "函館朝市 きくよ食堂【公式】SNS 頁",
+       "url": "https://hakodate-kikuyo.com/sns"
+      },
+      {
+       "type": "blog",
+       "title": "函館朝市 グルメ攻略（johnny88）",
+       "url": "https://johnny88.jp/hakodate-morningmarket-food/"
+      }
+     ]
+    },
+    {
+     "time": "10:10",
+     "name": "はこだてライナー＋はやぶさ18号 函館→新函館北斗→新青森→青森",
+     "kind": "transport",
+     "stay_min": 120,
+     "desc": "函館 10:1x ライナー約 20 分（¥360）到新函館北斗；10:53 はやぶさ18号→新青森 11:50（指定席 ¥7,850，全車指定，ekitan）；青函隧道 54 km 約 25 分；再轉奥羽本線 6 分到青森駅（約 ¥200，待確認）。",
+     "price_for2_twd": 3700,
+     "booking": "需預約",
+     "booking_url": "https://www.eki-net.com/en/jreast-train-reservation/Top/Index",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%87%BD%E9%A4%A8%E5%8C%97%E6%96%97%E9%A7%85",
+     "site_url": "https://ekitan.com/zh-tw/article/hakodate-to-aomori-shinkansen",
+     "address": "函館駅→新函館北斗駅→新青森駅→青森駅",
+     "tip": "11/29 10:00 開賣（えきねっと 11/22 05:30 事前受付）；ライナー時刻以 ekitan 當月為準；備案 09:35 はやぶさ16号（→10:37）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JRH_H5_H2_JRE_E5_U14_Shin-Hakodate-Hokuto_Station_north_20160406.jpg?width=1200",
+      "credit": "Rsa",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "ekitan 函館⇄青森 新幹線 料金・時間（繁中）",
+       "url": "https://ekitan.com/zh-tw/article/hakodate-to-aomori-shinkansen"
+      },
+      {
+       "type": "official",
+       "title": "JR-EAST Train Reservation（外國人訂票）",
+       "url": "https://www.eki-net.com/en/jreast-train-reservation/Top/Index"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "長尾中華そば 青森駅前店 津輕煮干し拉麵",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "青森駅走 3 分、7:00–20:45 無休（IG 自述）；津輕名物煮干しラーメン的代表店，「こく煮干し」濃厚小魚乾湯＋手打揉太麵約 ¥1,000，怕腥點「あっさり」。兩人約 ¥2,200。",
+     "price_for2_twd": 480,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E5%B0%BE%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E9%9D%92%E6%A3%AE%E9%A7%85%E5%89%8D%E5%BA%97%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%9F%B3%E5%B7%9D1-2-3",
+     "site_url": "https://naga-chu.com/",
+     "address": "青森県青森市柳川 1-2-3",
+     "tip": "先到 Dormy Inn 寄行李（13:00 前多半可寄）再吃；12/31 早上想再吃煮干し也開",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%93%E3%81%8F%E7%85%AE%E5%B9%B2%E3%81%97%EF%BC%88%E9%95%B7%E5%B0%BE%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%EF%BC%89.jpg?width=1200",
+      "credit": "くろふね",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "青森長尾中華そば グループ IG @nagao214",
+       "url": "https://www.instagram.com/nagao214/"
+      },
+      {
+       "type": "official",
+       "title": "長尾中華そば 官網",
+       "url": "https://naga-chu.com/"
+      },
+      {
+       "type": "blog",
+       "title": "青森・津軽ご当地ラーメン6選（るるぶ）",
+       "url": "https://rurubu.jp/andmore/article/10146"
+      }
+     ]
+    },
+    {
+     "time": "14:00",
+     "name": "ねぶたの家 ワ・ラッセ",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "青森駅海側走 5 分；9–4 月 9:00–18:00（最後入館 17:30），大人 ¥620；館內 4–5 台實際出陣的大型睡魔燈籠＋囃子體驗。12/31、1/1 休館，所以排今天。",
+     "price_for2_twd": 270,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%AD%E3%81%B6%E3%81%9F%E3%81%AE%E5%AE%B6%20%E3%83%AF%E3%83%BB%E3%83%A9%E3%83%83%E3%82%BB%20%E9%9D%92%E6%A3%AE%E5%B8%82%E5%AE%89%E6%96%B91-1-1",
+     "site_url": "https://www.mlit.go.jp/tagengo-db/zhTW/R1-01065.html",
+     "address": "青森県青森市安方 1-1-1",
+     "tip": "每天有幾場囃子演奏（時間待確認）；旁邊就是 A-Factory 與青函連絡船八甲田丸",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nebuta_house_Warasse_Aomori_Japan07s5.jpg?width=1200",
+      "credit": "663highland",
+      "license": "CC BY 2.5"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "睡魔之家 Wa Rasse 多語解說（國交省）",
+       "url": "https://www.mlit.go.jp/tagengo-db/zhTW/R1-01065.html"
+      },
+      {
+       "type": "blog",
+       "title": "ねぶたの家 ワ・ラッセ 営業時間・料金（nap-camp）",
+       "url": "https://www.nap-camp.com/mag/spot/94460"
+      },
+      {
+       "type": "blog",
+       "title": "ワ・ラッセ 年末年始 混雜（banzokubiology）",
+       "url": "https://banzokubiology.com/nebuta-warasse-newyear-congestion/"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "A-FACTORY 蘋果酒試飲＋伴手禮",
+     "kind": "shop",
+     "stay_min": 60,
+     "desc": "青森駅走 2 分的シードル工房＋市集，9:00–20:00；2 樓自助試飲機 2 種 ¥400／4 種 ¥800／8 種 ¥1,600（IG 貼文），蘋果派、蘋果 Gelato 也在這。兩人試飲約 ¥1,600。",
+     "price_for2_twd": 350,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=A-FACTORY%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%9F%B3%E5%B7%9D1-4-2",
+     "site_url": "https://www.instagram.com/afactory_abc/",
+     "address": "青森県青森市柳川 1-4-2",
+     "tip": "伴手禮留 12/31 早上再買也行（這天要扛去函館）；逛完回 Dormy Inn 正式入住、泡湯休息",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A-Factory_20240324.jpg?width=1200",
+      "credit": "掬茶",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "A-FACTORY 官方 IG @afactory_abc",
+       "url": "https://www.instagram.com/afactory_abc/"
+      },
+      {
+       "type": "blog",
+       "title": "A-FACTORY 介紹（nap-camp）",
+       "url": "https://www.nap-camp.com/mag/?p=94463"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "津軽じょっぱり漁屋酒場 青森本町店（三味線居酒屋）",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "青森駅走 15 分、Dormy Inn 走 5 分；17:00–24:00 年中無休，19:00 起津輕三味線現場演奏。貝焼き味噌、じゃっぱ汁、帆立、青森地酒（田酒、豊盃），有唎酒師。類型＝鄉土料理居酒屋；預算每人 ¥5,000–6,000（ぐるなび）。評價來源：ぐるなび、aumo 青森居酒屋特集、IG 4.3K 追蹤。",
+     "price_for2_twd": 2420,
+     "booking": "建議預約",
+     "booking_url": "https://r.gnavi.co.jp/3wp6g26f0000/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%A5%E8%BB%BD%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A%E6%BC%81%E5%B1%8B%E9%85%92%E5%A0%B4%20%E9%9D%92%E6%A3%AE%E6%9C%AC%E7%94%BA%E5%BA%97%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%9C%AC%E7%94%BA2-5-14",
+     "site_url": "https://r.gnavi.co.jp/3wp6g26f0000/",
+     "address": "青森県青森市本町 2-5-14（017-722-3443）",
+     "tip": "三味線時段熱門，先電話或 IG 訂位說要看演奏；入口三顆睡魔面具很好認",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsugaru-jamisen_Kaisenkaku_Asamushi_Onsen_Aomori_Japan03s5.jpg?width=1200",
+      "credit": "663highland",
+      "license": "CC BY 2.5"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "津軽じょっぱり漁屋酒場 IG @tsugarujoppari",
+       "url": "https://www.instagram.com/tsugarujoppari/"
+      },
+      {
+       "type": "official",
+       "title": "ぐるなび 店頁（營業時間・預算）",
+       "url": "https://r.gnavi.co.jp/3wp6g26f0000/"
+      },
+      {
+       "type": "blog",
+       "title": "青森駅周辺 居酒屋おすすめ（aumo）",
+       "url": "https://aumo.jp/articles/26438"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "八甲田樹冰，酸湯千人風呂",
+   "area": "青森駅→八甲田ロープウェー→酸ヶ湯温泉→青森市區",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "預約制巴士 8:10 上山，纜車到山頂看成形中的樹冰，12:15 的巴士下到酸湯吃蕎麥、泡千人風呂，14:55 回青森吃帆立配酒",
+   "stops": [
+    {
+     "time": "08:10",
+     "name": "JRバス はっこうだ2号 青森駅→八甲田ロープウェー駅前",
+     "kind": "transport",
+     "stay_min": 60,
+     "desc": "2026/11/12–2027/3/31 冬季版，一天 3 班（青森駅 8:10／9:20／10:50）；從青森駅上車要事先在 WILLER 預約（每席 ¥300），車資 ¥1,290 下車付現或交通 IC。約 9:05–9:25 到纜車站（官網兩頁寫法不同，待確認）。",
+     "price_for2_twd": 700,
+     "booking": "需預約",
+     "booking_url": "https://travel.willer.co.jp/campaign/bus-hakkouda/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%A3%AE%E9%A7%85%20%E6%9D%B1%E5%8F%A3%20%E3%83%90%E3%82%B9%E4%B9%97%E3%82%8A%E5%A0%B4",
+     "site_url": "https://www.jrbustohoku.co.jp/information/1424/",
+     "address": "青森駅東口 JR バス乗り場",
+     "tip": "9/30 起就能訂 12/30 的票，現在就訂；早餐在 Dormy Inn 吃或便利商店；山上 -10℃ 以下，帽子手套全副武裝",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aomori_Station_West_Entrance_%28March_2021%29.jpg?width=1200",
+      "credit": "Mccunicano",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "JRバス東北 はっこうだ号 冬季預約制公告",
+       "url": "https://www.jrbustohoku.co.jp/information/1424/"
+      },
+      {
+       "type": "official",
+       "title": "WILLER はっこうだ号 預約頁",
+       "url": "https://travel.willer.co.jp/campaign/bus-hakkouda/"
+      },
+      {
+       "type": "official",
+       "title": "JRバス東北 路線頁（時刻表 PDF）",
+       "url": "https://www.jrbustohoku.co.jp/route/11/284/"
+      }
+     ]
+    },
+    {
+     "time": "09:30",
+     "name": "八甲田ロープウェー 山頂公園樹冰散步",
+     "kind": "challenge",
+     "stay_min": 120,
+     "desc": "冬季 9:00–15:40、每 15–20 分一班、10 分鐘上到 1,324 m 山頂公園駅；往復 ¥2,500（2026/8 改定）。12 月底樹冰還在「長大中」、保留樹形的白色造型（最壯觀是 1 月中–2 月下旬）；山頂站外有壓雪步道，雪靴可走 30–60 分。風速 25 m/s 以上停駛，常停。",
+     "price_for2_twd": 1100,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E7%94%B2%E7%94%B0%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%83%BC%20%E9%9D%92%E6%A3%AE%E5%B8%82%E8%8D%92%E5%B7%9D%E5%AF%92%E6%B0%B4%E6%B2%A21-12",
+     "site_url": "https://hakkoda-ropeway.jp/fare_time/",
+     "address": "青森県青森市荒川寒水沢 1-12（017-738-0343）",
+     "tip": "出門前看官網首頁運行狀況；停駛就直接坐同班車到酸湯泡久一點，或改青森市區（八甲田丸、青森県立美術館）；想要有人帶走樹冰原就報 4-Ride 雪鞋團（見 challenges）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Juhyo_of_Hakkoda_01.jpg?width=1200",
+      "credit": "Marho",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "八甲田ロープウェー 運行時間・運賃",
+       "url": "https://hakkoda-ropeway.jp/fare_time/"
+      },
+      {
+       "type": "youtube",
+       "title": "八甲田ロープウェーで樹氷を見に行った｜広報現場カクニン！R7.1月号（青森市）",
+       "url": "https://www.youtube.com/watch?v=JWBqdyDCED0"
+      },
+      {
+       "type": "blog",
+       "title": "八甲田山 樹氷 旅遊指南（jeepe）",
+       "url": "https://www.jeepe.jp/ja/articles/hakkoda-mountain-travel-guide-1343"
+      }
+     ]
+    },
+    {
+     "time": "12:15",
+     "name": "はっこうだ6号 → 酸ヶ湯温泉・鬼面庵 酸ヶ湯そば",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "12:15 從纜車站前搭 6 号約 15 分（¥460）到終點酸ヶ湯温泉；旅館附設的鬼面庵 10:00–16:30 無休，そば粉 100%、八甲田湧水締的酸ヶ湯そば約 ¥1,000，兩人約 ¥2,200。",
+     "price_for2_twd": 690,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E9%9D%A2%E5%BA%B5%20%E9%85%B8%E3%83%B6%E6%B9%AF%E6%B8%A9%E6%B3%89%20%E9%9D%92%E6%A3%AE%E5%B8%82%E8%8D%92%E5%B7%9D%E5%8D%97%E8%8D%92%E5%B7%9D%E5%B1%B1",
+     "site_url": "https://rurubu.jp/andmore/spot/80002006",
+     "address": "青森県青森市荒川南荒川山国有林酸湯沢 50（酸ヶ湯温泉旅館內）",
+     "tip": "12:15 是最後一班往酸湯的巴士，纜車 11:45 前一定要下山；錯過只能計程車（約 ¥3,000，待確認）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaru_soba_by_spinachdip.jpg?width=1200",
+      "credit": "spinachdip",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "鬼面庵（るるぶ）",
+       "url": "https://rurubu.jp/andmore/spot/80002006"
+      },
+      {
+       "type": "official",
+       "title": "酸ヶ湯温泉 官網",
+       "url": "https://sukayu.jp/"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "酸ヶ湯温泉 ヒバ千人風呂（日歸）",
+     "kind": "activity",
+     "stay_min": 100,
+     "desc": "300 年歷史、160 疊總檜木的混浴大浴場，4 個源泉乳白酸性湯。2026/12/1 起日歸改為 9:00–16:00（受付到 15:30）、大人 ¥1,500（含租浴巾＋帶走的面巾），男女別「玉の湯」同價。女生可穿湯浴み着（租 ¥500）；舊制女性專用 8–9 時，12/1 後是否保留待確認。回程搭 14:55 はっこうだ5号（不用預約）約 16:13 到青森駅。",
+     "price_for2_twd": 1280,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%85%B8%E3%83%B6%E6%B9%AF%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8%20%E9%9D%92%E6%A3%AE%E5%B8%82%E8%8D%92%E5%B7%9D%E5%8D%97%E8%8D%92%E5%B7%9D%E5%B1%B1%E5%9B%BD%E6%9C%89%E6%9E%97%E9%85%B8%E6%B9%AF%E6%B2%A250",
+     "site_url": "https://sukayu.jp/information2",
+     "address": "青森県青森市荒川南荒川山国有林酸湯沢 50（017-738-6400）",
+     "tip": "混浴不自在就泡玉の湯；回程車資約 ¥1,400／人（待確認）已含在這站價格；13:35 也有一班回青森",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukayu_Onsen_Winter.jpg?width=1200",
+      "credit": "Nogiuchi",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "酸ヶ湯温泉 日帰り入浴 2026/12/1 起變更公告",
+       "url": "https://sukayu.jp/information2"
+      },
+      {
+       "type": "blog",
+       "title": "酸ヶ湯温泉 完全ガイド（るるぶ）",
+       "url": "https://rurubu.jp/andmore/article/24724"
+      },
+      {
+       "type": "youtube",
+       "title": "[積雪5メートル] 日本一の豪雪地帯・酸ヶ湯",
+       "url": "https://www.youtube.com/watch?v=NIJuLDtGL_g"
+      }
+     ]
+    },
+    {
+     "time": "18:00",
+     "name": "青森帆立家（新町）陸奥湾帆立晚餐",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "青森駅走 5 分；晚餐 17:00–24:00（LO 23:30）。陸奥灣帆立的刺身、貝焼き（殼烤味噌）、釜飯，也有海鮮丼；兩人加一杯約 ¥7,000。",
+     "price_for2_twd": 1540,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%A3%AE%E5%B8%86%E7%AB%8B%E5%AE%B6%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%96%B0%E7%94%BA1-11-17",
+     "site_url": "https://www.instagram.com/aomori_hotateya/",
+     "address": "青森県青森市新町 1-11-17 丸倉新町ビル 1F（待確認）",
+     "tip": "以前有名的「帆立小屋」（¥500 釣帆立）網路顯示已閉店／搬遷（待確認），所以改這家；想釣帆立先問店家",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%9B%E3%82%BF%E3%83%86%E3%81%AE%E5%88%BA%E8%BA%AB_%282598210298%29.jpg?width=1200",
+      "credit": "Jun OHWADA",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "青森 帆立家 IG @aomori_hotateya",
+       "url": "https://www.instagram.com/aomori_hotateya/"
+      }
+     ]
+    },
+    {
+     "time": "20:00",
+     "name": "ワイン&サケルーム ロケット&カンパニー",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "青森駅走 1 分，古董家具的義式 dining bar，葡萄酒＋青森地酒都齊，適合約會。類型＝葡萄酒／日本酒吧；兩人兩杯加小菜約 ¥5,000。評價來源：ホットペッパー 青森駅バー特集。",
+     "price_for2_twd": 1100,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88%26%E3%82%AB%E3%83%B3%E3%83%91%E3%83%8B%E3%83%BC%20%E9%9D%92%E6%A3%AE%E9%A7%85",
+     "site_url": "https://www.hotpepper.jp/SA51/G012/dncLU0013/",
+     "address": "青森市（青森駅前，詳細住址待確認）",
+     "tip": "年末營業時間待確認；備案「名前の無いBar」（鮮果調酒，女生愛）或 Dormy Inn 的免費宵夜拉麵＋泡湯。照片是青森駅示意（店就在駅前，Commons 無店照）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aomori_Station_West_Entrance_%28March_2021%29.jpg?width=1200",
+      "credit": "Mccunicano",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "青森駅周辺 バー（ホットペッパー）",
+       "url": "https://www.hotpepper.jp/SA51/G012/dncLU0013/"
+      },
+      {
+       "type": "blog",
+       "title": "青森のカクテルバー（aumo）",
+       "url": "https://aumo.jp/articles/31263"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "のっけ丼，回函館看夜景跨年",
+   "area": "古川市場→新青森→函館→函館山→湯の川温泉",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上自己拼一碗のっけ丼、11 點吃味噌咖哩牛奶拉麵，12:36 新幹線回函館，上函館山看黃昏變夜景，回湯の川旅館吃年越しそば跨年",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "古川市場（青森魚菜センター）のっけ丼",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "青森駅走 5 分；7:00–16:00（飯賣完就收）、週二休、年末年始可能變動（1/1–1/2 休）。先買食事券（12 枚 ¥2,200，1 枚 ¥190，2025/5 改定），拿一碗飯在 30 幾攤裡換大間鮪魚、帆立、海膽、鮭魚卵自己疊。兩人各一套約 ¥4,400。",
+     "price_for2_twd": 970,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%A3%AE%E9%AD%9A%E8%8F%9C%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%20%E9%9D%92%E6%A3%AE%E5%B8%82%E5%8F%A4%E5%B7%9D1-11-16",
+     "site_url": "https://nokkedon.jp/",
+     "address": "青森県青森市古川 1-11-16（017-763-0085）",
+     "tip": "12/31 是否正常開請 12 月打電話確認；Dormy Inn 退房先把行李寄櫃台",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%81%E3%82%B1%E3%83%83%E3%83%881%E6%9E%9A_%E3%83%81%E3%82%B1%E3%83%83%E3%83%882%E6%9E%9A_%2840635526630%29.jpg?width=1200",
+      "credit": "bryan... from Taipei, Taiwan",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "#のっけ丼（IG 標籤，店家無官方帳號）",
+       "url": "https://www.instagram.com/explore/tags/%E3%81%AE%E3%81%A3%E3%81%91%E4%B8%BC/"
+      },
+      {
+       "type": "official",
+       "title": "のっけ丼 官網（市場案內）",
+       "url": "https://nokkedon.jp/about/"
+      },
+      {
+       "type": "youtube",
+       "title": "青森魚菜センターの名物『のっけ丼』【函館から新幹線で1時間】",
+       "url": "https://www.youtube.com/watch?v=lA_GPlCTIxs"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "味の札幌 大西 味噌カレー牛乳ラーメン",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "青森市民的靈魂食物：味噌＋咖哩＋牛奶＋奶油的拉麵，昭和 50 年代誕生。11:00–18:00、火水休（12/31 週四有開，年末待確認）；味噌カレー牛乳ラーメン（バター入り）約 ¥1,100（IG 2026/10 貼文），兩人約 ¥2,300。",
+     "price_for2_twd": 510,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E3%81%AE%E6%9C%AD%E5%B9%8C%E5%A4%A7%E8%A5%BF%20%E9%9D%92%E6%A3%AE%E5%B8%82%E5%8F%A4%E5%B7%9D1-15-6",
+     "site_url": "https://www.gltjp.com/ja/directory/item/17337/",
+     "address": "青森県青森市古川 1-15-6 大西クリエイトビル 1F（017-723-1036）",
+     "tip": "只收現金；11:00 開門就進去，11:45 要走去青森駅搭 11:5x 的車到新青森",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%91%B3%E5%99%8C%E3%82%AB%E3%83%AC%E3%83%BC%E7%89%9B%E4%B9%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%EF%BC%88%E5%91%B3%E3%81%AE%E6%9C%AD%E5%B9%8C%E5%A4%A7%E8%A5%BF%EF%BC%89.jpg?width=1200",
+      "credit": "くろふね",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "味の札幌大西 IG @oonishi_ajisapo",
+       "url": "https://www.instagram.com/oonishi_ajisapo/"
+      },
+      {
+       "type": "youtube",
+       "title": "【青森旅行】味噌カレー牛乳ラーメン、青森のっけ丼が最高すぎた！",
+       "url": "https://www.youtube.com/watch?v=3urUBvldNyk"
+      },
+      {
+       "type": "blog",
+       "title": "味の札幌 大西（gltjp）",
+       "url": "https://www.gltjp.com/ja/directory/item/17337/"
+      }
+     ]
+    },
+    {
+     "time": "12:36",
+     "name": "はやぶさ11号 新青森→新函館北斗→函館",
+     "kind": "transport",
+     "stay_min": 100,
+     "desc": "青森 11:5x 奥羽本線 6 分到新青森；12:36 はやぶさ11号→新函館北斗 13:33（¥7,850 指定席，ekitan）；接はこだてライナー約 20 分到函館駅約 14:10。",
+     "price_for2_twd": 3700,
+     "booking": "需預約",
+     "booking_url": "https://www.eki-net.com/en/jreast-train-reservation/Top/Index",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E9%9D%92%E6%A3%AE%E9%A7%85",
+     "site_url": "https://ekitan.com/zh-tw/article/hakodate-to-aomori-shinkansen",
+     "address": "青森駅→新青森駅→新函館北斗駅→函館駅",
+     "tip": "12/1 10:00 開賣；備案 13:59 はやぶさ17号（→15:01）。到函館駅買市電一日券 ¥800、行李寄置物櫃",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aomori_Station_West_Entrance_%28March_2021%29.jpg?width=1200",
+      "credit": "Mccunicano",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "ekitan 新青森→新函館北斗 時刻・料金（繁中整理）",
+       "url": "https://ekitan.com/zh-tw/article/hakodate-to-aomori-shinkansen"
+      },
+      {
+       "type": "official",
+       "title": "JR-EAST Train Reservation",
+       "url": "https://www.eki-net.com/en/jreast-train-reservation/Top/Index"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "函館山ロープウェイ 黃昏→夜景",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "市電十字街走 10 分到山麓駅；往復 ¥1,800、3 分鐘上山。日落約 16:10，部落格建議日落前 1 小時上去佔位看天色從橘變藍再全黑的「百萬夜景」。12/31–1/3 縮短營業：10:00 起、上行末班 18:50（部落格；官方 10–4 月表定 20:30，待確認）。",
+     "price_for2_twd": 790,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%87%BD%E9%A4%A8%E5%B1%B1%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4%20%E5%B1%B1%E9%BA%93%E9%A7%85%20%E5%87%BD%E9%A4%A8%E5%B8%82%E5%85%83%E7%94%BA19-7",
+     "site_url": "https://334.co.jp/ropeway/price/",
+     "address": "北海道函館市元町 19-7",
+     "tip": "山頂 -5℃ 以下又風大，羽絨＋帽子；17:30 下山搭市電回湯の川（約 40 分）剛好趕晚餐",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Night_scape_seen_from_Mount_Hakodate_Ropeway.jpg?width=1200",
+      "credit": "掬茶",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "函館山ロープウェイ 営業時間・運賃",
+       "url": "https://334.co.jp/ropeway/price/"
+      },
+      {
+       "type": "blog",
+       "title": "函館山 年末年始の混雑・営業時間（banzokubiology）",
+       "url": "https://banzokubiology.com/hakodateyama-newyear-crowd/"
+      },
+      {
+       "type": "youtube",
+       "title": "【北海道函館市】函館山で冬の夜景を楽しみました【ロープウェイ】",
+       "url": "https://www.youtube.com/watch?v=cCrdWf4u5DM"
+      },
+      {
+       "type": "youtube",
+       "title": "【北海道函館一日遊攻略】五稜郭・朝市・紅磚倉庫・函館山夜景（繁中）",
+       "url": "https://www.youtube.com/watch?v=MSHQ_SUvR0Y"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "湯の川観光ホテル祥苑 跨年晚餐・年越しそば",
+     "kind": "stay",
+     "stay_min": 150,
+     "desc": "12/31 含兩食約 NT$5,732（未稅，第一輪查價Booking 實查）；日本跨年夜吃年越しそば、看紅白，泡完湯等 0:00 聽除夜の鐘（湯倉神社就在旁邊）。",
+     "price_for2_twd": 5732,
+     "booking": "需預約",
+     "booking_url": "https://www.booking.com",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E5%B7%9D%E8%A6%B3%E5%85%89%E3%83%9B%E3%83%86%E3%83%AB%E7%A5%A5%E8%8B%91%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%B9%AF%E5%B7%9D%E7%94%BA2-4-20",
+     "site_url": "https://www.booking.com",
+     "address": "北海道函館市湯川町 2-4-20（待確認）",
+     "tip": "12/31 湯の川只剩約一半房，10 月底前訂；想升級選 Umi to Akari（15,075）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yunokawa_Onsen_Hakodate_Hokkaido_Japan02n.jpg?width=1200",
+      "credit": "663highland",
+      "license": "CC BY 2.5"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Booking.com 湯の川 12/31",
+       "url": "https://www.booking.com"
+      }
+     ]
+    },
+    {
+     "time": "21:00",
+     "name": "酒楽 下北（湯の川温泉電停 1 分，日本酒バー）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "湯の川溫泉街裡的小日本酒吧／居酒屋，カウンター席、晚酌セット，一人飲也自在。16:30–23:00、週二休（12/31 週四）。類型＝日本酒吧；每人 ¥3,000–6,000，兩人約 ¥7,000。評價來源：食べログ 3.04、Google 4.6（34 則）、ヒトサラ。",
+     "price_for2_twd": 1540,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E6%A5%BD%20%E4%B8%8B%E5%8C%97%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%B9%AF%E5%B7%9D%E7%94%BA1-26-21",
+     "site_url": "",
+     "address": "北海道函館市湯川町 1-26-21（080-6078-0013）",
+     "tip": "大晦日營業待確認（12 月打電話）；備案 MusicBal TUNE（電停 3 分，酒吧）或旅館的湯上がりビール。照片是湯の川溫泉街示意（Commons 無店照）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yunokawa_Onsen_Hakodate_Hokkaido_Japan03n.jpg?width=1200",
+      "credit": "663highland",
+      "license": "CC BY 2.5"
+     },
+     "links": []
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "初日出、初詣，啤酒收尾回家",
+   "area": "五稜郭→谷地頭→元町→金森倉庫→函館空港",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "6:30 上五稜郭塔看雪中星形與初日出，八幡宮初詣、八幡坂散步、幸運小丑午餐、紅磚倉庫買伴手禮，はこだてビール喝最後一杯再去機場",
+   "stops": [
+    {
+     "time": "06:30",
+     "name": "五稜郭タワー 初日の出",
+     "kind": "activity",
+     "stay_min": 75,
+     "desc": "元旦限定 6:30 特別營業（2026 年官方公告；2027 待 12 月中公告），日出約 7:04，從 90 m 展望台看雪中星形城郭與横津連峰染紅。展望料大人 ¥1,200。",
+     "price_for2_twd": 530,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E7%A8%9C%E9%83%AD%E3%82%BF%E3%83%AF%E3%83%BC%20%E5%87%BD%E9%A4%A8%E5%B8%82%E4%BA%94%E7%A8%9C%E9%83%AD%E7%94%BA43-9",
+     "site_url": "https://www.goryokaku-tower.co.jp/",
+     "address": "北海道函館市五稜郭町 43-9",
+     "tip": "湯の川 5:50 市電到五稜郭公園前約 15 分再走 10 分；函館山也有初日出特別運行（約 6:00 起，12 月中公告）但超擠，部落格就建議改五稜郭塔。五稜星の夢燈飾（2025–26 為 12/1–2/28 日落–19:00）前一晚上山前可順路看",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokkaido-Goryokaku_Fort_in_winter-xl.jpg?width=1200",
+      "credit": "Goryokaku-Tower",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "五稜郭タワー 官網（元旦特別営業公告）",
+       "url": "https://www.goryokaku-tower.co.jp/"
+      },
+      {
+       "type": "blog",
+       "title": "五稜郭タワー 函館観光 2026 ガイド（trvlogue）",
+       "url": "https://www.trvlogue.com/ja/goryokaku-tower-hakodate-guide"
+      },
+      {
+       "type": "blog",
+       "title": "五稜星の夢 イルミネーション（tabi-mag）",
+       "url": "https://tabi-mag.jp/goryouboshi/"
+      }
+     ]
+    },
+    {
+     "time": "09:30",
+     "name": "函館八幡宮 初詣",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "市電谷地頭電停走 10 分；1/1 0:00 新年開扉祭・歳旦祭，9–17 時受理祈願，12/31–1/1 限定「幸福みくじ」（5 支藏純金御守）。1/1–1/3 8–17 時人多。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%87%BD%E9%A4%A8%E5%85%AB%E5%B9%A1%E5%AE%AE%20%E5%87%BD%E9%A4%A8%E5%B8%82%E8%B0%B7%E5%9C%B0%E9%A0%AD%E7%94%BA2-5",
+     "site_url": "https://rurubu.jp/andmore/spot/80000378/hatsumode",
+     "address": "北海道函館市谷地頭町 2-5（0138-22-3636）",
+     "tip": "石階結冰，防滑鞋套；參拜完坐市電兩站到末広町",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakodate_Hachiman_Shrine_in_Nov_2024a.jpg?width=1200",
+      "credit": "掬茶",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "函館八幡宮 初詣情報（るるぶ）",
+       "url": "https://rurubu.jp/andmore/spot/80000378/hatsumode"
+      },
+      {
+       "type": "blog",
+       "title": "函館八幡宮（nap-camp）",
+       "url": "https://www.nap-camp.com/mag/13775"
+      }
+     ]
+    },
+    {
+     "time": "10:45",
+     "name": "八幡坂・元町坂道散步",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "末広町電停 1 分；雪中石板坡直直望向港口與摩周丸，函館最經典一張。はこだてイルミネーション（2025–26 為 11/29–3/31、日落–22:00；2026–27 日期待確認）晚上也亮，今天看白天版。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E5%B9%A1%E5%9D%82%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9C%AB%E5%BA%83%E7%94%BA",
+     "site_url": "https://www.visit-hokkaido.jp/event/detail_11011.html",
+     "address": "北海道函館市末広町（八幡坂）",
+     "tip": "坡道結冰很滑、車會打滑，站路邊拍；舊函館區公會堂、ハリストス正教会都在 10 分內",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakodate_Hachimanzaka_at_night_20231223a.jpg?width=1200",
+      "credit": "掬茶",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "はこだてイルミネーション（HOKKAIDO LOVE!）",
+       "url": "https://www.visit-hokkaido.jp/event/detail_11011.html"
+      },
+      {
+       "type": "blog",
+       "title": "函館「八幡坂」徹底解説（skyticket）",
+       "url": "https://skyticket.jp/guide/359152/"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "ラッキーピエロ ベイエリア本店 チャイニーズチキンバーガー",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "1987 年創業的函館在地漢堡 1 號店，10:00–22:00、只休 12/31（1/1 有開）；チャイニーズチキンバーガー ¥486 連年全國在地漢堡第一，加薯條、ラキポテ、兩杯飲料兩人約 ¥2,000。",
+     "price_for2_twd": 440,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC%E3%83%94%E3%82%A8%E3%83%AD%20%E3%83%99%E3%82%A4%E3%82%A8%E3%83%AA%E3%82%A2%E6%9C%AC%E5%BA%97%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9C%AB%E5%BA%83%E7%94%BA23-18",
+     "site_url": "https://www.gltjp.com/ja/directory/item/14587/",
+     "address": "北海道函館市末広町 23-18",
+     "tip": "元旦中午會排，11:45 到；想吃鹽拉麵改五稜郭的あじさい本店（11–20 時，見 food）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lucky_Pierrot_Bay_Area_Main_Store.jpg?width=1200",
+      "credit": "禁樹なずな",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "ラッキーピエロ公式 IG @luckypierrot_official",
+       "url": "https://www.instagram.com/luckypierrot_official/"
+      },
+      {
+       "type": "blog",
+       "title": "ラッキーピエロ ベイエリア本店（gltjp）",
+       "url": "https://www.gltjp.com/ja/directory/item/14587/"
+      },
+      {
+       "type": "blog",
+       "title": "ラッキーピエロ 攻略（johnny88）",
+       "url": "https://johnny88.jp/?p=22601"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "金森赤レンガ倉庫 伴手禮",
+     "kind": "shop",
+     "stay_min": 60,
+     "desc": "9:30–19:00 年中無休；BAY はこだて、金森洋物館、函館ヒストリープラザ四棟紅磚倉庫，買白い恋人以外的函館限定（はこだてビール罐、イカ塩辛、Snaffle's 起司蛋糕）。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%A3%AE%E8%B5%A4%E3%83%AC%E3%83%B3%E3%82%AC%E5%80%89%E5%BA%AB%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9C%AB%E5%BA%83%E7%94%BA14-12",
+     "site_url": "https://rurubu.jp/andmore/spot/80000568",
+     "address": "北海道函館市末広町 14-12",
+     "tip": "聖誕夢幻節 12/25 已結束，海上聖誕樹沒了；行李若在函館駅置物櫃，14:00 前先去拿再回來喝酒（市電 10 分）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kanemori_Red_Brick_Warehouse_in_winter_20231224.jpg?width=1200",
+      "credit": "撫茶",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "BAYはこだて（るるぶ）",
+       "url": "https://rurubu.jp/andmore/spot/80000568"
+      },
+      {
+       "type": "blog",
+       "title": "金森洋物館（るるぶ）",
+       "url": "https://rurubu.jp/andmore/spot/80000472"
+      }
+     ]
+    },
+    {
+     "time": "14:15",
+     "name": "はこだてビール（最後一杯，然後去機場）",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "1996 年函館第一家地啤酒廠附設啤酒屋，用函館山地下水釀：五稜の星（白啤）、明治館（Alt）、北の一歩（Ale）＋試飲組；11–15、17–22（LO 21:20）、週三休（1/1 週五）。類型＝精釀啤酒屋；兩人試飲組＋一杯＋小菜約 ¥4,000。評價來源：るるぶ、gltjp、IG 1.2K 追蹤。",
+     "price_for2_twd": 880,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%AF%E3%81%93%E3%81%A0%E3%81%A6%E3%83%93%E3%83%BC%E3%83%AB%20%E5%87%BD%E9%A4%A8%E5%B8%82%E5%A4%A7%E6%89%8B%E7%94%BA5-22",
+     "site_url": "https://rurubu.jp/andmore/spot/80000528",
+     "address": "北海道函館市大手町 5-22 開港通り（0138-23-8000）",
+     "tip": "15:30 從ベイエリア前搭帝産シャトルバス到函館空港（¥700、約 25 分，元旦時刻待確認）→16:00 到機場、18:00 星宇；備案計程車約 20 分 ¥3,000。年末年始營業待確認",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakodate_Beer_in_May_2024_at_night.jpg?width=1200",
+      "credit": "掬茶",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "はこだてビール IG @hakodate_beer_hf",
+       "url": "https://www.instagram.com/hakodate_beer_hf/"
+      },
+      {
+       "type": "blog",
+       "title": "はこだてビール（るるぶ）",
+       "url": "https://rurubu.jp/andmore/spot/80000528"
+      },
+      {
+       "type": "blog",
+       "title": "はこだてビール（gltjp）",
+       "url": "https://www.gltjp.com/ja/directory/item/13860/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "きくよ食堂 本店（函館朝市）",
+   "dish": "元祖函館巴丼（海膽・帆立・鮭魚卵）、うに丼、三種お好み丼",
+   "price_for2_twd": null,
+   "area": "函館朝市（函館駅走 3 分）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%81%8F%E3%82%88%E9%A3%9F%E5%A0%82%20%E6%9C%AC%E5%BA%97%20%E5%87%BD%E9%A4%A8%E5%B8%82%E8%8B%A5%E6%9D%BE%E7%94%BA11-15",
+   "why": "昭和 31 年創業、朝市老舖海鮮丼代名詞；johnny88、macaro-ni 朝市攻略都排第一。12–4 月 6:00–13:30，12/29 週二有開、1/1 休",
+   "source": "https://johnny88.jp/hakodate-morningmarket-food/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_bowl_topped_with_sea_urchin_%289665261271%29.jpg?width=1200",
+    "credit": "pelican from Tokyo, Japan",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "きくよ食堂 官方 IG @kikuyo.shokudo",
+     "url": "https://www.instagram.com/kikuyo.shokudo/"
+    },
+    {
+     "type": "official",
+     "title": "きくよ食堂【公式】SNS",
+     "url": "https://hakodate-kikuyo.com/sns"
+    },
+    {
+     "type": "blog",
+     "title": "函館朝市 グルメ（johnny88）",
+     "url": "https://johnny88.jp/hakodate-morningmarket-food/"
+    }
+   ],
+   "note": "丼價 10/16 查不到正確數字，待確認；照片是海膽丼示意（非本店）"
+  },
+  {
+   "name": "函館麺厨房あじさい 本店（五稜郭）",
+   "dish": "函館鹽拉麵（味彩塩拉麵）約 ¥1,000；JR 函館駅 2F 也有分店",
+   "price_for2_twd": 480,
+   "area": "五稜郭町 29-22（五稜郭タワー旁）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%87%BD%E9%A4%A8%E9%BA%BA%E5%8E%A8%E6%88%BF%E3%81%82%E3%81%98%E3%81%95%E3%81%84%E6%9C%AC%E5%BA%97%20%E5%87%BD%E9%A4%A8%E5%B8%82%E4%BA%94%E7%A8%9C%E9%83%AD%E7%94%BA29-22",
+   "why": "昭和 5 年創業的函館鹽拉麵代表店，11:00–20:00、第 4 週三休；1/1 看完初日出就在隔壁，午餐備案。另一家名店星龍軒 11–17 時、日一休，12/31 有開",
+   "source": "https://johnny88.jp/ajisai-hakodate",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%87%BD%E9%A4%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%80%8C%E9%86%90%E3%82%8A%E3%82%87%E3%81%86%E3%80%8D%E3%81%AE%E5%A1%A9%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3_-_1.jpg?width=1200",
+    "credit": "KKPCW（Kyu3）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "麺厨房あじさい本店 IG @ajisai.honten",
+     "url": "https://www.instagram.com/ajisai.honten/"
+    },
+    {
+     "type": "ig",
+     "title": "麺厨房あじさい【公式】@ajisai_hakodate_official",
+     "url": "https://www.instagram.com/ajisai_hakodate_official/"
+    },
+    {
+     "type": "blog",
+     "title": "函館 塩ラーメン名店（johnny88）",
+     "url": "https://johnny88.jp/ramen-hakodate"
+    }
+   ],
+   "note": "照片是函館鹽拉麵示意（醐りょう），非あじさい"
+  },
+  {
+   "name": "ラッキーピエロ ベイエリア本店",
+   "dish": "チャイニーズチキンバーガー ¥486、ラキポテ、函館限定口味",
+   "price_for2_twd": 440,
+   "area": "函館ベイエリア",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC%E3%83%94%E3%82%A8%E3%83%AD%20%E3%83%99%E3%82%A4%E3%82%A8%E3%83%AA%E3%82%A2%E6%9C%AC%E5%BA%97%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9C%AB%E5%BA%83%E7%94%BA23-18",
+   "why": "函館 17 間店的 1 號店，全國在地漢堡票選冠軍；10:00–22:00、只休 12/31（gltjp）。IG 4.3 萬追蹤",
+   "source": "https://www.gltjp.com/ja/directory/item/14587/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lucky_Pierrot_Bay_Area_Main_Store.jpg?width=1200",
+    "credit": "禁樹なずな",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "ラッキーピエロ公式 IG @luckypierrot_official",
+     "url": "https://www.instagram.com/luckypierrot_official/"
+    },
+    {
+     "type": "blog",
+     "title": "ラッキーピエロ ベイエリア本店（gltjp）",
+     "url": "https://www.gltjp.com/ja/directory/item/14587/"
+    }
+   ]
+  },
+  {
+   "name": "長尾中華そば 青森駅前店",
+   "dish": "こく煮干し、あっさり煮干し中華そば 約 ¥1,000",
+   "price_for2_twd": 480,
+   "area": "青森駅前",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E5%B0%BE%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E9%9D%92%E6%A3%AE%E9%A7%85%E5%89%8D%E5%BA%97%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%9F%B3%E5%B7%9D1-2-3",
+   "why": "津輕煮干し拉麵的代表、るるぶ青森ラーメン 6 選；7:00–20:45 無休（IG），早餐也吃得到",
+   "source": "https://rurubu.jp/andmore/article/10146",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%93%E3%81%8F%E7%85%AE%E5%B9%B2%E3%81%97%EF%BC%88%E9%95%B7%E5%B0%BE%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%EF%BC%89.jpg?width=1200",
+    "credit": "くろふね",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "青森長尾中華そば IG @nagao214",
+     "url": "https://www.instagram.com/nagao214/"
+    },
+    {
+     "type": "official",
+     "title": "長尾中華そば 官網",
+     "url": "https://naga-chu.com/"
+    }
+   ]
+  },
+  {
+   "name": "古川市場 青森魚菜センター のっけ丼",
+   "dish": "自選海鮮丼：食事券 12 枚 ¥2,200（1 枚 ¥190）",
+   "price_for2_twd": 970,
+   "area": "青森駅走 5 分",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%A3%AE%E9%AD%9A%E8%8F%9C%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%20%E9%9D%92%E6%A3%AE%E5%B8%82%E5%8F%A4%E5%B7%9D1-11-16",
+   "why": "青森市最有名的市場體驗，YouTube／IG 台日旅人都拍；7:00–16:00、週二休、1/1–1/2 休（nap-camp、官網）",
+   "source": "https://www.nap-camp.com/mag/111131",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%81%E3%82%B1%E3%83%83%E3%83%881%E6%9E%9A_%E3%83%81%E3%82%B1%E3%83%83%E3%83%882%E6%9E%9A_%2840635526630%29.jpg?width=1200",
+    "credit": "bryan... from Taipei, Taiwan",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "#のっけ丼（IG 標籤）",
+     "url": "https://www.instagram.com/explore/tags/%E3%81%AE%E3%81%A3%E3%81%91%E4%B8%BC/"
+    },
+    {
+     "type": "youtube",
+     "title": "のっけ丼の食べ方・作り方（青森魚菜センター）",
+     "url": "https://www.youtube.com/watch?v=ksSruqgbWrs"
+    },
+    {
+     "type": "official",
+     "title": "のっけ丼 官網",
+     "url": "https://nokkedon.jp/"
+    }
+   ],
+   "note": "市場沒有官方 IG，用標籤頁（未驗證）"
+  },
+  {
+   "name": "味の札幌 大西",
+   "dish": "味噌カレー牛乳ラーメン（バター入り）約 ¥1,100",
+   "price_for2_twd": 510,
+   "area": "青森市古川（青森駅走 10 分）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E3%81%AE%E6%9C%AD%E5%B9%8C%E5%A4%A7%E8%A5%BF%20%E9%9D%92%E6%A3%AE%E5%B8%82%E5%8F%A4%E5%B7%9D1-15-6",
+   "why": "味噌咖哩牛奶拉麵的元祖暖簾分店、青森市靈魂食物（YouTube 多支 vlog）；11:00–18:00、火水休，只收現金（gltjp、Retty）",
+   "source": "https://www.gltjp.com/ja/directory/item/17337/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%91%B3%E5%99%8C%E3%82%AB%E3%83%AC%E3%83%BC%E7%89%9B%E4%B9%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%EF%BC%88%E5%91%B3%E3%81%AE%E6%9C%AD%E5%B9%8C%E5%A4%A7%E8%A5%BF%EF%BC%89.jpg?width=1200",
+    "credit": "くろふね",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "味の札幌大西 IG @oonishi_ajisapo",
+     "url": "https://www.instagram.com/oonishi_ajisapo/"
+    },
+    {
+     "type": "youtube",
+     "title": "【青森旅行】味噌カレー牛乳ラーメン、のっけ丼",
+     "url": "https://www.youtube.com/watch?v=3urUBvldNyk"
+    },
+    {
+     "type": "blog",
+     "title": "味の札幌 大西（Retty）",
+     "url": "https://retty.me/restaurant/100000030848/"
+    }
+   ]
+  },
+  {
+   "name": "津軽じょっぱり漁屋酒場 青森本町店",
+   "dish": "貝焼き味噌、じゃっぱ汁、帆立刺身、青森地酒飲み比べ；每人 ¥5,000–6,000",
+   "price_for2_twd": 2420,
+   "area": "青森市本町",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%A5%E8%BB%BD%E3%81%98%E3%82%87%E3%81%A3%E3%81%B1%E3%82%8A%E6%BC%81%E5%B1%8B%E9%85%92%E5%A0%B4%20%E9%9D%92%E6%A3%AE%E6%9C%AC%E7%94%BA%E5%BA%97%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%9C%AC%E7%94%BA2-5-14",
+   "why": "一間店吃遍青森鄉土料理＋19:00 津輕三味線生演奏；ぐるなび、aumo、IG 台灣旅人都推。17:00–24:00 年中無休",
+   "source": "https://r.gnavi.co.jp/3wp6g26f0000/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsugaru-jamisen_Kaisenkaku_Asamushi_Onsen_Aomori_Japan03s5.jpg?width=1200",
+    "credit": "663highland",
+    "license": "CC BY 2.5"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "津軽じょっぱり漁屋酒場 IG @tsugarujoppari",
+     "url": "https://www.instagram.com/tsugarujoppari/"
+    },
+    {
+     "type": "official",
+     "title": "ぐるなび",
+     "url": "https://r.gnavi.co.jp/3wp6g26f0000/"
+    }
+   ],
+   "note": "照片是三味線表演示意（淺蟲溫泉海扇閣）"
+  },
+  {
+   "name": "青森帆立家（新町）",
+   "dish": "陸奥湾帆立刺身、貝焼き、帆立釜飯；兩人約 ¥7,000",
+   "price_for2_twd": 1540,
+   "area": "青森駅走 5 分",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%A3%AE%E5%B8%86%E7%AB%8B%E5%AE%B6%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%96%B0%E7%94%BA1-11-17",
+   "why": "IG 1.9K 追蹤的帆立專門店，晚餐 17:00–24:00；取代網路顯示已閉店的「帆立小屋」（待確認）",
+   "source": "https://www.instagram.com/aomori_hotateya/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%9B%E3%82%BF%E3%83%86%E3%81%AE%E5%88%BA%E8%BA%AB_%282598210298%29.jpg?width=1200",
+    "credit": "Jun OHWADA",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "青森 帆立家 IG @aomori_hotateya",
+     "url": "https://www.instagram.com/aomori_hotateya/"
+    }
+   ],
+   "note": "住址與帆立釣り有無待確認"
+  },
+  {
+   "name": "A-FACTORY シードル＋蘋果派",
+   "dish": "シードル試飲 2 種 ¥400／4 種 ¥800／8 種 ¥1,600；蘋果派、Gelato",
+   "price_for2_twd": 350,
+   "area": "青森駅旁",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=A-FACTORY%20%E9%9D%92%E6%A3%AE%E5%B8%82%E6%9F%B3%E5%B7%9D1-4-2",
+   "why": "青森蘋果酒工房＋伴手禮市集，IG 8.8K 追蹤、台灣 IG 旅人開箱很多；9:00–20:00",
+   "source": "https://www.instagram.com/afactory_abc/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A-Factory_20240324.jpg?width=1200",
+    "credit": "掬茶",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "A-FACTORY 官方 IG @afactory_abc",
+     "url": "https://www.instagram.com/afactory_abc/"
+    },
+    {
+     "type": "blog",
+     "title": "A-FACTORY（nap-camp）",
+     "url": "https://www.nap-camp.com/mag/?p=94463"
+    }
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "name": "八甲田樹冰雪鞋團（4-Ride「手ぶらで」八甲田樹氷スノーシューツアー）",
+   "what": "9:30 在纜車山麓駅集合，含纜車往復、雪鞋、外套雪靴手套全套裝備與保險，跟嚮導走 1 小時樹冰原，13:50 結束",
+   "price_for2_twd": 5280,
+   "duration": "9:30–13:50（含等纜車、換裝）",
+   "booking": "需預約（rezio 線上）",
+   "season_ok": true,
+   "url": "https://4ride-as.com/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E7%94%B2%E7%94%B0%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%83%BC%20%E9%9D%92%E6%A3%AE%E5%B8%82%E8%8D%92%E5%B7%9D%E5%AF%92%E6%B0%B4%E6%B2%A21-12",
+   "note": "日文團 ¥12,000／人、英文團 ¥15,000（含稅）；12 月中–3 月。參加的話 13:50 後已沒有往酸湯的巴士（最後 12:15），要嘛 15:05 直接回青森、要嘛改住酸湯一晚（旅館接駁新青森 14:00 發，住客限定）；12 月底樹冰還小，嚮導會帶去看得到的區域",
+   "links": [
+    {
+     "type": "official",
+     "title": "4-Ride 官網（價格・集合）",
+     "url": "https://4ride-as.com/"
+    },
+    {
+     "type": "official",
+     "title": "「手ぶらで」八甲田樹氷スノーシューツアー（東北觀光推進機構）",
+     "url": "https://www.tohokukanko.jp/attractions/detail_1010558.html"
+    },
+    {
+     "type": "official",
+     "title": "4-Ride rezio 預約頁",
+     "url": "https://4ride.rezio.shop/ja-JP/product/HKD001"
+    }
+   ]
+  },
+  {
+   "name": "酸ヶ湯 ヒバ千人風呂 混浴挑戰（日歸）",
+   "what": "160 疊總檜木、4 源泉乳白酸性湯的混浴大浴場，女生穿湯浴み着（租 ¥500）下水；2026/12/1 起 9:00–16:00、¥1,500 含浴巾",
+   "price_for2_twd": 880,
+   "duration": "60–90 分",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://sukayu.jp/information2",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%85%B8%E3%83%B6%E6%B9%AF%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8%20%E9%9D%92%E6%A3%AE%E5%B8%82%E8%8D%92%E5%B7%9D%E5%8D%97%E8%8D%92%E5%B7%9D%E5%B1%B1%E5%9B%BD%E6%9C%89%E6%9E%97%E9%85%B8%E6%B9%AF%E6%B2%A250",
+   "note": "女性專用時段 12/1 後是否保留待確認；男女別玉の湯是退路；住宿才有 20–21 時女性專用時段",
+   "links": [
+    {
+     "type": "official",
+     "title": "酸ヶ湯温泉 日帰り入浴 變更公告",
+     "url": "https://sukayu.jp/information2"
+    },
+    {
+     "type": "blog",
+     "title": "酸ヶ湯温泉 泉質・混浴ルール 完全ガイド（るるぶ）",
+     "url": "https://rurubu.jp/andmore/article/24724"
+    }
+   ]
+  },
+  {
+   "name": "八甲田纜車＋酸湯同日達成（巴士接駁挑戰）",
+   "what": "8:10 預約制巴士上山、11:45 前下纜車、12:15 搭最後一班往酸湯、14:55 回青森——一天內樹冰＋千人風呂都拿到",
+   "price_for2_twd": 3280,
+   "duration": "8:10–16:13",
+   "booking": "需預約（WILLER 巴士）",
+   "season_ok": true,
+   "url": "https://travel.willer.co.jp/campaign/bus-hakkouda/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E7%94%B2%E7%94%B0%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%83%BC%20%E9%9D%92%E6%A3%AE%E5%B8%82%E8%8D%92%E5%B7%9D%E5%AF%92%E6%B0%B4%E6%B2%A21-12",
+   "note": "纜車停駛（風速 25 m/s）機率高，停駛就坐同班車直接到酸湯泡久一點；時刻以 JR バス東北 11 月公布 PDF 為準",
+   "links": [
+    {
+     "type": "official",
+     "title": "JRバス東北 はっこうだ号 路線頁",
+     "url": "https://www.jrbustohoku.co.jp/route/11/284/"
+    },
+    {
+     "type": "official",
+     "title": "八甲田ロープウェー 首頁（運行狀況）",
+     "url": "https://www.hakkoda-ropeway.jp/"
+    }
+   ]
+  },
+  {
+   "name": "元旦 5:50 出門：五稜郭塔初日出（或函館山特別運行）",
+   "what": "五稜郭塔元旦 6:30 特別營業、7:04 日出；函館山纜車也有初日出特別運行（約 6:00 起，12 月中公告）",
+   "price_for2_twd": 530,
+   "duration": "6:30–7:45",
+   "booking": "免預約（函館山特別運行可能限量，待確認）",
+   "season_ok": true,
+   "url": "https://www.goryokaku-tower.co.jp/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E7%A8%9C%E9%83%AD%E3%82%BF%E3%83%AF%E3%83%BC%20%E5%87%BD%E9%A4%A8%E5%B8%82%E4%BA%94%E7%A8%9C%E9%83%AD%E7%94%BA43-9",
+   "note": "2027 元旦時間 12 月中確認；市電元旦首班時間待確認（可能要計程車約 ¥1,500）",
+   "links": [
+    {
+     "type": "official",
+     "title": "五稜郭タワー 官網",
+     "url": "https://www.goryokaku-tower.co.jp/"
+    },
+    {
+     "type": "blog",
+     "title": "函館山 初日の出 混雜（banzokubiology）",
+     "url": "https://banzokubiology.com/hakodateyama-newyear-crowd/"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 34778,
+  "stay_for2": 22100,
+  "food_for2": [
+   10000,
+   16000
+  ],
+  "transport_for2": [
+   11200,
+   13500
+  ],
+  "activities_for2": [
+   3400,
+   8700
+  ],
+  "total_for2": [
+   81478,
+   95078
+  ],
+  "note": "匯率 1 JPY≈NT$0.22。機票＝星宇 12/28→1/1 17,389×2；住宿＝啄木亭 12/28 ¥28,000（6,160）＋Dormy Inn 青森×2 晚 5,053×2＋祥苑 12/31 5,732 ≈ 22,100（高估改住酸湯／城倉＋Umi to Akari 約 38,000，總額會到 11 萬）；吃＝兩天含兩食只算午餐小吃酒吧、三天全外食；交通＝新幹線 ¥7,850×2 段×2 人＋ライナー、奥羽本線、はっこうだ号（含預約費）、機場巴士、市電一日券×2，兩人約 ¥51,000–61,000；活動＝八甲田纜車 ¥2,500×2、酸湯 ¥1,500×2、函館山 ¥1,800×2、五稜郭塔 ¥1,200×2、ワ・ラッセ ¥620×2，高估加雪鞋團 ¥12,000×2。3 晚省錢版約 68,000–90,000"
+ },
+ "weather": {
+  "high_c": 3,
+  "low_c": -3,
+  "conditions": "函館 12 月平年高 3.2／低 -3.6℃、降水 95 mm 多為雪，坡道結冰；青森市高 4.5／低 -1.4℃、降水 155 mm，世界級豪雪城市，12 月底多半已積雪；八甲田山頂 -10℃ 以下、風大常停纜車",
+  "sunrise": "07:04",
+  "sunset": "16:10（待確認，第一輪查價約 16:05）",
+  "wear": "防水雪靴＋防滑鞋套（元町坂道、八幡宮石階、湯の川人行道都結冰）、羽絨外套、毛帽手套圍巾、暖暖包；八甲田再加防風褲與護目鏡（雪鞋團有租）；泡湯用小毛巾；旅館有浴衣羽織"
+ },
+ "events": [
+  {
+   "date": "12/29–1/1",
+   "name": "北海道新幹線・はっこうだ号 年末尖峰",
+   "note": "新幹線全車指定席 11/29、12/1 10:00 開賣；はっこうだ号 9/30 起可訂",
+   "url": "https://www.eki-net.com/en/jreast-train-reservation/Top/Index"
+  },
+  {
+   "date": "12/31、1/1",
+   "name": "ねぶたの家 ワ・ラッセ 休館",
+   "note": "所以排在 12/29",
+   "url": "https://www.nap-camp.com/mag/spot/94460"
+  },
+  {
+   "date": "12/31",
+   "name": "函館朝市 中午收攤／函館山纜車縮短（10:00–18:50）",
+   "note": "1/1–1/3 朝市只有 30–40 家、きくよ本店元旦休；函館山初日出特別運行 12 月中公告",
+   "url": "https://banzokubiology.com/?p=19852"
+  },
+  {
+   "date": "12/31 深夜",
+   "name": "湯の川 年越し（年越しそば＋湯倉神社）",
+   "note": "函館沒查到跨年煙火；旅館晚餐會出年越しそば",
+   "url": "https://www.visit-hokkaido.jp/spot/detail_11450.html"
+  },
+  {
+   "date": "1/1 6:30",
+   "name": "五稜郭タワー 元旦初日の出特別営業",
+   "note": "2026 年為 6:30 開（官網）；2027 待 12 月中公告",
+   "url": "https://www.goryokaku-tower.co.jp/"
+  },
+  {
+   "date": "1/1 0:00",
+   "name": "函館八幡宮 新年開扉祭・歳旦祭",
+   "note": "12/31–1/1 幸福みくじ；1/2 12:00 どさんこ騎馬参拝",
+   "url": "https://rurubu.jp/andmore/spot/80000378/hatsumode"
+  },
+  {
+   "date": "11/29–3/31（2025–26 參考）",
+   "name": "はこだてイルミネーション（八幡坂・二十間坂）／五稜星の夢（12/1–2/28）",
+   "note": "2026–27 日期待確認；聖誕夢幻節 12/25 已結束",
+   "url": "https://www.visit-hokkaido.jp/event/detail_11011.html"
+  },
+  {
+   "date": "年末年始",
+   "name": "湯の川 熱帯植物園 猴子泡湯 休園",
+   "note": "2025–26 公告為 12/1–GW 開放但年末年始休園（日期待確認），本行程排不進；想看就 12/29 早上 9:30 開園去（會趕不上 10:53 新幹線）",
+   "url": "https://www.visit-hokkaido.jp/spot/detail_10032.html"
+  },
+  {
+   "date": "1/1–1/2",
+   "name": "古川市場 のっけ丼 休",
+   "note": "12/31 是否正常營業待電話確認（017-763-0085）",
+   "url": "https://nokkedon.jp/about/"
+  }
+ ],
+ "prep": [
+  {
+   "item": "訂機票：星宇 TPE⇄HKD 12/28 JX860 12:00 去、1/1 JX861 18:00 回（10/15 價 17,389／人，會漲）；確認票種含不含托運",
+   "when": "10/31 前",
+   "url": "https://www.starlux-airlines.com/"
+  },
+  {
+   "item": "訂 4 晚住宿（可免費取消）：12/28 湯元啄木亭（樂天）、12/29–30 Dormy Inn 青森、12/31 湯の川観光ホテル祥苑或 Umi to Akari；12/31 湯の川只剩一半房，最先訂",
+   "when": "10/31 前",
+   "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5503"
+  },
+  {
+   "item": "はっこうだ号 12/30 青森駅 8:10 発 預約（WILLER，乘車日 3 個月前 10:00 起＝9/30 已開放；每席 ¥300）",
+   "when": "現在",
+   "url": "https://travel.willer.co.jp/campaign/bus-hakkouda/"
+  },
+  {
+   "item": "新幹線指定席：12/29 はやぶさ18号 新函館北斗 10:53 與 12/31 はやぶさ11号 新青森 12:36，JR-EAST Train Reservation 乘車日 1 個月前 10:00 開賣（11/29、12/1），事前受付再早一週 05:30",
+   "when": "11/22–12/1",
+   "url": "https://www.eki-net.com/en/jreast-train-reservation/Top/Index"
+  },
+  {
+   "item": "（選配）4-Ride 八甲田雪鞋團 12/30 9:30，¥12,000／人；報了就同時決定 12/30 住酸湯或放棄酸湯",
+   "when": "11 月中",
+   "url": "https://4ride.rezio.shop/ja-JP/product/HKD001"
+  },
+  {
+   "item": "津軽じょっぱり漁屋酒場 12/29 19:00 三味線時段訂位（017-722-3443 或 IG）",
+   "when": "12 月初",
+   "url": "https://r.gnavi.co.jp/3wp6g26f0000/"
+  },
+  {
+   "item": "防滑鞋套（蝦皮／momo 圓釘款 NT$120–300）、暖暖包、雪靴；辦 Welcome Suica 或手機 Suica；帶現金（巴士、拉麵店只收現金）",
+   "when": "出發前",
+   "url": "https://www.jreast.co.jp/multi/welcomesuica/welcomesuica.html"
+  },
+  {
+   "item": "12 月中確認：函館山 12/31 營業與 1/1 初日出特別運行、五稜郭タワー 2027 元旦 6:30、のっけ丼 12/31 營業、はこだてビール與酒楽下北年末年始、酸湯女性專用時段、八甲田纜車運行狀況",
+   "when": "12/15–12/27",
+   "url": "https://banzokubiology.com/hakodateyama-newyear-crowd/"
+  }
+ ],
+ "risks": [
+  "機票超預算：星宇 1/1 回每人 17,389（超 4,389）；省錢版 12/31 回 14,716 仍超 1,716；越晚訂越貴",
+  "八甲田纜車風速 25 m/s 停駛很常見（10/15 當天就全日運休），12/30 可能只剩酸湯；樹冰 12 月底還沒長大，期待值要調低",
+  "はっこうだ号冬季一天只有 3 班去程（最後 12:15 到酸湯）、3 班回程（10:55／13:35／14:55），錯一班就全盤改；青森駅上車一定要事先預約",
+  "新幹線年末 12/29、12/31 指定席可能賣完，開賣當天就訂；大雪延誤會連鎖影響當天行程",
+  "12/31 湯の川房少、價高；古川市場週二休所以のっけ丼只能排 12/31（年末營業待確認）、味の札幌大西火水休",
+  "12/31 函館朝市中午收、函館山縮短營業；1/1 商店少、朝市只有 30–40 家；はこだてビール、酒楽下北年末年始營業都待確認",
+  "酸湯千人風呂是混浴，女性專用時段 2026/12/1 制度變更後待確認；不自在改玉の湯",
+  "函館沒有跨年煙火／倒數活動；跨年＝旅館年越しそば＋溫泉",
+  "湯の川熱帯植物園猴子泡湯年末年始休園，本行程排不進",
+  "匯率 0.22 是 10/14 臺銀；巴士票價、奥羽本線票價、丼價、旅館住址多處標待確認"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：飛函館泡湯",
+    "icons": [
+     "plane",
+     "bus",
+     "onsen",
+     "beer"
+    ],
+    "caption": "湯の川泡湯、大門橫丁"
+   },
+   {
+    "title": "第二天：朝市過青函",
+    "icons": [
+     "seafood",
+     "train",
+     "museum",
+     "beer"
+    ],
+    "caption": "巴丼、新幹線、三味線"
+   },
+   {
+    "title": "第三天：樹冰千人風呂",
+    "icons": [
+     "bus",
+     "snow",
+     "onsen",
+     "fish"
+    ],
+    "caption": "八甲田、酸湯、帆立"
+   },
+   {
+    "title": "第四天：のっけ丼跨年",
+    "icons": [
+     "sushi",
+     "ramen",
+     "night",
+     "onsen"
+    ],
+    "caption": "拉麵、函館山、年越し"
+   },
+   {
+    "title": "第五天：初日出回家",
+    "icons": [
+     "sunrise",
+     "temple",
+     "camera",
+     "beer"
+    ],
+    "caption": "五稜郭、八幡宮、啤酒"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "〈 函館 vlog 〉2泊3日冬の函館旅行⛄️",
+   "channel": "（日本 vlog，頻道名未抓到）",
+   "url": "https://www.youtube.com/watch?v=uGcDaOhtApE",
+   "takeaway": "冬天函館 2 晚的走法：朝市→元町→函館山，照它把函館山放在黃昏前上去"
+  },
+  {
+   "title": "【北海道函館一日遊攻略】五稜郭・朝市・紅磚倉庫・函館山夜景｜5大經典景點路線全包！",
+   "channel": "（繁中旅遊頻道）",
+   "url": "https://www.youtube.com/watch?v=MSHQ_SUvR0Y",
+   "takeaway": "中文視角的函館市電串景點，給女友先看"
+  },
+  {
+   "title": "【北海道函館市】函館山で冬の夜景を楽しみました【ロープウェイ】",
+   "channel": "（日本 vlog）",
+   "url": "https://www.youtube.com/watch?v=cCrdWf4u5DM",
+   "takeaway": "冬季纜車上山的實況：風大、要排隊，所以 12/31 排 15:30 提早上"
+  },
+  {
+   "title": "八甲田ロープウェーで樹氷を見に行った｜広報現場カクニン！R7.1月号",
+   "channel": "青森市（市政宣傳）",
+   "url": "https://www.youtube.com/watch?v=JWBqdyDCED0",
+   "takeaway": "纜車＋山頂步道＋酸湯的官方示範，12/30 的順序照它"
+  },
+  {
+   "title": "[積雪5メートル] 日本一の豪雪地帯・青森県の酸ヶ湯（すかゆ）に伺いました。",
+   "channel": "（日本 vlog）",
+   "url": "https://www.youtube.com/watch?v=NIJuLDtGL_g",
+   "takeaway": "酸湯冬天的雪量與館內樣子；千人風呂的規矩先讓女友看過"
+  },
+  {
+   "title": "【青森旅行】青森市内観光！味噌カレー牛乳ラーメン、青森のっけ丼が最高すぎた！",
+   "channel": "（日本 vlog）",
+   "url": "https://www.youtube.com/watch?v=3urUBvldNyk",
+   "takeaway": "のっけ丼＋味噌咖哩牛奶拉麵同一個早上吃得完，12/31 的排法來自它"
+  },
+  {
+   "title": "青森魚菜センターの名物『のっけ丼』【函館から新幹線で1時間】",
+   "channel": "（日本 vlog）",
+   "url": "https://www.youtube.com/watch?v=lA_GPlCTIxs",
+   "takeaway": "函館⇄青森一小時的串聯本身就是別人在拍的玩法"
+  },
+  {
+   "title": "【Vlog】冬こそ青森へ！ANA CAが雪国ならではの観光スポットをご紹介！",
+   "channel": "ANA",
+   "url": "https://www.youtube.com/watch?v=ABWiun5TMgw",
+   "takeaway": "冬季青森景點總覽（八甲田、酸湯、市區）"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights",
+  "https://ekitan.com/zh-tw/article/hakodate-to-aomori-shinkansen",
+  "https://www.eki-net.com/en/jreast-train-reservation/Top/Index",
+  "https://www.jrbustohoku.co.jp/information/1424/",
+  "https://www.jrbustohoku.co.jp/route/11/284/",
+  "https://travel.willer.co.jp/campaign/bus-hakkouda/",
+  "https://www.jrbustohoku.co.jp/information/1423/",
+  "https://www.tohokukanko.jp/transport/detail_1001187.html",
+  "https://hakkoda-ropeway.jp/fare_time/",
+  "https://www.hakkoda-ropeway.jp/",
+  "https://www.jeepe.jp/ja/articles/hakkoda-mountain-travel-guide-1343",
+  "https://sukayu.jp/",
+  "https://sukayu.jp/information2",
+  "https://sukayu.jp/access/",
+  "https://rurubu.jp/andmore/article/24724",
+  "https://rurubu.jp/andmore/spot/80002006",
+  "https://4ride-as.com/",
+  "https://www.tohokukanko.jp/attractions/detail_1010558.html",
+  "https://nokkedon.jp/about/",
+  "https://nokkedon.jp/faq/",
+  "https://www.nap-camp.com/mag/111131",
+  "https://www.gltjp.com/ja/directory/item/17337/",
+  "https://retty.me/restaurant/100000030848/",
+  "https://rurubu.jp/andmore/article/10146",
+  "https://naga-chu.com/",
+  "https://www.nap-camp.com/mag/spot/94460",
+  "https://www.mlit.go.jp/tagengo-db/zhTW/R1-01065.html",
+  "https://www.nap-camp.com/mag/?p=94463",
+  "https://r.gnavi.co.jp/3wp6g26f0000/",
+  "https://aumo.jp/articles/26438",
+  "https://www.hotpepper.jp/SA51/G012/dncLU0013/",
+  "https://aumo.jp/articles/31263",
+  "https://334.co.jp/ropeway/price/",
+  "https://banzokubiology.com/hakodateyama-newyear-crowd/",
+  "https://banzokubiology.com/?p=19852",
+  "https://banzokubiology.com/hakodateyama-ropeway-newyear-congestion/",
+  "https://www.goryokaku-tower.co.jp/",
+  "https://www.trvlogue.com/ja/goryokaku-tower-hakodate-guide",
+  "https://tabi-mag.jp/goryouboshi/",
+  "https://www.visit-hokkaido.jp/event/detail_11114.html",
+  "https://rurubu.jp/andmore/spot/80000378/hatsumode",
+  "https://www.nap-camp.com/mag/13775",
+  "https://www.visit-hokkaido.jp/event/detail_11011.html",
+  "https://skyticket.jp/guide/359152/",
+  "https://www.gltjp.com/ja/directory/item/14587/",
+  "https://johnny88.jp/?p=22601",
+  "https://johnny88.jp/hakodate-morningmarket-food/",
+  "https://hakodate-kikuyo.com/sns",
+  "https://johnny88.jp/ajisai-hakodate",
+  "https://johnny88.jp/ramen-hakodate",
+  "https://rurubu.jp/andmore/spot/80000528",
+  "https://www.gltjp.com/ja/directory/item/13860/",
+  "https://rurubu.jp/andmore/spot/80000568",
+  "https://www.mapple.net/original/508285/",
+  "https://www.mapple.net/region/a0102060000_g030a0000/spot/",
+  "https://johnny88.jp/streetcar-hakodate/",
+  "https://travelist.jp/airport_HKD/guide/posts/p611",
+  "https://www.hokkaido-airports.com/zh-CHT/hakodate/airport/time/inter/",
+  "https://www.visit-hokkaido.jp/spot/detail_10032.html",
+  "https://www.visit-hokkaido.jp/spot/detail_11450.html",
+  "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/5503",
+  "https://travel.rakuten.co.jp/HOTEL/41009/41009.html",
+  "https://www.booking.com",
+  "https://www.instagram.com/luckypierrot_official/",
+  "https://commons.wikimedia.org/"
+ ],
+ "checked": "2026-10-16"
+}

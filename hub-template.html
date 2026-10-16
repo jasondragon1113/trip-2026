@@ -1,0 +1,186 @@
+<title>我們的跨年小旅行</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=LXGW+WenKai+TC:wght@400;700&family=Nunito:wght@700;900&display=swap">
+<style>
+/* Layout: 旅行手帳封面 → 篩選貼紙 → 12 張行程卡（海報縮圖＋三個數字）→ 比價連結；白底、固定亮色 */
+:root{
+  --bg:#FFFDF7; --paper:#FFFFFF; --paper-2:#FFF7E8; --line:#E8DCC8; --line-ink:#3B3024;
+  --ink:#3B3024; --ink-dim:#6F6151; --ink-faint:#8A7B6A;
+  --p:#E8743B; --s:#FFB84C; --soft:#FFF0E3;
+  --ok:#3E9B5F; --warn:#C9811A; --danger:#D1495B;
+  --font-hand:'LXGW WenKai TC','PingFang TC',serif;
+  --font-body:'Huninn','PingFang TC','Microsoft JhengHei',system-ui,sans-serif;
+  --font-num:'Nunito','Huninn',system-ui,sans-serif;
+  --blob:255px 18px 225px 18px / 18px 225px 18px 255px; --pill:999px;
+  --spring:cubic-bezier(.34,1.56,.64,1); --shadow:0 4px 0 var(--line);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.6;
+  background-image:radial-gradient(var(--line) .8px, transparent .8px);background-size:22px 22px}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:18px 60px;display:grid;gap:24px}
+.wrap > *{min-width:0}
+h1,h2,h3{margin:0;font-family:var(--font-hand);font-weight:700;text-wrap:balance;line-height:1.25}
+a{color:var(--p)}
+.num{font-family:var(--font-num);font-variant-numeric:tabular-nums}
+.faint{color:var(--ink-faint);font-size:12.5px}
+.ico{display:inline-block;width:18px;height:18px;vertical-align:-3px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center;background:var(--paper);border:2px solid var(--line-ink);border-radius:var(--blob);box-shadow:var(--shadow);padding:22px 24px;position:relative;overflow:hidden}
+.hero h1{font-size:clamp(34px,6vw,54px)}
+.hero h1 small{display:block;font-size:.42em;color:var(--p);font-weight:400;margin-top:4px}
+.hero p{margin:10px 0 0;max-width:42ch;color:var(--ink-dim)}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.hero .meta span{background:var(--paper-2);border:2px dashed var(--line-ink);border-radius:var(--pill);padding:4px 12px;font-size:13.5px}
+.hero svg.art{width:100%;max-width:360px;height:auto;justify-self:center}
+.art .bear{fill:#A5724E;stroke:#3B3024;stroke-width:2}.art .bear-in{fill:#E9C9A8}.art .fox{fill:#FFFFFF;stroke:#3B3024;stroke-width:2}.art .fox-ear{fill:#F6C9C9}.art .eye{fill:#3B2A20;stroke:#3B2A20;stroke-width:1.2;stroke-linecap:round}.art .cheek{fill:#F6A99A}.art .ground{fill:var(--soft)}.art .ln{stroke:var(--line-ink);stroke-width:2;fill:none;stroke-linecap:round}
+
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filters button{font:inherit;font-size:14px;background:var(--paper);border:2px solid var(--line-ink);border-radius:var(--pill);padding:6px 14px;cursor:pointer;color:var(--ink);transition:transform .3s var(--spring);box-shadow:var(--shadow)}
+.filters button:hover{transform:translateY(-2px)}
+.filters button[aria-pressed="true"]{background:var(--p);color:#fff;border-color:var(--p)}
+.filters .sort{margin-left:auto;font:inherit;font-size:14px;border:2px solid var(--line-ink);border-radius:var(--pill);padding:6px 12px;background:var(--paper);color:var(--ink)}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.card{background:var(--paper);border:2px solid var(--line-ink);border-radius:var(--blob);box-shadow:var(--shadow);overflow:hidden;display:grid;grid-template-rows:auto 1fr;text-decoration:none;color:inherit;transition:transform .3s var(--spring);position:relative;min-width:0}
+.card:hover{transform:translateY(-4px) rotate(-.4deg)}
+.card .cov{aspect-ratio:16/9;background:var(--soft);display:grid;place-items:center;overflow:hidden;border-bottom:2px solid var(--line-ink)}
+.card .cov img{width:100%;height:100%;object-fit:cover;display:block}
+.card .cov .ico{width:48px;height:48px;color:var(--p);opacity:.7}
+.card .body{padding:14px 16px 16px;display:grid;gap:8px;align-content:start}
+.card h2{font-size:24px;display:flex;align-items:center;gap:8px}
+.card h2 small{font-size:13px;font-family:var(--font-body);color:var(--ink-faint);font-weight:400;margin-left:auto;white-space:nowrap}
+.card .tag{color:var(--p);font-family:var(--font-hand);font-size:16px}
+.card .nums{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.card .nums div{background:var(--paper-2);border-radius:12px;padding:6px 8px;text-align:center}
+.card .nums b{display:block;font-family:var(--font-num);font-size:18px;font-weight:900;color:var(--p);line-height:1.1}
+.card .nums span{font-size:11.5px;color:var(--ink-faint)}
+.card .chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-size:12px;padding:4px 9px;border-radius:var(--pill);background:var(--soft);color:var(--ink-dim);border:1.5px solid var(--line)}
+.chip.hot{background:color-mix(in srgb,var(--danger) 12%,transparent);color:var(--danger);border-color:transparent}
+.chip.rmq{background:color-mix(in srgb,#2E86DE 13%,transparent);color:#2E6FB0;border-color:transparent;font-weight:700}
+.chip.rmq.soft{font-weight:400;border:1.5px dashed #2E6FB0}
+.chip.car{background:color-mix(in srgb,var(--ok) 12%,transparent);color:var(--ok);border-color:transparent}
+.card .go{margin-top:2px;font-size:14px;color:var(--p);font-weight:700}
+.card .ribbon{position:absolute;top:12px;left:-6px;background:var(--s);color:#3B3024;font-size:12.5px;font-weight:700;padding:4px 12px;border-radius:0 var(--pill) var(--pill) 0;border:2px solid var(--line-ink);border-left:0;transform:rotate(-3deg)}
+.card.soon{opacity:.75}
+.card.soon .cov{filter:grayscale(.3)}
+.more{background:var(--paper);border:2px dashed var(--line-ink);border-radius:var(--blob);padding:16px 20px;display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;justify-content:space-between}
+.more a{font-weight:700}
+@media (max-width:760px){.hero{grid-template-columns:1fr}.hero svg.art{max-width:240px;order:-1}.filters .sort{margin-left:0}}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}}
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <div>
+      <h1>我們的跨年小旅行<small>12/27–1/5 之間選 4–5 天，要去哪裡呢？</small></h1>
+      <p>每個地方都做成一本小手帳：每天怎麼走、吃什麼、晚上去哪喝一杯、要花多少錢，點進去就看得到。</p>
+      <div class="meta"><span>兩個人・預算 6–10 萬</span><span>機票每人 1.3 萬內</span><span id="checked"></span></div>
+    </div>
+    <svg class="art" viewBox="0 0 260 150" aria-hidden="true">
+      <ellipse class="ground" cx="130" cy="136" rx="112" ry="10"/>
+      <path class="ln" d="M12 118 C 36 108, 54 70, 84 76" stroke-dasharray="3 7"/>
+      <!-- coffee bear: round -->
+      <circle class="bear" cx="92" cy="62" r="11"/><circle class="bear" cx="140" cy="62" r="11"/>
+      <circle class="bear-in" cx="92" cy="62" r="5"/><circle class="bear-in" cx="140" cy="62" r="5"/>
+      <circle class="bear" cx="116" cy="92" r="36"/>
+      <ellipse class="bear-in" cx="116" cy="104" rx="14" ry="10"/>
+      <circle class="eye" cx="104" cy="88" r="2.6"/><circle class="eye" cx="128" cy="88" r="2.6"/>
+      <ellipse class="eye" cx="116" cy="100" rx="3" ry="2.2"/>
+      <path class="eye" d="M112 105q4 3 8 0" fill="none"/>
+      <ellipse class="cheek" cx="98" cy="97" rx="5" ry="3"/><ellipse class="cheek" cx="134" cy="97" rx="5" ry="3"/>
+      <!-- white fox: round -->
+      <path class="fox" d="M150 70 156 42 174 60z"/><path class="fox" d="M210 70 204 42 186 60z"/>
+      <path class="fox-ear" d="M157 66 160 50 170 61z"/><path class="fox-ear" d="M203 66 200 50 190 61z"/>
+      <circle class="fox" cx="180" cy="94" r="34"/>
+      <path class="fox" d="M212 112c12-6 22 2 18 12-3 8-14 8-20 2z"/>
+      <circle class="eye" cx="168" cy="90" r="2.6"/><circle class="eye" cx="192" cy="90" r="2.6"/>
+      <ellipse class="eye" cx="180" cy="99" rx="2.4" ry="1.8"/>
+      <path class="eye" d="M176 104q4 3 8 0" fill="none"/>
+      <ellipse class="cheek" cx="163" cy="99" rx="5" ry="3"/><ellipse class="cheek" cx="197" cy="99" rx="5" ry="3"/>
+      <path class="cheek" d="M150 28c-3-4-10-2-9 3 1 4 9 9 9 9s8-5 9-9c1-5-6-7-9-3z"/>
+      <g class="ln"><rect x="222" y="98" width="24" height="32" rx="4" fill="#FFF"/><path d="M228 98v-6h12v6"/><path d="M222 112h24"/></g>
+    </svg>
+  </header>
+
+  <div class="filters" id="filters">
+    <button data-f="all" aria-pressed="true">全部</button>
+    <button data-f="cheap">最便宜</button>
+    <button data-f="nye">能跨年</button>
+    <button data-f="car">可自駕</button>
+    <button data-f="adv">有挑戰</button>
+    <button data-f="warm">溫暖</button>
+    <button data-f="rmq">台中直飛</button>
+    <select class="sort" id="sort" aria-label="排序"><option value="cost">花費低→高</option><option value="flight">機票低→高</option><option value="name">地名</option></select>
+  </div>
+
+  <section class="cards" id="cards"></section>
+
+  <div class="more"><span>想看 9 個地點的機票／住宿比價表（第一輪查的）？</span><a href="compare.html">打開比價表 →</a></div>
+  <p class="faint">價格都是查價當天的數字，機票和住宿每天在變；訂之前再查一次。</p>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-onsen" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M4 16c0 2 3.6 4 8 4s8-2 8-4"/><path d="M8 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/><path d="M12 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/><path d="M16 4c-1 1.5 1 2.5 0 4s1 2.5 0 4"/></symbol>
+<symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2v20"/><path d="m4.9 6.5 14.2 11"/><path d="m4.9 17.5 14.2-11"/><path d="m9 4 3 3 3-3"/><path d="m9 20 3-3 3 3"/></symbol>
+<symbol id="i-tower" viewBox="0 0 24 24"><path d="M12 2v3"/><path d="m8 22 3-16h2l3 16"/><path d="M9 14h6"/><path d="M6 22h12"/></symbol>
+<symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><circle cx="17" cy="6" r="3"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
+<symbol id="i-lantern" viewBox="0 0 24 24"><path d="M12 2v2"/><path d="M8 4h8"/><path d="M6 11a6 6 0 0 1 12 0v3a6 6 0 0 1-12 0z"/><path d="M8 20h8"/><path d="M12 20v2"/></symbol>
+<symbol id="i-car" viewBox="0 0 24 24"><path d="M5 13 6.5 8.5A2 2 0 0 1 8.4 7h7.2a2 2 0 0 1 1.9 1.5L19 13"/><rect x="3" y="13" width="18" height="5" rx="2"/><circle cx="7.5" cy="18" r="1.6"/><circle cx="16.5" cy="18" r="1.6"/></symbol>
+<symbol id="i-whale" viewBox="0 0 24 24"><path d="M3 13c3-5 10-6 16-3 2 1 2 3 0 4-5 3-12 2-16-1z"/><path d="M19 10l2-4-4 2"/><path d="M8 15l-2 4"/><circle cx="6.5" cy="12" r=".7"/></symbol>
+<symbol id="i-mountain" viewBox="0 0 24 24"><path d="M3 20 9 8l3 5 3-4 6 11z"/><path d="M8 11l1 1 1-1"/></symbol>
+<symbol id="i-market" viewBox="0 0 24 24"><path d="M3 9l1.5-4h15L21 9"/><path d="M5 11.5V20h14v-8.5"/><path d="M9 20v-5h6v5"/></symbol>
+<symbol id="i-castle" viewBox="0 0 24 24"><path d="M4 20V9l2-2 2 2v3h3V9l1-2 1 2v3h3V9l2-2 2 2v11"/><path d="M3 20h18"/><path d="M10 20v-4h4v4"/></symbol>
+<symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4 9h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M16 11h2a2 2 0 0 1 0 4h-2"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M11.5 2.3a.5.5 0 0 1 .9 0l2.3 4.7 5.2.8a.5.5 0 0 1 .3.9l-3.8 3.7.9 5.2a.5.5 0 0 1-.7.5L12 15.6l-4.6 2.5a.5.5 0 0 1-.7-.5l.9-5.2-3.8-3.7a.5.5 0 0 1 .3-.9l5.2-.8z"/></symbol>
+</defs></svg>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const wan = n => (n/10000).toFixed(1).replace(/\.0$/, '');
+const ico = n => `<svg class="ico" viewBox="0 0 24 24"><use href="#i-${n}"/></svg>`;
+const store = { get(k,d){ try{ return localStorage.getItem(k) ?? d }catch(e){ return d } }, set(k,v){ try{ localStorage.setItem(k,v) }catch(e){} } };
+let filter = store.get('hub-f','all'), sortKey = store.get('hub-s','cost');
+document.getElementById('checked').textContent = '查價 ' + (DATA.checked||'');
+const WARM = new Set(['泰國','越南','菲律賓','馬來西亞']);
+const nye = p => { const b = p.dates?.back || ''; return /^1\//.test(b) || b === '1/1' ; };
+const hasCar = p => /自駕|混合/.test(p.getting_around?.mode || '');
+function render(){
+  let ps = DATA.plans.slice();
+  if (filter === 'cheap') ps = ps.filter(p => (p.budget?.total_for2?.[0] || 9e9) <= 60000);
+  if (filter === 'nye') ps = ps.filter(nye);
+  if (filter === 'car') ps = ps.filter(hasCar);
+  if (filter === 'adv') ps = ps.filter(p => (p.challenges||[]).length >= 2);
+  if (filter === 'warm') ps = ps.filter(p => WARM.has(p.country));
+  if (filter === 'rmq') ps = ps.filter(p => p.rmq && (p.rmq.kind === 'direct' || p.rmq.kind === 'maybe'));
+  ps.sort((a,b) => sortKey === 'cost' ? (a.budget?.total_for2?.[0]||9e9) - (b.budget?.total_for2?.[0]||9e9) : sortKey === 'flight' ? (a.min_flight||9e9) - (b.min_flight||9e9) : a.name.localeCompare(b.name,'zh-Hant'));
+  const cheapest = Math.min(...DATA.plans.map(p => p.budget?.total_for2?.[0] || 9e9));
+  document.getElementById('cards').innerHTML = ps.map(p => {
+    const t = p.budget?.total_for2, mf = p.min_flight && p.min_flight < 9e8 ? p.min_flight : null;
+    const r = p.rmq || {kind:'none'}; const k = r.price ? ' ' + Math.round(r.price/1000) + 'K' : '';
+    const rmqChip = r.kind === 'direct' ? `<span class="chip rmq">台中直飛${k}${r.price > 13000 ? '（超預算）' : ''}</span>` : r.kind === 'maybe' ? `<span class="chip rmq soft">台中直飛待確認${k}</span>` : r.kind === 'transfer' ? `<span class="chip">台中轉機${k}</span>` : '<span class="chip">台中沒航線</span>';
+    const chips = [rmqChip, nye(p) ? '<span class="chip hot">能跨年</span>' : '', hasCar(p) ? '<span class="chip car">可自駕</span>' : '', ...(p.challenges||[]).slice(0,2).map(c => `<span class="chip">${esc(c)}</span>`), ...(p.foods||[]).slice(0,2).map(c => `<span class="chip">${esc(c)}</span>`)].join('');
+    return `<a class="card ${p.placeholder ? 'soon' : ''}" href="${p.placeholder ? '#' : p.id + '.html'}" style="--p:${esc(p.palette?.primary||'#E8743B')};--s:${esc(p.palette?.secondary||'#FFB84C')};--soft:color-mix(in srgb,${esc(p.palette?.primary||'#E8743B')} 12%,#fff)">
+      ${t && t[0] === cheapest ? '<span class="ribbon">最便宜</span>' : ''}
+      <div class="cov">${p.cover ? `<img src="${esc(p.cover)}" alt="" loading="lazy">` : ico(p.motif||'star')}</div>
+      <div class="body">
+        <h2>${ico(p.motif||'star')}${esc(p.name)}<small>${esc(p.country)}</small></h2>
+        <div class="tag">${esc(p.tagline||p.subtitle||'')}</div>
+        <div class="nums">
+          <div><b class="num">${p.dates ? esc(p.dates.out) + '→' + esc(p.dates.back) : '–'}</b><span>${p.dates?.nights ?? '?'} 晚</span></div>
+          <div><b class="num">${t ? wan(t[0]) + '–' + wan(t[1]) : '–'}</b><span>萬・兩人</span></div>
+          <div><b class="num">${mf ? Math.round(mf/1000) + 'K' : '–'}</b><span>機票每人</span></div>
+        </div>
+        <div class="chips">${chips}</div>
+        <div class="go">${p.placeholder ? '查詢中…' : '打開手帳 →'}</div>
+      </div></a>`;
+  }).join('') || '<p class="faint">這個條件沒有符合的</p>';
+}
+document.querySelectorAll('#filters button').forEach(b => { b.setAttribute('aria-pressed', b.dataset.f === filter); b.onclick = () => { filter = b.dataset.f; store.set('hub-f', filter); document.querySelectorAll('#filters button').forEach(x => x.setAttribute('aria-pressed', x === b)); render(); }; });
+const sel = document.getElementById('sort'); sel.value = sortKey; sel.onchange = () => { sortKey = sel.value; store.set('hub-s', sortKey); render(); };
+render();
+</script>
