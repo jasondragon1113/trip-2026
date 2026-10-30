@@ -42,15 +42,15 @@
    "airline": "中華航空（直飛）",
    "out": "12/28 09:30→14:20（CI731）",
    "back": "1/1 15:20→19:55（CI732）",
-   "price_pp_twd": 21225,
+   "price_pp_twd": 21260,
    "baggage": "含 23 公斤托運（華航經濟艙慣例，待確認）",
    "fits_time_pref": true,
    "within_budget": false,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PEN%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16",
+   "checked": "2026-10-30",
    "note": "CI731 09:30→14:20、CI732 15:20→19:55，桃園唯一直飛",
-   "basis": "Google 航班 10/16 下午實查：12/28 09:30→14:20 華航直飛，來回每人 NT$21,225（含稅）"
+   "basis": "Google 航班 10/30 實查：12/28 09:30→14:20 華航直飛，來回每人 NT$21,260（10/16 是 21,225；含稅），仍是桃園唯一直飛"
   },
   {
    "from": "TPE",
@@ -1525,7 +1525,7 @@
   }
  ],
  "budget": {
-  "flights_for2": 42450,
+  "flights_for2": 42520,
   "stay_for2": 13525,
   "food_for2": [
    8000,
@@ -1540,10 +1540,10 @@
    12000
   ],
   "total_for2": [
-   75975,
-   85475
+   76045,
+   85545
   ],
-  "note": "機票＝桃園直飛華航 21,225×2；住宿＝4 晚沒有一間能連住：Penaga 12/28 一晚 2,385＋Campbell House 12/29 一晚 6,371＋Penaga 12/30–1/1 兩晚 4,769；吃飯每天 NT$2,000–3,000 含夜市；交通＝Grab 約 NT$2,500＋租車 1 天 NT$1,150＋油錢；活動＝料理課 3,940＋Habitat 851＋纜車 473＋國家公園與船 1,576＋藍屋 394＋酒吧 4 晚約 4,400。匯率 1 MYR＝7.88 TWD。 機票與住宿 10/16 下午重查。"
+  "note": "機票＝桃園直飛華航 21,260×2；住宿＝4 晚沒有一間能連住：Penaga 12/28 一晚 2,385＋Campbell House 12/29 一晚 6,371＋Penaga 12/30–1/1 兩晚 4,769；吃飯每天 NT$2,000–3,000 含夜市；交通＝Grab 約 NT$2,500＋租車 1 天 NT$1,150＋油錢；活動＝料理課 3,940＋Habitat 851＋纜車 473＋國家公園與船 1,576＋藍屋 394＋酒吧 4 晚約 4,400。匯率 1 MYR＝7.88 TWD。 機票與住宿 10/16 下午重查。 機票 10/30 重查。"
  },
  "weather": {
   "high_c": 31,
@@ -1752,5 +1752,5 @@
   "https://www.sunrisesunsettime.org/asia/malaysia/george-town.htm",
   "https://open.er-api.com/v6/latest/MYR"
  ],
- "checked": "2026-10-16"
+ "checked": "2026-10-30"
 }

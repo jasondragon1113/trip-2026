@@ -16,23 +16,23 @@
   "out": "1/2",
   "back": "1/5（凌晨 01:40 起飛，實際 1/4 深夜去機場）",
   "nights": 3,
-  "why": "第一輪查價（2026-10-15 Google 航班）：跨年版 12/30→1/3 亞航每人 NT$20,900、中華／長榮 NT$31,900，是年後的兩倍；1/2→1/5 亞航 NT$13,791（10/16 傍晚重查，已略超過 NT$13,000，但仍是最便宜的直飛），而且 1/3（日）剛好有 Jing Jai 週末市集＋週日夜市。代價是回程紅眼班、實際只能玩 2.5 天。"
+  "why": "第一輪查價（2026-10-15 Google 航班，10/30 重查）：跨年版 12/30→1/3 亞航每人 NT$30,229、中華 NT$38,409，是年後的兩倍；1/2→1/5 亞航 NT$17,422（10/30 重查，已超過 NT$13,000，但仍是最便宜的直飛），而且 1/3（日）剛好有 Jing Jai 週末市集＋週日夜市。代價是回程紅眼班、實際只能玩 2.5 天。"
  },
  "flights": [
   {
    "from": "TPE",
    "to": "CNX",
    "airline": "泰國亞航 Thai AirAsia FD（直飛）",
-   "out": "1/2 18:55→22:10",
+   "out": "1/2 18:55→22:00",
    "back": "1/5 01:40→06:15（推算，和 12/31 班次相同，訂票時再確認）",
-   "price_pp_twd": 13791,
+   "price_pp_twd": 17422,
    "baggage": "不含托運，加購約 NT$1,000–1,500／人來回（待確認）",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "basis": "Google 航班 10/16 傍晚重查：1/2 18:55→22:10 泰亞航直飛，來回每人 NT$13,791（含稅、不含托運；同日下午查是 11,567），仍是直飛最便宜",
+   "basis": "Google 航班 10/30 實查：1/2 18:55→22:00 泰亞航直飛，來回每人 NT$17,422（10/16 是 13,791；含稅、不含托運），仍是直飛最便宜",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   },
   {
    "from": "TPE",
@@ -40,14 +40,14 @@
    "airline": "中華 CI851/852（直飛，全服務）",
    "out": "1/2 07:20→10:25",
    "back": "1/5 11:25→15:55",
-   "price_pp_twd": 21984,
+   "price_pp_twd": 23587,
    "baggage": "含托運（待確認艙等）",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "basis": "Google 航班 10/16 下午實查：1/2 07:20→10:25 華航直飛，來回每人 NT$21,984",
+   "basis": "Google 航班 10/30 實查：1/2 07:20→10:25 華航直飛，來回每人 NT$23,587（10/16 是 21,984）",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   },
   {
    "from": "TPE",
@@ -55,14 +55,14 @@
    "airline": "長榮 BR257/258（直飛，全服務）",
    "out": "1/2 07:30→10:35",
    "back": "1/5 11:50→16:20",
-   "price_pp_twd": 23961,
+   "price_pp_twd": 28291,
    "baggage": "含托運（待確認）",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "basis": "Google 航班 10/16 下午實查：1/2 07:30→10:35 長榮直飛，來回每人 NT$23,961",
+   "basis": "Google 航班 10/30 實查：1/2 07:30→10:35 長榮直飛，來回每人 NT$28,291（10/16 是 23,961）",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   },
   {
    "from": "TPE",
@@ -70,14 +70,14 @@
    "airline": "星宇 JX（直飛，全服務）",
    "out": "1/2 13:05→16:00",
    "back": "1/5（回程班次訂票時確認）",
-   "price_pp_twd": 20177,
+   "price_pp_twd": 23023,
    "baggage": "含托運（待確認）",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "basis": "Google 航班 10/16 下午實查：1/2 13:05→16:00 星宇直飛，來回每人 NT$20,177，比華航、長榮便宜的全服務直飛",
+   "basis": "Google 航班 10/30 實查：1/2 13:05→16:00 星宇直飛，來回每人 NT$23,023（10/16 是 20,177），比華航、長榮便宜的全服務直飛",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202027-01-02%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   },
   {
    "from": "TPE",
@@ -115,16 +115,16 @@
    "from": "TPE",
    "to": "CNX",
    "airline": "泰國亞航 FD（跨年版，對照用）",
-   "out": "12/30 18:55→22:10",
+   "out": "12/30 18:55→22:00",
    "back": "1/3 01:40→06:15",
-   "price_pp_twd": 20955,
+   "price_pp_twd": 30229,
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
-   "basis": "Google 航班 10/16 下午實查：12/30→1/3 泰亞航直飛來回每人 NT$20,955（華航 31,290、長榮 33,180），跨年週直飛幾乎翻倍，所以不推跨年版",
+   "basis": "Google 航班 10/30 實查：12/30→1/3 泰亞航直飛來回每人 NT$30,229（10/16 是 20,955；華航 38,409，長榮這天查不到直飛），跨年週直飛幾乎翻倍，所以不推跨年版",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CNX%20from%20TPE%20on%202026-12-30%20through%202027-01-03&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   }
  ],
  "getting_around": {
@@ -1384,7 +1384,7 @@
   }
  ],
  "budget": {
-  "flights_for2": 27582,
+  "flights_for2": 34844,
   "stay_for2": 5359,
   "food_for2": [
    5000,
@@ -1399,10 +1399,10 @@
    12000
   ],
   "total_for2": [
-   49941,
-   62441
+   57203,
+   69703
   ],
-  "note": "機票＝桃園直飛泰亞航 13,791×2（不含托運，加購約 2,500 另計）；住宿＝北門 B2 滿房，改用古城 Parasol Inn 3 晚 5,359（寧曼 Moose 3 晚 13,531）；吃＝每天 1,500–3,500×3.5 天；交通＝機場 Grab 2 趟＋市區 Grab＋茵他儂包車 3,200 泰銖；活動＝大象營 3,800 泰銖＋茵他儂門票嚮導 700 泰銖＋按摩 1,800 泰銖＋三晚酒吧約 1,500 泰銖。匯率 1 泰銖≈NT$0.96。台中⇄桃園機場兩人來回另約 NT$2,000–3,000 未計入。 住宿 10/16 下午重查、機票 10/16 傍晚重查。"
+  "note": "機票＝桃園直飛泰亞航 17,422×2（不含托運，加購約 2,500 另計）；住宿＝北門 B2 滿房，改用古城 Parasol Inn 3 晚 5,359（寧曼 Moose 3 晚 13,531）；吃＝每天 1,500–3,500×3.5 天；交通＝機場 Grab 2 趟＋市區 Grab＋茵他儂包車 3,200 泰銖；活動＝大象營 3,800 泰銖＋茵他儂門票嚮導 700 泰銖＋按摩 1,800 泰銖＋三晚酒吧約 1,500 泰銖。匯率 1 泰銖≈NT$0.96。台中⇄桃園機場兩人來回另約 NT$2,000–3,000 未計入。 住宿 10/16 下午重查、機票 10/16 傍晚重查。 機票 10/30 重查。"
  },
  "weather": {
   "high_c": 28,
@@ -1610,5 +1610,5 @@
   "https://www.instagram.com/（帳號存在性 2026-10-16 用瀏覽器驗證）",
   "https://www.youtube.com/results（影片標題與頻道 2026-10-16 抓取）"
  ],
- "checked": "2026-10-16"
+ "checked": "2026-10-30"
 }

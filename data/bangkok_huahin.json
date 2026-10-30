@@ -16,7 +16,7 @@
   "out": "12/28",
   "back": "1/1（深夜 1/2 03:30 起飛）",
   "nights": 4,
-  "why": "12/28 週一去、1/1 玩整天後搭凌晨班回來：跨年落在曼谷、華欣兩晚避開人潮，又不用為 1/1 多付一晚跨年房價。想避開跨年可改 1/1→1/5。想省錢可改 1/1→1/6（1/6 早上 08:00 回到台灣），每人省 NT$1,300"
+  "why": "12/28 週一去、1/1 玩整天後搭凌晨班回來：跨年落在曼谷、華欣兩晚避開人潮，又不用為 1/1 多付一晚跨年房價。想避開跨年可改 1/1→1/5。想省錢可改 1/1→1/6（1/6 早上 08:00 回到台灣），每人省 NT$1,450"
  },
  "flights": [
   {
@@ -30,11 +30,11 @@
    "fits_time_pref": false,
    "within_budget": true,
    "verified": false,
-   "basis": "10/16 Google 航班查不到這班（台中直飛曼谷沒有出現）；台中出發只有轉機：香港快運經香港每人 NT$12,329 起（10:10 出發、香港等 9 小時 40 分），13:10→19:00 那班 12,815",
+   "basis": "10/30 Google 航班查不到這班（台中直飛曼谷沒有出現，Google 建議改從桃園出發）",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20RMQ%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "source2": "https://flight.eztravel.com.tw/tickets-rmq-bkk",
    "source3": "https://sophiee.tw/thai-vietjet-air/",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   },
   {
    "from": "TPE",
@@ -42,16 +42,16 @@
    "airline": "泰國獅航 Thai Lion Air（SL381 去／SL398 回）",
    "out": "12/28 13:45→16:35（SL381）",
    "back": "1/2 03:00→08:00（SL398 紅眼；或 1/2 09:55→15:10 每人 +700）",
-   "price_pp_twd": 10819,
+   "price_pp_twd": 10830,
    "baggage": "不含托運，加購待確認",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "Google 航班 10/16 下午實查：12/28 13:45→16:35 泰獅航直飛，來回每人 NT$10,819（含稅、不含托運）",
+   "basis": "Google 航班 10/30 實查：12/28 13:45→16:35 泰獅航直飛，來回每人 NT$10,830（10/16 是 10,819；含稅、不含托運）",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DMK%20from%20TPE%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "source2": "https://aviability.com/en/flight/sl1398-thai-lion-air/dmk-tpe",
    "source3": "https://flight.eztravel.com.tw/tickets-tpe-bkk",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   },
   {
    "from": "TPE",
@@ -59,15 +59,15 @@
    "airline": "泰國亞航 Thai AirAsia（FD231）",
    "out": "12/28 18:35→21:30（FD231）",
    "back": "1/2 07:45→12:30（早班，不合偏好）",
-   "price_pp_twd": 11575,
+   "price_pp_twd": 10402,
    "baggage": "不含托運，加購約 NT$1,000–1,500／人",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "Google 航班 10/16 下午實查：12/28 18:35→21:30 泰亞航直飛，來回每人 NT$11,575（含稅、不含托運）",
+   "basis": "Google 航班 10/30 實查：12/28 18:35→21:30 泰亞航直飛，來回每人 NT$10,402（10/16 是 11,575；含稅、不含托運），桃園直飛目前最便宜",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DMK%20from%20TPE%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "source2": "https://flight.eztravel.com.tw/tickets-tpe-bkk",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   },
   {
    "from": "TPE",
@@ -75,15 +75,15 @@
    "airline": "泰越捷 Thai Vietjet（VZ569 去／VZ 回）",
    "out": "12/28 19:50→22:50（直飛）",
    "back": "1/2 01:55→06:45 或 09:10→13:55（Trip.com 列時刻）",
-   "price_pp_twd": 11706,
+   "price_pp_twd": 12726,
    "baggage": "不含托運",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "Google 航班 10/16 下午實查：12/28 19:50→22:50 泰越捷直飛，來回每人 NT$11,706（含稅、不含托運）；回程班次訂票時再確認",
+   "basis": "Google 航班 10/30 實查：12/28 19:50→22:50 泰越捷直飛，來回每人 NT$12,726（10/16 是 11,706；含稅、不含托運）；回程班次訂票時再確認",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20BKK%20from%20TPE%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
    "source2": "https://www.trip.com/hot/bangkok-to-taipei-flight-time/",
-   "checked": "2026-10-16"
+   "checked": "2026-10-30"
   },
   {
    "from": "TPE",
@@ -91,14 +91,14 @@
    "airline": "泰國獅航 Thai Lion Air（晚班）",
    "out": "12/28 22:10→01:05+1",
    "back": "1/2 03:00→08:00（或 09:55→15:10 每人 +700）",
-   "price_pp_twd": 10219,
+   "price_pp_twd": 10830,
    "baggage": "不含托運，加購待確認",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20DMK%20from%20TPE%20on%202026-12-28%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16",
-   "basis": "Google 航班 10/16 下午實查：12/28 22:10→01:05+1 泰獅航直飛，來回每人 NT$10,219（含稅），桃園直飛最便宜；第一晚等於只睡半夜",
+   "checked": "2026-10-30",
+   "basis": "Google 航班 10/30 實查：12/28 22:10→01:05+1 泰獅航直飛，來回每人 NT$10,830（10/16 是 10,219；含稅）；第一晚等於只睡半夜",
    "note": "12/28 深夜抵達，第一天行程要順延到 12/29"
   },
   {
@@ -107,15 +107,15 @@
    "airline": "泰國獅航 Thai Lion Air（直飛，延後回程）",
    "out": "1/1 13:45→16:35（或 1/1 21:20→1/2 00:15 同價）",
    "back": "1/6 03:00→08:00（紅眼班）",
-   "price_pp_twd": 8919,
+   "price_pp_twd": 9380,
    "baggage": "不含托運，加購待確認",
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
    "alt": true,
-   "source": "https://www.google.com/travel/flights?q=Flights%20to%20Bangkok%20from%20Taipei%20on%202027-01-01%20through%202027-01-06&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16",
-   "basis": "延後回程備案：每人省 NT$1,300（Google 航班 10/16 日期方格：1/1→1/6 泰獅航直飛來回每人 NT$8,919；12/31→1/5 為 NT$9,219，只省 1,000）",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20DMK%20from%20TPE%20on%202027-01-01%20through%202027-01-06%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-30",
+   "basis": "延後回程備案：每人省 NT$1,450（Google 航班 10/30 實查：1/1→1/6 泰獅航直飛來回每人 NT$9,380，10/16 是 8,919）",
    "note": "跨年不在泰國；1/6 早上 08:00 落地剛好卡上限"
   }
  ],
@@ -1514,7 +1514,7 @@
   }
  ],
  "budget": {
-  "flights_for2": 20438,
+  "flights_for2": 21660,
   "stay_for2": 28249,
   "food_for2": [
    12000,
@@ -1529,10 +1529,10 @@
    17000
   ],
   "total_for2": [
-   77687,
-   90187
+   78909,
+   91409
   ],
-  "note": "機票＝桃園直飛泰獅航 22:10 班 10,219×2（不含托運）；住宿＝ASAI 12/28 一晚 4,101＋12/31–1/2 兩晚 11,074＋Amari 兩晚 13,074；吃＝每天 2,400–3,600；交通＝小巴 4 趟＋Grab＋機場；活動＝風箏 8,000＋泰拳 1,300＋料理課 3,000＋水上樂園 1,200＋按摩 1,900＋門票。匯率以 1 泰銖≈NT$0.97 估（待確認）。 機票與住宿 10/16 下午重查。"
+  "note": "機票＝桃園直飛泰獅航 22:10 班 10,830×2（不含托運）；住宿＝ASAI 12/28 一晚 4,101＋12/31–1/2 兩晚 11,074＋Amari 兩晚 13,074；吃＝每天 2,400–3,600；交通＝小巴 4 趟＋Grab＋機場；活動＝風箏 8,000＋泰拳 1,300＋料理課 3,000＋水上樂園 1,200＋按摩 1,900＋門票。匯率以 1 泰銖≈NT$0.97 估（待確認）。 機票與住宿 10/16 下午重查。 機票 10/30 重查。"
  },
  "weather": {
   "high_c": 31,
@@ -1756,5 +1756,5 @@
   "https://tdac.immigration.go.th/",
   "https://commons.wikimedia.org/"
  ],
- "checked": "2026-10-16"
+ "checked": "2026-10-30"
 }
