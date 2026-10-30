@@ -16,7 +16,7 @@
   "out": "12/28",
   "back": "1/1（晚上 19:35 起飛）",
   "nights": 4,
-  "why": "12/31 宿霧市政府在 Plaza Independencia 辦免費跨年倒數＋煙火（同時揭幕 Sinulog）。12/28 去、1/1 回的星宇直飛每人 NT$15,836，比原本 12/29→1/2（每人 NT$19,778）省 NT$3,942；去程 06:55 早班、回程 1/1 晚上 19:35，跨年隔天還能睡飽。想省錢可改 1/1→1/5（1/5 晚上 22:25 回到台灣），每人 NT$13,097、再省 NT$2,739，但跨年就不在宿霧"
+  "why": "12/31 宿霧市政府在 Plaza Independencia 辦免費跨年倒數＋煙火（同時揭幕 Sinulog）。12/28 去、1/1 回的星宇直飛 10/30 查每人 NT$18,554（10/16 是 15,836，漲了）；12/29→1/2 是 19,802。想省錢：1/1→1/5 每人 11,588、12/27→12/31 每人 13,655，但跨年都不在宿霧。"
  },
  "flights": [
   {
@@ -42,14 +42,14 @@
    "airline": "星宇 JX781／JX782（直飛）",
    "out": "12/28 06:55→09:50",
    "back": "1/1 19:35→22:25",
-   "price_pp_twd": 15836,
+   "price_pp_twd": 18554,
    "baggage": "含托運（待確認）",
    "fits_time_pref": true,
    "within_budget": false,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-28%20through%202027-01-01&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16",
-   "basis": "Google 航班 10/16 傍晚實查：12/28 06:55→09:50 星宇直飛、1/1 19:35 回程，來回每人 NT$15,836（含稅），比原 12/29→1/2 每人省 NT$3,942；同日長榮 08:20 班 20,274",
+   "checked": "2026-10-30",
+   "basis": "Google 航班 10/30 實查（10/16 是 15,836，漲了 2,718）",
    "note": "去程 06:55 要 04:30 前到桃園機場"
   },
   {
@@ -74,15 +74,15 @@
    "airline": "星宇 JX781／JX782",
    "out": "12/29 15:40→18:35",
    "back": "1/2 10:50→13:40",
-   "price_pp_twd": 19778,
+   "price_pp_twd": 19802,
    "baggage": "含托運（待確認）",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-29%20through%202027-01-02&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16",
+   "checked": "2026-10-30",
    "note": "原主推（12/29→1/2）；Kayak 列星宇直飛最低 NT$7,660（非指定日期）；回程 10:50 太早，從 Moalboal 回來趕不上，若選星宇要把第 4 晚改住宿霧市區。星宇官網 12/31 前訂 2027/2/13 前出發輸入 JX2025PDOT 折 1,000（新聞見，待確認）",
-   "basis": "Google 航班 10/16 下午實查：12/29 15:40→18:35 星宇直飛，來回每人 NT$19,778（含稅），桃園直飛最便宜"
+   "basis": "Google 航班 10/30 實查（12/29→1/2）"
   },
   {
    "from": "TPE",
@@ -139,16 +139,32 @@
    "airline": "星宇 JX781／JX782（直飛，延後回程）",
    "out": "1/1 15:40→18:35",
    "back": "1/5 19:35→22:25（1/5 晚上回到桃園）",
-   "price_pp_twd": 13097,
+   "price_pp_twd": 11588,
    "baggage": "含托運（待確認）",
    "fits_time_pref": false,
    "within_budget": false,
    "verified": true,
    "alt": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202027-01-01%20through%202027-01-05&curr=TWD&hl=zh-TW&gl=TW",
-   "checked": "2026-10-16",
-   "basis": "延後回程備案：每人省 NT$2,739（Google 航班 10/16 日期方格：1/1→1/5 星宇直飛來回每人 NT$13,097，比原 12/29→1/2 省 6,681；1/2→1/5 三晚 NT$15,230；12/30→1/3 反而 NT$24,146）",
+   "checked": "2026-10-30",
+   "basis": "延後備案：Google 航班 10/30 實查（1/1 15:40 去、1/5 回），跨年不在宿霧",
    "note": "跨年要在台灣或飛機上過；日期整組往後挪 3 天，住宿與行程要整個重排"
+  },
+  {
+   "from": "TPE",
+   "to": "CEB",
+   "airline": "星宇航空",
+   "out": "12/27 15:40→18:35",
+   "back": "12/31",
+   "price_pp_twd": 13655,
+   "baggage": "待確認",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "alt": true,
+   "basis": "延後備案：Google 航班 10/30 實查；12/31 回台灣，跨年不在宿霧",
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20CEB%20from%20TPE%20on%202026-12-27%20through%202026-12-31%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-30"
   }
  ],
  "getting_around": {
@@ -1462,7 +1478,7 @@
   }
  ],
  "budget": {
-  "flights_for2": 31672,
+  "flights_for2": 37108,
   "stay_for2": 4138,
   "food_for2": [
    6000,
@@ -1477,10 +1493,10 @@
    7000
   ],
   "total_for2": [
-   53310,
-   61310
+   58746,
+   66746
   ],
-  "note": "匯率 1 PHP ≈ NT$0.52（待確認）。機票＝桃園直飛星宇 12/28→1/1 15,836×2；住宿＝Alona Vida 滿房，改用 KatChaJo Inn 2 晚 1,564＋Moalboal 1 晚沿用原估 1,380＋Pier 1 旁 12/31 一晚 1,194；交通＝渡輪 2 趟 1,100＋包車 3 天約 5,200（薄荷一日、Pier 1→Moalboal、Moalboal→市區）＋Grab；活動＝溪降 2,180＋薄荷包車 1,560＋門票 220＋跳島 940＋沙丁魚 360。機票與住宿 10/16 傍晚重查。"
+  "note": "匯率 1 PHP ≈ NT$0.52（待確認）。機票＝桃園直飛星宇 12/28→1/1 15,836×2；住宿＝Alona Vida 滿房，改用 KatChaJo Inn 2 晚 1,564＋Moalboal 1 晚沿用原估 1,380＋Pier 1 旁 12/31 一晚 1,194；交通＝渡輪 2 趟 1,100＋包車 3 天約 5,200（薄荷一日、Pier 1→Moalboal、Moalboal→市區）＋Grab；活動＝溪降 2,180＋薄荷包車 1,560＋門票 220＋跳島 940＋沙丁魚 360。機票與住宿 10/16 傍晚重查。；機票 10/30 重查：星宇主推每人 18,554"
  },
  "weather": {
   "high_c": 30,
@@ -1696,5 +1712,5 @@
   "https://tabiji.ai/scams/cebu/",
   "https://commons.wikimedia.org/"
  ],
- "checked": "2026-10-16"
+ "checked": "2026-10-30"
 }
