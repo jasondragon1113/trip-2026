@@ -1,0 +1,1680 @@
+{
+ "id": "hongkong_macau",
+ "name": "香港＋澳門",
+ "subtitle": "台中直飛的港澳跨年吃喝行",
+ "country": "香港",
+ "flag": "HK",
+ "motif": "tower",
+ "palette": {
+  "primary": "#E8453C",
+  "secondary": "#F5B700",
+  "soft": "#FFF3EE"
+ },
+ "tagline": "茶記早餐、龍脊健行、維港跨年",
+ "summary": "台中直飛不到 2 小時、每人約 6 千，最省時也最便宜。香港 3 晚吃茶記燒鵝、走龍脊、出海看火山岩，12/31 在中環海濱倒數再去蘭桂坊；1/1 坐船去澳門跳塔、吃蛋撻豬扒包住一晚，隔天走港珠澳大橋回機場。",
+ "dates": {
+  "out": "12/29",
+  "back": "1/2",
+  "nights": 4,
+  "why": "12/29（二）台中 10:10 直飛最便宜（11/01 來回起價 5,833），1/2（六）16:50 回程，第一天和最後一天都能玩；12/31 人在香港跨年、1/1 到澳門避開跨年後人潮。"
+ },
+ "flights": [
+  {
+   "from": "RMQ",
+   "to": "HKG",
+   "airline": "香港快運 UO",
+   "out": "12/29 10:10→12:00",
+   "back": "1/2 16:50→18:25",
+   "price_pp_twd": 6253,
+   "baggage": "廉航不含托運，加購價待確認",
+   "fits_time_pref": true,
+   "within_budget": true,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20RMQ%20on%202026-12-29%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "Google 航班 11/01 實查：去程 10:10 來回起價 5,833（配最便宜回程 07:50）；回程改 16:50 單程貴約 580，沿用初篩 10/31 的 6,253 估。另有 13:10、20:35 去程 6,673"
+  },
+  {
+   "from": "TPE",
+   "to": "HKG",
+   "airline": "星宇航空 JX",
+   "out": "12/29 08:40→10:45",
+   "back": "1/2 回程時間待選",
+   "price_pp_twd": 8073,
+   "baggage": "全服務，含托運（公斤數待確認）",
+   "fits_time_pref": true,
+   "within_budget": true,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20TPE%20on%202026-12-29%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "Google 航班 11/01 實查來回起價；同日華航 07:15 8,203、長榮/港航 07:00 8,229、國泰 8,448"
+  },
+  {
+   "from": "TPE",
+   "to": "HKG",
+   "airline": "香港快運 UO",
+   "out": "12/29 13:55→16:00",
+   "back": "1/2 回程時間待選",
+   "price_pp_twd": 7172,
+   "baggage": "廉航不含托運",
+   "fits_time_pref": false,
+   "within_budget": true,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20TPE%20on%202026-12-29%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "Google 航班 11/01 實查；桃園最便宜但下午才出發，住台中不划算"
+  }
+ ],
+ "getting_around": {
+  "mode": "大眾運輸",
+  "license": "不自駕。香港靠左行駛、市區停車貴又難找，港鐵＋巴士＋叮叮車＋渡輪就很方便；澳門短程搭計程車或酒店免費接駁車。",
+  "rental": {
+   "company": "不租車",
+   "car": "",
+   "days": 0,
+   "price_total_twd": 0,
+   "insurance": "",
+   "pickup": "",
+   "source": "",
+   "note": "全程大眾運輸＋計程車"
+  },
+  "road_notes": [
+   "香港、澳門都靠左行駛",
+   "12/31 晚上維港兩岸大範圍封路、港鐵站可能限流或封站，以警方與港鐵 12 月公告為準（待確認）",
+   "澳門計程車少，1/1 假日可用酒店接駁車或輕軌"
+  ],
+  "public": [
+   "八達通（或手機 Apple Pay 八達通）：港鐵、巴士、叮叮車（HK$3.3）、天星小輪（約 HK$5）都能用，每天兩人約 HK$100–150",
+   "機場快線：機場→香港站約 24 分，八達通單程約 HK$120／人（待確認）；省錢可搭 A11 巴士",
+   "港澳船：上環→澳門外港約 1 小時，平日 HK$194、假日 HK$212、夜航 HK$242（2026-04-25 新價）",
+   "港珠澳大橋金巴：日間 HK$65、夜間 HK$70，40–50 分，24 小時行駛；香港口岸在機場旁",
+   "澳門：計程車起跳約 MOP 21（待確認）；澳門收港幣，找錢多是澳門幣"
+  ]
+ },
+ "stays": [
+  {
+   "name": "頤庭酒店上環 Eco Tree Hotel",
+   "area": "上環",
+   "nights": 3,
+   "price_night_for2_twd": 6152,
+   "availability": "有空房",
+   "url": "https://www.booking.com/hotel/hk/eco-tree.zh-tw.html?checkin=2026-12-29&checkout=2027-01-01&group_adults=2&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%A0%A4%E5%BA%AD%E9%85%92%E5%BA%97%E4%B8%8A%E7%92%B0%20Eco%20Tree%20Hotel%20Sheung%20Wan",
+   "why": "11/01 Booking 實查 12/29→1/1：3 晚 NT$18,455、評分 8.2（1,113 則）；走路到港澳碼頭、Bar Leone、蘭桂坊都近"
+  },
+  {
+   "name": "港青酒店 The Salisbury（YMCA）",
+   "area": "尖沙咀",
+   "nights": 3,
+   "price_night_for2_twd": 9969,
+   "availability": "有空房",
+   "url": "https://www.booking.com/hotel/hk/salisbury.zh-tw.html?checkin=2026-12-29&checkout=2027-01-01&group_adults=2&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Salisbury%20YMCA%20of%20Hong%20Kong",
+   "why": "11/01 Booking 實查：3 晚 NT$29,908、評分 8.7；就在尖沙咀海濱，跨年夜下樓就能看維港（海景房要另確認）"
+  },
+  {
+   "name": "澳門君怡酒店 Grandview Hotel",
+   "area": "氹仔",
+   "nights": 1,
+   "price_night_for2_twd": 3917,
+   "availability": "有空房",
+   "url": "https://www.booking.com/hotel/mo/grandview-macau.zh-tw.html?checkin=2027-01-01&checkout=2027-01-02&group_adults=2&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Grandview%20Hotel%20Macau%20Taipa",
+   "why": "11/01 Booking 實查 1/1→1/2：NT$3,917、評分 8.3；離官也街、金光大道、路環都近"
+  },
+  {
+   "name": "澳門雅辰酒店 Grand Lapa",
+   "area": "澳門半島",
+   "nights": 1,
+   "price_night_for2_twd": 7031,
+   "availability": "有空房",
+   "url": "https://www.booking.com/hotel/mo/grand-lapa-macau.zh-tw.html?checkin=2027-01-01&checkout=2027-01-02&group_adults=2&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Grand%20Lapa%20Macau",
+   "why": "11/01 Booking 實查：NT$7,031、評分 9.2；有大泳池花園，想住好一點選這間"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/29",
+   "weekday": "二",
+   "title": "茶記、山頂、世界第一酒吧",
+   "area": "上環・中環・太平山頂",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上台中直飛，中午到香港；下午喝絲襪奶茶逛大館，傍晚搭山頂纜車看夜景，晚上燒鵝＋Bar Leone。",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "台中機場→香港（香港快運 UO 10:10→12:00）",
+     "kind": "transport",
+     "stay_min": 240,
+     "desc": "台中直飛 1 小時 50 分，中午到赤鱲角；出關搭機場快線到香港站約 24 分。",
+     "price_for2_twd": 980,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E4%B8%AD%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4",
+     "site_url": "https://www.hkexpress.com/",
+     "address": "台中市沙鹿區中航路一段168號",
+     "tip": "機場快線八達通單程約 HK$120／人（2026 指南，待確認）；兩人價格寫的是機場快線",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taichung%20Airport%20Terminal%201%20lobby%202019.jpg?width=1200",
+      "credit": "Wpcpey（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "香港快運 HK Express 官網",
+       "url": "https://www.hkexpress.com/"
+      },
+      {
+       "type": "official",
+       "title": "港鐵機場快線票價",
+       "url": "https://mtr.com.hk/en/customer/tickets/ael_taxi.html"
+      }
+     ]
+    },
+    {
+     "time": "14:30",
+     "name": "蘭芳園（中環結志街總店）",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "1952 年開的絲襪奶茶始祖，招牌絲襪奶茶＋豬扒包／蔥油雞扒撈丁，站著喝也行。",
+     "price_for2_twd": 560,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%98%AD%E8%8A%B3%E5%9C%92%20%E9%A6%99%E6%B8%AF%E4%B8%AD%E7%92%B0%E7%B5%90%E5%BF%97%E8%A1%972%E8%99%9F",
+     "site_url": "",
+     "address": "香港中環結志街2號",
+     "tip": "約 07:30–18:00、週日休（各來源不一，待確認）；12/29 是週二 OK",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lan%20Fong%20Yuen%20at%20Gage%20St%20%2820190308150832%29.jpg?width=1200",
+      "credit": "N509FZ（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "蘭芳園 官方 IG @lanfongyuen",
+       "url": "https://www.instagram.com/lanfongyuen/"
+      },
+      {
+       "type": "youtube",
+       "title": "蘭芳園 遊客最愛 首創絲襪奶茶（Sic Leung 地膽帶路）",
+       "url": "https://www.youtube.com/watch?v=y1_E5WQgw7w"
+      },
+      {
+       "type": "youtube",
+       "title": "94歲絲襪奶茶始祖日日返工收銀（果籽）",
+       "url": "https://www.youtube.com/watch?v=NzWkK2vNCh4"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "大館（舊中區警署）",
+     "kind": "sight",
+     "stay_min": 75,
+     "desc": "百年警署＋監獄改成的古蹟藝術園區，免費入場，中庭拍照漂亮；從蘭芳園走 5 分鐘。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%A4%A8%20Tai%20Kwun%2010%20Hollywood%20Road%20Central",
+     "site_url": "",
+     "address": "香港中環荷李活道10號",
+     "tip": "出來走半山扶手電梯就到 SoHo",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tai%20Kwun%20Police%20Headquarters%20Block%20201806.jpg?width=1200",
+      "credit": "Wpcpey（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "大館 Tai Kwun 官網",
+       "url": "https://www.taikwun.hk/"
+      },
+      {
+       "type": "youtube",
+       "title": "百年古蹟打卡聖地中環大館（Pretty FuC9）",
+       "url": "https://www.youtube.com/watch?v=KeqJcGBuH_g"
+      }
+     ]
+    },
+    {
+     "time": "16:45",
+     "name": "山頂纜車＋太平山頂夕陽夜景",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "百年山頂纜車上山，17:50 左右日落，等到天黑看維港百萬夜景；盧吉道步道可免費看夜景。",
+     "price_for2_twd": 950,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E9%A0%82%E7%BA%9C%E8%BB%8A%20%E8%8A%B1%E5%9C%92%E9%81%93%E7%B8%BD%E7%AB%99",
+     "site_url": "https://www.thepeak.com.hk/",
+     "address": "香港中環花園道33號（山頂纜車總站）",
+     "tip": "2025-12-29 起來回 HK$116／人；傍晚排隊長，官網先買票或下山改搭 15 號巴士",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hong%20Kong%20Harbour%20Night%202019-06-11.jpg?width=1200",
+      "credit": "Benh LIEU SONG (Flickr)（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "山頂纜車 The Peak Tram 官網",
+       "url": "https://www.thepeak.com.hk/"
+      },
+      {
+       "type": "youtube",
+       "title": "香港太平山全攻略：百萬夜景秘境（小毛呆の禾昕森活）",
+       "url": "https://www.youtube.com/watch?v=bkN9S65h3hs"
+      }
+     ]
+    },
+    {
+     "time": "19:30",
+     "name": "一樂燒鵝（中環士丹利街）",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "米其林一星多年的燒鵝店，點燒鵝瀨粉＋燒鵝例牌＋叉燒，皮脆油香。",
+     "price_for2_twd": 1200,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E6%A8%82%E7%87%92%E9%B5%9D%20%E4%B8%AD%E7%92%B0%E5%A3%AB%E4%B8%B9%E5%88%A9%E8%A1%9734-38%E8%99%9F",
+     "site_url": "",
+     "address": "香港中環士丹利街34-38號",
+     "tip": "店小要併桌、服務很快很直；想吃甘牌燒鵝可改去灣仔軒尼詩道",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roast%20goose%20in%20yat%20lok%20restaurant.JPG?width=1200",
+      "credit": "Sakaori (talk)（Wikimedia Commons）",
+      "license": "CC BY 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "一樂燒鵝 Yat Lok 官方 IG @yatlokgoose",
+       "url": "https://www.instagram.com/yatlokgoose/"
+      },
+      {
+       "type": "youtube",
+       "title": "香港燒鵝獵人！米其林1星一樂燒鵝（A/DA阿達）",
+       "url": "https://www.youtube.com/watch?v=UVFb8VexDyY"
+      },
+      {
+       "type": "youtube",
+       "title": "鏞記・一樂・甘牌 星級燒鵝頂上對決（點 Cook Guide）",
+       "url": "https://www.youtube.com/watch?v=dxNoD8gO-fE"
+      }
+     ]
+    },
+    {
+     "time": "21:30",
+     "name": "Bar Leone（世界 50 最佳酒吧第一）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "雞尾酒吧：2025、2026 連兩年拿下 World's 50 Best Bars 第一名，羅馬街角小酒館風、雞尾酒不貴。兩人各 2 杯約 HK$560。",
+     "price_for2_twd": 2300,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Bar%20Leone%2011-15%20Bridges%20Street%20Hong%20Kong",
+     "site_url": "",
+     "address": "香港上環必列者士街11-15號",
+     "tip": "不收訂位只能現場排；排太長就去走路 3 分鐘的 Quinary（荷李活道56-58號）或 SoHo 酒吧",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bridges%20Street%2C%20Sheung%20Wan%20part%202%20in%20May%202022.jpg?width=1200",
+      "credit": "姒姓賢寧（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Bar Leone 官方 IG @barleonehk",
+       "url": "https://www.instagram.com/barleonehk/"
+      },
+      {
+       "type": "youtube",
+       "title": "2025世界排名第一的酒吧！Bar Leone排隊三小時值不值？（索菲亞一斤半）",
+       "url": "https://www.youtube.com/watch?v=lc_rMwBRzcM"
+      },
+      {
+       "type": "blog",
+       "title": "The 50 Best：Bar Leone 介紹",
+       "url": "https://www.the50.com/bars/asia/the-list/bar-leone.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "龍脊健行、廟街夜市",
+   "area": "港島東・尖沙咀・油麻地",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早餐吃澳洲牛奶公司，走香港最有名的龍脊步道到大浪灣，傍晚搭天星小輪過海，晚上廟街煲仔飯＋118 樓 Ozone。",
+   "stops": [
+    {
+     "time": "07:45",
+     "name": "澳洲牛奶公司（佐敦）",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "香港最兇也最快的茶記：炒蛋多士＋火腿通粉＋燉奶套餐，3 分鐘上菜。",
+     "price_for2_twd": 400,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%BE%B3%E6%B4%B2%E7%89%9B%E5%A5%B6%E5%85%AC%E5%8F%B8%20%E4%BD%90%E6%95%A6%E7%99%BD%E5%8A%A0%E5%A3%AB%E8%A1%9747%E8%99%9F",
+     "site_url": "",
+     "address": "香港九龍佐敦白加士街47-49號",
+     "tip": "逢週四休（12/31 是週四，所以排今天）；吃完佐敦站搭港鐵到筲箕灣約 35 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Australia%20Dairy%20Company%20outlook.JPG?width=1200",
+      "credit": "圍棋一級（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "澳洲牛奶公司 IG @australia_dairy_co",
+       "url": "https://www.instagram.com/australia_dairy_co/"
+      },
+      {
+       "type": "youtube",
+       "title": "炒澳洲牛奶公司滑蛋秘訣（香港經濟日報）",
+       "url": "https://www.youtube.com/watch?v=KFkZQroZ840"
+      }
+     ]
+    },
+    {
+     "time": "09:15",
+     "name": "龍脊（港島徑第 8 段）",
+     "kind": "challenge",
+     "stay_min": 150,
+     "desc": "從土地灣上山沿山脊走到大浪灣，約 7.5 公里、2–2.5 小時，一邊石澳海灣一邊大潭，冬天涼爽最適合。",
+     "price_for2_twd": 60,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%9F%E5%9C%B0%E7%81%A3%20%E5%B7%B4%E5%A3%AB%E7%AB%99%20%E7%9F%B3%E6%BE%B3%E9%81%93%20%E9%BE%8D%E8%84%8A",
+     "site_url": "",
+     "address": "香港石澳道土地灣巴士站",
+     "tip": "筲箕灣站 A3 出口搭 9 號巴士到土地灣約 20–30 分；穿運動鞋、帶水",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dragon%27s%20Back%20-%20Trail%20Start%2C%20Hong%20Kong%20%28Unsplash%29.jpg?width=1200",
+      "credit": "Julia Caesar juliacaesar（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "香港郊野遊樂徑：龍脊",
+       "url": "https://hiking.gov.hk/trail/info/id/UWgvZytZSlRrcnBJSU5DWVZUa2pyUT09"
+      },
+      {
+       "type": "youtube",
+       "title": "港島「龍脊」最詳細路線、交通、打卡點（艾瑪的生活日記）",
+       "url": "https://www.youtube.com/watch?v=q52NprRN99s"
+      },
+      {
+       "type": "youtube",
+       "title": "港島徑第8段 龍脊（Desmond Yau 行山日記）",
+       "url": "https://www.youtube.com/watch?v=Dzt8R_Hgbnw"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "大浪灣海灘＋石澳小店午餐",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "健行終點是衝浪客的小海灣，海邊士多吃公仔麵、喝凍檸茶休息。",
+     "price_for2_twd": 400,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Big%20Wave%20Bay%20Beach%20Hong%20Kong",
+     "site_url": "",
+     "address": "香港大浪灣",
+     "tip": "回程搭 9 號小巴回筲箕灣，再轉叮叮車慢慢晃到中環（HK$3.3），上層前排最好看",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Big%20wave%20bay%202025.jpg?width=1200",
+      "credit": "Thehistorianisaac（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "龍脊 土地灣至大浪灣 港島徑第8段（CHUNG去郊遊）",
+       "url": "https://www.youtube.com/watch?v=oWmislXEit4"
+      }
+     ]
+    },
+    {
+     "time": "16:30",
+     "name": "天星小輪（中環→尖沙咀）",
+     "kind": "transport",
+     "stay_min": 30,
+     "desc": "百年渡輪 10 分鐘過海，傍晚維港最美；在尖沙咀海濱等燈亮。",
+     "price_for2_twd": 40,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%98%9F%E5%B0%8F%E8%BC%AA%20%E4%B8%AD%E7%92%B0%E7%A2%BC%E9%A0%AD",
+     "site_url": "",
+     "address": "香港中環7號碼頭",
+     "tip": "八達通約 HK$5／人；回飯店小休後再出門",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-12-27%20A%20Star%20Ferry%20crosses%20Victoria%20Harbour%202.jpg?width=1200",
+      "credit": "Alexkom000（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "天星小輪官網",
+       "url": "https://www.starferry.com.hk/"
+      },
+      {
+       "type": "youtube",
+       "title": "不繞路香港一日遊：百年天星小輪＋叮叮車（oneQ嶠寶寶）",
+       "url": "https://www.youtube.com/watch?v=2Q7aF192mRg"
+      }
+     ]
+    },
+    {
+     "time": "19:00",
+     "name": "廟街夜市＋興記煲仔飯",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "廟街攤販逛一圈，坐路邊吃 40 多年的炭爐煲仔飯（臘味、滑雞）配蠔餅。",
+     "price_for2_twd": 1400,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%88%88%E8%A8%98%E8%8F%9C%E9%A4%A8%20%E6%B2%B9%E9%BA%BB%E5%9C%B0%E5%BB%9F%E8%A1%9719%E8%99%9F",
+     "site_url": "",
+     "address": "香港九龍油麻地廟街12-19號",
+     "tip": "17:30 開，煲仔飯現點現煮要等 20–30 分，先點再去逛",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HK%20YMT%20%E6%B2%B9%E9%BA%BB%E5%9C%B0%20Yau%20Ma%20Tei%20%E5%BB%9F%E8%A1%97%20Temple%20Street%20%E6%B0%B8%E6%98%9F%E9%87%8C%20Wing%20Sing%20Lane%20shop%20%E8%88%88%E8%A8%98%E8%8F%9C%E9%A4%A8%20Hing%20Kee%20Restaurant%20visitors%20queue%20night%20January%202025%20R12S%2007.jpg?width=1200",
+      "credit": "FONO 25 RUOQWM SAXM（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "興記菜館／興記煲仔飯 官方 IG @hingkeehk",
+       "url": "https://www.instagram.com/hingkeehk/"
+      },
+      {
+       "type": "youtube",
+       "title": "深入營業43年的廟街興記煲仔飯（GQ Taiwan）",
+       "url": "https://www.youtube.com/watch?v=9-L9OqtqFIc"
+      },
+      {
+       "type": "youtube",
+       "title": "廟街 興記菜館 最強煲仔飯？（SAMSAM週街走）",
+       "url": "https://www.youtube.com/watch?v=yvTWlDUDN8c"
+      }
+     ]
+    },
+    {
+     "time": "21:30",
+     "name": "OZONE（環球貿易廣場 118 樓）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "屋頂雞尾酒吧：麗思卡爾頓 118 樓，號稱全球最高酒吧，俯瞰整個維港。室內低消 HK$200／人、戶外 HK$500／人＋一成服務費。",
+     "price_for2_twd": 2100,
+     "booking": "建議預約",
+     "booking_url": "https://www.instagram.com/ozonehongkong/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=OZONE%20Ritz-Carlton%20Hong%20Kong%20ICC%20118F",
+     "site_url": "",
+     "address": "香港九龍柯士甸道西1號 環球貿易廣場 118樓",
+     "tip": "服裝要 smart casual（不要拖鞋短褲）；從佐敦搭計程車約 10 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Ritz-Carlton%20Hong%20Kong%20The%20Ozone%20201703.jpg?width=1200",
+      "credit": "Patty Mooney from San Diego, USA（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "OZONE 官方 IG @ozonehongkong",
+       "url": "https://www.instagram.com/ozonehongkong/"
+      },
+      {
+       "type": "youtube",
+       "title": "BEST rooftop bar in the world?! OZONE Hong Kong（Lauren and Elliott）",
+       "url": "https://www.youtube.com/watch?v=vvWjJUdZNzQ"
+      },
+      {
+       "type": "blog",
+       "title": "Time Out：OZONE",
+       "url": "https://www.timeout.com/hong-kong/bars-and-pubs/ozone"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "西貢出海、維港跨年",
+   "area": "太子・西貢・中環",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上菠蘿油，搭快艇看西貢火山岩海蝕洞，回來吃海鮮小休，晚上中環海濱倒數跨年、蘭桂坊續攤。",
+   "stops": [
+    {
+     "time": "08:30",
+     "name": "金華冰廳（太子）",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "1973 年老冰室，自稱全港第一的菠蘿油：熱菠蘿包夾一大塊冰牛油，配港式奶茶。",
+     "price_for2_twd": 400,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E8%8F%AF%E5%86%B0%E5%BB%B3%20%E5%A4%AA%E5%AD%90%E5%BC%BC%E8%A1%9747%E8%99%9F",
+     "site_url": "",
+     "address": "香港九龍太子弼街47號",
+     "tip": "外帶不用排隊、沒有低消；吃完太子站→鑽石山站轉 92 號巴士到西貢約 50 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%97%BA%E8%A7%92%E5%BC%BC%E8%A1%97%2043-49%20%E8%99%9F%2043-49%20Bute%20Street%20%E9%87%91%E8%8F%AF%E5%86%B0%E5%BB%B3%20Kam%20Wah%20Cafe%20%E9%80%9A%E8%8F%9C%E8%A1%97%20Tung%20Choi%20Street%2C%202018.jpg?width=1200",
+      "credit": "Lord Jaraxxus（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "金華冰廳 Kam Wah Cafe 官方 IG @kamwahcafe",
+       "url": "https://www.instagram.com/kamwahcafe/"
+      },
+      {
+       "type": "youtube",
+       "title": "旺角金華冰廳 馳名菠蘿油（車cam人）",
+       "url": "https://www.youtube.com/watch?v=v69TiujOqKI"
+      },
+      {
+       "type": "youtube",
+       "title": "金華冰廳 菠蘿油 邊個話佢好食？（Sic Leung 地膽帶路）",
+       "url": "https://www.youtube.com/watch?v=ZBL8ZCoxtb4"
+      }
+     ]
+    },
+    {
+     "time": "10:30",
+     "name": "西貢地質公園快艇（四洞火山導賞）",
+     "kind": "challenge",
+     "stay_min": 150,
+     "desc": "從西貢碼頭出海，看六角形火山岩柱、海蝕洞、海蝕拱，天氣好可穿洞。Splitdyboat／旅發局 R2G 團每人約 HK$480。",
+     "price_for2_twd": 3940,
+     "booking": "需預約",
+     "booking_url": "https://splitdyboat.com/collections/4-best-hong-kong-geopark-tour",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E8%B2%A2%E5%85%AC%E7%9C%BE%E7%A2%BC%E9%A0%AD%20Sai%20Kung%20Public%20Pier",
+     "site_url": "",
+     "address": "香港西貢海濱公園 西貢公眾碼頭",
+     "tip": "12 月東北季風浪大，船可能改航線或取消，要選可改期的團；怕暈船先吃藥",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hexagonal%20volcanic%20tuffs%20at%20East%20Dam%20of%20High%20Island%20Reservoir%201.jpg?width=1200",
+      "credit": "Minghong（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Splitdyboat 地質公園船團（每人 HK$480 起）",
+       "url": "https://splitdyboat.com/collections/4-best-hong-kong-geopark-tour"
+      },
+      {
+       "type": "official",
+       "title": "香港旅遊發展局：R2G 西貢火山岩船遊",
+       "url": "https://www.discoverhongkong.com/eng/outdoors/r2g-boat-tour-geopark.html"
+      },
+      {
+       "type": "youtube",
+       "title": "香港地質公園四洞火山導賞團 遊艇版（Splitdyboat）",
+       "url": "https://www.youtube.com/watch?v=X8qHHbDKMkE"
+      }
+     ]
+    },
+    {
+     "time": "13:30",
+     "name": "西貢海鮮街午餐",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "碼頭邊海鮮酒家看魚缸點菜：椒鹽瀨尿蝦、蒜蓉蒸扇貝、炒蜆；兩人點 3 道約 HK$600–800。",
+     "price_for2_twd": 2900,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E8%B2%A2%E6%B5%B7%E9%AE%AE%E8%A1%97%20%E6%B5%B7%E5%82%8D%E8%A1%97",
+     "site_url": "",
+     "address": "香港西貢海傍街",
+     "tip": "先問清楚每斤價錢與做法費再點；吃完搭 92 號巴士回市區，回飯店睡午覺留體力跨年",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sai%20Kung%20Public%20Pier%20202506.jpg?width=1200",
+      "credit": "Tombus20032000（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "19:30",
+     "name": "添好運（香港站 IFC 店）晚餐",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "米其林推薦多年的平價點心：酥皮焗叉燒包、蝦餃、香煎蘿蔔糕。",
+     "price_for2_twd": 800,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B7%BB%E5%A5%BD%E9%81%8B%20%E9%A6%99%E6%B8%AF%E7%AB%99%20IFC",
+     "site_url": "",
+     "address": "香港中環香港站 1樓 12A號舖",
+     "tip": "跨年夜早點吃完；21:00 後中環海濱一帶開始封路管制",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tim%20Ho%20Wan%2C%20the%20Dim-Sum%20Specialists%2C%20Sham%20Shui%20Po%20shop%20%28Hong%20Kong%29.jpg?width=1200",
+      "credit": "Mk2010（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "添好運點心專門店 官方 IG @timhowan.hk",
+       "url": "https://www.instagram.com/timhowan.hk/"
+      },
+      {
+       "type": "youtube",
+       "title": "添好運的香港味道：酥皮焗叉燒包（HOYII生活）",
+       "url": "https://www.youtube.com/watch?v=pHJVSu1I4sA"
+      }
+     ]
+    },
+    {
+     "time": "22:30",
+     "name": "中環海濱跨年倒數（維港煙火待公告）",
+     "kind": "night",
+     "stay_min": 105,
+     "desc": "2026→2027 維港煙火旅發局還沒公告；2025 因大埔宏福苑火災取消煙火、改遮打道倒數，2026 國慶煙火已恢復，局長也說今年跨年會更大型。中環海濱看煙火位置好，煙火取消就改走遮打道倒數。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%E6%B5%B7%E6%BF%B1%E6%B4%BB%E5%8B%95%E7%A9%BA%E9%96%93%20Central%20Harbourfront%20Event%20Space",
+     "site_url": "",
+     "address": "香港中環龍和道9號 中環海濱活動空間",
+     "tip": "12 月初看旅發局公告；人潮管制常 21:00 就開始，22:30 前要到位，穿外套帶水",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fireworks%20over%20Victoria%20Harbour%201%20%283251888978%29.jpg?width=1200",
+      "credit": "DearEdward from New York, NY, USA（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Hong Kong New Year Countdown Live Stream（HONG KONG 旅發局頻道）",
+       "url": "https://www.youtube.com/watch?v=2UeTeV4rDFY"
+      },
+      {
+       "type": "blog",
+       "title": "TVB：羅淑佩稱今年除夕倒數更大型（2026-06-30）",
+       "url": "https://news.tvb.com/tc/1179875-RosannaLawlargerNYcountdowntostage"
+      },
+      {
+       "type": "blog",
+       "title": "SCMP：2025 跨年煙火取消改中環倒數",
+       "url": "https://www.timeout.com/hong-kong/news/hong-kongs-popular-new-years-eve-fireworks-have-been-cancelled-121825"
+      }
+     ]
+    },
+    {
+     "time": "00:20",
+     "name": "蘭桂坊跨年續攤",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "酒吧街：倒數後走 10 分鐘上蘭桂坊，整條德己立街跨年派對；人太多就轉 SoHo 小酒吧。兩人約 HK$400。",
+     "price_for2_twd": 1640,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Lan%20Kwai%20Fong%20D%27Aguilar%20Street%20Central",
+     "site_url": "",
+     "address": "香港中環德己立街 蘭桂坊",
+     "tip": "跨年夜警方會單向人流、滿了就封；港鐵跨年通常通宵行駛（待確認），回上環走路也只要 15 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HK%20Central%20Lan%20Kwai%20Fong%20Bar%20nite%20a.jpg?width=1200",
+      "credit": "SOJackieHO（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "蘭桂坊 Lan Kwai Fong 官方 IG @lankwaifonghk",
+       "url": "https://www.instagram.com/lankwaifonghk/"
+      },
+      {
+       "type": "youtube",
+       "title": "蘭桂坊 360° 全攻略＋安全指南（旅遊人在深圳）",
+       "url": "https://www.youtube.com/watch?v=aGZ7mgXuIjY"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "坐船去澳門跳塔",
+   "area": "澳門半島・氹仔・路氹",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "上環搭噴射船 1 小時到澳門，先去澳門塔挑戰高空彈跳或塔頂外圍行，再逛大三巴、吃豬扒包，晚上金光大道＋威士忌酒吧。",
+   "stops": [
+    {
+     "time": "09:30",
+     "name": "上環港澳碼頭→澳門外港（噴射飛航）",
+     "kind": "transport",
+     "stay_min": 75,
+     "desc": "從上環信德中心搭噴射飛航約 1 小時；1/1 公眾假期票價 HK$212／人。",
+     "price_for2_twd": 1740,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E6%BE%B3%E7%A2%BC%E9%A0%AD%20%E4%BF%A1%E5%BE%B7%E4%B8%AD%E5%BF%83%20%E4%B8%8A%E7%92%B0",
+     "site_url": "https://www.turbojet.com.hk/",
+     "address": "香港上環干諾道中200號 信德中心",
+     "tip": "帶護照；澳門入境免簽 30 天，入境會拿到一張小白單要保留到出境",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Turbojet%20ferry%20in%20Macau%28Outer%20Harbour%29%20Ferry%20Terminal%2015-05-2019.jpg?width=1200",
+      "credit": "LN9267（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "噴射飛航 TurboJET 官網",
+       "url": "https://www.turbojet.com.hk/"
+      },
+      {
+       "type": "blog",
+       "title": "2026-04-25 起港澳船票新價",
+       "url": "https://www.humanresourcesonline.net/ferry-fares-between-hong-kong-and-macao-to-rise-from-25-april-2026-chi"
+      }
+     ]
+    },
+    {
+     "time": "11:15",
+     "name": "澳門旅遊塔：高空彈跳／塔頂外圍行",
+     "kind": "challenge",
+     "stay_min": 120,
+     "desc": "233 公尺高空彈跳（AJ Hackett），官方價約 MOP 3,088／人；不敢跳就做 Skywalk 塔頂外圍行約 MOP 788。價格寫一人跳、一人拍。",
+     "price_for2_twd": 12350,
+     "booking": "需預約",
+     "booking_url": "https://www.ajhackett.com/macau/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Macau%20Tower%20AJ%20Hackett",
+     "site_url": "",
+     "address": "澳門觀光塔前地",
+     "tip": "營業約 11:00–19:00（週末 10:30–19:30，待確認），1/1 先線上預約時段；有體重與年齡限制",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macau%20Tower%20Level%2061%20Bungee%20Jumping%2016-03-2023%281%29.jpg?width=1200",
+      "credit": "LN9267（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "AJ Hackett Macau 官網",
+       "url": "https://www.ajhackett.com/macau/"
+      },
+      {
+       "type": "youtube",
+       "title": "【澳門旅遊塔】高空彈跳初體驗 第一視角（Quetzal丨生活探索筆記）",
+       "url": "https://www.youtube.com/watch?v=ys7bhVH2aGw"
+      },
+      {
+       "type": "youtube",
+       "title": "我在澳門塔笨豬跳 無限尖叫（小芝芝 TV）",
+       "url": "https://www.youtube.com/watch?v=tMQoShRP_2k"
+      }
+     ]
+    },
+    {
+     "time": "13:30",
+     "name": "大三巴＋議事亭前地",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "世界遺產澳門歷史城區：葡式碎石地、大三巴牌坊；新馬路瑪嘉烈蛋撻就在附近。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A%20Ruins%20of%20St.%20Paul%27s%20Macau",
+     "site_url": "",
+     "address": "澳門大三巴街",
+     "tip": "瑪嘉烈蛋撻逢週三與大節日常休，1/1 很可能沒開，明早改去路環安德魯",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Na%20Tcha%20Temple%20and%20the%20Ruins%20of%20St.%20Paul%27s.jpg?width=1200",
+      "credit": "Mx. Granger（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "2026澳門一日遊新手全攻略：大三巴、威尼斯人（小LAM娛樂）",
+       "url": "https://www.youtube.com/watch?v=Sp6wOHUysFM"
+      },
+      {
+       "type": "blog",
+       "title": "Tripadvisor：瑪嘉烈蛋撻（週三與大節日常休）",
+       "url": "https://www.tripadvisor.com/ShowUserReviews-g664891-d1103906-r626735973-Margaret_s_Cafe_e_Nata-Macau.html"
+      },
+      {
+       "type": "ig",
+       "title": "澳門挞皇 Macao Emper Tart IG（瑪嘉烈休息時的備案）",
+       "url": "https://www.instagram.com/macaoempertart/"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "大利來記豬扒包（氹仔總店）＋官也街",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "50 多年老店，下午 3 點出爐的炭烤豬扒包約 MOP 40，配奶茶；吃完逛官也街手信街。",
+     "price_for2_twd": 470,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%88%A9%E4%BE%86%E8%A8%98%20%E6%B0%B9%E4%BB%94%E5%91%8A%E5%88%A9%E9%9B%85%E6%96%BD%E5%88%A9%E8%8F%AF%E8%A1%9735%E8%99%9F",
+     "site_url": "",
+     "address": "澳門氹仔告利雅施利華街35號",
+     "tip": "豬扒包限量 15:00 起，提早 15 分排；大三巴街分店也有賣（時段待確認）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Food%20TAI%20LEI%20LOI%20KEI%2C%20Macau%2C%20%E6%8B%9B%E7%89%8C%E8%B1%AC%E6%89%92%E9%A3%BD%2C%20%E6%BE%B3%E9%96%80%E5%A4%A7%E5%88%A9%E4%BE%86%E8%A8%98%E8%B1%AC%E6%89%92%E9%A3%BD%2C%20%E5%A4%A7%E4%B8%89%E5%B7%B4%E8%A1%97%2C%20%E6%BE%B3%E9%96%80%20%2817103261407%29.jpg?width=1200",
+      "credit": "bryan... from Taipei, Taiwan（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "大利來記豬扒包 IG 地點頁（新加坡分店，總店在氹仔）",
+       "url": "https://www.instagram.com/explore/locations/518550680/singapore/singapore/tai-lei-loi-kei/?hl=en-gb"
+      },
+      {
+       "type": "youtube",
+       "title": "官也街大排長龍！大利來記豬扒包超正（Hunting Archer）",
+       "url": "https://www.youtube.com/watch?v=7STN17d07mo"
+      },
+      {
+       "type": "youtube",
+       "title": "大利來記豬扒包總店（Yu Hoi Channel）",
+       "url": "https://www.youtube.com/watch?v=xVYWQ2LZLqw"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "金光大道：威尼斯人／倫敦人逛夜景＋晚餐",
+     "kind": "sight",
+     "stay_min": 150,
+     "desc": "路氹的酒店群像小型拉斯維加斯，室內運河、倫敦大笨鐘；晚餐在酒店美食廣場或葡國菜。",
+     "price_for2_twd": 1600,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Venetian%20Macao%20Cotai",
+     "site_url": "",
+     "address": "澳門路氹金光大道",
+     "tip": "住氹仔君怡酒店，走路或酒店免費接駁車都到",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Venetian%20%2898716%29.jpg?width=1200",
+      "credit": "Syced（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "澳門自由行2026：巴黎人/威尼斯人/銀河 新通道全攻略（小LAM娛樂）",
+       "url": "https://www.youtube.com/watch?v=5MNLrzt4C-8"
+      }
+     ]
+    },
+    {
+     "time": "21:30",
+     "name": "The Macallan Whisky Bar & Lounge（銀河酒店）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "酒店威士忌酒吧：銀河 2 樓，400 多款單一麥芽、蘇格蘭獵莊風格，壁爐沙發很適合慢慢喝。兩人約 MOP 600。",
+     "price_for2_twd": 2400,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Macallan%20Whisky%20Bar%20Galaxy%20Macau",
+     "site_url": "",
+     "address": "澳門路氹銀河綜合度假城 2樓",
+     "tip": "約 18:00–01:00（週五六到 02:00，待確認）；電話 +853 8883 2221",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Attends%20at%20Galaxy%20Macau%20Crystal%20Lobby.jpg?width=1200",
+      "credit": "Pauloleong2002（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Galaxy Macau：麥卡倫酒吧",
+       "url": "https://galaxymacau.com/dining/restaurants/macallan-bar-lounge"
+      },
+      {
+       "type": "youtube",
+       "title": "Macallan Whisky Bar & Lounge Galaxy Macau（Horizon Vision）",
+       "url": "https://www.youtube.com/watch?v=7zAvtX2f4bw"
+      },
+      {
+       "type": "ig",
+       "title": "銀河綜合度假城 Galaxy Macau 官方 IG @galaxymacau",
+       "url": "https://www.instagram.com/galaxymacau/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "1/2",
+   "weekday": "六",
+   "title": "路環蛋撻、過大橋回家",
+   "area": "路環・港珠澳大橋・香港機場",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上去路環吃安德魯蛋撻、逛小漁村，中午搭金巴過港珠澳大橋到香港機場，16:50 飛回台中。",
+   "stops": [
+    {
+     "time": "09:00",
+     "name": "安德魯餅店（路環總店）",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "1989 年英國人 Andrew Stow 開的葡撻始祖，剛出爐酥皮＋焦糖面，配咖啡。",
+     "price_for2_twd": 350,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Lord%20Stow%27s%20Bakery%201%20Rua%20do%20Tassara%20Coloane",
+     "site_url": "",
+     "address": "澳門路環撻沙街1號",
+     "tip": "從氹仔搭計程車約 15 分；多買幾顆路上吃",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coloane%20Village%20Lord%20Stow%27s%20Bakery%2013-01-2023.jpg?width=1200",
+      "credit": "LN9267（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Lord Stow's Bakery 品牌 IG（菲律賓分店帳號，總店在路環）",
+       "url": "https://www.instagram.com/lordstowsbakeryph/"
+      },
+      {
+       "type": "youtube",
+       "title": "路環安德魯 解鎖除葡撻外隱藏三文治（澳門3.3）",
+       "url": "https://www.youtube.com/watch?v=LxaEseHMA50"
+      },
+      {
+       "type": "official",
+       "title": "米其林指南：Lord Stow's Bakery",
+       "url": "https://guide.michelin.com/th/th/macau-region/macau/restaurant/lord-stow-s-bakery-rua-do-tassara"
+      }
+     ]
+    },
+    {
+     "time": "10:00",
+     "name": "路環村＋聖方濟各堂",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "澳門最安靜的角落：黃色小教堂、海邊榕樹、老房子，很 chill。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Chapel%20of%20St.%20Francis%20Xavier%20Coloane",
+     "site_url": "",
+     "address": "澳門路環計單奴街",
+     "tip": "11:00 回酒店拿行李退房",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macau%20coloane%20village%201.jpg?width=1200",
+      "credit": "User: (WT-shared) Slleong at  wts wikivoyage（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "5小時挑戰澳門絕美徒步路線：必吃安德魯蛋撻（我是阿增Zane）",
+       "url": "https://www.youtube.com/watch?v=c5GMvRxRur4"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "港珠澳大橋金巴→香港機場",
+     "kind": "transport",
+     "stay_min": 120,
+     "desc": "計程車到澳門口岸，搭金巴過 55 公里大橋約 40–50 分到香港口岸，再轉機場巴士或計程車 10–15 分到機場。",
+     "price_for2_twd": 650,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E7%8F%A0%E6%BE%B3%E5%A4%A7%E6%A9%8B%E6%BE%B3%E9%96%80%E5%8F%A3%E5%B2%B8%20%E9%87%91%E5%B7%B4",
+     "site_url": "",
+     "address": "澳門港珠澳大橋澳門口岸",
+     "tip": "金巴日間 HK$65／人、24 小時 5–15 分一班；香港口岸到機場轉乘方式出發前再確認",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/VJ3684%20Hong%20Kong-Zhuhai-Macau%20Bridge%20Shuttle%20Bus%2022-02-2019.jpg?width=1200",
+      "credit": "LN9267（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "金巴去澳門攻略：票價、班次、轉乘（MoneyHero 2026）",
+       "url": "https://www.moneyhero.com.hk/blog/zh/%E6%B8%AF%E7%8F%A0%E6%BE%B3%E5%A4%A7%E6%A9%8B-%E6%BE%B3%E9%96%80-%E7%8F%A0%E6%B5%B7-%E9%87%91%E5%B7%B4-%E7%9B%B4%E9%80%9A%E5%B7%B4%E5%A3%AB-%E8%88%B9-%E8%BB%8A%E8%B2%BB-%E6%99%82%E9%96%93"
+      }
+     ]
+    },
+    {
+     "time": "16:50",
+     "name": "香港機場→台中（香港快運 UO 16:50→18:25）",
+     "kind": "transport",
+     "stay_min": 95,
+     "desc": "下午班機回台中，晚餐前到家。",
+     "price_for2_twd": null,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Hong%20Kong%20International%20Airport%20Terminal%201",
+     "site_url": "",
+     "address": "香港國際機場一號客運大樓",
+     "tip": "14:30 前到機場報到；機票費已算在 flights",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hong%20Kong%20International%20Airport%20Terminal%201%20Departure%20Hall%20McDonald%27s%2016-08-2024.jpg?width=1200",
+      "credit": "LN9267（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "香港國際機場：交通",
+       "url": "https://hkairport.com/en/transport/to-from-airport/airport-express.page"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "金華冰廳",
+   "dish": "菠蘿油＋港式奶茶",
+   "price_for2_twd": 400,
+   "area": "太子",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E8%8F%AF%E5%86%B0%E5%BB%B3%20%E5%A4%AA%E5%AD%90%E5%BC%BC%E8%A1%9747%E8%99%9F",
+   "why": "1973 年老冰室，菠蘿油是台灣旅客必吃名單常客；YouTube 港人評價兩極但人潮不斷",
+   "source": "https://www.instagram.com/kamwahcafe/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hong%20Kong%20style%20milk%20tea%20and%20Pineapple%20bun%20with%20butter.jpg?width=1200",
+    "credit": "Peachyeung316（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "金華冰廳 Kam Wah Cafe 官方 IG @kamwahcafe",
+     "url": "https://www.instagram.com/kamwahcafe/"
+    },
+    {
+     "type": "youtube",
+     "title": "旺角金華冰廳 馳名菠蘿油（車cam人）",
+     "url": "https://www.youtube.com/watch?v=v69TiujOqKI"
+    }
+   ]
+  },
+  {
+   "name": "蘭芳園",
+   "dish": "絲襪奶茶、豬扒包、蔥油雞扒撈丁",
+   "price_for2_twd": 560,
+   "area": "中環",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%98%AD%E8%8A%B3%E5%9C%92%20%E9%A6%99%E6%B8%AF%E4%B8%AD%E7%92%B0%E7%B5%90%E5%BF%97%E8%A1%972%E8%99%9F",
+   "why": "1952 年創立、公認絲襪奶茶始祖；鏡週刊 2026-08 港式老店清單",
+   "source": "https://www.mirrormedia.mg/story/20260827food002",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hong%20Kong%20Milk%20Tea%2C%20Cha%20Chaan%20Teng-style%20with%20Black%20and%20White%20cup.jpg?width=1200",
+    "credit": "Nikoletic126（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "蘭芳園 官方 IG @lanfongyuen",
+     "url": "https://www.instagram.com/lanfongyuen/"
+    },
+    {
+     "type": "youtube",
+     "title": "蘭芳園 首創絲襪奶茶（Sic Leung 地膽帶路）",
+     "url": "https://www.youtube.com/watch?v=y1_E5WQgw7w"
+    }
+   ]
+  },
+  {
+   "name": "一樂燒鵝",
+   "dish": "燒鵝瀨粉、燒鵝例牌、叉燒",
+   "price_for2_twd": 1200,
+   "area": "中環",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E6%A8%82%E7%87%92%E9%B5%9D%20%E4%B8%AD%E7%92%B0%E5%A3%AB%E4%B8%B9%E5%88%A9%E8%A1%9734-38%E8%99%9F",
+   "why": "2015–2023 米其林一星；A/DA阿達「香港燒鵝獵人」26 萬觀看",
+   "source": "https://www.instagram.com/yatlokgoose/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roast%20goose%20in%20yat%20lok%20restaurant.JPG?width=1200",
+    "credit": "Sakaori (talk)（Wikimedia Commons）",
+    "license": "CC BY 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "一樂燒鵝 Yat Lok 官方 IG @yatlokgoose",
+     "url": "https://www.instagram.com/yatlokgoose/"
+    },
+    {
+     "type": "youtube",
+     "title": "香港燒鵝獵人！米其林1星一樂燒鵝（A/DA阿達）",
+     "url": "https://www.youtube.com/watch?v=UVFb8VexDyY"
+    }
+   ]
+  },
+  {
+   "name": "添好運點心專門店",
+   "dish": "酥皮焗叉燒包、蝦餃、蘿蔔糕",
+   "price_for2_twd": 800,
+   "area": "中環（香港站）／深水埗",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B7%BB%E5%A5%BD%E9%81%8B%20%E9%A6%99%E6%B8%AF%E7%AB%99%20IFC",
+   "why": "官方帳號寫連續 17 年米其林肯定，最便宜的星級點心",
+   "source": "https://www.instagram.com/timhowan.hk/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dim%20Sum%20Breakfast.jpg?width=1200",
+    "credit": "afterdog（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "添好運點心專門店 官方 IG @timhowan.hk",
+     "url": "https://www.instagram.com/timhowan.hk/"
+    },
+    {
+     "type": "youtube",
+     "title": "添好運的香港味道：酥皮焗叉燒包（HOYII生活）",
+     "url": "https://www.youtube.com/watch?v=pHJVSu1I4sA"
+    }
+   ]
+  },
+  {
+   "name": "澳洲牛奶公司",
+   "dish": "炒蛋多士、火腿通粉、燉奶",
+   "price_for2_twd": 400,
+   "area": "佐敦",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%BE%B3%E6%B4%B2%E7%89%9B%E5%A5%B6%E5%85%AC%E5%8F%B8%20%E4%BD%90%E6%95%A6%E7%99%BD%E5%8A%A0%E5%A3%AB%E8%A1%9747%E8%99%9F",
+   "why": "香港最出名的滑蛋，上菜快、服務兇是特色；週四休",
+   "source": "https://www.instagram.com/australia_dairy_co/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Australia%20Dairy%20Company%20-%20Ham%20and%20Egg%20Sandwich.jpg?width=1200",
+    "credit": "City Foodsters（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "澳洲牛奶公司 IG @australia_dairy_co",
+     "url": "https://www.instagram.com/australia_dairy_co/"
+    },
+    {
+     "type": "youtube",
+     "title": "炒澳洲牛奶公司滑蛋秘訣（香港經濟日報）",
+     "url": "https://www.youtube.com/watch?v=KFkZQroZ840"
+    }
+   ]
+  },
+  {
+   "name": "興記菜館（興記煲仔飯）",
+   "dish": "臘味滑雞煲仔飯、蠔餅",
+   "price_for2_twd": 1400,
+   "area": "油麻地廟街",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%88%88%E8%A8%98%E8%8F%9C%E9%A4%A8%20%E6%B2%B9%E9%BA%BB%E5%9C%B0%E5%BB%9F%E8%A1%9719%E8%99%9F",
+   "why": "廟街 40 多年炭爐煲仔飯；GQ Taiwan 專訪影片 56 萬觀看",
+   "source": "https://www.instagram.com/hingkeehk/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spare%20Rib%20%26%20Chicken%20Feet%20Claypot%20Rice.jpg?width=1200",
+    "credit": "Ceeseven（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "興記菜館／興記煲仔飯 官方 IG @hingkeehk",
+     "url": "https://www.instagram.com/hingkeehk/"
+    },
+    {
+     "type": "youtube",
+     "title": "深入營業43年的廟街興記煲仔飯（GQ Taiwan）",
+     "url": "https://www.youtube.com/watch?v=9-L9OqtqFIc"
+    }
+   ]
+  },
+  {
+   "name": "安德魯餅店 Lord Stow's Bakery",
+   "dish": "葡式蛋撻",
+   "price_for2_twd": 350,
+   "area": "澳門路環",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Lord%20Stow%27s%20Bakery%201%20Rua%20do%20Tassara%20Coloane",
+   "why": "1989 年把葡撻帶進澳門的始祖店，米其林指南收錄",
+   "source": "https://guide.michelin.com/th/th/macau-region/macau/restaurant/lord-stow-s-bakery-rua-do-tassara",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portuguese%20egg%20tart%20in%20Macau.jpg?width=1200",
+    "credit": "Pauloleong2002（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Lord Stow's Bakery 品牌 IG（菲律賓分店帳號，總店在路環）",
+     "url": "https://www.instagram.com/lordstowsbakeryph/"
+    },
+    {
+     "type": "youtube",
+     "title": "路環安德魯（澳門3.3）",
+     "url": "https://www.youtube.com/watch?v=LxaEseHMA50"
+    }
+   ]
+  },
+  {
+   "name": "大利來記豬扒包",
+   "dish": "炭烤豬扒包（約 MOP 40）＋奶茶",
+   "price_for2_twd": 470,
+   "area": "澳門氹仔",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%88%A9%E4%BE%86%E8%A8%98%20%E6%B0%B9%E4%BB%94%E5%91%8A%E5%88%A9%E9%9B%85%E6%96%BD%E5%88%A9%E8%8F%AF%E8%A1%9735%E8%99%9F",
+   "why": "50 多年老店、下午 3 點出爐大排長龍；Hunting Archer 影片 5 萬觀看",
+   "source": "https://tw.trip.com/blog/macau-taipa-food/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pork%20chop%20bun%20with%20ice%20milk%20tea.jpg?width=1200",
+    "credit": "K.Y.K.Z.K.（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "大利來記豬扒包 IG 地點頁（新加坡分店，總店在氹仔）",
+     "url": "https://www.instagram.com/explore/locations/518550680/singapore/singapore/tai-lei-loi-kei/?hl=en-gb"
+    },
+    {
+     "type": "youtube",
+     "title": "官也街大排長龍！大利來記豬扒包（Hunting Archer）",
+     "url": "https://www.youtube.com/watch?v=7STN17d07mo"
+    }
+   ]
+  },
+  {
+   "name": "瑪嘉烈蛋撻 Margaret's Café e Nata",
+   "dish": "葡式蛋撻（約 MOP 10）",
+   "price_for2_twd": 160,
+   "area": "澳門新馬路",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Margaret%27s%20Cafe%20e%20Nata%20Macau",
+   "why": "和安德魯並列澳門兩大葡撻，Tripadvisor 評論常拿來對決；週三與大節日休",
+   "source": "https://www.tripadvisor.com/ShowUserReviews-g664891-d1103906-r562596839-Margaret_s_Cafe_e_Nata-Macao.html",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MARGARET%E2%80%99S%20CAFE%20e%20NATA%2C%20Macau%2C%20%E7%91%AA%E5%98%89%E7%83%88%E8%9B%8B%E6%92%BB%2C%20%E7%91%AA%E5%98%89%E7%83%88%2C%20%E6%96%B0%E9%A6%AC%E8%B7%AF%2C%20%E6%BE%B3%E9%96%80%20%2817310271471%29.jpg?width=1200",
+    "credit": "bryan...（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "澳門挞皇 Macao Emper Tart IG（瑪嘉烈休息時的備案）",
+     "url": "https://www.instagram.com/macaoempertart/"
+    },
+    {
+     "type": "official",
+     "title": "Margaret's Café e Nata Facebook",
+     "url": "https://www.facebook.com/profile.php?id=178513558829490"
+    }
+   ],
+   "note": "瑪嘉烈本身查不到 IG，ig 連結放的是附近替代葡撻店澳門挞皇"
+  }
+ ],
+ "challenges": [
+  {
+   "name": "龍脊步道（港島徑第 8 段）",
+   "what": "沿山脊走到大浪灣，海景一路相伴",
+   "price_for2_twd": 60,
+   "duration": "2–2.5 小時、約 7.5 公里",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://hiking.gov.hk/trail/info/id/UWgvZytZSlRrcnBJSU5DWVZUa2pyUT09",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%9F%E5%9C%B0%E7%81%A3%20%E5%B7%B4%E5%A3%AB%E7%AB%99%20%E7%9F%B3%E6%BE%B3%E9%81%93%20%E9%BE%8D%E8%84%8A",
+   "note": "12 月乾燥涼爽最適合；比獅子山好走，想更硬可改獅子山（黃大仙出發約 3 小時）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BE%99%E8%84%8A%E5%BE%84%20-%20Dragon%27s%20Back%20Trail%20-%202015.01%20-%20panoramio.jpg?width=1200",
+    "credit": "rheins（Wikimedia Commons）",
+    "license": "CC BY 3.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "香港郊野遊樂徑：龍脊",
+     "url": "https://hiking.gov.hk/trail/info/id/UWgvZytZSlRrcnBJSU5DWVZUa2pyUT09"
+    },
+    {
+     "type": "youtube",
+     "title": "港島「龍脊」最詳細路線（艾瑪的生活日記）",
+     "url": "https://www.youtube.com/watch?v=q52NprRN99s"
+    }
+   ]
+  },
+  {
+   "name": "西貢地質公園快艇／遊艇團",
+   "what": "看六角岩柱、海蝕洞、海蝕拱，部分團可穿洞",
+   "price_for2_twd": 3940,
+   "duration": "2–4 小時",
+   "booking": "需預約",
+   "season_ok": true,
+   "url": "https://splitdyboat.com/collections/4-best-hong-kong-geopark-tour",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E8%B2%A2%E5%85%AC%E7%9C%BE%E7%A2%BC%E9%A0%AD%20Sai%20Kung%20Public%20Pier",
+   "note": "每人約 HK$480；冬天浪大可能改線或取消，浮潛只適合夏天；想更刺激可選海岸攀爬穿洞團 HK$580／人",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hexagonal%20volcanic%20tuffs%20at%20East%20Dam%20of%20High%20Island%20Reservoir%201.jpg?width=1200",
+    "credit": "Minghong（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Splitdyboat：地質公園海岸攀爬穿洞團",
+     "url": "https://splitdyboat.com/products/geopark-coasteering-tour-thorugh-hong-kongs-longest-sea-cave"
+    },
+    {
+     "type": "official",
+     "title": "旅發局：R2G 西貢火山岩船遊",
+     "url": "https://www.discoverhongkong.com/eng/outdoors/r2g-boat-tour-geopark.html"
+    },
+    {
+     "type": "youtube",
+     "title": "四洞火山導賞團 遊艇版（Splitdyboat）",
+     "url": "https://www.youtube.com/watch?v=bEsw93-Jd28"
+    }
+   ]
+  },
+  {
+   "name": "澳門旅遊塔高空彈跳（AJ Hackett）",
+   "what": "233 公尺高空彈跳，曾是世界最高商業彈跳",
+   "price_for2_twd": 24700,
+   "duration": "含報到約 2 小時",
+   "booking": "需預約",
+   "season_ok": true,
+   "url": "https://www.ajhackett.com/macau/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Macau%20Tower%20AJ%20Hackett",
+   "note": "官方價約 MOP 3,088／人（兩人都跳的價格；行程預算只算一人跳），不同平台價差大，以官網為準（待確認）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bungee%20jumping%20from%20Macau%20Tower%2C%202009%20%283455431798%29.jpg?width=1200",
+    "credit": "Sylvain Kalache from San Francisco, USA（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "AJ Hackett Macau",
+     "url": "https://www.ajhackett.com/macau/"
+    },
+    {
+     "type": "youtube",
+     "title": "澳門旅遊塔高空彈跳第一視角（Quetzal）",
+     "url": "https://www.youtube.com/watch?v=ys7bhVH2aGw"
+    },
+    {
+     "type": "youtube",
+     "title": "有咩驚得過跳一次笨豬跳？跳兩次囉！（歡樂馬介休）",
+     "url": "https://www.youtube.com/watch?v=yICLU2zIoe4"
+    }
+   ]
+  },
+  {
+   "name": "澳門塔 Skywalk 塔頂外圍行",
+   "what": "掛安全繩在 61 樓外圈無欄杆步道走一圈",
+   "price_for2_twd": 6300,
+   "duration": "約 1 小時",
+   "booking": "建議預約",
+   "season_ok": true,
+   "url": "https://www.ajhackett.com/macau/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Macau%20Tower%20Skywalk",
+   "note": "部落格寫約 MOP 788／人（含觀光層），不想跳的人選這個（待確認）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Torre%20de%20Macao%2C%202013-08-08%2C%20DD%2004.jpg?width=1200",
+    "credit": "Diego Delso（Wikimedia Commons）",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "blog",
+     "title": "Macau Skywalk Review",
+     "url": "https://droneandslr.com/travel-blog/macau/macau-skywalk-review/"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 12506,
+  "stay_for2": 22372,
+  "food_for2": [
+   19000,
+   23000
+  ],
+  "transport_for2": [
+   5300,
+   6500
+  ],
+  "activities_for2": [
+   8040,
+   17240
+  ],
+  "total_for2": [
+   67218,
+   96185
+  ],
+  "note": "機票＝台中直飛 6,253×2；住宿低估＝頤庭上環 3 晚 18,455＋君怡 3,917，高估＝港青 29,908＋雅辰 7,031（11/01 Booking）；吃喝＝行程各站估價加總約 19,300（餐 10,900＋四晚酒吧 8,400）＋零食咖啡；交通＝機場快線、八達通、港澳船、計程車、金巴；活動＝山頂纜車 950＋西貢船 3,940＋澳門塔（低＝一人 Skywalk 3,150，高＝一人高空彈跳 12,350）。匯率以 HK$1≈NT$4.1、MOP1≈NT$4.0 估（待確認）。"
+ },
+ "weather": {
+  "high_c": 19,
+  "low_c": 14,
+  "conditions": "乾季，多晴少雨，偶有東北季風轉涼",
+  "sunrise": "07:03",
+  "sunset": "17:50",
+  "wear": "長袖＋薄外套就夠，跨年夜海邊與澳門塔風大加一件防風外套；健行穿運動鞋"
+ },
+ "events": [
+  {
+   "date": "12/31",
+   "name": "香港除夕倒數（維港煙火待公告）",
+   "note": "2025 因大埔宏福苑火災取消煙火、改中環遮打道倒數；2026 國慶 10/1 煙火已恢復，局長 6/30 說今年跨年倒數會更大型，但截至 11/01 還沒公告有沒有煙火",
+   "url": "https://news.tvb.com/tc/1179875-RosannaLawlargerNYcountdowntostage"
+  },
+  {
+   "date": "12/31",
+   "name": "蘭桂坊跨年派對",
+   "note": "每年德己立街都擠滿人，警方人流管制",
+   "url": "https://www.instagram.com/lankwaifonghk/"
+  },
+  {
+   "date": "12/31",
+   "name": "澳門旅遊塔除夕煙火（備案）",
+   "note": "往年曾在旅遊塔放煙火配合西灣湖倒數，2026 待確認；若香港沒煙火，可把澳門改到 12/31 住",
+   "url": ""
+  }
+ ],
+ "prep": [
+  {
+   "item": "香港「網上預辦入境登記」（台灣居民免費，有效 2 個月、可入境 2 次、每次 30 天），印出通知書",
+   "when": "12 月初申請（有效期 2 個月，太早申請會過期）",
+   "url": "https://www.immd.gov.hk/hkt/services/visas/pre-arrival_registration_for_taiwan_residents.html"
+  },
+  {
+   "item": "澳門入境：台灣護照效期 6 個月以上免簽 30 天，不用台胞證；入境拿小白單保留到出境",
+   "when": "出發前確認護照效期",
+   "url": "https://uptogo.com.tw/旅遊/台灣人去澳門用什麼證件？/"
+  },
+  {
+   "item": "訂機票（香港快運 RMQ⇄HKG 12/29 10:10、1/2 16:50）",
+   "when": "越早越好",
+   "url": "https://www.hkexpress.com/"
+  },
+  {
+   "item": "訂飯店（上環頤庭 3 晚＋澳門君怡 1 晚，選可免費取消）",
+   "when": "11 月中前",
+   "url": "https://www.booking.com/hotel/hk/eco-tree.zh-tw.html"
+  },
+  {
+   "item": "預約西貢地質公園船團 12/31 上午（選可因天候改期的）",
+   "when": "12 月中前",
+   "url": "https://splitdyboat.com/collections/4-best-hong-kong-geopark-tour"
+  },
+  {
+   "item": "預約澳門塔高空彈跳或 Skywalk 1/1 11:15 時段",
+   "when": "12 月中前",
+   "url": "https://www.ajhackett.com/macau/"
+  },
+  {
+   "item": "買 1/1 上環→澳門噴射飛航船票（假日班次會滿）",
+   "when": "12 月中",
+   "url": "https://www.turbojet.com.hk/"
+  },
+  {
+   "item": "查旅發局 12/31 倒數與煙火公告、港鐵通宵與封站安排",
+   "when": "12 月初",
+   "url": "https://www.discoverhongkong.com/"
+  },
+  {
+   "item": "手機加八達通、換一點港幣（澳門也收港幣）",
+   "when": "出發前",
+   "url": ""
+  }
+ ],
+ "risks": [
+  "維港跨年煙火到 11/01 還沒公告，可能只有燈光秀或倒數表演",
+  "12/31 西貢船遇東北季風可能取消；備案改走西貢市區＋橋咀洲或麥理浩徑短段",
+  "Bar Leone 不收訂位，熱門時段可能排 1–3 小時",
+  "瑪嘉烈蛋撻週三與大節日休；大利來記豬扒包 15:00 才出爐",
+  "1/1 澳門假日人多，噴射船與澳門塔要先訂",
+  "香港快運不含托運；匯率以 HK$1≈NT$4.1 估"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：奶茶與山頂",
+    "icons": [
+     "plane",
+     "coffee",
+     "tower",
+     "beer"
+    ],
+    "caption": "茶記、夜景、世界第一酒吧"
+   },
+   {
+    "title": "第二天：龍脊健行",
+    "icons": [
+     "hike",
+     "beach",
+     "ferry",
+     "beer"
+    ],
+    "caption": "走山脊、坐渡輪、118 樓"
+   },
+   {
+    "title": "第三天：出海跨年",
+    "icons": [
+     "boat",
+     "seafood",
+     "fireworks",
+     "beer"
+    ],
+    "caption": "火山岩海洞＋維港倒數"
+   },
+   {
+    "title": "第四天：澳門跳塔",
+    "icons": [
+     "ferry",
+     "tower",
+     "dessert",
+     "night"
+    ],
+    "caption": "高空彈跳、豬扒包"
+   },
+   {
+    "title": "第五天：蛋撻回家",
+    "icons": [
+     "dessert",
+     "bus",
+     "bridge",
+     "plane"
+    ],
+    "caption": "路環蛋撻、過大橋"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "不踩雷的香港美食之旅：叉燒飯、雲吞麵、蛋撻、世界第一酒吧｜2026 Hong Kong",
+   "channel": "心甜 Christy",
+   "url": "https://www.youtube.com/watch?v=_qzIzi57qTY",
+   "takeaway": "2026 年最新的吃喝路線，確認 Bar Leone 值得排"
+  },
+  {
+   "title": "週末快閃香港：必吃人氣茶餐廳、蘭桂坊超神酒吧",
+   "channel": "R榮",
+   "url": "https://www.youtube.com/watch?v=bcXfx1knvhU",
+   "takeaway": "茶餐廳＋蘭桂坊夜生活的節奏參考（30 萬觀看）"
+  },
+  {
+   "title": "香港燒鵝獵人！米其林1星一樂燒鵝、甘牌",
+   "channel": "A/DA阿達",
+   "url": "https://www.youtube.com/watch?v=UVFb8VexDyY",
+   "takeaway": "選一樂燒鵝當第一晚晚餐"
+  },
+  {
+   "title": "港島「龍脊」最詳細路線、交通、必打卡景點",
+   "channel": "艾瑪的生活日記",
+   "url": "https://www.youtube.com/watch?v=q52NprRN99s",
+   "takeaway": "9 號巴士土地灣上山、大浪灣下山的走法"
+  },
+  {
+   "title": "2026澳門一日遊新手全攻略：大三巴、威尼斯人",
+   "channel": "小LAM娛樂",
+   "url": "https://www.youtube.com/watch?v=Sp6wOHUysFM",
+   "takeaway": "澳門半島→路氹的順路走法"
+  },
+  {
+   "title": "【澳門旅遊塔】高空彈跳初體驗 第一視角",
+   "channel": "Quetzal丨生活探索筆記",
+   "url": "https://www.youtube.com/watch?v=ys7bhVH2aGw",
+   "takeaway": "報到流程與實際花多久"
+  },
+  {
+   "title": "Hong Kong New Year Countdown Live Stream 香港跨年倒數演出直播",
+   "channel": "HONG KONG（旅發局）",
+   "url": "https://www.youtube.com/watch?v=2UeTeV4rDFY",
+   "takeaway": "2025 沒煙火時的中環倒數長什麼樣（110 萬觀看）"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20RMQ%20on%202026-12-29%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20TPE%20on%202026-12-29%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.booking.com/searchresults.zh-tw.html?ss=%E6%BE%B3%E9%96%80&checkin=2027-01-01&checkout=2027-01-02&group_adults=2",
+  "https://www.timeout.com/hong-kong/news/hong-kongs-popular-new-years-eve-fireworks-have-been-cancelled-121825",
+  "https://abcnews.go.com/amp/Lifestyle/wireStory/hong-kong-rings-2026-fireworks-after-deadliest-blaze-128799491",
+  "https://news.tvb.com/tc/1179875-RosannaLawlargerNYcountdowntostage",
+  "https://www.thestandard.com.hk/news/article/341648/Sun-Life-sponsors-National-Day-fireworks-as-31888-bursts-set-to-light-HK-skies",
+  "https://www.immd.gov.hk/hkt/services/visas/pre-arrival_registration_for_taiwan_residents.html",
+  "https://uptogo.com.tw/旅遊/台灣人去澳門用什麼證件？/",
+  "https://www.humanresourcesonline.net/ferry-fares-between-hong-kong-and-macao-to-rise-from-25-april-2026-chi",
+  "https://www.moneyhero.com.hk/blog/zh/%E6%B8%AF%E7%8F%A0%E6%BE%B3%E5%A4%A7%E6%A9%8B-%E6%BE%B3%E9%96%80-%E7%8F%A0%E6%B5%B7-%E9%87%91%E5%B7%B4-%E7%9B%B4%E9%80%9A%E5%B7%B4%E5%A3%AB-%E8%88%B9-%E8%BB%8A%E8%B2%BB-%E6%99%82%E9%96%93",
+  "https://www.wanderinchina.com/zh/destinations/hongkong/best-bars/",
+  "https://www.thestandard.com.hk/news/article/344956/Bar-Leone-named-Worlds-Best-Bar-for-second-consecutive-time",
+  "https://www.timeout.com/macau/bars-and-pubs/the-macallan-whisky-bar-lounge",
+  "https://www.discoverhongkong.com/eng/outdoors/r2g-boat-tour-geopark.html",
+  "https://splitdyboat.com/collections/4-best-hong-kong-geopark-tour",
+  "https://www.ajhackett.com/macau/",
+  "https://hiking.gov.hk/trail/info/id/UWgvZytZSlRrcnBJSU5DWVZUa2pyUT09",
+  "https://news.rthk.hk/rthk/en/component/k2/1837108-20251222.htm"
+ ],
+ "checked": "2026-11-01"
+}
