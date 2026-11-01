@@ -1,0 +1,1842 @@
+{
+ "id": "auckland",
+ "name": "奧克蘭＋北島自駕",
+ "subtitle": "全世界第一個跨年的夏天",
+ "country": "紐西蘭",
+ "flag": "NZ",
+ "motif": "car",
+ "palette": {
+  "primary": "#14A89B",
+  "secondary": "#F2545B",
+  "soft": "#E8F7F4"
+ },
+ "tagline": "最早跨年，再開車去冒險",
+ "summary": "紐航桃園直飛，奧克蘭住 3 晚：從天空塔跳下、爬火山島、在港邊看全世界第一批跨年煙火、隔天搭船去懷赫科島酒莊。接著機場取車自駕 3 天：哈比屯、羅托魯瓦泡溫泉、衝 7 公尺瀑布泛舟、毛利地窯晚宴。每晚一間酒吧，回程 1/5 傍晚就到台灣。",
+ "dates": {
+  "out": "12/29",
+  "back": "1/5",
+  "nights": 6,
+  "why": "奧克蘭直飛只有紐西蘭航空（長榮共掛）每天一班：桃園 18:45 → 隔天 10:25、回程 10:45 → 當天 17:00 到桃園。11/01 Google 航班實查 12/29→1/5 每人 39,873（10/31 是 38,123）。12/28、12/30 沒有直飛；12/31 出發同價但 1/1 才落地、會錯過跨年；回 1/6 那班 17:00 才到，超過 1/6 08:00 期限。其他可行組合：12/27→1/2 每人 49,123、12/29→1/3 每人 51,623（10/31 價），都比主推貴 1 萬以上還少玩。"
+ },
+ "flights": [
+  {
+   "from": "TPE",
+   "to": "AKL",
+   "airline": "紐西蘭航空 NZ（長榮共掛）",
+   "out": "12/29 18:45→12/30 10:25",
+   "back": "1/5 10:45→1/5 17:00",
+   "price_pp_twd": 39873,
+   "baggage": "全服務經濟艙，含托運（件數／公斤依票種，待確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20AKL%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "Google 航班 11/01 實查直飛來回（10/31 研究-初篩-L 為 38,123）。去程晚班、回程早上班，不完全符合「去早回晚」，但回程白天飛、傍晚就到家。台中 RMQ 沒有直飛（沿用研究-初篩-L）。主推"
+  },
+  {
+   "from": "TPE",
+   "to": "AKL",
+   "airline": "紐西蘭航空 NZ（長榮共掛）",
+   "out": "12/27 18:45→12/28 10:25",
+   "back": "1/2 10:45→1/2 17:00",
+   "price_pp_twd": 49123,
+   "baggage": "同上",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20AKL%20from%20TPE%20on%202026-12-27%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-31",
+   "basis": "沿用研究-初篩-L（10/31 Google 航班）：備案，想早點回台灣時用；時刻沿用每日班表，待確認"
+  },
+  {
+   "from": "TPE",
+   "to": "AKL",
+   "airline": "紐西蘭航空 NZ（長榮共掛）",
+   "out": "12/29 18:45→12/30 10:25",
+   "back": "1/3 10:45→1/3 17:00",
+   "price_pp_twd": 51623,
+   "baggage": "同上",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20AKL%20from%20TPE%20on%202026-12-29%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-10-31",
+   "basis": "沿用研究-初篩-L（10/31）：少玩 2 天反而每人貴 1.2 萬，不推"
+  }
+ ],
+ "getting_around": {
+  "mode": "混合",
+  "license": "台灣駕照不是英文，要帶「台灣駕照正本＋國際駕照」（或紐西蘭交通署 NZTA 認可的英文譯本）。國際駕照到任一監理站臨櫃辦：身分證、駕照正本、護照影本、2 吋照片 2 張，規費約 NT$250、當場拿。NZTA 規定觀光客可用外國汽車駕照開 18 個月（從最後一次入境算），非英文駕照要附準確英譯或國際駕照。租車公司另有年齡限制（多數 21 歲以上）。",
+  "rental": {
+   "company": "Kayak 比價（DiscoverCars／Booking.com 等，供應商取車時決定）",
+   "car": "經濟或小型車自排（Nissan March、Toyota Prius c 同級）",
+   "days": 3,
+   "price_total_twd": 4217,
+   "insurance": "基本價通常含基本險但自負額很高（常見 NZ$3,000–5,000，待確認）；建議加購零自負額全險，約 NZ$25–35／天（待確認）",
+   "pickup": "奧克蘭機場（1/2 09:00 取、1/5 07:00 還）",
+   "source": "https://www.kayak.com.au/cars/Auckland-Airport,Auckland,New-Zealand/2027-01-02-09h/2027-01-05-07h?sort=price_a",
+   "note": "Kayak 11/01 實查：3 天經濟車最低 A$184（DiscoverCars，機場外接駁取車，約 NT$4,217），Booking.com 同級 A$321（約 NT$7,357）；另估油錢 NZ$100（約 500 公里）。市區那 3 天不租車，省停車費"
+  },
+  "road_notes": [
+   "靠左行駛、右駕，跟台灣相反；轉彎後要開進左側車道，雨刷和方向燈桿常相反",
+   "圓環順時針，讓右邊已在圓環裡的車；路口「左轉讓右轉」規則跟台灣不同，看 NZTA 道路規則",
+   "北島國道 SH1／SH27／SH5 多是一線雙向，速限 100 km/h（市區 50）；超車只在 passing lane 超，山路會有慢車讓道區",
+   "1/2 出城、1/3–1/4 回城是假期車潮，SH1 南出奧克蘭和回程常塞，抓多 30–60 分；暑假也是道路施工季",
+   "這條路線沒有收費道路；奧克蘭北邊 Northern Gateway、Tauranga 一帶才收費（租車多可事後扣款）",
+   "酒駕標準嚴格（20 歲以上血液 0.05%）；每晚酒吧都選住處走路可到的，喝了就不開",
+   "加油多是自助、先刷卡；羅托魯瓦到處有硫磺味是正常的",
+   "奧克蘭市區停車貴（SkyCity 一天約 NZ$40 起，待確認），所以市區三天不租車"
+  ],
+  "public": [
+   "奧克蘭公車、火車、渡輪都能直接感應 Visa／Mastercard 或 AT HOP 卡",
+   "機場 → 市區：AirportLink 公車到 Puhinui 站轉火車到 Britomart，每人約 NZ$6.5；SkyBus 已在 2021 年停駛",
+   "夏天 AT 常有鐵路施工停駛（Rail Network Rebuild），出發前查 at.govt.nz；有行李建議 Uber（市區約 NZ$80–100，待確認）",
+   "Fullers360：懷赫科島標準來回 NZ$65／人；Rangitoto 夏季來回約 NZ$60／人，要先訂",
+   "懷赫科島上有 AT 公車連 Matiatia 碼頭、Oneroa、Onetangi，同樣感應付款"
+  ]
+ },
+ "stays": [
+  {
+   "name": "SkyCity Hotel Auckland",
+   "area": "市中心（天空塔正下方）",
+   "nights": 3,
+   "price_night_for2_twd": 7870,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=SkyCity+Hotel+Auckland&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=SkyCity%20Hotel%20Auckland%2090%20Federal%20Street",
+   "why": "11/01 Booking 實查 12/30→1/2 三晚 NT$23,611、評分 8.8；就在天空塔下，SkyJump、Depot 都在門口，跨年散場走回來 12 分"
+  },
+  {
+   "name": "柯蒂斯朗廷 Cordis Auckland",
+   "area": "市中心上方（Symonds St）",
+   "nights": 3,
+   "price_night_for2_twd": 8063,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Cordis+Auckland&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Cordis%20Auckland%2083%20Symonds%20Street",
+   "why": "備案：11/01 Booking 三晚 NT$24,190、評分 8.7、4,398 則評論；離港邊遠一點（走 25 分）"
+  },
+  {
+   "name": "Quest Rotorua Central",
+   "area": "羅托魯瓦市中心（離 Eat Streat 300 公尺）",
+   "nights": 2,
+   "price_night_for2_twd": 4847,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Quest+Rotorua+Central&checkin=2027-01-02&checkout=2027-01-04&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Quest%20Rotorua%20Central%201192%20Hinemoa%20Street%20Rotorua",
+   "why": "11/01 Booking 實查 1/2→1/4 兩晚 NT$9,693、評分 8.7；公寓式有小廚房，走路到美食街和酒吧，晚上不用開車"
+  },
+  {
+   "name": "Pullman Rotorua",
+   "area": "羅托魯瓦市中心",
+   "nights": 2,
+   "price_night_for2_twd": 10690,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Pullman+Rotorua&checkin=2027-01-02&checkout=2027-01-04&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Pullman%20Rotorua%201135%20Arawa%20Street%20Rotorua",
+   "why": "想升級才選：11/01 Booking 兩晚 NT$21,380、評分 8.4"
+  },
+  {
+   "name": "Abaco on Jervois",
+   "area": "Ponsonby／Herne Bay（Jervois Rd）",
+   "nights": 1,
+   "price_night_for2_twd": 3327,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Abaco+on+Jervois&checkin=2027-01-04&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Abaco%20on%20Jervois%2059%20Jervois%20Road%20Ponsonby%20Auckland",
+   "why": "11/01 Booking 實查 1/4→1/5 一晚 NT$3,327、評分 8.5、離 Ponsonby 0.7 公里；跟 FishSmith 同一條路，停車情況待確認"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "落地就從塔上跳",
+   "area": "奧克蘭市中心／Wynyard／Viaduct",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "前一晚 18:45 從桃園飛，早上 10:25 到奧克蘭；先放行李吃海鮮，下午從天空塔 192 公尺跳下來，晚上吃綠唇貽貝、屋頂啤酒看夕陽。",
+   "stops": [
+    {
+     "time": "10:25",
+     "name": "奧克蘭機場 → 市區（Uber 或 AirportLink＋火車）",
+     "kind": "transport",
+     "stay_min": 75,
+     "desc": "紐航直飛 10:25 落地。行李多就叫 Uber（約 30–40 分）；省錢搭橘色 AirportLink 公車到 Puhinui 站轉火車到 Britomart，每人約 NZ$6.5。注意：機場巴士 SkyBus 已停駛，舊部落格別照抄。",
+     "price_for2_twd": 1650,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Auckland%20Airport%20International%20Terminal",
+     "site_url": "https://at.govt.nz/AirportLink",
+     "address": "Auckland Airport, Ray Emery Drive, Māngere",
+     "tip": "入境要申報所有食物，沒申報被查到當場罰 NZ$400；夏天鐵路常有施工停駛，出發前看 AT 公告",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Auckland%20airport%20international%20terminal.jpg?width=1200",
+      "credit": "Wangi（Wikimedia Commons）",
+      "license": "CC BY 2.5"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Auckland Transport：AirportLink 公車",
+       "url": "https://at.govt.nz/AirportLink"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "Auckland Fish Market（Sanford and Sons 魚舖）",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "Wynyard Quarter 的魚市場美食廣場，紐西蘭最老的魚商 Sanford and Sons 進駐，現開生蠔、綠唇貽貝、生魚片。兩人約 NZ$70。",
+     "price_for2_twd": 1290,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Auckland%20Fish%20Market%2022-32%20Jellicoe%20Street%20Wynyard%20Quarter%20Auckland",
+     "site_url": "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips",
+     "address": "Jellicoe St, Wynyard Quarter, Auckland",
+     "tip": "週間中午人少；吃完沿海港步道走回市區約 15 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20lipped%20Mussels%20--%20Auckland%20Fish%20Market%20and%20Seafood%20School%20in%20New%20Zealand%20%2850870863758%29.jpg?width=1200",
+      "credit": "Joe Ross from Lansing, Michigan（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Auckland Fish Market Instagram @aucklandfishmarket",
+       "url": "https://www.instagram.com/aucklandfishmarket/"
+      },
+      {
+       "type": "ig",
+       "title": "Sanford and Sons Instagram @sanfordandsonsnz",
+       "url": "https://www.instagram.com/sanfordandsonsnz/"
+      },
+      {
+       "type": "blog",
+       "title": "Auckland 官方觀光：最好吃的炸魚薯條（含魚市場）",
+       "url": "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips"
+      }
+     ]
+    },
+    {
+     "time": "15:00",
+     "name": "天空塔 SkyJump 192 公尺高空降落",
+     "kind": "challenge",
+     "stay_min": 120,
+     "desc": "掛著鋼索從南半球最高建築之一的 192 公尺平台跳下，約 11 秒落到 SkyCity 廣場。官方價每人 NZ$330；怕的話改 SkyWalk（在塔外 1.2 公尺寬走道繞一圈，NZ$215）。",
+     "price_for2_twd": 12120,
+     "booking": "需預約",
+     "booking_url": "https://www.bungy.co.nz/auckland/sky-tower/skyjump/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=AJ%20Hackett%20SkyJump%20Sky%20Tower%20Victoria%20Street%20West%20Auckland",
+     "site_url": "https://www.bungy.co.nz/auckland/sky-tower/skyjump/",
+     "address": "Sky Tower, Victoria St W & Federal St, Auckland",
+     "tip": "體重 35–150 公斤；一人跳一人走 SkyWalk 也行，或兩樣都玩買套票 NZ$445／人；12/31 天空塔要架煙火，不要排那天",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sky%20Jump%20%287187521210%29.jpg?width=1200",
+      "credit": "Simon_sees from Australia（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "AJ Hackett Bungy NZ Instagram @ajhackettbungynz",
+       "url": "https://www.instagram.com/ajhackettbungynz/"
+      },
+      {
+       "type": "youtube",
+       "title": "SkyJump - Auckland, New Zealand（AJ Hackett Bungy NZ）",
+       "url": "https://www.youtube.com/watch?v=T07wc-u7oMA"
+      },
+      {
+       "type": "official",
+       "title": "AJ Hackett SkyJump 官方（價格、限制）",
+       "url": "https://www.bungy.co.nz/auckland/sky-tower/skyjump/"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "Depot Eatery & Oyster Bar（柴燒綠唇貽貝＋燉羊頸）",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "名廚 Al Brown 的紐西蘭小盤菜，就在天空塔旁。菜單有柴燒紐西蘭綠唇貽貝 NZ$23、燉羊頸 NZ$50、各產地生蠔每顆 NZ$6–9。兩人約 NZ$150。",
+     "price_for2_twd": 2750,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Depot%20Eatery%2086%20Federal%20Street%20Auckland",
+     "site_url": "https://depoteatery.co.nz/",
+     "address": "86 Federal Street, Auckland 1010",
+     "tip": "不收訂位、人多要排；10 月菜單價格，12 月可能換菜",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green-lipped%20mussels%20in%20coconut%20milk%2C%20with%20buttered%20bread%20-%20Picton%2C%20New%20Zealand.jpg?width=1200",
+      "credit": "Daderot（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Depot Oyster Bar & Eatery Instagram @depoteatery",
+       "url": "https://www.instagram.com/depoteatery/"
+      },
+      {
+       "type": "official",
+       "title": "Depot 官網菜單",
+       "url": "https://depoteatery.co.nz/"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Dr Rudi's Rooftop Brewing（酒吧：屋頂自釀啤酒）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "Viaduct 港邊屋頂自釀啤酒廠，看港灣夕陽（日落約 20:40）。兩人各兩杯約 NZ$60。",
+     "price_for2_twd": 1100,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Rudi%27s%20Rooftop%20Brewing%20Co%20Viaduct%20Harbour%20Auckland",
+     "site_url": "https://drrudis.co.nz/",
+     "address": "Viaduct Harbour, Auckland CBD",
+     "tip": "第一晚時差，喝兩杯就回飯店，走路 10 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Viaduct%20Harbour%2C%20Auckland%20%282%29.jpg?width=1200",
+      "credit": "Radosław Botev（Wikimedia Commons）",
+      "license": "CC BY 3.0 pl"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Dr Rudi's Rooftop Brewing Co. Instagram @drrudis",
+       "url": "https://www.instagram.com/drrudis/"
+      },
+      {
+       "type": "official",
+       "title": "Dr Rudi's 官網",
+       "url": "https://drrudis.co.nz/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "火山島＋跨年",
+   "area": "Britomart／Rangitoto 島／Viaduct",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上搭船爬 600 年前噴發的 Rangitoto 火山，中午回來休息、吃冰；晚上吃一頓好的，午夜在港邊看天空塔煙火，全世界第一批跨年。",
+   "stops": [
+    {
+     "time": "08:00",
+     "name": "Espresso Workshop（平白咖啡 flat white）",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "Britomart 的在地烘豆咖啡店，點紐西蘭人天天喝的平白咖啡配可頌。兩人約 NZ$25。",
+     "price_for2_twd": 460,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Espresso%20Workshop%20Britomart%20Auckland",
+     "site_url": "https://www.espressoworkshop.co.nz/",
+     "address": "Britomart, Auckland CBD",
+     "tip": "離渡輪碼頭走路 3 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flat%20white%20coffee%20with%20pretty%20feather%20pattern.jpg?width=1200",
+      "credit": "GeorgeMichaelFarewell（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Espresso Workshop Coffee Roasters Instagram @espressoworkshop",
+       "url": "https://www.instagram.com/espressoworkshop/"
+      },
+      {
+       "type": "official",
+       "title": "Espresso Workshop 官網",
+       "url": "https://www.espressoworkshop.co.nz/"
+      }
+     ]
+    },
+    {
+     "time": "09:15",
+     "name": "Rangitoto 火山島登頂健行",
+     "kind": "challenge",
+     "stay_min": 270,
+     "desc": "Fullers360 渡輪 25 分鐘上島，走 2.3 公里火山岩步道爬升 260 公尺到山頂火山口，回程繞熔岩洞，來回 2–3 小時。船票夏季成人來回約 NZ$60。",
+     "price_for2_twd": 2200,
+     "booking": "需預約",
+     "booking_url": "https://www.fullers.co.nz/destinations-and-experiences/destinations/rangitoto-island/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Rangitoto%20Island%20Summit%20Track%20Auckland",
+     "site_url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/rangitoto-island/tracks/rangitoto-island-track/",
+     "address": "Downtown Ferry Terminal Pier 13 → Rangitoto Wharf",
+     "tip": "船票要先訂、當天沒有現場票；島上沒有商店，自帶水和午餐；黑色火山岩很曬，戴帽子；看清楚最後一班回程船",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rangitoto%20Island%20view%20of%20Auckland%20from%20Summit%20Track.jpg?width=1200",
+      "credit": "BrysonH44（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Ferry To Auckland's Largest Volcano Island With a Hike To The Summit（SteveMarsh）",
+       "url": "https://www.youtube.com/watch?v=BH14vtHs9dw"
+      },
+      {
+       "type": "official",
+       "title": "DOC 保育部：Rangitoto Summit Track",
+       "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/rangitoto-island/tracks/rangitoto-island-track/"
+      },
+      {
+       "type": "ig",
+       "title": "Fullers360 渡輪 Instagram @fullers360",
+       "url": "https://www.instagram.com/fullers360/"
+      }
+     ]
+    },
+    {
+     "time": "15:00",
+     "name": "Giapo（Hokey Pokey 冰淇淋）",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "奧克蘭最有名的創意冰淇淋店，有包巧克力、撒蜂巢糖的 Hokey Pokey 甜筒（紐西蘭國民口味：香草冰淇淋＋焦糖蜂巢糖粒）。兩人約 NZ$40。",
+     "price_for2_twd": 730,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Giapo%2012%20Gore%20Street%20Auckland",
+     "site_url": "https://www.giapo.com/",
+     "address": "12 Gore Street, Auckland CBD",
+     "tip": "超市的 Tip Top Hokey Pokey 一大盒才幾塊錢，可以買回飯店比較",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokey%20pokey%20ice%20cream.jpg?width=1200",
+      "credit": "Finbar.concaig（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "GIAPO Instagram @giapokitchen",
+       "url": "https://www.instagram.com/giapokitchen/"
+      },
+      {
+       "type": "youtube",
+       "title": "This Ice Cream Shop Makes the Most Innovative Treats（Mashable）",
+       "url": "https://www.youtube.com/watch?v=QRC4ZmYMGuc"
+      },
+      {
+       "type": "official",
+       "title": "Giapo 官網",
+       "url": "https://www.giapo.com/"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "Ahi（紐西蘭食材、炭火烤羊）",
+     "kind": "food",
+     "stay_min": 120,
+     "desc": "名廚 Ben Bayly 在 Commercial Bay 二樓的餐廳，主打紐西蘭食材的炭火料理（招牌之一是炭烤羊肉），有港景。品嚐菜單從 NZ$97／人起，跨年夜可能只有特別套餐。",
+     "price_for2_twd": 4770,
+     "booking": "需預約",
+     "booking_url": "https://ahirestaurant.co.nz/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Ahi%20Restaurant%20Level%202%20Commercial%20Bay%207%20Queen%20Street%20Auckland",
+     "site_url": "https://ahirestaurant.co.nz/",
+     "address": "Level 2, Commercial Bay, 7 Queen St, Auckland",
+     "tip": "跨年夜套餐價格待確認（以兩人 NZ$260 估）；吃完走 5 分鐘就到港邊",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rack%20of%20Lamb%20-%2028244734776.jpg?width=1200",
+      "credit": "HarshLight（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Ahi Instagram @ahirestaurant",
+       "url": "https://www.instagram.com/ahirestaurant/"
+      },
+      {
+       "type": "official",
+       "title": "World's 50 Best Discovery：Ahi",
+       "url": "https://theworlds50best.com/discovery/Establishments/New-Zealand/Auckland-CBD/Ahi.html"
+      }
+     ]
+    },
+    {
+     "time": "23:00",
+     "name": "Viaduct Harbour 看天空塔跨年煙火",
+     "kind": "night",
+     "stay_min": 75,
+     "desc": "2025 年版：21:00 起天空塔投影，00:00 從塔上三層放 5 分鐘、3,500 發 360 度煙火，同時港灣大橋燈光秀。港邊看得到塔也看得到橋。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Viaduct%20Harbour%20Auckland",
+     "site_url": "https://www.1news.co.nz/2025/12/31/auckland-sky-tower-fireworks-how-to-watch-on-new-years-eve",
+     "address": "Viaduct Harbour, Auckland CBD",
+     "tip": "2026 版（迎 2027）11/01 還沒公告；想要高處全景可改 Maungawhau 伊甸山或北岸 Devonport 的 Mt Victoria／North Head（要早到）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023%20New%20Year%27s%20Eve%20Firework%20Display%20Auckland.jpg?width=1200",
+      "credit": "James Shih（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Sky Tower Fireworks Best Viewing Spots in Auckland（Farrukh Ali Shah）",
+       "url": "https://www.youtube.com/watch?v=wcOwrwDSP8s"
+      },
+      {
+       "type": "blog",
+       "title": "1News：2025 天空塔煙火怎麼看（時間與觀賞點）",
+       "url": "https://www.1news.co.nz/2025/12/31/auckland-sky-tower-fireworks-how-to-watch-on-new-years-eve"
+      }
+     ]
+    },
+    {
+     "time": "00:15",
+     "name": "Danny Doolans（酒吧：愛爾蘭酒館 live band）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "Viaduct 港邊的愛爾蘭酒館，有現場樂團，煙火放完直接進去續攤。兩人約 NZ$60。",
+     "price_for2_twd": 1100,
+     "booking": "建議預約",
+     "booking_url": "https://www.dannydoolans.co.nz/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Danny%20Doolans%20204%20Quay%20Street%20Auckland",
+     "site_url": "https://www.dannydoolans.co.nz/",
+     "address": "204 Quay St W, Auckland CBD",
+     "tip": "跨年夜可能收門票或要先買票，12 月看官網；走回 SkyCity 飯店約 12 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Viaduct%20Basin%20in%20Auckland%203.jpg?width=1200",
+      "credit": "Ziqi CHAI（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Danny Doolans Instagram @dannydoolans",
+       "url": "https://www.instagram.com/dannydoolans/"
+      },
+      {
+       "type": "official",
+       "title": "Danny Doolans 官網",
+       "url": "https://www.dannydoolans.co.nz/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "酒莊小島一日",
+   "area": "懷赫科島 Waiheke",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "新年第一天睡飽，搭 40 分鐘渡輪去懷赫科島：海灘散步、酒莊吃西班牙小點、看海喝葡萄酒；傍晚回城去地下室雞尾酒吧。",
+   "stops": [
+    {
+     "time": "10:00",
+     "name": "Fullers360 渡輪 → 懷赫科島 Matiatia",
+     "kind": "transport",
+     "stay_min": 45,
+     "desc": "市中心碼頭 11／12 號碼頭出發，約 40–45 分鐘。標準來回 NZ$65／人，Priority（指定班次先上船）NZ$75。島上用 AT 公車（感應信用卡）或叫車。",
+     "price_for2_twd": 2390,
+     "booking": "建議預約",
+     "booking_url": "https://www.fullers.co.nz/destinations-and-experiences/destinations/waiheke-island/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Downtown%20Ferry%20Terminal%20Pier%2011%20Quay%20Street%20Auckland",
+     "site_url": "https://www.fullers.co.nz/destinations-and-experiences/destinations/waiheke-island/",
+     "address": "Downtown Ferry Terminal, 99 Quay St",
+     "tip": "1/1 是國定假日，班次可能照假日表；回程船要排隊，買 Priority 比較穩",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferry.%20Matiatia%2C%20Waiheke%20Island.jpg?width=1200",
+      "credit": "Countrymike（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Fullers360 Instagram @fullers360",
+       "url": "https://www.instagram.com/fullers360/"
+      },
+      {
+       "type": "youtube",
+       "title": "Waiheke Island | Auckland's Best Day Trip（Sammy and Tommy）",
+       "url": "https://www.youtube.com/watch?v=Qs_kMWBw9Zc"
+      },
+      {
+       "type": "official",
+       "title": "Fullers360 懷赫科島船票",
+       "url": "https://www.fullers.co.nz/destinations-and-experiences/destinations/waiheke-island/"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "Oneroa Beach 海灘",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "碼頭旁小鎮 Oneroa 的白沙灣，沿著小山坡走下去，有咖啡店和小店。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Oneroa%20Beach%20Waiheke%20Island",
+     "site_url": "",
+     "address": "Oneroa, Waiheke Island",
+     "tip": "紫外線很強，帶防曬和帽子",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oneroa%20Beach%2C%20Waiheke%20Island.jpg?width=1200",
+      "credit": "brent simpson（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": []
+    },
+    {
+     "time": "12:30",
+     "name": "Casita Miro（酒莊西班牙小點）",
+     "kind": "food",
+     "stay_min": 120,
+     "desc": "家族酒莊的西班牙風小盤菜，坐在馬賽克露台看葡萄園，配自家釀的酒。兩人約 NZ$180。",
+     "price_for2_twd": 3300,
+     "booking": "需預約",
+     "booking_url": "https://www.casitamiro.co.nz/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Casita%20Miro%203%20Brown%20Road%20Onetangi%20Waiheke%20Island",
+     "site_url": "https://www.casitamiro.co.nz/",
+     "address": "3 Brown Road, Onetangi, Waiheke Island",
+     "tip": "新年假日多數餐廳加收約 15% 服務費；要先訂位",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waiheke%20Island%20Vineyard.jpg?width=1200",
+      "credit": "russellstreet（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Casita Miro Instagram @casitamiro",
+       "url": "https://www.instagram.com/casitamiro/"
+      },
+      {
+       "type": "official",
+       "title": "Casita Miro 官網",
+       "url": "https://www.casitamiro.co.nz/"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "Cable Bay Vineyards 品酒看海",
+     "kind": "activity",
+     "stay_min": 75,
+     "desc": "Oneroa 附近山坡上的酒莊，草坪正對海灣和奧克蘭天際線，可以只點一杯或品酒組。",
+     "price_for2_twd": null,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Cable%20Bay%20Vineyards%2012%20Nick%20Johnstone%20Drive%20Oneroa%20Waiheke%20Island",
+     "site_url": "",
+     "address": "Nick Johnstone Dr, Oneroa, Waiheke Island",
+     "tip": "品酒價格待確認；走回 Matiatia 碼頭約 15 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waiheke%20CBV%20Vineyard%20Views%20Pinot%20Gris%20Olives%20%281%29.jpg?width=1200",
+      "credit": "Cable Bay Vineyards（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Cable Bay Vineyards Instagram @cablebayvineyards",
+       "url": "https://www.instagram.com/cablebayvineyards/"
+      }
+     ]
+    },
+    {
+     "time": "20:00",
+     "name": "Caretaker（酒吧：地下室經典雞尾酒）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "Britomart 地下室的紐約風雞尾酒吧，手切冰塊、現榨果汁，沒有固定酒單，跟調酒師說喜歡什麼口味就好。奧克蘭最常被推薦的酒吧之一。兩人各兩杯約 NZ$100。",
+     "price_for2_twd": 1840,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Caretaker%2040%20Customs%20Street%20East%20Britomart%20Auckland",
+     "site_url": "https://britomart.org/tenants/caretaker",
+     "address": "40 Customs St E, Britomart, Auckland",
+     "tip": "網路資料寫週二到週六營業，1/1（週五）假日有沒有開待確認；客滿要在門口等",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Britomart%20Precinct%20In%20Downtown%20Auckland.jpg?width=1200",
+      "credit": "Ingolfson（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Caretaker Instagram @caretaker.nz",
+       "url": "https://www.instagram.com/caretaker.nz/"
+      },
+      {
+       "type": "official",
+       "title": "Britomart 官方：Caretaker 介紹",
+       "url": "https://britomart.org/tenants/caretaker"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "1/2",
+   "weekday": "六",
+   "title": "哈比屯→羅托魯瓦",
+   "area": "機場 → Matamata → 羅托魯瓦",
+   "drive_km": 225,
+   "drive_time": "約 3 小時（機場→哈比屯 2 小時、哈比屯→羅托魯瓦 1 小時）",
+   "summary": "機場取車開始自駕，中午走進魔戒哈比村、在綠龍酒館喝一杯，傍晚到地熱小鎮羅托魯瓦泡湖邊溫泉，晚上逛美食街。",
+   "stops": [
+    {
+     "time": "09:00",
+     "name": "奧克蘭機場取車（3 天自駕開始）",
+     "kind": "transport",
+     "stay_min": 45,
+     "desc": "從市區叫 Uber 到機場（約 NZ$80），取經濟小車，往南走 SH1 → SH27 到 Matamata。",
+     "price_for2_twd": 1470,
+     "booking": "需預約",
+     "booking_url": "https://www.kayak.com.au/cars/Auckland-Airport,Auckland,New-Zealand/2027-01-02-09h/2027-01-05-07h?sort=price_a",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Auckland%20Airport%20Rental%20Car%20Centre",
+     "site_url": "",
+     "address": "Auckland Airport",
+     "tip": "最便宜的報價多是機場外接駁取車，要加 20–30 分；取車時拍車身四周",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Auckland%20Airport%20International%20Section.jpg?width=1200",
+      "credit": "Ingolfson（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "【紐西蘭自駕】紐西蘭自駕 10 大地雷，不想拿命開玩笑必看（Angela in NZ）",
+       "url": "https://www.youtube.com/watch?v=56zC5pyTJVk"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "哈比屯電影場景 Hobbiton Movie Set",
+     "kind": "sight",
+     "stay_min": 150,
+     "desc": "《魔戒》《哈比人》實景村，44 個哈比洞、袋底洞、綠龍酒館（含一杯飲料）。導覽 2.5 小時，從 The Shire's Rest 搭接駁車進去。成人 NZ$130。",
+     "price_for2_twd": 4770,
+     "booking": "需預約",
+     "booking_url": "https://www.hobbitontours.com/experiences/hobbiton-movie-set-tour/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Shire%27s%20Rest%20501%20Buckland%20Road%20Matamata%20Hobbiton%20Movie%20Set",
+     "site_url": "https://www.hobbitontours.com/experiences/hobbiton-movie-set-tour/",
+     "address": "501 Buckland Road, Matamata",
+     "tip": "只能跟團進去、要提早 20 分報到；跨年週很搶，先訂",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hobbiton%20Movie%20Set%2C%20Matamata.jpg?width=1200",
+      "credit": "Andres Iga（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Hobbiton Movie Set Instagram @hobbitontours",
+       "url": "https://www.instagram.com/hobbitontours/"
+      },
+      {
+       "type": "youtube",
+       "title": "第一次來紐西蘭！來到魔戒哈比人的故鄉：夏爾 The Shire（滴妹）",
+       "url": "https://www.youtube.com/watch?v=DN32tynrryw"
+      },
+      {
+       "type": "official",
+       "title": "Hobbiton 官方導覽與價格",
+       "url": "https://www.hobbitontours.com/experiences/hobbiton-movie-set-tour/"
+      }
+     ]
+    },
+    {
+     "time": "16:30",
+     "name": "Polynesian Spa 湖邊地熱溫泉",
+     "kind": "activity",
+     "stay_min": 90,
+     "desc": "羅托魯瓦湖邊的礦物溫泉，Deluxe Lake Spa 4 個面湖岩池最舒服。",
+     "price_for2_twd": null,
+     "booking": "建議預約",
+     "booking_url": "https://www.polynesianspa.co.nz/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Polynesian%20Spa%201000%20Hinemoa%20Street%20Rotorua",
+     "site_url": "https://www.polynesianspa.co.nz/",
+     "address": "1000 Hinemoa Street, Rotorua",
+     "tip": "單次票價官網沒寫在首頁，待確認；兩人套票 NZ$175 起；銀飾會被硫磺弄黑，先拿下來",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20lovely%20thermal%20pools%20at%20the%20lakefront%20Polynesian%20Spa%2C%20Rotorua.jpg?width=1200",
+      "credit": "Bex Walton（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Polynesian Spa Instagram @polynesianspa",
+       "url": "https://www.instagram.com/polynesianspa/"
+      },
+      {
+       "type": "official",
+       "title": "Polynesian Spa 官網",
+       "url": "https://www.polynesianspa.co.nz/"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "Eat Streat 美食街晚餐",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "Tutanekai 街的有頂步行美食街，十幾家餐廳和酒吧排排站，地面有地熱暖氣。兩人約 NZ$100。",
+     "price_for2_twd": 1840,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Eat%20Streat%20Tutanekai%20Street%20Rotorua",
+     "site_url": "",
+     "address": "Tutanekai St, Rotorua",
+     "tip": "週六晚上人多，選有戶外座位的店",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tutanekai%20Street%20%28Eat%20Street%29%20049.jpg?width=1200",
+      "credit": "Schwede66（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "A Food Lover's Paradise: Exploring Eat Streat Rotorua（carolsmart127）",
+       "url": "https://www.youtube.com/watch?v=hRY0P7MsOBg"
+      },
+      {
+       "type": "ig",
+       "title": "RotoruaNZ 官方觀光 Instagram @rotoruanz",
+       "url": "https://www.instagram.com/rotoruanz/"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Brew Craft Beer Pub（酒吧：精釀啤酒）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "在 Eat Streat 上，在地 Croucher 酒廠的精釀啤酒吧，可點試飲板。兩人約 NZ$50。",
+     "price_for2_twd": 920,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Brew%20Craft%20Beer%20Pub%201103%20Tutanekai%20Street%20Rotorua",
+     "site_url": "https://www.brewpub.co.nz/",
+     "address": "Eat Streat, Tutanekai St, Rotorua",
+     "tip": "住 Quest 走路 3 分，喝完不開車",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tutanekai%20Street%20%28Eat%20Street%29%20045.jpg?width=1200",
+      "credit": "Schwede66（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Brew Craft Beer Pub Rotorua Instagram @brewcraftbeerpub",
+       "url": "https://www.instagram.com/brewcraftbeerpub/"
+      },
+      {
+       "type": "official",
+       "title": "Brew 官網",
+       "url": "https://www.brewpub.co.nz/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "1/3",
+   "weekday": "日",
+   "title": "激流泛舟＋地窯晚宴",
+   "area": "羅托魯瓦（Okere Falls／Skyline／Fairy Springs）",
+   "drive_km": 40,
+   "drive_time": "約 1 小時（分段）",
+   "summary": "上午衝 5 級激流、從 7 公尺瀑布掉下去；下午搭纜車玩斜坡滑車；晚上到毛利村看哈卡戰舞、吃地底悶熟的 Hāngī。",
+   "stops": [
+    {
+     "time": "10:30",
+     "name": "Kaituna 河 5 級激流泛舟（Tutea 瀑布 7 公尺）",
+     "kind": "challenge",
+     "stay_min": 180,
+     "desc": "全世界商業泛舟最高的瀑布，一趟 14 個急流、3 個瀑布。Kaitiaki Adventures 官方標價 NZ$139／人，部分時段特價 NZ$69.5–85。13 歲以上、可從市區飯店接送。",
+     "price_for2_twd": 5100,
+     "booking": "需預約",
+     "booking_url": "https://www.bookme.co.nz/things-to-do/new-zealand/waimangu/activity/rafting-rotorua--kaituna-white-water-rafting-kaitiaki-adventures/2268",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Kaitiaki%20Adventures%201135%20Te%20Ngae%20Road%20Rotorua",
+     "site_url": "https://www.kaitiaki.co.nz/",
+     "address": "1135 Te Ngae Road, Tikitere, Rotorua",
+     "tip": "穿泳衣、帶毛巾和換洗衣物；船在瀑布翻覆是常見的，跟著教練指令就好",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Large%20inflatable%20boat%20going%20down%20Tutea%20Falls%20%28Kaituna%20River%29.jpg?width=1200",
+      "credit": "Pseudopanax at English Wikipedia（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Kaitiaki Adventures Instagram @kaitiakiadventures",
+       "url": "https://www.instagram.com/kaitiakiadventures/"
+      },
+      {
+       "type": "youtube",
+       "title": "Kaituna River - Tutea Falls（Kaituna Cascades）",
+       "url": "https://www.youtube.com/watch?v=ZFSZsg1ncTI"
+      },
+      {
+       "type": "official",
+       "title": "Kaitiaki Adventures 官網",
+       "url": "https://www.kaitiaki.co.nz/"
+      }
+     ]
+    },
+    {
+     "time": "14:30",
+     "name": "Skyline 纜車＋斜坡滑車 Luge",
+     "kind": "challenge",
+     "stay_min": 120,
+     "desc": "搭纜車上山，坐無動力小車沿 7 公里賽道衝下來，一邊看羅托魯瓦湖。纜車＋4 趟滑車約 NZ$66／人（Bookme）。",
+     "price_for2_twd": 2420,
+     "booking": "建議預約",
+     "booking_url": "https://bookme.co.nz/things-to-do/rotorua-taupo/activity/skyline-gondola-and-4-luge-ride-pack-rotorua/896",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Skyline%20Rotorua%20178%20Fairy%20Springs%20Road%20Rotorua",
+     "site_url": "https://rotorua.skyline.co.nz/things-to-do/rotorua-luge/",
+     "address": "Fairy Springs Rd, Rotorua",
+     "tip": "第一趟一定要先走初級道；想多刺激可加 ZORB 滾球（在附近）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rotorua%20Skyline%20-%20Fairy%20Springs%2C%20Rotorua%20New%20Zealand%20%2825727788947%29.jpg?width=1200",
+      "credit": "Umedha Hettigoda（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Skyline Rotorua Instagram @skylinerotorua",
+       "url": "https://www.instagram.com/skylinerotorua/"
+      },
+      {
+       "type": "youtube",
+       "title": "【紐西蘭必玩】斜坡滑車 Luge 怎麼操作？（Cooper Again）",
+       "url": "https://www.youtube.com/watch?v=rPpd3Ly8LHY"
+      },
+      {
+       "type": "official",
+       "title": "Skyline Rotorua Luge",
+       "url": "https://rotorua.skyline.co.nz/things-to-do/rotorua-luge/"
+      }
+     ]
+    },
+    {
+     "time": "17:45",
+     "name": "Mitai 毛利村：Hāngī 地窯晚宴＋哈卡",
+     "kind": "food",
+     "stay_min": 180,
+     "desc": "看 Hāngī 從地底挖出來（羊、雞、地瓜用熱石悶 3 小時），吃自助晚餐、看戰舞和戰船、晚上走森林看螢火蟲和湧泉。官方價 NZ$188.34／人、約 3 小時。",
+     "price_for2_twd": 6920,
+     "booking": "需預約",
+     "booking_url": "https://www.mitai.co.nz/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Mitai%20Maori%20Village%20196%20Fairy%20Springs%20Road%20Rotorua",
+     "site_url": "https://www.mitai.co.nz/",
+     "address": "196 Fairy Springs Road, Fairy Springs, Rotorua",
+     "tip": "就在 Skyline 隔壁，開車 3 分；有酒吧但要開車就別喝，可以把車停飯店改搭接送（另加價）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2014-01-22%2019-27-07%20NZ%20Mitai%20Maori%20Village.jpg?width=1200",
+      "credit": "Jan Helebrant（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Mitai Maori Village Instagram @mitaimaorivillage",
+       "url": "https://www.instagram.com/mitaimaorivillage/"
+      },
+      {
+       "type": "youtube",
+       "title": "Mitai Maori Village hangi uplifting and dinner buffet（SGSG）",
+       "url": "https://www.youtube.com/watch?v=9N5JhcRYAVU"
+      },
+      {
+       "type": "official",
+       "title": "Mitai 官網（價格、時間）",
+       "url": "https://www.mitai.co.nz/"
+      }
+     ]
+    },
+    {
+     "time": "21:15",
+     "name": "Pig & Whistle（酒吧：老警察局改的酒館）",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "1940 年代警察局改建的酒館，有啤酒花園和現場音樂，是羅托魯瓦最老牌的 pub。兩人約 NZ$50。",
+     "price_for2_twd": 920,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Pig%20%26%20Whistle%201182%20Tutanekai%20Street%20Rotorua",
+     "site_url": "https://www.pigandwhistle.co.nz/",
+     "address": "1182 Tutanekai Street, Rotorua",
+     "tip": "週日晚上較早打烊，營業時間待確認",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tutanekai%20Street%2C%20Rotorua.jpg?width=1200",
+      "credit": "AnnWoolliams（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Pig & Whistle Instagram @pigandwhistlerotorua",
+       "url": "https://www.instagram.com/pigandwhistlerotorua/"
+      },
+      {
+       "type": "official",
+       "title": "Pig & Whistle 官網",
+       "url": "https://www.pigandwhistle.co.nz/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "date": "1/4",
+   "weekday": "一",
+   "title": "地熱彩池回奧克蘭",
+   "area": "Wai-O-Tapu → 奧克蘭（伊甸山／Herne Bay／Ponsonby）",
+   "drive_km": 260,
+   "drive_time": "約 3.5 小時（Wai-O-Tapu→奧克蘭）",
+   "summary": "早上看定時噴發的 Lady Knox 間歇泉和香檳池，中午開回奧克蘭；傍晚爬伊甸山看全市、在 Herne Bay 吃經典炸魚薯條，最後一晚在 Ponsonby 喝一杯。",
+   "stops": [
+    {
+     "time": "09:45",
+     "name": "Wai-O-Tapu 地熱仙境（Lady Knox 間歇泉）",
+     "kind": "sight",
+     "stay_min": 150,
+     "desc": "10:15 間歇泉表演，接著走步道看橘綠色的香檳池、調色盤、冒泡泥池。成人約 NZ$47（newzealand.com，待確認）。",
+     "price_for2_twd": 1730,
+     "booking": "建議預約",
+     "booking_url": "https://www.waiotapu.co.nz/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Wai-O-Tapu%20Thermal%20Wonderland%20201%20Waiotapu%20Loop%20Road%20Rotorua",
+     "site_url": "https://www.waiotapu.co.nz/",
+     "address": "201 Waiotapu Loop Road, RD 3, Rotorua",
+     "tip": "9:45 前到；間歇泉在另一個停車場，先去那邊再回主園區；全場只收卡",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Champagne%20Pool%20-%20Wai-O-Tapu%20Thermal%20Wonderland%20-%20Waikato%20Region%2C%20NZ%20-%20DSC06338.jpg?width=1200",
+      "credit": "Daderot（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "地熱公園大PK！羅托魯瓦地熱景點全攻略（LeCorner 鮭大去旅行）",
+       "url": "https://www.youtube.com/watch?v=sxNPCzYJRXc"
+      },
+      {
+       "type": "official",
+       "title": "Wai-O-Tapu 官網（時間）",
+       "url": "https://www.waiotapu.co.nz/"
+      }
+     ]
+    },
+    {
+     "time": "17:00",
+     "name": "Maungawhau 伊甸山",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "奧克蘭市區最高的死火山，山頂火山口邊可以 360 度看全市、天空塔和 Rangitoto。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Maungawhau%20Mount%20Eden%20Summit%20Auckland",
+     "site_url": "",
+     "address": "Mt Eden Rd, Mt Eden, Auckland",
+     "tip": "山頂禁止開車，車停山腳 Mt Eden Village 走上去約 20 分；火山口是聖地，不要走下去",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Eden%20crater%20with%20Auckland%20CBD%20and%20Rangitoto%20skyline.jpg?width=1200",
+      "credit": "Avenue（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "MtEdenVillage Instagram @mtedenvillage",
+       "url": "https://www.instagram.com/mtedenvillage/"
+      }
+     ]
+    },
+    {
+     "time": "18:45",
+     "name": "FishSmith（經典炸魚薯條）",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "Herne Bay 的社區老店，炸魚薯條之外還有魚塔可和白魚苗煎餅，奧克蘭官方觀光網推薦。兩人約 NZ$45。",
+     "price_for2_twd": 830,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=FishSmith%20Jervois%20Road%20Herne%20Bay%20Auckland",
+     "site_url": "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips",
+     "address": "Jervois Rd, Herne Bay, Auckland",
+     "tip": "1/4 是補假的國定假日，營業時間待確認；外帶到附近海邊吃最對味",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20and%20chips%20u%20Aucklandu.jpg?width=1200",
+      "credit": "August Dominus（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Fishsmith Instagram @fishsmith_hernebay",
+       "url": "https://www.instagram.com/fishsmith_hernebay/"
+      },
+      {
+       "type": "blog",
+       "title": "Auckland 官方觀光：最好吃的炸魚薯條",
+       "url": "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Lime Bar（酒吧：Ponsonby 小酒館）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "Ponsonby Road 上的老牌小酒吧，熱鬧、隨性、開到很晚；網路列的營業時間週一 16:00–24:00。兩人約 NZ$50。",
+     "price_for2_twd": 920,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Lime%20Bar%20167%20Ponsonby%20Road%20Ponsonby%20Auckland",
+     "site_url": "",
+     "address": "167 Ponsonby Road, Ponsonby, Auckland",
+     "tip": "最後一晚，車停飯店走過去；隔天 7 點要開車，喝少一點",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponsonby%20Road%2C%20Ponsonby%2C%20Auckland%2C%20New%20Zealand.jpg?width=1200",
+      "credit": "AnnWoolliams（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "Pearl：Lime Bar 介紹",
+       "url": "https://joinpearl.co/bars/auckland/lime-bar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "date": "1/5",
+   "weekday": "二",
+   "title": "還車回家",
+   "area": "奧克蘭機場",
+   "drive_km": 25,
+   "drive_time": "約 30 分",
+   "summary": "一早開到機場還車，喝最後一杯平白咖啡，10:45 紐航直飛，傍晚 17:00 回到桃園。",
+   "stops": [
+    {
+     "time": "07:00",
+     "name": "開到機場還車",
+     "kind": "transport",
+     "stay_min": 40,
+     "desc": "Ponsonby 到機場約 25 公里；油加滿再還，免得被收高價油錢。",
+     "price_for2_twd": null,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Auckland%20Airport%20Rental%20Car%20Return",
+     "site_url": "",
+     "address": "Auckland Airport",
+     "tip": "接駁型租車公司還車後還要搭接駁車到航廈，抓 20 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Auckland%20Airport%20International%20Section.jpg?width=1200",
+      "credit": "Ingolfson（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": []
+    },
+    {
+     "time": "08:15",
+     "name": "機場最後一杯平白咖啡",
+     "kind": "food",
+     "stay_min": 30,
+     "desc": "出境前在國際航廈喝一杯 flat white、買 Hokey Pokey 糖或麥蘆卡蜂蜜當伴手禮。",
+     "price_for2_twd": 460,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Auckland%20Airport%20International%20Terminal",
+     "site_url": "",
+     "address": "Auckland Airport International Terminal",
+     "tip": "肉類製品不能帶回台灣",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Auckland%20Airport%20In%20Main%20Hall.jpg?width=1200",
+      "credit": "Ingolfson（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": []
+    },
+    {
+     "time": "10:45",
+     "name": "紐西蘭航空直飛 → 桃園（17:00 落地）",
+     "kind": "transport",
+     "stay_min": 675,
+     "desc": "11 小時 15 分直飛，傍晚就到家，隔天上班也來得及。",
+     "price_for2_twd": null,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Auckland%20Airport%20International%20Terminal",
+     "site_url": "https://www.airnewzealand.com/",
+     "address": "Auckland Airport",
+     "tip": "機上有餐和托運",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Auckland%20airport%20international%20terminal.jpg?width=1200",
+      "credit": "Wangi（Wikimedia Commons）",
+      "license": "CC BY 2.5"
+     },
+     "links": []
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "Depot Eatery & Oyster Bar",
+   "dish": "柴燒綠唇貽貝（NZ$23）、燉羊頸（NZ$50）、生蠔",
+   "price_for2_twd": 2750,
+   "area": "市中心（天空塔旁）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Depot%20Eatery%2086%20Federal%20Street%20Auckland",
+   "why": "名廚 Al Brown 的店，官網菜單 10 月版實查；一次吃到綠唇貽貝和紐西蘭羊",
+   "source": "https://depoteatery.co.nz/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green-lipped%20mussels%20in%20coconut%20milk%2C%20with%20buttered%20bread%20-%20Picton%2C%20New%20Zealand.jpg?width=1200",
+    "credit": "Daderot（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Depot Oyster Bar & Eatery Instagram @depoteatery",
+     "url": "https://www.instagram.com/depoteatery/"
+    },
+    {
+     "type": "official",
+     "title": "Depot 官網菜單",
+     "url": "https://depoteatery.co.nz/"
+    }
+   ]
+  },
+  {
+   "name": "Ahi",
+   "dish": "炭火烤紐西蘭羊、在地食材品嚐菜單",
+   "price_for2_twd": 4770,
+   "area": "Commercial Bay（市中心港邊）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Ahi%20Restaurant%20Level%202%20Commercial%20Bay%207%20Queen%20Street%20Auckland",
+   "why": "Ben Bayly 的「紐西蘭食物故事」餐廳，列入 World's 50 Best Discovery；品嚐菜單 NZ$97 起（跨年夜價待確認）",
+   "source": "https://theworlds50best.com/discovery/Establishments/New-Zealand/Auckland-CBD/Ahi.html",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rack%20of%20Lamb%20-%2028244734776.jpg?width=1200",
+    "credit": "HarshLight（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Ahi Instagram @ahirestaurant",
+     "url": "https://www.instagram.com/ahirestaurant/"
+    },
+    {
+     "type": "official",
+     "title": "World's 50 Best Discovery：Ahi",
+     "url": "https://theworlds50best.com/discovery/Establishments/New-Zealand/Auckland-CBD/Ahi.html"
+    }
+   ]
+  },
+  {
+   "name": "FishSmith",
+   "dish": "炸魚薯條、魚塔可、白魚苗煎餅",
+   "price_for2_twd": 830,
+   "area": "Herne Bay（Ponsonby 旁）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=FishSmith%20Jervois%20Road%20Herne%20Bay%20Auckland",
+   "why": "Auckland 官方觀光網「最好吃的炸魚薯條」名單，被形容是社區老字號",
+   "source": "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20and%20chips%20u%20Aucklandu.jpg?width=1200",
+    "credit": "August Dominus（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Fishsmith Instagram @fishsmith_hernebay",
+     "url": "https://www.instagram.com/fishsmith_hernebay/"
+    },
+    {
+     "type": "blog",
+     "title": "Auckland 官方觀光：最好吃的炸魚薯條",
+     "url": "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips"
+    }
+   ]
+  },
+  {
+   "name": "Auckland Fish Market（Sanford and Sons）",
+   "dish": "生蠔、綠唇貽貝、生魚片",
+   "price_for2_twd": 1290,
+   "area": "Wynyard Quarter",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Auckland%20Fish%20Market%2022-32%20Jellicoe%20Street%20Wynyard%20Quarter%20Auckland",
+   "why": "紐西蘭最老的魚商，魚常常是當天早上上岸（Auckland 官方觀光網）",
+   "source": "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20lipped%20Mussels%20--%20Auckland%20Fish%20Market%20and%20Seafood%20School%20in%20New%20Zealand%20%2850870863758%29.jpg?width=1200",
+    "credit": "Joe Ross from Lansing, Michigan（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Auckland Fish Market Instagram @aucklandfishmarket",
+     "url": "https://www.instagram.com/aucklandfishmarket/"
+    },
+    {
+     "type": "ig",
+     "title": "Sanford and Sons Instagram @sanfordandsonsnz",
+     "url": "https://www.instagram.com/sanfordandsonsnz/"
+    }
+   ]
+  },
+  {
+   "name": "Giapo",
+   "dish": "Hokey Pokey 巧克力蜂巢糖甜筒",
+   "price_for2_twd": 730,
+   "area": "市中心 Gore St",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Giapo%2012%20Gore%20Street%20Auckland",
+   "why": "奧克蘭最出名的創意冰淇淋店，Mashable 等媒體報導；官網有 Hokey Pokey 甜筒",
+   "source": "https://www.giapo.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokey%20pokey%20ice%20cream.jpg?width=1200",
+    "credit": "Finbar.concaig（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "GIAPO Instagram @giapokitchen",
+     "url": "https://www.instagram.com/giapokitchen/"
+    },
+    {
+     "type": "youtube",
+     "title": "This Ice Cream Shop Makes the Most Innovative Treats（Mashable）",
+     "url": "https://www.youtube.com/watch?v=QRC4ZmYMGuc"
+    }
+   ]
+  },
+  {
+   "name": "Espresso Workshop",
+   "dish": "平白咖啡 flat white",
+   "price_for2_twd": 460,
+   "area": "Britomart",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Espresso%20Workshop%20Britomart%20Auckland",
+   "why": "奧克蘭在地烘豆商的門市，離渡輪碼頭最近的好咖啡",
+   "source": "https://www.espressoworkshop.co.nz/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flat%20white%20coffee%20with%20pretty%20feather%20pattern.jpg?width=1200",
+    "credit": "GeorgeMichaelFarewell（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Espresso Workshop Coffee Roasters Instagram @espressoworkshop",
+     "url": "https://www.instagram.com/espressoworkshop/"
+    }
+   ]
+  },
+  {
+   "name": "Casita Miro",
+   "dish": "酒莊西班牙小盤菜＋自釀葡萄酒",
+   "price_for2_twd": 3300,
+   "area": "懷赫科島 Onetangi",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Casita%20Miro%203%20Brown%20Road%20Onetangi%20Waiheke%20Island",
+   "why": "懷赫科島人氣酒莊餐廳，馬賽克露台看葡萄園（價格為估算，待確認）",
+   "source": "https://www.casitamiro.co.nz/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waiheke%20Island%20Vineyard.jpg?width=1200",
+    "credit": "russellstreet（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Casita Miro Instagram @casitamiro",
+     "url": "https://www.instagram.com/casitamiro/"
+    },
+    {
+     "type": "youtube",
+     "title": "Waiheke Island | Auckland's Best Day Trip（Sammy and Tommy）",
+     "url": "https://www.youtube.com/watch?v=Qs_kMWBw9Zc"
+    }
+   ]
+  },
+  {
+   "name": "Mitai Māori Village",
+   "dish": "Hāngī 地窯料理（熱石地底悶羊、雞、地瓜）",
+   "price_for2_twd": 6920,
+   "area": "羅托魯瓦 Fairy Springs",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Mitai%20Maori%20Village%20196%20Fairy%20Springs%20Road%20Rotorua",
+   "why": "家族經營的毛利村，晚宴含哈卡表演和螢火蟲步道；官網價 NZ$188.34／人",
+   "source": "https://www.mitai.co.nz/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rotorua%20Maori%20Experience%20-%20Hangi%20-%20ceremonial%20revealing%20of%20the%20food.jpg?width=1200",
+    "credit": "Percita（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Mitai Maori Village Instagram @mitaimaorivillage",
+     "url": "https://www.instagram.com/mitaimaorivillage/"
+    },
+    {
+     "type": "youtube",
+     "title": "Mitai Maori Village hangi uplifting and dinner buffet（SGSG）",
+     "url": "https://www.youtube.com/watch?v=9N5JhcRYAVU"
+    }
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "name": "SkyJump 天空塔高空降落",
+   "what": "掛鋼索從 192 公尺跳下，時速最高約 85 公里落到廣場",
+   "price_for2_twd": 12120,
+   "duration": "約 1.5 小時（含著裝）",
+   "booking": "需預約",
+   "season_ok": true,
+   "url": "https://www.bungy.co.nz/auckland/sky-tower/skyjump/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=AJ%20Hackett%20SkyJump%20Sky%20Tower%20Victoria%20Street%20West%20Auckland",
+   "note": "官方價 NZ$330／人；SkyJump＋SkyWalk 套票 NZ$445／人；體重 35–150 公斤",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sky%20Jump%20%287187521210%29.jpg?width=1200",
+    "credit": "Simon_sees from Australia（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "AJ Hackett Bungy NZ Instagram @ajhackettbungynz",
+     "url": "https://www.instagram.com/ajhackettbungynz/"
+    },
+    {
+     "type": "youtube",
+     "title": "SkyJump - Auckland, New Zealand（AJ Hackett Bungy NZ）",
+     "url": "https://www.youtube.com/watch?v=T07wc-u7oMA"
+    },
+    {
+     "type": "official",
+     "title": "AJ Hackett SkyJump",
+     "url": "https://www.bungy.co.nz/auckland/sky-tower/skyjump/"
+    }
+   ]
+  },
+  {
+   "name": "SkyWalk 天空塔外圈走道",
+   "what": "在 192 公尺高、1.2 公尺寬、沒有欄杆的外圈走一圈",
+   "price_for2_twd": 7890,
+   "duration": "約 1.5 小時",
+   "booking": "需預約",
+   "season_ok": true,
+   "url": "https://www.bungy.co.nz/auckland/sky-tower/skywalk/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=AJ%20Hackett%20SkyWalk%20Sky%20Tower%20Auckland",
+   "note": "官方價 NZ$215／人，含觀景台門票；不敢跳的人選這個",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sky%20Tower%20Auckland%2001.jpg?width=1200",
+    "credit": "Krzysztof Golik（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "AJ Hackett Bungy NZ Instagram @ajhackettbungynz",
+     "url": "https://www.instagram.com/ajhackettbungynz/"
+    },
+    {
+     "type": "official",
+     "title": "AJ Hackett SkyWalk",
+     "url": "https://www.bungy.co.nz/auckland/sky-tower/skywalk/"
+    }
+   ]
+  },
+  {
+   "name": "Kaituna 河 5 級激流泛舟",
+   "what": "14 個急流＋3 個瀑布，含全世界商業泛舟最高的 7 公尺 Tutea 瀑布",
+   "price_for2_twd": 5100,
+   "duration": "約 3 小時（含接送）",
+   "booking": "需預約",
+   "season_ok": true,
+   "url": "https://www.kaitiaki.co.nz/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Kaitiaki%20Adventures%201135%20Te%20Ngae%20Road%20Rotorua",
+   "note": "Kaitiaki 標價 NZ$139／人，Bookme 部分時段 NZ$69.5–85；13 歲以上；8:30／10:30／12:30／14:30 出發",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Large%20inflatable%20boat%20going%20down%20Tutea%20Falls%20%28Kaituna%20River%29.jpg?width=1200",
+    "credit": "Pseudopanax at English Wikipedia（Wikimedia Commons）",
+    "license": "Public domain"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Kaitiaki Adventures Instagram @kaitiakiadventures",
+     "url": "https://www.instagram.com/kaitiakiadventures/"
+    },
+    {
+     "type": "youtube",
+     "title": "Kaituna River - Tutea Falls（Kaituna Cascades）",
+     "url": "https://www.youtube.com/watch?v=ZFSZsg1ncTI"
+    },
+    {
+     "type": "official",
+     "title": "Bookme：Kaitiaki 泛舟時段與價格",
+     "url": "https://www.bookme.co.nz/things-to-do/new-zealand/waimangu/activity/rafting-rotorua--kaituna-white-water-rafting-kaitiaki-adventures/2268"
+    }
+   ]
+  },
+  {
+   "name": "Skyline Rotorua 斜坡滑車",
+   "what": "纜車上山＋無動力滑車沿 7 公里賽道衝下",
+   "price_for2_twd": 2420,
+   "duration": "約 2 小時",
+   "booking": "建議預約",
+   "season_ok": true,
+   "url": "https://rotorua.skyline.co.nz/things-to-do/rotorua-luge/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Skyline%20Rotorua%20178%20Fairy%20Springs%20Road%20Rotorua",
+   "note": "纜車＋4 趟滑車 NZ$66／人（Bookme）；另有 5 趟套票約 NZ$94（第三方網站，待確認）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rotorua%20Skyline%20-%20Fairy%20Springs%2C%20Rotorua%20New%20Zealand%20%2825727788947%29.jpg?width=1200",
+    "credit": "Umedha Hettigoda（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Skyline Rotorua Instagram @skylinerotorua",
+     "url": "https://www.instagram.com/skylinerotorua/"
+    },
+    {
+     "type": "youtube",
+     "title": "【紐西蘭必玩】斜坡滑車 Luge 怎麼操作？（Cooper Again）",
+     "url": "https://www.youtube.com/watch?v=rPpd3Ly8LHY"
+    },
+    {
+     "type": "youtube",
+     "title": "New Luge Tracks Now Open!（Skyline Rotorua）",
+     "url": "https://www.youtube.com/watch?v=Slf8RoROykk"
+    }
+   ]
+  },
+  {
+   "name": "Rangitoto 火山島登頂",
+   "what": "搭船上 600 年前噴發的火山島，走火山岩步道到山頂火山口＋熔岩洞",
+   "price_for2_twd": 2200,
+   "duration": "半天（步行來回 2–3 小時）",
+   "booking": "需預約（船票，當天沒有現場票）",
+   "season_ok": true,
+   "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/rangitoto-island/tracks/rangitoto-island-track/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Rangitoto%20Island%20Summit%20Track%20Auckland",
+   "note": "步道免費；Fullers360 船票夏季成人來回約 NZ$60（2025/10 夏季價，2026 價待確認）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rangitoto%20Island%20view%20of%20Auckland%20from%20Summit%20Track.jpg?width=1200",
+    "credit": "BrysonH44（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "youtube",
+     "title": "Ferry To Auckland's Largest Volcano Island With a Hike To The Summit（SteveMarsh）",
+     "url": "https://www.youtube.com/watch?v=BH14vtHs9dw"
+    },
+    {
+     "type": "ig",
+     "title": "Fullers360 Instagram @fullers360",
+     "url": "https://www.instagram.com/fullers360/"
+    },
+    {
+     "type": "official",
+     "title": "DOC：Rangitoto Summit Track",
+     "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/rangitoto-island/tracks/rangitoto-island-track/"
+    }
+   ]
+  },
+  {
+   "name": "ZORB 滾球下山",
+   "what": "鑽進充氣透明大球，加點水從草坡滾下去（羅托魯瓦發明的玩法）",
+   "price_for2_twd": 1650,
+   "duration": "約 1 小時",
+   "booking": "建議預約",
+   "season_ok": true,
+   "url": "https://www.zorb.com/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=ZORB%20Rotorua%20149%20Western%20Road%20Ngongotaha%20Rotorua",
+   "note": "單趟約 NZ$45／人（Bookme 舊資料，待確認）；在 Skyline 附近，可以排 1/3 下午加玩",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zorb%2001.jpg?width=1200",
+    "credit": "Harry Malsch（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "ZORB Rotorua Instagram @zorbrotorua",
+     "url": "https://www.instagram.com/zorbrotorua/"
+    },
+    {
+     "type": "official",
+     "title": "ZORB 官網",
+     "url": "https://www.zorb.com/"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 79746,
+  "stay_for2": 36631,
+  "food_for2": [
+   25700,
+   41130
+  ],
+  "transport_for2": [
+   10337,
+   16537
+  ],
+  "activities_for2": [
+   35330,
+   43050
+  ],
+  "total_for2": [
+   187744,
+   217094
+  ],
+  "note": "匯率 1 紐幣＝18.36 台幣、1 澳幣＝22.92（open.er-api.com 11/01）。機票＝紐航直飛 39,873×2；住宿＝SkyCity 3 晚 23,611＋Quest 羅托魯瓦 2 晚 9,693＋Abaco 1 晚 3,327（Booking 11/01）；吃喝每天兩人 NZ$200–320×7 天（含每晚酒吧、假日加價，不含 Mitai）；交通＝租車 3 天 A$184–321＋全險＋油錢＋機場來回＋懷赫科渡輪；活動＝泛舟、滑車、Mitai 晚宴、哈比屯、Wai-O-Tapu、Rangitoto 船票、NZeTA＋IVL NZ$117×2，下限兩人只玩 SkyWalk、上限兩人 SkyJump＋溫泉＋ZORB。跨年夜 Ahi 若只賣特別套餐會再高一點。"
+ },
+ "weather": {
+  "high_c": 23,
+  "low_c": 16,
+  "conditions": "南半球盛夏，晴天和陣雨交替（2025 跨年夜就下雨、有雷雨特報），紫外線常到 11 以上（極高）；羅托魯瓦早晚稍涼",
+  "sunrise": "06:03",
+  "sunset": "20:43",
+  "wear": "短袖＋薄防風外套（跨年夜海風、渡輪上很涼）、輕便雨衣、帽子、太陽眼鏡、SPF50 防曬；泛舟和溫泉帶泳衣、毛巾、拖鞋；Rangitoto 穿好走的運動鞋"
+ },
+ "events": [
+  {
+   "date": "12/31",
+   "name": "天空塔跨年煙火＋港灣大橋燈光秀",
+   "note": "2025 版：21:00 塔身投影、00:00 煙火 5 分鐘 3,500 發；最佳看點 Viaduct／Wynyard 港邊、Maungawhau 伊甸山、北岸 Devonport（Mt Victoria、North Head）。2026 版 11/01 尚未公告",
+   "url": "https://www.1news.co.nz/2025/12/31/auckland-sky-tower-fireworks-how-to-watch-on-new-years-eve"
+  },
+  {
+   "date": "12/31",
+   "name": "懷赫科島 Highlife 跨年派對（付費）",
+   "note": "酒莊 DJ 派對，要買票（沿用研究-初篩-L），本行程沒排，想去可以把 12/31 和 1/1 對調",
+   "url": ""
+  },
+  {
+   "date": "1/1",
+   "name": "元旦國定假日",
+   "note": "部分餐廳休息或加收約 15% 假日服務費",
+   "url": ""
+  },
+  {
+   "date": "1/4",
+   "name": "1/2 補假（國定假日）",
+   "note": "1/2 是週六，依紐西蘭規定補到週一 1/4，當天餐廳也可能加價或休息",
+   "url": ""
+  }
+ ],
+ "prep": [
+  {
+   "item": "申請 NZeTA＋繳國際觀光稅 IVL：用官方 NZeTA App 每人 NZ$17＋NZ$100＝NZ$117（網站版 NZ$23＋100）；最多要 72 小時，別拖到出發前",
+   "when": "12/1 前",
+   "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand"
+  },
+  {
+   "item": "訂紐航直飛 12/29→1/5（每人約 39,873，會變動）",
+   "when": "越早越好（11 月上旬）",
+   "url": "https://www.google.com/travel/flights?q=Flights%20to%20AKL%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+  },
+  {
+   "item": "訂住宿：SkyCity 12/30–1/2、Quest 羅托魯瓦 1/2–1/4、Abaco 1/4–1/5，選可免費取消",
+   "when": "11 月上旬",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=SkyCity+Hotel+Auckland&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&selected_currency=TWD"
+  },
+  {
+   "item": "預約哈比屯 1/2 中午場（成人 NZ$130，只能跟團、跨年週很搶）",
+   "when": "11 月中前",
+   "url": "https://www.hobbitontours.com/experiences/hobbiton-movie-set-tour/"
+  },
+  {
+   "item": "辦國際駕照（監理站臨櫃，約 NT$250，當天拿）＋訂 1/2–1/5 機場租車（選免費取消、加全險）",
+   "when": "12/20 前",
+   "url": "https://www.mvdis.gov.tw/"
+  },
+  {
+   "item": "預約 SkyJump（12/30 下午）、Kaituna 泛舟（1/3 10:30）、Mitai 晚宴（1/3）、Rangitoto 船（12/31 09:15）",
+   "when": "12 月初前",
+   "url": "https://www.bungy.co.nz/auckland/sky-tower/skyjump/"
+  },
+  {
+   "item": "訂跨年夜晚餐（Ahi）、確認 Danny Doolans 跨年是否要買票",
+   "when": "12 月初前",
+   "url": "https://ahirestaurant.co.nz/"
+  }
+ ],
+ "risks": [
+  "直飛只有紐航每天一班，改期選擇少；台中沒有直飛",
+  "跨年夜可能下雨（2025 就有雷雨特報），煙火照放但要帶雨衣；2026 煙火細節 11/01 還沒公告",
+  "1/1 和 1/4（補假）是國定假日：餐廳加收約 15% 或休息，Caretaker、FishSmith、Lime Bar 當天營業待確認",
+  "第一次靠左開車＋假期車潮；每晚有喝酒，隔天早上要開車就少喝",
+  "Kaituna 泛舟會翻船落水，要會基本游泳、13 歲以上；SkyJump 有體重限制",
+  "紐西蘭生物安全很嚴：食物、木製品、登山鞋泥土都要申報，沒報被查到罰 NZ$400",
+  "奧克蘭暑假常有鐵路施工停駛，機場進出城以 Uber 備案；SkyBus 已停駛",
+  "紫外線極強，泛舟、火山島、酒莊都在大太陽下",
+  "價格以紐幣計，匯率變動會影響總額；多數活動價是官網或 Bookme 價，跨年週可能調整"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：天空塔一跳",
+    "icons": [
+     "plane",
+     "tower",
+     "seafood",
+     "beer"
+    ],
+    "caption": "落地就從塔上跳"
+   },
+   {
+    "title": "第二天：火山島跨年",
+    "icons": [
+     "hike",
+     "dessert",
+     "fireworks",
+     "night"
+    ],
+    "caption": "爬火山再看煙火"
+   },
+   {
+    "title": "第三天：酒莊小島",
+    "icons": [
+     "ferry",
+     "beach",
+     "beer"
+    ],
+    "caption": "搭船去喝葡萄酒"
+   },
+   {
+    "title": "第四天：哈比屯",
+    "icons": [
+     "car",
+     "camera",
+     "onsen"
+    ],
+    "caption": "哈比村後泡溫泉"
+   },
+   {
+    "title": "第五天：激流泛舟",
+    "icons": [
+     "boat",
+     "waterfall",
+     "bbq"
+    ],
+    "caption": "衝瀑布吃地窯菜"
+   },
+   {
+    "title": "第六天：地熱回城",
+    "icons": [
+     "car",
+     "mountain",
+     "fish",
+     "beer"
+    ],
+    "caption": "彩色地熱到伊甸山"
+   },
+   {
+    "title": "第七天：回家",
+    "icons": [
+     "car",
+     "coffee",
+     "plane"
+    ],
+    "caption": "最後一杯平白咖啡"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "Sky Tower Fireworks Best Viewing Spots in Auckland | New Year's Eve Celebration NZ",
+   "channel": "Farrukh Ali Shah",
+   "url": "https://www.youtube.com/watch?v=wcOwrwDSP8s",
+   "takeaway": "港邊與高處看點的視角比較，所以主推 Viaduct、備案伊甸山"
+  },
+  {
+   "title": "第一次來紐西蘭！來到魔戒哈比人的故鄉：夏爾 The Shire",
+   "channel": "滴妹",
+   "url": "https://www.youtube.com/watch?v=DN32tynrryw",
+   "takeaway": "哈比屯導覽流程與綠龍酒館，確認 2.5 小時夠用"
+  },
+  {
+   "title": "地熱公園大PK！羅托魯瓦地熱景點全攻略 Te Puia、Wai-O-Tapu、Waimangu、Hell's Gate",
+   "channel": "LeCorner 鮭大去旅行",
+   "url": "https://www.youtube.com/watch?v=sxNPCzYJRXc",
+   "takeaway": "四個地熱園比較，選色彩最多、有間歇泉的 Wai-O-Tapu"
+  },
+  {
+   "title": "Kaituna River - Tutea Falls",
+   "channel": "Kaituna Cascades",
+   "url": "https://www.youtube.com/watch?v=ZFSZsg1ncTI",
+   "takeaway": "7 公尺瀑布實際落差和翻船狀況"
+  },
+  {
+   "title": "【紐西蘭自駕】拜託別再這樣開了！紐西蘭自駕 10 大地雷",
+   "channel": "Angela in NZ",
+   "url": "https://www.youtube.com/watch?v=56zC5pyTJVk",
+   "takeaway": "靠左、圓環、一線雙向超車的注意事項，寫進 road_notes"
+  },
+  {
+   "title": "Waiheke Island | Auckland's Best Day Trip – Beaches, Vineyards & MORE!",
+   "channel": "Sammy and Tommy",
+   "url": "https://www.youtube.com/watch?v=Qs_kMWBw9Zc",
+   "takeaway": "懷赫科島一日的渡輪＋酒莊＋海灘順序"
+  },
+  {
+   "title": "Ferry To Auckland's Largest Volcano Island With a Hike To The Summit",
+   "channel": "SteveMarsh",
+   "url": "https://www.youtube.com/watch?v=BH14vtHs9dw",
+   "takeaway": "Rangitoto 步道坡度與熔岩洞，半天剛好"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights?q=Flights%20to%20AKL%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.kayak.com.au/cars/Auckland-Airport,Auckland,New-Zealand/2027-01-02-09h/2027-01-05-07h?sort=price_a",
+  "https://www.booking.com/",
+  "https://nzta.govt.nz/driver-licences/new-residents-and-visitors/driving-on-nz-roads",
+  "https://nzta.govt.nz/driver-licences/new-residents-and-visitors/driving-on-nz-roads/time-limit-extended-for-driving-on-an-overseas-licence",
+  "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand",
+  "https://www.bungy.co.nz/auckland/sky-tower/skyjump/",
+  "https://www.bungy.co.nz/auckland/sky-tower/skywalk/",
+  "https://www.hobbitontours.com/experiences/hobbiton-movie-set-tour/",
+  "https://www.fullers.co.nz/destinations-and-experiences/destinations/waiheke-island/",
+  "https://www.bookme.co.nz/things-to-do/new-zealand/waimangu/activity/rafting-rotorua--kaituna-white-water-rafting-kaitiaki-adventures/2268",
+  "https://bookme.co.nz/things-to-do/rotorua-taupo/activity/skyline-gondola-and-4-luge-ride-pack-rotorua/896",
+  "https://www.mitai.co.nz/",
+  "https://www.waiotapu.co.nz/",
+  "https://depoteatery.co.nz/",
+  "https://britomart.org/tenants/caretaker",
+  "https://at.govt.nz/AirportLink",
+  "https://www.1news.co.nz/2025/12/31/auckland-sky-tower-fireworks-how-to-watch-on-new-years-eve",
+  "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips",
+  "https://www.aucklandnz.com/explore/win-win",
+  "https://open.er-api.com/v6/latest/NZD",
+  "研究-初篩-L.md"
+ ],
+ "checked": "2026-11-01"
+}
