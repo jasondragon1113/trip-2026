@@ -1,0 +1,1126 @@
+{
+ "id": "guam",
+ "name": "關島",
+ "subtitle": "自駕環島＋杜夢灣跨年",
+ "country": "美國",
+ "flag": "US",
+ "motif": "car",
+ "palette": {
+  "primary": "#1FA8C9",
+  "secondary": "#FF7A59",
+  "soft": "#E8F8FB"
+ },
+ "tagline": "跳傘、潛水、開車繞島看夕陽",
+ "summary": "聯合航空從桃園直飛不到 4 小時，落地在機場櫃檯取車，三天把全島開一圈：第一晚剛好是週三查莫洛夜市吃烤肉，12/31 早上跳傘、下午在飯店前浮潛，晚上在希爾頓 Tree Bar 看杜夢灣午夜煙火；元旦早上體驗潛水，下午往南部兜風、在西班牙古堡看夕陽。路寬車少、靠右開跟台灣一樣，是這批候選裡最好開車的海島。吃的普通、物價偏貴，但挑戰和海是滿分。",
+ "dates": {
+  "out": "12/30",
+  "back": "1/2",
+  "nights": 3,
+  "why": "11/1 Google 航班實查：桃園↔關島直飛只有聯合航空，而且一週只配得到週三去、週六回；12/27、12/28、12/29、12/31 出發都查不到直飛，12/31→1/4 也沒有。12/30（三）去、1/2（六）回是唯一能在當地跨年的組合；台中沒有直飛。回程 1/2 07:50 起飛、10:15 回到桃園，前一晚要早睡。"
+ },
+ "flights": [
+  {
+   "from": "TPE",
+   "to": "GUM",
+   "airline": "聯合航空 United（直飛）",
+   "out": "12/30 11:15→17:10",
+   "back": "1/2 07:50→10:15",
+   "price_pp_twd": 19997,
+   "baggage": "經濟艙托運件數依票種，訂票頁確認（待確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20GUM%20from%20TPE%20on%202026-12-30%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "Google 航班 11/1 實查（只看直飛）：每人來回 NT$19,997（10/31 初篩是 19,376，漲了 621）。去程 11:15 不算早班但不用半夜起床；回程 07:50 太早，不合「回程下午或晚班」偏好。同日期轉機（大韓經仁川）每人 19,178 起但要 10 小時以上，不列入。",
+   "note": "台中 RMQ 11/1 查無直飛（Google 只建議改桃園）；星宇、華航、長榮這幾天都沒有直飛關島"
+  },
+  {
+   "from": "TPE",
+   "to": "GUM",
+   "airline": "聯合航空 United（延後版，不能跨年）",
+   "out": "1/2 起飛",
+   "back": "1/6 起飛",
+   "price_pp_twd": 17807,
+   "baggage": "待確認",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": false,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20GUM%20from%20TPE%20on%202027-01-02%20through%202027-01-06%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "Google 航班 11/1 在 12/31→1/4 查無直飛時建議的替代日期（每人 17,807 起），但不在當地跨年、1/6 回程落地時間也未確認是否早於 08:00，只當參考",
+   "alt": true
+  }
+ ],
+ "getting_around": {
+  "mode": "自駕",
+  "license": "台灣駕照正本即可在關島合法開車 30 天（外交部領事局關島頁：年滿 21 歲、持台灣駕照可於入境 30 日內駕車；Public Law 28-162 還可申請延長到 1 年）。但租車公司（Enterprise 等）寫明「駕照不是英文要附國際駕照」，所以建議兩人都去監理站辦國際駕照（NT$250、當場領）一起帶，再加護照＋主駕駛信用卡。Hertz 有效駕照要實體卡，手機電子駕照不收。",
+  "rental": {
+   "company": "Hertz 關島機場店（透過 Paran Rent Car 訂）",
+   "car": "Mazda3 等小型自排車（KIA RIO 約 US$32／天起、Mazda3 約 US$45／天起）",
+   "days": 3,
+   "price_total_twd": 4400,
+   "insurance": "Paran 訂的 Hertz 方案含全額免責險（CDW）、免費加一位駕駛；新手或駕齡短的條件可能不同，訂前確認。取車押金約 US$100",
+   "pickup": "機場：入境大廳出口左手邊的 Hertz 櫃檯，24 小時營業，不用搭接駁車；1/2 清晨也能直接在機場還車",
+   "source": "https://www.trvlogue.com/zh-Hant/guam-car-rental-paran-hertz",
+   "note": "估算：Mazda3 約 US$45×3 天≈US$135≈NT$4,400（匯率 1 USD≈32.4 TWD），跨年旺季實價未查，可能再貴 2–3 成；油錢另計約 US$30（環島約 200 公里，關島油價待確認）。證件規定來源：外交部領事局關島頁 https://www.boca.gov.tw/sp-foof-countrycp-03-286-82de6-05-1.html；Enterprise 關島機場店說明 https://www.enterprise.com/en/car-rental-locations/gu/guam-international-airport-j5g5.html"
+  },
+  "road_notes": [
+   "靠右行駛、左駕車，跟台灣一樣；美國規則：紅燈停車確認後可右轉，校車停下時兩向都要停",
+   "限速用英里（mph），市區多為 35、主幹道 45 左右，遠低於台灣習慣，導航顯示的數字是英里",
+   "路面是珊瑚礁碎石鋪的柏油，下雨後很滑（外交部領事局提醒），雨天放慢",
+   "島上很多區域是美軍基地，導航可能帶你到管制門口，看路牌不要硬闖",
+   "沒有過路費；飯店與景點多有免費停車（飯店停車費依飯店，待確認）",
+   "跨年夜喝酒就不開車：12/31 晚上從飯店走路去 Tree Bar／Ypao 海灘，車停飯店"
+  ],
+  "public": [
+   "不自駕時：杜夢區有紅色觀光巴士 Red Guava Shuttle（杜夢灣沿線、購物中心），戀人岬有週日專車 US$10",
+   "計程車跳錶計費（關島觀光局說明），往南部或機場來回很快就比租車貴"
+  ]
+ },
+ "stays": [
+  {
+   "name": "Guam Plaza Resort 關島廣場度假酒店",
+   "area": "杜夢（Tumon 中段）",
+   "nights": 3,
+   "price_night_for2_twd": 5142,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Guam+Plaza+Resort&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Guam%20Plaza%20Resort%201328%20Pale%20San%20Vitores%20Rd%20Tumon%20Guam",
+   "why": "11/1 Booking 實查 12/30→1/2：3 晚 NT$13,897（原價 23,960）＋稅費 1,529＝15,426，評分 8.3（1,630 則）、可免費取消、入住時付款；離海灘 350 公尺，走路到 Ypao 煙火區約 15 分。預算版首選。"
+  },
+  {
+   "name": "Hilton Guam Resort & Spa 關島希爾頓",
+   "area": "杜夢（Ypao 岬，Tree Bar 所在）",
+   "nights": 3,
+   "price_night_for2_twd": 8861,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Hilton+Guam+Resort&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Guam%20Resort%20%26%20Spa%20202%20Hilton%20Road%20Tumon%20Guam",
+   "why": "11/1 Booking 實查：3 晚 NT$23,948＋稅費 2,634＝26,582，評分 8.0、緊鄰海灘；跨年煙火從隔壁 Ypao 海灘公園施放，住這裡 Tree Bar 倒數完走回房間就好。（Booking 標「特別曝光」廣告位）"
+  },
+  {
+   "name": "Crowne Plaza Resort Guam 關島皇冠假日",
+   "area": "杜夢（市中心）",
+   "nights": 3,
+   "price_night_for2_twd": 11458,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Crowne+Plaza+Resort+Guam&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Crowne%20Plaza%20Resort%20Guam%20Tumon",
+   "why": "11/1 Booking 實查：3 晚 30,968＋稅費 3,406＝34,374，評分 8.8 最高、緊鄰海灘、可免費取消、剩 6 間；想住好一點的升級選項。"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "落地取車吃夜市",
+   "area": "機場→哈格那→杜夢",
+   "drive_km": 25,
+   "drive_time": "約 45 分（分段）",
+   "summary": "下午 5 點落地、機場取車，直接去週三限定的查莫洛夜市吃烤肉，最後在杜夢灣海灘 tiki bar 喝一杯",
+   "stops": [
+    {
+     "time": "11:15",
+     "name": "桃園 11:15 起飛→關島 17:10 落地→Hertz 機場櫃檯取車",
+     "kind": "transport",
+     "stay_min": 75,
+     "desc": "聯合航空直飛 3 小時 55 分（關島比台灣快 2 小時）。入境排隊＋拿行李約 40 分鐘，入境大廳出口左手邊就是 Hertz 櫃檯，核對護照、台灣駕照、國際駕照、信用卡後取車。",
+     "price_for2_twd": 4400,
+     "booking": "需預約",
+     "booking_url": "https://www.paranrentcar.com",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Hertz%20Antonio%20B.%20Won%20Pat%20International%20Airport%20Guam",
+     "site_url": "",
+     "address": "Antonio B. Won Pat International Airport, Tamuning, Guam",
+     "tip": "先在手機下載離線 Google 地圖；租車價為 3 天估算（不含油）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antonio%20B.%20Won%20Pat%20International%20Airport%20overview.jpg?width=1200",
+      "credit": "Paul Spijkers（Wikimedia Commons）",
+      "license": "GFDL"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "關島 Paran Rent Car 赫茲租車開箱：機場取車、保險（TRVLOGUE，2026-09）",
+       "url": "https://www.trvlogue.com/zh-Hant/guam-car-rental-paran-hertz"
+      },
+      {
+       "type": "youtube",
+       "title": "第一次去關島就上手 6天5夜自駕全攻略（心甜 Christy）",
+       "url": "https://www.youtube.com/watch?v=kuM5f4pKcxU"
+      }
+     ]
+    },
+    {
+     "time": "18:45",
+     "name": "Chamorro Village 週三查莫洛夜市",
+     "kind": "food",
+     "stay_min": 100,
+     "desc": "每週三晚上才有的在地夜市：查莫洛烤肉串、紅米飯（red rice）、檸檬醃肉 Kelaguen、椰子，還有現場音樂和跳舞，當地人和遊客一起排隊。一盤烤肉配紅米飯約 US$10–15。",
+     "price_for2_twd": 1150,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Chamorro%20Village%20Hag%C3%A5t%C3%B1a%20Guam",
+     "site_url": "https://www.visitguam.com/things-to-do/shopping/chamorro-village/",
+     "address": "Chamorro Village, Marine Corps Dr, Hagåtña, Guam",
+     "tip": "攤位大多收現金；夜市時間各來源寫 17:00/17:30–21:00/21:30，跨年週有沒有照常辦要出發前看 IG（2025 年曾臨時停辦一週）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chamorro%20sampler%20%2846480092422%29.jpg?width=1200",
+      "credit": "Janine from South Korea, United States（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "The Chamorro Village 官方 @thechamorrovillage",
+       "url": "https://www.instagram.com/thechamorrovillage/"
+      },
+      {
+       "type": "youtube",
+       "title": "關島人最愛 BBQ！查莫洛夜市周三限定必大排長龍（非凡財經新聞）",
+       "url": "https://www.youtube.com/watch?v=L_lvyP62A2k"
+      },
+      {
+       "type": "youtube",
+       "title": "Chamorro Village Night Market in Guam（Dani Adams | Guam Girl）",
+       "url": "https://www.youtube.com/watch?v=cvuCuv1zsdY"
+      }
+     ]
+    },
+    {
+     "time": "20:45",
+     "name": "入住杜夢灣飯店",
+     "kind": "stay",
+     "stay_min": 20,
+     "desc": "從夜市開 15 分鐘回杜夢，車停飯店就不再開。",
+     "price_for2_twd": null,
+     "booking": "需預約",
+     "booking_url": "https://www.booking.com/searchresults.zh-tw.html?ss=Guam+Plaza+Resort&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Guam%20Plaza%20Resort%20Tumon%20Guam",
+     "site_url": "",
+     "address": "Pale San Vitores Rd, Tumon, Guam",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tumon%20bay%20morning%20%286114952265%29.jpg?width=1200",
+      "credit": "Janine from South Korea, United States（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": []
+    },
+    {
+     "time": "21:00",
+     "name": "TABU Tiki Bar（Dusit Beach Resort 海灘 tiki 酒吧）",
+     "kind": "bar",
+     "stay_min": 60,
+     "desc": "杜夢灣沙灘上的提基酒吧，熱帶調酒配海浪聲，Tripadvisor 杜夢夜生活第 1 名（4.9 分）。調酒一杯約 US$12–15，兩人兩杯約 US$55。",
+     "price_for2_twd": 1800,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=TABU%20Tiki%20Bar%20Dusit%20Beach%20Resort%20Guam%201255%20Pale%20San%20Vitores%20Rd%20Tumon",
+     "site_url": "https://www.dusit.com/dusitbeach-resortguam/",
+     "address": "Dusit Beach Resort Guam, 1255 Pale San Vitores Rd, Tumon",
+     "tip": "週三營業到 22:00；明天一早要跳傘，喝一杯就好（跳傘規定當天不能有酒精）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evening%20at%20Tumon%20Bay%20%2849255617617%29.jpg?width=1200",
+      "credit": "Daniel Ramirez from Honolulu, USA（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "TABU Tiki Bar @tabutikibar",
+       "url": "https://www.instagram.com/tabutikibar/"
+      },
+      {
+       "type": "official",
+       "title": "TABU 營業時間（Dusit 官方）",
+       "url": "https://www.dusit.com/dusitbeach-resortguam/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "跳傘浮潛看煙火",
+   "area": "巴里加達→杜夢",
+   "drive_km": 30,
+   "drive_time": "約 50 分（分段）",
+   "summary": "早上從 2,400 公尺高空跳下來看整座島，下午戀人岬、飯店前浮潛，晚上 Proa 晚餐、Tree Bar 倒數看煙火",
+   "stops": [
+    {
+     "time": "07:30",
+     "name": "Skydive Guam 雙人高空跳傘",
+     "kind": "challenge",
+     "stay_min": 210,
+     "desc": "教練綁著你從 8,000 呎（約 2,400 公尺）跳出機門，自由落體後開傘慢慢飄回地面，空中看得到杜夢灣和整座島。基本方案每人 US$299，含保險、交通與照片影片。",
+     "price_for2_twd": 19400,
+     "booking": "需預約",
+     "booking_url": "https://fareharbor.com/embeds/book/skydive-international-guam/?full-items=yes",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Skydive%20Guam%2017-3404%20Neptune%20Blvd%20Barrigada%20Guam",
+     "site_url": "https://www.skydiveguam.com/",
+     "address": "ACI Pacific Hangar, 17-3404 Neptune Blvd, Barrigada, Guam",
+     "tip": "週三到週日營業、18–65 歲、體重 100 公斤內、跳前 24 小時不能潛水、不能喝酒；想跳 14,000 呎每人 US$419",
+     "photo": null,
+     "links": [
+      {
+       "type": "official",
+       "title": "Skydive Guam 官方（價格與規定）",
+       "url": "https://www.skydiveguam.com/"
+      },
+      {
+       "type": "youtube",
+       "title": "Skydive Guam & Saipan - Beautiful Views（官方）",
+       "url": "https://www.youtube.com/watch?v=g9PsL5NRNjM"
+      },
+      {
+       "type": "youtube",
+       "title": "關島跳傘 SKYDIVE IN GUAM（ㄚ炘）",
+       "url": "https://www.youtube.com/watch?v=iKX9nH4zs7c"
+      }
+     ]
+    },
+    {
+     "time": "11:30",
+     "name": "Pika's Cafe 在地早午餐",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "關島人從早吃到下午的在地小館，招牌 Loco Moco（白飯＋漢堡排＋荷包蛋＋肉汁）和查莫洛風味早午餐，Yelp 4.2（373 則）。兩人約 US$35。",
+     "price_for2_twd": 1150,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Pika%27s%20Cafe%20Star%20Bldg%20888%20N%20Marine%20Corps%20Dr%20Upper%20Tumon%20Guam",
+     "site_url": "https://www.pikascafeguam.com",
+     "address": "Star Bldg, 888 N Marine Corps Dr, Upper Tumon",
+     "tip": "每天 07:30–15:00；電話訂位 +1-671-647-7452",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loco%20Moco.jpg?width=1200",
+      "credit": "christian razukas from Honolulu, Hawaii（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Pika's Cafe Guam @pikascafe",
+       "url": "https://www.instagram.com/pikascafe/"
+      },
+      {
+       "type": "youtube",
+       "title": "Pika's Cafe, a true local dining experience on Guam（Gaudent Films）",
+       "url": "https://www.youtube.com/watch?v=tb7cXXS9bd4"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "戀人岬 Two Lovers Point",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "120 公尺高的斷崖觀景台，查莫洛戀人傳說的地方，往下看整片杜夢灣。門票每人 US$3，可以買愛心鎖掛在欄杆上。",
+     "price_for2_twd": 200,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Two%20Lovers%20Point%20Tamuning%20Guam",
+     "site_url": "https://tlpguam.com/pages/visit",
+     "address": "Two Lovers Point (Puntan Dos Amantes), Tamuning",
+     "tip": "每天 09:00–19:00；還想多一站可往北開 30 分去 Ritidian Point 海灘（週三到週日 07:30–16:00 開放、沒有救生員）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two%20Lovers%20Point%20%28257150297%29.jpg?width=1200",
+      "credit": "ryan harvey from Portland, OR（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Two Lovers Point 官方（開放時間、門票）",
+       "url": "https://tlpguam.com/pages/visit"
+      },
+      {
+       "type": "youtube",
+       "title": "Two Lovers Point Walking Tour 2024（StrollingDice）",
+       "url": "https://www.youtube.com/watch?v=2oX3OsM1GGM"
+      }
+     ]
+    },
+    {
+     "time": "14:30",
+     "name": "杜夢灣浮潛（飯店前海灘／Ypao 海灘公園）",
+     "kind": "activity",
+     "stay_min": 150,
+     "desc": "杜夢灣是海洋保護區，沙灘走下去幾十公尺就是珊瑚礁和熱帶魚，水淺浪小，自己帶面鏡就能玩，免費。",
+     "price_for2_twd": 1000,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Ypao%20Beach%20Park%20Tumon%20Guam",
+     "site_url": "",
+     "address": "Gov. Joseph Flores Beach Park (Ypao Beach), Tumon",
+     "tip": "租面鏡蛙鞋約 US$15／人（估）；晚上煙火在 Ypao 施放，傍晚前上岸",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Corals%20and%20fish%20of%20Tumon%20Bay%2C%20Guam%20in%202012.jpg?width=1200",
+      "credit": "Curt Storlazzi, USGS Pacific Coastal and Marine Science Center（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "第一次去關島就上手（心甜 Christy，含杜夢灣自由浮潛段）",
+       "url": "https://www.youtube.com/watch?v=kuM5f4pKcxU"
+      }
+     ]
+    },
+    {
+     "time": "18:00",
+     "name": "PROA 跨年晚餐（查莫洛 BBQ）",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "在 Ypao 海灘公園入口的人氣查莫洛餐廳：BBQ 肋排、雞肉、短肋配紅米飯和 Kelaguen，份量大。兩人約 US$80（估）。",
+     "price_for2_twd": 2600,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=PROA%20Restaurant%20429%20Pale%20San%20Vitores%20Rd%20Tumon%20Guam",
+     "site_url": "",
+     "address": "429 Pale San Vitores Rd, Tumon（Ypao Beach Park 入口）",
+     "tip": "週一到週六 17:00–21:00、週日休；12/31 一定要訂位：reservations@proaguam.com／671-646-7762",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelaguen%201534%20%2814529937155%29.jpg?width=1200",
+      "credit": "photosbybonbon671（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "PROA Restaurant @proaguam",
+       "url": "https://www.instagram.com/proaguam/"
+      },
+      {
+       "type": "youtube",
+       "title": "PROA is a very popular restaurant in Guam（Livsuns）",
+       "url": "https://www.youtube.com/watch?v=6-QqSb4jaRY"
+      }
+     ]
+    },
+    {
+     "time": "22:30",
+     "name": "Tree Bar（關島希爾頓）跨年倒數＋杜夢灣煙火",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "希爾頓海邊的老牌露天酒吧，往年有跨年 80 年代主題倒數派對；午夜觀光局煙火就在隔壁 Ypao 海灘施放，坐著喝酒就看得到。兩人飲料約 US$60（估，活動票另計）。",
+     "price_for2_twd": 1950,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Tree%20Bar%20Hilton%20Guam%20Resort%20%26%20Spa%20202%20Hilton%20Road%20Tumon",
+     "site_url": "https://www.hiltonguamresort.com",
+     "address": "Hilton Guam Resort & Spa, 202 Hilton Rd, Tumon",
+     "tip": "2026 跨年有沒有辦、要不要買票，12 月看希爾頓 IG；煙火時 Ypao 到凱悅之間海域禁止下水",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hilton%20Guam%20Resort%20%26%20Spa.JPG?width=1200",
+      "credit": "Abasaa（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Tree Bar New Year's Eve 80s Countdown at the Hilton Guam（希爾頓官方）",
+       "url": "https://www.youtube.com/watch?v=99Tm7JeNn7A"
+      },
+      {
+       "type": "ig",
+       "title": "Hilton Guam Resort & Spa @hiltonguamresort",
+       "url": "https://www.instagram.com/hiltonguamresort/"
+      },
+      {
+       "type": "youtube",
+       "title": "Twin fireworks shows ring-in 2026 on Guam（KUAM News）",
+       "url": "https://www.youtube.com/watch?v=6E6V5ROVCwg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "潛水完繞南部",
+   "area": "皮提→伊潘→伊納拉漢→烏馬塔克",
+   "drive_km": 110,
+   "drive_time": "約 2.5 小時（分段）",
+   "summary": "元旦早上免執照體驗潛水，中午開車逆時針繞南部：海盜灣午餐、天然海水池泡水，最後在西班牙古堡看夕陽",
+   "stops": [
+    {
+     "time": "08:30",
+     "name": "魚眼角 Fish Eye 免執照體驗潛水",
+     "kind": "challenge",
+     "stay_min": 210,
+     "desc": "飯店接送到魚眼角，教練先在岸上教 30 分鐘，再下水潛 1 小時，二戰炸彈坑變成的珊瑚礁裡滿滿熱帶魚。不會游泳也能參加，KKday 每人 NT$2,502。",
+     "price_for2_twd": 5004,
+     "booking": "需預約",
+     "booking_url": "https://www.kkday.com/zh-tw/product/130472",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Fish%20Eye%20Marine%20Park%20818%20N%20Marine%20Corps%20Dr%20Piti%20Guam",
+     "site_url": "https://fisheyeguamtours.com",
+     "address": "818 N Marine Corps Dr, Piti",
+     "tip": "選 08:30 那場（11:00 潛完）：離 1/2 07:50 回程約 21 小時，符合潛水後搭機間隔；14 天前可免費取消；水下拍照每人 US$15",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20at%20Piti%20Bomb%20Holes%20Marine%20Preserve%2C%20Guam%20in%202012.jpg?width=1200",
+      "credit": "Curt Storlazzi, USGS Pacific Coastal and Marine Science Center（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "KKday 關島魚眼角潛水體驗（含飯店接送）",
+       "url": "https://www.kkday.com/zh-tw/product/130472"
+      },
+      {
+       "type": "youtube",
+       "title": "關島必去！輕鬆潛入10米深海底（ETtoday旅遊雲）",
+       "url": "https://www.youtube.com/watch?v=WXybRAU8bnM"
+      },
+      {
+       "type": "official",
+       "title": "Fish Eye Marine Park 官方（海底觀景台 US$16）",
+       "url": "https://fisheyeguamtours.com"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "Jeff's Pirates Cove 海盜灣海邊餐廳",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "南部環島必停的海邊餐廳，招牌是漢堡和魚排，木頭船形吧台、旁邊就是伊潘海灘。兩人約 US$45（估）。",
+     "price_for2_twd": 1450,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Jeff%27s%20Pirates%20Cove%20111%20Route%204%20Ipan%20Talofofo%20Guam",
+     "site_url": "",
+     "address": "111 Route 4, Ipan, Talofofo",
+     "tip": "平日 11:00–18:00、週末 09:00–19:00；元旦是否照常營業出發前看 IG",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeff%27s%20Pirate%20Cove%2C%20Ipan-Talofofo.jpg?width=1200",
+      "credit": "Dorothy from USA（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Jeff's Pirates Cove @jeffspiratescove",
+       "url": "https://www.instagram.com/jeffspiratescove/"
+      },
+      {
+       "type": "youtube",
+       "title": "Lunch at Jeff's Pirates Cove Guam（Table For Two in Guam）",
+       "url": "https://www.youtube.com/watch?v=24YGQh2TdTA"
+      }
+     ]
+    },
+    {
+     "time": "14:45",
+     "name": "伊納拉漢天然海水池 Inarajan Natural Pools",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "火山岩圍出來的天然海水游泳池，外海浪花打在礁石上、池裡平靜清澈，可以從跳台跳水。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Inarajan%20Natural%20Pool%20Inarajan%20Guam",
+     "site_url": "",
+     "address": "Route 4, Inarajan（Salaglula Pools）",
+     "tip": "沒有救生員，浪大時不要靠近外側；費用免費（待確認）；帶毛巾換衣",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salaglula%20Pools%20-%20Inarajan%2C%20Guam%20-%20DSC00976.JPG?width=1200",
+      "credit": "Daderot（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "關島南部觀光-伊納拉漢天然池（關島之家）",
+       "url": "https://www.youtube.com/watch?v=l0xILwXvjeY"
+      },
+      {
+       "type": "youtube",
+       "title": "佳宜帶你玩 關島一日攻略 戀人岬 伊納拉漢天然泳池（呂佳宜）",
+       "url": "https://www.youtube.com/watch?v=3bBfGt78lnk"
+      }
+     ]
+    },
+    {
+     "time": "17:15",
+     "name": "Fort Soledad 索萊達古堡看夕陽",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "1800 年代西班牙人蓋在烏馬塔克灣上方的砲台遺跡，古砲對著大海，是關島看夕陽最美的地方之一（12/31–1/1 日落約 18:03）。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Fort%20Nuestra%20Se%C3%B1ora%20de%20la%20Soledad%20Umatac%20Guam",
+     "site_url": "",
+     "address": "Fort Nuestra Señora de la Soledad, Umatac",
+     "tip": "看完沿西海岸 Route 2 開回杜夢約 50 分，天黑後山路慢慢開",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Nuestra%20Se%C3%B1ora%20de%20la%20Soled%C3%A5d%20-%20Umatac%2C%20Guam%20-%20DSC00943.JPG?width=1200",
+      "credit": "Daderot（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "Fort Nuestra Señora De La Soledad — Guam — Awesome Sunset（Exploring With Nick）",
+       "url": "https://www.youtube.com/watch?v=MAlAU35Wuuk"
+      },
+      {
+       "type": "youtube",
+       "title": "Exploring Guam at Fort Soledad and the beautiful Umatac Bay（Dani Adams）",
+       "url": "https://www.youtube.com/watch?v=Y0OKNPkbGZM"
+      }
+     ]
+    },
+    {
+     "time": "19:30",
+     "name": "The Beach Restaurant & Bar（Gun Beach 海灘酒吧）",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "杜夢灣北端 Gun Beach 上、號稱關島最大的海灘酒吧，大木平台、現場音樂，最後一晚在沙灘上喝。兩人約 US$60（估）。",
+     "price_for2_twd": 1950,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Beach%20Restaurant%20and%20Bar%20Gun%20Beach%20Road%20Tumon%20Guam",
+     "site_url": "https://www.guambeachbar.com",
+     "address": "Gun Beach Road, Tumon",
+     "tip": "週五營業到約 22:00（各來源不一）；車先停回飯店再叫車過去，明早 05:00 要出門",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tumon%20Bay.JPG?width=1200",
+      "credit": "Abasaa（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "The Beach Restaurant&Bar Guam @beachbarguam",
+       "url": "https://www.instagram.com/beachbarguam/"
+      },
+      {
+       "type": "youtube",
+       "title": "The Beach Restaurant & Bar Guam（Best of Guam - BGTours）",
+       "url": "https://www.youtube.com/watch?v=DnKy1FxzpOY"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "1/2",
+   "weekday": "六",
+   "title": "清晨還車回家",
+   "area": "杜夢→機場→桃園",
+   "drive_km": 6,
+   "drive_time": "約 15 分",
+   "summary": "05:00 退房、機場還車，07:50 起飛，台灣時間 10:15 回到桃園",
+   "stops": [
+    {
+     "time": "05:00",
+     "name": "退房、開往機場",
+     "kind": "transport",
+     "stay_min": 15,
+     "desc": "杜夢到機場只要 15 分鐘，早餐在機場解決。",
+     "price_for2_twd": null,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Antonio%20B.%20Won%20Pat%20International%20Airport%20Guam",
+     "site_url": "",
+     "address": "Tumon → Antonio B. Won Pat International Airport",
+     "tip": "前一晚先把行李收好、油加滿",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ypao%20Beach%20Park%20-%20panoramio.jpg?width=1200",
+      "credit": "yuichiro anazawa（Wikimedia Commons）",
+      "license": "CC BY 3.0"
+     },
+     "links": []
+    },
+    {
+     "time": "05:20",
+     "name": "Hertz 機場還車、報到",
+     "kind": "transport",
+     "stay_min": 40,
+     "desc": "Hertz 機場店 24 小時，鑰匙交櫃檯、確認油量，接著去聯合航空櫃檯報到。",
+     "price_for2_twd": null,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Hertz%20Antonio%20B.%20Won%20Pat%20International%20Airport%20Guam",
+     "site_url": "",
+     "address": "Antonio B. Won Pat International Airport, Tamuning",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Airlines%20Check-in%20counter%20at%20Antonio%20B.%20Won%20Pat%20International%20Airport.JPG?width=1200",
+      "credit": "小野 優太（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "07:50",
+     "name": "聯合航空 關島 07:50→桃園 10:15",
+     "kind": "transport",
+     "stay_min": 265,
+     "desc": "飛 4 小時 25 分，台灣時間上午 10:15 落地，下午還能回台中休息。",
+     "price_for2_twd": null,
+     "booking": "需預約",
+     "booking_url": "https://www.google.com/travel/flights?q=Flights%20to%20GUM%20from%20TPE%20on%202026-12-30%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Taiwan%20Taoyuan%20International%20Airport",
+     "site_url": "",
+     "address": "臺灣桃園國際機場",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taiwan%20Taoyuan%20International%20Airport%20-%20Terminal%201.jpg?width=1200",
+      "credit": "毛貓大少爺（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": []
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "Chamorro Village 週三夜市",
+   "dish": "查莫洛烤肉串、紅米飯、Kelaguen",
+   "price_for2_twd": 1150,
+   "area": "哈格那",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Chamorro%20Village%20Hag%C3%A5t%C3%B1a%20Guam",
+   "why": "關島觀光局把它列為代表夜市；非凡新聞、這群記者等台灣媒體都拍過「週三限定、大排長龍」",
+   "source": "https://www.visitguam.com/things-to-do/shopping/chamorro-village/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chamorro%20sampler%20%2846480092422%29.jpg?width=1200",
+    "credit": "Janine from South Korea, United States（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "The Chamorro Village 官方 @thechamorrovillage",
+     "url": "https://www.instagram.com/thechamorrovillage/"
+    },
+    {
+     "type": "youtube",
+     "title": "關島週三限定景點！到查莫洛夜市必吃這3款特色小吃（這群記者）",
+     "url": "https://www.youtube.com/watch?v=r6wv0DFlBUs"
+    }
+   ]
+  },
+  {
+   "name": "PROA Restaurant",
+   "dish": "查莫洛 BBQ 肋排、紅米飯、Kelaguen",
+   "price_for2_twd": 2600,
+   "area": "杜夢（Ypao 海灘公園口）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=PROA%20Restaurant%20429%20Pale%20San%20Vitores%20Rd%20Tumon%20Guam",
+   "why": "觀光客和當地人都推的查莫洛餐廳，韓日台 YouTube 都有實吃；晚餐建議訂位",
+   "source": "https://www.instagram.com/proaguam/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelaguen%201534%20%2814529937155%29.jpg?width=1200",
+    "credit": "photosbybonbon671（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "PROA Restaurant @proaguam",
+     "url": "https://www.instagram.com/proaguam/"
+    },
+    {
+     "type": "youtube",
+     "title": "[Guam Travel] PROA（ふぃる ちゃんねる）",
+     "url": "https://www.youtube.com/watch?v=gNSiu8Bf4J0"
+    }
+   ]
+  },
+  {
+   "name": "Meskla Dos",
+   "dish": "Maga'låhi 漢堡、查莫洛 BBQ 盤",
+   "price_for2_twd": 1150,
+   "area": "杜夢",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Meskla%20Dos%201352%20Pale%20San%20Vitores%20Rd%20Tumon%20Guam",
+   "why": "關島最有名的漢堡店，KUAM 新聞、多支 YouTube 封「Best burger in Guam」，還有大胃王漢堡挑戰",
+   "source": "https://www.youtube.com/watch?v=CvSn28Z8XB8",
+   "photo": null,
+   "links": [
+    {
+     "type": "ig",
+     "title": "Meskla Dos @meskla.dos",
+     "url": "https://www.instagram.com/meskla.dos/"
+    },
+    {
+     "type": "youtube",
+     "title": "THIS IS THE BEST BURGER IN GUAM | Meskla Dos（Clay & Lauren）",
+     "url": "https://www.youtube.com/watch?v=CvSn28Z8XB8"
+    },
+    {
+     "type": "youtube",
+     "title": "The Dish: Meskla Dos Maga'låhi Burger（UNO Guam）",
+     "url": "https://www.youtube.com/watch?v=_mcSmJoFywc"
+    }
+   ]
+  },
+  {
+   "name": "Meskla Chamoru Fusion Bistro",
+   "dish": "查莫洛創意料理、週日早午餐",
+   "price_for2_twd": 1950,
+   "area": "哈格那",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Meskla%20Chamoru%20Fusion%20Bistro%20Hag%C3%A5t%C3%B1a%20Guam",
+   "why": "Meskla 集團的本店，把查莫洛家常菜做成餐廳版；IG 有人寫「Best restaurant on Guam」",
+   "source": "https://mesklaguam.com",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/-guam%20-food%20-delicious%20%2845618633435%29.jpg?width=1200",
+    "credit": "Janine from South Korea, United States（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Meskla Family Of Restaurants @meskla",
+     "url": "https://www.instagram.com/meskla/"
+    },
+    {
+     "type": "official",
+     "title": "Meskla Chamoru Fusion Bistro 官網",
+     "url": "https://mesklaguam.com"
+    }
+   ]
+  },
+  {
+   "name": "Pika's Cafe",
+   "dish": "Loco Moco、查莫洛早午餐",
+   "price_for2_twd": 1150,
+   "area": "上杜夢",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Pika%27s%20Cafe%20Star%20Bldg%20888%20N%20Marine%20Corps%20Dr%20Upper%20Tumon%20Guam",
+   "why": "關島觀光局拍過介紹、Yelp 4.2（373 則）的在地早午餐",
+   "source": "https://www.pikascafeguam.com",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loco%20Moco.jpg?width=1200",
+    "credit": "christian razukas from Honolulu, Hawaii（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Pika's Cafe Guam @pikascafe",
+     "url": "https://www.instagram.com/pikascafe/"
+    },
+    {
+     "type": "youtube",
+     "title": "Tourism Works for Guam! Pika's Cafe（Guam Visitors Bureau）",
+     "url": "https://www.youtube.com/watch?v=zCpx4tUJLSo"
+    }
+   ]
+  },
+  {
+   "name": "Jeff's Pirates Cove",
+   "dish": "漢堡、魚排、海邊啤酒",
+   "price_for2_twd": 1450,
+   "area": "南部 伊潘",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Jeff%27s%20Pirates%20Cove%20111%20Route%204%20Ipan%20Talofofo%20Guam",
+   "why": "南部環島幾乎每支影片都會停的海邊餐廳；IG 上當地人留言一再推薦",
+   "source": "https://www.instagram.com/jeffspiratescove/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeff%27s%20Pirate%20Cove%2C%20Ipan-Talofofo.jpg?width=1200",
+    "credit": "Dorothy from USA（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Jeff's Pirates Cove @jeffspiratescove",
+     "url": "https://www.instagram.com/jeffspiratescove/"
+    },
+    {
+     "type": "youtube",
+     "title": "Jeff's Pirates Cove Walking Tour 2024（StrollingDice）",
+     "url": "https://www.youtube.com/watch?v=zwoS1vJu_tE"
+    }
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "name": "Skydive Guam 雙人高空跳傘",
+   "what": "跟教練綁在一起從 8,000 呎跳下（可升級 14,000 呎）",
+   "price_for2_twd": 19400,
+   "duration": "約 3 小時（含報到、訓練、飛行）",
+   "booking": "官網 FareHarbor 預約",
+   "season_ok": true,
+   "url": "https://www.skydiveguam.com/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Skydive%20Guam%2017-3404%20Neptune%20Blvd%20Barrigada%20Guam",
+   "note": "官網：8,000 呎 US$299／人、14,000 呎 US$419／人，含保險、交通、照片影片；週三到週日 6:00–18:00；18–65 歲、100 公斤內、跳前 24 小時不能潛水。12/31 是否照常營業待確認",
+   "photo": null,
+   "links": [
+    {
+     "type": "official",
+     "title": "Skydive Guam 官方",
+     "url": "https://www.skydiveguam.com/"
+    },
+    {
+     "type": "youtube",
+     "title": "Skydive Guam（Skydive Guam Saipan）",
+     "url": "https://www.youtube.com/watch?v=k54T-XiNzlE"
+    },
+    {
+     "type": "youtube",
+     "title": "關島跳傘 SKYDIVE IN GUAM（ㄚ炘）",
+     "url": "https://www.youtube.com/watch?v=iKX9nH4zs7c"
+    }
+   ]
+  },
+  {
+   "name": "魚眼角免執照體驗潛水",
+   "what": "教練一對最多四人，在魚眼角珊瑚礁潛 1 小時",
+   "price_for2_twd": 5004,
+   "duration": "4 小時（含接送）",
+   "booking": "KKday 預約，14 天前可免費取消",
+   "season_ok": true,
+   "url": "https://www.kkday.com/zh-tw/product/130472",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Fish%20Eye%20Marine%20Park%20818%20N%20Marine%20Corps%20Dr%20Piti%20Guam",
+   "note": "KKday 11/1 每人 NT$2,502，08:30／10:40 兩場；10 歲以上；英文／韓文教練。要中文教練可找關島當地華人潛店（行情岸潛約 US$85，待確認）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20at%20Piti%20Bomb%20Holes%20Marine%20Preserve%2C%20Guam%20in%202012.jpg?width=1200",
+    "credit": "Curt Storlazzi, USGS Pacific Coastal and Marine Science Center（Wikimedia Commons）",
+    "license": "Public domain"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "KKday 關島魚眼角潛水體驗",
+     "url": "https://www.kkday.com/zh-tw/product/130472"
+    },
+    {
+     "type": "youtube",
+     "title": "關島魚眼公園 體驗潛水（康俊煌）",
+     "url": "https://www.youtube.com/watch?v=PnGBsE6TLY4"
+    }
+   ]
+  },
+  {
+   "name": "南部水上摩托車追野生海豚＋比基尼島",
+   "what": "自己騎雅馬哈水上摩托車出海找海豚，登沙洲浮潛",
+   "price_for2_twd": 8340,
+   "duration": "4 小時（騎乘 1 小時）",
+   "booking": "KKday 預約，7 天前可免費取消",
+   "season_ok": true,
+   "url": "https://www.kkday.com/zh-tw/product/183043",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Merizo%20Pier%20Guam",
+   "note": "KKday 11/1：A 路線 1 小時、兩人共乘一台每人 NT$4,170；2 小時 B 路線（加烏馬塔克灣、塞蒂灣）每人 NT$5,004。想取代跳傘或潛水時用，出發地在南部 Merizo 一帶（待確認）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Umatac%20Bay%2C%20Guam%20-%20DSC00941.JPG?width=1200",
+    "credit": "Daderot（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "KKday 關島比基尼島水上摩托車觀賞海豚之旅",
+     "url": "https://www.kkday.com/zh-tw/product/183043"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 39994,
+  "stay_for2": 15426,
+  "food_for2": [
+   12000,
+   16500
+  ],
+  "transport_for2": [
+   5500,
+   8500
+  ],
+  "activities_for2": [
+   6000,
+   25400
+  ],
+  "total_for2": [
+   78920,
+   116976
+  ],
+  "note": "機票＝聯合航空直飛 19,997×2（11/1 實查）；住宿＝Guam Plaza 3 晚含稅 15,426（改住希爾頓 26,582、上限已用這個算）；交通＝Hertz 3 天約 4,400＋油 1,000＋停車雜支，旺季可能到 8,500，台中↔桃園另計；活動＝體驗潛水 5,004＋戀人岬＋浮潛租具，高標再加兩人跳傘 19,400；吃喝每天約 4,000–5,500（含每晚酒吧，關島物價接近美國本土）。推薦組合（Plaza＋跳傘＋潛水）約 10.1 萬。匯率 1 USD≈32.4 TWD。標「估」的價格待確認"
+ },
+ "weather": {
+  "high_c": 29,
+  "low_c": 24,
+  "conditions": "乾季剛開始，多半晴天偶有短暫陣雨；12 月是颱風季尾巴，機率低但要留意；海水溫約 27°C",
+  "sunrise": "06:43（1/1）",
+  "sunset": "18:03（12/31）",
+  "wear": "夏裝、泳衣、防曬乳、太陽眼鏡；冷氣很強帶薄外套；潛水浮潛可帶防曬水母衣"
+ },
+ "events": [
+  {
+   "date": "12/30（三）",
+   "name": "Chamorro Village 週三夜市",
+   "note": "每週三晚上；跨年週是否照常待確認（看 @thechamorrovillage）",
+   "url": "https://www.visitguam.com/things-to-do/shopping/chamorro-village/"
+  },
+  {
+   "date": "12/31 24:00",
+   "name": "關島觀光局跨年煙火（杜夢灣 Ypao 海灘＋哈格那灣兩場同時施放）",
+   "note": "2025 跨年實際辦了兩場（Isla Public Media、KUAM）；2026 跨年計畫 12 月才公告，待確認",
+   "url": "https://www.islapublic.org/news/2025-12-30/gvb-to-host-two-fireworks-shows-on-nye"
+  },
+  {
+   "date": "12/31",
+   "name": "希爾頓 Tree Bar 跨年倒數派對",
+   "note": "希爾頓官方 YouTube 有往年 80 年代主題倒數；今年是否舉辦、票價待確認",
+   "url": "https://www.youtube.com/watch?v=99Tm7JeNn7A"
+  }
+ ],
+ "prep": [
+  {
+   "item": "入境：兩人各申請 Guam-CNMI ETA（關島-北馬里亞納免簽電子授權，免費、線上、要上傳自拍照與護照，護照效期 6 個月以上、核准後 2 年有效）；已有有效 ESTA（約 US$40）就不用",
+   "when": "12/20 前（至少出發前 5 天拿到）",
+   "url": "https://g-cnmi-eta.cbp.dhs.gov/"
+  },
+  {
+   "item": "訂聯合航空 12/30–1/2 直飛（唯一能跨年的直飛組合，11/1 每人 19,997）",
+   "when": "越早越好",
+   "url": "https://www.google.com/travel/flights?q=Flights%20to%20GUM%20from%20TPE%20on%202026-12-30%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+  },
+  {
+   "item": "兩人去監理站辦國際駕照（NT$250、當場領），連同台灣駕照正本一起帶",
+   "when": "12 月中前",
+   "url": "https://www.boca.gov.tw/sp-foof-countrycp-03-286-82de6-05-1.html"
+  },
+  {
+   "item": "透過 Paran Rent Car 訂 Hertz 機場取車（含全險）",
+   "when": "11 月",
+   "url": "https://www.paranrentcar.com"
+  },
+  {
+   "item": "訂住宿（Guam Plaza 或希爾頓，選可免費取消）",
+   "when": "11 月中前",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Guam+Plaza+Resort&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD"
+  },
+  {
+   "item": "預約 12/31 跳傘、1/1 體驗潛水、12/31 PROA 晚餐",
+   "when": "12 月初",
+   "url": "https://fareharbor.com/embeds/book/skydive-international-guam/?full-items=yes"
+  },
+  {
+   "item": "入境前線上填關島海關申報（電子海關申報單，網址以觀光局最新公告為準，待確認）",
+   "when": "出發前 3 天",
+   "url": "https://www.visitguam.com/about-guam/entry-and-exit-formalities/"
+  }
+ ],
+ "risks": [
+  "直飛只有聯合航空一家、只有 12/30–1/2 這一組；票價 10/31→11/1 一天漲 621，越晚越貴，超過每人 13,000 的目標",
+  "回程 1/2 07:50 起飛，05:00 就要出門，跨年後只剩一個整天",
+  "1/1 潛水後約 21 小時就搭機，一定選 08:30 那場；跳傘要排在潛水之前（跳前 24 小時不能潛水）",
+  "Chamorro Village 夜市、Jeff's Pirates Cove、Skydive 的跨年／元旦營業都還沒公告；1/1 是美國國定假日，Ritidian 保護區可能不開",
+  "杜夢的 Guam Brewery Taphouse 已在 2026-05 歇業，網路舊文推薦的不要去",
+  "關島觀光客近年大減、物價偏高，吃喝一餐常常 US$30 以上；租車與飯店跨年價未完全核實",
+  "海灘與天然池沒有救生員；北部冬天浪大，Ritidian 不下水"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：取車逛夜市",
+    "icons": [
+     "plane",
+     "car",
+     "market",
+     "bbq"
+    ],
+    "caption": "週三夜市吃烤肉"
+   },
+   {
+    "title": "第二天：跳傘看煙火",
+    "icons": [
+     "camera",
+     "fish",
+     "fireworks",
+     "beer"
+    ],
+    "caption": "跳傘浮潛倒數"
+   },
+   {
+    "title": "第三天：潛水繞南部",
+    "icons": [
+     "fish",
+     "car",
+     "beach",
+     "beer"
+    ],
+    "caption": "天然池古堡夕陽"
+   },
+   {
+    "title": "第四天：清晨回家",
+    "icons": [
+     "car",
+     "plane",
+     "hotel"
+    ],
+    "caption": "機場還車上飛機"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "第一次去關島就上手🏝️6天5夜自駕全攻略！杜夢灣自由浮潛、不踩雷人氣美食｜GUAM 2026",
+   "channel": "心甜 Christy",
+   "url": "https://www.youtube.com/watch?v=kuM5f4pKcxU",
+   "takeaway": "2026 最新的台灣情侶關島自駕實錄，確認自駕＋杜夢灣自己浮潛可行"
+  },
+  {
+   "title": "關島自由行EP2-一天順時鐘環島可行嗎？",
+   "channel": "小P一家",
+   "url": "https://www.youtube.com/watch?v=OB5YB3ZbsyI",
+   "takeaway": "南部環島一天開得完，第三天照這個量排（我們改逆時針收在古堡夕陽）"
+  },
+  {
+   "title": "Twin fireworks shows ring-in 2026 on Guam",
+   "channel": "kuamnews",
+   "url": "https://www.youtube.com/watch?v=6E6V5ROVCwg",
+   "takeaway": "去年跨年杜夢灣＋哈格那兩場煙火有辦，跨年方案以此為準"
+  },
+  {
+   "title": "Tree Bar New Year's Eve 80s Countdown at the Hilton Guam Resort & Spa",
+   "channel": "Hilton Guam Resort & Spa",
+   "url": "https://www.youtube.com/watch?v=99Tm7JeNn7A",
+   "takeaway": "Tree Bar 往年有跨年倒數派對，選它當 12/31 最後一站"
+  },
+  {
+   "title": "關島人最愛BBQ！查莫洛夜市周三限定必大排長龍",
+   "channel": "USTV 非凡電視",
+   "url": "https://www.youtube.com/watch?v=L_lvyP62A2k",
+   "takeaway": "夜市只有週三，剛好是落地那晚"
+  },
+  {
+   "title": "關島跳傘 SKYDIVE IN GUAM",
+   "channel": "ㄚ炘",
+   "url": "https://www.youtube.com/watch?v=iKX9nH4zs7c",
+   "takeaway": "台灣人實跳紀錄，看流程與畫面"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights?q=Flights%20to%20GUM%20from%20TPE%20on%202026-12-30%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.boca.gov.tw/sp-foof-countrycp-03-286-82de6-05-1.html",
+  "https://g-cnmi-eta.cbp.dhs.gov/",
+  "https://www.trvlogue.com/zh-Hant/guam-car-rental-paran-hertz",
+  "https://www.enterprise.com/en/car-rental-locations/gu/guam-international-airport-j5g5.html",
+  "https://www.skydiveguam.com/",
+  "https://www.kkday.com/zh-tw/product/130472",
+  "https://www.kkday.com/zh-tw/product/183043",
+  "https://fisheyeguamtours.com",
+  "https://tlpguam.com/pages/visit",
+  "https://www.islapublic.org/news/2025-12-30/gvb-to-host-two-fireworks-shows-on-nye",
+  "https://www.visitguam.com/things-to-do/shopping/chamorro-village/",
+  "https://www.dusit.com/dusitbeach-resortguam/",
+  "https://www.guambeachbar.com",
+  "https://mesklaguam.com",
+  "https://www.fws.gov/refuge/guam",
+  "https://www.arukikata.co.jp/areainfo/gu-eta/",
+  "https://www.booking.com/searchresults.zh-tw.html?ss=Tumon%2C+Guam&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD"
+ ],
+ "checked": "2026-11-01"
+}
