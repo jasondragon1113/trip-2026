@@ -88,3 +88,9 @@
 - 預算不設上限，照實算兩人全包；`within_budget` 一律依「每人 ≤13,000」照實標（會是 false）。
 - 搜尋：WebSearch 已用完。用內建瀏覽器（先 tabs_create 開自己的分頁、每個動作帶 tabId）；分頁不夠時可改用 Chrome 擴充功能，限唯讀：不登入、不填表、不下單，用完關分頁。照片用 Commons API（curl，間隔 2 秒），YouTube 可 curl 搜尋頁抓 ytInitialData。腳本放 `scratchpad/<id>/`。
 - 其他（photo、每晚酒吧、links 以 IG 為主、JSON 結構）全部照前面 1–7 點。
+
+## 2026-11-01 新 10 地共通條件
+- 日期：12/27 以後出發，**最晚 1/6 早上 08:00 前落地台灣**，一定要在當地跨年（12/31 晚上人在當地）。短程 3–4 晚；長程（奧克蘭、墨爾本、溫哥華惠斯勒）4–6 晚。
+- 只算直飛（台中 RMQ 有就優先），機票用 Google 航班實查（`...%20nonstop&curr=TWD&hl=zh-TW&gl=TW`，javascript_tool 等 2.5 秒後讀 `li` 文字最快）。先讀 `研究-初篩-S.md`／`研究-初篩-L.md` 裡你這個地點的段落，機票日期與價格可以沿用再核一次。
+- 搜尋：內建瀏覽器開自己的分頁（每個動作帶 tabId，用完關）；分頁不夠可用 Chrome 擴充功能（唯讀、不登入、不填表）。WebSearch 有額度就用。照片用 Commons API（curl，間隔 2 秒）。腳本放 `scratchpad/<id>/`。
+- `checked` 寫 `"2026-11-01"`。不要寫任何大麻相關內容。
