@@ -1,0 +1,1816 @@
+{
+ "id": "melbourne",
+ "name": "墨爾本＋大洋路",
+ "subtitle": "咖啡巷弄與海岸公路的夏天跨年",
+ "country": "澳洲",
+ "flag": "AU",
+ "motif": "coffee",
+ "palette": {
+  "primary": "#C8743F",
+  "secondary": "#2FA4D7",
+  "soft": "#FDF3E8"
+ },
+ "tagline": "巷弄咖啡跨年，再開大洋路",
+ "summary": "華航桃園直飛，墨爾本市區住 3 晚：巷弄咖啡、市場甜甜圈、希臘菜，12/31 在 Kings Domain 看兩場煙火。接著機場取車自駕 4 天：Anglesea 上衝浪課、大洋路看十二門徒、天亮坐熱氣球飛過市區、菲利普島看企鵝回家。每晚一間酒吧，吃喝是這次長程候選裡最強的。",
+ "dates": {
+  "out": "12/29",
+  "back": "1/5",
+  "nights": 6,
+  "why": "墨爾本直飛只有華航（澳航共掛）每天一班：桃園 23:45 → 隔天 12:05、回程 23:20 → 隔天 05:30。11/01 Google 航班實查 12/29→1/5 每人 49,487（與 10/31 同價）。12/28、12/30 出發同價：12/28 多一晚但跨年週房價貴，12/30 出發 12/31 中午才到太趕；12/27 出發和 1/4 回程沒有直飛；12/28→1/3 每人 56,374。回程 1/6 05:30 落地，符合 08:00 前。"
+ },
+ "flights": [
+  {
+   "from": "TPE",
+   "to": "MEL",
+   "airline": "中華航空 CI（澳洲航空共掛）",
+   "out": "12/29 23:45→12/30 12:05",
+   "back": "1/5 23:20→1/6 05:30",
+   "price_pp_twd": 49487,
+   "baggage": "全服務經濟艙，含托運（公斤數依票種，待確認）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20MEL%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "Google 航班 11/01 實查直飛來回，與 10/31 研究-初篩-L 同價。去回都是紅眼班，但落地 1/6 05:30 在 08:00 期限內。台中 RMQ 沒有直飛（Google 直接建議改桃園）。主推"
+  },
+  {
+   "from": "TPE",
+   "to": "MEL",
+   "airline": "中華航空 CI（澳洲航空共掛）",
+   "out": "12/28 23:45→12/29 12:05",
+   "back": "1/5 23:20→1/6 05:30",
+   "price_pp_twd": 49487,
+   "baggage": "同上",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20MEL%20from%20TPE%20on%202026-12-28%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "同價多玩一天（7 晚），但跨年週房價高，住宿多約 6 千–1.3 萬"
+  },
+  {
+   "from": "TPE",
+   "to": "MEL",
+   "airline": "中華航空 CI（澳洲航空共掛）",
+   "out": "12/30 23:45→12/31 12:05",
+   "back": "1/5 23:20→1/6 05:30",
+   "price_pp_twd": 49487,
+   "baggage": "同上",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20MEL%20from%20TPE%20on%202026-12-30%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "12/31 中午才到、當晚就跨年，太趕不推"
+  },
+  {
+   "from": "TPE",
+   "to": "MEL",
+   "airline": "中華航空 CI（澳洲航空共掛）",
+   "out": "12/28 23:45→12/29 12:05",
+   "back": "1/3 23:20→1/4 05:30",
+   "price_pp_twd": 56374,
+   "baggage": "同上",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20MEL%20from%20TPE%20on%202026-12-28%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-01",
+   "basis": "想早點回台灣的選項，貴約 7 千／人。12/27 出發、1/4 回程都沒有直飛"
+  }
+ ],
+ "getting_around": {
+  "mode": "混合",
+  "license": "台灣駕照不是英文，要帶「台灣駕照正本＋國際駕照」。國際駕照到任一監理站臨櫃辦：身分證、駕照正本、護照影本、2 吋照片 2 張，規費約 NT$250、當場拿。VicRoads 規定短期旅客可用外國駕照在維州開車，非英文駕照要附國際駕照或英文譯本（譯本要 NAATI 認證或領事館出具）；國際駕照不能單獨用。租車公司多數要 21 歲以上、持照滿 1 年（待確認）。",
+  "rental": {
+   "company": "Kayak 比價（Airport Rentals／DiscoverCars／eDreams 等，供應商取車時決定）",
+   "car": "Toyota Yaris Cross 或同級小型 SUV（自排）",
+   "days": 4,
+   "price_total_twd": 3920,
+   "insurance": "基本價通常含基本險但自負額很高（常見 A$4,000 以上，待確認）；建議加購零自負額全險，約 A$25–35／天（待確認）",
+   "pickup": "墨爾本機場（1/2 09:00 取、1/5 傍晚還）",
+   "source": "https://www.kayak.com.au/cars/MEL/2027-01-02-09h/2027-01-05-20h?sort=price_a",
+   "note": "Kayak 11/01 查 1/2 09:00–1/5 20:00 機場取還：Kia K4 同級 A$161、Toyota Yaris Cross 同級 A$171、Subaru Crosstrek A$191（含稅總價）；部分供應商要搭接駁車到場外取車。市區取車的選項在 Kayak 上較少，所以用 SkyBus 回機場取車"
+  },
+  "road_notes": [
+   "靠左行駛、右駕；圓環順時針、讓右方來車；雨刷和方向燈位置跟台灣相反",
+   "大洋路（B100）多是單線彎路，慢車請用路邊的 Turn-out 讓後車；暑假週末車很多，十二門徒早上 9 點前最好停",
+   "黃昏到清晨常有袋鼠、袋熊衝出來，盡量天黑前到住宿",
+   "CityLink、EastLink 是收費路，租車有 e-tag 事後連手續費扣；本行程機場→大洋路（M80＋M1）、菲利普島（M1／M420）都可避開",
+   "酒駕上限 0.05，路邊隨機呼氣檢測很常見；駕駛每晚最多一杯",
+   "夏天熱浪或森林火災會封路、發布全面禁火令，出發前看 VicTraffic 與 VicEmergency App",
+   "市區停車場一晚約 A$30–50（待確認），路邊停車看清楚收費時段與拖吊標誌"
+  ],
+  "public": [
+   "SkyBus 機場快線：機場 ↔ Southern Cross 車站，每 10 分一班；網購來回票每程 A$21.70／人",
+   "市區免費電車區（Free Tram Zone）：CBD 內搭電車免費",
+   "出免費區要 myki 卡（車站、超商買卡加值），手機錢包感應付款的開放進度待確認",
+   "St Kilda：96 號電車從 Bourke St 約 30 分",
+   "不想自駕時：大洋路、菲利普島都有一日團（價格待確認），但十二門徒一日來回要 12 小時，很累"
+  ]
+ },
+ "stays": [
+  {
+   "name": "Brady Apartment Hotel Hardware Lane",
+   "area": "CBD（Hardware Lane 巷弄）",
+   "nights": 3,
+   "price_night_for2_twd": 6403,
+   "availability": "有空房",
+   "url": "https://www.booking.com/hotel/au/brady-hotels-hardware-lane.zh-tw.html?checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Brady%20Apartment%20Hotel%20Hardware%20Lane%20Melbourne",
+   "why": "12/30–1/2 三晚 Booking 11/01 總價 19,208（8.3 分），公寓式有小廚房；跨年後走回巷子就到，市場、巷弄都走路可到"
+  },
+  {
+   "name": "The International Motel Apollo Bay",
+   "area": "大洋路阿波羅灣",
+   "nights": 1,
+   "price_night_for2_twd": 12613,
+   "availability": "有空房",
+   "url": "https://www.booking.com/hotel/au/comfort-inn-the-international.zh-tw.html?checkin=2027-01-02&checkout=2027-01-03&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=The%20International%20Motel%20Apollo%20Bay",
+   "why": "1/2 一晚 12,613（8.6 分）；暑假週六阿波羅灣全鎮都貴，8 分以上最便宜一間 11,820（Beachcomber）"
+  },
+  {
+   "name": "Brady Apartment Hotel Flinders Street",
+   "area": "CBD（Flinders St）",
+   "nights": 1,
+   "price_night_for2_twd": 3284,
+   "availability": "有空房",
+   "url": "https://www.booking.com/hotel/au/brandy-hotels-flinders-street.zh-tw.html?checkin=2027-01-03&checkout=2027-01-04&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Brady%20Apartment%20Hotel%20Flinders%20Street%20Melbourne",
+   "why": "1/3 一晚 3,284（8.3 分），假期後房價掉很多；走路 20 分到熱氣球集合點；停車另計（待確認）"
+  },
+  {
+   "name": "Apartments at Glen Isla（格倫島公寓式酒店）",
+   "area": "菲利普島 Cowes",
+   "nights": 1,
+   "price_night_for2_twd": 6274,
+   "availability": "有空房",
+   "url": "https://www.booking.com/hotel/au/apartments-at-glen-isla.zh-tw.html?checkin=2027-01-04&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Apartments%20at%20Glen%20Isla%20Cowes%20Phillip%20Island",
+   "why": "1/4 一晚 6,274（8.7 分）；看完企鵝不用半夜開 2 小時回市區"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "巷弄咖啡初見面",
+   "area": "墨爾本市中心（CBD）巷弄",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "前一晚 23:45 從桃園飛，中午 12:05 落地；搭 SkyBus 進城放行李，下午喝站著喝的平白咖啡、走塗鴉巷，晚上吃山東水餃、上屋頂酒吧看夕陽。",
+   "stops": [
+    {
+     "time": "12:05",
+     "name": "墨爾本機場 → SkyBus 到 Southern Cross 車站",
+     "kind": "transport",
+     "stay_min": 90,
+     "desc": "華航 12:05 落地 T2 國際航廈，SkyBus 機場快線每 10 分一班、24 小時外幾乎都有車；網購來回票每程 A$21.70／人，到 Southern Cross 再走路或搭免費電車到飯店。",
+     "price_for2_twd": 1000,
+     "booking": "免預約",
+     "booking_url": "https://www.skybus.com.au/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Melbourne%20Airport%20Terminal%202%20International",
+     "site_url": "https://www.skybus.com.au/",
+     "address": "Melbourne Airport T2, Departure Dr, Tullamarine",
+     "tip": "澳洲入境要申報所有食物（含泡麵、肉乾），沒申報被查到會重罰；買來回票，1/2 去機場取車那趟就用回程",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Terminal%204%20Skybus%20bus%20stop%20at%20Melbourne%20Airport%2C%20Melbourne.jpg?width=1200",
+      "credit": "Philip Mallis（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "SkyBus 官網（Melbourne City Express）",
+       "url": "https://www.skybus.com.au/"
+      }
+     ]
+    },
+    {
+     "time": "14:30",
+     "name": "Patricia Coffee Brewers",
+     "kind": "food",
+     "stay_min": 30,
+     "desc": "藏在小巷口、只有站位的咖啡吧，墨爾本人上班前的那杯平白咖啡（flat white）就從這種店開始。兩人約 A$12。",
+     "price_for2_twd": 280,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Patricia%20Coffee%20Brewers%20Little%20Bourke%20St%20and%20Little%20William%20St%20Melbourne",
+     "site_url": "https://www.instagram.com/pcoffeebrewers/",
+     "address": "Little Bourke St & Little William St, Melbourne",
+     "tip": "只開週一到週五 07:00–16:00，週末吃不到；站著喝、10 分鐘解決",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flat%20white%20coffee%20with%20pretty%20feather%20pattern.jpg?width=1200",
+      "credit": "GeorgeMichaelFarewell（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Patricia Coffee Brewers Instagram @pcoffeebrewers",
+       "url": "https://www.instagram.com/pcoffeebrewers/"
+      }
+     ]
+    },
+    {
+     "time": "15:15",
+     "name": "巷弄散步：Degraves St → Centre Place → Hosier Lane 塗鴉巷",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "墨爾本最有名的咖啡巷 Degraves St、窄到只能側身的 Centre Place，再走到滿牆塗鴉、每週都在換畫的 Hosier Lane。對面就是 Fed Square。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Degraves%20Street%20Melbourne%20VIC",
+     "site_url": "https://www.youtube.com/watch?v=xDY_hnI2Kos",
+     "address": "Degraves St / Centre Pl / Hosier Ln, Melbourne",
+     "tip": "整段都在免費電車區（Free Tram Zone），走累就跳上電車；累了先回飯店睡一下",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne%20Degraves%20Street%20seen%20from%20Degraves%20Place%20to%20the%20southeast.jpg?width=1200",
+      "credit": "Ymblanter（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "The 5 Best Laneways in Melbourne（Amble）",
+       "url": "https://www.youtube.com/watch?v=xDY_hnI2Kos"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "ShanDong MaMa 山東媽媽水餃",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "Bourke St 商場裡的小店，招牌是鯖魚水餃和豬肉茴香水餃，很多墨爾本華人推薦的家常味。兩人約 A$55。",
+     "price_for2_twd": 1260,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=ShanDong%20MaMa%20Mid%20City%20Arcade%20200%20Bourke%20Street%20Melbourne",
+     "site_url": "https://www.instagram.com/shandongmama/",
+     "address": "Mid City Arcade, 200 Bourke St, Melbourne",
+     "tip": "小店位子少，晚餐尖峰會排隊；只收卡的店很多，帶信用卡",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jiaozi%20with%20Pork%20%26%20Chive%20by%20Banej.jpg?width=1200",
+      "credit": "Banej（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "ShanDong MaMa Instagram @shandongmama",
+       "url": "https://www.instagram.com/shandongmama/"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Rooftop Bar（Curtin House 頂樓）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "雞尾酒／啤酒屋頂酒吧：老大樓 Curtin House 頂樓，夏天傍晚看城市天際線和 20:45 的夕陽，墨爾本屋頂酒吧的元祖。兩人約 A$80。",
+     "price_for2_twd": 1830,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Rooftop%20Bar%20Curtin%20House%20252%20Swanston%20Street%20Melbourne",
+     "site_url": "https://www.instagram.com/rooftopbar/",
+     "address": "Level 7, Curtin House, 252 Swanston St, Melbourne",
+     "tip": "要爬樓梯／電梯到 7 樓；夏天週末晚上常排隊，平日比較好進",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Curtin%20House.jpg?width=1200",
+      "credit": "Over-tired（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Rooftop Bar Instagram @rooftopbar",
+       "url": "https://www.instagram.com/rooftopbar/"
+      },
+      {
+       "type": "ig",
+       "title": "Curtin House Instagram @curtinhouse",
+       "url": "https://www.instagram.com/curtinhouse/"
+      },
+      {
+       "type": "youtube",
+       "title": "I Went To All The Best Bars In Melbourne（jake valianes）",
+       "url": "https://www.youtube.com/watch?v=xn9s4GJihHo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "甜甜圈＋跨年煙火",
+   "area": "維多利亞女王市場／CBD／Kings Domain",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上去百年市場吃熱果醬甜甜圈、喝老牌義式咖啡，中午回飯店睡飽，晚上吃希臘菜，去 Kings Domain 看 21:30 和午夜兩場煙火，最後在飯店樓下的巷子續攤。",
+   "stops": [
+    {
+     "time": "09:00",
+     "name": "維多利亞女王市場＋American Doughnut Kitchen",
+     "kind": "food",
+     "stay_min": 120,
+     "desc": "1878 年開到現在的露天市場，先排老餐車 American Doughnut Kitchen（1950 年起）現炸的熱果醬甜甜圈，再逛熟食區、水果攤。兩人約 A$15。",
+     "price_for2_twd": 340,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=American%20Doughnut%20Kitchen%20Queen%20Victoria%20Market%20Queen%20Street%20Melbourne",
+     "site_url": "https://qvm.com.au/",
+     "address": "Queen Victoria Market, Queen St & Victoria St, Melbourne",
+     "tip": "市場週一、週三休，週四 06:00–15:00；12/31 是週四照開，但年底營業時間待確認；甜甜圈內餡很燙",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Jam%20Doughnuts.jpg?width=1200",
+      "credit": "Finbar.concaig（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "American Doughnut Kitchen Instagram @adkmelbourne",
+       "url": "https://www.instagram.com/adkmelbourne/"
+      }
+     ]
+    },
+    {
+     "time": "11:30",
+     "name": "Pellegrini's Espresso Bar",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "1954 年開的義式咖啡吧，墨爾本咖啡文化的起點之一；坐吧檯喝 espresso、點西瓜冰沙 granita。兩人約 A$30。",
+     "price_for2_twd": 690,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Pellegrini%27s%20Espresso%20Bar%2066%20Bourke%20Street%20Melbourne",
+     "site_url": "https://www.instagram.com/pellegrinisespressobar/",
+     "address": "66 Bourke St, Melbourne",
+     "tip": "老店只收現金或卡的規則常變，帶點小額澳幣保險",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pellegrini%27s%20Espresso%20Bar%20December%202018.JPG?width=1200",
+      "credit": "Mattinbgn（Wikimedia Commons）",
+      "license": "CC BY 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Pellegrini's Espresso Bar Instagram @pellegrinisespressobar",
+       "url": "https://www.instagram.com/pellegrinisespressobar/"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "回 Brady 飯店午睡",
+     "kind": "stay",
+     "stay_min": 240,
+     "desc": "跨年夜要撐到凌晨，下午回 Hardware Lane 的飯店補眠、洗澡換衣服。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Brady%20Apartment%20Hotel%20Hardware%20Lane%20Melbourne",
+     "site_url": "https://www.booking.com/hotel/au/brady-hotels-hardware-lane.zh-tw.html",
+     "address": "30 Little Lonsdale St 一帶（Hardware Lane 旁）",
+     "tip": "帶野餐墊、薄外套、水；煙火區禁酒",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardware%20Lane%20facing%20Bourke%20Street%202019-09-16.jpg?width=1200",
+      "credit": "Tangerineduel（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "18:00",
+     "name": "Tsindos 希臘餐廳（希臘區 Lonsdale St）",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "墨爾本是希臘以外希臘人最多的城市之一，Lonsdale St 這段就是希臘區；Tsindos 是老牌家庭希臘菜，點煎起司 saganaki、烤羊肉。兩人約 A$110。",
+     "price_for2_twd": 2520,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Tsindos%20Greek%20Restaurant%20197%20Lonsdale%20Street%20Melbourne",
+     "site_url": "https://www.instagram.com/tsindosgreek/",
+     "address": "197 Lonsdale St, Melbourne",
+     "tip": "跨年夜一定要先訂位，可能只賣套餐；吃完走 20 分到 Kings Domain",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saganaki.jpg?width=1200",
+      "credit": "Tammy Green from Chicago, USA（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Tsindos Greek Restaurant Instagram @tsindosgreek",
+       "url": "https://www.instagram.com/tsindosgreek/"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Kings Domain 跨年慶祝區（21:30＋午夜煙火）",
+     "kind": "night",
+     "stay_min": 210,
+     "desc": "2025 版：市區 4 個免費慶祝區（Kings Domain、Flagstaff、Treasury Gardens、Docklands）18:00–01:00 開放，21:30 先放一場家庭煙火，午夜從市區大樓屋頂放煙火加雷射。Kings Domain 有 DJ、餐車，看天際線最完整。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Kings%20Domain%20Melbourne%20VIC",
+     "site_url": "https://nye.melbourne.vic.gov.au/",
+     "address": "Kings Domain, Linlithgow Ave, Melbourne",
+     "tip": "全區禁酒、會罰款；2026 版細節 11/01 還沒公告，12 月看官網；散場電車很擠，走路回 Hardware Lane 約 30 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne%20New%20Year%202014%20%2811669464283%29.jpg?width=1200",
+      "credit": "Chris Phutully from Australia（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "City of Melbourne 跨年官網",
+       "url": "https://nye.melbourne.vic.gov.au/"
+      },
+      {
+       "type": "blog",
+       "title": "Time Out：墨爾本免費看跨年煙火的地方",
+       "url": "https://timeout.com/melbourne/things-to-do/the-best-free-places-to-see-new-years-eve-fireworks-in-melbourne"
+      }
+     ]
+    },
+    {
+     "time": "00:30",
+     "name": "Hardware Lane 巷弄酒吧街續攤",
+     "kind": "bar",
+     "stay_min": 60,
+     "desc": "酒吧街：飯店就在這條石板巷，兩側一整排餐酒館和小酒吧，跨年後在巷子裡喝一杯就走回房間。兩人約 A$60。",
+     "price_for2_twd": 1380,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Hardware%20Lane%20Melbourne%20VIC",
+     "site_url": "",
+     "address": "Hardware Lane, Melbourne",
+     "tip": "跨年夜不少酒吧要買票或限額，不排隊的就進；大城市跨年後人潮多，結伴走",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardware%20Lane%2C%20Melbourne.jpg?width=1200",
+      "credit": "Johntorcasio（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "聖基爾達海邊日",
+   "area": "CBD／St Kilda 海邊",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "元旦睡飽吃早午餐，搭 96 號電車到 St Kilda 海邊吹風、吃百年蛋糕店，傍晚在防波堤看野生小企鵝回家，最後去澳洲最老的現場音樂酒吧。",
+   "stops": [
+    {
+     "time": "10:30",
+     "name": "Higher Ground 早午餐",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "老發電廠改的挑高咖啡館，墨爾本早午餐代表店之一：酪梨吐司、鬆餅、手沖。兩人約 A$75。",
+     "price_for2_twd": 1720,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Higher%20Ground%20650%20Little%20Bourke%20Street%20Melbourne",
+     "site_url": "https://www.instagram.com/highergroundmelbourne/",
+     "address": "650 Little Bourke St, Melbourne",
+     "tip": "元旦營業時間待確認；國定假日多數餐廳加收 10–15% 假日附加費",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Smashed%20Avocado%20on%20Sourdough%20Toast%20with%20Chai%20Latte%20-%20M%26S%20cafe%202023-08-08.jpg?width=1200",
+      "credit": "Andy Li（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Higher Ground Melbourne Instagram @highergroundmelbourne",
+       "url": "https://www.instagram.com/highergroundmelbourne/"
+      },
+      {
+       "type": "youtube",
+       "title": "【小吳】墨爾本「無計劃旅遊」墨爾本必吃美食（見習網美小吳）",
+       "url": "https://www.youtube.com/watch?v=AWGEP1zSvy8"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "96 號電車到 St Kilda",
+     "kind": "transport",
+     "stay_min": 30,
+     "desc": "從市區 Bourke St 搭 96 號電車約 30 分到 St Kilda 海邊（Acland St 站）。用 myki 卡或手機錢包（2026 開放感應付款進度待確認）。",
+     "price_for2_twd": 280,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=St%20Kilda%20Acland%20Street%20tram%20stop",
+     "site_url": "https://www.ptv.vic.gov.au/",
+     "address": "Route 96 tram, Bourke St → St Kilda",
+     "tip": "市區免費電車區出了範圍就要刷卡，別忘了 touch on",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne%20%28AU%29%2C%20City%20Circle%20Tram%20--%202019%20--%201550.jpg?width=1200",
+      "credit": "Dietmar Rabich（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "13:00",
+     "name": "St Kilda 海灘＋棧橋",
+     "kind": "sight",
+     "stay_min": 150,
+     "desc": "墨爾本人的夏日海灘：沿海散步道、Luna Park 遊樂園大嘴門、走到棧橋盡頭的小亭子看市區天際線。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=St%20Kilda%20Pier%20Melbourne",
+     "site_url": "",
+     "address": "St Kilda Pier, Pier Rd, St Kilda",
+     "tip": "紫外線極強，帽子防曬必備；累了在沙灘睡午覺",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne%20%28AU%29%2C%20View%20from%20St%20Kilda%20Pier%20--%202019%20--%201591.jpg?width=1200",
+      "credit": "Dietmar Rabich（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "16:00",
+     "name": "Monarch Cakes（Acland St 蛋糕街）",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "Acland St 是東歐猶太蛋糕店一條街，Monarch 1934 年開業，招牌巧克力 kugelhopf、李子蛋糕。兩人約 A$25。",
+     "price_for2_twd": 570,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Monarch%20Cakes%20103%20Acland%20Street%20St%20Kilda",
+     "site_url": "https://www.instagram.com/monarchcakes/",
+     "address": "103 Acland St, St Kilda",
+     "tip": "元旦營業時間待確認；外帶到海邊吃也可以",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Acland%20Street%20cake%20shop%20window.jpg?width=1200",
+      "credit": "VirtualSteve at English Wikipedia（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Monarch Cakes Instagram @monarchcakes",
+       "url": "https://www.instagram.com/monarchcakes/"
+      }
+     ]
+    },
+    {
+     "time": "20:45",
+     "name": "St Kilda 防波堤看野生小企鵝",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "棧橋後面的防波堤住著一群野生小藍企鵝，日落（約 20:45）後陸續回巢，免費，常有志工解說。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=St%20Kilda%20Breakwater%20penguins%20St%20Kilda%20Pier",
+     "site_url": "",
+     "address": "St Kilda Pier breakwater, St Kilda",
+     "tip": "嚴禁閃光燈、不能摸也不能餵；觀賞步道開放時間依 Parks Victoria 公告（待確認）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20091121%20Little%20Penguin%20on%20rock%20at%20St%20Kilda%20Breakwater%20%28left%20side%20view%29.jpg?width=1200",
+      "credit": "Mikeybear（Wikimedia Commons）",
+      "license": "CC BY 3.0"
+     },
+     "links": []
+    },
+    {
+     "time": "21:45",
+     "name": "The Espy（Hotel Esplanade）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "現場音樂酒吧：1878 年的海邊老酒店，號稱澳洲營業最久的現場音樂場地，整修後 5 層樓有好幾個吧台和舞台。兩人約 A$60。",
+     "price_for2_twd": 1380,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Esplanade%2011%20The%20Esplanade%20St%20Kilda",
+     "site_url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/triumphant-return-espy-lower-levels",
+     "address": "11 The Esplanade, St Kilda",
+     "tip": "部分表演要買票；回市區搭 96 號電車（深夜班距拉長）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Esplanade%20Hotel%20on%20The%20Esplanade%20in%20St%20Kilda.jpg?width=1200",
+      "credit": "Bidgee（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "Broadsheet：The Espy 重新開幕",
+       "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/triumphant-return-espy-lower-levels"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "1/2",
+   "weekday": "六",
+   "title": "大洋路衝浪去",
+   "area": "Anglesea／Lorne／Kennett River／Apollo Bay",
+   "drive_km": 190,
+   "drive_time": "約 3 小時（不含停留）",
+   "summary": "SkyBus 去機場取車，開 1 小時多到 Anglesea 上衝浪課，接著沿大洋路經紀念拱門、Lorne、找野生無尾熊，晚上在阿波羅灣吃漁會炸魚和龍蝦、喝精釀。",
+   "stops": [
+    {
+     "time": "07:30",
+     "name": "SkyBus 到機場取車 → M80/M1 往吉朗",
+     "kind": "transport",
+     "stay_min": 90,
+     "desc": "用 SkyBus 回程票到機場（約 30 分），09:00 取車，走 M80 環城＋M1 往 Geelong，再接 B100 大洋路，約 115 公里、1 小時 20 分到 Anglesea。",
+     "price_for2_twd": 1000,
+     "booking": "需預約",
+     "booking_url": "https://www.kayak.com.au/cars/MEL/2027-01-02-09h/2027-01-05-20h?sort=price_a",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Melbourne%20Airport%20car%20rental",
+     "site_url": "https://www.kayak.com.au/cars/MEL/2027-01-02-09h/2027-01-05-20h?sort=price_a",
+     "address": "Melbourne Airport, Tullamarine",
+     "tip": "取車時拍車身四周；問清楚 e-tag 收費；這條路線不經過收費路",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne%20Airport%20Terminal%202%20%28inside%29%20International%20Arrivals%202022-02-06.jpg?width=1200",
+      "credit": "MDRX（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "大洋路自駕遊：國際駕照、租車省錢、阿波羅灣住宿與日出（Philip Wu 菲力•吳）",
+       "url": "https://www.youtube.com/watch?v=QdUqCPD65uc"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "Go Ride A Wave 衝浪課（Anglesea）",
+     "kind": "challenge",
+     "stay_min": 150,
+     "desc": "2 小時入門團體課，教練在沙灘先教起身，再下水用軟板追白浪；含衝浪板、全身防寒衣。官網每人 A$94。",
+     "price_for2_twd": 4310,
+     "booking": "需預約",
+     "booking_url": "https://fareharbor.com/embeds/book/gorideawavevic/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Go%20Ride%20A%20Wave%20Anglesea%20surf%20school",
+     "site_url": "https://gorideawave.com.au/location/anglesea/anglesea-surf-lessons/",
+     "address": "143b Great Ocean Rd, Anglesea（集合點以預約信為準）",
+     "tip": "上課時段依潮汐排，訂位時確認；要會游泳；帶泳衣、毛巾、防曬",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglesea%20Beach.jpg?width=1200",
+      "credit": "Pimlico27（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Go Ride A Wave：Anglesea 衝浪課",
+       "url": "https://gorideawave.com.au/location/anglesea/anglesea-surf-lessons/"
+      }
+     ]
+    },
+    {
+     "time": "14:00",
+     "name": "大洋路紀念拱門 → Lorne 午餐＋Teddy's Lookout",
+     "kind": "sight",
+     "stay_min": 105,
+     "desc": "經過 Eastern View 的木造紀念拱門（大洋路是一戰退伍軍人蓋的），在 Lorne 海邊小鎮吃午餐，再上 Teddy's Lookout 看大洋路蜿蜒入海的經典畫面。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Teddy%27s%20Lookout%20Lorne%20VIC",
+     "site_url": "",
+     "address": "George St, Lorne VIC",
+     "tip": "拱門路邊停車位少，週末要耐心；Lorne 午餐兩人約 A$50（未計入，待確認）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lorne%20Pier%20from%20Teddys%20March%202019.jpg?width=1200",
+      "credit": "Bob Tan（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "2天自駕大洋路！從墨爾本到十二門徒的隱藏景點（Ryan&Chloe）",
+       "url": "https://www.youtube.com/watch?v=qf1qGcoUhxg"
+      }
+     ]
+    },
+    {
+     "time": "16:00",
+     "name": "Kennett River 找野生無尾熊",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "Kennett River 的 Grey River Rd 兩旁尤加利樹上常有野生無尾熊，抬頭慢慢找；路邊還有很親人的彩色鸚鵡。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Grey%20River%20Road%20Kennett%20River%20VIC",
+     "site_url": "",
+     "address": "Grey River Rd, Kennett River VIC",
+     "tip": "不要餵鳥、不要靠近無尾熊；路窄，停車開警示燈靠邊",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20in%20eucalyptus.jpg?width=1200",
+      "credit": "KobiWiki（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "大洋路兩天一夜自駕・尋找野生無尾熊攻略（MeloFunPlay 美樂玩不累）",
+       "url": "https://www.youtube.com/watch?v=an4ynh6akvk"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "Apollo Bay Fishermen's Co-op 漁會",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "漁港旁的漁會直營店，當天漁獲炸魚薯條，招牌是南方岩龍蝦（southern rock lobster，時價）。兩人約 A$90。",
+     "price_for2_twd": 2060,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Apollo%20Bay%20Fishermen%27s%20Co-op%20Breakwater%20Road%20Apollo%20Bay",
+     "site_url": "https://www.instagram.com/apollobayfishcoop/",
+     "address": "Breakwater Rd, Apollo Bay VIC",
+     "tip": "營業時間待確認，夏天傍晚就可能收；先 check-in 再走過去",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apollo%20Bay%20%28AU%29%2C%20Beach%20--%202019%20--%20170325.jpg?width=1200",
+      "credit": "Dietmar Rabich（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Apollo Bay Fishermen's Co-Op Instagram @apollobayfishcoop",
+       "url": "https://www.instagram.com/apollobayfishcoop/"
+      }
+     ]
+    },
+    {
+     "time": "20:00",
+     "name": "Great Ocean Road Brewhouse",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "精釀啤酒館：1887 年的紅磚老酒館，16 支生啤酒頭加上兩百多款澳洲精釀，Prickly Moses 酒廠直營。兩人約 A$50。",
+     "price_for2_twd": 1150,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Great%20Ocean%20Road%20Brewhouse%2029%20Great%20Ocean%20Road%20Apollo%20Bay",
+     "site_url": "https://visitgreatoceanroad.org.au/restaurants/great-ocean-road-brewhouse/",
+     "address": "29 Great Ocean Rd, Apollo Bay VIC",
+     "tip": "隔天一早要開車，駕駛只喝一杯（酒駕上限 0.05）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apollo%20Bay%2C%20Victoria.%20Australia%20%28Ank%20Kumar%29%2001.jpg?width=1200",
+      "credit": "Ank Kumar（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Visit Great Ocean Road：Great Ocean Road Brewhouse",
+       "url": "https://visitgreatoceanroad.org.au/restaurants/great-ocean-road-brewhouse/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "1/3",
+   "weekday": "日",
+   "title": "十二門徒看奇岩",
+   "area": "Port Campbell 國家公園／Timboon／Fitzroy",
+   "drive_km": 345,
+   "drive_time": "約 4.5–5 小時（不含停留）",
+   "summary": "一早開 1 小時 20 分到十二門徒，趁旅行團還沒到看奇岩、走下 Gibson Steps 沙灘，再去 Loch Ard Gorge 散步，午餐在鐵道倉庫酒廠，下午走內陸回墨爾本，晚上到 Fitzroy 屋頂酒吧。",
+   "stops": [
+    {
+     "time": "08:30",
+     "name": "十二門徒＋Gibson Steps",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "大洋路最有名的海蝕石柱群，早上 9 點前遊覽車還沒到；旁邊的 Gibson Steps 可以走 86 階下到沙灘，從底下仰望石柱。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Twelve%20Apostles%20Lookout%20Great%20Ocean%20Road%20Princetown",
+     "site_url": "",
+     "address": "Great Ocean Rd, Princetown VIC",
+     "tip": "遊客中心停車場免費；海邊風大，帶外套；Gibson Steps 漲潮或大浪時會封",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Princetown%20%28AU%29%2C%20Port%20Campbell%20National%20Park%2C%20Twelve%20Apostles%20--%202019%20--%200969.jpg?width=1200",
+      "credit": "Dietmar Rabich（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "2天自駕大洋路！從墨爾本到十二門徒的隱藏景點（Ryan&Chloe）",
+       "url": "https://www.youtube.com/watch?v=qf1qGcoUhxg"
+      },
+      {
+       "type": "youtube",
+       "title": "大洋路自駕遊：國際駕照、租車省錢、阿波羅灣住宿與日出（Philip Wu 菲力•吳）",
+       "url": "https://www.youtube.com/watch?v=QdUqCPD65uc"
+      }
+     ]
+    },
+    {
+     "time": "10:15",
+     "name": "Loch Ard Gorge 峽灣步道",
+     "kind": "activity",
+     "stay_min": 75,
+     "desc": "被兩側懸崖圍住的小海灣，1878 年沉船事件的發生地；有幾條 1–3 公里的短步道串起峽灣、剃刀岩、沉船紀念墓園。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Loch%20Ard%20Gorge%20Port%20Campbell%20National%20Park",
+     "site_url": "",
+     "address": "Loch Ard Gorge Rd, Port Campbell VIC",
+     "tip": "懸崖邊不要越過欄杆；夏天中午很曬",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loch%20Ard%20Gorge.%20Aust.jpg?width=1200",
+      "credit": "Bernard Spragg. NZ（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": []
+    },
+    {
+     "time": "12:00",
+     "name": "Timboon Railway Shed Distillery 午餐",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "老鐵道倉庫改的威士忌酒廠，露臺吃在地食材分享餐，加一球 Timboon 鮮奶冰淇淋；不開車的人可以試飲威士忌。兩人約 A$80。",
+     "price_for2_twd": 1830,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Timboon%20Railway%20Shed%20Distillery%201%20Bailey%20Street%20Timboon",
+     "site_url": "https://www.timboondistillery.com.au/",
+     "address": "1 Bailey St, Timboon VIC",
+     "tip": "每天 11:00–17:00，國定假日看官方 Facebook；吃完走內陸經 Colac 回墨爾本約 3 小時",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timboon%20Distillery%20001.JPG?width=1200",
+      "credit": "Mattinbgn（Wikimedia Commons）",
+      "license": "CC BY 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Timboon Railway Shed Distillery Instagram @timboondistillery",
+       "url": "https://www.instagram.com/timboondistillery/"
+      },
+      {
+       "type": "official",
+       "title": "Timboon Railway Shed Distillery 官網",
+       "url": "https://www.timboondistillery.com.au/"
+      }
+     ]
+    },
+    {
+     "time": "19:30",
+     "name": "Naked for Satan 頂樓（Naked in the Sky）",
+     "kind": "bar",
+     "stay_min": 120,
+     "desc": "Fitzroy 酒吧街代表店：仿西班牙聖賽巴斯提安的 pintxos 小點吧，招牌是自家浸泡伏特加，頂樓露臺看市區夜景。晚餐就在這裡吃小點。兩人約 A$100。",
+     "price_for2_twd": 2290,
+     "booking": "建議預約",
+     "booking_url": "https://nakedforsatan.com.au",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Naked%20for%20Satan%20285%20Brunswick%20Street%20Fitzroy",
+     "site_url": "https://nakedforsatan.com.au",
+     "address": "285 Brunswick St, Fitzroy",
+     "tip": "週日可能較早打烊（Google 顯示 12:00–22:00，待確認）；先回飯店停車再搭 11 號電車過去",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brunswick%20Street%2C%20Fitzroy%2C%20Victoria%2C%20Australia.jpg?width=1200",
+      "credit": "Mat Connolley (Matnkat)（Wikimedia Commons）",
+      "license": "CC BY 2.5"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Naked for Satan 官網",
+       "url": "https://nakedforsatan.com.au"
+      },
+      {
+       "type": "ig",
+       "title": "Instagram 地點頁：Naked for Satan",
+       "url": "https://www.instagram.com/explore/locations/759371655/naked-for-satan/?hl=en"
+      },
+      {
+       "type": "blog",
+       "title": "Time Out：Naked in the Sky 評論",
+       "url": "https://www.timeout.com/melbourne/bars/naked-in-the-sky"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "date": "1/4",
+   "weekday": "一",
+   "title": "熱氣球＋企鵝歸巢",
+   "area": "東墨爾本／Collingwood／菲利普島",
+   "drive_km": 155,
+   "drive_time": "約 2 小時（不含停留）",
+   "summary": "天沒亮去坐熱氣球，從市區高樓上方看日出（全世界少數能飛城市上空的地方），回飯店補眠後吃 Collingwood 早午餐，開 2 小時去菲利普島，看企鵝成群上岸回家，住 Cowes。",
+   "stops": [
+    {
+     "time": "05:00",
+     "name": "Global Ballooning 墨爾本日出熱氣球",
+     "kind": "challenge",
+     "stay_min": 300,
+     "desc": "在 Pullman East Melbourne 集合，飛約 1 小時，從市區、雅拉河、MCG 球場上方看 06:03 的日出，落地後回飯店吃自助早餐。飛行＋早餐每人 A$650。",
+     "price_for2_twd": 29810,
+     "booking": "需預約",
+     "booking_url": "https://www.globalballooning.com.au/melbourne/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Pullman%20Melbourne%20On%20The%20Park%20192%20Wellington%20Parade%20East%20Melbourne",
+     "site_url": "https://www.globalballooning.com.au/melbourne/",
+     "address": "Pullman East Melbourne, 192 Wellington Parade, East Melbourne",
+     "tip": "天候不佳會取消改期；48 小時內不能改退；週末班 8 週前就滿，這天是週一；飛完回飯店睡到 11:00 退房",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne%202%20hot%20air%20balloons%20landing-01%202007-03-05.jpg?width=1200",
+      "credit": "Tangerineduel（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Global Ballooning：Melbourne 價格與集合點",
+       "url": "https://www.globalballooning.com.au/melbourne/"
+      },
+      {
+       "type": "youtube",
+       "title": "墨爾本城市熱氣球，飄浮在高樓間看日出（這群記者）",
+       "url": "https://www.youtube.com/watch?v=nxfbVW4unnw"
+      },
+      {
+       "type": "youtube",
+       "title": "澳洲墨爾本自駕：熱氣球＋看企鵝登陸（啾啾鞋）",
+       "url": "https://www.youtube.com/watch?v=ujrSPkiBYxg"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "Proud Mary（Collingwood）",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "Collingwood 的自家烘焙咖啡名店，早午餐份量大，單品手沖選擇多。兩人約 A$75。",
+     "price_for2_twd": 1720,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Proud%20Mary%20Coffee%20172%20Oxford%20Street%20Collingwood",
+     "site_url": "https://www.instagram.com/proudmarycoffee/",
+     "address": "172 Oxford St, Collingwood",
+     "tip": "營業時間待確認（多數咖啡館下午 3–4 點就收）；吃完 13:30 出發去菲利普島",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flat%20white%20coffee%20with%20pretty%20feather%20pattern.jpg?width=1200",
+      "credit": "GeorgeMichaelFarewell（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Proud Mary Coffee Instagram @proudmarycoffee",
+       "url": "https://www.instagram.com/proudmarycoffee/"
+      }
+     ]
+    },
+    {
+     "time": "16:00",
+     "name": "The Nobbies 海岸木棧道",
+     "kind": "sight",
+     "stay_min": 60,
+     "desc": "菲利普島西端的懸崖木棧道，看海蝕洞噴浪、遠方海豹岩，傍晚光線很美。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Nobbies%20Centre%20Phillip%20Island",
+     "site_url": "",
+     "address": "1320 Ventnor Rd, Summerlands VIC",
+     "tip": "風很大，帶防風外套；回程順路 check-in Cowes 住宿",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Nobbies%20Walk%20at%20Phillip%20Island%20VIC%20Australia.jpg?width=1200",
+      "credit": "KeepActive Australia from Melbourne, VIC, Australia（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "19:45",
+     "name": "企鵝歸巢 Penguin Parade",
+     "kind": "activity",
+     "stay_min": 135,
+     "desc": "日落後（約 20:45）上千隻小藍企鵝成群從海裡上岸、搖搖擺擺走回巢，是世界最大的小藍企鵝棲地之一。一般看台每人 A$34；想坐離企鵝更近的 Penguins Plus 每人 A$93。",
+     "price_for2_twd": 1560,
+     "booking": "需預約",
+     "booking_url": "https://www.penguins.org.au/attractions/penguin-parade/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Penguin%20Parade%20Phillip%20Island%20Nature%20Parks%201019%20Ventnor%20Road%20Summerlands",
+     "site_url": "https://www.penguins.org.au/attractions/penguin-parade/",
+     "address": "1019 Ventnor Rd, Summerlands VIC",
+     "tip": "全程禁止拍照錄影；12–1 月一般看台座位不保證，提早到；晚上很冷要帶外套；晚餐在遊客中心先吃",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin%20Parade%203.jpg?width=1200",
+      "credit": "Phillipislandtourism（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Phillip Island Nature Parks：Penguin Parade 票價",
+       "url": "https://www.penguins.org.au/attractions/penguin-parade/"
+      },
+      {
+       "type": "youtube",
+       "title": "菲利普島一日遊：彩虹小屋、野生動物園、企鵝歸巢（Philip Wu 菲力•吳）",
+       "url": "https://www.youtube.com/watch?v=P8IxxkZHC0o"
+      }
+     ]
+    },
+    {
+     "time": "22:20",
+     "name": "Phillip Island RSL（Cowes）",
+     "kind": "bar",
+     "stay_min": 40,
+     "desc": "小鎮退伍軍人俱樂部酒吧：島上少數開到 23:00 的地方，啤酒便宜、在地人多，看完企鵝喝一杯就回住宿。兩人約 A$40。",
+     "price_for2_twd": 920,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Phillip%20Island%20RSL%20Thompson%20Avenue%20Cowes",
+     "site_url": "https://pirsl.com.au",
+     "address": "Thompson Ave, Cowes VIC",
+     "tip": "RSL 俱樂部訪客要出示證件登記；23:00 左右關門；駕駛不喝",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cowes%20Vic%20Jetty.jpg?width=1200",
+      "credit": "Tortoise42 at English Wikipedia（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Phillip Island RSL 官網",
+       "url": "https://pirsl.com.au"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "date": "1/5",
+   "weekday": "二",
+   "title": "可頌告別墨爾本",
+   "area": "Brighton／Fitzroy／機場",
+   "drive_km": 165,
+   "drive_time": "約 2.5 小時（不含停留）",
+   "summary": "從菲利普島開回來，順路拍 Brighton 彩色海灘小屋，去 Lune 吃紐約時報評過的可頌，下午逛 Fitzroy 古著選物，傍晚還車、晚上 23:20 華航回台。",
+   "stops": [
+    {
+     "time": "10:00",
+     "name": "Brighton 彩色海灘小屋",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "海灘上 82 間百年木造更衣小屋，每間漆成不同顏色，墨爾本最好拍的海邊。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Brighton%20Bathing%20Boxes%20Dendy%20Street%20Beach%20Brighton",
+     "site_url": "",
+     "address": "Dendy St Beach, Brighton VIC",
+     "tip": "停車場收費、夏天很難停；小屋是私人財產，別爬上去",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bathing%20Boxes%20Brighton%201%20%289544970800%29.jpg?width=1200",
+      "credit": "Bernard Spragg. NZ from Christchurch, New Zealand（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": []
+    },
+    {
+     "time": "11:30",
+     "name": "Lune Croissanterie（Fitzroy 本店）",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "被紐約時報稱為可能是世界最好的可頌，像實驗室的玻璃烘焙間就在眼前；點原味可頌、杏仁可頌、cruffin。兩人約 A$40。",
+     "price_for2_twd": 920,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Lune%20Croissanterie%20119%20Rose%20Street%20Fitzroy",
+     "site_url": "https://www.lunecroissanterie.com/",
+     "address": "119 Rose St, Fitzroy",
+     "tip": "常排 30 分鐘以上、賣完就收；市區 Collins St、Lonsdale St 也有分店",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LuneCruffinBox.jpg?width=1200",
+      "credit": "Badbobbyreid（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "LUNE Instagram @lunecroissant",
+       "url": "https://www.instagram.com/lunecroissant/"
+      },
+      {
+       "type": "youtube",
+       "title": "Welcome to Lune Croissanterie, home of Melbourne's cult croissant（Visit Melbourne）",
+       "url": "https://www.youtube.com/watch?v=eq1AHPF3-d0"
+      }
+     ]
+    },
+    {
+     "time": "13:00",
+     "name": "Fitzroy：Brunswick St／Gertrude St 逛街",
+     "kind": "shop",
+     "stay_min": 180,
+     "desc": "墨爾本最有個性的街區：古著、獨立設計、唱片行、塗鴉牆，逛累就隨便進一間咖啡館。",
+     "price_for2_twd": null,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Gertrude%20Street%20Fitzroy%20VIC",
+     "site_url": "",
+     "address": "Brunswick St & Gertrude St, Fitzroy",
+     "tip": "車停 Fitzroy 路邊要看收費時段；伴手禮可買咖啡豆（入境台灣可帶）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Corner%20Gertrude%20Street%20%26%20Fitzroy%20Streets%2C%20Fitzroy%2C%20Victoria%2C%20Australia%20%284541045501%29.jpg?width=1200",
+      "credit": "Rexness（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "youtube",
+       "title": "墨爾本自由行・Fitzroy 怎麼逛・市區必吃美食咖啡全攻略（MeloFunPlay 美樂玩不累）",
+       "url": "https://www.youtube.com/watch?v=yg4b-WSmT-I"
+      }
+     ]
+    },
+    {
+     "time": "17:30",
+     "name": "加油還車 → 墨爾本機場 T2",
+     "kind": "transport",
+     "stay_min": 330,
+     "desc": "Fitzroy 到機場約 25 公里、30 分鐘；加滿油再還車，19:30 前到航廈辦登機，23:20 華航直飛，1/6 05:30 到桃園。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Melbourne%20Airport%20Terminal%202%20International%20Departures",
+     "site_url": "https://www.kayak.com.au/cars/MEL/2027-01-02-09h/2027-01-05-20h?sort=price_a",
+     "address": "Melbourne Airport T2, Tullamarine",
+     "tip": "要退商品服務稅（GST）的在出境後 TRS 櫃台辦，先下載 TRS App；行李重量注意",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne%20Airport%20Terminal%202%20%28inside%29%20International%20Arrivals%202022-02-06.jpg?width=1200",
+      "credit": "MDRX（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "Lune Croissanterie",
+   "dish": "原味可頌、杏仁可頌、cruffin",
+   "price_for2_twd": 920,
+   "area": "Fitzroy（市區另有 Collins St、Lonsdale St 分店）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Lune%20Croissanterie%20119%20Rose%20Street%20Fitzroy",
+   "why": "紐約時報稱可能是世界最好的可頌；Visit Melbourne 官方影片介紹；台灣 YouTuber 必吃清單常客",
+   "source": "https://www.lunecroissanterie.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LuneCruffinBox.jpg?width=1200",
+    "credit": "Badbobbyreid（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "LUNE Instagram @lunecroissant",
+     "url": "https://www.instagram.com/lunecroissant/"
+    },
+    {
+     "type": "youtube",
+     "title": "Welcome to Lune Croissanterie, home of Melbourne's cult croissant（Visit Melbourne）",
+     "url": "https://www.youtube.com/watch?v=eq1AHPF3-d0"
+    }
+   ]
+  },
+  {
+   "name": "American Doughnut Kitchen",
+   "dish": "熱果醬甜甜圈（現炸）",
+   "price_for2_twd": 340,
+   "area": "維多利亞女王市場",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=American%20Doughnut%20Kitchen%20Queen%20Victoria%20Market%20Queen%20Street%20Melbourne",
+   "why": "1950 年起在市場賣的老餐車，墨爾本人的童年味道；IG 自介寫週一、週三休",
+   "source": "https://www.instagram.com/adkmelbourne/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Jam%20Doughnuts.jpg?width=1200",
+    "credit": "Finbar.concaig（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "American Doughnut Kitchen Instagram @adkmelbourne",
+     "url": "https://www.instagram.com/adkmelbourne/"
+    }
+   ]
+  },
+  {
+   "name": "Patricia Coffee Brewers",
+   "dish": "平白咖啡 flat white（站著喝）",
+   "price_for2_twd": 280,
+   "area": "CBD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Patricia%20Coffee%20Brewers%20Little%20Bourke%20St%20and%20Little%20William%20St%20Melbourne",
+   "why": "只有站位的巷口咖啡吧，常被列為墨爾本市區最好的咖啡；週一到週五 07:00–16:00",
+   "source": "https://www.instagram.com/pcoffeebrewers/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flat%20white%20coffee%20with%20pretty%20feather%20pattern.jpg?width=1200",
+    "credit": "GeorgeMichaelFarewell（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Patricia Coffee Brewers Instagram @pcoffeebrewers",
+     "url": "https://www.instagram.com/pcoffeebrewers/"
+    }
+   ]
+  },
+  {
+   "name": "Pellegrini's Espresso Bar",
+   "dish": "espresso、西瓜 granita、義大利麵",
+   "price_for2_twd": 690,
+   "area": "CBD（Bourke St）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Pellegrini%27s%20Espresso%20Bar%2066%20Bourke%20Street%20Melbourne",
+   "why": "1954 年開業，墨爾本最早的義式咖啡吧之一，老吧檯原樣保留",
+   "source": "https://www.instagram.com/pellegrinisespressobar/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pellegrini%27s%20Espresso%20Bar%20December%202018.JPG?width=1200",
+    "credit": "Mattinbgn（Wikimedia Commons）",
+    "license": "CC BY 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Pellegrini's Espresso Bar Instagram @pellegrinisespressobar",
+     "url": "https://www.instagram.com/pellegrinisespressobar/"
+    }
+   ]
+  },
+  {
+   "name": "Tsindos 希臘餐廳",
+   "dish": "煎起司 saganaki、烤羊肉、希臘沙拉",
+   "price_for2_twd": 2520,
+   "area": "希臘區（Lonsdale St）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Tsindos%20Greek%20Restaurant%20197%20Lonsdale%20Street%20Melbourne",
+   "why": "希臘區老牌家庭餐廳；墨爾本是希臘以外希臘裔最多的城市之一",
+   "source": "https://www.instagram.com/tsindosgreek/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saganaki.jpg?width=1200",
+    "credit": "Tammy Green from Chicago, USA（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Tsindos Greek Restaurant Instagram @tsindosgreek",
+     "url": "https://www.instagram.com/tsindosgreek/"
+    }
+   ]
+  },
+  {
+   "name": "ShanDong MaMa 山東媽媽",
+   "dish": "鯖魚水餃、豬肉茴香水餃",
+   "price_for2_twd": 1260,
+   "area": "CBD（Bourke St 中國城旁）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=ShanDong%20MaMa%20Mid%20City%20Arcade%20200%20Bourke%20Street%20Melbourne",
+   "why": "墨爾本華人與當地美食媒體常推的家常水餃店",
+   "source": "https://www.instagram.com/shandongmama/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jiaozi%20with%20Pork%20%26%20Chive%20by%20Banej.jpg?width=1200",
+    "credit": "Banej（Wikimedia Commons）",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "ShanDong MaMa Instagram @shandongmama",
+     "url": "https://www.instagram.com/shandongmama/"
+    }
+   ]
+  },
+  {
+   "name": "Higher Ground",
+   "dish": "早午餐：酪梨吐司、鬆餅、手沖",
+   "price_for2_twd": 1720,
+   "area": "CBD（Little Bourke St）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Higher%20Ground%20650%20Little%20Bourke%20Street%20Melbourne",
+   "why": "老發電廠改的挑高咖啡館，IG 8 萬粉絲的早午餐代表店",
+   "source": "https://www.instagram.com/highergroundmelbourne/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Smashed%20Avocado%20on%20Sourdough%20Toast%20with%20Chai%20Latte%20-%20M%26S%20cafe%202023-08-08.jpg?width=1200",
+    "credit": "Andy Li（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Higher Ground Melbourne Instagram @highergroundmelbourne",
+     "url": "https://www.instagram.com/highergroundmelbourne/"
+    },
+    {
+     "type": "youtube",
+     "title": "【小吳】墨爾本「無計劃旅遊」墨爾本必吃美食（見習網美小吳）",
+     "url": "https://www.youtube.com/watch?v=AWGEP1zSvy8"
+    }
+   ]
+  },
+  {
+   "name": "Proud Mary",
+   "dish": "單品手沖、早午餐",
+   "price_for2_twd": 1720,
+   "area": "Collingwood",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Proud%20Mary%20Coffee%20172%20Oxford%20Street%20Collingwood",
+   "why": "自家烘焙的精品咖啡名店，IG 8 萬粉絲",
+   "source": "https://www.instagram.com/proudmarycoffee/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flat%20white%20coffee%20with%20pretty%20feather%20pattern.jpg?width=1200",
+    "credit": "GeorgeMichaelFarewell（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Proud Mary Coffee Instagram @proudmarycoffee",
+     "url": "https://www.instagram.com/proudmarycoffee/"
+    }
+   ]
+  },
+  {
+   "name": "Monarch Cakes",
+   "dish": "巧克力 kugelhopf、李子蛋糕",
+   "price_for2_twd": 570,
+   "area": "St Kilda（Acland St）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Monarch%20Cakes%20103%20Acland%20Street%20St%20Kilda",
+   "why": "1934 年開業，Acland St 東歐蛋糕街的老店",
+   "source": "https://www.instagram.com/monarchcakes/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Acland%20Street%20cake%20shop%20window.jpg?width=1200",
+    "credit": "VirtualSteve at English Wikipedia（Wikimedia Commons）",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Monarch Cakes Instagram @monarchcakes",
+     "url": "https://www.instagram.com/monarchcakes/"
+    }
+   ]
+  },
+  {
+   "name": "Apollo Bay Fishermen's Co-op",
+   "dish": "當日漁獲炸魚薯條、南方岩龍蝦（時價）",
+   "price_for2_twd": 2060,
+   "area": "大洋路阿波羅灣",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Apollo%20Bay%20Fishermen%27s%20Co-op%20Breakwater%20Road%20Apollo%20Bay",
+   "why": "漁港旁的漁會直營，IG 主打當天漁獲與招牌龍蝦",
+   "source": "https://www.instagram.com/apollobayfishcoop/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apollo%20Bay%20%28AU%29%2C%20Beach%20--%202019%20--%20170325.jpg?width=1200",
+    "credit": "Dietmar Rabich（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Apollo Bay Fishermen's Co-Op Instagram @apollobayfishcoop",
+     "url": "https://www.instagram.com/apollobayfishcoop/"
+    }
+   ]
+  },
+  {
+   "name": "Timboon Railway Shed Distillery",
+   "dish": "在地食材分享餐、Timboon 冰淇淋、威士忌試飲",
+   "price_for2_twd": 1830,
+   "area": "Timboon（十二門徒內陸 20 分）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Timboon%20Railway%20Shed%20Distillery%201%20Bailey%20Street%20Timboon",
+   "why": "Visit Victoria 列名的鐵道倉庫酒廠；Tripadvisor 4.3（539 則）",
+   "source": "https://www.timboondistillery.com.au/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timboon%20Distillery%20001.JPG?width=1200",
+    "credit": "Mattinbgn（Wikimedia Commons）",
+    "license": "CC BY 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Timboon Railway Shed Distillery Instagram @timboondistillery",
+     "url": "https://www.instagram.com/timboondistillery/"
+    }
+   ]
+  },
+  {
+   "name": "Hardware Société",
+   "dish": "法式早午餐（備案）",
+   "price_for2_twd": 1610,
+   "area": "CBD（Hardware Lane）",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Hardware%20Societe%20120%20Hardware%20Street%20Melbourne",
+   "why": "就在第一間飯店旁的人氣早午餐，IG 3.4 萬粉絲；Higher Ground 排太久時的備案",
+   "source": "https://www.instagram.com/hardwaresociete/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardware%20Lane%20facing%20Bourke%20Street%202019-09-16.jpg?width=1200",
+    "credit": "Tangerineduel（Wikimedia Commons）",
+    "license": "CC BY 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "The Hardware Societe Instagram @hardwaresociete",
+     "url": "https://www.instagram.com/hardwaresociete/"
+    }
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "name": "墨爾本城市日出熱氣球",
+   "what": "從市區高樓、雅拉河上方看日出，全世界少數能飛城市上空的熱氣球",
+   "price_for2_twd": 29810,
+   "duration": "飛行約 1 小時（含集合、早餐共 4–5 小時）",
+   "booking": "需預約（週末 8 週前就滿）",
+   "season_ok": true,
+   "url": "https://www.globalballooning.com.au/melbourne/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Pullman%20Melbourne%20On%20The%20Park%20192%20Wellington%20Parade%20East%20Melbourne",
+   "note": "Global Ballooning 官網：只飛行 A$605／人、飛行＋早餐 A$650／人；天候取消可改期或退款，48 小時內不能改",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne%202%20hot%20air%20balloons%20landing-01%202007-03-05.jpg?width=1200",
+    "credit": "Tangerineduel（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Global Ballooning Melbourne",
+     "url": "https://www.globalballooning.com.au/melbourne/"
+    },
+    {
+     "type": "youtube",
+     "title": "墨爾本城市熱氣球，飄浮在高樓間看日出（這群記者）",
+     "url": "https://www.youtube.com/watch?v=nxfbVW4unnw"
+    },
+    {
+     "type": "youtube",
+     "title": "澳洲墨爾本自駕：熱氣球＋看企鵝登陸（啾啾鞋）",
+     "url": "https://www.youtube.com/watch?v=ujrSPkiBYxg"
+    }
+   ]
+  },
+  {
+   "name": "大洋路衝浪課（Anglesea）",
+   "what": "2 小時入門團體課，教練帶、含衝浪板和防寒衣",
+   "price_for2_twd": 4310,
+   "duration": "2 小時",
+   "booking": "需預約",
+   "season_ok": true,
+   "url": "https://gorideawave.com.au/location/anglesea/anglesea-surf-lessons/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Go%20Ride%20A%20Wave%20Anglesea%20surf%20school",
+   "note": "Go Ride A Wave 官網 A$94／人（The Surf Experience）；時段依潮汐；要會游泳。Torquay／Bells Beach 是衝浪聖地，但浪大適合看不適合初學",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglesea%20Beach.jpg?width=1200",
+    "credit": "Pimlico27（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Go Ride A Wave：Anglesea 衝浪課",
+     "url": "https://gorideawave.com.au/location/anglesea/anglesea-surf-lessons/"
+    }
+   ]
+  },
+  {
+   "name": "菲利普島企鵝歸巢",
+   "what": "日落後看上千隻小藍企鵝上岸回巢",
+   "price_for2_twd": 1560,
+   "duration": "約 2 小時",
+   "booking": "需預約",
+   "season_ok": true,
+   "url": "https://www.penguins.org.au/attractions/penguin-parade/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Penguin%20Parade%20Phillip%20Island%20Nature%20Parks%201019%20Ventnor%20Road%20Summerlands",
+   "note": "官網：一般看台 A$34、Penguins Plus A$93、地下觀景 A$103（每人）；全程禁止拍照",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin%20Parade%203.jpg?width=1200",
+    "credit": "Phillipislandtourism（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "official",
+     "title": "Penguin Parade 官網",
+     "url": "https://www.penguins.org.au/attractions/penguin-parade/"
+    },
+    {
+     "type": "youtube",
+     "title": "菲利普島一日遊：彩虹小屋、野生動物園、企鵝歸巢（Philip Wu 菲力•吳）",
+     "url": "https://www.youtube.com/watch?v=P8IxxkZHC0o"
+    }
+   ]
+  },
+  {
+   "name": "大洋路短程健行：Loch Ard Gorge＋Gibson Steps",
+   "what": "峽灣、剃刀岩、沉船墓園步道，再走 86 階下到十二門徒腳下的沙灘",
+   "price_for2_twd": 0,
+   "duration": "2–3 小時（多段 1–3 公里）",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://www.youtube.com/watch?v=qf1qGcoUhxg",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Loch%20Ard%20Gorge%20Port%20Campbell%20National%20Park",
+   "note": "想走更長可以挑 Great Ocean Walk 一段（Apollo Bay 出發，需另查接駁）；夏天中午曬、大浪時 Gibson Steps 會封",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loch%20Ard%20Gorge.%20Aust.jpg?width=1200",
+    "credit": "Bernard Spragg. NZ（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "youtube",
+     "title": "2天自駕大洋路！從墨爾本到十二門徒的隱藏景點（Ryan&Chloe）",
+     "url": "https://www.youtube.com/watch?v=qf1qGcoUhxg"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 98974,
+  "stay_for2": 41379,
+  "food_for2": [
+   29000,
+   42000
+  ],
+  "transport_for2": [
+   8710,
+   13680
+  ],
+  "activities_for2": [
+   6790,
+   39300
+  ],
+  "total_for2": [
+   184853,
+   235333
+  ],
+  "note": "匯率 1 澳幣＝22.93 台幣（open.er-api.com 11/01）。機票＝華航直飛 49,487×2；住宿＝Brady Hardware Lane 3 晚 19,208＋阿波羅灣 1 晚 12,613＋Brady Flinders St 1 晚 3,284＋Cowes 1 晚 6,274（Booking 11/01）；吃喝每天兩人 A$180–260×7 天（含每晚酒吧、元旦假日附加費）；交通＝SkyBus 來回、租車 4 天 A$171、油錢約 A$100–130、全險、電車、過路費、停車；活動＝衝浪課、企鵝（一般看台／Penguins Plus）、ETA A$20×2，上限含熱氣球 A$650×2（不坐熱氣球總額少約 3 萬）。"
+ },
+ "weather": {
+  "high_c": 26,
+  "low_c": 15,
+  "conditions": "南半球盛夏，多晴天但「一天四季」：常有冷鋒讓氣溫一天掉 10 度，偶有 35°C 以上熱浪和森林火災警報；紫外線常到 11 以上（極高）；海邊和菲利普島晚上風大很涼",
+  "sunrise": "06:01",
+  "sunset": "20:45",
+  "wear": "短袖＋薄外套和防風外套（跨年夜、企鵝、熱氣球清晨都冷）、帽子、太陽眼鏡、SPF50 防曬；衝浪帶泳衣毛巾；十二門徒、Loch Ard 穿好走的運動鞋"
+ },
+ "events": [
+  {
+   "date": "12/31",
+   "name": "墨爾本跨年：21:30 家庭煙火＋午夜屋頂煙火加雷射",
+   "note": "2025 版：Kings Domain、Flagstaff Gardens、Treasury Gardens、Docklands 四個免費慶祝區 18:00–01:00，禁酒、不用預約；約 50 萬人進市區。Fed Square 也有 DJ（不是官方慶祝區）。2026 官網 11/01 只寫『敬請期待』",
+   "url": "https://nye.melbourne.vic.gov.au/"
+  },
+  {
+   "date": "12/31",
+   "name": "New Year's at the Bowl（付費）",
+   "note": "Kings Domain 裡的 Sidney Myer Music Bowl 跨年演唱會，要買票；本行程沒排",
+   "url": "https://www.technoairlines.com/festival/new-years-at-the-bowl-melbourne-australia-2026"
+  },
+  {
+   "date": "1/1",
+   "name": "元旦國定假日",
+   "note": "部分餐廳休息，營業的多加收 10–15% 假日附加費；維多利亞女王市場當天休市（待確認）",
+   "url": ""
+  }
+ ],
+ "prep": [
+  {
+   "item": "申請澳洲 ETA 電子簽證：手機下載官方 Australian ETA App，掃護照晶片＋自拍，服務費 A$20／人，多數當下核准；別用代辦網站（會多收錢）",
+   "when": "12/1 前",
+   "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+  },
+  {
+   "item": "訂華航直飛 12/29→1/5（每人約 49,487，會變動）",
+   "when": "越早越好（11 月上旬）",
+   "url": "https://www.google.com/travel/flights?q=Flights%20to%20MEL%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+  },
+  {
+   "item": "訂住宿：Brady Hardware Lane 12/30–1/2、Apollo Bay 1/2–1/3、Brady Flinders St 1/3–1/4、Cowes 1/4–1/5，選可免費取消",
+   "when": "11 月上旬",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Brady+Apartment+Hotel+Hardware+Lane&checkin=2026-12-30&checkout=2027-01-02&group_adults=2&no_rooms=1&selected_currency=TWD"
+  },
+  {
+   "item": "辦國際駕照（監理站，NT$250，當天拿）＋在 Kayak 訂 1/2–1/5 機場取還的車，加零自負額全險",
+   "when": "12/15 前",
+   "url": "https://www.kayak.com.au/cars/MEL/2027-01-02-09h/2027-01-05-20h?sort=price_a"
+  },
+  {
+   "item": "預約 Global Ballooning 1/4 日出熱氣球（飛行＋早餐 A$650／人）",
+   "when": "11 月中前（假期班 8 週前就滿）",
+   "url": "https://www.globalballooning.com.au/melbourne/"
+  },
+  {
+   "item": "預約 1/2 Go Ride A Wave Anglesea 衝浪課、1/4 企鵝歸巢門票",
+   "when": "12 月上旬前",
+   "url": "https://www.penguins.org.au/attractions/penguin-parade/"
+  },
+  {
+   "item": "訂 12/31 晚上 Tsindos 希臘餐廳（跨年夜可能只賣套餐）",
+   "when": "12 月上旬前",
+   "url": "https://www.instagram.com/tsindosgreek/"
+  },
+  {
+   "item": "下載 VicTraffic、VicEmergency（路況與火災）、TRS（退稅）App；網購 SkyBus 來回票",
+   "when": "出發前一週",
+   "url": "https://www.skybus.com.au/"
+  }
+ ],
+ "risks": [
+  "直飛只有華航每天一班，來回都是紅眼班（12/30 中午到、1/6 清晨 05:30 到桃園）；台中沒有直飛",
+  "2026 跨年細節 11/01 還沒公告（以上是 2025 版）；慶祝區禁酒，散場人潮大",
+  "熱氣球 A$650／人很貴，而且天候不佳會取消；1/4 是唯一安排的一天，取消就退款或放棄",
+  "暑假週六阿波羅灣住宿一晚 1.2 萬起，越晚訂越貴",
+  "第一次靠左右駕＋大洋路彎道多；1/3 開 345 公里是最累的一天，兩人輪流開",
+  "夏天熱浪、森林火災可能封大洋路或步道；黃昏後野生動物衝出",
+  "1/1 國定假日餐廳加價或休息；Higher Ground、Monarch Cakes、市場元旦營業待確認",
+  "澳洲生物安全很嚴：食物要申報，沒報被查到重罰",
+  "企鵝歸巢全程禁止拍照；Patricia 只開平日",
+  "價格以澳幣計，匯率變動會影響總額；多數活動價是官網價，跨年週可能調整"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：巷弄咖啡",
+    "icons": [
+     "plane",
+     "coffee",
+     "camera",
+     "beer"
+    ],
+    "caption": "落地就喝平白咖啡"
+   },
+   {
+    "title": "第二天：煙火跨年",
+    "icons": [
+     "market",
+     "dessert",
+     "fireworks",
+     "beer"
+    ],
+    "caption": "甜甜圈到午夜煙火"
+   },
+   {
+    "title": "第三天：海邊企鵝",
+    "icons": [
+     "beach",
+     "dessert",
+     "night",
+     "beer"
+    ],
+    "caption": "防波堤看小企鵝"
+   },
+   {
+    "title": "第四天：大洋路衝浪",
+    "icons": [
+     "car",
+     "beach",
+     "seafood",
+     "beer"
+    ],
+    "caption": "衝浪再吃龍蝦"
+   },
+   {
+    "title": "第五天：十二門徒",
+    "icons": [
+     "car",
+     "camera",
+     "hike",
+     "beer"
+    ],
+    "caption": "奇岩到屋頂酒吧"
+   },
+   {
+    "title": "第六天：熱氣球企鵝",
+    "icons": [
+     "sunrise",
+     "coffee",
+     "car",
+     "night"
+    ],
+    "caption": "天亮飛天晚看企鵝"
+   },
+   {
+    "title": "第七天：可頌回家",
+    "icons": [
+     "car",
+     "beach",
+     "dessert",
+     "plane"
+    ],
+    "caption": "吃完可頌就回家"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "【小吳】完全沒做功課就來了『墨爾本無計劃旅遊』墨爾本必吃美食",
+   "channel": "見習網美小吳",
+   "url": "https://www.youtube.com/watch?v=AWGEP1zSvy8",
+   "takeaway": "45 萬次觀看的墨爾本美食 vlog，用來對照市區必吃清單（只看標題與說明）"
+  },
+  {
+   "title": "差點無法成行的大洋路自駕遊｜國際駕照、租車省錢、阿波羅灣住宿與日出",
+   "channel": "Philip Wu 菲力•吳",
+   "url": "https://www.youtube.com/watch?v=QdUqCPD65uc",
+   "takeaway": "標題點出國際駕照會被租車公司檢查、阿波羅灣住一晚的走法，行程照這個切兩天一夜"
+  },
+  {
+   "title": "大洋路兩天一夜自駕旅行・尋找野生無尾熊攻略",
+   "channel": "MeloFunPlay 美樂玩不累",
+   "url": "https://www.youtube.com/watch?v=an4ynh6akvk",
+   "takeaway": "兩天一夜節奏與找野生無尾熊（Kennett River）"
+  },
+  {
+   "title": "2天自駕「全球最美海濱公路」大洋路！從墨爾本到十二門徒的隱藏景點",
+   "channel": "Ryan&Chloe",
+   "url": "https://www.youtube.com/watch?v=qf1qGcoUhxg",
+   "takeaway": "十二門徒周邊的停靠點（Gibson Steps、Loch Ard Gorge）"
+  },
+  {
+   "title": "體驗世界唯一！墨爾本城市熱氣球飛行，飄浮在高樓大廈間看日出",
+   "channel": "這群記者",
+   "url": "https://www.youtube.com/watch?v=nxfbVW4unnw",
+   "takeaway": "城市上空飛行是墨爾本特色，排進挑戰"
+  },
+  {
+   "title": "澳洲墨爾本自駕行 體驗熱氣球、看企鵝登陸上岸",
+   "channel": "啾啾鞋",
+   "url": "https://www.youtube.com/watch?v=ujrSPkiBYxg",
+   "takeaway": "熱氣球＋企鵝同一趟自駕的組合"
+  },
+  {
+   "title": "菲利普島一日遊：彩虹小屋、野生動物園、企鵝歸巢",
+   "channel": "Philip Wu 菲力•吳",
+   "url": "https://www.youtube.com/watch?v=P8IxxkZHC0o",
+   "takeaway": "Brighton 彩色小屋＋企鵝的順路排法"
+  },
+  {
+   "title": "Welcome to Lune Croissanterie, home of Melbourne's cult croissant",
+   "channel": "Visit Melbourne",
+   "url": "https://www.youtube.com/watch?v=eq1AHPF3-d0",
+   "takeaway": "官方觀光局介紹 Lune，排進最後一天"
+  },
+  {
+   "title": "I Went To All The Best Bars In Melbourne",
+   "channel": "jake valianes",
+   "url": "https://www.youtube.com/watch?v=xn9s4GJihHo",
+   "takeaway": "墨爾本酒吧清單參考（只看標題）"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights?q=Flights%20to%20MEL%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.google.com/travel/flights?q=Flights%20to%20MEL%20from%20TPE%20on%202026-12-28%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.kayak.com.au/cars/MEL/2027-01-02-09h/2027-01-05-20h?sort=price_a",
+  "https://www.booking.com/hotel/au/brady-hotels-hardware-lane.zh-tw.html",
+  "https://www.booking.com/searchresults.zh-tw.html?ss=Apollo+Bay&checkin=2027-01-02&checkout=2027-01-03&group_adults=2&no_rooms=1&selected_currency=TWD",
+  "https://www.booking.com/searchresults.zh-tw.html?ss=Cowes%2C+Phillip+Island&checkin=2027-01-04&checkout=2027-01-05&group_adults=2&no_rooms=1&selected_currency=TWD",
+  "https://nye.melbourne.vic.gov.au/",
+  "https://timeout.com/melbourne/things-to-do/the-best-free-places-to-see-new-years-eve-fireworks-in-melbourne",
+  "https://secretmelbourne.com/best-places-fireworks-melbourne-new-years-eve/",
+  "https://www.globalballooning.com.au/melbourne/",
+  "https://gorideawave.com.au/location/anglesea/anglesea-surf-lessons/",
+  "https://www.penguins.org.au/attractions/penguin-parade/",
+  "https://www.skybus.com.au/",
+  "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+  "https://www.vicroads.vic.gov.au/licences/convert-your-licence/driving-with-your-overseas-licence",
+  "https://www.lunecroissanterie.com/",
+  "https://www.timeout.com/melbourne/bars/naked-in-the-sky",
+  "https://nakedforsatan.com.au",
+  "https://visitgreatoceanroad.org.au/restaurants/great-ocean-road-brewhouse/",
+  "https://pirsl.com.au",
+  "https://www.timboondistillery.com.au/",
+  "https://www.broadsheet.com.au/melbourne/food-and-drink/article/bar-americano-quintessentially-melbourne-laneway-bar-closing-after-11-years",
+  "https://www.timeanddate.com/sun/australia/melbourne?month=1&year=2027",
+  "https://open.er-api.com/v6/latest/AUD"
+ ],
+ "checked": "2026-11-01"
+}
