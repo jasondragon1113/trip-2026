@@ -15,15 +15,18 @@ def fetch(url):
     h = hashlib.md5(url.encode()).hexdigest()[:12]
     out = IMG / f"p_{h}.jpg"
     if out.exists(): return f"img/{out.name}"
-    try:
+    import time
+    for attempt in range(3):
+      try:
         req = urllib.request.Request(url, headers=UA)
         raw = IMG / f"raw_{h}"
         with urllib.request.urlopen(req, timeout=30) as r, open(raw, "wb") as f: f.write(r.read())
         subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "72", "-Z", "900", str(raw), "--out", str(out)], check=True, capture_output=True)
         raw.unlink(missing_ok=True)
         return f"img/{out.name}"
-    except Exception as e:
-        print(f"  !! photo fail {url[:80]}: {e}", file=sys.stderr); return None
+      except Exception as e:
+        print(f"  !! photo fail ({attempt+1}/3) {url[:80]}: {e}", file=sys.stderr); time.sleep(4 * (attempt + 1))
+    return None
 
 def localize(d):
     items = [s for day in d.get("days", []) for s in day.get("stops", [])] + d.get("food", []) + d.get("challenges", [])
@@ -33,7 +36,8 @@ def localize(d):
         if p and p.get("url") and "upload.wikimedia.org" in p["url"] or (p and p.get("url") and "commons.wikimedia.org" in p["url"]):
             loc = fetch(p["url"])
             if loc: p["local"] = loc; n += 1
-            else: it["photo"] = None
+            # keep remote Commons URL when download fails (GitHub Pages can load it) / 下載失敗就保留原網址
+
         elif p and p.get("url"):
             it["photo"] = None  # 非 Commons 不放，避免版權與 CSP
     return n
