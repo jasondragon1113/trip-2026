@@ -4,7 +4,7 @@
 import json, pathlib, subprocess, hashlib, urllib.request, sys, re
 ROOT = pathlib.Path(__file__).parent
 SITE = ROOT / "docs"; IMG = SITE / "img"; IMG.mkdir(parents=True, exist_ok=True)  # GitHub Pages serves /docs
-ORDER = ["ginzan","tokyo","hakodate_aomori","busan","seoul","danang","chiangmai","bangkok_huahin","kyushu","jeju","cebu_bohol","penang","sydney","newyork","phuquoc","hongkong_macau","bali","sapporo","guam","singapore","palau","auckland","melbourne","vancouver_whistler"]
+ORDER = ["ginzan","tokyo","hakodate_aomori","busan","seoul","danang","chiangmai","bangkok_huahin","kyushu","jeju","cebu_bohol","penang","sydney","newyork","phuquoc","hongkong_macau","bali","sapporo","guam","singapore","palau","auckland","melbourne","vancouver_whistler","slovenia_croatia"]
 TPL = (ROOT / "roadbook-template.html").read_text(encoding="utf-8")
 HEAD = "<!doctype html><html lang=\"zh-Hant\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\"><style>body{margin:0}</style></head><body>"
 TAIL = "</body></html>"
@@ -47,7 +47,9 @@ RMQ = {}  # filled per destination from data after is_direct is defined / 從資
 def is_direct(f):
     """Direct flight only / 只算直飛：kind=transfer 或文字寫轉機、經某地的都排除"""
     txt = (f.get("airline","") + f.get("out","") + f.get("basis","") + f.get("note","") + f.get("back",""))
-    return f.get("kind") != "transfer" and not re.search(r"轉機|經.{1,6}(轉|HKG|KUL|SIN|HAN|ICN)|香港快運|國泰|無直飛", txt)
+    if f.get("kind") == "transfer": return False
+    if "直飛" in f.get("airline","") and not re.search(r"轉機|無直飛", f.get("airline","")): return True
+    return not re.search(r"轉機|經.{1,6}(轉|HKG|KUL|SIN|HAN|ICN)|香港快運|國泰|無直飛", txt)
 def rmq_summary(d):
     fs = [f for f in d.get("flights", []) if f.get("from") == "RMQ" and f.get("price_pp_twd") and is_direct(f)]
     if not fs: return {"kind": "none", "price": None}
@@ -69,7 +71,7 @@ for f in sorted(ROOT.glob("data/*.json")):
     built.append(d); print(f"ok {d['id']}: {len(d.get('days',[]))} days, {n} photos, cover={'cover' in d}")
 # Placeholders for destinations still being researched (cover if ready)
 # 還沒查完的目的地先放佔位卡
-NAMES = {"ginzan":("東北雪國","日本","onsen","銀山溫泉・天童・山寺"),"tokyo":("東京","日本","tower","跨年與初詣"),"hakodate_aomori":("函館＋青森","日本","snow","夜景、朝市、樹冰"),"busan":("釜山","韓國","wave",""),"seoul":("首爾","韓國","tower","跨年敲鐘"),"danang":("峴港＋會安","越南","lantern","燈籠與海灘"),"chiangmai":("清邁","泰國","leaf","古城與大象"),"bangkok_huahin":("曼谷＋華欣","泰國","market","美食與海邊"),"kyushu":("九州北部","日本","onsen","屋台與溫泉"),"jeju":("濟州島","韓國","car","自駕與黑豬肉"),"cebu_bohol":("宿霧＋薄荷島","菲律賓","whale","溪降與鯨鯊"),"penang":("檳城","馬來西亞","coffee","美食之都"),"sydney":("雪梨","澳洲","wave","夏天看港灣煙火"),"newyork":("紐約","美國","tower","時代廣場跨年"),"phuquoc":("富國島","越南","wave","最便宜的跨年海島"),"hongkong_macau":("香港＋澳門","香港","tower","台中直飛的吃喝之旅"),"bali":("峇里島","印尼","mountain","挑戰、酒吧、chill 全滿分"),"sapporo":("札幌","日本","snow","有雪又好吃"),"guam":("關島","美國","car","開車兜風看海"),"singapore":("新加坡","新加坡","tower","濱海灣跨年煙火"),"palau":("帛琉","帛琉","whale","潛水天堂"),"auckland":("奧克蘭","紐西蘭","car","夏天自駕跨年"),"melbourne":("墨爾本","澳洲","coffee","吃喝之都＋大洋路"),"vancouver_whistler":("溫哥華＋惠斯勒","加拿大","snow","唯一能滑雪的跨年")}
+NAMES = {"ginzan":("東北雪國","日本","onsen","銀山溫泉・天童・山寺"),"tokyo":("東京","日本","tower","跨年與初詣"),"hakodate_aomori":("函館＋青森","日本","snow","夜景、朝市、樹冰"),"busan":("釜山","韓國","wave",""),"seoul":("首爾","韓國","tower","跨年敲鐘"),"danang":("峴港＋會安","越南","lantern","燈籠與海灘"),"chiangmai":("清邁","泰國","leaf","古城與大象"),"bangkok_huahin":("曼谷＋華欣","泰國","market","美食與海邊"),"kyushu":("九州北部","日本","onsen","屋台與溫泉"),"jeju":("濟州島","韓國","car","自駕與黑豬肉"),"cebu_bohol":("宿霧＋薄荷島","菲律賓","whale","溪降與鯨鯊"),"penang":("檳城","馬來西亞","coffee","美食之都"),"sydney":("雪梨","澳洲","wave","夏天看港灣煙火"),"newyork":("紐約","美國","tower","時代廣場跨年"),"phuquoc":("富國島","越南","wave","最便宜的跨年海島"),"hongkong_macau":("香港＋澳門","香港","tower","台中直飛的吃喝之旅"),"bali":("峇里島","印尼","mountain","挑戰、酒吧、chill 全滿分"),"sapporo":("札幌","日本","snow","有雪又好吃"),"guam":("關島","美國","car","開車兜風看海"),"singapore":("新加坡","新加坡","tower","濱海灣跨年煙火"),"palau":("帛琉","帛琉","whale","潛水天堂"),"auckland":("奧克蘭","紐西蘭","car","夏天自駕跨年"),"melbourne":("墨爾本","澳洲","coffee","吃喝之都＋大洋路"),"vancouver_whistler":("溫哥華＋惠斯勒","加拿大","snow","唯一能滑雪的跨年"),"slovenia_croatia":("斯洛維尼亞＋克羅埃西亞","巴爾幹","castle","湖畔城堡聖誕市集")}
 have = {d["id"] for d in built}
 for pid, (nm, ct, mo, tg) in NAMES.items():
     if pid in have: continue
@@ -85,7 +87,8 @@ for p in plans:
     src = next((d for d in built if d["id"] == p["id"]), {})
     if src.get("placeholder"): p["placeholder"] = True
 hub = (ROOT / "hub-template.html").read_text(encoding="utf-8")
-(SITE / "index.html").write_text(hub.replace("__DATA__", json.dumps({"checked": "2026-10-16", "plans": plans}, ensure_ascii=False).replace("</", "<\\/")), encoding="utf-8")
+hub_checked = max([d.get("checked","") for d in built if not d.get("placeholder")] or [""])
+(SITE / "index.html").write_text(HEAD + hub.replace("__DATA__", json.dumps({"checked": hub_checked, "plans": plans}, ensure_ascii=False).replace("</", "<\\/")) + TAIL, encoding="utf-8")
 # first-round comparison page, with a back link
 # 第一輪比價表，加回首頁連結
 # Comparison page built from the same 12 data files / 比價表直接從 12 本手帳資料產生
