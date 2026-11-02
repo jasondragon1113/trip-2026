@@ -1,0 +1,2118 @@
+{
+ "id": "slovenia_croatia",
+ "name": "斯洛維尼亞＋克羅埃西亞",
+ "subtitle": "湖心島與城堡煙火跨年八日",
+ "country": "斯洛維尼亞・克羅埃西亞",
+ "flag": "SI",
+ "motif": "castle",
+ "palette": {
+  "primary": "#1FA8A0",
+  "secondary": "#E23E4B",
+  "soft": "#EAF8F6"
+ },
+ "tagline": "湖心島許願、城堡煙火、雪山滑雪",
+ "summary": "華航直飛維也納，坐火車進斯洛維尼亞：在阿爾卑斯山上 2 小時雙人滑雪課、住布萊德湖邊吃奶油蛋糕，12/31 在盧比安納廣場聽免費演唱會看城堡煙火；再坐火車到札格雷布逛歐洲最佳聖誕市集、開車看冬天的十六湖。長程坐火車、只租兩天車，步調慢、每晚都有一間酒吧。",
+ "dates": {
+  "out": "12/28",
+  "back": "1/6",
+  "nights": 7,
+  "why": "主推華航 12/28（一）23:35 桃園起飛、12/29 06:50 到維也納；回程 1/5（二）11:00 起飛、1/6（三）05:35 落地桃園，在 08:00 期限內。每人 31,918 是 11/02 Google 航班只看直飛的最低價，比 12/27 出發（36,174）便宜 4 千多，也比長榮慕尼黑（35,950）便宜。這樣在當地住 7 晚：12/31 剛好在盧比安納跨年、札格雷布聖誕市集 1/7 才收，1/2–1/3 還逛得到。"
+ },
+ "flights": [
+  {
+   "from": "TPE",
+   "to": "VIE",
+   "airline": "中華航空（直飛，主推）",
+   "out": "12/28（一）23:35 桃園 → 12/29（二）06:50 維也納（飛 14 小時 15 分）",
+   "back": "1/5（二）11:00 維也納 → 1/6（三）05:35 桃園",
+   "price_pp_twd": 31918,
+   "baggage": "華航歐洲線經濟艙一般含托運 1 件 23 公斤；最便宜票種是否含托運，訂位頁再確認",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20VIE%20from%20TPE%20on%202026-12-28%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-02",
+   "basis": "Google 航班 11/02 再核（只篩直飛）：每人 NT$31,918 含稅，和初篩同價；回程 1/6 05:35 落地，在 08:00 期限內。台中 RMQ 沒有直飛歐洲。"
+  },
+  {
+   "from": "TPE",
+   "to": "MUC",
+   "airline": "長榮航空（直飛，備選：慕尼黑進出）",
+   "out": "12/28（一）23:25 桃園 → 12/29 07:05 慕尼黑",
+   "back": "1/5（二）11:30 慕尼黑 → 1/6（三）06:30 桃園",
+   "price_pp_twd": 35950,
+   "baggage": "長榮歐洲線經濟艙一般含托運 1 件 23 公斤（依票種）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20MUC%20from%20TPE%20on%202026-12-28%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-02",
+   "basis": "沿用 11/02 巴爾幹交通初篩：每人貴約 4,000；慕尼黑有 EC 直達盧比安納（10:16→16:31，途經布萊德湖站），但回程要從札格雷布繞回慕尼黑，比維也納遠。"
+  },
+  {
+   "from": "TPE",
+   "to": "MXP",
+   "airline": "長榮航空（直飛，備選：米蘭進出）",
+   "out": "12/28（一）23:10 桃園 → 12/29 06:50 米蘭",
+   "back": "1/5（二）11:00 米蘭 → 1/6（三）06:10 桃園",
+   "price_pp_twd": 32562,
+   "baggage": "長榮歐洲線經濟艙一般含托運 1 件 23 公斤（依票種）",
+   "fits_time_pref": false,
+   "within_budget": false,
+   "verified": true,
+   "source": "https://www.google.com/travel/flights?q=Flights%20to%20MXP%20from%20TPE%20on%202026-12-28%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+   "checked": "2026-11-02",
+   "basis": "沿用 11/02 巴爾幹交通初篩：只貴 644，但米蘭到盧比安納要 6–7 小時以上，回程也要從札格雷布回米蘭，不划算。"
+  }
+ ],
+ "getting_around": {
+  "mode": "混合",
+  "license": "兩國都承認台灣國際駕照：交通部公路局「主要國家（地區）對我國國際、國內駕駛執照態度一覽表（歐洲）」（115-10-14 更新）寫明斯洛維尼亞「可（攜帶有效駕照及有效國際駕照）」、克羅埃西亞「可，90 天」（外交部歐洲司 105.11.25 函）；奧地利也是「可」（114.10.27 起）。所以要帶：台灣駕照正本＋國際駕照＋護照。國際駕照到任一監理站當天辦，NT$250，效期 3 年。租車公司另要信用卡（主駕名下）與駕照滿 1–2 年，年齡 21 或 25 歲以下可能加價。",
+  "rental": {
+   "company": "KAYAK 比價：盧比安納市區（Ogrinčeva 4 取車）＋札格雷布（機場或市區 Kranjčevićeva）各租一天",
+   "car": "VW Polo 自排或同級（盧比安納）；Opel Astra 自排或同級（札格雷布）",
+   "days": 2,
+   "price_total_twd": 3800,
+   "insurance": "比價網價格多半只含基本險，櫃台加買全險（零自負額）另計，一天約 €15–30",
+   "pickup": "盧比安納市區 12/30 08:30 → 12/31 13:30 同點還；札格雷布 1/3 07:30 → 19:00 同點還",
+   "source": "https://www.kayak.com/cars/Ljubljana,Slovenia/2026-12-30-09h/2026-12-31-15h?sort=price_a",
+   "note": "KAYAK 11/02 實查：盧比安納 12/30–12/31 自排 VW Polo US$77（約 NT$2,510，評分 9.0、可免費取消）；札格雷布 1/3 一日自排 US$22 起，但最便宜的是評分 7.3 的接駁取車，換成大品牌約 US$40–60，這裡抓 NT$1,300。兩段都同點還車，沒有甲租乙還費、也不跨國，所以不用付跨境費。斯洛維尼亞本地租的車已附電子通行證（vignette）和冬胎，取車時確認。"
+  },
+  "road_notes": [
+   "為什麼不全程自駕：落地當天紅眼班後開 4 小時（維也納→盧比安納）很危險；跨國租車要付跨境費，在札格雷布還要從維也納租的車還會被收甲租乙還；盧比安納老城是行人區、跨年夜要喝酒。所以長程坐火車，只有布萊德／渥格爾和十六湖這兩天租車。",
+   "冬季裝備：斯洛維尼亞 11/15–3/15、克羅埃西亞 11/15–4/15 強制冬胎（或車上帶雪鏈），租車一般已配好；遇雪照號誌上雪鏈、限速 50。",
+   "斯洛維尼亞高速公路要電子通行證 vignette（7 天 €16），本地租車通常已含；沒有會罰 €300–800。克羅埃西亞高速公路是收費站，札格雷布→卡爾洛瓦茨 A1 單程約 €3（待確認）。",
+   "靠右行駛，和台灣一樣；兩國全天要開大燈（冬季），酒駕標準很嚴（新手駕駛 0）。",
+   "布萊德湖邊停車場冬天也收費（約 €2–3／小時），飯店若有停車位先預約；渥格爾纜車下站有大停車場。",
+   "十六湖冬天只開 1 號入口一帶，路面可能結冰，走 E1–A 下湖步道要穿防滑鞋。"
+  ],
+  "public": [
+   "維也納機場→中央車站：ÖBB Railjet／S7 約 15 分，€4–5／人（感應 ÖBB App 或售票機）",
+   "維也納→盧比安納：火車約 5–6 小時、轉 1 次，早鳥 Sparschiene 約 €30–60／人（12/13 新時刻表上線後到 oebb.at 訂）；FlixBus 約 5 小時 €29–45",
+   "盧比安納→札格雷布：火車直達約 2.5 小時、€15–25／人（1/1 班次可能減少，到 potniski.sz.si 查）",
+   "札格雷布→維也納：直達 EC 07:06→14:00（6 小時 54 分），或 FlixBus 每天約 10 班、約 5 小時、$28 起",
+   "札格雷布市區：電車＋上城纜車（全世界最短的公共纜車之一，單程約 €0.66），老城走路就好"
+  ]
+ },
+ "stays": [
+  {
+   "name": "The Hotel Ljubljana",
+   "area": "盧比安納市中心（離普列舍倫廣場約 300 公尺）",
+   "nights": 2,
+   "price_night_for2_twd": 9057,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=The+Hotel+Ljubljana&checkin=2026-12-29&checkout=2026-12-30&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Hotel%20Ljubljana%2C%20Ljubljana",
+   "why": "Booking 11/02 實查（評分 8.7）：12/29 一晚 7,737＋稅 228＝7,965；12/31 跨年夜一晚 9,920＋228＝10,148，兩晚共 18,113。走路到跨年廣場和河邊酒吧都 5 分鐘內，跨年夜不用叫車。12/30 去布萊德那晚大行李可以放車上。"
+  },
+  {
+   "name": "Hotel Park – Sava Hotels & Resorts（布萊德湖畔）",
+   "area": "布萊德湖東岸",
+   "nights": 1,
+   "price_night_for2_twd": 13521,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Bled&checkin=2026-12-30&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Park%20Bled%2C%20Cesta%20svobode%2015%2C%20Bled",
+   "why": "Booking 11/02 實查（評分 8.9）：12/30 一晚 13,111＋稅 410＝13,521。樓下就是發明布萊德奶油蛋糕的 Park Café，湖景房早上看霧中城堡。想省錢：同晚 Vila Prešeren（9.0 分、湖邊）含稅 9,246。"
+  },
+  {
+   "name": "Hotel Dubrovnik",
+   "area": "札格雷布 Ban Jelačić 主廣場旁",
+   "nights": 3,
+   "price_night_for2_twd": 4465,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Zagreb&checkin=2027-01-01&checkout=2027-01-04&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Hotel%20Dubrovnik%2C%20Ulica%20Ljudevita%20Gaja%201%2C%20Zagreb",
+   "why": "Booking 11/02 實查（評分 8.6）：1/1–1/4 三晚 11,641＋稅 1,754＝13,395。就在聖誕市集主廣場邊，走 5 分鐘到 Tkalčićeva 酒吧街、Dolac 市場和上城纜車。"
+  },
+  {
+   "name": "Leonardo Hotel Vienna Hauptbahnhof",
+   "area": "維也納中央車站旁",
+   "nights": 1,
+   "price_night_for2_twd": 3508,
+   "availability": "有空房",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Wien+Hauptbahnhof&checkin=2027-01-04&checkout=2027-01-05&group_adults=2&no_rooms=1&group_children=0&selected_currency=TWD",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Leonardo%20Hotel%20Vienna%20Hauptbahnhof",
+   "why": "Booking 11/02 實查（評分 8.8）：1/4 一晚含稅 3,508。從札格雷布的火車就停中央車站，隔天早上坐 Railjet 15 分鐘到機場。"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "date": "12/29",
+   "weekday": "二",
+   "title": "落地坐火車進斯國",
+   "area": "維也納→盧比安納",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "前一晚從桃園飛，清晨到維也納，坐火車睡進盧比安納；傍晚逛河邊燈飾、吃香腸、喝一杯就睡",
+   "stops": [
+    {
+     "time": "06:50",
+     "name": "維也納機場入境＋火車到中央車站",
+     "kind": "transport",
+     "stay_min": 80,
+     "desc": "12/28（一）23:35 華航從桃園起飛，12/29 06:50 落地（以下都是當地時間，比台灣慢 7 小時）。申根入境在維也納辦，之後進斯洛維尼亞、克羅埃西亞都不用再過海關。出關後坐 ÖBB Railjet／S7 約 15 分到 Wien Hauptbahnhof。",
+     "price_for2_twd": 360,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Vienna%20International%20Airport",
+     "site_url": "https://www.viennaairport.com/",
+     "address": "Flughafen Wien, 1300 Schwechat",
+     "tip": "入境若排隊久，可改搭下一班火車；中央車站有麵包店可買早餐",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vienna%20airport%20terminal%203.jpg?width=1200",
+      "credit": "Arne Müseler（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0 de"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "ÖBB 奧地利國鐵（時刻與車票）",
+       "url": "https://www.oebb.at/en/"
+      }
+     ]
+    },
+    {
+     "time": "08:53",
+     "name": "火車 維也納 → 盧比安納",
+     "kind": "transport",
+     "stay_min": 330,
+     "desc": "Wien Hbf 08:53 出發、轉 1 次，約 14:14 到盧比安納（Trainline 11 月班表；12/13 起新時刻表，出發前再查）。車上補眠，窗外是奧地利和斯洛維尼亞的冬天山景。",
+     "price_for2_twd": 3280,
+     "booking": "建議預約",
+     "booking_url": "https://www.oebb.at/en/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Wien%20Hauptbahnhof",
+     "site_url": "https://www.oebb.at/en/",
+     "address": "Am Hauptbahnhof 1, 1100 Wien",
+     "tip": "早鳥 Sparschiene 越早越便宜；不想轉車可改 FlixBus（約 5 小時）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%20Hauptbahnhof%20with%20%C3%96BB%20train.jpg?width=1200",
+      "credit": "Trajcinema（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "Trainline：維也納→盧比安納班次與票價",
+       "url": "https://www.thetrainline.com/en/train-times/vienna-to-ljubljana"
+      },
+      {
+       "type": "youtube",
+       "title": "【斯洛維尼亞 盧比安納】一天就能逛完的首都？小而美的飛龍之城！一日遊布萊德湖（Wake up Sonya）",
+       "url": "https://www.youtube.com/watch?v=LiTFApk_jCo"
+      }
+     ]
+    },
+    {
+     "time": "15:00",
+     "name": "Moji štruklji Slovenije（中央市場旁的捲餅店）",
+     "kind": "food",
+     "stay_min": 45,
+     "desc": "放好行李走到 Plečnik 拱廊下的中央市場，吃斯洛維尼亞傳統 štruklji（起司、核桃、龍蒿口味的水煮或烤麵捲）。週一到週四開到 20:00。",
+     "price_for2_twd": 730,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Moji%20%C5%A1truklji%20Slovenije%2C%20Adami%C4%8D-Lundrovo%20nabre%C5%BEje%201%2C%20Ljubljana",
+     "site_url": "",
+     "address": "Adamič-Lundrovo nabrežje 1, 1000 Ljubljana",
+     "tip": "鹹甜各點一份分著吃最剛好",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sweet%20dumpling%20%C5%A1truklji.%20%2852869557399%29.jpg?width=1200",
+      "credit": "young shanahan（štruklji 示意）（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Moji štruklji Slovenije 官方 IG @mojistruklji",
+       "url": "https://www.instagram.com/mojistruklji/"
+      }
+     ]
+    },
+    {
+     "time": "16:00",
+     "name": "三重橋、龍橋、普列舍倫廣場看聖誕燈",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "16:24 日落後整條盧比安納河兩岸亮燈，「Festive December」市集小木屋賣熱紅酒和香腸。從三重橋走到龍橋約 10 分鐘，摸一下守護城市的飛龍。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Triple%20Bridge%2C%20Ljubljana",
+     "site_url": "https://www.visitljubljana.com/en/visitors/",
+     "address": "Prešernov trg, 1000 Ljubljana",
+     "tip": "熱紅酒（kuhano vino）一杯約 €4–5，杯子押金可退",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana%20Christmas%20Market%20Lights%20%2837927553515%29.jpg?width=1200",
+      "credit": "Oleg Brovko（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Visit Ljubljana 官方 IG @visitljubljana",
+       "url": "https://www.instagram.com/visitljubljana/"
+      },
+      {
+       "type": "youtube",
+       "title": "【斯洛維尼亞 盧比安納】一天就能逛完的首都？小而美的飛龍之城！一日遊布萊德湖（Wake up Sonya）",
+       "url": "https://www.youtube.com/watch?v=LiTFApk_jCo"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "Klobasarna（卡尼鄂拉香腸）",
+     "kind": "food",
+     "stay_min": 50,
+     "desc": "專賣斯洛維尼亞國寶 Kranjska klobasa（歐盟地理標示保護的煙燻豬肉香腸），配麵包、芥末和辣根；也有 jota 酸菜豆子湯。一份約 €7.5–9。",
+     "price_for2_twd": 910,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Klobasarna%2C%20Ciril-Metodov%20trg%2015%2C%20Ljubljana",
+     "site_url": "https://www.klobasarna.si/",
+     "address": "Ciril-Metodov trg 15, 1000 Ljubljana",
+     "tip": "冬季週一到週六開到 21:00、週日只到 15:00",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carniolian%20sausage%20-%20Kranjska%20klobasa%20-%20Klobasarna%20Ljubljana.jpg?width=1200",
+      "credit": "ModriDirkac（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Klobasarna 官方 IG @klobasarna_team",
+       "url": "https://www.instagram.com/klobasarna_team/"
+      },
+      {
+       "type": "official",
+       "title": "Klobasarna 官網",
+       "url": "https://www.klobasarna.si/"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Kavarna Maček（河邊咖啡酒吧）",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "盧比安納河邊最有名的露台酒吧之一，冬天也有暖爐和毛毯，喝 Laško／Union 本地啤酒或斯洛維尼亞白酒，看對岸的燈。兩人約 €20–25。",
+     "price_for2_twd": 800,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Kavarna%20Ma%C4%8Dek%2C%20Kroja%C5%A1ka%20ulica%205%2C%20Ljubljana",
+     "site_url": "",
+     "address": "Krojaška ulica 5, 1000 Ljubljana",
+     "tip": "時差累了喝一杯就回飯店，明天要早起開車",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20rives%20de%20la%20Ljubljanica%20%28Ljubljana%29%20%289418908322%29.jpg?width=1200",
+      "credit": "Jean-Pierre Dalbéra（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Kavarna Maček 官方 IG @kavarnamacek",
+       "url": "https://www.instagram.com/kavarnamacek/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "12/30",
+   "weekday": "三",
+   "title": "雪山滑雪課＋布萊德",
+   "area": "盧比安納→渥格爾（Bohinj）→布萊德",
+   "drive_km": 120,
+   "drive_time": "約 2 小時（盧比安納→渥格爾 1 小時 20 分、渥格爾→布萊德 35 分）",
+   "summary": "租車上阿爾卑斯山，在渥格爾雪場上 2 小時雙人私人滑雪課，傍晚到布萊德湖吃奶油蛋糕、住湖邊",
+   "stops": [
+    {
+     "time": "08:30",
+     "name": "盧比安納市區取車",
+     "kind": "transport",
+     "stay_min": 30,
+     "desc": "在市區租車點取自排小車（12/30 08:30–12/31 13:30，同點還）。確認冬胎、電子通行證 vignette、緊急三角架與反光背心都在車上。",
+     "price_for2_twd": 2510,
+     "booking": "需預約",
+     "booking_url": "https://www.kayak.com/cars/Ljubljana,Slovenia/2026-12-30-09h/2026-12-31-15h?sort=price_a",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Ogrin%C4%8Deva%20ulica%204%2C%20Ljubljana",
+     "site_url": "",
+     "address": "Ogrinčeva ulica 4, 1000 Ljubljana（以實際訂到的車行為準）",
+     "tip": "帶台灣駕照正本＋國際駕照＋護照＋主駕信用卡",
+     "photo": null,
+     "links": [
+      {
+       "type": "blog",
+       "title": "KAYAK 盧比安納租車比價（11/02 查自排 US$77）",
+       "url": "https://www.kayak.com/cars/Ljubljana,Slovenia/2026-12-30-09h/2026-12-31-15h?sort=price_a"
+      },
+      {
+       "type": "youtube",
+       "title": "【克羅埃西亞＋斯洛維尼亞】絕對好評推坑自駕全攻略（有勃 YoBo）",
+       "url": "https://www.youtube.com/watch?v=gMzAlCXlw9s"
+      }
+     ]
+    },
+    {
+     "time": "10:00",
+     "name": "渥格爾雪場：纜車上山＋2 小時雙人私人滑雪課",
+     "kind": "challenge",
+     "stay_min": 210,
+     "desc": "纜車從 Bohinj 湖邊一口氣拉到 1,535 公尺，雪道正對朱利安阿爾卑斯山和湖。Alpinsport 滑雪學校 2 人 1 教練每小時 €56，上 2 小時學會停、轉彎；租全套雪具 €28／人／天。課後在山上滑雪小屋吃午餐。",
+     "price_for2_twd": 9600,
+     "booking": "需預約",
+     "booking_url": "https://www.alpinsport.si/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Vogel%20Ski%20Center%20cable%20car%2C%20Ukanc%2C%20Bohinjsko%20jezero",
+     "site_url": "https://vogel.si/en/",
+     "address": "Ukanc 6, 4265 Bohinjsko jezero",
+     "tip": "雪況靠天，出發前一週看 vogel.si 有沒有開；沒開就改去盧比安納旁的 Krvavec",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vogel%20Ski%20Resort.jpg?width=1200",
+      "credit": "Viktar Palstsiuk（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Vogel 雪場官方 IG @vogelskicenter",
+       "url": "https://www.instagram.com/vogelskicenter/"
+      },
+      {
+       "type": "official",
+       "title": "Vogel 滑雪學校與租具（Alpinsport 2025/26 價目）",
+       "url": "https://vogel.si/en/ski-school-and-rental/"
+      },
+      {
+       "type": "youtube",
+       "title": "Watch this before snowboarding at Vogel Ski Resort（Will and Alex Travel）",
+       "url": "https://www.youtube.com/watch?v=DET0CYQSnbc"
+      }
+     ]
+    },
+    {
+     "time": "14:00",
+     "name": "Bohinj 湖邊散步（Ribčev Laz 石橋＋聖約翰教堂）",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "比布萊德更安靜的冰河湖，冬天常有霧和薄冰；湖口石橋邊的小教堂是明信片角度。免費。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St.%20John%20the%20Baptist%2C%20Rib%C4%8Dev%20Laz%2C%20Bohinj",
+     "site_url": "https://www.bled.si/en/",
+     "address": "Ribčev Laz, 4265 Bohinjsko jezero",
+     "tip": "湖邊停車場冬天也收費，停 30 分鐘就好",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Bohinj%20in%20Winter.jpg?width=1200",
+      "credit": "Grega.nered（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Visit Bohinj IG @visitbohinj",
+       "url": "https://www.instagram.com/visitbohinj/"
+      }
+     ]
+    },
+    {
+     "time": "15:45",
+     "name": "Park Café：發明布萊德奶油蛋糕的老店",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "布萊德奶油蛋糕（kremšnita）1953 年在這家湖畔咖啡館誕生，是布萊德的招牌：酥皮夾香草卡士達和鮮奶油。一塊約 €6–7，配熱巧克力看 16:20 的湖上日落。",
+     "price_for2_twd": 730,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Park%20Cafe%20Bled%2C%20Cesta%20svobode%2015%2C%20Bled",
+     "site_url": "",
+     "address": "Cesta svobode 15, 4260 Bled（Hotel Park 一樓）",
+     "tip": "今晚就住樓上的 Hotel Park，先 check-in 再下來吃",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bled%20Cremeschnitte%20%28blejska%20krem%C5%A1nita%29.jpg?width=1200",
+      "credit": "Petar Milošević（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Sava Hotels & Resorts IG（Hotel Park／Park Café 的集團）",
+       "url": "https://www.instagram.com/sava_hotels_resorts/"
+      },
+      {
+       "type": "youtube",
+       "title": "【斯洛維尼亞旅遊】到布列德湖一定要作的4件事（MOOK玩什麼）",
+       "url": "https://www.youtube.com/watch?v=mCtnkPYHKgY"
+      }
+     ]
+    },
+    {
+     "time": "18:30",
+     "name": "Gostilna Pri Planincu（布萊德老牌家常館）",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "布萊德小鎮上的老牌鄉村酒館，當地人吃烤豬肋、鱒魚、蕎麥粥配蘑菇湯，份量大。兩人約 €45–55。",
+     "price_for2_twd": 1820,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Gostilna%20Pri%20Planincu%2C%20Grajska%20cesta%208%2C%20Bled",
+     "site_url": "",
+     "address": "Grajska cesta 8, 4260 Bled",
+     "tip": "年底晚上人多，先打電話或 IG 訊息訂位",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Jota%22%20soup%20%2843974060924%29.jpg?width=1200",
+      "credit": "Jernej Furman（斯洛維尼亞家常湯示意）（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Gostilna Pri Planincu 官方 IG @priplanincu.bled",
+       "url": "https://www.instagram.com/priplanincu.bled/"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Kult Pub Bled（湖對面的小酒吧）",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "布萊德少數開到深夜的酒吧（週一到週四開到 01:00），有雞尾酒、本地烈酒和現場音樂夜；在湖對面購物中心一樓，走回飯店 5 分鐘。兩人約 €20。",
+     "price_for2_twd": 730,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Kult%20Pub%20Bled%2C%20Ljubljanska%20cesta%204%2C%20Bled",
+     "site_url": "",
+     "address": "Ljubljanska cesta 4, 4260 Bled",
+     "tip": "想安靜點就在 Hotel Park 酒吧看湖",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bled%20%28510398807%29.jpg?width=1200",
+      "credit": "edkohler（布萊德小鎮街景）（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Kult Pub Bled 官方 IG @kultbled",
+       "url": "https://www.instagram.com/kultbled/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "12/31",
+   "weekday": "四",
+   "title": "湖心島＋城堡跨年",
+   "area": "布萊德→盧比安納",
+   "drive_km": 55,
+   "drive_time": "約 50 分",
+   "summary": "早上搭手划船上湖心島敲許願鐘、上懸崖城堡，下午回盧比安納還車，晚上四個廣場免費跨年、午夜城堡煙火",
+   "stops": [
+    {
+     "time": "09:30",
+     "name": "手划船 pletna 上湖心島＋敲許願鐘",
+     "kind": "activity",
+     "stay_min": 120,
+     "desc": "傳統手划木船 pletna 全年每天開，船夫划 20 分鐘到島上；爬 99 階到聖母升天教堂拉許願鐘。船來回約 €20／人（付現），島上門票 €12／人（2026 價）。冬季 8:30–16:00（週五到週日到 17:00）。",
+     "price_for2_twd": 2330,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Pletna%20boat%20Mlino%2C%20Bled",
+     "site_url": "https://www.blejskiotok.si/en/",
+     "address": "Bled Island, 4260 Bled",
+     "tip": "傳說新郎要抱新娘爬完 99 階，可以試試",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pletna%20%28traditional%20wooden%20boat%20used%20for%20transportation%20to%20Bled%20Island%29.jpg?width=1200",
+      "credit": "Rizka（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Blejski Otok 湖心島官方 IG @blejskiotok",
+       "url": "https://www.instagram.com/blejskiotok/"
+      },
+      {
+       "type": "official",
+       "title": "湖心島開放時間與票價（2026）",
+       "url": "https://www.blejskiotok.si/en/welcome-to-the-island/"
+      }
+     ]
+    },
+    {
+     "time": "12:00",
+     "name": "布萊德城堡（懸崖上的千年城堡）",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "斯洛維尼亞最古老的城堡，蓋在湖邊 130 公尺高的懸崖上，觀景台可以俯瞰整個湖心島。成人 €19，冬季 8:00–18:00；城堡裡有古印刷坊和酒窖。",
+     "price_for2_twd": 1380,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Bled%20Castle%2C%20Grajska%20cesta%2061%2C%20Bled",
+     "site_url": "https://www.blejski-grad.si/en/",
+     "address": "Grajska cesta 61, 4260 Bled",
+     "tip": "開車可直接上城堡停車場；13:30 前出發回盧比安納",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bled%20Castle%2005.jpg?width=1200",
+      "credit": "Mihael Grmek（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Bled Castle 官方 IG @bledcastle",
+       "url": "https://www.instagram.com/bledcastle/"
+      },
+      {
+       "type": "official",
+       "title": "布萊德城堡票價",
+       "url": "https://www.blejski-grad.si/en/plan-your-visit/price-list/"
+      }
+     ]
+    },
+    {
+     "time": "14:30",
+     "name": "回盧比安納還車＋check-in",
+     "kind": "transport",
+     "stay_min": 60,
+     "desc": "走 A2 高速公路約 50 分鐘回盧比安納，還車後回 The Hotel Ljubljana 休息、睡個午覺，晚上要撐到兩點。",
+     "price_for2_twd": 550,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Hotel%20Ljubljana%2C%20Ljubljana",
+     "site_url": "",
+     "address": "盧比安納市中心",
+     "tip": "還車前加滿油（拿收據），拍車況照片",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Triple%20Bridge%20and%20Ljubljana%20by%20night%20%2848701521446%29.jpg?width=1200",
+      "credit": "Bex Walton（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": []
+    },
+    {
+     "time": "18:00",
+     "name": "Druga violina（老城社會企業小館）",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "老城 Stari trg 上的家常館，由社會企業經營、員工有身心障礙者；燉牛肉、蕎麥 žganci、蘋果捲都好吃，價格實在。兩人約 €35–45。",
+     "price_for2_twd": 1460,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Druga%20violina%2C%20Stari%20trg%2021%2C%20Ljubljana",
+     "site_url": "",
+     "address": "Stari trg 21, 1000 Ljubljana",
+     "tip": "跨年夜很多店提早打烊或只做套餐，12 月初就先訂；訂不到改 Gostilna Šestica",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana%20-%20Stari%20trg%20-%202015-04-21.jpg?width=1200",
+      "credit": "Guillaume Speurt（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Druga violina 官方 IG @druga.violina",
+       "url": "https://www.instagram.com/druga.violina/"
+      }
+     ]
+    },
+    {
+     "time": "21:00",
+     "name": "四個廣場免費跨年演唱會＋午夜城堡煙火",
+     "kind": "night",
+     "stay_min": 210,
+     "desc": "盧比安納官方 2026/27 跨年已公告：12/31 21:00–1/1 02:30，四個廣場（國會廣場、市政廳廣場等）各一種音樂風格、免費入場。天氣好時午夜從城堡山放環保煙火，國會廣場和三重橋一帶看最清楚。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Kongresni%20trg%2C%20Ljubljana",
+     "site_url": "https://www.visitljubljana.com/en/visitors/events/events-in-ljubljana/silvestrovanja-na-prostem",
+     "address": "Kongresni trg, 1000 Ljubljana",
+     "tip": "穿最厚的衣服＋暖暖包；人潮大，約好走散時的集合點",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ognjemet%20Ljubljana%202013-2014.jpg?width=1200",
+      "credit": "Suzi5p（Suzana Pa…）（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Visit Ljubljana：2026/27 戶外跨年（21:00–02:30）",
+       "url": "https://www.visitljubljana.com/en/visitors/events/events-in-ljubljana/silvestrovanja-na-prostem"
+      },
+      {
+       "type": "youtube",
+       "title": "New Year's Fireworks from castle Ljubljana Slovenia 25/26（Tomaz Z）",
+       "url": "https://www.youtube.com/watch?v=wtyA9xkMsqM"
+      }
+     ]
+    },
+    {
+     "time": "00:30",
+     "name": "Pritličje（市政廳廣場的街角酒吧）",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "就在市政廳廣場轉角、龍橋與三重橋中間，白天咖啡館、晚上變酒吧，是盧比安納年輕人愛去的友善空間。跨年夜續攤人很多，兩人約 €25。",
+     "price_for2_twd": 910,
+     "booking": "建議預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Pritli%C4%8Dje%2C%20Mestni%20trg%202%2C%20Ljubljana",
+     "site_url": "https://www.pritlicje.si/",
+     "address": "Mestni trg 2, 1000 Ljubljana",
+     "tip": "擠不進去就去河邊的 Dvorni Bar（葡萄酒吧）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana-%20Mestni%20trg.jpg?width=1200",
+      "credit": "Jorge Franganillo（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Pritličje 官方 IG @pritlicje",
+       "url": "https://www.instagram.com/pritlicje/"
+      },
+      {
+       "type": "ig",
+       "title": "備案：Dvorni Bar 葡萄酒吧 IG @dvornibar",
+       "url": "https://www.instagram.com/dvornibar/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "1/1",
+   "weekday": "五",
+   "title": "元旦城堡到札格雷布",
+   "area": "盧比安納→札格雷布",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "睡飽坐纜車上城堡看雪山，吃完午餐坐火車 2.5 小時到札格雷布，晚上逛歐洲最佳聖誕市集",
+   "stops": [
+    {
+     "time": "11:00",
+     "name": "盧比安納城堡＋纜車",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "纜車 1 分鐘上山，觀景塔能看到整片紅屋頂和遠方的阿爾卑斯雪山。城堡＋纜車來回成人 €19。",
+     "price_for2_twd": 1380,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Ljubljana%20Castle%20funicular%2C%20Krekov%20trg%2C%20Ljubljana",
+     "site_url": "https://www.ljubljanskigrad.si/en/",
+     "address": "Grajska planota 1, 1000 Ljubljana",
+     "tip": "元旦開放時間出發前到官網確認",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana%20Castle%20Funicular%2C%2020240502%201715%207705.jpg?width=1200",
+      "credit": "Jakub Hałun（Wikimedia Commons）",
+      "license": "CC BY 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Ljubljana Castle 官方 IG @ljubljanacastle",
+       "url": "https://www.instagram.com/ljubljanacastle/"
+      },
+      {
+       "type": "official",
+       "title": "盧比安納城堡官網",
+       "url": "https://www.ljubljanskigrad.si/en/"
+      }
+     ]
+    },
+    {
+     "time": "12:45",
+     "name": "Gostilna Sokol（傳統斯洛維尼亞菜）",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "老城最有代表性的傳統酒館，服務生穿傳統服，菜單有燉鹿肉、蕎麥粥、酸菜豬腳、蘋果捲；每天開、兩人約 €45–55。",
+     "price_for2_twd": 1820,
+     "booking": "建議預約",
+     "booking_url": "https://www.gostilna-sokol.com/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Gostilna%20Sokol%2C%20Ciril-Metodov%20trg%2018%2C%20Ljubljana",
+     "site_url": "https://www.gostilna-sokol.com/",
+     "address": "Ciril-Metodov trg 18, 1000 Ljubljana",
+     "tip": "元旦是否營業出發前確認；吃完回飯店拿行李",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana%20-%20hi%C5%A1a%20Ciril-Metodov%20trg%2018.jpg?width=1200",
+      "credit": "Donald Judge（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Gostilna Sokol 官方 IG @gostilna_sokol",
+       "url": "https://www.instagram.com/gostilna_sokol/"
+      },
+      {
+       "type": "official",
+       "title": "Gostilna Sokol 官網",
+       "url": "https://www.gostilna-sokol.com/"
+      }
+     ]
+    },
+    {
+     "time": "14:45",
+     "name": "火車 盧比安納 → 札格雷布",
+     "kind": "transport",
+     "stay_min": 160,
+     "desc": "直達車約 2 小時 40 分（14:45→17:23，Trainline 11 月班表；1/1 假日班次可能減少，出發前查）。出境斯洛維尼亞、進克羅埃西亞都在申根內，不用過海關。",
+     "price_for2_twd": 1460,
+     "booking": "建議預約",
+     "booking_url": "https://potniski.sz.si/en/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Ljubljana%20railway%20station",
+     "site_url": "https://www.hzpp.hr/en",
+     "address": "Trg Osvobodilne fronte 6, 1000 Ljubljana",
+     "tip": "沒班次就改 FlixBus（約 2 小時）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%20Glavni%20kolodvor%201d%20-%20front.jpg?width=1200",
+      "credit": "Miroslav.vajdic（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "Trainline：盧比安納→札格雷布班次",
+       "url": "https://www.thetrainline.com/en/train-times/ljubljana-to-zagreb"
+      }
+     ]
+    },
+    {
+     "time": "18:00",
+     "name": "札格雷布聖誕市集（主廣場＋Zrinjevac 公園）",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "Advent u Zagrebu 2026 辦到 1/7，曾連三年被選為歐洲最佳聖誕市集。主廣場大聖誕樹、Zrinjevac 公園整排燈拱和音樂亭，是全城最浪漫的地方。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Zrinjevac%2C%20Zagreb",
+     "site_url": "https://www.adventzagreb.hr/",
+     "address": "Trg bana Josipa Jelačića, 10000 Zagreb",
+     "tip": "飯店就在主廣場邊，先放行李再出門",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Advent%2C%20Zagreb%20-%20Zrinjevac.jpg?width=1200",
+      "credit": "Silverije（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Advent Zagreb 官方 IG @adventzagreb",
+       "url": "https://www.instagram.com/adventzagreb/"
+      },
+      {
+       "type": "youtube",
+       "title": "Advent Zagreb - The Heart of Christmas in Europe（Visit Zagreb 官方）",
+       "url": "https://www.youtube.com/watch?v=1QzfAjdy-tE"
+      }
+     ]
+    },
+    {
+     "time": "19:30",
+     "name": "市集小吃晚餐：炸麵球 fritule＋烤香腸＋熱紅酒",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "邊走邊吃當晚餐：fritule（克羅埃西亞小炸麵球撒糖粉）、炭烤香腸、烤豬肉捲、kuhano vino 熱紅酒。兩人約 €30。",
+     "price_for2_twd": 1090,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Advent%20Zrinjevac%20food%20stalls%2C%20Zagreb",
+     "site_url": "https://www.adventzagreb.hr/",
+     "address": "Zrinjevac, 10000 Zagreb",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%20Advent%2020151215%20DSC%203902.JPG?width=1200",
+      "credit": "Branko Radovanović（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Advent Zagreb 官方 IG",
+       "url": "https://www.instagram.com/adventzagreb/"
+      },
+      {
+       "type": "youtube",
+       "title": "Advent in ZAGREB Christmas Market Guide 2025! Must Try Food（Alp Galip Travels）",
+       "url": "https://www.youtube.com/watch?v=4W-rjkFtETE"
+      }
+     ]
+    },
+    {
+     "time": "21:00",
+     "name": "Pivnica Mali Medo（Tkalčićeva 街自釀啤酒館）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "札格雷布在地精釀 Medvedgrad 的直營啤酒館，就在酒吧街 Tkalčićeva 上，木頭裝潢、冬天很溫暖，喝自釀黑啤配炸起司。兩人約 €20。",
+     "price_for2_twd": 730,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Pivnica%20Mali%20Medo%2C%20Tkal%C4%8Di%C4%87eva%2036%2C%20Zagreb",
+     "site_url": "https://www.pivnica-medvedgrad.hr/",
+     "address": "Ulica Ivana Tkalčića 36, 10000 Zagreb",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%20Tkal%C4%8Di%C4%87eva%20%2834483247325%29.jpg?width=1200",
+      "credit": "Jorge Franganillo（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Pivnica Mali Medo 官方 IG @pivnicamalimedo",
+       "url": "https://www.instagram.com/pivnicamalimedo/"
+      },
+      {
+       "type": "official",
+       "title": "Medvedgrad 啤酒館官網",
+       "url": "https://www.pivnica-medvedgrad.hr/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "1/2",
+   "weekday": "六",
+   "title": "市場、上城、失戀館",
+   "area": "札格雷布",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早上逛紅傘市場，中午在上城聽正午大砲、吃起司烤餅，下午看失戀博物館，晚上上城小館＋精釀",
+   "stops": [
+    {
+     "time": "09:30",
+     "name": "Dolac 市場（紅傘市場）",
+     "kind": "market",
+     "stay_min": 60,
+     "desc": "「札格雷布的胃」，週六最熱鬧：起司、蜂蜜、乾燥香腸、自製 ajvar 紅椒醬。2026 年起分區整修，室內大廳、魚市和乳品區照開，部分攤位移到旁邊 Pod zidom、Tkalčićeva 街口。",
+     "price_for2_twd": 360,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Tr%C5%BEnica%20Dolac%2C%20Dolac%209%2C%20Zagreb",
+     "site_url": "https://www.trznice-zg.hr/",
+     "address": "Dolac 9, 10000 Zagreb",
+     "tip": "週六開到下午；買 sir i vrhnje（鮮起司配酸奶油）試吃",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%20Dolac%20Market%20%2834401271881%29.jpg?width=1200",
+      "credit": "Jorge Franganillo（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Tržnice Zagreb 市場官方 IG @trznicezagreb",
+       "url": "https://www.instagram.com/trznicezagreb/"
+      },
+      {
+       "type": "blog",
+       "title": "Croatia Week：Dolac 整修期間臨時攤位位置",
+       "url": "https://www.croatiaweek.com/zagreb-dolac-market-temporary-locations-renovation/"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "上城散步：石門、聖馬可教堂、Lotrščak 塔正午大砲",
+     "kind": "sight",
+     "stay_min": 90,
+     "desc": "從石門（Kamenita vrata）走到彩色磁磚屋頂的聖馬可教堂，再到 Lotrščak 塔，每天 12:00 準時放一聲大砲。下山搭 66 公尺長的上城纜車（約 €0.66）。",
+     "price_for2_twd": 70,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=St.%20Mark%27s%20Church%2C%20Trg%20Svetog%20Marka%2C%20Zagreb",
+     "site_url": "https://www.infozagreb.hr/",
+     "address": "Trg sv. Marka, 10000 Zagreb",
+     "tip": "大砲很響，11:55 先站好位置",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St.%20Mark%27s%20Church%2C%20Zagreb%2002.jpg?width=1200",
+      "credit": "Bernard Gagnon（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Zagreb Tourist Board 官方 IG @zagrebtourist",
+       "url": "https://www.instagram.com/zagrebtourist/"
+      },
+      {
+       "type": "youtube",
+       "title": "《克羅埃西亞》首都札格雷布一日遊｜大吃巴爾幹烤肉｜維也納轉機（g7mao）",
+       "url": "https://www.youtube.com/watch?v=2o_bJ3VztJE"
+      }
+     ]
+    },
+    {
+     "time": "12:30",
+     "name": "La Štruk（札格雷布起司烤餅專賣）",
+     "kind": "food",
+     "stay_min": 60,
+     "desc": "只賣一種東西的小店：Zagorje štrukli，麵皮包新鮮起司，水煮或烤到表面焦脆，有松露、藍莓等口味。米其林指南推薦，一份約 €10–13。",
+     "price_for2_twd": 1090,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=La%20%C5%A0truk%2C%20Skalinska%20ulica%205%2C%20Zagreb",
+     "site_url": "https://www.lastruk.com/",
+     "address": "Skalinska ulica 5, 10000 Zagreb",
+     "tip": "點一鹹一甜分著吃；中午可能排隊 15 分",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagorski%20%C5%A0trukli%20-%20La%20%C5%A0truk%20restaurant.jpg?width=1200",
+      "credit": "Gveret Tered（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "La Štruk 官方 IG @la_struk",
+       "url": "https://www.instagram.com/la_struk/"
+      },
+      {
+       "type": "youtube",
+       "title": "Croatian food tour in Zagreb: CHEESY Štrukli（Chasing a Plate）",
+       "url": "https://www.youtube.com/watch?v=Pkkg8rISIb4"
+      }
+     ]
+    },
+    {
+     "time": "14:00",
+     "name": "失戀博物館",
+     "kind": "sight",
+     "stay_min": 75,
+     "desc": "全世界網友捐出的分手紀念物，每件配一段故事，又好笑又心酸，是札格雷布最有名的博物館。成人 €7，每天 10:00–21:00（元旦休）。",
+     "price_for2_twd": 510,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Broken%20Relationships%2C%20%C4%86irilometodska%202%2C%20Zagreb",
+     "site_url": "https://brokenships.com/",
+     "address": "Ćirilometodska ulica 2, 10000 Zagreb",
+     "tip": "出來後順路到 Ilica 18 的 Vincek 吃招牌蛋糕",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Museum%20of%20Broken%20Relationships%20006.jpg?width=1200",
+      "credit": "Yamen（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "失戀博物館官網",
+       "url": "https://brokenships.com/"
+      },
+      {
+       "type": "ig",
+       "title": "順路甜點：Slastičarnica Vincek IG @vincekslasticarnica",
+       "url": "https://www.instagram.com/vincekslasticarnica/"
+      }
+     ]
+    },
+    {
+     "time": "19:00",
+     "name": "Konoba Didov san（上城達爾馬提亞小館）",
+     "kind": "food",
+     "stay_min": 90,
+     "desc": "上城石屋裡的老餐館，做南部 Neretva 河谷的家鄉菜：青蛙、鰻魚燉鍋、烤章魚、黑燉飯，也有烤羊。兩人約 €55–65。",
+     "price_for2_twd": 2180,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Konoba%20Didov%20san%2C%20Mleta%C4%8Dka%20ulica%2011%2C%20Zagreb",
+     "site_url": "",
+     "address": "Mletačka ulica 11, 10000 Zagreb",
+     "tip": "週末一定要訂位",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%2C%20Ilica%20%28Kolovoz%202021%29.jpg?width=1200",
+      "credit": "Vojtěch Dočkal（上城街景）（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Konoba Didov san 官方 IG @didovsan",
+       "url": "https://www.instagram.com/didovsan/"
+      },
+      {
+       "type": "youtube",
+       "title": "ZAGREB FOOD TOUR | MUST TRY Traditional Croatian Dishes（Bucket List Travellers）",
+       "url": "https://www.youtube.com/watch?v=wvYr4GGVWns"
+      }
+     ]
+    },
+    {
+     "time": "21:30",
+     "name": "Craft Room（Opatovina 精釀酒吧）",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "Tkalčićeva 平行的 Opatovina 街上，一整排克羅埃西亞與歐洲精釀生啤輪替，可以先問店員推薦。兩人約 €20。",
+     "price_for2_twd": 730,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Craft%20Room%2C%20Opatovina%2035%2C%20Zagreb",
+     "site_url": "",
+     "address": "Opatovina ulica 35, 10000 Zagreb",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%20Tkal%C4%8Di%C4%87eva%20%2833688492964%29.jpg?width=1200",
+      "credit": "Jorge Franganillo（Wikimedia Commons）",
+      "license": "CC BY 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Craft Room Zagreb 官方 IG @craft.room.zagreb",
+       "url": "https://www.instagram.com/craft.room.zagreb/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "date": "1/3",
+   "weekday": "日",
+   "title": "十六湖冬景自駕",
+   "area": "札格雷布→十六湖→Rastoke→札格雷布",
+   "drive_km": 270,
+   "drive_time": "約 4 小時（單程 2 小時）",
+   "summary": "一早租車往南，走十六湖下湖區的冬季步道看結冰瀑布，吃 Lika 烤羊，回程繞水車小村 Rastoke",
+   "stops": [
+    {
+     "time": "07:30",
+     "name": "札格雷布取車出發",
+     "kind": "transport",
+     "stay_min": 150,
+     "desc": "取自排小車走 A1 高速公路到卡爾洛瓦茨，再接 D1 國道南下，約 2 小時到十六湖 1 號入口。",
+     "price_for2_twd": 1300,
+     "booking": "需預約",
+     "booking_url": "https://www.kayak.com/cars/Zagreb,City-of-Zagreb,Croatia/2027-01-03-08h/2027-01-03-19h?sort=price_a",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Plitvice%20Lakes%20National%20Park%20Entrance%201",
+     "site_url": "",
+     "address": "Kranjčevićeva ulica 29, Zagreb（以實際訂到的車行為準）",
+     "tip": "D1 山路可能積雪，出發前看克羅埃西亞汽車協會 HAK 路況",
+     "photo": null,
+     "links": [
+      {
+       "type": "blog",
+       "title": "KAYAK 札格雷布一日租車比價",
+       "url": "https://www.kayak.com/cars/Zagreb,City-of-Zagreb,Croatia/2027-01-03-08h/2027-01-03-19h?sort=price_a"
+      }
+     ]
+    },
+    {
+     "time": "10:00",
+     "name": "十六湖國家公園：下湖區冬季步道",
+     "kind": "activity",
+     "stay_min": 180,
+     "desc": "冬天只開下湖區，從 1 號入口看 78 公尺的大瀑布 Veliki slap，沿木棧道走湖面，常有結冰瀑布和雪景、遊客很少。冬季成人約 €10（2026/27 價待確認），入口 8:00–15:00、13:00 停止售票。",
+     "price_for2_twd": 730,
+     "booking": "建議預約",
+     "booking_url": "https://np-plitvicka-jezera.hr/en/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Plitvice%20Lakes%20National%20Park%20Entrance%201",
+     "site_url": "https://np-plitvicka-jezera.hr/en/",
+     "address": "Entrance 1, 53231 Plitvička Jezera",
+     "tip": "木棧道會結冰，穿防水防滑鞋；上湖區步道冬天關",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Plitvice%20lakes%20in%20winter%20time.jpg?width=1200",
+      "credit": "Magdalena Miočev（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Plitvice Lakes National Park IG @plitvicelakesnp",
+       "url": "https://www.instagram.com/plitvicelakesnp/"
+      },
+      {
+       "type": "youtube",
+       "title": "【克羅埃西亞 札格雷布】被雪蓋住的國家公園 冬天的十六湖（Wen）",
+       "url": "https://www.youtube.com/watch?v=CMfrWUbh7Fg"
+      },
+      {
+       "type": "youtube",
+       "title": "冬走中歐－克羅埃西亞「十六湖國家公園」銀色的十六湖（I'm K）",
+       "url": "https://www.youtube.com/watch?v=v4hxWvKOx1k"
+      }
+     ]
+    },
+    {
+     "time": "13:15",
+     "name": "Lička kuća（Lika 烤羊與家鄉菜）",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "1 號入口旁的木屋老餐廳，壁爐烤 Lika 羊肉、自製香腸、燉豆、玉米麵包，是十六湖一帶最常被推的一家。兩人約 €45–55。",
+     "price_for2_twd": 1820,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Li%C4%8Dka%20ku%C4%87a%2C%20Rastova%C4%8Da%201%2C%20Plitvi%C4%8Dka%20Jezera",
+     "site_url": "",
+     "address": "Rastovača 1, 53231 Plitvička Jezera",
+     "tip": "冬季營業時間短，去之前看 IG 或 Google 最新時間",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Janjetina%20i%20odojak%20na%20ra%C5%BEnju%20u%20Novalji.jpg?width=1200",
+      "credit": "Silverije（烤羊示意）（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Lička kuća 官方 IG @lickakuca",
+       "url": "https://www.instagram.com/lickakuca/"
+      }
+     ]
+    },
+    {
+     "time": "15:00",
+     "name": "Rastoke 水車小村",
+     "kind": "sight",
+     "stay_min": 45,
+     "desc": "回程順路的 Slunj：Slunjčica 河從村子中間的石灰岩上分成幾十道小瀑布，旁邊是老水車屋，冬天下午光線很美。村內散步免費。",
+     "price_for2_twd": 0,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Rastoke%2C%20Slunj",
+     "site_url": "https://www.rastoke.com/",
+     "address": "Rastoke, 47240 Slunj",
+     "tip": "16:20 天黑，看完就開回札格雷布還車（約 1 小時 20 分）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rastoke%20%281%29%2C%20Slunj%2C%20Croatia.JPG?width=1200",
+      "credit": "Neo（Wikimedia Commons）",
+      "license": "Public domain"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "Rastoke 官網",
+       "url": "https://www.rastoke.com/"
+      }
+     ]
+    },
+    {
+     "time": "19:30",
+     "name": "Batak Tkalčićeva（克羅埃西亞烤肉）",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "札格雷布本地連鎖烤肉店，招牌 ćevapi 小肉腸配洋蔥和 ajvar 紅椒醬，還有烤雞腿 batak。Tkalčićeva 這家就在酒吧街上。兩人約 €25。",
+     "price_for2_twd": 910,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Batak%20Tkal%C4%8Di%C4%87eva%2C%20Ulica%20Ivana%20Tkal%C4%8Di%C4%87a%2070%2C%20Zagreb",
+     "site_url": "https://batak.hr/",
+     "address": "Ulica Ivana Tkalčića 70, 10000 Zagreb",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%86evap%C4%8Di%C4%87i%20in%20Montenegro.jpg?width=1200",
+      "credit": "Spacekid（烤肉腸示意）（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Batak Grill 官方 IG @batakgrill",
+       "url": "https://www.instagram.com/batakgrill/"
+      },
+      {
+       "type": "official",
+       "title": "Batak 分店與營業時間",
+       "url": "https://batak.hr/"
+      }
+     ]
+    },
+    {
+     "time": "21:00",
+     "name": "Booze & Blues（藍調酒吧）",
+     "kind": "bar",
+     "stay_min": 90,
+     "desc": "Tkalčićeva 街北段的藍調主題酒吧，放老藍調和搖滾，雞尾酒和威士忌選擇多，氣氛比主街安靜。兩人約 €20–30。",
+     "price_for2_twd": 910,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Booze%20%26%20Blues%2C%20Tkal%C4%8Di%C4%87eva%2084%2C%20Zagreb",
+     "site_url": "https://www.boozeandblues.com/",
+     "address": "Ulica Ivana Tkalčića 84, 10000 Zagreb",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tkal%C4%8Di%C4%87eva%20Street.jpg?width=1200",
+      "credit": "Damien Smith（Wikimedia Commons）",
+      "license": "CC BY-SA 2.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Booze & Blues 官方 IG @booze_and_blues",
+       "url": "https://www.instagram.com/booze_and_blues/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "date": "1/4",
+   "weekday": "一",
+   "title": "火車回維也納",
+   "area": "札格雷布→維也納",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "坐早班直達火車回維也納，下午逛聖誕燈還沒拆的老城，吃炸豬排、去百年美式酒吧收尾",
+   "stops": [
+    {
+     "time": "07:06",
+     "name": "直達火車 札格雷布 → 維也納",
+     "kind": "transport",
+     "stay_min": 414,
+     "desc": "唯一的直達班 07:06→14:00（6 小時 54 分，Trainline 11 月班表），車上補眠。想晚點出門就坐 FlixBus（約 5 小時、每天約 10 班）。",
+     "price_for2_twd": 3280,
+     "booking": "建議預約",
+     "booking_url": "https://www.oebb.at/en/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Zagreb%20Glavni%20kolodvor",
+     "site_url": "https://www.hzpp.hr/en",
+     "address": "Trg kralja Tomislava 12, 10000 Zagreb",
+     "tip": "站前就是 Tomislav 國王廣場的聖誕市集，可以買早餐",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%20Glavni%20kolodvor%201d%20-%20front.jpg?width=1200",
+      "credit": "Miroslav.vajdic（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "blog",
+       "title": "Trainline：札格雷布→維也納班次",
+       "url": "https://www.thetrainline.com/en/train-times/zagreb-to-vienna"
+      }
+     ]
+    },
+    {
+     "time": "15:30",
+     "name": "史蒂芬大教堂＋克恩頓大街看燈",
+     "kind": "sight",
+     "stay_min": 120,
+     "desc": "放好行李坐 U1 到 Stephansplatz，大教堂、Graben 和克恩頓大街的水晶吊燈裝飾通常掛到 1 月初。免費。",
+     "price_for2_twd": 250,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%20Wien",
+     "site_url": "https://www.wienerlinien.at/",
+     "address": "Stephansplatz, 1010 Wien",
+     "tip": "地鐵票單程 €3.20，可以直接感應信用卡（待確認）",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephansplatz%2C%20Vienna.jpg?width=1200",
+      "credit": "Slyronit（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "18:30",
+     "name": "Figlmüller（比盤子大的維也納炸豬排）",
+     "kind": "food",
+     "stay_min": 75,
+     "desc": "1905 年開業的炸豬排老店，豬排薄薄拍到比盤子還大，配馬鈴薯沙拉。兩人約 €50。",
+     "price_for2_twd": 1820,
+     "booking": "需預約",
+     "booking_url": "https://www.figlmueller.at/",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Figlm%C3%BCller%2C%20Wollzeile%205%2C%20Wien",
+     "site_url": "https://www.figlmueller.at/",
+     "address": "Wollzeile 5, 1010 Wien",
+     "tip": "線上訂位；客滿就去轉角 Bäckerstraße 的分店",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Figlm%C3%BCller-Schnitzel%20in%20Wien.jpg?width=1200",
+      "credit": "Brücke-Osteuropa（Wikimedia Commons）",
+      "license": "CC0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Figlmüller 官方 IG @figlmueller",
+       "url": "https://www.instagram.com/figlmueller/"
+      },
+      {
+       "type": "official",
+       "title": "Figlmüller 官網",
+       "url": "https://www.figlmueller.at/"
+      }
+     ]
+    },
+    {
+     "time": "20:30",
+     "name": "Loos American Bar（1908 年的迷你美式酒吧）",
+     "kind": "bar",
+     "stay_min": 75,
+     "desc": "建築大師 Adolf Loos 設計的 27 平方公尺小酒吧，大理石與鏡面讓空間看起來無限大，經典雞尾酒做得好。兩人約 €35–45。",
+     "price_for2_twd": 1460,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Loos%20American%20Bar%2C%20K%C3%A4rntner%20Durchgang%2010%2C%20Wien",
+     "site_url": "https://www.loosbar.at/",
+     "address": "Kärntner Durchgang 10, 1010 Wien",
+     "tip": "空間小，早點去才有位子；明天早上 8 點出門",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/American%20Bar%20Adolf%20Loos%20innen.JPG?width=1200",
+      "credit": "Thomas Ledl（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": [
+      {
+       "type": "ig",
+       "title": "Loos American Bar 官方 IG @loosbar",
+       "url": "https://www.instagram.com/loosbar/"
+      },
+      {
+       "type": "official",
+       "title": "Loos Bar 官網",
+       "url": "https://www.loosbar.at/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 8,
+   "date": "1/5",
+   "weekday": "二",
+   "title": "早上飛回台灣",
+   "area": "維也納→桃園",
+   "drive_km": null,
+   "drive_time": null,
+   "summary": "早餐後坐 Railjet 到機場，11:00 起飛，隔天清晨回到台灣",
+   "stops": [
+    {
+     "time": "07:15",
+     "name": "中央車站吃早餐（可頌＋咖啡）",
+     "kind": "food",
+     "stay_min": 40,
+     "desc": "車站裡的維也納麵包店買可頌、罌粟籽捲和咖啡。兩人約 €15。",
+     "price_for2_twd": 550,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Wien%20Hauptbahnhof",
+     "site_url": "",
+     "address": "Am Hauptbahnhof 1, 1100 Wien",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%20Hauptbahnhof%20with%20%C3%96BB%20train.jpg?width=1200",
+      "credit": "Trajcinema（Wikimedia Commons）",
+      "license": "CC BY-SA 4.0"
+     },
+     "links": []
+    },
+    {
+     "time": "08:00",
+     "name": "Railjet 到維也納機場",
+     "kind": "transport",
+     "stay_min": 30,
+     "desc": "中央車站坐 Railjet／S7 約 15 分到機場，09:00 前到櫃台報到。退稅（若有）先在報到前辦。",
+     "price_for2_twd": 360,
+     "booking": "免預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Vienna%20International%20Airport",
+     "site_url": "https://www.viennaairport.com/",
+     "address": "Flughafen Wien, 1300 Schwechat",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vienna%20airport%20terminal%203.jpg?width=1200",
+      "credit": "Arne Müseler（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0 de"
+     },
+     "links": [
+      {
+       "type": "official",
+       "title": "ÖBB 時刻查詢",
+       "url": "https://www.oebb.at/en/"
+      }
+     ]
+    },
+    {
+     "time": "11:00",
+     "name": "華航直飛回桃園",
+     "kind": "transport",
+     "stay_min": 0,
+     "desc": "1/5 11:00 起飛，1/6（三）05:35 抵達桃園。",
+     "price_for2_twd": null,
+     "booking": "需預約",
+     "booking_url": "",
+     "map_url": "https://www.google.com/maps/search/?api=1&query=Vienna%20International%20Airport",
+     "site_url": "https://www.china-airlines.com/",
+     "address": "Flughafen Wien, 1300 Schwechat",
+     "tip": "",
+     "photo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vienna%20airport%20terminal%203.jpg?width=1200",
+      "credit": "Arne Müseler（Wikimedia Commons）",
+      "license": "CC BY-SA 3.0 de"
+     },
+     "links": []
+    }
+   ]
+  }
+ ],
+ "food": [
+  {
+   "name": "Klobasarna",
+   "dish": "卡尼鄂拉香腸（Kranjska klobasa）、jota 酸菜豆子湯",
+   "price_for2_twd": 910,
+   "area": "盧比安納老城",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Klobasarna%2C%20Ciril-Metodov%20trg%2015%2C%20Ljubljana",
+   "why": "專賣斯洛維尼亞國寶香腸的小店，Visit Ljubljana 與多數部落客必推；一份 €7.5–9",
+   "source": "https://www.klobasarna.si/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carniolian%20sausage%20-%20Kranjska%20klobasa%20-%20Klobasarna%20Ljubljana.jpg?width=1200",
+    "credit": "ModriDirkac（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Klobasarna 官方 IG @klobasarna_team",
+     "url": "https://www.instagram.com/klobasarna_team/"
+    },
+    {
+     "type": "official",
+     "title": "Klobasarna 官網",
+     "url": "https://www.klobasarna.si/"
+    }
+   ]
+  },
+  {
+   "name": "Moji štruklji Slovenije",
+   "dish": "斯洛維尼亞 štruklji 起司／核桃麵捲",
+   "price_for2_twd": 730,
+   "area": "盧比安納中央市場",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Moji%20%C5%A1truklji%20Slovenije%2C%20Adami%C4%8D-Lundrovo%20nabre%C5%BEje%201%2C%20Ljubljana",
+   "why": "Tripadvisor 4.4 分（193 則評論，Google 搜尋摘要 11/02），就在 Plečnik 拱廊市場下",
+   "source": "https://www.instagram.com/mojistruklji/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sweet%20dumpling%20%C5%A1truklji.%20%2852869557399%29.jpg?width=1200",
+    "credit": "young shanahan（štruklji 示意）（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Moji štruklji Slovenije 官方 IG @mojistruklji",
+     "url": "https://www.instagram.com/mojistruklji/"
+    }
+   ]
+  },
+  {
+   "name": "Gostilna Sokol",
+   "dish": "燉鹿肉、蕎麥粥、酸菜豬腳、蘋果捲",
+   "price_for2_twd": 1820,
+   "area": "盧比安納老城",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Gostilna%20Sokol%2C%20Ciril-Metodov%20trg%2018%2C%20Ljubljana",
+   "why": "老城最具代表性的傳統酒館，台灣與國外 IG 美食帳號常介紹",
+   "source": "https://www.gostilna-sokol.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana%20-%20hi%C5%A1a%20Ciril-Metodov%20trg%2018.jpg?width=1200",
+    "credit": "Donald Judge（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Gostilna Sokol 官方 IG @gostilna_sokol",
+     "url": "https://www.instagram.com/gostilna_sokol/"
+    },
+    {
+     "type": "official",
+     "title": "官網",
+     "url": "https://www.gostilna-sokol.com/"
+    }
+   ]
+  },
+  {
+   "name": "Druga violina",
+   "dish": "燉牛肉、蕎麥 žganci、蘋果捲",
+   "price_for2_twd": 1460,
+   "area": "盧比安納 Stari trg",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Druga%20violina%2C%20Stari%20trg%2021%2C%20Ljubljana",
+   "why": "雇用身心障礙者的社會企業餐廳，家常菜價格實在，老城散步順路",
+   "source": "https://www.instagram.com/druga.violina/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ljubljana%20-%20Stari%20trg%20-%202015-04-21.jpg?width=1200",
+    "credit": "Guillaume Speurt（Wikimedia Commons）",
+    "license": "CC BY-SA 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Druga violina 官方 IG @druga.violina",
+     "url": "https://www.instagram.com/druga.violina/"
+    }
+   ]
+  },
+  {
+   "name": "Gostilna Šestica（備案）",
+   "dish": "1776 年老館的斯洛維尼亞家常菜",
+   "price_for2_twd": 1820,
+   "area": "盧比安納 Slovenska cesta",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Gostilna%20%C5%A0estica%2C%20Slovenska%20cesta%2040%2C%20Ljubljana",
+   "why": "城裡最老的酒館之一，週一到週五 10:00–23:00、週日 12:00–22:00；Druga violina 訂不到時的備案",
+   "source": "https://sestica.si/",
+   "photo": null,
+   "links": [
+    {
+     "type": "ig",
+     "title": "Gostilna Šestica 官方 IG @gostilnasestica",
+     "url": "https://www.instagram.com/gostilnasestica/"
+    },
+    {
+     "type": "official",
+     "title": "官網",
+     "url": "https://sestica.si/"
+    }
+   ]
+  },
+  {
+   "name": "Park Café（Hotel Park）",
+   "dish": "布萊德奶油蛋糕 kremšnita 原創店",
+   "price_for2_twd": 730,
+   "area": "布萊德湖畔",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Park%20Cafe%20Bled%2C%20Cesta%20svobode%2015%2C%20Bled",
+   "why": "1953 年在這裡誕生的蛋糕，Bled 官方與攻略影片必推",
+   "source": "https://www.bled.si/en/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bled%20Cremeschnitte%20%28blejska%20krem%C5%A1nita%29.jpg?width=1200",
+    "credit": "Petar Milošević（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Sava Hotels & Resorts IG（Hotel Park 所屬集團）",
+     "url": "https://www.instagram.com/sava_hotels_resorts/"
+    },
+    {
+     "type": "ig",
+     "title": "Visit Bled 官方 IG @visitbled",
+     "url": "https://www.instagram.com/visitbled/"
+    }
+   ]
+  },
+  {
+   "name": "Gostilna Pri Planincu",
+   "dish": "烤豬肋、鱒魚、蕎麥粥",
+   "price_for2_twd": 1820,
+   "area": "布萊德小鎮",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Gostilna%20Pri%20Planincu%2C%20Grajska%20cesta%208%2C%20Bled",
+   "why": "布萊德小鎮老牌家常館，IG 與部落客常推「想吃斯洛維尼亞家常菜就來這」",
+   "source": "https://www.instagram.com/priplanincu.bled/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Jota%22%20soup%20%2843974060924%29.jpg?width=1200",
+    "credit": "Jernej Furman（斯洛維尼亞家常湯示意）（Wikimedia Commons）",
+    "license": "CC BY 2.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Gostilna Pri Planincu 官方 IG @priplanincu.bled",
+     "url": "https://www.instagram.com/priplanincu.bled/"
+    }
+   ]
+  },
+  {
+   "name": "La Štruk",
+   "dish": "Zagorje 起司烤餅 štrukli",
+   "price_for2_twd": 1090,
+   "area": "札格雷布上城下方",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=La%20%C5%A0truk%2C%20Skalinska%20ulica%205%2C%20Zagreb",
+   "why": "只賣 štrukli 的專門店，米其林指南推薦、YouTube 美食頻道 Chasing a Plate 介紹",
+   "source": "https://www.lastruk.com/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagorski%20%C5%A0trukli%20-%20La%20%C5%A0truk%20restaurant.jpg?width=1200",
+    "credit": "Gveret Tered（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "La Štruk 官方 IG @la_struk",
+     "url": "https://www.instagram.com/la_struk/"
+    },
+    {
+     "type": "youtube",
+     "title": "Croatian food tour in Zagreb: CHEESY Štrukli（Chasing a Plate）",
+     "url": "https://www.youtube.com/watch?v=Pkkg8rISIb4"
+    }
+   ]
+  },
+  {
+   "name": "Konoba Didov san",
+   "dish": "Neretva 河谷鄉土菜：鰻魚燉鍋、烤章魚、黑燉飯",
+   "price_for2_twd": 2180,
+   "area": "札格雷布上城",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Konoba%20Didov%20san%2C%20Mleta%C4%8Dka%20ulica%2011%2C%20Zagreb",
+   "why": "上城石屋老館，旅遊頻道與部落客常推的晚餐",
+   "source": "https://www.instagram.com/didovsan/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%2C%20Ilica%20%28Kolovoz%202021%29.jpg?width=1200",
+    "credit": "Vojtěch Dočkal（上城街景）（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Konoba Didov san 官方 IG @didovsan",
+     "url": "https://www.instagram.com/didovsan/"
+    }
+   ]
+  },
+  {
+   "name": "Batak Tkalčićeva",
+   "dish": "ćevapi 小肉腸、烤雞腿",
+   "price_for2_twd": 910,
+   "area": "札格雷布 Tkalčićeva 街",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Batak%20Tkal%C4%8Di%C4%87eva%2C%20Ulica%20Ivana%20Tkal%C4%8Di%C4%87a%2070%2C%20Zagreb",
+   "why": "札格雷布人最常去的烤肉連鎖，平價又大份",
+   "source": "https://batak.hr/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%86evap%C4%8Di%C4%87i%20in%20Montenegro.jpg?width=1200",
+    "credit": "Spacekid（烤肉腸示意）（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Batak Grill 官方 IG @batakgrill",
+     "url": "https://www.instagram.com/batakgrill/"
+    },
+    {
+     "type": "official",
+     "title": "官網",
+     "url": "https://batak.hr/"
+    }
+   ]
+  },
+  {
+   "name": "Slastičarnica Vincek",
+   "dish": "Vincek 招牌蛋糕、kremšnita、冰淇淋",
+   "price_for2_twd": 440,
+   "area": "札格雷布 Ilica 18",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Slasti%C4%8Darnica%20Vincek%2C%20Ilica%2018%2C%20Zagreb",
+   "why": "札格雷布最有名的老甜點店，台灣 IG 帳號也介紹過",
+   "source": "https://www.vincek.com.hr/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ilica%20Vincek%2001052012%20roberta%20f.jpg?width=1200",
+    "credit": "Roberta F.（Wikimedia Commons）",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Slastičarnica Vincek 官方 IG @vincekslasticarnica",
+     "url": "https://www.instagram.com/vincekslasticarnica/"
+    },
+    {
+     "type": "official",
+     "title": "官網",
+     "url": "https://www.vincek.com.hr/"
+    }
+   ]
+  },
+  {
+   "name": "Lička kuća",
+   "dish": "Lika 烤羊、自製香腸、玉米麵包",
+   "price_for2_twd": 1820,
+   "area": "十六湖 1 號入口",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Li%C4%8Dka%20ku%C4%87a%2C%20Rastova%C4%8Da%201%2C%20Plitvi%C4%8Dka%20Jezera",
+   "why": "十六湖一帶最常被推薦的傳統餐廳",
+   "source": "https://www.instagram.com/lickakuca/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Janjetina%20i%20odojak%20na%20ra%C5%BEnju%20u%20Novalji.jpg?width=1200",
+    "credit": "Silverije（烤羊示意）（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Lička kuća 官方 IG @lickakuca",
+     "url": "https://www.instagram.com/lickakuca/"
+    }
+   ]
+  },
+  {
+   "name": "Figlmüller Wollzeile",
+   "dish": "維也納炸豬排",
+   "price_for2_twd": 1820,
+   "area": "維也納老城",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Figlm%C3%BCller%2C%20Wollzeile%205%2C%20Wien",
+   "why": "1905 年開業的炸豬排老店，維也納必吃",
+   "source": "https://www.figlmueller.at/",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Figlm%C3%BCller-Schnitzel%20in%20Wien.jpg?width=1200",
+    "credit": "Brücke-Osteuropa（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Figlmüller 官方 IG @figlmueller",
+     "url": "https://www.instagram.com/figlmueller/"
+    },
+    {
+     "type": "official",
+     "title": "官網",
+     "url": "https://www.figlmueller.at/"
+    }
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "name": "渥格爾雪場雙人私人滑雪課（2 小時）",
+   "what": "Alpinsport 滑雪學校 2 人 1 教練，從穿雪板、停、轉彎教起；雪道正對 Bohinj 湖與朱利安阿爾卑斯山",
+   "price_for2_twd": 9600,
+   "duration": "課 2 小時＋上下纜車約 3.5 小時",
+   "booking": "email info@alpinsport.si 或電話預約（2 人每小時 €56；租全套 €28／人；雪票 2026/27 價 12 月公布，約 €45–50／人）",
+   "season_ok": true,
+   "url": "https://vogel.si/en/ski-school-and-rental/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Vogel%20Ski%20Center%20cable%20car%2C%20Ukanc%2C%20Bohinjsko%20jezero",
+   "note": "Alpinsport 2025/26 價目（vogel.si 公告 PDF）；雪場 12 月中後才確定開放，雪不夠時改 Krvavec（盧比安納機場旁，人工雪多）",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20Bohinj%20Lake%20seen%20from%20Vogel%20cable%20car%20%28nihalka%29.jpg?width=1200",
+    "credit": "Qasinka（Wikimedia Commons）",
+    "license": "CC0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Vogel 官方 IG",
+     "url": "https://www.instagram.com/vogelskicenter/"
+    },
+    {
+     "type": "ig",
+     "title": "Alpinsport Bohinj IG @alpinsport_bohinj",
+     "url": "https://www.instagram.com/alpinsport_bohinj/"
+    },
+    {
+     "type": "youtube",
+     "title": "Is the Slovenian ski resort Vogel worth a visit?（We Love the Alps）",
+     "url": "https://www.youtube.com/watch?v=z9fLWSdF8Vo"
+    }
+   ]
+  },
+  {
+   "name": "十六湖下湖區冬季健行",
+   "what": "從 1 號入口沿木棧道走下湖區 E1／A 線，看 78 公尺大瀑布和結冰的湖",
+   "price_for2_twd": 730,
+   "duration": "2–3 小時",
+   "booking": "可線上買票；冬季 8:00–15:00、13:00 停止售票",
+   "season_ok": true,
+   "url": "https://np-plitvicka-jezera.hr/en/",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Plitvice%20Lakes%20National%20Park%20Entrance%201",
+   "note": "冬季成人約 €10（第三方網站與 2025/26 資料，2026/27 待確認）；上湖區冬天封閉",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frozen%20by%20Plitvice%20Lakes%20National%20Park.jpg?width=1200",
+    "credit": "2xk（Wikimedia Commons）",
+    "license": "CC BY-SA 4.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Plitvice Lakes National Park IG",
+     "url": "https://www.instagram.com/plitvicelakesnp/"
+    },
+    {
+     "type": "youtube",
+     "title": "【克羅埃西亞 札格雷布】被雪蓋住的國家公園 冬天的十六湖（Wen）",
+     "url": "https://www.youtube.com/watch?v=CMfrWUbh7Fg"
+    }
+   ]
+  },
+  {
+   "name": "盧比安納戶外跨年（四個廣場＋城堡煙火）",
+   "what": "21:00–02:30 免費演唱會，午夜城堡山煙火（天氣好時）",
+   "price_for2_twd": 0,
+   "duration": "約 5 小時",
+   "booking": "免預約",
+   "season_ok": true,
+   "url": "https://www.visitljubljana.com/en/visitors/events/events-in-ljubljana/silvestrovanja-na-prostem",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=Kongresni%20trg%2C%20Ljubljana",
+   "note": "Visit Ljubljana 已公告 2026/27 時間；各廣場卡司 12 月公布",
+   "photo": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ognjemet%20Ljubljana%202013-2014.jpg?width=1200",
+    "credit": "Suzi5p（Suzana Pa…）（Wikimedia Commons）",
+    "license": "CC BY-SA 3.0"
+   },
+   "links": [
+    {
+     "type": "ig",
+     "title": "Visit Ljubljana 官方 IG",
+     "url": "https://www.instagram.com/visitljubljana/"
+    },
+    {
+     "type": "youtube",
+     "title": "New Year's Fireworks from castle Ljubljana Slovenia 25/26（Tomaz Z）",
+     "url": "https://www.youtube.com/watch?v=wtyA9xkMsqM"
+    }
+   ]
+  }
+ ],
+ "budget": {
+  "flights_for2": 63836,
+  "stay_for2": 48537,
+  "food_for2": [
+   23000,
+   36000
+  ],
+  "transport_for2": [
+   13200,
+   21400
+  ],
+  "activities_for2": [
+   15700,
+   17200
+  ],
+  "total_for2": [
+   164273,
+   186973
+  ],
+  "note": "匯率 1 EUR≈36.4、1 USD≈32.62 TWD（11/02）。機票＝華航直飛 31,918×2（Google 航班 11/02）；住宿＝盧比安納 7,965＋10,148、布萊德 13,521、札格雷布三晚 13,395、維也納 3,508（Booking 11/02，含稅費）。吃＝8 天兩人每天約 €80–120（含每晚 1–2 杯酒）。交通＝維也納機場與車站 Railjet、維也納⇄盧比安納／札格雷布火車 €220–360、盧比安納→札格雷布火車、兩段一日租車（US$77＋約 US$25–60）、油錢、過路費與停車。活動＝渥格爾 2 小時雙人私人課 €112＋租具 €56＋雪票約 €90–100、湖心島船＋門票 €64、布萊德城堡 €38、盧比安納城堡 €38、失戀博物館 €14、十六湖 €20–40。未含旅遊保險（申根建議保醫療險）。"
+ },
+ "weather": {
+  "high_c": 4,
+  "low_c": -4,
+  "conditions": "盧比安納白天約 3°C、晚上 −3°C，常起霧；布萊德與渥格爾 2/−5°C、山上更冷且有雪；札格雷布 5/−1°C；十六湖常有積雪結冰（12 月氣候平均）",
+  "sunrise": "07:43",
+  "sunset": "16:24",
+  "wear": "洋蔥式：發熱衣＋毛衣＋防水羽絨外套、毛帽、手套、圍巾；防水防滑靴（十六湖木棧道會結冰）。滑雪課可租雪衣雪褲（€10／天），雪鏡手套自備或現租。跨年夜站 5 小時，貼暖暖包。"
+ },
+ "events": [
+  {
+   "date": "12/31",
+   "name": "盧比安納戶外跨年（四個廣場）＋午夜城堡煙火",
+   "note": "Visit Ljubljana 已公告 2026/27：21:00–02:30、免費；2025 年國會廣場有 Vlado Kreslin 等演出，天氣好時午夜從城堡放煙火",
+   "url": "https://www.visitljubljana.com/en/visitors/events/events-in-ljubljana/silvestrovanja-na-prostem"
+  },
+  {
+   "date": "12 月整月",
+   "name": "盧比安納 Festive December 聖誕燈與市集",
+   "note": "河岸與廣場燈飾、小木屋市集，熱紅酒與香腸；確切收攤日待公告（往年到元旦前後）",
+   "url": "https://www.visitljubljana.com/en/visitors/"
+  },
+  {
+   "date": "11/28–1/7",
+   "name": "札格雷布聖誕市集 Advent u Zagrebu 2026",
+   "note": "市府公告 2026/11/28 開幕、辦到 2027/1/7；主廣場、Zrinjevac、Tomislav 國王廣場、上城都有",
+   "url": "https://www.tportal.hr/vijesti/clanak/tko-ce-sudjelovati-na-adventu-u-zagrebu-raspisan-drugi-krug-natjecaja-20260727"
+  },
+  {
+   "date": "每天 12:00",
+   "name": "札格雷布 Lotrščak 塔正午大砲",
+   "note": "從 1877 年放到現在，1/2 中午排在上城散步時聽",
+   "url": "https://www.infozagreb.hr/"
+  }
+ ],
+ "prep": [
+  {
+   "item": "訂機票：華航 12/28 23:35 桃園→維也納、1/5 11:00 回（每人 31,918，確認票種含托運）",
+   "when": "11/15 前（越接近越貴）",
+   "url": "https://www.google.com/travel/flights?q=Flights%20to%20VIE%20from%20TPE%20on%202026-12-28%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+  },
+  {
+   "item": "辦國際駕照（監理站當天辦，NT$250，帶身分證、駕照、2 吋照片、護照影本）；出國帶台灣駕照正本",
+   "when": "12/20 前",
+   "url": "https://www.thb.gov.tw/News_Download.aspx?n=561&sms=12823"
+  },
+  {
+   "item": "入境：台灣護照申根免簽 90 天，不用辦簽證。ETIAS 歐盟旅行許可還沒開始收（官方說會提前幾個月公告），出發前一個月再看一次；別在非官方網站付錢申請。2026/4/10 起的 EES 入境系統會在維也納機場按指紋拍照，入境多排一點時間",
+   "when": "12/1 前再確認 ETIAS 狀態",
+   "url": "https://travel-europe.europa.eu/etias_en"
+  },
+  {
+   "item": "訂住宿：盧比安納 12/29＋12/31、布萊德 12/30、札格雷布 1/1–1/4、維也納 1/4（跨年夜房間最先沒）",
+   "when": "11/10 前",
+   "url": "https://www.booking.com/searchresults.zh-tw.html?ss=Ljubljana&checkin=2026-12-31&checkout=2027-01-01&group_adults=2&no_rooms=1&selected_currency=TWD"
+  },
+  {
+   "item": "訂火車：維也納→盧比安納（12/29）、盧比安納→札格雷布（1/1）、札格雷布→維也納（1/4）；12/13 新時刻表上線後早鳥票最便宜",
+   "when": "12/13 後馬上訂",
+   "url": "https://www.oebb.at/en/"
+  },
+  {
+   "item": "訂兩段租車（盧比安納 12/30–31、札格雷布 1/3），選自排、免費取消",
+   "when": "11/30 前",
+   "url": "https://www.kayak.com/cars/Ljubljana,Slovenia/2026-12-30-09h/2026-12-31-15h?sort=price_a"
+  },
+  {
+   "item": "email Alpinsport 訂 12/30 10:30 雙人私人滑雪課＋租具（info@alpinsport.si）",
+   "when": "12/10 前",
+   "url": "https://www.alpinsport.si/"
+  },
+  {
+   "item": "訂 12/31 晚餐（Druga violina 或 Šestica）、1/2 Didov san、1/4 Figlmüller",
+   "when": "12/5 前",
+   "url": "https://www.figlmueller.at/"
+  },
+  {
+   "item": "保申根旅遊醫療險（建議保額 3 萬歐元以上）；準備少量歐元現金（手划船只收現金）",
+   "when": "出發前",
+   "url": ""
+  }
+ ],
+ "risks": [
+  "渥格爾雪場 12 月中才看雪況開放，雪不夠可能延後或只開部分雪道；備案是盧比安納旁人工雪多的 Krvavec",
+  "2026/27 各廣場跨年卡司 12 月才公布；煙火看天氣，起霧或大風時可能取消改放禮砲",
+  "12/31、1/1 很多餐廳提早打烊或休息，火車也可能改假日班次，晚餐和車票都要先訂",
+  "十六湖冬天下雪結冰時步道會部分封閉，冬季門票 2026/27 價還沒公告",
+  "12/13 起歐洲火車換新時刻表，文中火車時間是 11 月班表，訂票前一定要重查",
+  "Dolac 市場 2026 年起分階段整修，部分攤位移到旁邊街上",
+  "租車：國際駕照兩國都承認，但租車公司可能另要求駕照滿 1–2 年、主駕名下信用卡；冬季山路與高速公路要冬胎，起霧時能見度很低",
+  "ETIAS 若在出發前突然上線，要先線上申請（官方說會提前幾個月公告）"
+ ],
+ "sketch": {
+  "days": [
+   {
+    "title": "第一天：火車進盧比安納",
+    "icons": [
+     "plane",
+     "train",
+     "lantern",
+     "beer"
+    ],
+    "caption": "河邊燈飾、香腸"
+   },
+   {
+    "title": "第二天：滑雪課＋布萊德",
+    "icons": [
+     "car",
+     "ski",
+     "dessert",
+     "beer"
+    ],
+    "caption": "雪山課、奶油蛋糕"
+   },
+   {
+    "title": "第三天：湖心島跨年",
+    "icons": [
+     "boat",
+     "castle",
+     "fireworks",
+     "beer"
+    ],
+    "caption": "許願鐘、城堡煙火"
+   },
+   {
+    "title": "第四天：到札格雷布",
+    "icons": [
+     "castle",
+     "train",
+     "market",
+     "beer"
+    ],
+    "caption": "聖誕市集逛吃"
+   },
+   {
+    "title": "第五天：上城與失戀館",
+    "icons": [
+     "market",
+     "museum",
+     "dessert",
+     "beer"
+    ],
+    "caption": "紅傘市場、大砲"
+   },
+   {
+    "title": "第六天：十六湖冬景",
+    "icons": [
+     "car",
+     "waterfall",
+     "bbq",
+     "beer"
+    ],
+    "caption": "結冰瀑布、烤羊"
+   },
+   {
+    "title": "第七天：回維也納",
+    "icons": [
+     "train",
+     "lantern",
+     "bbq",
+     "beer"
+    ],
+    "caption": "炸豬排、老酒吧"
+   },
+   {
+    "title": "第八天：飛回台灣",
+    "icons": [
+     "coffee",
+     "train",
+     "plane"
+    ],
+    "caption": "清晨回到家"
+   }
+  ]
+ },
+ "youtube_refs": [
+  {
+   "title": "暴力崛起的歐洲仙境！【克羅埃西亞+斯洛維尼亞】絕對好評推坑自駕全攻略",
+   "channel": "有勃 YoBo",
+   "url": "https://www.youtube.com/watch?v=gMzAlCXlw9s",
+   "takeaway": "兩國自駕的路況、過路費與租車整理（8.4 萬觀看）"
+  },
+  {
+   "title": "【斯洛維尼亞 盧比安納】一天就能逛完的首都？一日遊布萊德湖",
+   "channel": "Wake up Sonya",
+   "url": "https://www.youtube.com/watch?v=LiTFApk_jCo",
+   "takeaway": "盧比安納老城走法與布萊德一日動線"
+  },
+  {
+   "title": "Watch this before snowboarding at Vogel Ski Resort",
+   "channel": "Will and Alex Travel",
+   "url": "https://www.youtube.com/watch?v=DET0CYQSnbc",
+   "takeaway": "渥格爾纜車、停車、初學道在哪"
+  },
+  {
+   "title": "New Year's Fireworks from castle Ljubljana Slovenia 25/26",
+   "channel": "Tomaz Z",
+   "url": "https://www.youtube.com/watch?v=wtyA9xkMsqM",
+   "takeaway": "2025/26 城堡煙火真的有放、從哪看"
+  },
+  {
+   "title": "Advent Zagreb - The Heart of Christmas in Europe",
+   "channel": "Visit Zagreb",
+   "url": "https://www.youtube.com/watch?v=1QzfAjdy-tE",
+   "takeaway": "札格雷布聖誕市集各區氣氛"
+  },
+  {
+   "title": "【克羅埃西亞 札格雷布】被雪蓋住的國家公園 冬天的十六湖",
+   "channel": "Wen",
+   "url": "https://www.youtube.com/watch?v=CMfrWUbh7Fg",
+   "takeaway": "冬天十六湖積雪的樣子與能走的步道"
+  },
+  {
+   "title": "Croatian food tour in Zagreb: CHEESY Štrukli",
+   "channel": "Chasing a Plate - Thomas & Sheena",
+   "url": "https://www.youtube.com/watch?v=Pkkg8rISIb4",
+   "takeaway": "La Štruk 起司烤餅與札格雷布吃什麼（10 萬觀看）"
+  }
+ ],
+ "sources": [
+  "https://www.google.com/travel/flights?q=Flights%20to%20VIE%20from%20TPE%20on%202026-12-28%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+  "https://www.thb.gov.tw/News_Download.aspx?n=561&sms=12823",
+  "https://www.boca.gov.tw/cp-37-220-9f130-1.html",
+  "https://www.visitljubljana.com/en/visitors/events/events-in-ljubljana/silvestrovanja-na-prostem",
+  "https://www.tportal.hr/vijesti/clanak/tko-ce-sudjelovati-na-adventu-u-zagrebu-raspisan-drugi-krug-natjecaja-20260727",
+  "https://vogel.si/en/ski-school-and-rental/",
+  "https://vogel.si/wp-content/uploads/2026/01/Alpinsport_CENIK_ZIMA_2025-26.pdf",
+  "https://www.blejskiotok.si/en/welcome-to-the-island/",
+  "https://www.blejski-grad.si/en/plan-your-visit/price-list/",
+  "https://np-plitvicka-jezera.hr/en/",
+  "https://www.croatiaweek.com/zagreb-dolac-market-temporary-locations-renovation/",
+  "https://www.thetrainline.com/en/train-times/vienna-to-ljubljana",
+  "https://www.thetrainline.com/en/train-times/ljubljana-to-zagreb",
+  "https://www.thetrainline.com/en/train-times/zagreb-to-vienna",
+  "https://www.flixbus.com/bus-routes/bus-zagreb-vienna",
+  "https://www.kayak.com/cars/Ljubljana,Slovenia/2026-12-30-09h/2026-12-31-15h?sort=price_a",
+  "https://www.fuel-prices.eu/vignette/slovenia/",
+  "https://www.europe-consommateurs.eu/en/driving/winter-tyres/",
+  "https://navan.com/blog/when-does-etias-go-into-effect",
+  "https://brokenships.com/",
+  "https://www.booking.com/"
+ ],
+ "checked": "2026-11-02"
+}
