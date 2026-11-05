@@ -16,7 +16,7 @@
   "out": "12/29",
   "back": "1/2",
   "nights": 4,
-  "why": "11/01 Google 航班實查：桃園直飛 12/29→1/2 越捷來回每人 NT$9,610，是所有跨年直飛最便宜的一組（研究-初篩-S 10/31 同價）；4 晚剛好北 2 晚＋南 2 晚，12/31 人在日落小鎮跨年。台中沒有直飛富國島。缺點是回程 08:25 早班。"
+  "why": "11/01 Google 航班實查：桃園直飛 12/29→1/2 越捷來回每人 NT$9,610，是所有跨年直飛最便宜的一組（10/31 同價）；4 晚剛好北 2 晚＋南 2 晚，12/31 人在日落小鎮跨年。台中沒有直飛富國島。缺點是回程 08:25 早班。"
  },
  "flights": [
   {
@@ -30,7 +30,7 @@
    "fits_time_pref": false,
    "within_budget": true,
    "verified": true,
-   "basis": "Google 航班 11/01 實查：直飛篩選，去程 12/29 14:00 越捷 NT$9,610 來回價，點開後回程 1/2 08:25→13:00 同價；與研究-初篩-S（10/31）相同",
+   "basis": "Google 航班 11/01 實查：直飛篩選，去程 12/29 14:00 越捷 NT$9,610 來回價，點開後回程 1/2 08:25→13:00 同價；與（10/31）相同",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PQC%20from%20TPE%20on%202026-12-29%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-11-01"
   },
@@ -60,7 +60,7 @@
    "fits_time_pref": false,
    "within_budget": true,
    "verified": false,
-   "basis": "沿用研究-初篩-S（Google 航班 10/31）：12/28→1/1 每人 NT$12,628；本 session 沒重核（內建瀏覽器查這組日期時被中止）",
+   "basis": "沿用（Google 航班 10/31）：12/28→1/1 每人 NT$12,628；本 session 沒重核（內建瀏覽器查這組日期時被中止）",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PQC%20from%20TPE%20on%202026-12-28%20through%202027-01-01%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-31"
   },
@@ -75,7 +75,7 @@
    "fits_time_pref": false,
    "within_budget": false,
    "verified": false,
-   "basis": "沿用研究-初篩-S（10/31）：星宇 12/30–1/3 只剩 NT$23,365／人，太貴只列參考",
+   "basis": "沿用（10/31）：星宇 12/30–1/3 只剩 NT$23,365／人，太貴只列參考",
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20PQC%20from%20TPE%20on%202026-12-30%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-31"
   }
@@ -1192,7 +1192,7 @@
  "weather": {
   "high_c": 31,
   "low_c": 24,
-  "conditions": "乾季最好的月份：晴天多、少雨、海面平靜，海水約 27–28°C（研究-初篩-S；雨量數字待確認）",
+  "conditions": "乾季最好的月份：晴天多、少雨、海面平靜，海水約 27–28°C（；雨量數字待確認）",
   "sunrise": "06:20",
   "sunset": "17:52",
   "wear": "短袖短褲、泳衣、防曬乳與帽子（中午很曬）、薄長袖（冷氣與晚上海風）；浮潛帶防水手機袋；跨年夜穿好走的涼鞋"
@@ -1362,7 +1362,7 @@
   }
  ],
  "sources": [
-  "/Users/lujiajun/ai-projects/年末旅遊/研究-初篩-S.md",
+  "/Users/lujiajun/ai-projects/年末旅遊/.md",
   "https://commons.wikimedia.org/w/api.php",
   "https://mangobayphuquoc.com/en/best-sunset-spots-in-phu-quoc/",
   "https://mia.vn/cam-nang-du-lich/an-gi-o-an-thoi-20406",

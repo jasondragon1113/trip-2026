@@ -32,7 +32,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20AKL%20from%20TPE%20on%202026-12-29%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-11-01",
-   "basis": "Google 航班 11/01 實查直飛來回（10/31 研究-初篩-L 為 38,123）。去程晚班、回程早上班，不完全符合「去早回晚」，但回程白天飛、傍晚就到家。台中 RMQ 沒有直飛（沿用研究-初篩-L）。主推"
+   "basis": "Google 航班 11/01 實查直飛來回（10/31 為 38,123）。去程晚班、回程早上班，不完全符合「去早回晚」，但回程白天飛、傍晚就到家。台中 RMQ 沒有直飛（沿用）。主推"
   },
   {
    "from": "TPE",
@@ -47,7 +47,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20AKL%20from%20TPE%20on%202026-12-27%20through%202027-01-02%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-31",
-   "basis": "沿用研究-初篩-L（10/31 Google 航班）：備案，想早點回台灣時用；時刻沿用每日班表，待確認"
+   "basis": "沿用（10/31 Google 航班）：備案，想早點回台灣時用；時刻沿用每日班表，待確認"
   },
   {
    "from": "TPE",
@@ -62,7 +62,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20AKL%20from%20TPE%20on%202026-12-29%20through%202027-01-03%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-10-31",
-   "basis": "沿用研究-初篩-L（10/31）：少玩 2 天反而每人貴 1.2 萬，不推"
+   "basis": "沿用（10/31）：少玩 2 天反而每人貴 1.2 萬，不推"
   }
  ],
  "getting_around": {
@@ -1636,7 +1636,7 @@
   {
    "date": "12/31",
    "name": "懷赫科島 Highlife 跨年派對（付費）",
-   "note": "酒莊 DJ 派對，要買票（沿用研究-初篩-L），本行程沒排，想去可以把 12/31 和 1/1 對調",
+   "note": "酒莊 DJ 派對，要買票（沿用），本行程沒排，想去可以把 12/31 和 1/1 對調",
    "url": ""
   },
   {
@@ -1836,7 +1836,7 @@
   "https://www.aucklandnz.com/inspire/where-to-find-aucklands-best-fish-and-chips",
   "https://www.aucklandnz.com/explore/win-win",
   "https://open.er-api.com/v6/latest/NZD",
-  "研究-初篩-L.md"
+  ".md"
  ],
  "checked": "2026-11-01"
 }

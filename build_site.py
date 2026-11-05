@@ -4,6 +4,8 @@
 import json, pathlib, subprocess, hashlib, urllib.request, sys, re
 ROOT = pathlib.Path(__file__).parent
 SITE = ROOT / "docs"; IMG = SITE / "img"; IMG.mkdir(parents=True, exist_ok=True)  # GitHub Pages serves /docs
+# Decided trips: pinned on the hub, not part of the year-end comparison / 已定案行程：首頁置頂，不進跨年比較
+FINAL = {"hokkaido_2027"}
 ORDER = ["ginzan","tokyo","hakodate_aomori","busan","seoul","danang","chiangmai","bangkok_huahin","kyushu","jeju","cebu_bohol","penang","sydney","newyork","phuquoc","hongkong_macau","bali","sapporo","guam","singapore","palau","auckland","melbourne","vancouver_whistler","slovenia_croatia"]
 TPL = (ROOT / "roadbook-template.html").read_text(encoding="utf-8")
 HEAD = "<!doctype html><html lang=\"zh-Hant\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\"><style>body{margin:0}</style></head><body>"
@@ -81,14 +83,16 @@ for pid, (nm, ct, mo, tg) in NAMES.items():
         subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "78", "-Z", "1400", str(cover), "--out", str(tgt)], check=True, capture_output=True); cv = f"img/{tgt.name}"
     built.append({"id": pid, "name": nm, "country": ct, "motif": mo, "tagline": tg, "placeholder": True, "cover": cv, "palette": {"primary": "#B8A58F", "secondary": "#E8DCC8"}})
 built.sort(key=lambda d: ORDER.index(d["id"]) if d["id"] in ORDER else 99)
-json.dump([{k: d.get(k) for k in ("id","name","subtitle","country","flag","motif","palette","tagline","summary","dates","budget","cover","getting_around")} | {"min_flight": min([f.get("price_pp_twd") for f in d.get("flights", []) if f.get("price_pp_twd") and is_direct(f)] or [10**9]), "rmq": RMQ.get(d["id"]), "n_days": len(d.get("days", [])), "challenges": [c["name"] for c in d.get("challenges", [])][:3], "foods": [x["name"] for x in d.get("food", [])][:3]} for d in built], open(SITE / "plans.json", "w", encoding="utf-8"), ensure_ascii=False)
+json.dump([{k: d.get(k) for k in ("id","name","subtitle","country","flag","motif","palette","tagline","summary","dates","budget","cover","getting_around")} | {"min_flight": min([f.get("price_pp_twd") for f in d.get("flights", []) if f.get("price_pp_twd") and is_direct(f)] or [10**9]), "rmq": RMQ.get(d["id"]), "n_days": len(d.get("days", [])), "challenges": [c["name"] for c in d.get("challenges", [])][:3], "foods": [x["name"] for x in d.get("food", [])][:3]} for d in built if d["id"] not in FINAL], open(SITE / "plans.json", "w", encoding="utf-8"), ensure_ascii=False)
 plans = json.load(open(SITE / "plans.json", encoding="utf-8"))
 for p in plans:
     src = next((d for d in built if d["id"] == p["id"]), {})
     if src.get("placeholder"): p["placeholder"] = True
 hub = (ROOT / "hub-template.html").read_text(encoding="utf-8")
 hub_checked = max([d.get("checked","") for d in built if not d.get("placeholder")] or [""])
-(SITE / "index.html").write_text(HEAD + hub.replace("__DATA__", json.dumps({"checked": hub_checked, "plans": plans}, ensure_ascii=False).replace("</", "<\\/")) + TAIL, encoding="utf-8")
+final = next((d for d in built if d["id"] in FINAL), None)
+final_html = "" if not final else f'<a class="final" href="{final["id"]}.html"><img src="{final.get("cover","")}" alt="" loading="lazy"><div><span class="tag">我們決定了</span><h2>{final["name"]}　{final["dates"]["out"]}–{final["dates"]["back"]}</h2><p>{final.get("tagline","")}</p><b>打開手帳 →</b></div></a>'
+(SITE / "index.html").write_text(HEAD + hub.replace("__FINAL__", final_html).replace("__DATA__", json.dumps({"checked": hub_checked, "plans": plans}, ensure_ascii=False).replace("</", "<\\/")) + TAIL, encoding="utf-8")
 # first-round comparison page, with a back link
 # 第一輪比價表，加回首頁連結
 # Comparison page built from the same 12 data files / 比價表直接從 12 本手帳資料產生
@@ -98,7 +102,7 @@ def md(s):
     if not m: return None
     mo, dy = int(m.group(1)), int(m.group(2)); return (2027 if mo == 1 else 2026, mo, dy)
 rows = []
-for i, d in enumerate([x for x in built if not x.get("placeholder")]):
+for i, d in enumerate([x for x in built if not x.get("placeholder") and x["id"] not in FINAL]):
     fl = d.get("flights", [])
     tpe = [f for f in fl if f.get("from") == "TPE" and f.get("price_pp_twd") and is_direct(f)]
     tpe_v = [f for f in tpe if f.get("verified")] or tpe

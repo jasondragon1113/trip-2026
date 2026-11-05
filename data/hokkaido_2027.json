@@ -1,0 +1,2132 @@
+{
+  "id": "hokkaido_2027",
+  "name": "北海道",
+  "subtitle": "富良野滑雪＋札幌逛街自駕",
+  "country": "日本",
+  "flag": "JP",
+  "motif": "snow",
+  "palette": {
+    "primary": "#3A8FD6",
+    "secondary": "#F4934A",
+    "soft": "#EAF5FD"
+  },
+  "tagline": "雪地開車、滑雪，再逛回札幌",
+  "summary": "3/11 台中直飛新千歲，開車進富良野和朋友滑雪，隔天順路去美瑛看雪。3/14 開到旭川看企鵝吃拉麵，當天回札幌還車，最後兩天把札幌逛到飽。",
+  "dates": {
+    "out": "3/11",
+    "back": "3/16",
+    "nights": 5,
+    "why": "星宇台中直飛 3/11 早上去、3/16 下午回，不用跑桃園。3 月中雪場還是一般季，夜滑也還有；3/14 剛好趕上旭山企鵝散步和札幌白色燈節最後一天。札幌週日週一的飯店兩晚只要四千多。"
+  },
+  "flights": [
+    {
+      "from": "RMQ",
+      "to": "CTS",
+      "airline": "星宇航空 JX318（主推，台中直飛）",
+      "out": "3/11（四）10:20→15:00",
+      "back": "3/16（二）16:00→19:55",
+      "price_pp_twd": 24321,
+      "baggage": "手提 1 件 7 公斤。星宇官網短程線經濟艙最低一級也含 1 件 23 公斤；Google 航班這張票卻顯示第 1 件要付費，訂票時看清楚票種再付款",
+      "fits_time_pref": true,
+      "within_budget": false,
+      "verified": true,
+      "source": "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20RMQ%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+      "checked": "2026-11-06",
+      "basis": "Google 航班 11/6 重查：來回 24,321，官網同價；Gotogate 25,063",
+      "note": "價格落在這條航線的一般區間（21,000–37,500）"
+    },
+    {
+      "from": "TPE",
+      "to": "CTS",
+      "airline": "中華航空（桃園，回程晚）",
+      "out": "3/11（四）08:35→13:20",
+      "back": "3/16（二）14:40→18:15",
+      "price_pp_twd": 24238,
+      "baggage": "傳統航空含托運（件數看票種，訂票時確認）",
+      "fits_time_pref": true,
+      "within_budget": false,
+      "verified": true,
+      "source": "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20TPE%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+      "checked": "2026-11-06",
+      "basis": "Google 航班 11/6 重查：去程 08:35，回程 14:40 來回 24,238（日航共掛）",
+      "note": "早 1 小時 40 分落地、回程也早 1 小時 20 分；要多跑桃園"
+    },
+    {
+      "from": "TPE",
+      "to": "CTS",
+      "airline": "中華航空（桃園，回程早）",
+      "out": "3/11（四）08:35→13:20",
+      "back": "3/16（二）10:40→14:15",
+      "price_pp_twd": 21181,
+      "baggage": "傳統航空含托運（件數看票種，訂票時確認）",
+      "fits_time_pref": false,
+      "within_budget": false,
+      "verified": true,
+      "source": "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20TPE%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+      "checked": "2026-11-06",
+      "basis": "Google 航班 11/6 重查：回程 10:40 來回 21,181",
+      "note": "每人省 3,140，但 3/16 早上 7:30 就要從札幌出發，不能再逛"
+    },
+    {
+      "from": "TPE",
+      "to": "CTS",
+      "airline": "長榮航空（桃園）",
+      "out": "3/11（四）06:15→11:00",
+      "back": "回程未核",
+      "price_pp_twd": 26842,
+      "baggage": "含托運（依票種）",
+      "fits_time_pref": false,
+      "within_budget": false,
+      "verified": true,
+      "source": "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20TPE%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+      "checked": "2026-11-06",
+      "basis": "Google 航班 11/6 重查：起價 26,842（下午查比早上多 11）",
+      "note": "落地最早，回程要另選；票價最高"
+    }
+  ],
+  "getting_around": {
+    "mode": "自駕",
+    "license": "台灣駕照正本＋日文譯本＋護照，三樣一起帶。譯本到任何監理站臨櫃辦，規費 NT$100，約 1 小時拿到；也可監理服務網線上申請（多 28 元郵資、約 4–12 個工作天）。入境日本起一年內有效。國際駕照在日本不能用。",
+    "rental": {
+      "company": "ニッポンレンタカー（新千歲空港取、札幌駅前還）",
+      "car": "標準級（Fit、Corolla 級），北海道冬季四驅與雪胎都是標配",
+      "days": 3,
+      "price_total_twd": 10025,
+      "insurance": "全額補償方案約 ¥2,200／日：免自負額、免營業損失費（否則事故要付 NOC ¥20,000／¥50,000）",
+      "pickup": "新千歲空港（櫃台報到＋接駁）→ 札幌駅前營業所",
+      "source": "https://www.nipponrentacar.co.jp/zh-CHT/car_price/joyo.html",
+      "note": "試算：¥27,610（24 小時 10,450＋兩天 8,580×2）＋多 2 小時 ¥2,860＋冬季費 ¥660×4＋全額補償 ¥2,200×4＋異地還車 ¥5,500＋ETC 卡 ¥330＝¥47,740，約 NT$10,025。官網公開價，網路訂常有折扣，實際看訂房頁。對照：Toyota 同級（Aqua／Yaris HEV）¥29,282＋四驅 ¥1,650／日＋安心方案 ¥1,650／日＋異地 ¥4,730＋ETC ¥550，約 ¥50,900；ORIX SA 級 ¥25,740＋四驅 ¥1,650／日＋補償 ¥1,760／日＋異地 ¥5,500 起，約 ¥47,000。Toyota 札幌站前店全年 8:00–20:00、Nippon 札幌駅前週日 7:00–21:00，ORIX 札幌店時間待確認；三家週日傍晚 5 點多還車都來得及。異地還車費：千歲⇄札幌 Nippon ¥5,500、Toyota ¥4,730，ORIX 從 ¥5,500 起。想要小休旅（Yaris Cross、Raize）Nippon C-X 約 ¥58,700。"
+    },
+    "road_notes": [
+      "路線一：千歲東 IC→占冠 IC 64 公里、55 分、ETC ¥1,900；國道 237 占冠→富良野約 60 公里、1 小時。金山峠下大雪偶爾夜間封路（2024/2、2021/3 都有紀錄），出發前看北海道道路情報。",
+      "路線二：富良野→旭山動物園約 70 公里、1 小時 20 分（都是一般道路，不收費），途中經美瑛。",
+      "路線三：旭川鷹栖 IC→札幌北 IC 132.9 公里、1 小時 26 分、ETC ¥3,800；札幌北 IC 到市區還車再 20 分。",
+      "3 月白天融雪、傍晚結冰：下午 4 點後橋面、彎道、陰影處最滑；路面看起來只是濕濕黑黑就當成冰，北海道官方說凍結路面比夏天滑約 10 倍。",
+      "日落：富良野約 17:30、札幌約 17:38（3/11–3/16）。第一天會開 1 小時夜路，其他天都排在天黑前。",
+      "靠左開，時速寫 60 就開 50；跟車距離拉長兩倍，不要急煞急打方向。",
+      "HEP 不用買：4 日方案普通車 ¥7,700，這趟只上高速兩次共 ¥5,700，還是直接付過路費划算。ETC 卡 ¥330（Toyota ¥550）。",
+      "日本酒駕罰很重，同車與提供酒的人也會被罰；喝了就不開，每晚走路或叫計程車。",
+      "加油：滿油還車，全程約 470 公里、油錢約 ¥5,400；富良野、札幌都有自助站，Regular 選紅色槍。"
+    ],
+    "public": [
+      "3/15–3/16 不開車：札幌市區走地下街、地鐵單程 ¥210 起，手機 Suica 全程能刷。",
+      "札幌→新千歲：JR 快速エアポート 37–40 分、¥1,230／人，每小時 5–6 班。",
+      "3/13 晚：Natulux 到新富良野王子計程車約 ¥2,000，酒吧回程請店家叫車。",
+      "沒開車的備案：新千歲到富良野有直達巴士ゴリライナーふらの（約 1 小時 53 分、¥5,000／人，2026/8 新開）。"
+    ]
+  },
+  "stays": [
+    {
+      "name": "富良野 Natulux 飯店（主推）",
+      "area": "富良野市區，車站旁",
+      "nights": 3,
+      "price_night_for2_twd": 3747,
+      "availability": "有空房",
+      "url": "https://www.booking.com/hotel/jp/furano-natulux.zh-tw.html?checkin=2027-03-11&checkout=2027-03-14&group_adults=2&no_rooms=1&selected_currency=TWD",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Natulux%20Hotel%20Furano%20%E6%97%AD%E7%94%BA1-35",
+      "why": "Booking 11/6 實查 3/11–3/14 三晚 TWD 11,242（經濟雙人房，評分 8.2、1,700 則）。走路到くまげら、唯我独尊、TEIRYUJO、Bar Kemuri，晚上喝酒不用開車；免費戶外停車 30 格（住客先到先停）。雪場開車 12 分。",
+      "photo": null,
+      "links": [
+        {
+          "type": "official",
+          "title": "Booking：Natulux Furano",
+          "url": "https://www.booking.com/hotel/jp/furano-natulux.zh-tw.html"
+        }
+      ],
+      "note": "Booking 顯示價可能另加住宿稅"
+    },
+    {
+      "name": "栞-shiori-FURANO（評分最高）",
+      "area": "富良野市區 榮町",
+      "nights": 3,
+      "price_night_for2_twd": 4074,
+      "availability": "有空房",
+      "url": "https://www.booking.com/hotel/jp/kan-shiori-furano.zh-tw.html?checkin=2027-03-11&checkout=2027-03-14&group_adults=2&no_rooms=1&selected_currency=TWD",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A0%9E%20shiori%20FURANO%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E6%A0%84%E7%94%BA1-15",
+      "why": "Booking 11/6 三晚 TWD 12,222（雙床房附私人衛浴，評分 9.4、234 則）。比主推貴不到 1,000，評分高很多；停車與房型細節訂前再看。",
+      "photo": null,
+      "links": [
+        {
+          "type": "official",
+          "title": "Booking：栞 shiori FURANO",
+          "url": "https://www.booking.com/hotel/jp/kan-shiori-furano.zh-tw.html"
+        }
+      ],
+      "note": "停車條件待確認"
+    },
+    {
+      "name": "新富良野王子飯店（雪場旁）",
+      "area": "富良野區 山腳",
+      "nights": 3,
+      "price_night_for2_twd": 7487,
+      "availability": "有空房",
+      "url": "https://www.booking.com/hotel/jp/shin-furano-prince.zh-tw.html?checkin=2027-03-11&checkout=2027-03-14&group_adults=2&no_rooms=1&selected_currency=TWD",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%AF%8C%E8%89%AF%E9%87%8E%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E4%B8%AD%E5%BE%A1%E6%96%99",
+      "why": "Booking 11/6 三晚 TWD 22,461（標準雙床）；有 17,412 的可吸菸雙床。出門就是雪場、精靈露台、溫泉；但市區餐廳和酒吧要叫計程車。",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%96%B0%E5%AF%8C%E8%89%AF%E9%87%8E%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB_%E9%A2%A8%E3%81%AE%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%EF%BC%88New_Furano_Prince_Hotel_Garden_of_the_Wind%EF%BC%89_-_panoramio.jpg?width=1200",
+        "credit": "t-konno（Wikimedia Commons）",
+        "license": "CC BY-SA 3.0"
+      },
+      "links": [
+        {
+          "type": "official",
+          "title": "Booking：新富良野王子",
+          "url": "https://www.booking.com/hotel/jp/shin-furano-prince.zh-tw.html"
+        },
+        {
+          "type": "youtube",
+          "title": "新富良野王子開箱",
+          "url": "https://www.youtube.com/watch?v=xbGOAI6VCD8"
+        }
+      ],
+      "note": "想滑到最晚、不想每天開車時才值得多花 1 萬"
+    },
+    {
+      "name": "富良野王子飯店",
+      "area": "北之峰區",
+      "nights": 3,
+      "price_night_for2_twd": null,
+      "availability": "未知",
+      "url": "https://www.princehotels.co.jp/",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E5%8C%97%E3%81%AE%E5%B3%B0%E7%94%BA18-6",
+      "why": "Booking 11/6 搜不到這間的房價，官網與 Kayak 舊資料也沒有 3/11 的價格；要訂就直接打電話 0167-23-4111 問有沒有營業、3/11 有沒有房。",
+      "photo": null,
+      "links": [
+        {
+          "type": "blog",
+          "title": "Furano Prince 舊資料（Powderhounds）",
+          "url": "https://www.powderhounds.com/Japan/Hokkaido/Furano/Accommodation/Furano-Prince-Hotel.aspx"
+        }
+      ],
+      "note": "待確認"
+    },
+    {
+      "name": "Sotetsu Fresa Inn 札幌薄野（主推）",
+      "area": "薄野 南 5 條西 2",
+      "nights": 2,
+      "price_night_for2_twd": 2121,
+      "availability": "有空房",
+      "url": "https://www.booking.com/hotel/jp/sotetsu-fresa-inn-sapporo-susukino.zh-tw.html?checkin=2027-03-14&checkout=2027-03-16&group_adults=2&no_rooms=1&selected_currency=TWD",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%9B%B8%E9%89%84%E3%83%95%E3%83%AC%E3%83%83%E3%82%B5%E3%82%A4%E3%83%B3%E6%9C%AD%E5%B9%8C%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%975%E6%9D%A1%E8%A5%BF2%E4%B8%81%E7%9B%AE6-1",
+      "why": "Booking 11/6 實查 3/14–3/16 兩晚 TWD 4,242（標準雙床、評分 8.7、2,579 則，地點評分 9.2）。達摩、TRICK、拉麵橫丁都在 5 分內。",
+      "photo": null,
+      "links": [
+        {
+          "type": "official",
+          "title": "Booking：Sotetsu Fresa Inn 札幌薄野",
+          "url": "https://www.booking.com/hotel/jp/sotetsu-fresa-inn-sapporo-susukino.zh-tw.html"
+        }
+      ],
+      "note": "3 月平日很便宜，同區還有 Comfort Hotel 札幌薄野 3,848（8.7）"
+    },
+    {
+      "name": "Randor Hotel Sapporo Heritage（升級版）",
+      "area": "南 7 條西 4",
+      "nights": 2,
+      "price_night_for2_twd": 2886,
+      "availability": "有空房",
+      "url": "https://www.booking.com/hotel/jp/randohoteruzha-huang-heritezi.zh-tw.html?checkin=2027-03-14&checkout=2027-03-16&group_adults=2&no_rooms=1&selected_currency=TWD",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Randor%20Hotel%20Sapporo%20Heritage%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%977%E6%9D%A1%E8%A5%BF4%E4%B8%81%E7%9B%AE",
+      "why": "Booking 11/6 兩晚 TWD 5,771（標準房，9.2、358 則），另有經濟雙人房 3,984。多 1,500 換更新的房間，稍遠一點但還在薄野。",
+      "photo": null,
+      "links": [
+        {
+          "type": "official",
+          "title": "Booking：Randor Hotel Sapporo Heritage",
+          "url": "https://www.booking.com/hotel/jp/randohoteruzha-huang-heritezi.zh-tw.html"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "3/11",
+      "weekday": "四",
+      "title": "落地開往富良野",
+      "area": "台中→新千歲→富良野",
+      "drive_km": 130,
+      "drive_time": "約 2 小時 15 分（雪天再加 30 分）",
+      "summary": "中午飛、下午到，取車走道東道和國道 237 到富良野，晚上吃飯喝一杯。",
+      "stops": [
+        {
+          "time": "08:20",
+          "name": "台中機場報到（星宇 10:20 起飛）",
+          "kind": "transport",
+          "stay_min": 120,
+          "desc": "星宇台中直飛新千歲 JX318，10:20 起飛、當地 15:00 落地，飛約 3 小時 40 分。雪衣和羽絨外套放隨身，下飛機直接穿。",
+          "price_for2_twd": 48642,
+          "booking": "需預約",
+          "booking_url": "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20RMQ%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%20Taichung%20International%20Airport",
+          "site_url": "https://www.starlux-airlines.com/zh-TW",
+          "address": "台中市沙鹿區中航路一段 168 號",
+          "tip": "每人 24,321（11/6 核價），兩人 48,642",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Starlux_Airlines_Airbus_A321neo_B-58205_at_Taoyuan_February_2026.jpg?width=1200",
+            "credit": "4300streetcar（Wikimedia Commons）",
+            "license": "CC BY 4.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "星宇航空 票價與行李說明",
+              "url": "https://www.starlux-airlines.com/zh-TW/booking/product/fare-product"
+            },
+            {
+              "type": "official",
+              "title": "Google 航班：3/11–3/16 台中直飛",
+              "url": "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20RMQ%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "name": "新千歲機場入境",
+          "kind": "transport",
+          "stay_min": 50,
+          "desc": "入境、領行李、海關約 45–60 分。國際線在機場南側，出關後找租車櫃台。",
+          "price_for2_twd": null,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB",
+          "site_url": "https://www.new-chitose-airport.jp/",
+          "address": "千歲市美美 新千歳空港 国際線旅客ターミナルビル",
+          "tip": "這時候手機開網路，把富良野飯店打進導航",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/New_Chitose_Airport_International_terminal_20190703.jpg?width=1200",
+            "credit": "耕太郎 on Wikitravel（Wikimedia Commons）",
+            "license": "CC BY-SA 3.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "新千歲機場 官網",
+              "url": "https://www.new-chitose-airport.jp/"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "name": "取車：ニッポンレンタカー 新千歲空港",
+          "kind": "transport",
+          "stay_min": 30,
+          "desc": "在機場櫃台報到，坐接駁車到營業所取車。冬季都是雪胎，四驅也是標配。確認 ETC 有插卡、雨刷是雪用雨刷、車尾有防滑鏟。",
+          "price_for2_twd": 10025,
+          "booking": "需預約",
+          "booking_url": "https://www.nipponrentacar.co.jp/zh-CHT/car_price/joyo.html",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC%20%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%E5%96%B6%E6%A5%AD%E6%89%80%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%8D%83%E6%AD%B3%E5%B8%82%E7%BE%8E%E3%80%85758-136",
+          "site_url": "https://www.nipponrentacar.co.jp/shop/area/hokkaido/chitoseair.html",
+          "address": "北海道千歲市美美 758-136",
+          "tip": "帶駕照正本、日文譯本、護照。16:00 是最快狀況，預約寫 16:30 更從容",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokkaido_Expressway_Chitose_Interchange.jpg?width=1200",
+            "credit": "Yasu (talk)（Wikimedia Commons）",
+            "license": "CC BY-SA 3.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "Nippon 異地還車費",
+              "url": "https://www.nipponrentacar.co.jp/en/service/oneway.html"
+            },
+            {
+              "type": "official",
+              "title": "Nippon 車種與基本價",
+              "url": "https://www.nipponrentacar.co.jp/zh-CHT/car_price/joyo.html"
+            }
+          ]
+        },
+        {
+          "time": "16:30",
+          "name": "開車：道東道＋國道 237 到富良野",
+          "kind": "transport",
+          "stay_min": 135,
+          "desc": "千歲東 IC 上道東道，占冠 IC 下（64 公里、55 分、ETC ¥1,900），接國道 237 北上經金山峠，下午 5 點半天黑後進富良野。約 18:30 到。",
+          "price_for2_twd": 399,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%A0%E5%86%A0IC%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%8B%87%E6%89%95%E9%83%A1%E5%8D%A0%E5%86%A0%E6%9D%91",
+          "site_url": "https://www.driveplaza.com/dp/SearchQuick?startPlaceKana=%E5%8D%83%E6%AD%B3%E6%9D%B1&arrivePlaceKana=%E5%8D%A0%E5%86%A0&searchHour=10&searchMinute=0&kind=1&carType=1&priority=2",
+          "address": "道東自動車道 千歳東 IC → 占冠 IC → 國道 237",
+          "tip": "第一段在由仁 PA 上廁所；山路入夜路面會再結冰，速度壓在 50 以內",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Doto_Expressway-tomamu%2Cshimukappu-village%2Chokkaido%2Cjapan.JPG?width=1200",
+            "credit": "katorisi（Wikimedia Commons）",
+            "license": "CC BY-SA 3.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "ドラぷら：千歲東→占冠 過路費",
+              "url": "https://www.driveplaza.com/dp/SearchQuick?startPlaceKana=%E5%8D%83%E6%AD%B3%E6%9D%B1&arrivePlaceKana=%E5%8D%A0%E5%86%A0&searchHour=10&searchMinute=0&kind=1&carType=1&priority=2"
+            },
+            {
+              "type": "youtube",
+              "title": "雪地自駕富良野美瑛兩天一夜（深日本旅）",
+              "url": "https://www.youtube.com/watch?v=C4ZQyeCGKFE"
+            }
+          ]
+        },
+        {
+          "time": "18:45",
+          "name": "くまげら（晚餐）",
+          "kind": "food",
+          "stay_min": 90,
+          "desc": "富良野車站走 3 分的鄉土料理名店，官方 IG 寫 11:30–21:30。招牌和牛烤牛肉丼 ¥2,200、鹿肉鴨肉山賊鍋 2 人份 ¥3,600；車放飯店走路去。",
+          "price_for2_twd": 1470,
+          "booking": "建議預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%81%BE%E3%81%92%E3%82%89%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E6%97%A5%E3%81%AE%E5%87%BA%E7%94%BA3-22",
+          "site_url": "https://www.instagram.com/kumagerafurano/",
+          "address": "北海道富良野市日出町 3-22",
+          "tip": "前一晚 21:00 前可線上訂位；有資料寫週三休，3/11 週四照開",
+          "photo": null,
+          "links": [
+            {
+              "type": "ig",
+              "title": "くまげら 官方 IG @kumagerafurano",
+              "url": "https://www.instagram.com/kumagerafurano/"
+            },
+            {
+              "type": "blog",
+              "title": "くまげら 店家資料（るるぶ）",
+              "url": "https://rurubu.jp/andmore/spot/80001206"
+            }
+          ]
+        },
+        {
+          "time": "20:45",
+          "name": "TEIRYUJO FURANO MUSIC & BAR",
+          "kind": "bar",
+          "stay_min": 90,
+          "desc": "富良野車站走路 5 分的音樂酒吧，有 DJ 台，下酒小菜多，還有人氣油拌麵。第一晚近飯店最省力。",
+          "price_for2_twd": 1050,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=TEIRYUJO%20FURANO%20MUSIC%20%26%20BAR%20%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82",
+          "site_url": "https://www.instagram.com/teiryujo_music.bar/",
+          "address": "富良野車站步行約 5 分",
+          "tip": "IG 寫 17:00–24:00、不定休，當天早上先看 IG 有沒有開；休息就改 FURANO BAR（本町）",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JRH_Furano_Station_20100908.jpg?width=1200",
+            "credit": "掬茶（Wikimedia Commons）",
+            "license": "CC BY-SA 3.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "TEIRYUJO 官方 IG @teiryujo_music.bar",
+              "url": "https://www.instagram.com/teiryujo_music.bar/"
+            },
+            {
+              "type": "official",
+              "title": "FURANO BAR（備案）",
+              "url": "https://furanobokujo.com/bar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "3/12",
+      "weekday": "五",
+      "title": "和朋友一起滑",
+      "area": "富良野滑雪場（北之峰／富良野區）",
+      "drive_km": 15,
+      "drive_time": "飯店到雪場約 12 分",
+      "summary": "和朋友一起滑一整天；3/12 是平日，夜滑到 18:00，買一日券就含。",
+      "stops": [
+        {
+          "time": "08:15",
+          "name": "Sportpia 租雪具與雪衣",
+          "kind": "activity",
+          "stay_min": 40,
+          "desc": "在北之峰纜車站或新富良野王子一樓租。雪板＋鞋＋雪衣褲＋安全帽一天 ¥15,000／人；再加手套雪鏡 ¥19,000／人。",
+          "price_for2_twd": 6300,
+          "booking": "建議預約",
+          "booking_url": "https://www.spfurano.com/en/rentalski.html",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=Sportpia%20Furano%20%E5%8C%97%E3%81%AE%E5%B3%B0%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%20%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
+          "site_url": "https://www.spfurano.com/en/rentalski.html",
+          "address": "富良野スキー場 北の峰ターミナル 1F",
+          "tip": "先網路訂比較不用排；手套和雪鏡自備可省 ¥4,000／人",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furano_Snow_Resort_view2.JPG?width=1200",
+            "credit": "wakimasa（Wikimedia Commons）",
+            "license": "Public domain"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "Sportpia 2026–27 租借價目",
+              "url": "https://www.spfurano.com/en/rentalski.html"
+            }
+          ]
+        },
+        {
+          "time": "09:15",
+          "name": "富良野滑雪場一日滑行",
+          "kind": "challenge",
+          "stay_min": 170,
+          "desc": "北之峰區坡度舒服，富良野區有纜車看十勝岳。成人一日券 ¥9,000，3/22 前都是這個價（3/23 起春季價 ¥7,500），可用到夜滑結束。",
+          "price_for2_twd": 3780,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%20%E5%8C%97%E3%81%AE%E5%B3%B0%E3%82%BE%E3%83%BC%E3%83%B3%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E5%8C%97%E3%81%AE%E5%B3%B0%E7%94%BA",
+          "site_url": "https://www.princehotels.com/en/ski/furano/index.html",
+          "address": "北海道富良野市北之峰町 / 中御料",
+          "tip": "完全新手可排 FSS 初學課：2 小時 ¥13,000／人（10 歲以上）；當天沒下雪就看雪場即時開放資訊",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furano_Snow_Resort_view1.JPG?width=1200",
+            "credit": "wakimasa（Wikimedia Commons）",
+            "license": "Public domain"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "富良野滑雪場 官方 IG @furanoski_official",
+              "url": "https://www.instagram.com/furanoski_official/"
+            },
+            {
+              "type": "official",
+              "title": "雪場官網：票價與纜車",
+              "url": "https://www.princehotels.com/en/ski/furano/index.html"
+            },
+            {
+              "type": "youtube",
+              "title": "第一次滑雪就愛上：新富良野王子與富良野雪場",
+              "url": "https://www.youtube.com/watch?v=xbGOAI6VCD8"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "name": "Furano Curry Jam 北之峰店（午餐）",
+          "kind": "food",
+          "stay_min": 60,
+          "desc": "北之峰纜車站 1 樓，富良野名店 Curry Jam 的分店，午餐吃一盤就回去滑。富良野區那側也有北海道富川拉麵。",
+          "price_for2_twd": 672,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=Furano%20Curry%20Jam%20%E5%8C%97%E3%81%AE%E5%B3%B0%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%20%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
+          "site_url": "https://www.instagram.com/furano_curry_jam/",
+          "address": "富良野スキー場 北の峰ゴンドラ山麓站 1F",
+          "tip": "午餐尖峰 12:00–12:30 最擠，11:30 去最快；3 月營業細節看雪場公告",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_vegetable_soup_curry_%282813142985%29.jpg?width=1200",
+            "credit": "pelican from Tokyo, Japan（Wikimedia Commons）",
+            "license": "CC BY-SA 2.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "Furano Curry Jam 官方 IG @furano_curry_jam",
+              "url": "https://www.instagram.com/furano_curry_jam/"
+            },
+            {
+              "type": "official",
+              "title": "雪場餐廳列表",
+              "url": "https://www.princehotels.com/en/ski/furano/index.html"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "name": "夜滑（可選）16:00–18:00",
+          "kind": "activity",
+          "stay_min": 120,
+          "desc": "3/12 是週五（平日），官方夜滑 16:00–18:00。一日券已包含，只滑夜場要 ¥3,100／人。夜滑到 3/21 都有。",
+          "price_for2_twd": 0,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%20%E5%8C%97%E3%81%AE%E5%B3%B0%E3%82%BE%E3%83%BC%E3%83%B3",
+          "site_url": "https://www.princehotels.com/en/ski/furano/index.html",
+          "address": "富良野スキー場",
+          "tip": "累了就 15:30 收工泡湯；天氣差或人少時段可能縮短，當天看纜車公告",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furano_Snow_Resort_view3.JPG?width=1200",
+            "credit": "wakimasa（Wikimedia Commons）",
+            "license": "Public domain"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "雪場官網：夜滑時間",
+              "url": "https://www.princehotels.com/en/ski/furano/index.html"
+            },
+            {
+              "type": "official",
+              "title": "WAmazing 夜滑到 3/21",
+              "url": "https://www.wamazing.com/snow/resorts/furano"
+            }
+          ]
+        },
+        {
+          "time": "18:45",
+          "name": "カレーのふらのや（湯咖哩晚餐）",
+          "kind": "food",
+          "stay_min": 75,
+          "desc": "富良野當地人第一個推的湯咖哩，木屋裡吃，蔬菜都是在地的；11:30–21:00、不定休，開門前就常排。",
+          "price_for2_twd": 714,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%AE%E3%81%B5%E3%82%89%E3%81%AE%E3%82%84%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E5%BC%A5%E7%94%9F%E7%94%BA1-46",
+          "site_url": "https://r.gnavi.co.jp/hhebxtzh0000/",
+          "address": "北海道富良野市彌生町 1-46",
+          "tip": "飯店走過去約 15 分；雪天或累了就搭計程車",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_soup_curry_dish_in_Sapporo_-_Flickr_-_odako1.jpg?width=1200",
+            "credit": "Koichi Oda（Wikimedia Commons）",
+            "license": "CC BY-SA 2.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "#カレーのふらのや（IG 標籤頁）",
+              "url": "https://www.instagram.com/explore/tags/%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%AE%E3%81%B5%E3%82%89%E3%81%AE%E3%82%84/"
+            },
+            {
+              "type": "official",
+              "title": "ぐるなび 店家資料",
+              "url": "https://r.gnavi.co.jp/hhebxtzh0000/"
+            },
+            {
+              "type": "blog",
+              "title": "ふらのや 整理文",
+              "url": "https://johnny88.jp/furanoya-curry/"
+            }
+          ]
+        },
+        {
+          "time": "20:45",
+          "name": "Bar Kemuri 煙（威士忌酒吧）",
+          "kind": "bar",
+          "stay_min": 90,
+          "desc": "富良野料飲店組合有登錄的安靜酒吧，KODAMAYA 大樓 2 樓，以威士忌為主，23 席；官方列 19:00–24:00、不定休。",
+          "price_for2_twd": 840,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=Bar%20Kemuri%20%E7%85%99%20%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82",
+          "site_url": "https://www.instagram.com/bar_kemuri/",
+          "address": "富良野市 コダマヤビル 2F",
+          "tip": "不定休，先看 IG；同棟都是小酒館，走路回飯店",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kokura_20180101_213836.jpg?width=1200",
+            "credit": "Ka23 13（Wikimedia Commons）",
+            "license": "CC BY-SA 4.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "Bar Kemuri 官方 IG @bar_kemuri",
+              "url": "https://www.instagram.com/bar_kemuri/"
+            },
+            {
+              "type": "official",
+              "title": "富良野料飲店組合 店家頁",
+              "url": "https://furano-ryointen.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "3/13",
+      "weekday": "六",
+      "title": "美瑛雪景半日",
+      "area": "美瑛→富良野",
+      "drive_km": 110,
+      "drive_time": "全日約 2.5 小時",
+      "summary": "白天看瀑布、青池、丘陵樹；傍晚回富良野吃咖哩，走精靈露台進老木屋酒吧。想再滑就整天改回雪場。",
+      "stops": [
+        {
+          "time": "09:50",
+          "name": "白鬚瀑布＋青池冬季",
+          "kind": "sight",
+          "stay_min": 90,
+          "desc": "先上 BLUE RIVER 橋看白鬚瀑布，再開去青池。冬天池面凍住，看到的是雪地上的枯木，不是藍色水面；夜間點燈 3 月 18:00–21:00。",
+          "price_for2_twd": 210,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E3%81%B2%E3%81%92%E3%81%AE%E6%BB%9D%20%E5%8C%97%E6%B5%B7%E9%81%93%E4%B8%8A%E5%B7%9D%E9%83%A1%E7%BE%8E%E7%91%9B%E7%94%BA%E7%99%BD%E9%87%91",
+          "site_url": "https://www.biei-hokkaido.jp/ja/shirogane-blue-pond/",
+          "address": "北海道上川郡美瑛町白金",
+          "tip": "青池停車 ¥1,000（2026/7 起）、8:00–21:30；夜間點燈要回頭開雪路所以不排",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shirogane_Blue_Pond_by_night%2C_April_2023_02.jpg?width=1200",
+            "credit": "Calistemon（Wikimedia Commons）",
+            "license": "CC BY-SA 4.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "美瑛觀光協會：青池與點燈時間",
+              "url": "https://www.biei-hokkaido.jp/ja/shirogane-blue-pond/"
+            },
+            {
+              "type": "youtube",
+              "title": "雪地自駕、白鬚瀑布、冬季青池（深日本旅）",
+              "url": "https://www.youtube.com/watch?v=C4ZQyeCGKFE"
+            },
+            {
+              "type": "ig",
+              "title": "Be my BIEI 官方 IG @bemybiei",
+              "url": "https://www.instagram.com/bemybiei/"
+            }
+          ]
+        },
+        {
+          "time": "11:30",
+          "name": "洋食とCafe じゅんぺい（海老丼午餐）",
+          "kind": "food",
+          "stay_min": 70,
+          "desc": "美瑛最有名的炸蝦丼，蝦子大到超出碗，用生麵包粉現炸。11:00–15:00，賣完就收，週一休；旺季常排超過 1 小時。",
+          "price_for2_twd": 714,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E9%A3%9F%E3%81%A8Cafe%E3%81%98%E3%82%85%E3%82%93%E3%81%BA%E3%81%84%20%E5%8C%97%E6%B5%B7%E9%81%93%E4%B8%8A%E5%B7%9D%E9%83%A1%E7%BE%8E%E7%91%9B%E7%94%BA%E6%9C%AC%E7%94%BA4%E4%B8%81%E7%9B%AE4-10",
+          "site_url": "https://www.instagram.com/biei_junpei/",
+          "address": "北海道上川郡美瑛町本町 4-4-10",
+          "tip": "3 月人比夏天少；一到先寫候位名單。賣完就換 Bi.ble 或美瑛選果",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_bowl_topped_with_shrimp_tempura_%288281030764%29.jpg?width=1200",
+            "credit": "pelican from Tokyo, Japan（Wikimedia Commons）",
+            "license": "CC BY-SA 2.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "じゅんぺい 官方 IG @biei_junpei",
+              "url": "https://www.instagram.com/biei_junpei/"
+            },
+            {
+              "type": "blog",
+              "title": "純平海老丼怎麼不用排（trvlogue）",
+              "url": "https://www.trvlogue.com/ja/junpei-biei-restaurant-review"
+            }
+          ]
+        },
+        {
+          "time": "13:15",
+          "name": "丘陵名樹：Ken & Mary 之樹＋親子之樹",
+          "kind": "sight",
+          "stay_min": 80,
+          "desc": "美瑛的白色丘陵配單棵大樹，冬天最乾淨。開上丘陵路（一般鄉道）找路邊可停的地方，看完往南到四季彩之丘看雪原與阿爾帕卡（3 月約 9:00–16:30）。",
+          "price_for2_twd": null,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B1%E3%83%B3%E3%81%A8%E3%83%A1%E3%83%AA%E3%83%BC%E3%81%AE%E6%9C%A8%20%E5%8C%97%E6%B5%B7%E9%81%93%E4%B8%8A%E5%B7%9D%E9%83%A1%E7%BE%8E%E7%91%9B%E7%94%BA%E5%A4%A7%E4%B9%85%E4%BF%9D%E5%8D%94%E7%94%9F",
+          "site_url": "https://www.biei-hokkaido.jp/",
+          "address": "北海道上川郡美瑛町大久保協生",
+          "tip": "田都是私人土地，不要走進去；窄路沒除雪就回頭",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tree_of_Ken%26Mary.jpg?width=1200",
+            "credit": "TOKUMI（Wikimedia Commons）",
+            "license": "Copyrighted free use"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "美瑛觀光協會",
+              "url": "https://www.biei-hokkaido.jp/"
+            },
+            {
+              "type": "youtube",
+              "title": "【保存版】冬の美瑛・富良野 撮影ガイド",
+              "url": "https://www.youtube.com/watch?v=DVE3MFed_tw"
+            },
+            {
+              "type": "youtube",
+              "title": "冬の富良野・美瑛ドライブ 4K",
+              "url": "https://www.youtube.com/watch?v=VfP-VwWVsHI"
+            }
+          ]
+        },
+        {
+          "time": "17:15",
+          "name": "唯我独尊（蛋包咖哩晚餐）",
+          "kind": "food",
+          "stay_min": 60,
+          "desc": "富良野老牌咖哩屋，29 種香料＋自製德式香腸，招牌蛋包咖哩。11:00–21:00（L.O. 20:30）、週一休。飯店走路 5 分。",
+          "price_for2_twd": 672,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%94%AF%E6%88%91%E7%8B%AC%E5%B0%8A%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E6%97%A5%E3%81%AE%E5%87%BA%E7%94%BA11-8",
+          "site_url": "https://www.furanotourism.com/en/spot/spot_D.php?id=157",
+          "address": "北海道富良野市日出町 11-8",
+          "tip": "車先放飯店，晚上喝酒不開車",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furano_Omu-Curry_1.jpg?width=1200",
+            "credit": "whity（Wikimedia Commons）",
+            "license": "CC BY 2.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "唯我独尊 官方 IG @yuigadoxon",
+              "url": "https://www.instagram.com/yuigadoxon/"
+            },
+            {
+              "type": "official",
+              "title": "富良野觀光協會介紹",
+              "url": "https://www.furanotourism.com/en/spot/spot_D.php?id=157"
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "name": "精靈露台＋森之時計",
+          "kind": "sight",
+          "stay_min": 50,
+          "desc": "新富良野王子旁的森林小木屋商店街，雪夜亮燈最漂亮；森之時計是《溫柔時光》裡的咖啡館，隔著吧台看雪林。",
+          "price_for2_twd": 420,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%86%E3%83%A9%E3%82%B9%20%E6%96%B0%E5%AF%8C%E8%89%AF%E9%87%8E%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E4%B8%AD%E5%BE%A1%E6%96%99",
+          "site_url": "https://www.princehotels.co.jp/shinfurano/",
+          "address": "北海道富良野市中御料 新富良野王子園區",
+          "tip": "官方 11/27 重新營業，冬季確切打烊時間待確認；各店不定休。從市區搭計程車約 ¥2,000",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/130503_Ningle_Terrace_Furano_Hokkaido_Japan01s3.jpg?width=1200",
+            "credit": "663highland（Wikimedia Commons）",
+            "license": "CC BY-SA 4.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "新富良野王子：營業公告",
+              "url": "https://www.princehotels.co.jp/file.jsp?id=525453"
+            },
+            {
+              "type": "youtube",
+              "title": "精靈露台、森之時計（深日本旅）",
+              "url": "https://www.youtube.com/watch?v=C4ZQyeCGKFE"
+            }
+          ]
+        },
+        {
+          "time": "19:30",
+          "name": "Soh's BAR（森林裡的石砌酒吧）",
+          "kind": "bar",
+          "stay_min": 90,
+          "desc": "編劇倉本聰命名、新富良野王子園區樹林裡的石砌小酒吧，放老歌、有暖爐。官方 19:00–24:00，每人座位費 ¥300。",
+          "price_for2_twd": 1260,
+          "booking": "建議預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=Soh%27s%20BAR%20%E6%96%B0%E5%AF%8C%E8%89%AF%E9%87%8E%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E4%B8%AD%E5%BE%A1%E6%96%99",
+          "site_url": "https://www.princehotels.co.jp/shinfurano/restaurant/shos_bar/",
+          "address": "北海道富良野市中御料 新富良野王子園區",
+          "tip": "這裡是喫煙目的店，沒有禁菸席，不想聞菸味就改回 TEIRYUJO。電話 0167-22-1111；未滿 20 歲不能進",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/130503_Ningle_Terrace_Furano_Hokkaido_Japan01s3.jpg?width=1200",
+            "credit": "663highland（Wikimedia Commons）",
+            "license": "CC BY-SA 4.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "Soh's BAR 官方頁",
+              "url": "https://www.princehotels.co.jp/shinfurano/restaurant/shos_bar/"
+            },
+            {
+              "type": "official",
+              "title": "新富良野王子 11/27 起營業公告",
+              "url": "https://www.princehotels.co.jp/file.jsp?id=525453"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "3/14",
+      "weekday": "日",
+      "title": "企鵝拉麵開回札幌",
+      "area": "富良野→旭川→札幌",
+      "drive_km": 230,
+      "drive_time": "全日約 3.5 小時",
+      "summary": "早上開到旭山動物園等 11:00 企鵝散步，吃旭川拉麵、逛買物公園，下午上道央道天黑前到札幌還車。",
+      "stops": [
+        {
+          "time": "10:15",
+          "name": "旭山動物園（企鵝散步 11:00）",
+          "kind": "challenge",
+          "stay_min": 150,
+          "desc": "官方開園表：2027 年 1/2–4/7 每天開 10:30–15:30（15:00 最後入園），3/14 有開。3 月起散步只有 11:00 一場；門票 ¥1,000／人。",
+          "price_for2_twd": 420,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%97%AD%E5%B7%9D%E5%B8%82%E6%97%AD%E5%B1%B1%E5%8B%95%E7%89%A9%E5%9C%92%20%E5%8C%97%E6%B5%B7%E9%81%93%E6%97%AD%E5%B7%9D%E5%B8%82%E6%9D%B1%E6%97%AD%E5%B7%9D%E7%94%BA%E5%80%89%E6%B2%BC",
+          "site_url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/event.html",
+          "address": "北海道旭川市東旭川町倉沼",
+          "tip": "散步要雪夠才有，2026 年因鳥流感 3/13 起停了；出發前看官方 IG。富良野 08:30 出發，10:00 前到位",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walking_King_Penguins_in_Asahiyama_Zoo.JPG?width=1200",
+            "credit": "User:青子守歌（Wikimedia Commons）",
+            "license": "CC BY-SA 3.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "旭山動物園 官方 IG @asahiyamazoo1",
+              "url": "https://www.instagram.com/asahiyamazoo1/"
+            },
+            {
+              "type": "official",
+              "title": "官方開園日曆",
+              "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/event.html"
+            },
+            {
+              "type": "official",
+              "title": "官方：企鵝散步說明",
+              "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/d054855.html"
+            },
+            {
+              "type": "youtube",
+              "title": "旭山動物園 冬恒例「ペンギンの散歩」",
+              "url": "https://www.youtube.com/watch?v=ftQq6BEsCII"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "name": "梅光軒 旭川本店＋平和通買物公園",
+          "kind": "food",
+          "stay_min": 120,
+          "desc": "旭川醬油拉麵名店（本店醬油、鹽味約 ¥1,050），吃完就在日本第一條行人徒步商店街「買物公園」走到旭川站，FEEL ASAHIKAWA 和 AEON 都在這條線。",
+          "price_for2_twd": 567,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E5%85%89%E8%BB%92%20%E6%97%AD%E5%B7%9D%E6%9C%AC%E5%BA%97%20%E5%8C%97%E6%B5%B7%E9%81%93%E6%97%AD%E5%B7%9D%E5%B8%822%E6%9D%A1%E9%80%9A8%E4%B8%81%E7%9B%AE%20%E3%83%94%E3%82%A2%E3%82%B6%E3%83%93%E3%83%ABB1",
+          "site_url": "https://www.instagram.com/baikohken_official/",
+          "address": "北海道旭川市 2 條通 8 丁目 Piazza 大樓 B1",
+          "tip": "營業約 11:00–15:30、舊資料週一休；車停站前收費停車場。蜂屋五條創業店走路可到（備案）",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Asahikawa_ramen_by_orangeobject_in_Asahikawa%2C_Hokkaido.jpg?width=1200",
+            "credit": "orangeobject（Wikimedia Commons）",
+            "license": "CC BY-SA 2.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "梅光軒 官方 IG @baikohken_official",
+              "url": "https://www.instagram.com/baikohken_official/"
+            },
+            {
+              "type": "ig",
+              "title": "蜂屋 官方 IG @hachiya19471208",
+              "url": "https://www.instagram.com/hachiya19471208/"
+            },
+            {
+              "type": "youtube",
+              "title": "旭山動物園＆旭川拉麵：蜂屋、梅光軒連吃",
+              "url": "https://www.youtube.com/watch?v=a7bv4474z4k"
+            }
+          ]
+        },
+        {
+          "time": "15:15",
+          "name": "道央道開回札幌＋市區還車",
+          "kind": "transport",
+          "stay_min": 120,
+          "desc": "旭川鷹栖 IC 上、札幌北 IC 下：132.9 公里、1 小時 26 分、ETC ¥3,800。17:15 前到ニッポンレンタカー札幌駅前（週日 7:00–21:00）還車。",
+          "price_for2_twd": 798,
+          "booking": "需預約",
+          "booking_url": "https://www.nipponrentacar.co.jp/en/service/oneway.html",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC%20%E6%9C%AD%E5%B9%8C%E9%A7%85%E5%89%8D%E5%96%B6%E6%A5%AD%E6%89%80%20%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%8C%977%E6%9D%A1%E6%9D%B11%E4%B8%81%E7%9B%AE1-1",
+          "site_url": "https://store.nipponrentacar.co.jp/b/nrs/info/810883/",
+          "address": "北海道札幌市東區北 7 條東 1-1-1",
+          "tip": "還車前加滿油；札幌日落約 17:38，交通順的話天黑前到。店外車道雪堆多，慢慢倒",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Do-O_Expressway_Bibai_Interchange.jpg?width=1200",
+            "credit": "Yasu (talk)（Wikimedia Commons）",
+            "license": "CC BY-SA 3.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "ドラぷら：旭川鷹栖→札幌北 過路費",
+              "url": "https://www.driveplaza.com/dp/SearchQuick?startPlaceKana=%E6%97%AD%E5%B7%9D%E9%B7%B9%E6%A0%96&arrivePlaceKana=%E6%9C%AD%E5%B9%8C%E5%8C%97&searchHour=15&searchMinute=0&kind=1&carType=1&priority=2"
+            },
+            {
+              "type": "official",
+              "title": "Nippon 札幌駅前 營業時間",
+              "url": "https://store.nipponrentacar.co.jp/b/nrs/info/810883/"
+            },
+            {
+              "type": "official",
+              "title": "北海道官方：冬天開車注意事項",
+              "url": "https://www.pref.hokkaido.lg.jp/ks/cak/kat/safety-drive/winter.html"
+            }
+          ]
+        },
+        {
+          "time": "17:45",
+          "name": "札幌站前白色燈節最後一晚",
+          "kind": "sight",
+          "stay_min": 40,
+          "desc": "3/14 是 2026–27 札幌白色燈節的最後一天：札幌站南口廣場、北 3 條廣場（Akapla）和南 1 條通還亮著。還完車順路走過去，再搭地鐵到薄野。",
+          "price_for2_twd": 0,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%E9%A7%85%E5%8D%97%E5%8F%A3%E9%A7%85%E5%89%8D%E5%BA%83%E5%A0%B4%20%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%975%E6%9D%A1%E8%A5%BF3%E4%B8%81%E7%9B%AE",
+          "site_url": "https://www.sapporo.travel/white-illumination/",
+          "address": "札幌市中央區北 5 條西 3 丁目",
+          "tip": "大通會場只到 12/25、站前通到 2/11，3 月別跑去大通看。2025 年點燈 16:30–22:00，今年時間待確認",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sapporo_White_Illumination_2016_%28184517201%29.jpeg?width=1200",
+            "credit": "Sorah Fukumori（Wikimedia Commons）",
+            "license": "CC BY 3.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "Visit Hokkaido：各會場期間",
+              "url": "https://www.visit-hokkaido.jp/event/detail/143"
+            },
+            {
+              "type": "official",
+              "title": "札幌白色燈節官網",
+              "url": "https://www.sapporo.travel/white-illumination/"
+            }
+          ]
+        },
+        {
+          "time": "18:45",
+          "name": "成吉思汗だるま 本店（羊肉晚餐）",
+          "kind": "food",
+          "stay_min": 75,
+          "desc": "札幌成吉思汗烤羊肉的基準店，鐵鍋烤生羊肉配洋蔥，一份 ¥1,280。Sotetsu Fresa 飯店走 3 分鐘就到。",
+          "price_for2_twd": 1680,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97%E3%81%A0%E3%82%8B%E3%81%BE%20%E6%9C%AC%E5%BA%97%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%975%E6%9D%A1%E8%A5%BF4%20%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%83%93%E3%83%AB1F",
+          "site_url": "https://www.sapporo-jingisukan.info/",
+          "address": "札幌市中央區南 5 條西 4 Crystal 大樓 1F",
+          "tip": "不接受預約，週日晚上可能要排 30 分；出門前看公告",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Genghis%20Khan%20dish.jpg?width=1200",
+            "credit": "Douglas Perkins",
+            "license": "CC0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "成吉思汗だるま 官方 IG @jingisukan_daruma",
+              "url": "https://www.instagram.com/jingisukan_daruma/"
+            },
+            {
+              "type": "youtube",
+              "title": "沒吃過北海道第一的成吉思汗烤肉，別說來過札幌！（Liz 美食家）",
+              "url": "https://www.youtube.com/watch?v=l_XEuA09wlE"
+            }
+          ]
+        },
+        {
+          "time": "21:00",
+          "name": "マジックシアター TRICK（魔術酒吧）",
+          "kind": "bar",
+          "stay_min": 90,
+          "desc": "薄野的近距離魔術劇場酒吧，19:00 開到凌晨 4 點，YouTube「札幌必去 BAR 兩選」之一；週日大部分老酒吧休息，這家照開。入場含飲料約 ¥3,500–4,400／人。",
+          "price_for2_twd": 1680,
+          "booking": "建議預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%82%B8%E3%83%83%E3%82%AF%E3%82%B7%E3%82%A2%E3%82%BF%E3%83%BC%20TRICK%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%975%E6%9D%A1%E8%A5%BF4%E4%B8%81%E7%9B%AE7-1%20N.SQUARE%20B1",
+          "site_url": "https://www.hotpepper.jp/strJ001129344/",
+          "address": "札幌市中央區南 5 條西 4-7-1 N.SQUARE B1",
+          "tip": "現場沒休但週日場次先用 IG 問一下；走路回飯店",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Suskino_after_Dark_in_2009_%283733959735%29.jpg?width=1200",
+            "credit": "David McKelvey（Wikimedia Commons）",
+            "license": "CC BY 2.0"
+          },
+          "links": [
+            {
+              "type": "youtube",
+              "title": "観光でも楽しめる！札幌に来たら絶対行くべき最高なBAR２選（しおんの台所）",
+              "url": "https://www.youtube.com/watch?v=R2t2xC3nr1o"
+            },
+            {
+              "type": "ig",
+              "title": "マジックシアター TRICK 官方 IG @trick_sapporo",
+              "url": "https://www.instagram.com/trick_sapporo/"
+            },
+            {
+              "type": "official",
+              "title": "TRICK（ホットペッパー）",
+              "url": "https://www.hotpepper.jp/strJ001129344/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "3/15",
+      "weekday": "一",
+      "title": "札幌逛整天",
+      "area": "二條市場→札幌站→狸小路→薄野",
+      "drive_km": null,
+      "drive_time": null,
+      "summary": "早餐吃海鮮丼，白天札幌站與狸小路逛到飽，晚上薄野吃海鮮喝老酒吧。",
+      "stops": [
+        {
+          "time": "09:30",
+          "name": "二条市場 大磯（海鮮丼早午餐）",
+          "kind": "food",
+          "stay_min": 60,
+          "desc": "百年二條市場的人氣店，海膽、鮭魚卵、螃蟹自選丼，週三才休，週一早上最舒服；兩人約 ¥7,000。",
+          "price_for2_twd": 1470,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%A3%AF%20%E4%BA%8C%E6%9D%A1%E5%B8%82%E5%A0%B4%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%973%E6%9D%A1%E6%9D%B12%E4%B8%81%E7%9B%AE",
+          "site_url": "https://www.sapporo.travel/choose/keywords/sapporo-nijo-market-curb-market/",
+          "address": "札幌市中央區南 3 條東 2 丁目",
+          "tip": "飯店走路約 10 分；吃完順手逛市場買干貝",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nijo_fish_Market_2014.jpg?width=1200",
+            "credit": "Wing1990hk（Wikimedia Commons）",
+            "license": "CC BY 3.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "#二条市場大磯（IG 標籤頁）",
+              "url": "https://www.instagram.com/explore/tags/%E4%BA%8C%E6%9D%A1%E5%B8%82%E5%A0%B4%E5%A4%A7%E7%A3%AF/"
+            },
+            {
+              "type": "youtube",
+              "title": "札幌二条市場でお店巡り ランチは最終的に大磯へ（晴吉GO）",
+              "url": "https://www.youtube.com/watch?v=WD2dTyq5xu0"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "name": "札幌站商場（Stellar Place、大丸、APIA）",
+          "kind": "shop",
+          "stay_min": 150,
+          "desc": "地下街一路接到札幌站：Stellar Place 服飾、大丸百貨、APIA 美妝與 B1 札幌土產。整區室內、雪天也好逛。",
+          "price_for2_twd": null,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%E3%82%B9%E3%83%86%E3%83%A9%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%975%E6%9D%A1%E8%A5%BF2%E4%B8%81%E7%9B%AE",
+          "site_url": "https://www.stellarplace.net/",
+          "address": "札幌市中央區北 5 條西 2 丁目",
+          "tip": "大多 10:00 開門；外國護照到免稅櫃台先辦退稅",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stellar_Place_Sapporo_Level_1_201406.jpg?width=1200",
+            "credit": "Wpcpey（Wikimedia Commons）",
+            "license": "CC BY 4.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "Stellar Place 官網",
+              "url": "https://www.stellarplace.net/"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "name": "SOUPCURRY GARAKU 札幌本店（湯咖哩）",
+          "kind": "food",
+          "stay_min": 60,
+          "desc": "札幌湯咖哩排隊名店，濃湯配炸蔬菜，可選辣度；午餐 11:30–15:30，L.O. 15:00。",
+          "price_for2_twd": 840,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=SOUPCURRY%20GARAKU%20%E6%9C%AD%E5%B9%8C%E6%9C%AC%E5%BA%97%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%972%E6%9D%A1%E8%A5%BF2%E4%B8%81%E7%9B%AE",
+          "site_url": "https://s-garaku.com/",
+          "address": "札幌市中央區南 2 條西 2-6-1 おくむらビル B1",
+          "tip": "14:00 後排隊較短；L.O. 前一定要進店",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_vegetable_soup_curry_%282813142985%29.jpg?width=1200",
+            "credit": "pelican from Tokyo, Japan（Wikimedia Commons）",
+            "license": "CC BY-SA 2.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "SOUPCURRY GARAKU 官方 IG @soupcurry_garaku",
+              "url": "https://www.instagram.com/soupcurry_garaku/"
+            },
+            {
+              "type": "youtube",
+              "title": "最後這碗 GARAKU 湯咖哩太猛直接封神！（老豆&豆嫂）",
+              "url": "https://www.youtube.com/watch?v=PBrR3fQVOgA"
+            }
+          ]
+        },
+        {
+          "time": "15:30",
+          "name": "狸小路＋大通＋電視塔",
+          "kind": "shop",
+          "stay_min": 150,
+          "desc": "狸小路拱廊逛藥妝、唐吉訶德、札幌土產，再往大通走 PARCO、三越。傍晚 17:40 看電視塔日落亮燈（可選）。",
+          "price_for2_twd": null,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E7%8B%B8%E5%B0%8F%E8%B7%AF%E5%95%86%E5%BA%97%E8%A1%97%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%972%E6%9D%A1%E8%A5%BF1%E4%B8%81%E7%9B%AE",
+          "site_url": "https://www.tanukikoji.or.jp/",
+          "address": "札幌市中央區南 2–3 條西 1–7 丁目",
+          "tip": "狸小路有屋頂；融雪時路面最滑，走地下街到薄野（Pole Town）",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanukikoji_01.jpg?width=1200",
+            "credit": "Mugu-shisai（Wikimedia Commons）",
+            "license": "CC BY-SA 3.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "狸小路商店街",
+              "url": "https://www.tanukikoji.or.jp/"
+            },
+            {
+              "type": "ig",
+              "title": "さっぽろテレビ塔 官方 IG @tv.tower",
+              "url": "https://www.instagram.com/tv.tower/"
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "name": "海味はちきょう 本店（鮭魚卵滿碗）",
+          "kind": "food",
+          "stay_min": 110,
+          "desc": "招牌「元祖つっこ飯」店員一邊喊一邊把鮭魚卵倒到滿出來；週一到週六 18:00–24:00。一碗舊價約 ¥4,650，兩人含小菜不含酒約 ¥10,000。",
+          "price_for2_twd": 2100,
+          "booking": "建議預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%91%B3%E3%81%AF%E3%81%A1%E3%81%8D%E3%82%87%E3%81%86%20%E6%9C%AC%E5%BA%97%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%973%E6%9D%A1%E8%A5%BF3%E4%B8%81%E7%9B%AE",
+          "site_url": "https://www.instagram.com/umi_hachikyo/",
+          "address": "札幌市中央區南 3 條西 3 丁目",
+          "tip": "本店電話常打不通、其他分店可網路訂，名額滿了就訂別間",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikura_don.jpg?width=1200",
+            "credit": "Flickr.com user \"Blue Lotus\"（Wikimedia Commons）",
+            "license": "CC BY 2.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "はちきょう 官方 IG @umi_hachikyo",
+              "url": "https://www.instagram.com/umi_hachikyo/"
+            },
+            {
+              "type": "blog",
+              "title": "はちきょう 本店（食べログ）",
+              "url": "https://tabelog.com/hokkaido/A0101/A010103/1003784/"
+            }
+          ]
+        },
+        {
+          "time": "21:00",
+          "name": "BAR やまざき（老派雞尾酒吧）",
+          "kind": "bar",
+          "stay_min": 90,
+          "desc": "1958 年創業的札幌名吧，調酒師還會現場剪影紙雕。18:00–0:30，週日休，所以排週一；兩人兩杯加座位費約 ¥8,000。",
+          "price_for2_twd": 1680,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=BAR%E3%82%84%E3%81%BE%E3%81%96%E3%81%8D%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%973%E6%9D%A1%E8%A5%BF3%E4%B8%81%E7%9B%AE%20%E5%85%8B%E7%BE%8E%E3%83%93%E3%83%AB4%E9%9A%8E",
+          "site_url": "https://bar-yamazaki.com/",
+          "address": "札幌市中央區南 3 條西 3 丁目 克美大樓 4F",
+          "tip": "店內安靜，輕聲聊天；和晚餐同一條街",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spectaculars_of_Susukino-Sapporo.jpg?width=1200",
+            "credit": "Chatama（Wikimedia Commons）",
+            "license": "Public domain"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "BAR やまざき 官網",
+              "url": "https://bar-yamazaki.com/"
+            },
+            {
+              "type": "blog",
+              "title": "BAR やまざき（食べログ）",
+              "url": "https://s.tabelog.com/en/hokkaido/A0101/A010103/1000001/"
+            },
+            {
+              "type": "blog",
+              "title": "札幌 BAR まとめ（食べログ）",
+              "url": "https://tabelog.com/matome/14091/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "3/16",
+      "weekday": "二",
+      "title": "機場買好回家",
+      "area": "札幌→新千歲機場",
+      "drive_km": null,
+      "drive_time": null,
+      "summary": "咖啡早餐、最後補貨，中午搭 JR 去機場，吃拉麵買伴手禮，16:00 飛回台中。",
+      "stops": [
+        {
+          "time": "09:00",
+          "name": "ATELIER Morihiko（咖啡早餐）",
+          "kind": "food",
+          "stay_min": 60,
+          "desc": "北海道咖啡品牌森彥的門市，木質老屋感很適合收尾。8:00–19:00（L.O. 18:30），平日沒休。",
+          "price_for2_twd": 420,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=ATELIER%20Morihiko%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%971%E6%9D%A1%E8%A5%BF12%E4%B8%81%E7%9B%AE4-182%20AS%E3%83%93%E3%83%AB1F",
+          "site_url": "https://morihico.com/shop/",
+          "address": "札幌市中央區南 1 條西 12-4-182 AS 大樓 1F",
+          "tip": "地鐵西 11 丁目站走 3 分；行李先寄飯店",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SAKURAKO_-_MORIHICO_Coffee._%2833696166423%29.jpg?width=1200",
+            "credit": "MIKI Yoshihito from Sapporo City,Hokkaid（Wikimedia Commons）",
+            "license": "CC BY 2.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "MORIHICO. 官方 IG @morihico.official",
+              "url": "https://www.instagram.com/morihico.official/"
+            },
+            {
+              "type": "official",
+              "title": "森彥 門市資訊",
+              "url": "https://morihico.com/shop/"
+            }
+          ]
+        },
+        {
+          "time": "10:30",
+          "name": "札幌站最後採買",
+          "kind": "shop",
+          "stay_min": 80,
+          "desc": "大丸 B1 甜點、APIA、札幌東急百貨最後掃貨。回飯店拿行李、或在札幌站大型置物櫃換裝。",
+          "price_for2_twd": null,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E4%B8%B8%E6%9C%AD%E5%B9%8C%E5%BA%97%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%975%E6%9D%A1%E8%A5%BF4%E4%B8%81%E7%9B%AE",
+          "site_url": "https://www.daimaru.co.jp/sapporo/",
+          "address": "札幌市中央區北 5 條西 4 丁目",
+          "tip": "機場也買得到大多數伴手禮，這裡挑札幌市區限定就好",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sapporo_Station_at_night_202507.jpg?width=1200",
+            "credit": "掬茶（Wikimedia Commons）",
+            "license": "CC BY-SA 4.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "大丸札幌店",
+              "url": "https://www.daimaru.co.jp/sapporo/"
+            }
+          ]
+        },
+        {
+          "time": "12:10",
+          "name": "JR 快速エアポート 札幌→新千歲",
+          "kind": "transport",
+          "stay_min": 45,
+          "desc": "札幌站發車約 37–40 分到機場，¥1,230／人，手機 Suica 直接刷；每小時 5–6 班。",
+          "price_for2_twd": 517,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%E9%A7%85%20JR%20%E5%8C%97%E6%B5%B7%E9%81%93",
+          "site_url": "https://www.jrhokkaido.co.jp/",
+          "address": "札幌市北區北 6 條西 4 丁目",
+          "tip": "下大雪會延誤，最晚 12:30 這班；不用加指定席",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JR_Hokkaido733_Airport_Rapid_train_B-3203_20140921.jpg?width=1200",
+            "credit": "Rsa（Wikimedia Commons）",
+            "license": "CC BY-SA 3.0"
+          },
+          "links": [
+            {
+              "type": "blog",
+              "title": "札幌⇄新千歲交通與 2026 巴士漲價（tabiris）",
+              "url": "https://tabiris.com/?p=61162"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "name": "新千歲機場 北海道拉麵道場",
+          "kind": "food",
+          "stay_min": 45,
+          "desc": "國內線 3 樓集合北海道各地名店，這趟吃過旭川和札幌味噌，最後來碗函館鹽味。兩人約 ¥2,800。",
+          "price_for2_twd": 588,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%B7%E9%81%93%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%81%93%E5%A0%B4%20%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E5%86%85%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB3F",
+          "site_url": "https://www.new-chitose-airport.jp/ja/",
+          "address": "新千歳空港 國內線航廈 3F",
+          "tip": "國內線走到國際線約 10 分，14:00 前要回國際線報到",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokkaido_Ramen_Dojo_01.jpg?width=1200",
+            "credit": "ノボホショコロトソ（Wikimedia Commons）",
+            "license": "CC BY 4.0"
+          },
+          "links": [
+            {
+              "type": "ig",
+              "title": "#新千歳空港ラーメン道場（IG 標籤頁）",
+              "url": "https://www.instagram.com/explore/tags/%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%81%93%E5%A0%B4/"
+            },
+            {
+              "type": "official",
+              "title": "新千歳空港 北海道ラーメン道場",
+              "url": "https://www.new-chitose-airport.jp/ja/"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "name": "機場伴手禮＋報到",
+          "kind": "shop",
+          "stay_min": 90,
+          "desc": "國內線 2 樓 ROYCE、Snow Cheese、白色戀人都齊；報到後國際線免稅區還有一輪。生巧克力要保冷，最後再買。",
+          "price_for2_twd": null,
+          "booking": "免預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E5%86%85%E7%B7%9A%20%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%20ROYCE",
+          "site_url": "https://www.new-chitose-airport.jp/ja/",
+          "address": "新千歳空港 國內線航廈 2F",
+          "tip": "液體超 100 ml 要在報到前放托運",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/130725_New_Chitose_Airport_Hokkaido_Japan08s5.jpg?width=1200",
+            "credit": "663highland（Wikimedia Commons）",
+            "license": "CC BY 2.5"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "新千歲機場 官網",
+              "url": "https://www.new-chitose-airport.jp/ja/"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "name": "星宇回程班機 16:00→19:55（台中）",
+          "kind": "transport",
+          "stay_min": 295,
+          "desc": "星宇新千歲直飛台中，飛約 4 小時 55 分，19:55 落地台中。",
+          "price_for2_twd": null,
+          "booking": "需預約",
+          "booking_url": "",
+          "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB",
+          "site_url": "https://www.starlux-airlines.com/zh-TW",
+          "address": "新千歳空港 國際線旅客航廈",
+          "tip": "含在機票總價內；提前 2 小時到櫃台",
+          "photo": {
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Starlux_Airlines_Airbus_A321neo_B-58205_at_Taoyuan_February_2026.jpg?width=1200",
+            "credit": "4300streetcar（Wikimedia Commons）",
+            "license": "CC BY 4.0"
+          },
+          "links": [
+            {
+              "type": "official",
+              "title": "星宇航空 官網",
+              "url": "https://www.starlux-airlines.com/zh-TW"
+            },
+            {
+              "type": "official",
+              "title": "Google 航班：3/11–3/16 台中直飛",
+              "url": "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20RMQ%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "food": [
+    {
+      "name": "カレーのふらのや",
+      "dish": "雞腿／帆立湯咖哩",
+      "price_for2_twd": 714,
+      "area": "富良野 彌生町",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%AE%E3%81%B5%E3%82%89%E3%81%AE%E3%82%84%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E5%BC%A5%E7%94%9F%E7%94%BA1-46",
+      "why": "三份英文與日文指南都把它列為富良野湯咖哩第一名；當地蔬菜、木屋座位",
+      "source": "https://r.gnavi.co.jp/hhebxtzh0000/",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_soup_curry_dish_in_Sapporo_-_Flickr_-_odako1.jpg?width=1200",
+        "credit": "Koichi Oda（Wikimedia Commons）",
+        "license": "CC BY-SA 2.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "#カレーのふらのや（IG 標籤頁）",
+          "url": "https://www.instagram.com/explore/tags/%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%AE%E3%81%B5%E3%82%89%E3%81%AE%E3%82%84/"
+        },
+        {
+          "type": "blog",
+          "title": "ふらのや 整理文",
+          "url": "https://johnny88.jp/furanoya-curry/"
+        }
+      ]
+    },
+    {
+      "name": "くまげら",
+      "dish": "和牛烤牛肉丼、山賊鍋",
+      "price_for2_twd": 1470,
+      "area": "富良野 日出町",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%81%BE%E3%81%92%E3%82%89%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E6%97%A5%E3%81%AE%E5%87%BA%E7%94%BA3-22",
+      "why": "富良野老牌鄉土料理代表，官方 IG 可線上訂位；雪場旅客與當地人都去",
+      "source": "https://www.instagram.com/kumagerafurano/",
+      "photo": null,
+      "links": [
+        {
+          "type": "ig",
+          "title": "くまげら 官方 IG @kumagerafurano",
+          "url": "https://www.instagram.com/kumagerafurano/"
+        }
+      ]
+    },
+    {
+      "name": "唯我独尊",
+      "dish": "蛋包咖哩＋自製香腸",
+      "price_for2_twd": 672,
+      "area": "富良野 日出町",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%94%AF%E6%88%91%E7%8B%AC%E5%B0%8A%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82%E6%97%A5%E3%81%AE%E5%87%BA%E7%94%BA11-8",
+      "why": "富良野觀光協會推薦，29 種香料與自製德式香腸；11:00–21:00、週一休",
+      "source": "https://www.furanotourism.com/en/spot/spot_D.php?id=157",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furano_Omu-Curry_1.jpg?width=1200",
+        "credit": "whity（Wikimedia Commons）",
+        "license": "CC BY 2.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "唯我独尊 官方 IG @yuigadoxon",
+          "url": "https://www.instagram.com/yuigadoxon/"
+        }
+      ]
+    },
+    {
+      "name": "Furano Curry Jam 北之峰店",
+      "dish": "湯咖哩／咖哩飯",
+      "price_for2_twd": 672,
+      "area": "富良野滑雪場 北之峰",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Furano%20Curry%20Jam%20%E5%8C%97%E3%81%AE%E5%B3%B0%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB",
+      "why": "雪場官網列在北之峰纜車站 1 樓，穿雪靴進去最方便",
+      "source": "https://www.princehotels.com/en/ski/furano/index.html",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_vegetable_soup_curry_%282813142985%29.jpg?width=1200",
+        "credit": "pelican from Tokyo, Japan（Wikimedia Commons）",
+        "license": "CC BY-SA 2.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "Furano Curry Jam 官方 IG @furano_curry_jam",
+          "url": "https://www.instagram.com/furano_curry_jam/"
+        }
+      ]
+    },
+    {
+      "name": "洋食とCafe じゅんぺい",
+      "dish": "海老丼（炸蝦丼）",
+      "price_for2_twd": 714,
+      "area": "美瑛 本町",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E9%A3%9F%E3%81%A8Cafe%E3%81%98%E3%82%85%E3%82%93%E3%81%BA%E3%81%84%20%E5%8C%97%E6%B5%B7%E9%81%93%E4%B8%8A%E5%B7%9D%E9%83%A1%E7%BE%8E%E7%91%9B%E7%94%BA%E6%9C%AC%E7%94%BA4%E4%B8%81%E7%9B%AE4-10",
+      "why": "美瑛最常被介紹的午餐，2026 trvlogue 整理不用排的訣竅；11:00–15:00、賣完就收",
+      "source": "https://www.trvlogue.com/ja/junpei-biei-restaurant-review",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_bowl_topped_with_shrimp_tempura_%288281030764%29.jpg?width=1200",
+        "credit": "pelican from Tokyo, Japan（Wikimedia Commons）",
+        "license": "CC BY-SA 2.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "じゅんぺい 官方 IG @biei_junpei",
+          "url": "https://www.instagram.com/biei_junpei/"
+        }
+      ]
+    },
+    {
+      "name": "梅光軒 旭川本店",
+      "dish": "旭川醬油拉麵（¥1,050）",
+      "price_for2_twd": 567,
+      "area": "旭川 買物公園",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E5%85%89%E8%BB%92%20%E6%97%AD%E5%B7%9D%E6%9C%AC%E5%BA%97%20%E5%8C%97%E6%B5%B7%E9%81%93%E6%97%AD%E5%B7%9D%E5%B8%822%E6%9D%A1%E9%80%9A8%E4%B8%81%E7%9B%AE%20%E3%83%94%E3%82%A2%E3%82%B6%E3%83%93%E3%83%ABB1",
+      "why": "1969 年創業，雙湯頭與細捲麵；食べログ旭川拉麵常客，在買物公園上",
+      "source": "https://johnny88.jp/ramen-asahikawa",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Asahikawa_ramen_by_orangeobject_in_Asahikawa%2C_Hokkaido.jpg?width=1200",
+        "credit": "orangeobject（Wikimedia Commons）",
+        "license": "CC BY-SA 2.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "梅光軒 官方 IG @baikohken_official",
+          "url": "https://www.instagram.com/baikohken_official/"
+        },
+        {
+          "type": "youtube",
+          "title": "蜂屋＋梅光軒連吃",
+          "url": "https://www.youtube.com/watch?v=a7bv4474z4k"
+        }
+      ]
+    },
+    {
+      "name": "成吉思汗だるま 本店",
+      "dish": "成吉思汗烤羊肉（一份 ¥1,280）",
+      "price_for2_twd": 1680,
+      "area": "薄野",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97%E3%81%A0%E3%82%8B%E3%81%BE%20%E6%9C%AC%E5%BA%97%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%975%E6%9D%A1%E8%A5%BF4%20%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%83%93%E3%83%AB1F",
+      "why": "札幌羊肉鍋基準店，YouTube 排隊美食整理多次介紹",
+      "source": "https://www.sapporo-jingisukan.info/",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Genghis%20Khan%20dish.jpg?width=1200",
+        "credit": "Douglas Perkins",
+        "license": "CC0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "成吉思汗だるま 官方 IG @jingisukan_daruma",
+          "url": "https://www.instagram.com/jingisukan_daruma/"
+        },
+        {
+          "type": "youtube",
+          "title": "沒吃過北海道第一的成吉思汗烤肉，別說來過札幌！（Liz 美食家）",
+          "url": "https://www.youtube.com/watch?v=l_XEuA09wlE"
+        }
+      ]
+    },
+    {
+      "name": "二条市場 大磯",
+      "dish": "自選海鮮丼（海膽、鮭魚卵、螃蟹）",
+      "price_for2_twd": 1470,
+      "area": "二條市場",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%A3%AF%20%E4%BA%8C%E6%9D%A1%E5%B8%82%E5%A0%B4%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%973%E6%9D%A1%E6%9D%B12%E4%B8%81%E7%9B%AE",
+      "why": "二條市場百年老街的人氣店，3 月週一有開、早上最舒服",
+      "source": "https://www.sapporo.travel/choose/keywords/sapporo-nijo-market-curb-market/",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nijo_fish_Market_2014.jpg?width=1200",
+        "credit": "Wing1990hk（Wikimedia Commons）",
+        "license": "CC BY 3.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "#二条市場大磯（IG 標籤頁）",
+          "url": "https://www.instagram.com/explore/tags/%E4%BA%8C%E6%9D%A1%E5%B8%82%E5%A0%B4%E5%A4%A7%E7%A3%AF/"
+        },
+        {
+          "type": "youtube",
+          "title": "札幌二条市場でお店巡り ランチは最終的に大磯へ（晴吉GO）",
+          "url": "https://www.youtube.com/watch?v=WD2dTyq5xu0"
+        }
+      ]
+    },
+    {
+      "name": "SOUPCURRY GARAKU 札幌本店",
+      "dish": "炙烤豬角煮湯咖哩",
+      "price_for2_twd": 840,
+      "area": "狸小路",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=SOUPCURRY%20GARAKU%20%E6%9C%AD%E5%B9%8C%E6%9C%AC%E5%BA%97%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%972%E6%9D%A1%E8%A5%BF2%E4%B8%81%E7%9B%AE",
+      "why": "札幌排隊第一名湯咖哩，YouTube「GARAKU 封神」系列；挑下午離峰去",
+      "source": "https://s-garaku.com/",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_vegetable_soup_curry_%282813142985%29.jpg?width=1200",
+        "credit": "pelican from Tokyo, Japan（Wikimedia Commons）",
+        "license": "CC BY-SA 2.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "SOUPCURRY GARAKU 官方 IG @soupcurry_garaku",
+          "url": "https://www.instagram.com/soupcurry_garaku/"
+        },
+        {
+          "type": "youtube",
+          "title": "最後這碗 GARAKU 湯咖哩太猛直接封神！（老豆&豆嫂）",
+          "url": "https://www.youtube.com/watch?v=PBrR3fQVOgA"
+        }
+      ]
+    },
+    {
+      "name": "海味はちきょう 本店",
+      "dish": "元祖つっこ飯（鮭魚卵滿碗）",
+      "price_for2_twd": 2100,
+      "area": "薄野",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%91%B3%E3%81%AF%E3%81%A1%E3%81%8D%E3%82%87%E3%81%86%20%E6%9C%AC%E5%BA%97%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%973%E6%9D%A1%E8%A5%BF3%E4%B8%81%E7%9B%AE",
+      "why": "薄野招牌海鮮居酒屋，店員倒鮭魚卵是招牌表演",
+      "source": "https://tabelog.com/hokkaido/A0101/A010103/1003784/",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikura_don.jpg?width=1200",
+        "credit": "Flickr.com user \"Blue Lotus\"（Wikimedia Commons）",
+        "license": "CC BY 2.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "はちきょう 官方 IG @umi_hachikyo",
+          "url": "https://www.instagram.com/umi_hachikyo/"
+        }
+      ]
+    },
+    {
+      "name": "ATELIER Morihiko",
+      "dish": "手沖咖啡與甜點早餐",
+      "price_for2_twd": 420,
+      "area": "札幌 西 11 丁目",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=ATELIER%20Morihiko%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%971%E6%9D%A1%E8%A5%BF12%E4%B8%81%E7%9B%AE4-182",
+      "why": "北海道咖啡品牌森彥的門市，8:00 就開，適合回程日",
+      "source": "https://morihico.com/shop/",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SAKURAKO_-_MORIHICO_Coffee._%2833696166423%29.jpg?width=1200",
+        "credit": "MIKI Yoshihito from Sapporo City,Hokkaid（Wikimedia Commons）",
+        "license": "CC BY 2.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "MORIHICO. 官方 IG @morihico.official",
+          "url": "https://www.instagram.com/morihico.official/"
+        }
+      ]
+    },
+    {
+      "name": "新千歳空港 北海道ラーメン道場",
+      "dish": "函館鹽味、旭川醬油",
+      "price_for2_twd": 588,
+      "area": "新千歲機場",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%B7%E9%81%93%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%81%93%E5%A0%B4%20%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E5%86%85%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB3F",
+      "why": "機場最受歡迎的一條街，集合北海道名店",
+      "source": "https://www.new-chitose-airport.jp/ja/",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokkaido_Ramen_Dojo_01.jpg?width=1200",
+        "credit": "ノボホショコロトソ（Wikimedia Commons）",
+        "license": "CC BY 4.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "#新千歳空港ラーメン道場（IG 標籤頁）",
+          "url": "https://www.instagram.com/explore/tags/%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%81%93%E5%A0%B4/"
+        },
+        {
+          "type": "official",
+          "title": "新千歳空港 北海道ラーメン道場",
+          "url": "https://www.new-chitose-airport.jp/ja/"
+        }
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "name": "富良野滑雪一日（含夜滑）",
+      "what": "和朋友滑一整天，北之峰、富良野區連通；平日夜滑到 18:00",
+      "price_for2_twd": 10080,
+      "duration": "8:30–18:00",
+      "booking": "雪票現場買或線上預購；雪具先網路訂",
+      "season_ok": true,
+      "url": "https://www.princehotels.com/en/ski/furano/index.html",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%20%E5%8C%97%E6%B5%B7%E9%81%93%E5%AF%8C%E8%89%AF%E9%87%8E%E5%B8%82",
+      "note": "一日券 ¥9,000／人＋Sportpia 雪板與雪衣褲 ¥15,000／人。3/22 前都是一般季價；春季 3/23 起才降到 ¥7,500",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furano_Snow_Resort_view1.JPG?width=1200",
+        "credit": "wakimasa（Wikimedia Commons）",
+        "license": "Public domain"
+      },
+      "links": [
+        {
+          "type": "official",
+          "title": "雪場官網",
+          "url": "https://www.princehotels.com/en/ski/furano/index.html"
+        },
+        {
+          "type": "official",
+          "title": "Sportpia 價目",
+          "url": "https://www.spfurano.com/en/rentalski.html"
+        },
+        {
+          "type": "ig",
+          "title": "@furanoski_official",
+          "url": "https://www.instagram.com/furanoski_official/"
+        },
+        {
+          "type": "youtube",
+          "title": "富良野滑雪超好玩（北海道我來囉）",
+          "url": "https://www.youtube.com/watch?v=RKkXx_Xspts"
+        }
+      ]
+    },
+    {
+      "name": "FSS 初學滑雪課",
+      "what": "英文教學的兩小時初學團課（10 歲以上），想穩一點再上坡先報",
+      "price_for2_twd": 5460,
+      "duration": "2 小時",
+      "booking": "建議線上預約；要提早 1 小時到櫃台報到",
+      "season_ok": true,
+      "url": "https://www.samuraisnow.com/node/3478366",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=Furano%20Snow%20School%20%E5%8C%97%E3%81%AE%E5%B3%B0%20%E5%AF%8C%E8%89%AF%E9%87%8E",
+      "note": "2026–27 團課 ¥13,000／人、私人課兩人 ¥34,000（兩小時），含租具的套裝 ¥25,000／人；雪況不好可能要另加纜車票",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furano_Snow_Resort_view2.JPG?width=1200",
+        "credit": "wakimasa（Wikimedia Commons）",
+        "license": "Public domain"
+      },
+      "links": [
+        {
+          "type": "blog",
+          "title": "2026–27 課程整理（todolist-japan）",
+          "url": "https://todolist-japan.com/en/furano-ski-guide/"
+        },
+        {
+          "type": "official",
+          "title": "FSS 團課介紹（SamuraiSnow）",
+          "url": "https://www.samuraisnow.com/node/3478366"
+        }
+      ]
+    },
+    {
+      "name": "雪地自駕 三段路",
+      "what": "新千歲→富良野、富良野→美瑛→旭川、旭川→札幌，全程北海道 3 月雪路",
+      "price_for2_twd": 11222,
+      "duration": "3 天共約 470 公里",
+      "booking": "早訂四驅標配的 Nippon 或 Toyota",
+      "season_ok": true,
+      "url": "https://www.nipponrentacar.co.jp/en/car_price/winter.html",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC",
+      "note": "第一天入夜前後過金山峠是最要小心的一段；中午後融雪、傍晚再結冰",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Doto_Expressway-tomamu%2Cshimukappu-village%2Chokkaido%2Cjapan.JPG?width=1200",
+        "credit": "katorisi（Wikimedia Commons）",
+        "license": "CC BY-SA 3.0"
+      },
+      "links": [
+        {
+          "type": "official",
+          "title": "Nippon 冬季費說明",
+          "url": "https://www.nipponrentacar.co.jp/en/car_price/winter.html"
+        },
+        {
+          "type": "official",
+          "title": "北海道官方冬路駕駛",
+          "url": "https://www.pref.hokkaido.lg.jp/ks/cak/kat/safety-drive/winter.html"
+        },
+        {
+          "type": "youtube",
+          "title": "冬の富良野・美瑛ドライブ",
+          "url": "https://www.youtube.com/watch?v=VfP-VwWVsHI"
+        }
+      ]
+    },
+    {
+      "name": "旭山動物園 企鵝散步",
+      "what": "國王企鵝在雪地排隊走 500 公尺，走在遊客面前；3 月每天 11:00 一場（積雪時）",
+      "price_for2_twd": 420,
+      "duration": "約 30 分",
+      "booking": "免預約；10:30 開園後先去佔路旁位子",
+      "season_ok": true,
+      "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/d054855.html",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=%E6%97%AD%E5%B7%9D%E5%B8%82%E6%97%AD%E5%B1%B1%E5%8B%95%E7%89%A9%E5%9C%92",
+      "note": "2027 年實施期間官方還沒公布；2026 年實際到 3/12 為止（園區周邊鳥流感）。出發前一週再看公告",
+      "photo": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walking_King_Penguins_in_Asahiyama_Zoo.JPG?width=1200",
+        "credit": "User:青子守歌（Wikimedia Commons）",
+        "license": "CC BY-SA 3.0"
+      },
+      "links": [
+        {
+          "type": "ig",
+          "title": "@asahiyamazoo1",
+          "url": "https://www.instagram.com/asahiyamazoo1/"
+        },
+        {
+          "type": "official",
+          "title": "官方說明",
+          "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/d054855.html"
+        },
+        {
+          "type": "youtube",
+          "title": "ペンギンの散歩",
+          "url": "https://www.youtube.com/watch?v=ftQq6BEsCII"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "flights_for2": 48642,
+    "stay_for2": 15484,
+    "food_for2": [
+      20500,
+      26000
+    ],
+    "transport_for2": [
+      14600,
+      17500
+    ],
+    "activities_for2": [
+      10500,
+      19740
+    ],
+    "total_for2": [
+      109726,
+      127366
+    ],
+    "note": "匯率 ¥1≈NT$0.21。機票＝星宇 24,321×2（11/6）。住宿＝Natulux 3 晚 11,242＋Sotetsu Fresa 2 晚 4,242（Booking 11/6）；改新富良野王子再多 11,219。吃＝行程上每餐與每晚酒吧約 ¥88,000，再加早餐零食；上限是多喝一輪和多吃一攤。交通＝租車約 ¥47,740、過路費 ¥5,700、油錢約 ¥5,400、停車約 ¥2,000、計程車約 ¥4,000、JR ＋地鐵約 ¥4,500；上限改小休旅。活動＝雪票 ¥18,000＋雪具雪衣 ¥30,000＋動物園 ¥2,000；上限再加手套雪鏡（¥8,000）、兩人私人課（¥34,000）、電視塔。3/13 若改滑雪：雪票再加 ¥18,000、雪具 2 日價多 ¥21,200，約多 ¥39,000，少掉美瑛油錢與停車；未含旅遊保險與伴手禮。"
+  },
+  "weather": {
+    "high_c": 3,
+    "low_c": -8,
+    "conditions": "富良野 3 月平年白天約 3℃、清晨約 -8℃；札幌白天約 4–5℃、清晨約 -2℃，路上還有厚積雪。白天融雪、傍晚再結冰，可能還會下一場大雪。",
+    "sunrise": "05:50（富良野 3/11）",
+    "sunset": "17:30（富良野）／17:38（札幌）",
+    "wear": "防水雪靴或深紋鞋（札幌融雪路最滑）、羽絨外套、發熱衣兩層、毛帽手套、太陽眼鏡（開車防雪盲）。滑雪日雪衣褲可租，手套和雪鏡自備最划算。"
+  },
+  "events": [
+    {
+      "date": "到 3/14",
+      "name": "札幌白色燈節最後幾天",
+      "note": "3/14 為最終日，還亮的會場：札幌站南口廣場、北 3 條廣場、南 1 條通。大通只到 12/25、站前通到 2/11",
+      "url": "https://www.visit-hokkaido.jp/event/detail/143"
+    },
+    {
+      "date": "3/14（例年到 3 月中）",
+      "name": "旭山動物園 企鵝散步",
+      "note": "3 月起每天 11:00 一場，積雪才辦；官方 2027 年尚未公布結束日，2026 年到 3/12 因鳥流感提前停",
+      "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/d054855.html"
+    },
+    {
+      "date": "到 3/21",
+      "name": "富良野夜滑季",
+      "note": "平日 16:00–18:00、週末 16:00–19:30；3/12 週五，3/13 週六",
+      "url": "https://www.princehotels.com/en/ski/furano/index.html"
+    },
+    {
+      "date": "到 4 月中",
+      "name": "美瑛青池冬季點燈",
+      "note": "3 月每天 18:00–21:00，悪天會停；2025–26 版公告，今年期間待確認",
+      "url": "https://www.biei-hokkaido.jp/ja/shirogane-blue-pond/"
+    },
+    {
+      "date": "到 3 月下旬",
+      "name": "Furano Snowland 雪上活動",
+      "note": "富良野區前的香蕉船、雪筏、雪上摩托車；9:00–12:00、13:00–16:00，每天開（預定）",
+      "url": "https://www.princehotels.com/en/ski/furano/index.html"
+    }
+  ],
+  "prep": [
+    {
+      "item": "訂星宇機票 RMQ⇄CTS 3/11–3/16（先看清楚票種的托運行李）",
+      "when": "11/20 前",
+      "url": "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20RMQ%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW"
+    },
+    {
+      "item": "辦駕照日文譯本：監理站臨櫃，NT$100、1 小時",
+      "when": "2 月底前",
+      "url": "https://www.mvdis.gov.tw/"
+    },
+    {
+      "item": "訂租車：ニッポンレンタカー 3/11 16:30 新千歲→3/14 17:15 札幌駅前（標準級、全額補償方案、ETC）",
+      "when": "12 月底前",
+      "url": "https://www.nipponrentacar.co.jp/zh-CHT/car_price/joyo.html"
+    },
+    {
+      "item": "訂住宿：Natulux 3/11–3/14、Sotetsu Fresa Inn 3/14–3/16（選可免費取消）",
+      "when": "12 月底前",
+      "url": "https://www.booking.com/hotel/jp/furano-natulux.zh-tw.html"
+    },
+    {
+      "item": "先網路訂 Sportpia 雪具與雪衣（3/12 全包或雪板＋雪衣）",
+      "when": "2 月底前",
+      "url": "https://www.spfurano.com/en/rentalski.html"
+    },
+    {
+      "item": "打電話訂 Soh's BAR（0167-22-1111，10:00–17:00）與はちきょう 3/15",
+      "when": "出發前 1 週",
+      "url": "https://www.princehotels.co.jp/shinfurano/restaurant/shos_bar/"
+    },
+    {
+      "item": "看旭山動物園官網，確認 3/14 企鵝散步還有沒有辦",
+      "when": "出發前 3 天",
+      "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/event.html"
+    },
+    {
+      "item": "買旅遊平安險（有滑雪傷害的方案）",
+      "when": "出發前 1 週",
+      "url": ""
+    }
+  ],
+  "risks": [
+    "第一天夜路：17:30 就天黑，占冠到富良野約 1 小時在山路；雪大就在占冠休息或改走市區慢慢開。",
+    "企鵝散步要雪夠、沒鳥流感才辦，2026 年 3/12 就停了；沒辦的話動物園還是開，門票一樣。",
+    "買物公園與旭川拉麵停留別超過 15:30，否則過札幌會接到全黑路段。",
+    "第三天美瑛路窄、丘陵路不一定除雪；看到沒除雪的就別進，田裡也不能下去。",
+    "Soh's BAR 是抽菸酒吧，不喜歡菸味就別去，換 TEIRYUJO。",
+    "富良野小店常不定休，酒吧與餐廳當天先看 IG，每晚都有備案。",
+    "機票與飯店都是 11/6 價，3 月快到時可能漲。"
+  ],
+  "sketch": {
+    "days": [
+      {
+        "title": "第一天：飛去開車",
+        "icons": [
+          "plane",
+          "car",
+          "bbq",
+          "beer"
+        ],
+        "caption": "晚上到富良野"
+      },
+      {
+        "title": "第二天：一起滑雪",
+        "icons": [
+          "ski",
+          "snow",
+          "ramen",
+          "beer"
+        ],
+        "caption": "夜滑到六點"
+      },
+      {
+        "title": "第三天：美瑛雪景",
+        "icons": [
+          "waterfall",
+          "camera",
+          "car",
+          "beer"
+        ],
+        "caption": "蝦丼加森林酒吧"
+      },
+      {
+        "title": "第四天：企鵝拉麵",
+        "icons": [
+          "camera",
+          "ramen",
+          "car",
+          "lantern"
+        ],
+        "caption": "旭川開回札幌"
+      },
+      {
+        "title": "第五天：札幌逛街",
+        "icons": [
+          "seafood",
+          "shopping",
+          "ramen",
+          "beer"
+        ],
+        "caption": "鮭魚卵滿出來"
+      },
+      {
+        "title": "第六天：買好回家",
+        "icons": [
+          "coffee",
+          "train",
+          "shopping",
+          "plane"
+        ],
+        "caption": "16:00 飛回台中"
+      }
+    ]
+  },
+  "youtube_refs": [
+    {
+      "title": "一生必去！2024 北海道富良野．美瑛兩天一夜：雪地自駕、白鬚瀑布、冬季青池、精靈露台",
+      "channel": "深日本旅",
+      "url": "https://www.youtube.com/watch?v=C4ZQyeCGKFE",
+      "takeaway": "美瑛順序與路況：先白鬚青池，再回富良野精靈露台"
+    },
+    {
+      "title": "【2025 最新版】富良野・美瑛 冬のドライブ映像",
+      "channel": "4K 風景",
+      "url": "https://www.youtube.com/watch?v=VfP-VwWVsHI",
+      "takeaway": "雪地丘陵路的實際樣子，判斷哪條能開"
+    },
+    {
+      "title": "【保存版】冬の美瑛・富良野 撮影完全攻略ガイド",
+      "channel": "美瑛在住攝影師",
+      "url": "https://www.youtube.com/watch?v=DVE3MFed_tw",
+      "takeaway": "冬天不要進農田；挑白天順光看名樹"
+    },
+    {
+      "title": "新富良野王子飯店開箱＋第一次滑雪就愛上",
+      "channel": "阿雲",
+      "url": "https://www.youtube.com/watch?v=xbGOAI6VCD8",
+      "takeaway": "雪場設施與租具概念；新手選緩坡"
+    },
+    {
+      "title": "旭山動物園で冬恒例「ペンギンの散歩」",
+      "channel": "新聞",
+      "url": "https://www.youtube.com/watch?v=ftQq6BEsCII",
+      "takeaway": "散步路線 500 公尺，路邊近距離"
+    },
+    {
+      "title": "【旭山動物園＆旭川ラーメンツアー】蜂屋＆梅光軒",
+      "channel": "在地旅行",
+      "url": "https://www.youtube.com/watch?v=a7bv4474z4k",
+      "takeaway": "看完動物園接旭川拉麵，兩家都走得到"
+    },
+    {
+      "title": "観光でも楽しめる！札幌に来たら絶対行くべき最高な BAR２選",
+      "channel": "しおんの台所",
+      "url": "https://www.youtube.com/watch?v=R2t2xC3nr1o",
+      "takeaway": "週日照開的 TRICK 排 3/14"
+    },
+    {
+      "title": "最後這碗 GARAKU 湯咖哩太猛直接封神！",
+      "channel": "老豆&豆嫂",
+      "url": "https://www.youtube.com/watch?v=PBrR3fQVOgA",
+      "takeaway": "GARAKU 下午離峰去"
+    }
+  ],
+  "sources": [
+    "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20RMQ%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+    "https://www.google.com/travel/flights?q=Flights%20to%20CTS%20from%20TPE%20on%202027-03-11%20through%202027-03-16%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
+    "https://www.starlux-airlines.com/zh-TW/booking/product/fare-product",
+    "https://www.nipponrentacar.co.jp/en/service/oneway.html",
+    "https://www.nipponrentacar.co.jp/zh-CHT/car_price/joyo.html",
+    "https://www.nipponrentacar.co.jp/en/car_price/winter.html",
+    "https://www.nipponrentacar.co.jp/zh-CHT/irc/fullsupport.html",
+    "https://store.nipponrentacar.co.jp/b/nrs/info/810883/",
+    "https://www.toyotarentacar.net/rental/type/",
+    "https://www.toyotarentacar.net/cms/wp-content/uploads/pdf/f018d0bfb0422210e8459f5a43ac7e85.pdf",
+    "https://www.toyotarentacar.net/rental/option/",
+    "https://www.toyotarentacar.net/shop/detail/sapporoekimae/",
+    "https://car.orix.co.jp/price/price_compact.html",
+    "https://car.orix.co.jp/price/oneway.html",
+    "https://www.nipponrentacar.co.jp/en/nrglobal/expressway/",
+    "https://www.driveplaza.com/dp/SearchQuick?startPlaceKana=%E5%8D%83%E6%AD%B3%E6%9D%B1&arrivePlaceKana=%E5%8D%A0%E5%86%A0&searchHour=10&searchMinute=0&kind=1&carType=1&priority=2",
+    "https://www.driveplaza.com/dp/SearchQuick?startPlaceKana=%E6%97%AD%E5%B7%9D%E9%B7%B9%E6%A0%96&arrivePlaceKana=%E6%9C%AD%E5%B9%8C%E5%8C%97&searchHour=15&searchMinute=0&kind=1&carType=1&priority=2",
+    "https://www.pref.hokkaido.lg.jp/ks/cak/kat/safety-drive/winter.html",
+    "https://www.princehotels.com/en/ski/furano/index.html",
+    "https://www.spfurano.com/en/rentalski.html",
+    "https://www.wamazing.com/snow/resorts/furano",
+    "https://todolist-japan.com/en/furano-ski-guide/",
+    "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/event.html",
+    "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/generalinformation/d052849.html",
+    "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/event/d054855.html",
+    "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/news-blog/osirase/news.html",
+    "https://www.biei-hokkaido.jp/ja/shirogane-blue-pond/",
+    "https://www.princehotels.co.jp/shinfurano/restaurant/shos_bar/",
+    "https://www.princehotels.co.jp/file.jsp?id=525453",
+    "https://www.visit-hokkaido.jp/event/detail/143",
+    "https://www.sapporo.travel/white-illumination/",
+    "https://www.roc-taiwan.org/uploads/sites/54/2026/07/臺灣駕照之日文譯本申請表-橫濱20260721.pdf",
+    "https://gofunit.com/japan-driving-license/",
+    "https://weather.time-j.net/climate/chart/furano",
+    "https://weather.time-j.net/climate/chart/sapporo",
+    "https://www.booking.com/searchresults.zh-tw.html?ss=%E5%AF%8C%E8%89%AF%E9%87%8E&checkin=2027-03-11&checkout=2027-03-14&group_adults=2&no_rooms=1&selected_currency=TWD",
+    "https://www.booking.com/searchresults.zh-tw.html?ss=Sapporo&checkin=2027-03-14&checkout=2027-03-16&group_adults=2&no_rooms=1&selected_currency=TWD",
+    "https://johnny88.jp/ramen-asahikawa",
+    "https://www.trvlogue.com/ja/junpei-biei-restaurant-review",
+    "https://www.furanotourism.com/en/spot/spot_D.php?id=157"
+  ],
+  "checked": "2026-11-06"
+}

@@ -67,7 +67,14 @@ a{color:var(--p)}
 .card.soon .cov{filter:grayscale(.3)}
 .more{background:var(--paper);border:2px dashed var(--line-ink);border-radius:var(--blob);padding:16px 20px;display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;justify-content:space-between}
 .more a{font-weight:700}
-@media (max-width:760px){.hero{grid-template-columns:1fr}.hero svg.art{max-width:240px;order:-1}.filters .sort{margin-left:0}}
+.final{display:grid;grid-template-columns:1.1fr .9fr;background:var(--paper);border:2px solid var(--line-ink);border-radius:var(--blob);box-shadow:var(--shadow);overflow:hidden;text-decoration:none;color:inherit;align-items:center}
+.final img{display:block;width:100%;height:100%;object-fit:cover;min-width:0}
+.final div{padding:18px 22px;display:grid;gap:8px;justify-items:start;min-width:0}
+.final .tag{background:var(--p);color:#FFF;border-radius:var(--pill);padding:2px 12px;font-size:13px}
+.final h2{font-size:24px}
+.final p{margin:0;color:var(--ink-dim)}
+.final b{color:var(--p)}
+@media (max-width:760px){.final{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.hero svg.art{max-width:240px;order:-1}.filters .sort{margin-left:0}}
 @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}}
 </style>
 
@@ -103,6 +110,8 @@ a{color:var(--p)}
       <g class="ln"><rect x="222" y="98" width="24" height="32" rx="4" fill="#FFF"/><path d="M228 98v-6h12v6"/><path d="M222 112h24"/></g>
     </svg>
   </header>
+
+  __FINAL__
 
   <div class="filters" id="filters">
     <button data-f="all" aria-pressed="true">全部</button>

@@ -92,7 +92,7 @@
    "verified": true,
    "source": "https://www.google.com/travel/flights?q=Flights%20to%20YVR%20from%20TPE%20on%202026-12-30%20through%202027-01-05%20nonstop&curr=TWD&hl=zh-TW&gl=TW",
    "checked": "2026-11-01",
-   "basis": "Google 航班 11/1 實查：越接近跨年越貴，只能玩 5 晚。星宇沒有飛溫哥華；台中 RMQ 沒有直飛（研究-初篩-L 10/31 查）。"
+   "basis": "Google 航班 11/1 實查：越接近跨年越貴，只能玩 5 晚。星宇沒有飛溫哥華；台中 RMQ 沒有直飛（10/31 查）。"
   }
  ],
  "getting_around": {
@@ -1870,7 +1870,7 @@
   "https://www.thekeeferbar.com/",
   "https://www.ctvnews.ca/vancouver/article/vancouvers-keefer-bar-named-best-in-canada-among-north-americas-50-best/",
   "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html",
-  "研究-初篩-L.md（10/31）"
+  ".md（10/31）"
  ],
  "checked": "2026-11-01"
 }
